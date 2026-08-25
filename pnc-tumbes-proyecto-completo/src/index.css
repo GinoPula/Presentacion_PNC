@@ -1,0 +1,424 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Manrope", "Inter", system-ui, sans-serif;
+
+  --color-ink: #f5f6f8;
+  --color-ink-dim: #aab1c0;
+  --color-ink-mute: #7c8393;
+
+  --color-surface-0: #070b14;
+  --color-surface-1: #0c1220;
+  --color-surface-2: #121a2c;
+  --color-surface-3: #1a2338;
+
+  --color-brand: #e0293d;
+  --color-brand-dim: #a11c2b;
+  --color-brand-soft: #ff5a6c;
+
+  --color-amber: #f2a900;
+
+  --color-series-1: #2a78d6;
+  --color-series-2: #eb6834;
+  --color-series-3: #1baf7a;
+
+  --color-good: #0ca30c;
+  --color-warn: #fab219;
+  --color-critical: #d03b3b;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface-0);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: white;
+}
+
+/* subtle noise / grid texture used behind hero + section transitions */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* thin scrollbar for horizontally-scrollable tables */
+.scroll-thin::-webkit-scrollbar {
+  height: 8px;
+}
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+}
+
+.card-glow {
+  position: relative;
+  isolation: isolate;
+}
+.card-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Leaflet map — los controles y popups siguen el sistema oscuro del sitio, pero el fondo del
+   propio mapa se deja claro: las teselas de Esri World Topo son un basemap claro (beige/celeste),
+   así que un fondo oscuro solo se nota — y desentona — mientras las teselas cargan o si alguna
+   falla en cargar. */
+.leaflet-dark-theme {
+  background: #e9edf1;
+}
+.leaflet-dark-theme .leaflet-control-zoom a {
+  background: #121a2c;
+  color: #f5f6f8;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.leaflet-dark-theme .leaflet-control-zoom a:hover {
+  background: #1a2338;
+}
+.leaflet-dark-theme .leaflet-bar {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+.leaflet-dark-theme .leaflet-control-attribution {
+  background: rgba(7, 11, 20, 0.72);
+  color: #7c8393;
+  border-radius: 6px 0 0 0;
+  padding: 1px 8px;
+}
+.leaflet-dark-theme .leaflet-control-attribution a {
+  color: #aab1c0;
+}
+.leaflet-dark-theme .leaflet-popup-content-wrapper {
+  background: #121a2c;
+  color: #f5f6f8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+.leaflet-dark-theme .leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+.leaflet-dark-theme .leaflet-popup-tip {
+  background: #121a2c;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+.leaflet-dark-theme .leaflet-popup-close-button {
+  color: #7c8393 !important;
+  padding: 8px 8px 0 0 !important;
+}
+.leaflet-dark-theme .leaflet-popup-close-button:hover {
+  color: #f5f6f8 !important;
+}
+
+.mapa-popup {
+  font-family: "Inter", sans-serif;
+  font-size: 0.76rem;
+  min-width: 220px;
+  max-width: 260px;
+}
+.mapa-popup-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #aab1c0;
+}
+.mapa-popup-body {
+  padding: 12px 14px 14px;
+}
+.mapa-popup-tipo {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ff5a6c;
+  margin-bottom: 4px;
+}
+.mapa-popup-desc {
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: #f5f6f8;
+  margin: 0 0 10px;
+}
+.mapa-popup-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 3px 0;
+  color: #aab1c0;
+}
+.mapa-popup-row b {
+  color: #f5f6f8;
+  font-weight: 600;
+  text-align: right;
+}
+.mapa-popup-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #ff5a6c;
+  text-decoration: none;
+}
+.mapa-popup-link:hover {
+  text-decoration: underline;
+}
+
+/* Panel de filtro del mapa — replica el estilo claro del proyecto ReporteRiesgos
+   (filtro territorial como columna al lado del mapa, en vez de overlay oscuro). */
+.mapfp-panel {
+  width: 100%;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid #dde1e7;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  color: #181b20;
+}
+@media (min-width: 1024px) {
+  .mapfp-panel {
+    width: 208px;
+  }
+}
+
+.mapfp-title {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #181b20;
+  margin-bottom: 3px;
+}
+.mapfp-sub {
+  font-family: "Inter", sans-serif;
+  font-size: 0.68rem;
+  color: #565d68;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.mapfp-lbl {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  color: #565d68;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.mapfp-select {
+  width: 100%;
+  background: #f7f8fa;
+  border: 1.5px solid #dde1e7;
+  color: #181b20;
+  border-radius: 8px;
+  padding: 7px 28px 7px 10px;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23565D68' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  margin-bottom: 8px;
+  transition: border-color 0.15s;
+}
+.mapfp-select:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.mapfp-select:focus {
+  outline: none;
+  border-color: #b4141f;
+}
+
+.mapfp-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 2px 0;
+}
+.mapfp-btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1.5px solid #dde1e7;
+  background: #f7f8fa;
+  color: #565d68;
+  font-family: "Inter", sans-serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+}
+.mapfp-btn:hover {
+  background: #eef1f5;
+  border-color: #c3cad6;
+}
+.mapfp-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.mapfp-btn.primary {
+  background: #2b2e33;
+  border-color: #2b2e33;
+  color: #fff;
+}
+.mapfp-btn.primary:hover {
+  background: #1d2024;
+}
+
+.mapfp-divider {
+  height: 1px;
+  background: #dde1e7;
+  margin: 10px 0;
+}
+.mapfp-mini-lbl {
+  font-family: "Inter", sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a94a3;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.mapfp-mini-lbl--tight {
+  margin-top: 10px;
+}
+
+.mapfp-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 9px;
+  border-radius: 8px;
+  border: 1.5px solid #dde1e7;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: #fff;
+  color: #181b20;
+  text-align: left;
+  line-height: 1.25;
+  transition: all 0.15s;
+}
+.mapfp-toggle.ejecutada.on {
+  border-color: #16a34a;
+  background: #eefbf1;
+}
+.mapfp-toggle.enejecucion.on {
+  border-color: #f2a900;
+  background: #fef8e8;
+}
+.mapfp-sw {
+  width: 32px;
+  height: 18px;
+  border-radius: 20px;
+  background: #d9dde3;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+.mapfp-sw::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transition: left 0.15s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.mapfp-toggle.on .mapfp-sw::after {
+  left: 16px;
+}
+.mapfp-toggle.ejecutada.on .mapfp-sw {
+  background: #16a34a;
+}
+.mapfp-toggle.enejecucion.on .mapfp-sw {
+  background: #f2a900;
+}
+
+.mapfp-mini-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  color: #565d68;
+  padding: 3px 0;
+}
+.mapfp-mini-row b {
+  color: #181b20;
+  font-weight: 700;
+}
+
+.mapfp-center {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.mapfp-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  margin-top: 12px;
+  color: #7c8393;
+  align-items: center;
+}
+.mapfp-ld {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
