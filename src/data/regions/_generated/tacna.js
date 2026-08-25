@@ -9,9 +9,9 @@ export default {
   ejecutadasTotal: { cantidad: 28, m3: 116473.2, km: 19.79, poblacion: 30636 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 60, poblacion: 550 },
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 140, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'La Yarada Los Palos', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA', inicio: '17/08/2026', fin: '29/08/2026', volAcum: 3050, poblacion: 700 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 155.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'La Yarada Los Palos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                   ', inicio: '17/08/2026', fin: '29/08/2026', volAcum: 3050.0, poblacion: 700 },
+    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 90.0, poblacion: 550 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -33,22 +33,21 @@ export default {
   ],
 
   flota: [
-    { tipo: 'Camión cisterna de agua', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGM-996', 'EGN-975', 'EGO-007'], estado: 'operativo' },
+    { tipo: 'Camión cisterna de agua', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGO-007', 'EGM-996', 'EGN-975'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-945'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-008'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00222'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85422'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810311'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10893'], estado: 'inoperativo' },
-    { tipo: 'Mini cargador', cantidad: 2, marca: 'John Deere', codigos: ['282134', 'G275475'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['85422', 'A10893'], estado: 'inoperativo' },
+    { tipo: 'Mini cargador', cantidad: 2, marca: 'John Deere', codigos: ['G275475', '282134'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03377'], estado: 'operativo' },
-    { tipo: 'Plataforma', cantidad: 3, marca: 'ACS', codigos: ['EGR-070', 'EGR-071', 'EGR-072'], estado: 'operativo' },
+    { tipo: 'Plataforma', cantidad: 3, marca: 'ACS', codigos: ['EGR-071', 'EGR-072', 'EGR-070'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-058'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-105'], estado: 'operativo' },
     { tipo: 'Rodillo compactador', cantidad: 1, marca: 'Hamm', codigos: ['H1762420'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81435'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-783', 'EGM-987'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGV-789', 'EGV-816', 'EGV-834'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGV-834', 'EGV-816', 'EGV-789'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-987', 'EGM-783'], estado: 'operativo' },
   ],
   flotaTotal: 24,
 }

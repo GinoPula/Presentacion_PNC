@@ -9,8 +9,8 @@ export default {
   ejecutadasTotal: { cantidad: 43, m3: 115104.1, km: 18.02, poblacion: 43645 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES', inicio: '30/07/2026', fin: '28/08/2026', volAcum: 585, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 405, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '30/07/2026', fin: '28/08/2026', volAcum: 585.0, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 405.0, poblacion: 1356 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,22 +28,22 @@ export default {
 
   conveniosCount: 2,
   conveniosVigentes: [
-    { entidad: 'GORE Tumbes', detail: 'hasta 03.07.2027' },
-    { entidad: 'Distrito La Cruz', detail: 'hasta 19.05.2027' },
+    { entidad: 'Gobierno Regional', detail: 'hasta 03/07/2027' },
+    { entidad: 'Municipalidad Distrital La Cruz', detail: 'hasta 19/05/2027' },
   ],
 
   flota: [
-    { tipo: 'Camión cisterna de agua', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGM-976', 'EGN-007'], estado: 'operativo' },
+    { tipo: 'Camión cisterna de agua', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGN-007', 'EGM-976'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-002'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-052'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'John Deere', codigos: ['D001608', 'D001613'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10094', 'TJT10112'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10112', 'TJT10094'], estado: 'operativo' },
     { tipo: 'Mini cargador', cantidad: 2, marca: 'John Deere', codigos: ['G282145', 'G282149'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGW-173'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Volvo', codigos: ['EAJ-355'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['285283'], estado: 'inoperativo', nota: 'HT N° 134741-2026' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Caterpillar', codigos: ['AE800571'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 8, marca: 'Mercedes Benz', codigos: ['EAJ-392', 'EAJ-394', 'EAJ-395', 'EGV-779', 'EGV-799', 'EGV-820', 'EGV-838', 'EGV-839'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 8, marca: 'Mercedes Benz', codigos: ['EAJ-392', 'EGV-799', 'EGV-820', 'EGV-779', 'EGV-839', 'EAJ-394', 'EAJ-395', 'EGV-838'], estado: 'operativo' },
   ],
   flotaTotal: 22,
 }

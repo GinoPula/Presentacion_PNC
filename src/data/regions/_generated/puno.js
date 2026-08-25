@@ -3,13 +3,13 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031 },
-    { tipo: 'Prevención', cantidad: 14, m3: 129380.69, km: 32.78, poblacion: 7673 },
+    { tipo: 'Prevención', cantidad: 14, m3: 129380.69, km: 32.78, poblacion: 7823 },
     { tipo: 'Urgente atención', cantidad: 9, m3: 35983.78, km: 109.39, poblacion: 21085 },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 284353.42, km: 158.61, poblacion: 46789 },
+  ejecutadasTotal: { cantidad: 36, m3: 284353.42, km: 158.61, poblacion: 46939 },
 
   enEjecucion: [
-    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 7156.74, poblacion: 1000 },
+    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 5368.45, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,27 +34,27 @@ export default {
   ],
   programadasTotal: { cantidad: 21, metaVol: 471356.6, metaKm: 49.08, poblacion: 8135 },
 
-  conveniosCount: 27,
+  conveniosCount: 31,
   conveniosVigentes: [
-    { entidad: 'GORE Puno', detail: 'hasta 02.03.2027' },
-    { entidad: 'Distritos', detail: '21 convenios vigentes' },
-    { entidad: 'Provincias', detail: '05 convenios vigentes' },
+    { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
+    { entidad: 'Municipalidad Provincial', detail: '6 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '24 convenios vigentes' },
   ],
 
   flota: [
     { tipo: 'Camión de auxilio mecánico', cantidad: 1, marca: 'Hino', codigos: ['EAK-025'], estado: 'operativo' },
-    { tipo: 'Camión grúa', cantidad: 1, marca: 'Iveco', codigos: ['EGQ-983'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGO-047'], estado: 'operativo' },
+    { tipo: 'Camión grúa', cantidad: 1, marca: 'Iveco', codigos: ['EGQ-983'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'Caterpillar', codigos: ['JLX00269', 'JLX00274'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 4, marca: 'Komatsu', codigos: ['85514', 'A10885', 'A10890', 'A10911'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 4, marca: 'Komatsu', codigos: ['A10911', 'A10885', 'A10890', '85514'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03375'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGM-972'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGO-032'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286485'], estado: 'operativo' },
     { tipo: 'Rodillo compactador', cantidad: 1, marca: 'Hamm', codigos: ['H1762473'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81377'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 4, marca: 'Scania', codigos: ['EGM-791', 'EGM-817', 'EGM-881', 'EGM-926'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 4, marca: 'Mercedes Benz', codigos: ['EGV-781', 'EGV-793', 'EGV-805', 'EGV-828'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 4, marca: 'Mercedes Benz', codigos: ['EGV-793', 'EGV-781', 'EGV-828', 'EGV-805'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 4, marca: 'Scania', codigos: ['EGM-926', 'EGM-881', 'EGM-817', 'EGM-791'], estado: 'operativo' },
   ],
   flotaTotal: 23,
 }

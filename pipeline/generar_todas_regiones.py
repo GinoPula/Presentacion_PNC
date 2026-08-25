@@ -115,13 +115,14 @@ except ImportError:
 # usa src/data/regions/index.js.
 # ---------------------------------------------------------------------------
 DEPARTAMENTOS = {
-    "tumbes":     "TUMBES",
-    "puno":       "PUNO",
-    "tacna":      "TACNA",
-    "piura":      "PIURA",
-    "ancash":     "ANCASH",
-    "lambayeque": "LAMBAYEQUE",
-    "ica":        "ICA",
+    "tumbes":      "TUMBES",
+    "puno":        "PUNO",
+    "tacna":       "TACNA",
+    "piura":       "PIURA",
+    "ancash":      "ANCASH",
+    "lambayeque":  "LAMBAYEQUE",
+    "ica":         "ICA",
+    "la-libertad": "LA LIBERTAD",
 }
 
 # Umbral: con más de este número de convenios vigentes, se agrupan por nivel
