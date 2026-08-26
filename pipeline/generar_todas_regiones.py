@@ -15,6 +15,18 @@ contenido curado a mano: src/data/regions/<slug>.js (meta, puntosCriticos,
 escenarios, capacidad, personalUBO, galeria, fuentes) queda intacto -- esos
 archivos solo hacen `import datosBD from './_generated/<slug>'` y `...datosBD,`.
 
+Además (agregado 25/08/2026): actualiza los PUNTOS del mapa de intervenciones
+en <repo>/src/data/mapaIntervenciones.js -- confirmado que pnc.tb_em_intervencion
+tiene columnas lat/long/sector/ficha_tec/enlace_info_cierre directamente, así que
+esto también sale de la base y ya no depende del Excel "Reporte de intervenciones"
+que exportaba el MAIN. Solo toca el bloque de la región que se está regenerando
+(busca su clave y reemplaza SOLO su arreglo de puntos; si la región es nueva,
+agrega una clave nueva) -- las demás regiones del archivo quedan intactas.
+Lo único que este script NO puede generar por sí solo es el CONTORNO geográfico
+de una región nueva (mapaLimites.js, viene de una fuente pública de mapas, no de
+Producción) -- eso se agrega a mano una sola vez, la primera vez que aparece esa
+región (ver el LEEME de automatización).
+
 Uso típico (en tu laptop, conectado a la VPN de VIVIENDA):
 
     python generar_todas_regiones.py --repo "C:\\ruta\\a\\pnc-tumbes"
@@ -344,6 +356,29 @@ def consultar_departamento(cur, departamento, periodo):
     """, (departamento,))
     resultado["_flota_cruda"] = cur.fetchall()
 
+    # ---------- 6) PUNTOS DEL MAPA (ejecutadas + en ejecución, con coordenadas) ----------
+    # Confirmado 25/08/2026: pnc.tb_em_intervencion tiene lat/long/sector/ficha_tec/
+    # enlace_info_cierre directamente -- ya no depende del Excel del MAIN.
+    cur.execute("""
+        SELECT inte.id_intervencion, inte.lat, inte.long, inte.estado, inte.tipo,
+               inte.provincia, inte.distrito, inte.sector, inte.descripcion,
+               inte.ficha_tec,
+               TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
+               TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
+               inte.pob_beneficiada,
+               COALESCE(
+                   (SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
+                   inte.meta_vol, 0
+               ) AS volumen,
+               inte.enlace_info_cierre
+        FROM pnc.tb_em_intervencion inte
+        WHERE upper(inte.departamento) = %s AND inte.periodo = %s
+          AND inte.estado IN ('EJECUTADA', 'EN EJECUCIÓN')
+          AND inte.lat IS NOT NULL AND inte.long IS NOT NULL
+        ORDER BY inte.fecha_inicio;
+    """, (departamento, periodo))
+    resultado["_puntos_mapa_crudo"] = cur.fetchall()
+
     return resultado
 
 
@@ -518,7 +553,36 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
         r["flota"] = flota
         r["flotaTotal"] = flota_total
 
+    if "_puntos_mapa_crudo" in r:
+        r["puntosMapa"] = formatear_puntos_mapa(r.pop("_puntos_mapa_crudo"))
+
     return r
+
+
+def formatear_puntos_mapa(puntos_crudo):
+    """Convierte las filas crudas de la sección 6) de consultar_departamento()
+    (ejecutadas/en ejecución con lat/long) a la misma forma que ya usan los
+    puntos cargados a mano en mapaIntervenciones.js."""
+    puntos = []
+    for p in puntos_crudo:
+        puntos.append({
+            "id": entero(p["id_intervencion"]),
+            "lat": round(num(p["lat"]), 6),
+            "lng": round(num(p["long"]), 6),
+            "estado": (p["estado"] or "").strip().capitalize(),
+            "tipo": (p["tipo"] or "").strip().capitalize(),
+            "provincia": titulo(p["provincia"]),
+            "distrito": titulo(p["distrito"]),
+            "sector": titulo(p["sector"]),
+            "descripcion": p["descripcion"] or "",
+            "ficha": p["ficha_tec"] or "",
+            "fechaInicio": p["fecha_inicio"] or "",
+            "fechaFin": p["fecha_fin"] or "",
+            "poblacion": entero(p["pob_beneficiada"]) if p["pob_beneficiada"] is not None else None,
+            "volumen": num(p["volumen"]),
+            "enlace": p["enlace_info_cierre"] if p["enlace_info_cierre"] else None,
+        })
+    return puntos
 
 
 # ---------------------------------------------------------------------------
@@ -601,6 +665,112 @@ def emitir_js(r):
 
 
 # ---------------------------------------------------------------------------
+# 3b) EMISIÓN DE PUNTOS DEL MAPA: mapaIntervenciones.js usa un estilo distinto
+#     (comillas dobles, un bloque multilínea por punto) al de los _generated/
+#     *.js -- por eso van funciones de emisión aparte, calcadas del formato
+#     real del archivo (confirmado con `sed`/`tail` antes de escribir esto).
+# ---------------------------------------------------------------------------
+def jstr(v):
+    """String con comillas dobles al estilo mapaIntervenciones.js."""
+    s = str(v).replace("\\", "\\\\").replace('"', '\\"').replace("\r", "").replace("\n", " ")
+    return f'"{s}"'
+
+
+def jcoord(v):
+    """Número con hasta 6 decimales sin ceros de más (-3.5479, -75.202, 5928)."""
+    v = round(float(v), 6)
+    s = f"{v:.6f}".rstrip("0").rstrip(".")
+    return s if s not in ("", "-") else "0"
+
+
+def punto_mapa_js(p):
+    """Un punto, en el formato exacto (4 espacios de indentación por campo,
+    sin coma después del último) que ya usan los puntos existentes."""
+    poblacion = str(entero(p["poblacion"])) if p["poblacion"] is not None else "null"
+    enlace = jstr(p["enlace"]) if p["enlace"] else "null"
+    campos = [
+        f'"id": {entero(p["id"])}',
+        f'"lat": {jcoord(p["lat"])}',
+        f'"lng": {jcoord(p["lng"])}',
+        f'"estado": {jstr(p["estado"])}',
+        f'"tipo": {jstr(p["tipo"])}',
+        f'"provincia": {jstr(p["provincia"])}',
+        f'"distrito": {jstr(p["distrito"])}',
+        f'"sector": {jstr(p["sector"])}',
+        f'"descripcion": {jstr(p["descripcion"])}',
+        f'"ficha": {jstr(p["ficha"])}',
+        f'"fechaInicio": {jstr(p["fechaInicio"])}',
+        f'"fechaFin": {jstr(p["fechaFin"])}',
+        f'"poblacion": {poblacion}',
+        f'"volumen": {jcoord(p["volumen"])}',
+        f'"enlace": {enlace}',
+    ]
+    cuerpo = ",\n".join(f"    {c}" for c in campos)
+    return "  {\n" + cuerpo + "\n  }"
+
+
+def puntos_mapa_array_js(puntos):
+    if not puntos:
+        return "[\n]"
+    bloques = ",\n".join(punto_mapa_js(p) for p in puntos)
+    return "[\n" + bloques + "\n]"
+
+
+def actualizar_mapa_intervenciones(ruta, region_key, puntos):
+    """Reemplaza (o agrega, si la región es nueva) el bloque
+    '<region_key>: [ ... ],' dentro de mapaIntervenciones.js sin tocar el
+    resto del archivo (comentarios de cabecera, otras regiones, etc.).
+    Devuelve 'actualizado' o 'agregado' para el mensaje en pantalla."""
+    with open(ruta, "r", encoding="utf-8") as f:
+        texto = f.read()
+
+    clave_regex = re.compile(r'(?m)^\s*["\']?' + re.escape(region_key) + r'["\']?\s*:\s*\[')
+    m = clave_regex.search(texto)
+
+    array_nuevo = puntos_mapa_array_js(puntos)
+    clave_txt = region_key if region_key.isidentifier() else f'"{region_key}"'
+
+    if m:
+        # Ya existe la clave -- ubicar el '[' de apertura y su ']' de cierre
+        # correspondiente contando profundidad de corchetes, y reemplazar
+        # solo ese tramo (se preserva la ',' y todo lo que sigue).
+        inicio_array = m.end() - 1  # índice del '[' de apertura
+        profundidad = 0
+        i = inicio_array
+        while i < len(texto):
+            if texto[i] == "[":
+                profundidad += 1
+            elif texto[i] == "]":
+                profundidad -= 1
+                if profundidad == 0:
+                    break
+            i += 1
+        if profundidad != 0:
+            raise RuntimeError(f"No se pudo encontrar el ']' de cierre para '{region_key}' en {ruta}.")
+        fin_array = i  # índice del ']' de cierre
+        nuevo_texto = texto[:inicio_array] + array_nuevo + texto[fin_array + 1:]
+        cambio = "actualizado"
+    else:
+        # Región nueva -- insertar una clave nueva justo antes del '}' final
+        # del objeto (localizado por su cercanía con "export default ...").
+        insercion_regex = re.compile(r"\}\s*\n\s*export default mapaIntervenciones")
+        im = insercion_regex.search(texto)
+        if not im:
+            raise RuntimeError(
+                f"No se pudo encontrar el cierre de mapaIntervenciones en {ruta} -- revísalo a mano."
+            )
+        pos_cierre = im.start()  # índice del '}' final del objeto
+        bloque_nuevo = f"  {clave_txt}: {array_nuevo},\n"
+        nuevo_texto = texto[:pos_cierre] + bloque_nuevo + texto[pos_cierre:]
+        cambio = "agregado"
+
+    with open(ruta, "w", encoding="utf-8") as f:
+        f.write(nuevo_texto)
+
+    return cambio
+
+
+# ---------------------------------------------------------------------------
 # 4) MAIN
 # ---------------------------------------------------------------------------
 def correr_git(repo, args_git):
@@ -629,6 +799,12 @@ def main():
     if not os.path.isdir(destino):
         print(f"No existe {destino} -- ¿--repo apunta a la carpeta correcta del proyecto?")
         sys.exit(1)
+
+    ruta_mapa = os.path.join(repo, "src", "data", "mapaIntervenciones.js")
+    if not os.path.isfile(ruta_mapa):
+        print(f"[!] No se encontró {ruta_mapa} -- se generarán los datos igual, pero no se podrá "
+              f"actualizar el mapa de intervenciones.")
+        ruta_mapa = None
 
     slugs = list(DEPARTAMENTOS.keys())
     if args.regiones:
@@ -672,8 +848,16 @@ def main():
         print(f"  OK -- {ruta_destino}")
         print(f"  ejecutadas={formateado['ejecutadasTotal']['cantidad']}  "
               f"programadas={formateado['programadasTotal']['cantidad']}  "
-              f"convenios={formateado['conveniosCount']}  flota={formateado['flotaTotal']}\n")
+              f"convenios={formateado['conveniosCount']}  flota={formateado['flotaTotal']}")
         archivos_escritos.append(ruta_destino)
+
+        puntos_mapa = formateado.get("puntosMapa", [])
+        if ruta_mapa:
+            cambio = actualizar_mapa_intervenciones(ruta_mapa, slug, puntos_mapa)
+            print(f"  OK -- mapaIntervenciones.js ({cambio}, {len(puntos_mapa)} punto(s) con coordenadas)")
+            if ruta_mapa not in archivos_escritos:
+                archivos_escritos.append(ruta_mapa)
+        print()
 
     cur.close()
     conn.close()
