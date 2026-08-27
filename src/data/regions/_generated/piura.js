@@ -9,7 +9,7 @@ export default {
   ejecutadasTotal: { cantidad: 52, m3: 290434.51, km: 102.52, poblacion: 152411 },
 
   enEjecucion: [
-    { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA ', inicio: '06/08/2026', fin: '25/08/2026', volAcum: 4200.0, poblacion: 110 },
+    { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA  ', inicio: '06/08/2026', fin: '30/08/2026', volAcum: 4200.0, poblacion: 110 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: '"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA"', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 2000.0, poblacion: 372 },
   ],
 

@@ -34,11 +34,11 @@ export default {
   ],
   programadasTotal: { cantidad: 21, metaVol: 471356.6, metaKm: 49.08, poblacion: 8135 },
 
-  conveniosCount: 31,
+  conveniosCount: 30,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '6 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '24 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '23 convenios vigentes' },
   ],
 
   flota: [

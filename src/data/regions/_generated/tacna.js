@@ -9,9 +9,9 @@ export default {
   ejecutadasTotal: { cantidad: 28, m3: 116473.2, km: 19.79, poblacion: 30636 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 155.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'La Yarada Los Palos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                   ', inicio: '17/08/2026', fin: '29/08/2026', volAcum: 3050.0, poblacion: 700 },
-    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 90.0, poblacion: 550 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 170.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'La Yarada Los Palos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                   ', inicio: '17/08/2026', fin: '29/08/2026', volAcum: 4000.0, poblacion: 700 },
+    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 105.0, poblacion: 550 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -19,12 +19,12 @@ export default {
     { provincia: 'Jorge Basadre', distrito: 'Locumba', cantidad: 1, metaVol: 6000.0, metaKm: 0.4, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Calana', cantidad: 2, metaVol: 13640.0, metaKm: 0.8, poblacion: 10350 },
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 2, metaVol: 18000.0, metaKm: 0.6, poblacion: 1200 },
-    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 17000.0, metaKm: 0.5, poblacion: 3062 },
+    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 17175.0, metaKm: 0.5, poblacion: 11000 },
     { provincia: 'Tacna', distrito: 'Palca', cantidad: 2, metaVol: 8000.0, metaKm: 1.6, poblacion: 176 },
     { provincia: 'Tacna', distrito: 'Sama', cantidad: 2, metaVol: 10000.0, metaKm: 10.4, poblacion: 1050 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 76960.0, metaKm: 14.5, poblacion: 17038 },
+  programadasTotal: { cantidad: 12, metaVol: 77135.0, metaKm: 14.5, poblacion: 24976 },
 
   conveniosCount: 2,
   conveniosVigentes: [

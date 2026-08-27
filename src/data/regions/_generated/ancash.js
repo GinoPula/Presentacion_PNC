@@ -3,14 +3,13 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060 },
-    { tipo: 'Prevención', cantidad: 41, m3: 136690.0, km: 15.55, poblacion: 43117 },
+    { tipo: 'Prevención', cantidad: 43, m3: 143297.0, km: 16.46, poblacion: 45787 },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595 },
   ],
-  ejecutadasTotal: { cantidad: 53, m3: 155888.0, km: 22.71, poblacion: 65772 },
+  ejecutadasTotal: { cantidad: 55, m3: 162495.0, km: 23.61, poblacion: 68442 },
 
   enEjecucion: [
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO I, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH   ', inicio: '13/08/2026', fin: '24/08/2026', volAcum: 3676.0, poblacion: 2516 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN AMBAS MARGENES DEL RÍO SANTA, SECTOR SAN PEDRO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '21/08/2026', fin: '03/09/2026', volAcum: 2760.0, poblacion: 154 },
+    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH  ', inicio: '26/08/2026', fin: '31/08/2026', volAcum: 252.0, poblacion: 2516 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -26,10 +25,9 @@ export default {
     { provincia: 'Recuay', distrito: 'Ticapampa', cantidad: 1, metaVol: 597.55, metaKm: 0.17, poblacion: 50 },
     { provincia: 'Santa', distrito: 'Samanco', cantidad: 1, metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Santa', distrito: 'Santa', cantidad: 1, metaVol: 4725.0, metaKm: 0.15, poblacion: 300 },
-    { provincia: 'Yungay', distrito: 'Shupluy', cantidad: 1, metaVol: 2268.0, metaKm: 0.36, poblacion: 2516 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 27, metaVol: 156960.85, metaKm: 14.68, poblacion: 14461 },
+  programadasTotal: { cantidad: 26, metaVol: 154692.85, metaKm: 14.32, poblacion: 11945 },
 
   conveniosCount: 5,
   conveniosVigentes: [

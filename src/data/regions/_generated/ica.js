@@ -9,22 +9,22 @@ export default {
   ejecutadasTotal: { cantidad: 22, m3: 120758.58, km: 5.36, poblacion: 31700 },
 
   enEjecucion: [
-    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 30.0, poblacion: 750 },
+    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 60.0, poblacion: 750 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 600.0, poblacion: 1800 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 1, metaVol: 7029.0, metaKm: 0.11, poblacion: 1800 },
     { provincia: 'Nasca', distrito: 'Nasca', cantidad: 5, metaVol: 40610.0, metaKm: 1.55, poblacion: 5140 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', cantidad: 3, metaVol: 27852.0, metaKm: 0.98, poblacion: 870 },
     { provincia: 'Palpa', distrito: 'Llipata', cantidad: 1, metaVol: 13300.0, metaKm: 0.38, poblacion: 90 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 93067.0, metaKm: 4.19, poblacion: 9040 },
+  programadasTotal: { cantidad: 11, metaVol: 86038.0, metaKm: 4.08, poblacion: 7240 },
 
   conveniosCount: 6,
   conveniosVigentes: [
-    { entidad: 'Gobierno Regional', detail: 'hasta 26/09/2026' },
+    { entidad: 'Gobierno Regional', detail: 'vence 26/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Nasca', detail: 'hasta 27/09/2026' },
     { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
