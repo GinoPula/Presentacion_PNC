@@ -28,19 +28,19 @@ export default {
   puntosCriticos: [
     {
       provincia: 'Tumbes',
-      distrito: 'Corrales',
-      sector: 'Malval',
-      fichaTecnica: 'FTR-MC-PREV N° 0665-2025-ANA-AAA.JZ-ALA.T',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Bolívar.',
-      metaKm: 0.45,
-    },
-    {
-      provincia: 'Tumbes',
       distrito: 'San Jacinto',
       sector: 'Vista Hermosa',
       fichaTecnica: 'FTR-CB-PREV N° 0169-2025-ANA-AAA.JZ-ALA.T',
       descripcion: 'Limpieza, descolmatación y conformación de dique enrocado en la margen derecha e izquierda de la quebrada Rica Playa.',
       metaKm: 0.6,
+    },
+    {
+      provincia: 'Tumbes',
+      distrito: 'Corrales',
+      sector: 'Malval',
+      fichaTecnica: 'FTR-MC-PREV N° 0665-2025-ANA-AAA.JZ-ALA.T',
+      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Bolívar.',
+      metaKm: 0.45,
     },
   ],
 

@@ -48,14 +48,6 @@ export default {
       metaKm: 3.1,
     },
     {
-      provincia: 'Huaraz',
-      distrito: 'Huaraz',
-      sector: 'Río Seco',
-      fichaTecnica: 'FTR-MC-PREV N° 0717-2025-ANA-AAA.HCH-ALA.HZ',
-      descripcion: 'Limpieza y descolmatación para el mantenimiento del cauce de la quebrada Río Seco.',
-      metaKm: 2.12,
-    },
-    {
       provincia: 'Carlos Fermín Fitzcarrald',
       distrito: 'San Luis',
       sector: 'Chacapata',

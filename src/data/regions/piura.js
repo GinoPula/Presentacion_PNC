@@ -26,14 +26,14 @@ export default {
   ...datosBD,
 
   puntosCriticos: [
-    { provincia: 'Huancabamba', distrito: 'Canchaque', fichaTecnica: 'FTR-MC-PREV N° 0645-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Chorro Blanco.', metaKm: 0.25 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', fichaTecnica: 'FTR-MC-PREV N° 0646-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Shuturumbe (Qda. La Ramada).', metaKm: 1.0 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', fichaTecnica: 'FTR-MC-PREV N° 0647-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Singocate.', metaKm: 1.8 },
-    { provincia: 'Huancabamba', distrito: 'Huarmaca', fichaTecnica: 'FTR-MC-PREV N° 0661-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Cementerio.', metaKm: 1.22 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', fichaTecnica: 'FTR-CB-PREV N° 0819-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas márgenes de la quebrada Limón.', metaKm: 2.34 },
-    { provincia: 'Huancabamba', distrito: 'Huarmaca', fichaTecnica: 'FTR-CB-PREV N° 0983-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas márgenes de la quebrada El Progreso.', metaKm: 1.2 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', fichaTecnica: 'FTR-MC-PREV N° 0167-2026-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Los Potreros.', metaKm: 0.45 },
-    { provincia: 'Huancabamba', distrito: 'San Miguel Del Faique', fichaTecnica: 'FTR-MC-PREV N° 0168-2026-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada San Antonio.', metaKm: 0.44 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', sector: 'Coyona', fichaTecnica: 'FTR-MC-PREV N° 0647-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Singocate.', metaKm: 1.8 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', sector: 'Canchaque, Mishahuaca', fichaTecnica: 'FTR-CB-PREV N° 0819-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas márgenes de la quebrada Limón.', metaKm: 2.34 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', sector: 'Potreros', fichaTecnica: 'FTR-MC-PREV N° 0167-2026-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Los Potreros.', metaKm: 0.45 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', sector: 'Shuturumbe', fichaTecnica: 'FTR-MC-PREV N° 0646-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Shuturumbe (Qda. La Ramada).', metaKm: 1.0 },
+    { provincia: 'Huancabamba', distrito: 'Huarmaca', sector: 'El Progreso', fichaTecnica: 'FTR-CB-PREV N° 0983-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas márgenes de la quebrada El Progreso.', metaKm: 1.2 },
+    { provincia: 'Huancabamba', distrito: 'San Miguel del Faique', sector: 'San Cristóbal', fichaTecnica: 'FTR-MC-PREV N° 0168-2026-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada San Antonio.', metaKm: 0.44 },
+    { provincia: 'Huancabamba', distrito: 'Huarmaca', sector: 'Hualcas', fichaTecnica: 'FTR-MC-PREV N° 0661-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Cementerio.', metaKm: 1.22 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', sector: 'Cashupampa', fichaTecnica: 'FTR-MC-PREV N° 0645-2025-ANA-AAA.JZ-ALA.APH', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Chorro Blanco.', metaKm: 0.25 },
   ],
 
   escenarios: [

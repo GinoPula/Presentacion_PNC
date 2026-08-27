@@ -49,14 +49,9 @@ export default {
   ...datosBD,
 
   puntosCriticos: [
-    { provincia: 'Chiclayo', distrito: 'Oyotun', sector: 'Chumbenique 1', fichaTecnica: 'FTR-CB-PREV N° 0061-2026-ANA-AAA.JZ-ALA.Z', descripcion: 'Limpieza, descolmatación y construción de dique con enrocado en la margen derecha del río Zaña', metaKm: 1.6 },
-    { provincia: 'Ferreñafe', distrito: 'Pitipo', sector: 'Manchuria', fichaTecnica: 'FTR-MC-PREV N° 0290-2026-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río La Leche', metaKm: 3.0 },
-    { provincia: 'Chiclayo', distrito: 'Monsefu', sector: 'Cc. San Pedro', fichaTecnica: 'FTR-CB-PREV N° 0083-2026-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado, en ambas margenes del río Reque', metaKm: 3.45 },
-    { provincia: 'Lambayeque', distrito: 'Motupe', sector: 'San Isidro', fichaTecnica: 'FTR-CB-PREV N° 0856-2025-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas margenes del río Motupe', metaKm: 1.9 },
-    { provincia: 'Chiclayo', distrito: 'Chongoyape', sector: 'Pampa Grande', fichaTecnica: 'FTR-CB-PREV N° 0258-2026-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y construcción de dique con enrocado en la margen izquierda del río Chancay', metaKm: 0.65 },
-    { provincia: 'Lambayeque', distrito: 'Salas', sector: 'La Pilca', fichaTecnica: 'FTR-CB-PREV N° 0348-2025-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y protección con muros de gaviones en el río Salas', metaKm: 1.7 },
-    { provincia: 'Ferreñafe', distrito: 'Incahuasi', sector: 'Laquipampa', fichaTecnica: 'FTR-CB-PREV N° 0739-2025-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en la margen derecha del río La Leche (Río Moyan)', metaKm: 1.32 },
-    { provincia: 'Lambayeque', distrito: 'Olmos', sector: 'Playa Cascajal', fichaTecnica: 'FTR-CB-PREV N° 0786-2025-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en la margen derecha del río Cascajal', metaKm: 1.445 },
+    { provincia: 'Chiclayo', distrito: 'Patapo', sector: 'La Cria', fichaTecnica: 'FTR-CB-PREV N° 0736-2025-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado, en la margen izquierda de la quebrada La Cria.', metaKm: 0.29 },
+    { provincia: 'Chiclayo', distrito: 'Chongoyape', sector: 'Cuculi', fichaTecnica: 'FTR-CB-PREV N° 0735-2025-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado, en la margen derecha de la quebrada Cuculi (Chumillan).', metaKm: 1.23 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', sector: 'Sanquelito 2-CP. Mocape', fichaTecnica: 'FTR-MC-PREV N° 0677-2025-ANA-AAA.JZ-ALA.MOLL', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Algodones (Río Doris).', metaKm: 0.48 },
   ],
 
   escenarios: [
