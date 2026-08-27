@@ -3,14 +3,13 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 37110.0, km: 2.08, poblacion: 4864 },
-    { tipo: 'Prevención', cantidad: 12, m3: 66850.0, km: 3.15, poblacion: 20914 },
+    { tipo: 'Prevención', cantidad: 13, m3: 71190.0, km: 3.35, poblacion: 21614 },
     { tipo: 'Urgente atención', cantidad: 9, m3: 12513.2, km: 14.56, poblacion: 4858 },
   ],
-  ejecutadasTotal: { cantidad: 28, m3: 116473.2, km: 19.79, poblacion: 30636 },
+  ejecutadasTotal: { cantidad: 29, m3: 120813.2, km: 19.99, poblacion: 31336 },
 
   enEjecucion: [
     { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 170.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'La Yarada Los Palos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                   ', inicio: '17/08/2026', fin: '29/08/2026', volAcum: 4000.0, poblacion: 700 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 105.0, poblacion: 550 },
   ],
 
