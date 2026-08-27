@@ -2,8 +2,13 @@
 // programadas, convenios y flota vienen directo de Producción vía el pipeline
 // (pipeline/generar_todas_regiones.py) -- correr ese script para reemplazar
 // los ceros de ./_generated/la-libertad.js con los datos reales.
-// puntosCriticos: extraído de 'EXCEL_CONSOLIDADO_569_oficial_PARA_OFICIALIZAR_1.xlsx'
-// (hoja "RELACION FTR 2026", filtrado por DEPARTAMENTO=LA LIBERTAD, 9 fichas).
+// puntosCriticos: actualizado 27/08/2026 con 'MVCS_Intervenciones_FEN_actualizado_56fichas.xlsx'
+// (hoja "MVCS - Intervenciones FEN", filtrado por Departamento=La Libertad, 6 fichas --
+// reemplaza el listado anterior de 9 fichas de 'EXCEL_CONSOLIDADO_569...xlsx', que ANA
+// actualizó retirando/reasignando fichas fuera del alcance de MVCS). Solo se tomaron los
+// campos que usa el sitio (provincia/distrito/ficha/descripción/km) -- el archivo también
+// trae columnas de presupuesto "estandarizado" con un factor de ajuste y una excepción
+// puntual para la ficha de Chicama; no se usaron (ver aviso aparte a Franco).
 // escenarios: presupuesto de 'DATA_PRESUPUESTO_REGIONES_NORTE_1.xlsx' (fila LA
 // LIBERTAD); cantidad de intervenciones contada de 'MODO_MODERADO_LIBERTAD_1.xlsx'
 // (25 filas) y 'MODO_SEVERO_LIBERTAD_1.xlsx' (67 filas).
@@ -26,15 +31,12 @@ export default {
   ...datosBD,
 
   puntosCriticos: [
-    { provincia: 'Ascope', distrito: 'Casa Grande', fichaTecnica: 'FTR-MC-PREV N° 0201-2026-ANA-AAA.HCH-ALA.CHICAMA', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada San Jose Alto (La Culebra).', metaKm: 1.0 },
-    { provincia: 'Virú', distrito: 'Chao', fichaTecnica: 'FTR-MC-PREV N° 0177-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Chorobal.', metaKm: 3.0 },
-    { provincia: 'Virú', distrito: 'Chao', fichaTecnica: 'FTR-MC-PREV N° 0178-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Chorobal.', metaKm: 3.53 },
-    { provincia: 'Virú', distrito: 'Chao', fichaTecnica: 'FTR-MC-PREV N° 0179-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Huamanzaña.', metaKm: 3.16 },
-    { provincia: 'Virú', distrito: 'Chao', fichaTecnica: 'FTR-MC-PREV N° 0180-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Huamanzaña.', metaKm: 3.0 },
-    { provincia: 'Virú', distrito: 'Chao', fichaTecnica: 'FTR-MC-PREV N° 0181-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Tutumo.', metaKm: 1.5 },
-    { provincia: 'Pacasmayo', distrito: 'Guadalupe', fichaTecnica: 'FTR-MC-PREV N° 0281-2026-ANA-AAA.JZ-ALA.J', descripcion: 'Limpieza, descolmatación y conformación de bordo con material propio del río Jequetepeque.', metaKm: 4.0 },
-    { provincia: 'Pacasmayo', distrito: 'San José', fichaTecnica: 'FTR-MC-PREV N° 0282-2026-ANA-AAA.JZ-ALA.J', descripcion: 'Limpieza, descolmatación y conformación de bordo con material propio del río Jequetepeque.', metaKm: 0.35 },
-    { provincia: 'Virú', distrito: 'Virú', fichaTecnica: 'FTR-MC-PREV N° 0278-2026-ANA-AAA.HCH-ALA.MVCHAO', descripcion: 'Limpieza y descolmatación para el mantenimiento del cauce en el río Huacapongo.', metaKm: 0.39 },
+    { provincia: 'Ascope', distrito: 'Chicama', fichaTecnica: 'FTR-CB-PREV N° 1077-2025 ANA-AAA.HCH-ALA.CHICAMA', descripcion: 'Limpieza, descolmatación y conformación de dique enrocado en la margen izquierda del río Chicama.', metaKm: 1.65 },
+    { provincia: 'Pataz', distrito: 'Pataz', fichaTecnica: 'FTR-MC-PREV N° 0544-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Calquiche.', metaKm: 0.42 },
+    { provincia: 'Sánchez Carrión', distrito: 'Cochorco', fichaTecnica: 'FTR-MC-PREV N° 0276-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Café.', metaKm: 0.23 },
+    { provincia: 'Santiago de Chuco', distrito: 'Sitabamba', fichaTecnica: 'FTR-MC-PREV N° 0641-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Chagaraba Chica.', metaKm: 0.289 },
+    { provincia: 'Sánchez Carrión', distrito: 'Huamachuco', fichaTecnica: 'FTR-MC-PREV N° 0628-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada De Los Pajaritos.', metaKm: 0.266 },
+    { provincia: 'Pataz', distrito: 'Pataz', fichaTecnica: 'FTR-MC-PREV N° 0546-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Guadalupe.', metaKm: 0.1 },
   ],
 
   escenarios: [
