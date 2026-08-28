@@ -1,11 +1,26 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi'
+import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload } from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
+import { descargarAyudaMemoria } from '../lib/ayudaMemoria'
 
 export default function Nav({ data, regionId, onRegionChange }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const [generando, setGenerando] = useState(false)
+
+  async function handleAyudaMemoria() {
+    if (generando) return
+    setGenerando(true)
+    try {
+      await descargarAyudaMemoria(data, regionId)
+    } catch (err) {
+      console.error('No se pudo generar la Ayuda Memoria:', err)
+      window.alert('No se pudo generar la Ayuda Memoria. Revisa la consola para más detalle.')
+    } finally {
+      setGenerando(false)
+    }
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
@@ -60,6 +75,16 @@ export default function Nav({ data, regionId, onRegionChange }) {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
+          {data.ayudaMemoriaDisponible && (
+            <button
+              onClick={handleAyudaMemoria}
+              disabled={generando}
+              className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink disabled:opacity-50"
+            >
+              <HiOutlineDocumentDownload size={16} />
+              {generando ? 'Generando…' : 'Ayuda Memoria'}
+            </button>
+          )}
           <RegionSwitcher regionId={regionId} onChange={handleRegionChange} />
         </div>
 
@@ -83,6 +108,16 @@ export default function Nav({ data, regionId, onRegionChange }) {
           >
             <div className="flex flex-col gap-3 px-6 py-4">
               <RegionSwitcher regionId={regionId} onChange={handleRegionChange} variant="mobile" />
+              {data.ayudaMemoriaDisponible && (
+                <button
+                  onClick={handleAyudaMemoria}
+                  disabled={generando}
+                  className="flex items-center justify-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm font-medium text-ink-dim disabled:opacity-50"
+                >
+                  <HiOutlineDocumentDownload size={16} />
+                  {generando ? 'Generando…' : 'Descargar Ayuda Memoria'}
+                </button>
+              )}
               <div className="flex flex-col gap-1">
                 {links.map((l) => (
                   <a

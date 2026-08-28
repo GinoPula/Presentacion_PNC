@@ -106,11 +106,12 @@ LIMITACIONES CONOCIDAS DE LA AUTOMATIZACIÓN (documentado a propósito, léelo)
 import os
 import re
 import sys
+import math
 import getpass
 import argparse
 import subprocess
 import unicodedata
-from datetime import date
+from datetime import date, datetime
 
 try:
     import psycopg2
@@ -118,6 +119,21 @@ try:
 except ImportError:
     print("Falta la librería psycopg2. Instálala con:\n    pip install psycopg2-binary")
     sys.exit(1)
+
+
+# ---------------------------------------------------------------------------
+# Incidencias: cada vez que el pipeline corrige o excluye algo automáticamente
+# (coordenada rara, tipo/marca sin traducir, etc.) se guarda acá además de
+# imprimirse -- al final de la corrida se escribe un reporte aparte y corto
+# (pipeline/logs/ULTIMO_REPORTE.txt) para no tener que buscarlo dentro del
+# log completo de cada corrida. Ver avisar() y el final de main().
+# ---------------------------------------------------------------------------
+INCIDENCIAS = []
+
+
+def avisar(msg):
+    print(f"  [!] {msg}")
+    INCIDENCIAS.append(msg)
 
 
 # ---------------------------------------------------------------------------
@@ -136,6 +152,139 @@ DEPARTAMENTOS = {
     "ica":         "ICA",
     "la-libertad": "LA LIBERTAD",
 }
+
+# ---------------------------------------------------------------------------
+# Cajas geográficas (lat_min, lat_max, lon_min, lon_max) para validar/corregir
+# los puntos del mapa. Agregado 26/08/2026: en La Libertad una intervención
+# salía en el mar -- la coordenada de esa fila en Producción venía en UTM
+# (este/norte) pegada directo en las columnas lat/long en vez de convertida a
+# WGS84. corregir_coordenada_punto() usa estas cajas para detectar cuándo una
+# coordenada no cae dentro de su departamento y, si puede, la corrige sola
+# (signo invertido, o UTM zona 17S/18S/19S -- las 3 que usa Perú); si no
+# puede ubicarla en ningún lugar razonable de Perú, la excluye del mapa en
+# vez de mostrarla en un lugar incorrecto (y avisa por consola con el ID para
+# poder corregirlo en la fuente).
+# ---------------------------------------------------------------------------
+PERU_BBOX = (-18.5, 0.5, -81.5, -68.0)
+
+# Calculadas del contorno real de cada departamento en mapaLimites.js (min/max
+# lat/lon de su polígono), con un colchón de ~0.15° (~15 km) para no marcar
+# como "fuera" un punto real cerca del borde (validado contra los 277 puntos
+# ya publicados en mapaIntervenciones.js -- cero falsos positivos).
+DEPARTAMENTO_BBOX = {
+    "TUMBES":      (-4.38, -3.26, -81.19, -79.99),
+    "PIURA":       (-6.52, -3.93, -81.48, -79.06),
+    "LAMBAYEQUE":  (-7.33, -5.34, -80.78, -78.97),
+    "LA LIBERTAD": (-9.12, -6.80, -79.84, -76.75),
+    "ANCASH":      (-10.90, -7.90, -78.79, -76.58),
+    "ICA":         (-15.59, -12.81, -76.55, -74.51),
+    "PUNO":        (-17.44, -12.85, -71.26, -68.66),
+    "TACNA":       (-18.50, -16.62, -71.29, -69.32),
+}
+
+
+def _dentro_de_bbox(lat, lon, bbox):
+    if lat is None or lon is None:
+        return False
+    lat_min, lat_max, lon_min, lon_max = bbox
+    return lat_min <= lat <= lat_max and lon_min <= lon <= lon_max
+
+
+def utm_a_latlon(easting, northing, zona, hemisferio_sur=True):
+    """UTM (WGS84) -> lat/long en grados decimales. Formula estándar de
+    inversión de Mercator transversa (Snyder), sin dependencias externas --
+    validada contra pyproj con error < 1 metro en las 3 zonas que usa Perú
+    (17S, 18S, 19S)."""
+    a = 6378137.0
+    f = 1 / 298.257223563
+    e2 = f * (2 - f)
+    k0 = 0.9996
+
+    x = easting - 500000.0
+    y = northing - (10000000.0 if hemisferio_sur else 0.0)
+
+    m = y / k0
+    mu = m / (a * (1 - e2/4 - 3*e2**2/64 - 5*e2**3/256))
+
+    e1 = (1 - math.sqrt(1 - e2)) / (1 + math.sqrt(1 - e2))
+    j1 = 3*e1/2 - 27*e1**3/32
+    j2 = 21*e1**2/16 - 55*e1**4/32
+    j3 = 151*e1**3/96
+    j4 = 1097*e1**4/512
+    fp = mu + j1*math.sin(2*mu) + j2*math.sin(4*mu) + j3*math.sin(6*mu) + j4*math.sin(8*mu)
+
+    e1sq = e2 / (1 - e2)
+    C1 = e1sq * math.cos(fp)**2
+    T1 = math.tan(fp)**2
+    R1 = a * (1 - e2) / (1 - e2*math.sin(fp)**2)**1.5
+    N1 = a / math.sqrt(1 - e2*math.sin(fp)**2)
+    D = x / (N1 * k0)
+
+    Q1 = N1 * math.tan(fp) / R1
+    Q2 = D**2 / 2
+    Q3 = (5 + 3*T1 + 10*C1 - 4*C1**2 - 9*e1sq) * D**4 / 24
+    Q4 = (61 + 90*T1 + 298*C1 + 45*T1**2 - 3*C1**2 - 252*e1sq) * D**6 / 720
+    lat = fp - Q1 * (Q2 - Q3 + Q4)
+
+    Q5 = D
+    Q6 = (1 + 2*T1 + C1) * D**3 / 6
+    Q7 = (5 - 2*C1 + 28*T1 - 3*C1**2 + 8*e1sq + 24*T1**2) * D**5 / 120
+    lon0 = math.radians(zona * 6 - 183)
+    lon = lon0 + (Q5 - Q6 + Q7) / math.cos(fp)
+
+    return math.degrees(lat), math.degrees(lon)
+
+
+def corregir_coordenada_punto(lat, lon, departamento, id_intervencion=None, sector=None):
+    """Ver comentario arriba de DEPARTAMENTO_BBOX. Devuelve (lat, lon) ya
+    corregidas si hizo falta, o (None, None) si no se pudo ubicar el punto en
+    ningún lugar razonable de Perú (se excluye del mapa)."""
+    if lat is None or lon is None:
+        return None, None
+
+    etiqueta = f"[{departamento}] intervención {id_intervencion}" if id_intervencion is not None else f"[{departamento}] un punto"
+    if sector:
+        etiqueta += f" ({sector})"
+
+    bbox = DEPARTAMENTO_BBOX.get(departamento, PERU_BBOX)
+
+    if _dentro_de_bbox(lat, lon, bbox):
+        return lat, lon
+
+    # 1) ¿Un signo de menos que falta o que sobra?
+    for lat_c, lon_c in ((-lat, lon), (lat, -lon), (-lat, -lon)):
+        if _dentro_de_bbox(lat_c, lon_c, bbox):
+            avisar(f"{etiqueta}: coordenada con signo invertido -- corregida "
+                   f"automáticamente ({lat}, {lon}) -> ({lat_c}, {lon_c}).")
+            return lat_c, lon_c
+
+    # 2) ¿Es UTM (este/norte) pegado por error en las columnas lat/long? Se
+    #    prueban las 3 zonas de Perú y las 2 formas de asignar las columnas
+    #    (lat=norte/long=este es la más probable, pero también al revés).
+    for zona in (17, 18, 19):
+        for este, norte in ((lon, lat), (lat, lon)):
+            try:
+                lat_c, lon_c = utm_a_latlon(este, norte, zona, hemisferio_sur=True)
+            except (ValueError, ZeroDivisionError, OverflowError):
+                continue
+            if _dentro_de_bbox(lat_c, lon_c, bbox):
+                avisar(f"{etiqueta}: coordenada parecía UTM zona {zona}S -- convertida "
+                       f"automáticamente a lat/long ({round(lat_c, 6)}, {round(lon_c, 6)}).")
+                return round(lat_c, 6), round(lon_c, 6)
+
+    # 3) Nada cayó dentro del departamento -- último intento: puede que el
+    #    departamento registrado en la base esté mal pero la coordenada
+    #    original sí sea válida en algún lugar de Perú.
+    if bbox is not PERU_BBOX and _dentro_de_bbox(lat, lon, PERU_BBOX):
+        avisar(f"{etiqueta}: la coordenada ({lat}, {lon}) no cae dentro de {departamento} "
+               f"pero sí dentro de Perú -- se deja tal cual. Revisar a mano si el departamento "
+               f"registrado es el correcto (o si el punto de verdad pertenece a otra región).")
+        return lat, lon
+
+    avisar(f"{etiqueta}: no se pudo ubicar esta coordenada ({lat}, {lon}) en ningún "
+           f"lugar razonable de Perú -- se EXCLUYE del mapa. Revisar el dato en Producción.")
+    return None, None
+
 
 # Umbral: con más de este número de convenios vigentes, se agrupan por nivel
 # de gobierno en vez de listarlos uno por uno (si no, la lista queda enorme).
@@ -248,8 +397,8 @@ def traducir(valor, diccionario_norm, etiqueta):
     clave = sin_tildes(valor.strip().upper())
     if clave in diccionario_norm:
         return diccionario_norm[clave]
-    print(f"  [!] {etiqueta} sin traducir en el diccionario: {valor!r} -- se usa capitalización simple. "
-          f"Conviene agregarlo a TRAD_{etiqueta.upper()} en este script.")
+    avisar(f"{etiqueta} sin traducir en el diccionario: {valor!r} -- se usa capitalización simple. "
+           f"Conviene agregarlo a TRAD_{etiqueta.upper()} en este script.")
     return valor.strip().title()
 
 
@@ -261,9 +410,11 @@ def titulo(valor):
 # 1) CONSULTA: exactamente la misma lógica ya validada en 03_generar_region.py,
 #    devuelve los datos TAL COMO vienen de la base (mayúsculas, sin traducir).
 # ---------------------------------------------------------------------------
-def consultar_departamento(cur, departamento, periodo):
-    resultado = {"departamento": departamento, "periodo": periodo}
-
+def _consultar_ejecutadas_por_tipo(cur, departamento, periodo):
+    """Devuelve (lista_por_tipo, total) para estado='EJECUTADA' en un
+    departamento+periodo dados. Separado en función propia porque se llama
+    dos veces: para el periodo actual y para el anterior (histórico cerrado,
+    ver 'ejecutadasPorTipoAnioAnterior' en consultar_departamento)."""
     cur.execute("""
         SELECT inte.tipo,
                COUNT(*) AS cantidad,
@@ -273,29 +424,52 @@ def consultar_departamento(cur, departamento, periodo):
                SUM(COALESCE(
                    (SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_km, 0)) AS km,
-               SUM(COALESCE(inte.pob_beneficiada, 0)) AS poblacion
+               SUM(COALESCE(inte.pob_beneficiada, 0)) AS poblacion,
+               array_agg(DISTINCT inte.provincia ORDER BY inte.provincia) AS provincias
         FROM pnc.tb_em_intervencion inte
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado = 'EJECUTADA'
         GROUP BY inte.tipo
         ORDER BY inte.tipo;
     """, (departamento, periodo))
-    ejecutadas_por_tipo = cur.fetchall()
-    resultado["ejecutadasPorTipo"] = [
-        {"tipo": r["tipo"], "cantidad": r["cantidad"], "m3": round(num(r["m3"]), 2), "km": round(num(r["km"]), 2), "poblacion": entero(r["poblacion"])}
-        for r in ejecutadas_por_tipo
+    por_tipo = cur.fetchall()
+    lista = [
+        {"tipo": r["tipo"], "cantidad": r["cantidad"], "m3": round(num(r["m3"]), 2), "km": round(num(r["km"]), 2),
+         "poblacion": entero(r["poblacion"]), "provincias": list(r["provincias"] or [])}
+        for r in por_tipo
     ]
-    resultado["ejecutadasTotal"] = {
-        "cantidad": sum(r["cantidad"] for r in ejecutadas_por_tipo),
-        "m3": round(sum(num(r["m3"]) for r in ejecutadas_por_tipo), 2),
-        "km": round(sum(num(r["km"]) for r in ejecutadas_por_tipo), 2),
-        "poblacion": sum(entero(r["poblacion"]) for r in ejecutadas_por_tipo),
+    total = {
+        "cantidad": sum(r["cantidad"] for r in por_tipo),
+        "m3": round(sum(num(r["m3"]) for r in por_tipo), 2),
+        "km": round(sum(num(r["km"]) for r in por_tipo), 2),
+        "poblacion": sum(entero(r["poblacion"]) for r in por_tipo),
     }
+    return lista, total
+
+
+def consultar_departamento(cur, departamento, periodo):
+    resultado = {"departamento": departamento, "periodo": periodo}
+
+    resultado["ejecutadasPorTipo"], resultado["ejecutadasTotal"] = _consultar_ejecutadas_por_tipo(cur, departamento, periodo)
+
+    # Histórico del año anterior (periodo ya cerrado -- no cambia, pero se
+    # trae en vivo de la misma tabla en vez de dejarlo fijo a mano, para que
+    # la Ayuda Memoria pueda narrar "durante el <año-1>..." igual que hace
+    # el MAIN). Si el departamento/periodo anterior no tiene filas, queda en
+    # listas vacías (mismo criterio que una región sin datos todavía).
+    anio_anterior = str(int(periodo) - 1) if periodo.isdigit() else None
+    resultado["anioAnterior"] = anio_anterior
+    if anio_anterior:
+        resultado["ejecutadasPorTipoAnioAnterior"], resultado["ejecutadasTotalAnioAnterior"] = \
+            _consultar_ejecutadas_por_tipo(cur, departamento, anio_anterior)
+    else:
+        resultado["ejecutadasPorTipoAnioAnterior"], resultado["ejecutadasTotalAnioAnterior"] = [], {"cantidad": 0, "m3": 0.0, "km": 0.0, "poblacion": 0}
 
     cur.execute("""
         SELECT inte.provincia, inte.distrito, inte.tipo, inte.descripcion,
                TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS inicio,
                TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fin,
                COALESCE((SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion), 0) AS vol_acum,
+               COALESCE((SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion), 0) AS km_acum,
                inte.pob_beneficiada
         FROM pnc.tb_em_intervencion inte
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado = 'EN EJECUCIÓN'
@@ -303,7 +477,8 @@ def consultar_departamento(cur, departamento, periodo):
     """, (departamento, periodo))
     resultado["enEjecucion"] = [
         {"provincia": r["provincia"], "distrito": r["distrito"], "tipo": r["tipo"], "descripcion": r["descripcion"],
-         "inicio": r["inicio"], "fin": r["fin"], "volAcum": num(r["vol_acum"]), "poblacion": entero(r["pob_beneficiada"], None)}
+         "inicio": r["inicio"], "fin": r["fin"], "volAcum": num(r["vol_acum"]), "kmAcum": num(r["km_acum"]),
+         "poblacion": entero(r["pob_beneficiada"], None)}
         for r in cur.fetchall()
     ]
 
@@ -330,6 +505,26 @@ def consultar_departamento(cur, departamento, periodo):
         "metaKm": round(sum(num(r["meta_km"]) for r in programadas), 2),
         "poblacion": sum(entero(r["poblacion"]) for r in programadas),
     }
+
+    # Detalle por ficha de las programadas (a diferencia de "programadas" de
+    # arriba, que está agregado por provincia/distrito para el widget de la
+    # web). Este detalle es el que necesita la Ayuda Memoria (sector, ficha
+    # técnica, descripción y fechas por intervención) -- agregado 28/08/2026.
+    cur.execute("""
+        SELECT inte.provincia, inte.distrito, inte.sector, inte.ficha_tec, inte.descripcion,
+               TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
+               TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
+               inte.meta_vol, inte.meta_km, inte.pob_beneficiada
+        FROM pnc.tb_em_intervencion inte
+        WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado ILIKE 'PROGRAMADA%%'
+        ORDER BY inte.fecha_inicio;
+    """, (departamento, periodo))
+    resultado["programadasDetalle"] = [
+        {"provincia": r["provincia"], "distrito": r["distrito"], "sector": r["sector"], "ficha": r["ficha_tec"],
+         "descripcion": r["descripcion"], "fechaInicio": r["fecha_inicio"], "fechaFin": r["fecha_fin"],
+         "metaVol": num(r["meta_vol"]), "metaKm": num(r["meta_km"]), "poblacion": entero(r["pob_beneficiada"], None)}
+        for r in cur.fetchall()
+    ]
 
     cur.execute("""
         SELECT co.nivel_gob, p.nom_prov AS provincia_nombre, d.nom_dist AS distrito_nombre,
@@ -506,16 +701,22 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
     la versión ya traducida/agrupada lista para emitir como JS."""
     r = dict(crudo)
 
-    r["ejecutadasPorTipo"] = [
-        {
-            "tipo": (e["tipo"] or "").strip().capitalize(),
-            "cantidad": entero(e["cantidad"]),
-            "m3": round(num(e["m3"]), 2),
-            "km": (round(num(e["km"]), 2) or None) if num(e["km"]) == 0 else round(num(e["km"]), 2),
-            "poblacion": entero(e["poblacion"]),
-        }
-        for e in r["ejecutadasPorTipo"]
-    ]
+    def _fmt_por_tipo(lista):
+        return [
+            {
+                "tipo": (e["tipo"] or "").strip().capitalize(),
+                "cantidad": entero(e["cantidad"]),
+                "m3": round(num(e["m3"]), 2),
+                "km": (round(num(e["km"]), 2) or None) if num(e["km"]) == 0 else round(num(e["km"]), 2),
+                "poblacion": entero(e["poblacion"]),
+                "provincias": [titulo(p) for p in (e.get("provincias") or [])],
+            }
+            for e in lista
+        ]
+
+    r["ejecutadasPorTipo"] = _fmt_por_tipo(r["ejecutadasPorTipo"])
+    if "ejecutadasPorTipoAnioAnterior" in r:
+        r["ejecutadasPorTipoAnioAnterior"] = _fmt_por_tipo(r["ejecutadasPorTipoAnioAnterior"])
 
     r["enEjecucion"] = [
         {
@@ -526,6 +727,7 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
             "inicio": e["inicio"],
             "fin": e["fin"],
             "volAcum": num(e["volAcum"]),
+            "kmAcum": num(e.get("kmAcum", 0)),
             "poblacion": e["poblacion"] if e["poblacion"] is not None else None,
         }
         for e in r["enEjecucion"]
@@ -543,6 +745,23 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
         for p in r["programadas"]
     ]
 
+    if "programadasDetalle" in r:
+        r["programadasDetalle"] = [
+            {
+                "provincia": titulo(p["provincia"]),
+                "distrito": titulo(p["distrito"]),
+                "sector": titulo(p["sector"]) if p["sector"] else "",
+                "ficha": p["ficha"] or "",
+                "descripcion": p["descripcion"] or "",
+                "fechaInicio": p["fechaInicio"] or "",
+                "fechaFin": p["fechaFin"] or "",
+                "metaVol": round(num(p["metaVol"]), 2),
+                "metaKm": round(num(p["metaKm"]), 2),
+                "poblacion": p["poblacion"] if p["poblacion"] is not None else None,
+            }
+            for p in r["programadasDetalle"]
+        ]
+
     if "_convenios_crudo" in r:
         total, vigentes = formatear_convenios(r.pop("_convenios_crudo"), hoy=hoy)
         r["conveniosCount"] = total
@@ -554,26 +773,39 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
         r["flotaTotal"] = flota_total
 
     if "_puntos_mapa_crudo" in r:
-        r["puntosMapa"] = formatear_puntos_mapa(r.pop("_puntos_mapa_crudo"))
+        r["puntosMapa"] = formatear_puntos_mapa(r.pop("_puntos_mapa_crudo"), r["departamento"])
 
     return r
 
 
-def formatear_puntos_mapa(puntos_crudo):
+def formatear_puntos_mapa(puntos_crudo, departamento):
     """Convierte las filas crudas de la sección 6) de consultar_departamento()
     (ejecutadas/en ejecución con lat/long) a la misma forma que ya usan los
-    puntos cargados a mano en mapaIntervenciones.js."""
+    puntos cargados a mano en mapaIntervenciones.js. De paso valida/corrige
+    cada coordenada contra su departamento (ver corregir_coordenada_punto) --
+    los puntos que no se puedan ubicar en ningún lugar razonable de Perú se
+    excluyen en vez de aparecer en el mar o fuera del país."""
     puntos = []
+    excluidos = 0
     for p in puntos_crudo:
+        id_i = entero(p["id_intervencion"])
+        sector_orig = titulo(p["sector"])
+        lat, lon = corregir_coordenada_punto(
+            num(p["lat"], default=None), num(p["long"], default=None),
+            departamento, id_intervencion=id_i, sector=sector_orig,
+        )
+        if lat is None or lon is None:
+            excluidos += 1
+            continue
         puntos.append({
-            "id": entero(p["id_intervencion"]),
-            "lat": round(num(p["lat"]), 6),
-            "lng": round(num(p["long"]), 6),
+            "id": id_i,
+            "lat": round(lat, 6),
+            "lng": round(lon, 6),
             "estado": (p["estado"] or "").strip().capitalize(),
             "tipo": (p["tipo"] or "").strip().capitalize(),
             "provincia": titulo(p["provincia"]),
             "distrito": titulo(p["distrito"]),
-            "sector": titulo(p["sector"]),
+            "sector": sector_orig,
             "descripcion": p["descripcion"] or "",
             "ficha": p["ficha_tec"] or "",
             "fechaInicio": p["fecha_inicio"] or "",
@@ -582,6 +814,9 @@ def formatear_puntos_mapa(puntos_crudo):
             "volumen": num(p["volumen"]),
             "enlace": p["enlace_info_cierre"] if p["enlace_info_cierre"] else None,
         })
+    if excluidos:
+        print(f"  [!] {excluidos} punto(s) del mapa excluido(s) por coordenadas inválidas "
+              f"(ver avisos arriba).")
     return puntos
 
 
@@ -613,12 +848,32 @@ def emitir_js(r):
     L.append("// Este archivo se sobreescribe completo en cada corrida del pipeline de datos.")
     L.append("export default {")
 
+    def _emitir_por_tipo(lista):
+        Le = []
+        for e in lista:
+            Le.append(
+                f"    {{ tipo: {js_str(e['tipo'])}, cantidad: {js_num(e['cantidad'])}, m3: {js_num(e['m3'])}, km: {js_num(e['km'])}, "
+                f"poblacion: {js_num(e['poblacion'])}, provincias: {js_list_str(e.get('provincias') or [])} }},"
+            )
+        return Le
+
     L.append("  ejecutadasPorTipo: [")
-    for e in r["ejecutadasPorTipo"]:
-        L.append(f"    {{ tipo: {js_str(e['tipo'])}, cantidad: {js_num(e['cantidad'])}, m3: {js_num(e['m3'])}, km: {js_num(e['km'])}, poblacion: {js_num(e['poblacion'])} }},")
+    L.extend(_emitir_por_tipo(r["ejecutadasPorTipo"]))
     L.append("  ],")
     et = r["ejecutadasTotal"]
     L.append(f"  ejecutadasTotal: {{ cantidad: {js_num(et['cantidad'])}, m3: {js_num(et['m3'])}, km: {js_num(et['km'])}, poblacion: {js_num(et['poblacion'])} }},")
+    L.append("")
+
+    # Histórico del año anterior -- ver _consultar_ejecutadas_por_tipo(). Se
+    # usa para narrar "durante el <año-1>..." en la Ayuda Memoria; el sitio
+    # web no lo usa (por eso no está en programadasCols ni en ningún
+    # componente todavía).
+    L.append(f"  anioAnterior: {js_str(r['anioAnterior']) if r.get('anioAnterior') else 'null'},")
+    L.append("  ejecutadasPorTipoAnioAnterior: [")
+    L.extend(_emitir_por_tipo(r.get("ejecutadasPorTipoAnioAnterior") or []))
+    L.append("  ],")
+    eta = r.get("ejecutadasTotalAnioAnterior") or {"cantidad": 0, "m3": 0.0, "km": 0.0, "poblacion": 0}
+    L.append(f"  ejecutadasTotalAnioAnterior: {{ cantidad: {js_num(eta['cantidad'])}, m3: {js_num(eta['m3'])}, km: {js_num(eta['km'])}, poblacion: {js_num(eta['poblacion'])} }},")
     L.append("")
 
     L.append("  enEjecucion: [")
@@ -626,7 +881,7 @@ def emitir_js(r):
         L.append(
             f"    {{ provincia: {js_str(e['provincia'])}, distrito: {js_str(e['distrito'])}, tipo: {js_str(e['tipo'])}, "
             f"descripcion: {js_str(e['descripcion'])}, inicio: {js_str(e['inicio'])}, fin: {js_str(e['fin'])}, "
-            f"volAcum: {js_num(e['volAcum'])}, poblacion: {js_num(e['poblacion'])} }},"
+            f"volAcum: {js_num(e['volAcum'])}, kmAcum: {js_num(e.get('kmAcum', 0))}, poblacion: {js_num(e['poblacion'])} }},"
         )
     L.append("  ],")
     L.append("")
@@ -641,6 +896,18 @@ def emitir_js(r):
     L.append("  ],")
     pt = r["programadasTotal"]
     L.append(f"  programadasTotal: {{ cantidad: {js_num(pt['cantidad'])}, metaVol: {js_num(pt['metaVol'])}, metaKm: {js_num(pt['metaKm'])}, poblacion: {js_num(pt['poblacion'])} }},")
+    L.append("")
+
+    # Detalle por ficha de programadas -- lo usa la Ayuda Memoria (ver
+    # src/lib/ayudaMemoria.js), no el widget "Programadas" de la web.
+    L.append("  programadasDetalle: [")
+    for p in r.get("programadasDetalle") or []:
+        L.append(
+            f"    {{ provincia: {js_str(p['provincia'])}, distrito: {js_str(p['distrito'])}, sector: {js_str(p['sector'])}, "
+            f"ficha: {js_str(p['ficha'])}, descripcion: {js_str(p['descripcion'])}, fechaInicio: {js_str(p['fechaInicio'])}, "
+            f"fechaFin: {js_str(p['fechaFin'])}, metaVol: {js_num(p['metaVol'])}, metaKm: {js_num(p['metaKm'])}, poblacion: {js_num(p['poblacion'])} }},"
+        )
+    L.append("  ],")
     L.append("")
 
     L.append(f"  conveniosCount: {js_num(r['conveniosCount'])},")
@@ -783,6 +1050,37 @@ def correr_git(repo, args_git):
     return resultado.returncode == 0
 
 
+def escribir_reporte_incidencias(repo, periodo):
+    """Escribe pipeline/logs/ULTIMO_REPORTE.txt con TODO lo que se avisó
+    durante esta corrida (coordenadas corregidas/excluidas, tipo/marca sin
+    traducir, etc.) -- se sobreescribe en cada corrida, así que siempre es
+    "la corrida más reciente" sin tener que buscar cuál log es el último.
+    Pensado para revisar rápido y tomar acción (reportarle a Producción), sin
+    tener que leer el log completo de cada corrida."""
+    ruta_pipeline = os.path.dirname(os.path.abspath(__file__))
+    ruta_logs = os.path.join(ruta_pipeline, "logs")
+    os.makedirs(ruta_logs, exist_ok=True)
+    ruta_reporte = os.path.join(ruta_logs, "ULTIMO_REPORTE.txt")
+
+    ahora = datetime.now().strftime("%d/%m/%Y %H:%M")
+    L = [f"Reporte de la corrida del {ahora} -- periodo {periodo}", ""]
+    if not INCIDENCIAS:
+        L.append("Sin incidencias -- todo se generó sin avisos.")
+    else:
+        L.append(f"{len(INCIDENCIAS)} incidencia(s) -- revisar y reportar a Producción si corresponde:")
+        L.append("")
+        for i, msg in enumerate(INCIDENCIAS, 1):
+            L.append(f"{i}. {msg}")
+
+    with open(ruta_reporte, "w", encoding="utf-8") as f:
+        f.write("\n".join(L) + "\n")
+
+    if INCIDENCIAS:
+        print(f"\n=== {len(INCIDENCIAS)} incidencia(s) esta corrida -- ver {ruta_reporte} ===")
+    else:
+        print(f"\n=== Sin incidencias esta corrida -- ver {ruta_reporte} ===")
+
+
 def main():
     cargar_env_local()
 
@@ -861,6 +1159,8 @@ def main():
 
     cur.close()
     conn.close()
+
+    escribir_reporte_incidencias(repo, args.periodo)
 
     if args.git_commit or args.git_push:
         print("=== Git ===")
