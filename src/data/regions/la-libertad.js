@@ -26,6 +26,23 @@
 // archivo cubre Ancash/Arequipa/Ica/La Libertad/Lambayeque/Lima/Piura/Tumbes),
 // así que esas 2 regiones se quedan sin esta tabla hasta tener su fuente.
 //
+// CORRECCIÓN (28/08/2026): Franco reportó que la sección de responsables
+// contaba 7 fichas MVCS para La Libertad cuando debían ser 6 (según el propio
+// documento AM oficial, que dice "el MVCS intervendrá (6) puntos críticos").
+// Se removió la fila de Sanchez Carrión/Chugay/Chugay, ficha 'FTR-MC-PREV
+// N° 0640-2025-ANA-AAA.M-ALA.H' -- Franco subió el consolidado más reciente
+// ('EXCEL_CONSOLIDADO_536_PARA_MIDAGRI_14.08.2026_VF_REV_ANA.xlsx', hoja
+// CONSOLIDADO) y esa ficha no aparece en absoluto en ese archivo (se buscó en
+// las 566 filas de las 22 hojas, no solo en La Libertad), a diferencia de las
+// otras 6 fichas MVCS de La Libertad, que sí coinciden. todosResponsablesResumen
+// pasó de mvcs:7/total:59 a mvcs:6/total:58. Pendiente (no resuelto todavía,
+// consultado a Franco por separado): las 43 filas 'ANA CONTRATA' de este
+// archivo no tienen equivalente directo en la columna RESPONSABLE del
+// consolidado nuevo (que solo trae MIDAGRI/ANA/MVCS/DEFENSA/MTC) -- de 6
+// fichas de muestra, 3 aparecen como MIDAGRI y 3 no aparecen en absoluto, así
+// que los dos archivos podrían tener cortes o revisiones distintas; no se
+// tocó esa parte de la data hasta confirmar con Franco.
+//
 // ayudaMemoriaDisponible: activa el botón "Generar Ayuda Memoria" en la web
 // (src/lib/ayudaMemoria.js) -- solo La Libertad por ahora (piloto).
 //
@@ -72,7 +89,6 @@ export default {
     { provincia: 'Santiago de Chuco', distrito: 'Sitabamba', sector: 'Chagabara', ficha: 'FTR-MC-PREV N° 0641-2025-ANA-AAA.M-ALA.H', actividad: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Chagaraba Chica', meta: 0.289, unidad: 'Km', responsable: 'MVCS', poblacion: 80 },
     { provincia: 'Sanchez Carrión', distrito: 'Huamachuco', sector: 'N° 6', ficha: 'FTR-MC-PREV N° 0628-2025-ANA-AAA.M-ALA.H', actividad: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada De Los Pajaritos', meta: 0.266, unidad: 'Km', responsable: 'MVCS', poblacion: 320 },
     { provincia: 'Pataz', distrito: 'Pataz', sector: 'Caserio Pueblo Nuevo', ficha: 'FTR-MC-PREV N° 0546-2025-ANA-AAA.M-ALA.H', actividad: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Guadalupe', meta: 0.1, unidad: 'Km', responsable: 'MVCS', poblacion: 100 },
-    { provincia: 'Sanchez Carrión', distrito: 'Chugay', sector: 'Chugay', ficha: 'FTR-MC-PREV N° 0640-2025-ANA-AAA.M-ALA.H', actividad: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Miraflores', meta: 0.221, unidad: 'Km', responsable: 'MVCS', poblacion: 100 },
     { provincia: 'Gran Chimu', distrito: 'Cascas', sector: 'Cojitambo', ficha: 'FTR-CB-PREV N° 0434-2025 ANA-AAA.HCH-ALA.CHICAMA', actividad: 'Limpieza, descolmatación y construcción de muro de concreto armado, en la margen derecha del río Chicama', meta: 0.645, unidad: 'Km', responsable: 'ANA CONTRATA', poblacion: 3825 },
     { provincia: 'Virú', distrito: 'Chao', sector: 'Seminario 2-Tanguche', ficha: 'FTR-CB-PREV N° 0356-2025 ANA-AAA.HCH-ALA.SLN', actividad: 'Limpieza, descolmatación y conformación de dique con enrocado en la margen derecha del río Santa', meta: 0.65, unidad: 'Km', responsable: 'ANA CONTRATA', poblacion: 15 },
     { provincia: 'Virú', distrito: 'Chao', sector: 'Toma de Captación Ponte', ficha: 'FTR-CB-PREV N° 0358-2025 ANA-AAA.HCH-ALA.SLN', actividad: 'Limpieza, descolmatación y conformación de dique con enrocado en la margen derecha del río Santa', meta: 0.5, unidad: 'Km', responsable: 'ANA CONTRATA', poblacion: 20 },
@@ -118,7 +134,7 @@ export default {
     { provincia: 'Pacasmayo', distrito: 'San José', sector: 'Las Vegas-Chafan', ficha: 'FTR-MC-PREV N° 0282-2026-ANA-AAA.JZ-ALA.J', actividad: 'Limpieza, descolmatación y conformación de bordo con material propio del río Jequetepeque', meta: 0.35, unidad: 'Km', responsable: 'ANA CONTRATA', poblacion: null },
     { provincia: 'Viru', distrito: 'Viru', sector: 'San Nicolas', ficha: 'FTR-MC-PREV N° 0278-2026-ANA-AAA.HCH-ALA.MVCHAO', actividad: 'Limpieza y descolmatación para el mantenimiento del cauce en el río Huacapongo', meta: 0.39, unidad: 'Km', responsable: 'ANA CONTRATA', poblacion: 80 },
   ],
-  todosResponsablesResumen: { ana: 7, anaContrata: 43, defensa: 1, mtc: 1, mvcs: 7, total: 59 },
+  todosResponsablesResumen: { ana: 7, anaContrata: 43, defensa: 1, mtc: 1, mvcs: 6, total: 58 },
 
   ayudaMemoriaDisponible: true,
 
