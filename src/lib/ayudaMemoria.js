@@ -81,8 +81,10 @@ const HEADER_TEXT = 'FFFFFF'
 const HEADER_FILL_PROGRAMADAS = 'AED6F1' // la tabla de "programadas" usa celeste, no negro
 const HEADER_TEXT_PROGRAMADAS = '000000'
 const CELL_FONT_SIZE = 17 // 8.5pt, en half-points
-const PORTRAIT_WIDTH = 9333 // A4 portrait, con los márgenes reales (izq 1133 / der 1440 DXA)
-const LANDSCAPE_WIDTH = 14265 // A4 apaisado, mismos márgenes -- para las tablas más anchas (programadas, todos los responsables)
+const PAGE_WIDTH = 11909 // tamaño de página EXACTO de la plantilla real (no el A4 "de catálogo" 11906)
+const PAGE_HEIGHT = 16834
+const PORTRAIT_WIDTH = PAGE_WIDTH - 1133 - 1440 // ancho útil vertical, con los márgenes reales (izq 1133 / der 1440 DXA)
+const LANDSCAPE_WIDTH = PAGE_HEIGHT - 1133 - 1440 // ancho útil apaisado (el "ancho" pasa a ser el alto de la página al girar) -- para las tablas más anchas (programadas, todos los responsables)
 
 // Membrete institucional (imagen real de la plantilla, ver src/assets/membrete-mvcs.png)
 const MEMBRETE_WIDTH_PX = 580
@@ -186,8 +188,14 @@ function tabla(columnas, filas, anchoTotal = PORTRAIT_WIDTH, estiloHeader = {}) 
   })
 }
 
+// Justificado ("both" en el XML real, w:jc val="both"): en la plantilla
+// original CASI todos los párrafos van justificados -- encabezados de
+// sección, cuerpo y viñetas por igual (solo el título principal, que se
+// arma aparte en construirAyudaMemoria(), va centrado). Antes estos
+// párrafos se quedaban alineados a la izquierda por defecto.
 function titulo2(texto, { color = COLOR_SECCION, font = FONT, size } = {}) {
   return new Paragraph({
+    alignment: AlignmentType.JUSTIFIED,
     spacing: { before: 300, after: 120 },
     children: [run({ text: texto, bold: true, font, color: color === null ? undefined : color, size })],
   })
@@ -199,10 +207,10 @@ function parrafo(runs, opts = {}) {
   // no sabe leer otra instancia de TextRun y el texto se pierde en silencio.
   const toRun = (r) => (r instanceof TextRun ? r : run(r))
   const children = Array.isArray(runs) ? runs.map(toRun) : [toRun(runs)]
-  return new Paragraph({ spacing: { after: 160 }, children, ...opts })
+  return new Paragraph({ alignment: AlignmentType.JUSTIFIED, spacing: { after: 160 }, children, ...opts })
 }
 function bullet(texto) {
-  return new Paragraph({ spacing: { after: 60 }, children: [run(`•  ${texto}`)] })
+  return new Paragraph({ alignment: AlignmentType.JUSTIFIED, spacing: { after: 60 }, children: [run(`•  ${texto}`)] })
 }
 
 // ---------------------------------------------------------------------------
@@ -588,7 +596,7 @@ export async function construirAyudaMemoria(data, regionId) {
       {
         properties: {
           page: {
-            size: { width: 11906, height: 16838, orientation: PageOrientation.PORTRAIT }, // A4
+            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.PORTRAIT }, // tamaño real de la plantilla
             margin: margenPagina,
           },
         },
@@ -599,7 +607,7 @@ export async function construirAyudaMemoria(data, regionId) {
       {
         properties: {
           page: {
-            size: { width: 11906, height: 16838, orientation: PageOrientation.LANDSCAPE }, // A4 apaisado
+            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.LANDSCAPE }, // tamaño real de la plantilla, apaisado
             margin: margenPagina,
           },
         },
