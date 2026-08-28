@@ -826,7 +826,18 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
 #    7 archivos _generated/*.js publicados.
 # ---------------------------------------------------------------------------
 def js_str(v):
+    # OJO (28/08/2026): algunos campos de texto libre de la base (sobre todo
+    # 'descripcion' de programadas/puntos criticos) vienen con saltos de
+    # línea y tabulaciones pegados desde Word/Excel. Antes solo se escapaba
+    # la barra invertida y la comilla simple -- un salto de línea o tab
+    # crudo dentro de un string de un solo apóstrofe rompe la sintaxis de
+    # JS ("Unterminated string"), lo que tumbó el build de Vite para
+    # Tumbes, Lambayeque y Piura. Ahora se escapan también \r, \n, \t y los
+    # separadores de línea/párrafo Unicode (U+2028/U+2029), que tampoco se
+    # permiten crudos dentro de un string de JS.
     s = str(v).replace("\\", "\\\\").replace("'", "\\'")
+    s = s.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
+    s = s.replace("\t", "\\t").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     return f"'{s}'"
 
 
