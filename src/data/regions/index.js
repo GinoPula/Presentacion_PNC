@@ -12,3 +12,11 @@ export const regions = { tumbes, puno, tacna, piura, ancash, lambayeque, ica, 'l
 export const REGION_LIST = [tumbes, puno, tacna, piura, ancash, lambayeque, ica, laLibertad].map((r) => ({ id: r.id, label: r.label, shortLabel: r.shortLabel }))
 
 export const DEFAULT_REGION = 'tumbes'
+
+// Pestaña "Vista General" (agregado nacional) -- se agrega como primera entrada del selector,
+// junto a las 8 regiones reales. Ver src/data/global.js para los datos agregados.
+export const GLOBAL_ID = 'global'
+
+export const VIEW_LIST = [{ id: GLOBAL_ID, label: 'Vista General', shortLabel: 'Global' }, ...REGION_LIST]
+
+export const DEFAULT_VIEW = GLOBAL_ID

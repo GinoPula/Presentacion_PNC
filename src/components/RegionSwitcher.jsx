@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { HiOutlineLocationMarker, HiOutlineChevronDown, HiOutlineCheck } from 'react-icons/hi'
-import { REGION_LIST } from '../data/regions'
+import { HiOutlineLocationMarker, HiOutlineGlobeAlt, HiOutlineChevronDown, HiOutlineCheck } from 'react-icons/hi'
+import { VIEW_LIST, GLOBAL_ID } from '../data/regions'
 
 export default function RegionSwitcher({ regionId, onChange, variant = 'desktop' }) {
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
-  const current = REGION_LIST.find((r) => r.id === regionId)
+  const current = VIEW_LIST.find((r) => r.id === regionId)
+  const CurrentIcon = regionId === GLOBAL_ID ? HiOutlineGlobeAlt : HiOutlineLocationMarker
 
   useEffect(() => {
     function onClick(e) {
@@ -41,7 +42,7 @@ export default function RegionSwitcher({ regionId, onChange, variant = 'desktop'
         }`}
       >
         <span className="flex items-center gap-2">
-          <HiOutlineLocationMarker className="text-brand-soft" />
+          <CurrentIcon className="text-brand-soft" />
           {current?.shortLabel ?? 'Región'}
         </span>
         <HiOutlineChevronDown className={`text-ink-mute transition-transform duration-200 ${open ? 'rotate-180' : ''}`} size={14} />
@@ -59,7 +60,7 @@ export default function RegionSwitcher({ regionId, onChange, variant = 'desktop'
               isMobile ? 'left-0 right-0' : 'right-0'
             }`}
           >
-            {REGION_LIST.map((r) => (
+            {VIEW_LIST.map((r, i) => (
               <li key={r.id}>
                 <button
                   role="option"
@@ -67,7 +68,7 @@ export default function RegionSwitcher({ regionId, onChange, variant = 'desktop'
                   onClick={() => select(r.id)}
                   className={`flex w-full items-center justify-between gap-3 rounded-xl px-3.5 py-2.5 text-left text-sm transition-colors ${
                     r.id === regionId ? 'bg-brand/15 text-brand-soft' : 'text-ink-dim hover:bg-white/[0.06] hover:text-ink'
-                  }`}
+                  } ${i === 0 ? 'mb-1 border-b border-white/[0.06] pb-2.5' : ''}`}
                 >
                   {r.label}
                   {r.id === regionId && <HiOutlineCheck size={16} />}

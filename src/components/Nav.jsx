@@ -3,14 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload } from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
 import { descargarAyudaMemoria } from '../lib/ayudaMemoria'
+import { GLOBAL_ID } from '../data/regions'
 
 export default function Nav({ data, regionId, onRegionChange }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [generando, setGenerando] = useState(false)
+  const isGlobal = regionId === GLOBAL_ID
 
   async function handleAyudaMemoria() {
-    if (generando) return
+    if (generando || isGlobal) return
     setGenerando(true)
     try {
       await descargarAyudaMemoria(data, regionId)
@@ -29,18 +31,26 @@ export default function Nav({ data, regionId, onRegionChange }) {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const links = [
-    { href: '#panorama', label: 'Panorama' },
-    { href: '#clasificacion', label: 'Clasificación' },
-    { href: '#tipos-intervencion', label: 'Tipos' },
-    { href: '#intervenciones', label: 'Intervenciones' },
-    { href: '#programadas', label: 'Programadas' },
-    { href: '#mapa', label: 'Mapa' },
-    data.puntosCriticos && { href: '#puntos-criticos', label: 'Puntos críticos' },
-    data.escenarios && { href: '#escenarios', label: 'Presupuesto' },
-    { href: '#activos', label: 'Activos y personal' },
-    { href: '#galeria', label: 'Galería' },
-  ].filter(Boolean)
+  const links = isGlobal
+    ? [
+        { href: '#estado-general', label: 'Estado general' },
+        { href: '#clasificacion', label: 'Clasificación' },
+        { href: '#tipos-intervencion', label: 'Tipos' },
+        { href: '#mapa', label: 'Mapa' },
+        data.escenarios && { href: '#presupuesto', label: 'Presupuesto' },
+        { href: '#maquinaria', label: 'Maquinarias' },
+        { href: '#galeria', label: 'Galería' },
+      ].filter(Boolean)
+    : [
+        { href: '#panorama', label: 'Panorama' },
+        { href: '#intervenciones', label: 'Intervenciones' },
+        { href: '#programadas', label: 'Programadas' },
+        { href: '#mapa', label: 'Mapa' },
+        data.puntosCriticos && { href: '#puntos-criticos', label: 'Puntos críticos' },
+        data.escenarios && { href: '#escenarios', label: 'Presupuesto' },
+        { href: '#activos', label: 'Activos y personal' },
+        { href: '#galeria', label: 'Galería' },
+      ].filter(Boolean)
 
   function handleRegionChange(id) {
     setOpen(false)
