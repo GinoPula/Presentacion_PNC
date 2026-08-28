@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 43762.0, km: 6.69, poblacion: 9430, provincias: ['Chiclayo', 'Lambayeque'] },
-    { tipo: 'Prevención', cantidad: 21, m3: 118026.35, km: 47.62, poblacion: 42210, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
+    { tipo: 'Prevención', cantidad: 22, m3: 127626.35, km: 50.62, poblacion: 43160, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 4, m3: 2788.0, km: null, poblacion: 9381, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 31, m3: 164576.35, km: 54.31, poblacion: 61021 },
+  ejecutadasTotal: { cantidad: 32, m3: 174176.35, km: 57.31, poblacion: 61971 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,8 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: '  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE            ', inicio: '15/07/2026', fin: '12/09/2026', volAcum: 1050.0, kmAcum: 0.0, poblacion: null },
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ', inicio: '12/08/2026', fin: '10/10/2026', volAcum: 66.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Prevención', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DE 3.0 KM DEL DREN GUADALUPE EN EL SECTOR "VIRGEN DEL CARMEN" DE LA LOCALIDAD DE MOCUPE DEL DISTRITO DE LAGUNAS MOCUPE, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”-00            ', inicio: '13/08/2026', fin: '26/08/2026', volAcum: 9600.0, kmAcum: 3.0, poblacion: 950 },
-    { provincia: 'Chiclayo', distrito: 'Pimentel', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “PRENDIMIENTO” EN LOS SECTORES DE LAS URB. INGENIERO I Y II Y LA PRADERA, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00                  ', inicio: '18/08/2026', fin: '29/08/2026', volAcum: 1090.0, kmAcum: 0.63, poblacion: 10200 },
+    { provincia: 'Chiclayo', distrito: 'Pimentel', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “PRENDIMIENTO” EN LOS SECTORES DE LAS URB. INGENIERO I Y II Y LA PRADERA, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00                  ', inicio: '18/08/2026', fin: '29/08/2026', volAcum: 1140.0, kmAcum: 0.71, poblacion: 10200 },
     { provincia: 'Lambayeque', distrito: 'Chochope', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.       ', inicio: '24/08/2026', fin: '06/09/2026', volAcum: 2770.0, kmAcum: 0.85, poblacion: 1200 },
   ],
 

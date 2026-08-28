@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 60.0, kmAcum: 0.0, poblacion: 750 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 600.0, kmAcum: 0.01, poblacion: 1800 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 1400.0, kmAcum: 0.02, poblacion: 1800 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -47,7 +47,7 @@ export default {
   conveniosCount: 6,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'vence 26/09/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Provincial Nasca', detail: 'hasta 27/09/2026' },
+    { entidad: 'Municipalidad Provincial Nasca', detail: 'vence 27/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
     { entidad: 'Municipalidad Distrital San Jose De Los Molinos', detail: 'hasta 01/02/2027' },
