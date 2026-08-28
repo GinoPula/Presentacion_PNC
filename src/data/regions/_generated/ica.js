@@ -2,15 +2,23 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 5, m3: 31332.0, km: 1.19, poblacion: 16650 },
-    { tipo: 'Prevención', cantidad: 12, m3: 85706.58, km: 4.17, poblacion: 11300 },
-    { tipo: 'Urgente atención', cantidad: 5, m3: 3720.0, km: null, poblacion: 3750 },
+    { tipo: 'Emergencia', cantidad: 5, m3: 31332.0, km: 1.19, poblacion: 16650, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Prevención', cantidad: 12, m3: 85706.58, km: 4.17, poblacion: 11300, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Urgente atención', cantidad: 5, m3: 3720.0, km: null, poblacion: 3750, provincias: ['Palpa'] },
   ],
   ejecutadasTotal: { cantidad: 22, m3: 120758.58, km: 5.36, poblacion: 31700 },
 
+  anioAnterior: '2025',
+  ejecutadasPorTipoAnioAnterior: [
+    { tipo: 'Emergencia', cantidad: 3, m3: 27960.0, km: 2.03, poblacion: 1880, provincias: ['Ica'] },
+    { tipo: 'Prevención', cantidad: 29, m3: 208057.5, km: 7.58, poblacion: 18587, provincias: ['Nasca', 'Pisco'] },
+    { tipo: 'Urgente atención', cantidad: 8, m3: 4543.0, km: 0.33, poblacion: 4780, provincias: ['Nasca', 'Palpa'] },
+  ],
+  ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, km: 9.94, poblacion: 25247 },
+
   enEjecucion: [
-    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 60.0, poblacion: 750 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 600.0, poblacion: 1800 },
+    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 60.0, kmAcum: 0.0, poblacion: 750 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 600.0, kmAcum: 0.01, poblacion: 1800 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -21,6 +29,20 @@ export default {
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
   programadasTotal: { cantidad: 11, metaVol: 86038.0, metaKm: 4.08, poblacion: 7240 },
+
+  programadasDetalle: [
+    { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°004-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA ,REGION ICA-00     ', fechaInicio: '01/09/2026', fechaFin: '15/09/2026', metaVol: 12852.0, metaKm: 0.48, poblacion: 90 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'San Mauricio', ficha: 'FT I N°037-2026-LDP- ICA', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA    ', fechaInicio: '12/09/2026', fechaFin: '26/09/2026', metaVol: 7290.0, metaKm: 0.27, poblacion: 470 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'San Mauricio', ficha: 'FT I N°038-2026-LDP- ICA', descripcion: ' DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA  ', fechaInicio: '21/09/2026', fechaFin: '05/10/2026', metaVol: 7020.0, metaKm: 0.26, poblacion: 470 },
+    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00             ', fechaInicio: '01/10/2026', fechaFin: '07/10/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
+    { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°006-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO II, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00     ', fechaInicio: '02/10/2026', fechaFin: '08/10/2026', metaVol: 4500.0, metaKm: 0.15, poblacion: 400 },
+    { provincia: 'Palpa', distrito: 'Llipata', sector: 'Arenal', ficha: 'FT I N°009-2025-LDP- ICA', descripcion: 'LIMPIEZA Y  DESCOLMATACION  EN EL CAUCE DEL RIO VIZCAS, SECTOR ARENAL, DISTRITO LLIPATA, PROVINCIA DE PALPA, DPTO ICA        ', fechaInicio: '15/10/2026', fechaFin: '29/10/2026', metaVol: 13300.0, metaKm: 0.38, poblacion: 90 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°002-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                 ', fechaInicio: '01/11/2026', fechaFin: '12/11/2026', metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
+    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00         ', fechaInicio: '11/11/2026', fechaFin: '13/11/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°015-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO II, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00     ', fechaInicio: '15/11/2026', fechaFin: '26/11/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 600 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Cantayo', ficha: 'FT I N°003-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO TIERRAS BLANCAS SECTOR CANTAYO TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                   ', fechaInicio: '11/12/2026', fechaFin: '20/12/2026', metaVol: 6800.0, metaKm: 0.3, poblacion: 3000 },
+    { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°007-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO I, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00      ', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 380 },
+  ],
 
   conveniosCount: 6,
   conveniosVigentes: [

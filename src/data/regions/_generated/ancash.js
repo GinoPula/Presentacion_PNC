@@ -2,14 +2,22 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060 },
-    { tipo: 'Prevención', cantidad: 43, m3: 143297.0, km: 16.46, poblacion: 45787 },
-    { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595 },
+    { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
+    { tipo: 'Prevención', cantidad: 43, m3: 143297.0, km: 16.46, poblacion: 45787, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
+    { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
   ejecutadasTotal: { cantidad: 55, m3: 162495.0, km: 23.61, poblacion: 68442 },
 
+  anioAnterior: '2025',
+  ejecutadasPorTipoAnioAnterior: [
+    { tipo: 'Emergencia', cantidad: 10, m3: 25200.68, km: 2.14, poblacion: 29765, provincias: ['Huaraz', 'Recuay'] },
+    { tipo: 'Prevención', cantidad: 55, m3: 174038.79, km: 29.64, poblacion: 159864, provincias: ['Bolognesi', 'Carhuaz', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Santa', 'Sihuas'] },
+    { tipo: 'Urgente atención', cantidad: 5, m3: 954.05, km: null, poblacion: 3012, provincias: ['Huaraz', 'Santa'] },
+  ],
+  ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, km: 31.78, poblacion: 192641 },
+
   enEjecucion: [
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH  ', inicio: '26/08/2026', fin: '31/08/2026', volAcum: 252.0, poblacion: 2516 },
+    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH  ', inicio: '26/08/2026', fin: '31/08/2026', volAcum: 252.0, kmAcum: 0.04, poblacion: 2516 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -30,6 +38,35 @@ export default {
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
   programadasTotal: { cantidad: 26, metaVol: 179507.85, metaKm: 18.35, poblacion: 20681 },
+
+  programadasDetalle: [
+    { provincia: 'Santa', distrito: 'Chimbote', sector: 'Villa María – 3 De Octubre', ficha: '111-2026-LDP-ANC-ANIN', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH', fechaInicio: '28/08/2026', fechaFin: '08/10/2026', metaVol: 25800.0, metaKm: 3.0, poblacion: 7456 },
+    { provincia: 'Ocros', distrito: 'Cochas', sector: 'Cochas', ficha: '103-2026-LDP-ANC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH ', fechaInicio: '31/08/2026', fechaFin: '30/09/2026', metaVol: 19328.94, metaKm: 0.6, poblacion: 340 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', sector: 'Panamericana Norte', ficha: '105-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PANAMERICANA NORTE - TRAMO PUENTE PANAMERICANA HASTA EL PUENTE BUENOS AIRES, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH ', fechaInicio: '02/09/2026', fechaFin: '18/09/2026', metaVol: 3600.0, metaKm: 0.36, poblacion: 500 },
+    { provincia: 'Yungay', distrito: 'Yungay', sector: 'Musho', ficha: '094-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SHUITO, CENTRO POBLADO DE MUSHO, DISTRITO Y PROVINCIA DE YUNGAY ', fechaInicio: '07/09/2026', fechaFin: '08/09/2026', metaVol: 384.0, metaKm: 0.08, poblacion: 367 },
+    { provincia: 'Yungay', distrito: 'Yungay', sector: 'Tumpa', ficha: '095-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LLULLAYACU, CENTRO POBLADO DE TUMPA, DISTRITO Y PROVINCIA DE YUNGAY ', fechaInicio: '08/09/2026', fechaFin: '13/09/2026', metaVol: 2400.0, metaKm: 0.5, poblacion: 745 },
+    { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH', fechaInicio: '09/09/2026', fechaFin: '25/09/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
+    { provincia: 'Recuay', distrito: 'Catac', sector: 'Utcuyacu', ficha: '001-2026-LDP-ANC', descripcion: ' DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL RIO OTCORURI SECTOR DE UTCUYACU DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH       ', fechaInicio: '10/09/2026', fechaFin: '11/09/2026', metaVol: 1575.0, metaKm: 0.3, poblacion: 103 },
+    { provincia: 'Recuay', distrito: 'Catac', sector: 'Chahuapampa', ficha: '027-2026-LDP-ANC', descripcion: ' DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL RIO SANTA DEL SECTOR DE CHAHUAPAMPA DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00    ', fechaInicio: '11/09/2026', fechaFin: '25/09/2026', metaVol: 9120.0, metaKm: 0.64, poblacion: 27 },
+    { provincia: 'Recuay', distrito: 'Recuay', sector: 'Uchipampa', ficha: '102-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH ', fechaInicio: '12/09/2026', fechaFin: '19/09/2026', metaVol: 3750.0, metaKm: 0.25, poblacion: 150 },
+    { provincia: 'Recuay', distrito: 'Catac', sector: 'Utcuyacu', ficha: '026-2026-LDP-ANC', descripcion: 'DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL CAUCE DEL RIO SANTA DEL SECTOR DE UTCUYACU DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH-00       ', fechaInicio: '15/09/2026', fechaFin: '29/09/2026', metaVol: 8550.0, metaKm: 0.6, poblacion: 103 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', sector: 'Ah Buenos Aires', ficha: '106-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR ASENTAMIENTO HUMANO BUENOS AIRES - TRAMO PUENTE BUENOS AIRES HASTA EL PUENTE LOS ARABES, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH', fechaInicio: '19/09/2026', fechaFin: '09/10/2026', metaVol: 4900.0, metaKm: 0.49, poblacion: 500 },
+    { provincia: 'Santa', distrito: 'Samanco', sector: 'Chimus', ficha: '070-2026-LDP-ANC', descripcion: ' LIMPIEZA DESCOLMATACIÓN Y EN LA MARGEN DERECHA DEL RIO NEPEÑA DEL SECTOR LOS CHIMUS, DISTRITO DE SAMANCO, PROVINCIA DE SANTA, DEPARTAMENTO DE ANCASH.  ', fechaInicio: '20/09/2026', fechaFin: '04/10/2026', metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
+    { provincia: 'Recuay', distrito: 'Recuay', sector: 'Uchipampa', ficha: '019-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO SANTA EN EL SECTOR UCHIPAMPA TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH-00 ', fechaInicio: '01/10/2026', fechaFin: '08/10/2026', metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', sector: 'Ah Los Arabes', ficha: '107-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR ASENTAMIENTO HUMANO LOS ARABES - TRAMO PUENTE LOS ARABES HASTA EL SECTOR EL ARENAL, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH', fechaInicio: '11/10/2026', fechaFin: '19/11/2026', metaVol: 8160.0, metaKm: 1.02, poblacion: 300 },
+    { provincia: 'Huaylas', distrito: 'Pueblo Libre', sector: 'Tocash – Llacta', ficha: '010-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUASHCA, EN EL SECTOR TOCASH – LLACTA TRAMO IV, DEL DISTRITO DE PUEBLO LIBRE, PROVINCIA DE HUAYLAS, DEPARTAMENTO ÁNCASH-00    ', fechaInicio: '19/10/2026', fechaFin: '31/10/2026', metaVol: 8797.5, metaKm: 0.69, poblacion: 90 },
+    { provincia: 'Santa', distrito: 'Santa', sector: 'Pueblo Viejo', ficha: '069-2026-LDP-ANC', descripcion: ' DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DE LA MARGEN IZQUIERDO DEL RIO SANTA SECTOR PUEBLO VIEJO, DISTRITO DE SANTA, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH   ', fechaInicio: '27/10/2026', fechaFin: '08/11/2026', metaVol: 4725.0, metaKm: 0.15, poblacion: 300 },
+    { provincia: 'Huari', distrito: 'Chavin De Huantar', sector: 'Cp Huarimayo', ficha: '038-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DE LA QUEBRADA QALLAC EN EL CENTRO POBLADO DE HUARIMAYO, DISTRITO DE CHAVIN DE HUANTAR, PROVINCIA DE HUARI, REGIÓN ANCASH-00             ', fechaInicio: '05/11/2026', fechaFin: '08/11/2026', metaVol: 504.56, metaKm: 0.21, poblacion: 131 },
+    { provincia: 'Huaylas', distrito: 'Pueblo Libre', sector: 'Cantac Uram', ficha: '011-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CANTAC URAM, EN EL SECTOR CANTAC URAM TRAMO V, DISTRITO DE PUEBLO LIBRE, PROVINCIA DE HUAYLAS, DEPARTAMENTO ÁNCASH-00     ', fechaInicio: '06/11/2026', fechaFin: '13/11/2026', metaVol: 4664.55, metaKm: 0.36, poblacion: 398 },
+    { provincia: 'Carhuaz', distrito: 'Acopampa', sector: 'Obraje', ficha: '044-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO CHUCCHUN – SECTOR OBRAJE, DEL DISTRITO DE ACOPAMPA, PROVINCIA DE CARHUAZ, DEPARTAMENTO ANCASH-00     ', fechaInicio: '12/11/2026', fechaFin: '25/11/2026', metaVol: 4950.0, metaKm: 1.1, poblacion: 965 },
+    { provincia: 'Huaylas', distrito: 'Pueblo Libre', sector: 'San Juan Tramo Ii', ficha: '018-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUASHCA, EN EL SECTOR DE SAN JUAN TRAMO II, DISTRITO DE PUEBLO LIBRE, PROVINCIA DE HUAYLAS, DEPARTAMENTO ÁNCASH-00       ', fechaInicio: '16/11/2026', fechaFin: '27/11/2026', metaVol: 7920.5, metaKm: 0.51, poblacion: 180 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', sector: 'Panamericana Norte', ficha: '091-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH', fechaInicio: '20/11/2026', fechaFin: '01/12/2026', metaVol: 1200.0, metaKm: 0.2, poblacion: 300 },
+    { provincia: 'Recuay', distrito: 'Catac', sector: 'Parco', ficha: '028-2026-LDP-ANC', descripcion: ' DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL CAUCE DEL RIO SANTA DEL SECTOR DE PARCO, TRAMO I, DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH-00  ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 9975.0, metaKm: 0.7, poblacion: 130 },
+    { provincia: 'Huaylas', distrito: 'Pueblo Libre', sector: 'Huaracayoc', ficha: '009-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUASHCA, EN EL SECTOR HUARACAYOC TRAMO III, DISTRITO DE PUEBLO LIBRE, PROVINCIA DE HUAYLAS, DEPARTAMENTO ÁNCASH-00     ', fechaInicio: '06/12/2026', fechaFin: '20/12/2026', metaVol: 9159.6, metaKm: 0.82, poblacion: 356 },
+    { provincia: 'Huaraz', distrito: 'Independencia', sector: 'Acovichay Alto', ficha: '048-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL RIO CASCA DEL SECTOR ACOVICHAY ALTO, DISTRITO DE INDEPENDENCIA, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ANCASH-00     ', fechaInicio: '10/12/2026', fechaFin: '18/12/2026', metaVol: 4238.55, metaKm: 0.68, poblacion: 240 },
+    { provincia: 'Recuay', distrito: 'Ticapampa', sector: 'Quillajirca', ficha: '024-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CANAL DREN QUELLAJIRCA, EN EL SECTOR QUELLAJIRCA, DISTRITO DE TICAPAMPA, PROVINCIA DE RECUAY, DEPARTAMENTO ÁNCASH-00 ', fechaInicio: '13/12/2026', fechaFin: '15/12/2026', metaVol: 597.55, metaKm: 0.17, poblacion: 50 },
+    { provincia: 'Recuay', distrito: 'Catac', sector: 'Parco', ficha: '029-2026-LDP-ANC', descripcion: ' DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN DERECHO DEL CAUCE DEL RIO SANTA DEL SECTOR DE PARCO, TRAMO II, DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00  ', fechaInicio: '17/12/2026', fechaFin: '26/12/2026', metaVol: 8122.5, metaKm: 0.57, poblacion: 70 },
+  ],
 
   conveniosCount: 5,
   conveniosVigentes: [
