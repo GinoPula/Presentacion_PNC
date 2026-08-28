@@ -18,8 +18,8 @@ export default {
 
   enEjecucion: [
     { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA  ', inicio: '06/08/2026', fin: '30/08/2026', volAcum: 7400.0, kmAcum: 0.22, poblacion: 110 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: '"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA"', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 2000.0, kmAcum: 0.23, poblacion: 372 },
-    { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00         ', inicio: '27/08/2026', fin: '10/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: '"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA"', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 5600.0, kmAcum: 0.71, poblacion: 372 },
+    { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00         ', inicio: '27/08/2026', fin: '10/09/2026', volAcum: 650.0, kmAcum: 0.12, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -105,8 +105,7 @@ export default {
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'Caterpillar', codigos: ['JLX00828', 'JLX00829'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 3, marca: 'John Deere', codigos: ['D001580', 'D001578', 'D001587'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10107', 'TJT10095'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 3, marca: 'John Deere', codigos: ['810139', 'D810495', '810396'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810371'], estado: 'inoperativo', nota: 'Falla en el módulo de control electrónico. HT N° 124313' },
+    { tipo: 'Excavadora hidráulica', cantidad: 4, marca: 'John Deere', codigos: ['810139', '810371', 'D810495', '810396'], estado: 'operativo' },
     { tipo: 'Mini cargador', cantidad: 3, marca: 'John Deere', codigos: ['G278945', 'G278937', 'G261847'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03374'], estado: 'operativo' },
     { tipo: 'Plataforma', cantidad: 1, marca: 'ACS', codigos: ['EGR-068'], estado: 'operativo' },
