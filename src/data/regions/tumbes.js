@@ -25,6 +25,36 @@ export default {
 
   ...datosBD,
 
+  // Ayuda Memoria (habilitado 28/08/2026 -- extendido desde el piloto de La Libertad).
+  ayudaMemoriaDisponible: true,
+
+  // todosResponsables (agregado 28/08/2026): igual método que La Libertad --
+  // filas de 'EXCEL_CONSOLIDADO_536_PARA_MIDAGRI_14.08.2026_VF_REV_ANA.xlsx',
+  // hoja CONSOLIDADO, filtrado por DEPARTAMENTO, columna RESPONSABLE tal cual
+  // (ANA/MIDAGRI/MVCS/DEFENSA/MTC). Ver comentario completo en
+  // src/data/regions/la-libertad.js sobre por qué no existe "ANA CONTRATA" y
+  // por qué actividad/meta/unidad son solo referenciales (no se muestran en
+  // el documento).
+
+  todosResponsables: [
+    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'CP. San Isidro', ficha: 'FTR-CB-PREV N° 1012-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación, consformación de bordos en la quebrada Cansas', meta: 0.82, unidad: 'Km', responsable: 'ANA', poblacion: 383 },
+    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Cristales-Malval', ficha: 'FTR-CB-PREV N° 1027-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en la quebrada Gamarra', meta: 1.3, unidad: 'Km', responsable: 'ANA', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Malval', ficha: 'FTR-MC-PREV N° 0665-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Santa Eulalia', meta: 0.45, unidad: 'Km', responsable: 'MVCS', poblacion: 502 },
+    { provincia: 'Tumbes', distrito: 'Pampas de Hospital', sector: 'Cerro Blanco 1 (MD)', ficha: 'FTR-CB-PREV N° 0316-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Santa', meta: 0.7, unidad: 'Km', responsable: 'ANA', poblacion: 50 },
+    { provincia: 'Tumbes', distrito: 'Pampas de Hospital', sector: 'Cabuyal', ficha: 'FTR-MC-PREV N° 0129-2026-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Motupe', meta: 3.2, unidad: 'Km', responsable: 'ANA', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'Pampas de Hospital', sector: 'La Inverna', ficha: 'FTR-MC-PREV N° 0161-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos  y poza de disipación en la quebrada Gamarra', meta: 0.8, unidad: 'Km', responsable: 'DEFENSA', poblacion: 1400 },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'Vista Hermosa', ficha: 'FTR-CB-PREV N° 0169-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Santa', meta: 0.6, unidad: 'Km', responsable: 'MVCS', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'Pechichal', ficha: 'FTR-CB-PREV N° 1026-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de dique enrocado en la margen izquierda del río Tumbes', meta: 1.3, unidad: 'Km', responsable: 'ANA', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'El Peligro', ficha: 'FTR-CB-PREV N° 1028-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Piura', meta: 1.86, unidad: 'Km', responsable: 'ANA', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'La Peña', ficha: 'FTR-MC-PREV N° 0143-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en la quebrada Huayo Ingenio', meta: 1.15, unidad: 'Km', responsable: 'DEFENSA', poblacion: 4375 },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'Vaqueria', ficha: 'FTR-MC-PREV N° 0195-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en la quebrada Chullo', meta: 0.59, unidad: 'Km', responsable: 'ANA', poblacion: 350 },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'naranjo-Casablanqueada', ficha: 'FTR-MC-PREV N° 0685-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce del río Tumbes', meta: 1.3, unidad: 'Km', responsable: 'ANA', poblacion: 1250 },
+    { provincia: 'Tumbes', distrito: 'San Juan de la Virgen', sector: 'Puerto el Cura-Pampagrande', ficha: 'FTR-CB-PREV N° 0123-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en la quebrada Utcubamba', meta: 0.41, unidad: 'Km', responsable: 'ANA', poblacion: null },
+    { provincia: 'Tumbes', distrito: 'San Juan de la Virgen', sector: 'Cerro Blanco 2', ficha: 'FTR-CB-PREV N° 0315-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Piura', meta: 0.6, unidad: 'Km', responsable: 'ANA', poblacion: 270 },
+    { provincia: 'Zarumilla', distrito: 'Matapalo', sector: 'Matapalo', ficha: 'FTR-MC-PREV N° 0196-2025-ANA-AAA.JZ-ALA.T', actividad: 'Limpieza, descolmatación y conformación de bordos en el río Loco (Quebrada río Loco)', meta: 2.4, unidad: 'Km', responsable: 'DEFENSA', poblacion: null },
+  ],
+  todosResponsablesResumen: { ana: 10, midagri: 0, defensa: 3, mtc: 0, mvcs: 2, total: 15 },
+
   puntosCriticos: [
     {
       provincia: 'Tumbes',

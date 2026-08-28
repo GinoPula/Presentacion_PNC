@@ -53,7 +53,7 @@ export default function Nav({ data, regionId, onRegionChange }) {
         scrolled ? 'border-b border-white/[0.06] bg-surface-0/85 backdrop-blur-md' : 'border-b border-transparent bg-transparent'
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-6 py-4">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-6 py-4">
         <a href="#top" className="flex shrink-0 items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white">PNC</span>
           <span className="hidden flex-col leading-tight sm:flex">
@@ -74,15 +74,17 @@ export default function Nav({ data, regionId, onRegionChange }) {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 lg:flex">
+        <div className="hidden shrink-0 items-center gap-2 lg:flex">
           {data.ayudaMemoriaDisponible && (
             <button
               onClick={handleAyudaMemoria}
               disabled={generando}
-              className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink disabled:opacity-50"
+              title={generando ? 'Generando…' : 'Ayuda Memoria'}
+              aria-label={generando ? 'Generando Ayuda Memoria' : 'Generar Ayuda Memoria'}
+              className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink disabled:opacity-50 2xl:px-3.5"
             >
               <HiOutlineDocumentDownload size={16} />
-              {generando ? 'Generando…' : 'Ayuda Memoria'}
+              <span className="hidden 2xl:inline">{generando ? 'Generando…' : 'Ayuda Memoria'}</span>
             </button>
           )}
           <RegionSwitcher regionId={regionId} onChange={handleRegionChange} />

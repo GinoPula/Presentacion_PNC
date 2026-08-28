@@ -273,10 +273,14 @@ function parrafoActividad(a) {
 function seccionNarrativa(data, regionLabel) {
   const n = data.ayudaMemoriaNarrativa
   if (!n) {
+    // Regiones sin narrativa curada a mano (todas menos La Libertad por ahora):
+    // se arma un párrafo genérico con el total ya vivo del pipeline
+    // (data.ejecutadasTotal) y el período de meta.periodo (p.ej. "Agosto 2026"),
+    // en vez de inventar un desglose por actividad que no tenemos curado.
     return [
       titulo2(`Intervenciones de PNC Maquinarias en la región ${regionLabel}.`, { size: 24 }),
       parrafo(
-        `Durante el ${data.periodoActual || 'periodo actual'}, el PNC Maquinarias en la región ${regionLabel} ha ejecutado ${fmtNum(data.ejecutadasTotal?.cantidad)} intervenciones.`
+        `Durante el ${data.periodoActual || data.meta?.periodo || 'periodo actual'}, el PNC Maquinarias en la región ${regionLabel} ha ejecutado ${fmtNum(data.ejecutadasTotal?.cantidad)} intervenciones.`
       ),
     ]
   }
@@ -458,24 +462,24 @@ function seccionTodosResponsables(data, regionLabel) {
   const out = [
     titulo2('Acuerdos Puntos Críticos -- todos los responsables'),
     parrafo(
-      `En la región ${regionLabel} se han identificado ${resumen?.total ?? tr.length} puntos críticos a cargo de los distintos responsables del Acuerdo Multisectorial (ANA, ANA Contrata, Defensa, MTC y MVCS -- Vivienda), de acuerdo al siguiente detalle:`
+      `En la región ${regionLabel} se han identificado ${resumen?.total ?? tr.length} puntos críticos a cargo de los distintos responsables del Acuerdo Multisectorial (ANA, MIDAGRI, Defensa, MTC y MVCS -- Vivienda), de acuerdo al siguiente detalle:`
     ),
   ]
   if (resumen) {
     out.push(
       tabla(
         [
-          { clave: 'ana', titulo: 'ANA', peso: 0.13, align: AlignmentType.RIGHT },
-          { clave: 'anaContrata', titulo: 'ANA CONTRATA', peso: 0.22, align: AlignmentType.RIGHT },
-          { clave: 'defensa', titulo: 'DEFENSA', peso: 0.16, align: AlignmentType.RIGHT },
-          { clave: 'mtc', titulo: 'MTC', peso: 0.13, align: AlignmentType.RIGHT },
-          { clave: 'mvcs', titulo: 'MVCS (VIVIENDA)', peso: 0.22, align: AlignmentType.RIGHT },
-          { clave: 'total', titulo: 'TOTAL', peso: 0.14, align: AlignmentType.RIGHT },
+          { clave: 'ana', titulo: 'ANA', peso: 0.15, align: AlignmentType.RIGHT },
+          { clave: 'midagri', titulo: 'MIDAGRI', peso: 0.18, align: AlignmentType.RIGHT },
+          { clave: 'defensa', titulo: 'DEFENSA', peso: 0.17, align: AlignmentType.RIGHT },
+          { clave: 'mtc', titulo: 'MTC', peso: 0.14, align: AlignmentType.RIGHT },
+          { clave: 'mvcs', titulo: 'MVCS (VIVIENDA)', peso: 0.21, align: AlignmentType.RIGHT },
+          { clave: 'total', titulo: 'TOTAL', peso: 0.15, align: AlignmentType.RIGHT },
         ],
         [
           {
             ana: fmtNum(resumen.ana),
-            anaContrata: fmtNum(resumen.anaContrata),
+            midagri: fmtNum(resumen.midagri),
             defensa: fmtNum(resumen.defensa),
             mtc: fmtNum(resumen.mtc),
             mvcs: fmtNum(resumen.mvcs),

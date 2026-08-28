@@ -28,6 +28,15 @@ export default {
 
   ...datosBD,
 
+  // Ayuda Memoria (habilitado 28/08/2026 -- extendido desde el piloto de La Libertad).
+  // La sección "Acuerdos Puntos Críticos -- todos los responsables" no aparece
+  // todavía en esta región: falta confirmar con Franco el mapeo de categorías
+  // (ANA / ANA CONTRATA / DEFENSA / MTC / MVCS) contra el consolidado nuevo
+  // antes de extender esa tabla más allá de La Libertad. El resto del
+  // documento (antecedentes, narrativa, programadas, puntos críticos ANA,
+  // flota, plan FEN/escenarios) sí sale con datos reales de esta región.
+  ayudaMemoriaDisponible: true,
+
   puntosCriticos: null,
   escenarios: null,
 
