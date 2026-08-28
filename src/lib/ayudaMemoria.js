@@ -80,11 +80,15 @@ const HEADER_FILL = '000000' // relleno de encabezado de tabla (mayoría: puntos
 const HEADER_TEXT = 'FFFFFF'
 const HEADER_FILL_PROGRAMADAS = 'AED6F1' // la tabla de "programadas" usa celeste, no negro
 const HEADER_TEXT_PROGRAMADAS = '000000'
-const CELL_FONT_SIZE = 17 // 8.5pt, en half-points
+const CELL_FONT_SIZE = 17 // 8.5pt, en half-points -- tamaño por defecto de las tablas angostas
+const PROGRAMADAS_FONT_SIZE = 12 // 6pt -- igual que la plantilla real: la tabla de "programadas" tiene 11 columnas y se queda toda en vertical (nunca apaisada), así que usa letra chica para que no se corten encabezados
 const PAGE_WIDTH = 11909 // tamaño de página EXACTO de la plantilla real (no el A4 "de catálogo" 11906)
 const PAGE_HEIGHT = 16834
-const PORTRAIT_WIDTH = PAGE_WIDTH - 1133 - 1440 // ancho útil vertical, con los márgenes reales (izq 1133 / der 1440 DXA)
-const LANDSCAPE_WIDTH = PAGE_HEIGHT - 1133 - 1440 // ancho útil apaisado (el "ancho" pasa a ser el alto de la página al girar) -- para las tablas más anchas (programadas, todos los responsables)
+// Todas las hojas van en vertical, igual que la plantilla real -- ver
+// construirAyudaMemoria(). Las tablas anchas (programadas) usan letra chica
+// en vez de una sección apaisada para entrar en el ancho útil de una hoja
+// vertical.
+const PORTRAIT_WIDTH = PAGE_WIDTH - 1133 - 1440 // ancho útil, con los márgenes reales (izq 1133 / der 1440 DXA)
 
 // Membrete institucional (imagen real de la plantilla, ver src/assets/membrete-mvcs.png)
 const MEMBRETE_WIDTH_PX = 580
@@ -145,7 +149,7 @@ function crearPie() {
   })
 }
 
-function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = false, fill = HEADER_FILL, textColor = HEADER_TEXT } = {}) {
+function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = false, fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE } = {}) {
   return new TableCell({
     width: width ? { size: width, type: WidthType.DXA } : undefined,
     shading: header ? { type: ShadingType.CLEAR, color: 'auto', fill } : undefined,
@@ -159,7 +163,7 @@ function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold 
             text: String(texto ?? ''),
             bold: header || bold,
             color: header ? textColor : undefined,
-            size: CELL_FONT_SIZE,
+            size: fontSize,
           }),
         ],
       }),
@@ -168,7 +172,7 @@ function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold 
 }
 
 function tabla(columnas, filas, anchoTotal = PORTRAIT_WIDTH, estiloHeader = {}) {
-  const { fill = HEADER_FILL, textColor = HEADER_TEXT } = estiloHeader
+  const { fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE } = estiloHeader
   const anchos = columnas.map((c) => Math.round(anchoTotal * (c.peso ?? 1 / columnas.length)))
   return new Table({
     width: { size: anchoTotal, type: WidthType.DXA },
@@ -176,12 +180,12 @@ function tabla(columnas, filas, anchoTotal = PORTRAIT_WIDTH, estiloHeader = {}) 
     rows: [
       new TableRow({
         tableHeader: true,
-        children: columnas.map((c, i) => celda(c.titulo, { header: true, width: anchos[i], align: c.align, fill, textColor })),
+        children: columnas.map((c, i) => celda(c.titulo, { header: true, width: anchos[i], align: c.align, fill, textColor, fontSize })),
       }),
       ...filas.map(
         (fila) =>
           new TableRow({
-            children: columnas.map((c, i) => celda(fila[c.clave], { width: anchos[i], align: c.align })),
+            children: columnas.map((c, i) => celda(fila[c.clave], { width: anchos[i], align: c.align, fontSize })),
           })
       ),
     ],
@@ -314,21 +318,21 @@ function seccionProgramadas(data, regionLabel) {
     ),
     tabla(
       [
-        { clave: 'depart', titulo: 'DEPART.', peso: 0.09 },
-        { clave: 'provincia', titulo: 'PROV.', peso: 0.08 },
-        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.09 },
-        { clave: 'sector', titulo: 'SECTOR', peso: 0.09 },
-        { clave: 'ficha', titulo: 'FICHA TEC.', peso: 0.1 },
-        { clave: 'descripcion', titulo: 'DESCRIPCIÓN', peso: 0.31 },
-        { clave: 'fechaInicio', titulo: 'INICIO', peso: 0.06 },
-        { clave: 'fechaFin', titulo: 'FIN', peso: 0.06 },
-        { clave: 'metaVol', titulo: 'VOL', peso: 0.04, align: AlignmentType.RIGHT },
+        { clave: 'depart', titulo: 'DEPART.', peso: 0.07 },
+        { clave: 'provincia', titulo: 'PROV.', peso: 0.07 },
+        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.08 },
+        { clave: 'sector', titulo: 'SECTOR', peso: 0.08 },
+        { clave: 'ficha', titulo: 'FICHA TEC.', peso: 0.11 },
+        { clave: 'descripcion', titulo: 'DESCRIPCIÓN', peso: 0.32 },
+        { clave: 'fechaInicio', titulo: 'INICIO', peso: 0.07 },
+        { clave: 'fechaFin', titulo: 'FIN', peso: 0.07 },
+        { clave: 'metaVol', titulo: 'VOL', peso: 0.045, align: AlignmentType.RIGHT },
         { clave: 'metaKm', titulo: 'KM', peso: 0.04, align: AlignmentType.RIGHT },
-        { clave: 'poblacion', titulo: 'POB.', peso: 0.04, align: AlignmentType.RIGHT },
+        { clave: 'poblacion', titulo: 'POB', peso: 0.045, align: AlignmentType.RIGHT },
       ],
       filas,
-      LANDSCAPE_WIDTH,
-      { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS }
+      PORTRAIT_WIDTH,
+      { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS, fontSize: PROGRAMADAS_FONT_SIZE }
     ),
     parrafo(
       'Las fechas de inicio programadas están sujetas a variaciones por condiciones climáticas, gestiones administrativas, disponibilidad de recursos, situaciones de emergencia u otros factores imprevistos.'
@@ -367,26 +371,94 @@ function seccionPuntosCriticos(data) {
 }
 
 // ---------------------------------------------------------------------------
-// Todos los responsables (en vivo) -- reemplaza la imagen del MAIN
+// Todos los responsables (en vivo) -- reemplaza la imagen del MAIN. A pedido
+// del usuario (28/08/2026), el detalle va como tabla dinámica agrupada por
+// RESPONSABLE -> PROVINCIA -> DISTRITO con conteo, igual que la tabla
+// dinámica de Excel que compartió como referencia -- no como listado plano.
 // ---------------------------------------------------------------------------
+function agruparPivotResponsables(tr) {
+  const conteos = new Map()
+  tr.forEach((r) => {
+    const clave = `${r.responsable}${r.provincia}${r.distrito}`
+    conteos.set(clave, (conteos.get(clave) || 0) + 1)
+  })
+  const combos = [...conteos.entries()].map(([clave, cantidad]) => {
+    const [responsable, provincia, distrito] = clave.split('')
+    return { responsable, provincia, distrito, cantidad }
+  })
+  combos.sort(
+    (a, b) =>
+      a.responsable.localeCompare(b.responsable, 'es') ||
+      a.provincia.localeCompare(b.provincia, 'es') ||
+      a.distrito.localeCompare(b.distrito, 'es')
+  )
+  return combos
+}
+
+function tablaPivotResponsables(combos, total) {
+  const pesos = [0.28, 0.28, 0.28, 0.16]
+  const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
+  const estilo = { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS }
+
+  let prevResp = null
+  let prevProv = null
+  const filas = combos.map((c) => {
+    const nuevoResp = c.responsable !== prevResp
+    const nuevoProv = nuevoResp || c.provincia !== prevProv
+    prevResp = c.responsable
+    prevProv = c.provincia
+    return new TableRow({
+      children: [
+        celda(nuevoResp ? c.responsable.toUpperCase() : '', { width: anchos[0], bold: nuevoResp }),
+        celda(nuevoProv ? c.provincia : '', { width: anchos[1], bold: nuevoProv }),
+        celda(c.distrito, { width: anchos[2] }),
+        celda(fmtNum(c.cantidad), { width: anchos[3], align: AlignmentType.RIGHT }),
+      ],
+    })
+  })
+
+  const filaTotal = new TableRow({
+    children: [
+      new TableCell({
+        columnSpan: 3,
+        width: { size: anchos[0] + anchos[1] + anchos[2], type: WidthType.DXA },
+        verticalAlign: VerticalAlign.CENTER,
+        margins: { top: 60, bottom: 60, left: 80, right: 80 },
+        children: [
+          new Paragraph({ alignment: AlignmentType.RIGHT, children: [run({ text: 'Total general', bold: true, size: CELL_FONT_SIZE })] }),
+        ],
+      }),
+      celda(fmtNum(total), { width: anchos[3], align: AlignmentType.RIGHT, bold: true }),
+    ],
+  })
+
+  return new Table({
+    width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
+    columnWidths: anchos,
+    rows: [
+      new TableRow({
+        tableHeader: true,
+        children: [
+          celda('RESPONSABLE', { header: true, width: anchos[0], ...estilo }),
+          celda('PROVINCIA', { header: true, width: anchos[1], ...estilo }),
+          celda('DISTRITO', { header: true, width: anchos[2], ...estilo }),
+          celda('CUENTA DE DISTRITO', { header: true, width: anchos[3], align: AlignmentType.RIGHT, ...estilo }),
+        ],
+      }),
+      ...filas,
+      filaTotal,
+    ],
+  })
+}
+
 function seccionTodosResponsables(data, regionLabel) {
   const tr = data.todosResponsables
   const resumen = data.todosResponsablesResumen
   if (!tr || !tr.length) return []
-  const filas = tr.map((r) => ({
-    provincia: r.provincia,
-    distrito: r.distrito,
-    sector: r.sector,
-    ficha: r.ficha,
-    actividad: r.actividad,
-    meta: `${fmtNum(r.meta, r.meta % 1 ? 3 : 0)} ${r.unidad || ''}`.trim(),
-    responsable: r.responsable,
-    poblacion: r.poblacion != null ? fmtNum(r.poblacion) : '—',
-  }))
   const out = [
     titulo2('Acuerdos Puntos Críticos -- todos los responsables'),
     parrafo(
-      `En la región ${regionLabel} se han identificado ${resumen?.total ?? filas.length} puntos críticos a cargo de los distintos responsables del Acuerdo Multisectorial (ANA, ANA Contrata, Defensa, MTC y MVCS -- Vivienda), de acuerdo al siguiente detalle:`
+      `En la región ${regionLabel} se han identificado ${resumen?.total ?? tr.length} puntos críticos a cargo de los distintos responsables del Acuerdo Multisectorial (ANA, ANA Contrata, Defensa, MTC y MVCS -- Vivienda), de acuerdo al siguiente detalle:`
     ),
   ]
   if (resumen) {
@@ -412,24 +484,10 @@ function seccionTodosResponsables(data, regionLabel) {
         ]
       )
     )
+    out.push(new Paragraph({ spacing: { before: 160, after: 80 }, children: [] }))
   }
-  out.push(new Paragraph({ spacing: { before: 160, after: 80 }, children: [] }))
-  out.push(
-    tabla(
-      [
-        { clave: 'provincia', titulo: 'PROV.', peso: 0.09 },
-        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.1 },
-        { clave: 'sector', titulo: 'SECTOR', peso: 0.13 },
-        { clave: 'ficha', titulo: 'FICHA / CÓDIGO', peso: 0.18 },
-        { clave: 'actividad', titulo: 'ACTIVIDAD', peso: 0.29 },
-        { clave: 'meta', titulo: 'META', peso: 0.06, align: AlignmentType.RIGHT },
-        { clave: 'responsable', titulo: 'RESP.', peso: 0.09 },
-        { clave: 'poblacion', titulo: 'POB.', peso: 0.06, align: AlignmentType.RIGHT },
-      ],
-      filas,
-      LANDSCAPE_WIDTH
-    )
-  )
+  out.push(parrafo('Detalle por responsable, provincia y distrito (cantidad de puntos críticos):'))
+  out.push(tablaPivotResponsables(agruparPivotResponsables(tr), resumen?.total ?? tr.length))
   return out
 }
 
@@ -550,14 +608,14 @@ export async function construirAyudaMemoria(data, regionId) {
   const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
   const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
 
-  // Membrete institucional -- una sola descarga, se reutilizan los bytes en
-  // los encabezados de las dos secciones (cada sección necesita su propia
-  // instancia de Header/ImageRun, docx no permite compartir el objeto).
   const membreteBytes = await cargarMembrete()
 
-  // Sección 1 (vertical): portada, antecedentes y la narrativa -- son
-  // párrafos de texto corrido, no necesitan más ancho.
-  const seccionVertical = [
+  // Un solo tipo de hoja, todo en vertical -- igual que la plantilla real
+  // (que nunca usa páginas apaisadas; las tablas anchas como "programadas"
+  // usan letra chica en vez de girar la hoja). Antes se armaba en dos
+  // secciones (una vertical y una apaisada para las tablas más anchas), pero
+  // el usuario pidió que todas las hojas queden en posición vertical.
+  const contenido = [
     parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
     new Paragraph({
       alignment: AlignmentType.CENTER,
@@ -568,13 +626,6 @@ export async function construirAyudaMemoria(data, regionId) {
     }),
     ...seccionAntecedentes(),
     ...seccionNarrativa(data, regionLabel),
-  ]
-
-  // Sección 2 (apaisada): todas las tablas. Varias tienen muchas columnas
-  // (programadas, todos los responsables) y en vertical los encabezados
-  // quedaban partidos en 2-3 líneas ("DEPART." -> "DEPAR/T."); en apaisado
-  // entran cómodos sin perder ninguna columna.
-  const seccionApaisada = [
     ...seccionProgramadas(data, regionLabel),
     ...seccionPuntosCriticos(data),
     ...seccionFlota(data),
@@ -602,18 +653,7 @@ export async function construirAyudaMemoria(data, regionId) {
         },
         headers: { default: crearEncabezado(membreteBytes) },
         footers: { default: crearPie() },
-        children: seccionVertical,
-      },
-      {
-        properties: {
-          page: {
-            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.LANDSCAPE }, // tamaño real de la plantilla, apaisado
-            margin: margenPagina,
-          },
-        },
-        headers: { default: crearEncabezado(membreteBytes) },
-        footers: { default: crearPie() },
-        children: seccionApaisada,
+        children: contenido,
       },
     ],
   })
