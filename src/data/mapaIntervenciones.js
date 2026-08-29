@@ -4279,12 +4279,12 @@ const mapaIntervenciones = {
     "provincia": "Chiclayo",
     "distrito": "Lagunas",
     "sector": "",
-    "descripcion": "  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE            ",
+    "descripcion": "  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE             ",
     "ficha": "057-2026 -AA-U-LAM",
     "fechaInicio": "15/07/2026",
     "fechaFin": "12/09/2026",
     "poblacion": null,
-    "volumen": 1050,
+    "volumen": 1380,
     "enlace": null
   },
   {
@@ -4403,7 +4403,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "29/08/2026",
     "poblacion": 10200,
-    "volumen": 1140,
+    "volumen": 1240,
     "enlace": null
   },
   {
@@ -4420,7 +4420,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "06/09/2026",
     "poblacion": 1200,
-    "volumen": 2770,
+    "volumen": 3720,
     "enlace": null
   }
 ],
@@ -6551,7 +6551,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/08/2026",
     "fechaFin": "03/09/2026",
     "poblacion": 8788,
-    "volumen": 8324,
+    "volumen": 2169,
     "enlace": null
   }
 ],
