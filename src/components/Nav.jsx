@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload } from 'react-icons/hi'
+import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList } from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
+import ReporteDiarioModal from './ReporteDiarioModal'
 import { descargarAyudaMemoria } from '../lib/ayudaMemoria'
 import { GLOBAL_ID } from '../data/regions'
 
@@ -9,7 +10,13 @@ export default function Nav({ data, regionId, onRegionChange }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [generando, setGenerando] = useState(false)
+  const [reporteAbierto, setReporteAbierto] = useState(false)
   const isGlobal = regionId === GLOBAL_ID
+  // El reporte diario se filtra al departamento seleccionado en ese momento (si no es Vista
+  // General); en Vista General muestra el consolidado nacional, igual al Excel que se le envía
+  // al Ministro.
+  const reporteRegionId = isGlobal ? null : regionId
+  const reporteRegionLabel = isGlobal ? null : data.shortLabel || data.meta?.region
 
   async function handleAyudaMemoria() {
     if (generando || isGlobal) return
@@ -85,6 +92,15 @@ export default function Nav({ data, regionId, onRegionChange }) {
         </nav>
 
         <div className="hidden shrink-0 items-center gap-2 lg:flex">
+          <button
+            onClick={() => setReporteAbierto(true)}
+            title="Reporte Diario"
+            aria-label="Ver Reporte Diario"
+            className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-brand/30 bg-brand/10 px-3 py-2 text-[13px] font-medium text-brand-soft transition-colors hover:bg-brand/15 2xl:px-3.5"
+          >
+            <HiOutlineClipboardList size={16} />
+            <span className="hidden 2xl:inline">Reporte Diario</span>
+          </button>
           {data.ayudaMemoriaDisponible && (
             <button
               onClick={handleAyudaMemoria}
@@ -120,6 +136,16 @@ export default function Nav({ data, regionId, onRegionChange }) {
           >
             <div className="flex flex-col gap-3 px-6 py-4">
               <RegionSwitcher regionId={regionId} onChange={handleRegionChange} variant="mobile" />
+              <button
+                onClick={() => {
+                  setOpen(false)
+                  setReporteAbierto(true)
+                }}
+                className="flex items-center justify-center gap-1.5 rounded-lg border border-brand/30 bg-brand/10 px-3 py-2.5 text-sm font-medium text-brand-soft"
+              >
+                <HiOutlineClipboardList size={16} />
+                Reporte Diario
+              </button>
               {data.ayudaMemoriaDisponible && (
                 <button
                   onClick={handleAyudaMemoria}
@@ -146,6 +172,13 @@ export default function Nav({ data, regionId, onRegionChange }) {
           </motion.nav>
         )}
       </AnimatePresence>
+
+      <ReporteDiarioModal
+        open={reporteAbierto}
+        onClose={() => setReporteAbierto(false)}
+        regionId={reporteRegionId}
+        regionLabel={reporteRegionLabel}
+      />
     </header>
   )
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "codigo": "FTI N° 028-2026-LDE-PUN",
+    "estado": "Ejecutada",
+    "img": "puno-1"
+  },
+  {
+    "id": 2,
+    "codigo": "FTI N° 030-2026-LDP-PUN",
+    "estado": "Ejecutada",
+    "img": "puno-2"
+  },
+  {
+    "id": 3,
+    "codigo": "FTI N° 043-2026-LDP-PUN",
+    "estado": "Ejecutada",
+    "img": "puno-3"
+  },
+  {
+    "id": 4,
+    "codigo": "FTI N° 010-2026-LDE-PUN",
+    "estado": "Ejecutada",
+    "img": "puno-4"
+  }
+]

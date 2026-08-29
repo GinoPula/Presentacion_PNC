@@ -15,6 +15,7 @@
 // Refrescado otra vez el mismo día con 'inter_20260824204815.xlsx' (~9h después, sin cambio
 // de lógica): +1 programada (Yungay/Shupluy) y avance en las 2 intervenciones en ejecución.
 import datosBD from './_generated/ancash'
+import galeria from '../galeria/ancash.json'
 
 export default {
   id: 'ancash',
@@ -153,12 +154,9 @@ export default {
   // "Información pendiente de la UBO" en vez de un total de 0 inventado).
   personalUBO: [],
 
-  galeria: [
-    { id: 1, codigo: '089-2026-LDP-ANC', estado: 'En ejecución', img: 'ancash-1' },
-    { id: 2, codigo: '100-2026-LDP-ANC', estado: 'Ejecutada', img: 'ancash-2' },
-    { id: 3, codigo: '093-2026-LDP-ANC', estado: 'Ejecutada', img: 'ancash-3' },
-    { id: 4, codigo: '071-2026-LDP-ANC', estado: 'Ejecutada', img: 'ancash-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/ancash.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

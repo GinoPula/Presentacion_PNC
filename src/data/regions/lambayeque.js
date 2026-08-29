@@ -33,6 +33,7 @@
 // Refrescado otra vez el mismo día con 'inter_20260824204815.xlsx' (~9h después, sin cambio
 // de lógica) para reflejar avances incrementales del MAIN en programadas y en ejecución.
 import datosBD from './_generated/lambayeque'
+import galeria from '../galeria/lambayeque.json'
 
 export default {
   id: 'lambayeque',
@@ -143,12 +144,9 @@ export default {
 
   personalUBO: [],
 
-  galeria: [
-    { id: 1, codigo: '016-2026-LD-PI-LAM', estado: 'Ejecutada', img: 'lambayeque-1' },
-    { id: 2, codigo: '029-2026-LD-P-LAM', estado: 'Ejecutada', img: 'lambayeque-2' },
-    { id: 3, codigo: '032-2026-LD-P-LAM', estado: 'En ejecución', img: 'lambayeque-3' },
-    { id: 4, codigo: '036-2026-LD-P-LAM', estado: 'Ejecutada', img: 'lambayeque-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/lambayeque.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

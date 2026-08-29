@@ -3,9 +3,11 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { HiOutlineX, HiOutlineCamera } from 'react-icons/hi'
 import { Reveal, SectionHeading, Badge } from './UI'
 
-const images = import.meta.glob('../assets/photos/*-[1-9].jpg', { eager: true, import: 'default' })
+// Patrón amplio (no solo "-1".."-9") para que las fotos agregadas desde el panel del
+// propietario (?admin=1), con cualquier numeración o extensión, se resuelvan igual.
+const images = import.meta.glob('../assets/photos/*.{jpg,jpeg,png,webp}', { eager: true, import: 'default' })
 function resolveImg(key) {
-  const match = Object.entries(images).find(([path]) => path.includes(`/${key}.jpg`))
+  const match = Object.entries(images).find(([path]) => path.split('/').pop().replace(/\.[a-zA-Z0-9]+$/, '') === key)
   return match ? match[1] : undefined
 }
 

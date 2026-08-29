@@ -16,6 +16,7 @@ import PuntosCriticos from './components/PuntosCriticos'
 import Escenarios from './components/Escenarios'
 import Activos from './components/Activos'
 import Galeria from './components/Galeria'
+import AdminPanel from './components/AdminPanel'
 import Footer from './components/Footer'
 import { regions, GLOBAL_ID, DEFAULT_VIEW } from './data/regions'
 import { globalData } from './data/global'
@@ -60,6 +61,7 @@ export default function App() {
         )}
       </main>
       <Footer data={data} />
+      <AdminPanel regionId={regionId} isGlobal={isGlobal} />
     </div>
   )
 }

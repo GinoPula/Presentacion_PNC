@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "codigo": "017-2026-LD-P-TAC",
+    "estado": "Ejecutada",
+    "img": "tacna-1"
+  },
+  {
+    "id": 2,
+    "codigo": "042-2026-LD-E-TAC",
+    "estado": "Ejecutada",
+    "img": "tacna-2"
+  },
+  {
+    "id": 3,
+    "codigo": "044-2026-AA-U-TAC",
+    "estado": "En ejecución",
+    "img": "tacna-3"
+  },
+  {
+    "id": 4,
+    "codigo": "044-2026-AA-U-TAC",
+    "estado": "En ejecución",
+    "img": "tacna-4"
+  }
+]

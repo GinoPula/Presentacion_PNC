@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "codigo": "053-2026-LD-PI-TUM",
+    "estado": "Ejecutada",
+    "img": "tumbes-1"
+  },
+  {
+    "id": 2,
+    "codigo": "017-2026-LD-PI-TUM",
+    "estado": "Ejecutada",
+    "img": "tumbes-2"
+  },
+  {
+    "id": 3,
+    "codigo": "067-2026-AA-U-TUM",
+    "estado": "En ejecución",
+    "img": "tumbes-3"
+  },
+  {
+    "id": 4,
+    "codigo": "058-2026-LD-PI-TUM",
+    "estado": "Ejecutada",
+    "img": "tumbes-4"
+  }
+]

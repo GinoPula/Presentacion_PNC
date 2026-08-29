@@ -11,6 +11,7 @@
 // Refrescado otra vez el mismo día con inter_20260824204815.xlsx (~9h después, sin cambio de
 // lógica) para reflejar los avances incrementales del MAIN.
 import datosBD from './_generated/tacna'
+import galeria from '../galeria/tacna.json'
 
 export default {
   id: 'tacna',
@@ -52,12 +53,9 @@ export default {
     { rol: 'Operadores', cantidad: 2 },
   ],
 
-  galeria: [
-    { id: 1, codigo: '017-2026-LD-P-TAC', estado: 'Ejecutada', img: 'tacna-1' },
-    { id: 2, codigo: '042-2026-LD-E-TAC', estado: 'Ejecutada', img: 'tacna-2' },
-    { id: 3, codigo: '044-2026-AA-U-TAC', estado: 'En ejecución', img: 'tacna-3' },
-    { id: 4, codigo: '044-2026-AA-U-TAC', estado: 'En ejecución', img: 'tacna-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/tacna.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

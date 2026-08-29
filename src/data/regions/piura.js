@@ -10,6 +10,7 @@
 // Refrescado otra vez el mismo día con inter_20260824204815.xlsx (~9h después, sin cambio de
 // lógica) para reflejar los avances incrementales del MAIN.
 import datosBD from './_generated/piura'
+import galeria from '../galeria/piura.json'
 
 export default {
   id: 'piura',
@@ -156,10 +157,9 @@ export default {
     { rol: 'Operadores', cantidad: 4 },
   ],
 
-  galeria: [
-    { id: 1, codigo: 'FTI N°044-2026-LD-PI-PIU', estado: 'Ejecutada', img: 'piura-1' },
-    { id: 2, codigo: 'FTI Nº083-2026-LD-P-PIU', estado: 'Ejecutada', img: 'piura-2' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/piura.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

@@ -32,6 +32,7 @@
 // los Molinos/Ica, sector Ranchería) — confirmado el estado y distrito/provincia de cada
 // ficha contra el mapa antes de asignarlas.
 import datosBD from './_generated/ica'
+import galeria from '../galeria/ica.json'
 
 export default {
   id: 'ica',
@@ -137,12 +138,9 @@ export default {
 
   personalUBO: [],
 
-  galeria: [
-    { id: 1, codigo: 'FT I N°041-2026-LDP-ICA', estado: 'Ejecutada', img: 'ica-1' },
-    { id: 2, codigo: 'FT I N°039-2026-LDP-ICA', estado: 'Ejecutada', img: 'ica-2' },
-    { id: 3, codigo: 'FTI N°020-2026-LDP-ICA', estado: 'Ejecutada', img: 'ica-3' },
-    { id: 4, codigo: 'FT I N°035-2026-LDP-ICA', estado: 'Ejecutada', img: 'ica-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/ica.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

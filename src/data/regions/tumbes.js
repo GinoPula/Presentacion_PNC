@@ -10,6 +10,7 @@
 // Refrescado otra vez el mismo día con inter_20260824204815.xlsx (~9h después, sin cambio de
 // lógica) para reflejar los avances incrementales del MAIN.
 import datosBD from './_generated/tumbes'
+import galeria from '../galeria/tumbes.json'
 
 export default {
   id: 'tumbes',
@@ -110,12 +111,9 @@ export default {
     { rol: 'Operadores', cantidad: 2 },
   ],
 
-  galeria: [
-    { id: 1, codigo: '053-2026-LD-PI-TUM', estado: 'Ejecutada', img: 'tumbes-1' },
-    { id: 2, codigo: '017-2026-LD-PI-TUM', estado: 'Ejecutada', img: 'tumbes-2' },
-    { id: 3, codigo: '067-2026-AA-U-TUM', estado: 'En ejecución', img: 'tumbes-3' },
-    { id: 4, codigo: '058-2026-LD-PI-TUM', estado: 'Ejecutada', img: 'tumbes-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/tumbes.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

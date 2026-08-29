@@ -13,6 +13,7 @@
 // Refrescado otra vez el mismo día con inter_20260824204815.xlsx (~9h después, sin cambio de
 // lógica) para reflejar los avances incrementales del MAIN.
 import datosBD from './_generated/puno'
+import galeria from '../galeria/puno.json'
 
 export default {
   id: 'puno',
@@ -54,12 +55,9 @@ export default {
     { rol: 'Operadores', cantidad: 2 },
   ],
 
-  galeria: [
-    { id: 1, codigo: 'FTI N° 028-2026-LDE-PUN', estado: 'Ejecutada', img: 'puno-1' },
-    { id: 2, codigo: 'FTI N° 030-2026-LDP-PUN', estado: 'Ejecutada', img: 'puno-2' },
-    { id: 3, codigo: 'FTI N° 043-2026-LDP-PUN', estado: 'Ejecutada', img: 'puno-3' },
-    { id: 4, codigo: 'FTI N° 010-2026-LDE-PUN', estado: 'Ejecutada', img: 'puno-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/puno.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

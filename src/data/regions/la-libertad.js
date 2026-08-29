@@ -58,6 +58,7 @@
 // van a quedar desactualizados a medida que avance el año -- avisar cuando se
 // identifique el campo correcto para automatizar esto también).
 import datosBD from './_generated/la-libertad'
+import galeria from '../galeria/la-libertad.json'
 
 export default {
   id: 'la-libertad',
@@ -200,12 +201,9 @@ export default {
 
   personalUBO: [],
 
-  galeria: [
-    { id: 1, codigo: '066-2026-MTV-U-LIB', estado: 'Ejecutada', img: 'la-libertad-1' },
-    { id: 2, codigo: '050-2026-LD-E-LIB', estado: 'Ejecutada', img: 'la-libertad-2' },
-    { id: 3, codigo: '018-2026-LD-E-LIB', estado: 'Ejecutada', img: 'la-libertad-3' },
-    { id: 4, codigo: '059-2026-MTV-U-LIB', estado: 'Ejecutada', img: 'la-libertad-4' },
-  ],
+  // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
+  // los datos viven en src/data/galeria/la-libertad.json, el panel los actualiza vía la API de GitHub.
+  galeria,
 
   fuentes: [
     'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',

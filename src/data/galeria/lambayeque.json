@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "codigo": "016-2026-LD-PI-LAM",
+    "estado": "Ejecutada",
+    "img": "lambayeque-1"
+  },
+  {
+    "id": 2,
+    "codigo": "029-2026-LD-P-LAM",
+    "estado": "Ejecutada",
+    "img": "lambayeque-2"
+  },
+  {
+    "id": 3,
+    "codigo": "032-2026-LD-P-LAM",
+    "estado": "En ejecución",
+    "img": "lambayeque-3"
+  },
+  {
+    "id": 4,
+    "codigo": "036-2026-LD-P-LAM",
+    "estado": "Ejecutada",
+    "img": "lambayeque-4"
+  }
+]
