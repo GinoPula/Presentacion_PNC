@@ -91,7 +91,7 @@ export const galeriaGlobal = REGION_LIST.flatMap((r) => {
 export const fuentesGlobal = [
   'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',
   'Autoridad Nacional del Agua (ANA) — Acuerdo Multisectorial de Puntos Críticos',
-  'Unidades Básicas Operativas (UBO) de las 8 regiones',
+  `Unidades Básicas Operativas (UBO) de las ${REGION_LIST.length} regiones`,
 ]
 
 // Objeto con la misma forma (meta + fuentes) que usan los componentes compartidos (p. ej. Footer),

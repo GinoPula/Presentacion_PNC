@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { HiOutlineX, HiOutlineCamera, HiOutlineChevronLeft, HiOutlineChevronRight } from 'react-icons/hi'
 import { Reveal, SectionHeading, Badge } from './UI'
 import { galeriaGlobal } from '../data/global'
+import { REGION_LIST } from '../data/regions'
 
 // Patrón amplio (no solo "-1".."-9") para que las fotos agregadas desde el panel del
 // propietario (?admin=1), con cualquier numeración o extensión, se resuelvan igual.
@@ -30,9 +31,9 @@ export default function GaleriaGlobal() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
-            eyebrow="Evidencia fotográfica · 8 regiones"
+            eyebrow={`Evidencia fotográfica · ${REGION_LIST.length} regiones`}
             title="Galería nacional de intervenciones"
-            description="Registro fotográfico de las 8 regiones en un solo carrusel, con su código de ficha técnica correspondiente."
+            description={`Registro fotográfico de las ${REGION_LIST.length} regiones en un solo carrusel, con su código de ficha técnica correspondiente.`}
           />
           <div className="flex shrink-0 gap-2 pb-1">
             <button

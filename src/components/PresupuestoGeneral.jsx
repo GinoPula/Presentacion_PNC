@@ -3,6 +3,7 @@ import { HiOutlineCurrencyDollar, HiOutlineExclamationCircle, HiOutlineExclamati
 import { Reveal, SectionHeading, Card } from './UI'
 import { fmtCurrency, fmtInt } from '../lib/format'
 import { escenariosGlobal, regionesConEscenarios, regionesSinEscenarios, programadasCantidadGlobal } from '../data/global'
+import { REGION_LIST } from '../data/regions'
 
 const palette = ['#2a78d6', '#eb6834']
 
@@ -108,9 +109,9 @@ export default function PresupuestoGeneral() {
             <p className="text-sm leading-relaxed text-ink-dim">
               <span className="font-semibold text-warn">Pendiente: </span>
               presupuesto de las {fmtInt(programadasCantidadGlobal)} intervenciones "Programadas" a nivel nacional. El reporte del
-              sistema MAIN no trae este monto para prácticamente ninguna de las 8 regiones (las columnas de monto contratado y
-              ejecutado están vacías, salvo un puñado de filas de Tacna) — queda fuera de este presupuesto hasta contar con una
-              fuente que sí lo tenga.
+              sistema MAIN no trae este monto para prácticamente ninguna de las {REGION_LIST.length} regiones (las columnas de monto
+              contratado y ejecutado están vacías, salvo un puñado de filas de Tacna) — queda fuera de este presupuesto hasta contar
+              con una fuente que sí lo tenga.
             </p>
           </Card>
         </Reveal>

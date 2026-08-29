@@ -325,11 +325,11 @@ export default function MapaIntervenciones({ regionId, shortLabel, isGlobal = fa
     <section id="mapa" className="relative border-t border-white/[0.05] bg-surface-0 py-24 sm:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
-          eyebrow={isGlobal ? 'Georreferenciado · 8 regiones' : 'Georreferenciado'}
+          eyebrow={isGlobal ? `Georreferenciado · ${REGION_LIST.length} regiones` : 'Georreferenciado'}
           title={isGlobal ? 'Mapa general de intervenciones' : 'Mapa de intervenciones'}
           description={
             isGlobal
-              ? 'Ubicación de las intervenciones ejecutadas y en ejecución en las 8 regiones, con ficha técnica, fechas y avance de cada punto. Filtra por región, provincia y distrito.'
+              ? `Ubicación de las intervenciones ejecutadas y en ejecución en las ${REGION_LIST.length} regiones, con ficha técnica, fechas y avance de cada punto. Filtra por región, provincia y distrito.`
               : `Ubicación de las intervenciones ejecutadas y en ejecución en ${shortLabel}, con ficha técnica, fechas y avance de cada punto. Activa o desactiva capas y filtra por provincia y distrito.`
           }
         />

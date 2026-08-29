@@ -3,11 +3,12 @@ import { HiOutlineArrowDown } from 'react-icons/hi'
 import heroBg from '../assets/photos/hero-bg.jpg'
 import logoMvcs from '../assets/logos/logo-mvcs.png'
 import RegionSwitcher from './RegionSwitcher'
-import { GLOBAL_ID } from '../data/regions'
+import { GLOBAL_ID, REGION_LIST } from '../data/regions'
 import { ejecutadasTotalGlobal, flotaTotalGlobal } from '../data/global'
-import { fmtInt } from '../lib/format'
+import { fmtInt, joinNombres } from '../lib/format'
 
 export default function HeroGlobal({ onRegionChange }) {
+  const nombresRegiones = joinNombres(REGION_LIST.map((r) => r.shortLabel))
   const quickStats = [
     { value: fmtInt(ejecutadasTotalGlobal.cantidad), label: 'Intervenciones ejecutadas' },
     { value: fmtInt(ejecutadasTotalGlobal.poblacion), label: 'Población beneficiada' },
@@ -70,8 +71,7 @@ export default function HeroGlobal({ onRegionChange }) {
           transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-2xl text-balance text-lg leading-relaxed text-ink-dim sm:text-xl"
         >
-          Panorama nacional de las 8 regiones donde opera PNC Maquinarias — Tumbes, Piura, Lambayeque,
-          La Libertad, Áncash, Ica, Puno y Tacna — corte a Agosto 2026.
+          Panorama nacional de las {REGION_LIST.length} regiones donde opera PNC Maquinarias — {nombresRegiones} — corte a Agosto 2026.
         </motion.p>
 
         <motion.div
