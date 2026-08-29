@@ -55,6 +55,7 @@ DEPTO_TO_REGION = {
     'LAMBAYEQUE': 'lambayeque',
     'ICA': 'ica',
     'LA LIBERTAD': 'la-libertad',
+    'LIMA': 'lima',
 }
 
 

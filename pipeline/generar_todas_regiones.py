@@ -151,6 +151,7 @@ DEPARTAMENTOS = {
     "lambayeque":  "LAMBAYEQUE",
     "ica":         "ICA",
     "la-libertad": "LA LIBERTAD",
+    "lima":        "LIMA",
 }
 
 # ---------------------------------------------------------------------------
@@ -180,6 +181,12 @@ DEPARTAMENTO_BBOX = {
     "ICA":         (-15.59, -12.81, -76.55, -74.51),
     "PUNO":        (-17.44, -12.85, -71.26, -68.66),
     "TACNA":       (-18.50, -16.62, -71.29, -69.32),
+    # LIMA agregado 29/08/2026: estimado a partir del contorno público del departamento
+    # (no de mapaLimites.js, que todavía no tiene a Lima) -- cubre desde Barranca/Végueta
+    # al norte hasta Cañete/Mala al sur, y desde el litoral hasta Yauyos/Huarochirí al
+    # este, con el mismo colchón de ~0.15° que las demás. Si algún punto real de Lima
+    # queda fuera de esta caja, revisar y ajustar (mismo criterio que las otras 7).
+    "LIMA":        (-13.65, -10.15, -78.00, -75.50),
 }
 
 
