@@ -1,17 +1,40 @@
-// Exportación del Reporte Diario de Intervenciones (Excel .xlsx y PDF) con un diseño ejecutivo
-// mejorado respecto al Excel plano que se arma manualmente hoy, pero manteniendo las mismas
-// columnas y la misma fuente de datos (ESTADO = "EN EJECUCIÓN" del MAIN nacional).
+// Exportación del Reporte Diario / Buscador de Intervenciones (Excel .xlsx y PDF).
+//
+// 29/08/2026 -- extendido para el Buscador de intervenciones (ver src/lib/buscadorIntervenciones.js):
+// el mismo exportador ahora sirve tanto al Reporte Diario de siempre (ESTADO = "EN EJECUCIÓN") como
+// a una búsqueda combinada (EN EJECUCIÓN + EJECUTADA + PROGRAMADA). Para que el reporte recurrente
+// que ya recibe el Ministerio no cambie, las columnas EXTRA (Estado, Ficha, Población, Volumen) solo
+// aparecen cuando el resultado realmente incluye intervenciones que no son "EN EJECUCIÓN" -- si el
+// usuario no toca los filtros, el Excel/PDF sale exactamente igual que antes.
 import ExcelJS from 'exceljs'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
+import reporteDiarioData from '../data/reporteDiario.json'
 
 const COLOR_BRAND = 'E0293D' // rojo PNC
 const COLOR_NAVY = '0C1220' // fondo oscuro del sitio
 const COLOR_NAVY_SOFT = '121A2C'
 const COLOR_BLUE = '2A78D6'
 const COLOR_AMBER = 'F2A900'
+const COLOR_GREEN = '1BAF7A'
 const COLOR_WHITE = 'FFFFFF'
 const COLOR_INK_DIM = '5B6479'
+
+function esExtendido(items) {
+  return items.some((it) => it.estado && it.estado !== 'EN EJECUCIÓN')
+}
+
+// El objeto `reporte` puede venir de dos fuentes distintas -- getReporteDiario() (trae `porTipo`)
+// o buscarIntervenciones() (trae `porEstado`, no `porTipo`) -- así que el conteo por tipo se
+// recalcula siempre aquí mismo a partir de `items`, sin asumir qué trae `reporte`.
+const TIPOS_KPI = ['PREVENCIÓN', 'URGENTE ATENCIÓN', 'EMERGENCIA']
+function porTipoDe(items) {
+  return TIPOS_KPI.reduce((acc, t) => ({ ...acc, [t]: items.filter((it) => it.tipo === t).length }), {})
+}
+
+function metaDe(reporte) {
+  return reporte.meta || reporteDiarioData.meta
+}
 
 function tituloAlcance(scopeLabel) {
   return scopeLabel ? `Consolidado Regional · ${scopeLabel}` : 'Consolidado Nacional de Operaciones y Despliegue de Maquinaria en Campo'
@@ -27,7 +50,11 @@ function nombreArchivo(prefix, scopeLabel) {
 // Excel
 // ---------------------------------------------------------------------------------------------
 export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
-  const { meta, items, total, porTipo } = reporte
+  const { items, total, porEstado } = reporte
+  const porTipo = porTipoDe(items)
+  const meta = metaDe(reporte)
+  const extendido = esExtendido(items)
+
   const wb = new ExcelJS.Workbook()
   wb.creator = 'PNC Maquinarias'
   wb.created = new Date()
@@ -37,18 +64,36 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
     pageSetup: { orientation: 'landscape', fitToPage: true, fitToWidth: 1, fitToHeight: 0, paperSize: 9 },
   })
 
-  const COLS = [
-    { header: 'N°', key: 'n', width: 6 },
-    { header: 'Departamento', key: 'departamento', width: 16 },
-    { header: 'Provincia', key: 'provincia', width: 16 },
-    { header: 'Distrito', key: 'distrito', width: 16 },
-    { header: 'Tipo', key: 'tipo', width: 16 },
-    { header: 'Descripción de la intervención', key: 'descripcion', width: 60 },
-    { header: 'Marco legal', key: 'marcoLegal', width: 26 },
-    { header: 'Fecha inicio', key: 'fechaInicio', width: 12 },
-    { header: 'Fecha fin', key: 'fechaFin', width: 12 },
-    { header: 'Equipo / maquinaria desplegada', key: 'maquinaria', width: 46 },
-  ]
+  const COLS = extendido
+    ? [
+        { header: 'N°', key: 'n', width: 6 },
+        { header: 'Estado', key: 'estado', width: 14 },
+        { header: 'Departamento', key: 'departamento', width: 16 },
+        { header: 'Provincia', key: 'provincia', width: 16 },
+        { header: 'Distrito', key: 'distrito', width: 16 },
+        { header: 'Sector', key: 'sector', width: 16 },
+        { header: 'Tipo', key: 'tipo', width: 16 },
+        { header: 'Descripción de la intervención', key: 'descripcion', width: 50 },
+        { header: 'Ficha', key: 'ficha', width: 12 },
+        { header: 'Marco legal', key: 'marcoLegal', width: 22 },
+        { header: 'Fecha inicio', key: 'fechaInicio', width: 12 },
+        { header: 'Fecha fin', key: 'fechaFin', width: 12 },
+        { header: 'Población', key: 'poblacion', width: 12 },
+        { header: 'Volumen (m³ / km)', key: 'volumen', width: 16 },
+        { header: 'Equipo / maquinaria desplegada', key: 'maquinaria', width: 40 },
+      ]
+    : [
+        { header: 'N°', key: 'n', width: 6 },
+        { header: 'Departamento', key: 'departamento', width: 16 },
+        { header: 'Provincia', key: 'provincia', width: 16 },
+        { header: 'Distrito', key: 'distrito', width: 16 },
+        { header: 'Tipo', key: 'tipo', width: 16 },
+        { header: 'Descripción de la intervención', key: 'descripcion', width: 60 },
+        { header: 'Marco legal', key: 'marcoLegal', width: 26 },
+        { header: 'Fecha inicio', key: 'fechaInicio', width: 12 },
+        { header: 'Fecha fin', key: 'fechaFin', width: 12 },
+        { header: 'Equipo / maquinaria desplegada', key: 'maquinaria', width: 46 },
+      ]
   ws.columns = COLS
   // Repite el encabezado de la tabla (fila 9, ver más abajo) en cada página al imprimir/exportar.
   ws.pageSetup.printTitlesRow = '9:9'
@@ -61,7 +106,7 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
 
   ws.mergeCells(2, 1, 2, COLS.length)
   const titleCell = ws.getCell(2, 1)
-  titleCell.value = 'Reporte Ejecutivo de Intervenciones en Ejecución'
+  titleCell.value = extendido ? 'Resultados de Búsqueda de Intervenciones' : 'Reporte Ejecutivo de Intervenciones en Ejecución'
   titleCell.font = { bold: true, size: 18, color: { argb: 'FF' + COLOR_NAVY } }
   ws.getRow(2).height = 28
 
@@ -78,12 +123,19 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
 
   // --- Tarjetas KPI (fila 6) --------------------------------------------------------------
   const kpiRow = 6
-  const kpis = [
-    { label: 'Intervenciones activas', value: total, color: COLOR_BRAND },
-    { label: 'Prevención y limpieza', value: porTipo['PREVENCIÓN'] || 0, color: COLOR_BLUE },
-    { label: 'Urgente atención', value: porTipo['URGENTE ATENCIÓN'] || 0, color: COLOR_AMBER },
-    { label: 'Declaradas emergencia', value: porTipo['EMERGENCIA'] || 0, color: COLOR_BRAND },
-  ]
+  const kpis = extendido
+    ? [
+        { label: 'Resultados encontrados', value: total, color: COLOR_NAVY },
+        { label: 'En ejecución', value: porEstado?.['EN EJECUCIÓN'] || 0, color: COLOR_BRAND },
+        { label: 'Ejecutadas', value: porEstado?.['EJECUTADA'] || 0, color: COLOR_GREEN },
+        { label: 'Programadas', value: porEstado?.['PROGRAMADA'] || 0, color: COLOR_BLUE },
+      ]
+    : [
+        { label: 'Intervenciones activas', value: total, color: COLOR_BRAND },
+        { label: 'Prevención y limpieza', value: porTipo['PREVENCIÓN'] || 0, color: COLOR_BLUE },
+        { label: 'Urgente atención', value: porTipo['URGENTE ATENCIÓN'] || 0, color: COLOR_AMBER },
+        { label: 'Declaradas emergencia', value: porTipo['EMERGENCIA'] || 0, color: COLOR_BRAND },
+      ]
   const span = Math.max(2, Math.floor(COLS.length / kpis.length))
   kpis.forEach((kpi, i) => {
     const startCol = 1 + i * span
@@ -115,20 +167,35 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
   })
   headerRow.height = 22
 
+  const tipoColorMap = { PREVENCIÓN: COLOR_BLUE, 'URGENTE ATENCIÓN': COLOR_AMBER, EMERGENCIA: COLOR_BRAND }
+  const estadoColorMap = { 'EN EJECUCIÓN': COLOR_BRAND, EJECUTADA: COLOR_GREEN, PROGRAMADA: COLOR_BLUE }
+  const tipoColIdx = COLS.findIndex((c) => c.key === 'tipo') + 1
+  const estadoColIdx = COLS.findIndex((c) => c.key === 'estado') + 1
+
   // --- Filas de datos -------------------------------------------------------------------
   items.forEach((it, i) => {
     const rowIdx = headerRowIdx + 1 + i
     const row = ws.getRow(rowIdx)
-    row.getCell(1).value = it.n
-    row.getCell(2).value = it.deptoLabel
-    row.getCell(3).value = it.provincia
-    row.getCell(4).value = it.distrito
-    row.getCell(5).value = it.tipo
-    row.getCell(6).value = it.descripcion
-    row.getCell(7).value = it.marcoLegal
-    row.getCell(8).value = it.fechaInicio
-    row.getCell(9).value = it.fechaFin
-    row.getCell(10).value = it.maquinaria.join(', ')
+    let col = 1
+    row.getCell(col++).value = it.n
+    if (extendido) row.getCell(col++).value = it.estado
+    row.getCell(col++).value = it.deptoLabel
+    row.getCell(col++).value = it.provincia
+    row.getCell(col++).value = it.distrito
+    if (extendido) row.getCell(col++).value = it.sector || '—'
+    row.getCell(col++).value = it.tipo || '—'
+    row.getCell(col++).value = it.descripcion
+    if (extendido) {
+      row.getCell(col++).value = it.ficha || '—'
+    }
+    row.getCell(col++).value = it.marcoLegal || '—'
+    row.getCell(col++).value = it.fechaInicio || '—'
+    row.getCell(col++).value = it.fechaFin || '—'
+    if (extendido) {
+      row.getCell(col++).value = it.poblacion ?? '—'
+      row.getCell(col++).value = it.volumen ?? '—'
+    }
+    row.getCell(col++).value = it.maquinaria.length ? it.maquinaria.join(', ') : '—'
 
     row.eachCell((cell) => {
       cell.alignment = { vertical: 'top', wrapText: true }
@@ -137,8 +204,14 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
       if (i % 2 === 1) cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF7F8FA' } }
     })
 
-    const tipoColorMap = { PREVENCIÓN: COLOR_BLUE, 'URGENTE ATENCIÓN': COLOR_AMBER, EMERGENCIA: COLOR_BRAND }
-    row.getCell(5).font = { bold: true, size: 9.5, color: { argb: 'FF' + (tipoColorMap[it.tipo] || COLOR_INK_DIM) } }
+    if (estadoColIdx > 0) {
+      const estadoCell = row.getCell(estadoColIdx)
+      estadoCell.font = { bold: true, size: 9.5, color: { argb: 'FF' + (estadoColorMap[estadoCell.value] || COLOR_INK_DIM) } }
+    }
+    const tipoCell = row.getCell(tipoColIdx)
+    if (tipoCell.value && tipoColorMap[tipoCell.value]) {
+      tipoCell.font = { bold: true, size: 9.5, color: { argb: 'FF' + tipoColorMap[tipoCell.value] } }
+    }
   })
 
   const footerRowIdx = headerRowIdx + 1 + items.length + 1
@@ -147,14 +220,18 @@ export async function exportarReporteDiarioExcel(reporte, scopeLabel) {
   ws.getCell(footerRowIdx, 1).font = { italic: true, size: 8.5, color: { argb: 'FF' + COLOR_INK_DIM } }
 
   const buffer = await wb.xlsx.writeBuffer()
-  descargarBlob(buffer, `${nombreArchivo('reporte-diario', scopeLabel)}.xlsx`, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+  const prefix = extendido ? 'buscador-intervenciones' : 'reporte-diario'
+  descargarBlob(buffer, `${nombreArchivo(prefix, scopeLabel)}.xlsx`, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
 }
 
 // ---------------------------------------------------------------------------------------------
 // PDF
 // ---------------------------------------------------------------------------------------------
 export function exportarReporteDiarioPdf(reporte, scopeLabel) {
-  const { meta, items, total, porTipo } = reporte
+  const { items, total, porEstado } = reporte
+  const porTipo = porTipoDe(items)
+  const meta = metaDe(reporte)
+  const extendido = esExtendido(items)
   const doc = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'a4' })
   const pageWidth = doc.internal.pageSize.getWidth()
   const margin = 32
@@ -172,7 +249,7 @@ export function exportarReporteDiarioPdf(reporte, scopeLabel) {
   // Título
   doc.setTextColor(12, 18, 32)
   doc.setFontSize(20)
-  doc.text('Reporte Ejecutivo de Intervenciones', margin, 62)
+  doc.text(extendido ? 'Resultados de Búsqueda de Intervenciones' : 'Reporte Ejecutivo de Intervenciones', margin, 62)
 
   // Subtítulo
   doc.setFont('helvetica', 'normal')
@@ -190,12 +267,19 @@ export function exportarReporteDiarioPdf(reporte, scopeLabel) {
   doc.line(margin, 88, pageWidth - margin, 88)
 
   // Tarjetas KPI
-  const kpis = [
-    { label: 'INTERVENCIONES ACTIVAS', value: total, color: [224, 41, 61] },
-    { label: 'PREVENCIÓN Y LIMPIEZA', value: porTipo['PREVENCIÓN'] || 0, color: [42, 120, 214] },
-    { label: 'URGENTE ATENCIÓN', value: porTipo['URGENTE ATENCIÓN'] || 0, color: [242, 169, 0] },
-    { label: 'DECLARADAS EMERGENCIA', value: porTipo['EMERGENCIA'] || 0, color: [224, 41, 61] },
-  ]
+  const kpis = extendido
+    ? [
+        { label: 'RESULTADOS ENCONTRADOS', value: total, color: [12, 18, 32] },
+        { label: 'EN EJECUCIÓN', value: porEstado?.['EN EJECUCIÓN'] || 0, color: [224, 41, 61] },
+        { label: 'EJECUTADAS', value: porEstado?.['EJECUTADA'] || 0, color: [27, 175, 122] },
+        { label: 'PROGRAMADAS', value: porEstado?.['PROGRAMADA'] || 0, color: [42, 120, 214] },
+      ]
+    : [
+        { label: 'INTERVENCIONES ACTIVAS', value: total, color: [224, 41, 61] },
+        { label: 'PREVENCIÓN Y LIMPIEZA', value: porTipo['PREVENCIÓN'] || 0, color: [42, 120, 214] },
+        { label: 'URGENTE ATENCIÓN', value: porTipo['URGENTE ATENCIÓN'] || 0, color: [242, 169, 0] },
+        { label: 'DECLARADAS EMERGENCIA', value: porTipo['EMERGENCIA'] || 0, color: [224, 41, 61] },
+      ]
   const cardGap = 12
   const cardW = (pageWidth - margin * 2 - cardGap * (kpis.length - 1)) / kpis.length
   const cardY = 100
@@ -215,34 +299,70 @@ export function exportarReporteDiarioPdf(reporte, scopeLabel) {
   })
 
   const tableStartY = cardY + cardH + 20
+
+  const head = extendido
+    ? [['N°', 'Estado', 'Departamento', 'Provincia / Distrito', 'Tipo', 'Descripción de la intervención', 'Ficha', 'Fecha inicio – fin', 'Detalle / maquinaria']]
+    : [['N°', 'Departamento', 'Provincia / Distrito', 'Tipo', 'Descripción de la intervención', 'Equipo / maquinaria desplegada']]
+
+  const body = extendido
+    ? items.map((it) => [
+        it.n,
+        it.estado,
+        it.deptoLabel,
+        `${it.provincia} / ${it.distrito}`,
+        it.tipo || '—',
+        it.descripcion,
+        it.ficha || '—',
+        `${it.fechaInicio || '—'} – ${it.fechaFin || '—'}`,
+        it.maquinaria.length ? it.maquinaria.join(', ') : it.marcoLegal || '—',
+      ])
+    : items.map((it) => [it.n, it.deptoLabel, `${it.provincia} / ${it.distrito}`, it.tipo, it.descripcion, it.maquinaria.join(', ')])
+
+  const columnStyles = extendido
+    ? {
+        0: { cellWidth: 20 },
+        1: { cellWidth: 56 },
+        2: { cellWidth: 60 },
+        3: { cellWidth: 82 },
+        4: { cellWidth: 58 },
+        5: { cellWidth: 'auto' },
+        6: { cellWidth: 42 },
+        7: { cellWidth: 68 },
+        8: { cellWidth: 110 },
+      }
+    : {
+        0: { cellWidth: 24 },
+        1: { cellWidth: 70 },
+        2: { cellWidth: 90 },
+        3: { cellWidth: 68 },
+        4: { cellWidth: 'auto' },
+        5: { cellWidth: 150 },
+      }
+
+  const tipoColIdx = extendido ? 4 : 3
+  const estadoColorMap = { 'EN EJECUCIÓN': [224, 41, 61], EJECUTADA: [27, 175, 122], PROGRAMADA: [42, 120, 214] }
+  const tipoColorMap = { 'PREVENCIÓN': [42, 120, 214], 'URGENTE ATENCIÓN': [242, 169, 0], EMERGENCIA: [224, 41, 61] }
+
   autoTable(doc, {
     startY: tableStartY,
     margin: { left: margin, right: margin },
-    head: [['N°', 'Departamento', 'Provincia / Distrito', 'Tipo', 'Descripción de la intervención', 'Equipo / maquinaria desplegada']],
-    body: items.map((it) => [
-      it.n,
-      it.deptoLabel,
-      `${it.provincia} / ${it.distrito}`,
-      it.tipo,
-      it.descripcion,
-      it.maquinaria.join(', '),
-    ]),
+    head,
+    body,
     styles: { fontSize: 7.5, cellPadding: 4, valign: 'top', textColor: [26, 35, 56] },
     headStyles: { fillColor: [12, 18, 32], textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
     alternateRowStyles: { fillColor: [247, 248, 250] },
-    columnStyles: {
-      0: { cellWidth: 24 },
-      1: { cellWidth: 70 },
-      2: { cellWidth: 90 },
-      3: { cellWidth: 68 },
-      4: { cellWidth: 'auto' },
-      5: { cellWidth: 150 },
-    },
+    columnStyles,
     didParseCell: (data) => {
-      if (data.section === 'body' && data.column.index === 3) {
-        const tipo = data.cell.raw
-        const colorMap = { 'PREVENCIÓN': [42, 120, 214], 'URGENTE ATENCIÓN': [242, 169, 0], EMERGENCIA: [224, 41, 61] }
-        const c = colorMap[tipo]
+      if (data.section !== 'body') return
+      if (data.column.index === tipoColIdx) {
+        const c = tipoColorMap[data.cell.raw]
+        if (c) {
+          data.cell.styles.textColor = c
+          data.cell.styles.fontStyle = 'bold'
+        }
+      }
+      if (extendido && data.column.index === 1) {
+        const c = estadoColorMap[data.cell.raw]
         if (c) {
           data.cell.styles.textColor = c
           data.cell.styles.fontStyle = 'bold'
@@ -258,7 +378,8 @@ export function exportarReporteDiarioPdf(reporte, scopeLabel) {
     },
   })
 
-  doc.save(`${nombreArchivo('reporte-diario', scopeLabel)}.pdf`)
+  const prefix = extendido ? 'buscador-intervenciones' : 'reporte-diario'
+  doc.save(`${nombreArchivo(prefix, scopeLabel)}.pdf`)
 }
 
 function descargarBlob(buffer, filename, mime) {
