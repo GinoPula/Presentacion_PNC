@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/08/2026",
-    "horaCorte": "09:14",
+    "horaCorte": "09:29",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -203,7 +203,7 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
       "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO I, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.",
       "fechaInicio": "13/08/2026",
-      "fechaFin": "27/08/2026",
+      "fechaFin": "01/09/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05104)",
         "CAMIONETA ( EGL-971)",
@@ -724,25 +724,6 @@
     },
     {
       "n": 37,
-      "idIntervencion": "10074",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Vertiente Ii",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "19/08/2026",
-      "fechaFin": "02/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGV-832)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
-      ]
-    },
-    {
-      "n": 38,
       "idIntervencion": "10364",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -761,6 +742,25 @@
         "CARGADOR FRONTAL ( JLX00207)",
         "VOLQUETE ( EGV-825)",
         "VOLQUETE ( EGV-840)"
+      ]
+    },
+    {
+      "n": 38,
+      "idIntervencion": "10074",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Vertiente Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "02/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-832)",
+        "EXCAVADORA HIDRAULICA ( A10875)"
       ]
     },
     {
