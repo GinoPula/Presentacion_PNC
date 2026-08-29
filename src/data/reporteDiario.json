@@ -1,0 +1,1024 @@
+{
+  "meta": {
+    "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
+    "fechaCorte": "28/08/2026",
+    "horaCorte": "20:35",
+    "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
+  },
+  "items": [
+    {
+      "n": 1,
+      "idIntervencion": "10462",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Villa María – 3 De Octubre",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH",
+      "fechaInicio": "28/08/2026",
+      "fechaFin": "08/10/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 2,
+      "idIntervencion": "10266",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": null,
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Lucmapampa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.",
+      "fechaInicio": "17/08/2026",
+      "fechaFin": "15/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 85423)",
+        "REMOLCADOR ( EGV-851)",
+        "VOLQUETE ( EGV-803)"
+      ]
+    },
+    {
+      "n": 3,
+      "idIntervencion": "9639",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": null,
+      "provincia": "Abancay",
+      "distrito": "Circa",
+      "sector": "Ccaracuñi",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº092-2025",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC\"-00",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "07/09/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGV-851)",
+        "TRACTOR SOBRE ORUGA ( 81442)",
+        "VOLQUETE ( EGM-780)",
+        "EXCAVADORA HIDRAULICA ( 810370)",
+        "VOLQUETE ( EGM-777)",
+        "VOLQUETE ( EGV-792)"
+      ]
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10430",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": null,
+      "provincia": "Camana",
+      "distrito": "Mariano Nicolas Valcarcel",
+      "sector": "Varios Anexos",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 002-2026-MDMNV-CM",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "18/08/2026",
+      "fechaFin": "16/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-005)",
+        "CAMIONETA ( EGM-015)"
+      ]
+    },
+    {
+      "n": 5,
+      "idIntervencion": "10397",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": null,
+      "provincia": "Camana",
+      "distrito": "Ocoña",
+      "sector": "Varios Anexos",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 01-2026-MDO",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "04/08/2026",
+      "fechaFin": "02/09/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-983)"
+      ]
+    },
+    {
+      "n": 6,
+      "idIntervencion": "10418",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": null,
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "A.h. Isidoro Berrocal",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-980)",
+        "CAMIONETA ( EGM-015)"
+      ]
+    },
+    {
+      "n": 7,
+      "idIntervencion": "10085",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": null,
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "La Yesera I Tramo Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 79-2025-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "CAMIONETA ( EGM-015)",
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGM-774)",
+        "EXCAVADORA HIDRAULICA ( A10856)"
+      ]
+    },
+    {
+      "n": 8,
+      "idIntervencion": "10194",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": null,
+      "provincia": "Caraveli",
+      "distrito": "Chaparra",
+      "sector": "La Chimba",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 1 AL CONVENIO N° 50-2024-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
+      "fechaInicio": "28/08/2026",
+      "fechaFin": "19/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-805)",
+        "REMOLCADOR ( EGM-982)",
+        "EXCAVADORA HIDRAULICA ( D523227)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "TRACTOR SOBRE ORUGA ( 81372)",
+        "CAMIONETA ( EGM-015)",
+        "VOLQUETE ( EGM-798)"
+      ]
+    },
+    {
+      "n": 9,
+      "idIntervencion": "9702",
+      "departamento": "AYACUCHO",
+      "deptoLabel": "Ayacucho",
+      "regionId": null,
+      "provincia": "Huamanga",
+      "distrito": "Ayacucho",
+      "sector": "Mollepata - Ponton 02",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 016-2023-VIVIENDA/VMVU/PNC (ADENDA N°03)",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA PONTÓN 02, DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO -00",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "29/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-795)",
+        "EXCAVADORA HIDRAULICA ( TJT10125)",
+        "TRACTOR SOBRE ORUGA ( 81439)",
+        "VOLQUETE ( EGM-836)",
+        "VOLQUETE ( EGM-796)"
+      ]
+    },
+    {
+      "n": 10,
+      "idIntervencion": "10288",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Cajabamba",
+      "distrito": "Cachachi",
+      "sector": "Carretas Olivo",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO I, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.",
+      "fechaInicio": "13/08/2026",
+      "fechaFin": "27/08/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( J8B05104)",
+        "CAMIONETA ( EGL-971)",
+        "REMOLCADOR ( EGO-046)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
+      ]
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10156",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Cajamarca",
+      "distrito": "Jesus",
+      "sector": "La Huaraclla (parte Alta)",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN LA QUEBRADA SHILLAC - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+400, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
+      "fechaInicio": "27/08/2026",
+      "fechaFin": "05/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 85462)",
+        "REMOLCADOR ( EGO-046)",
+        "CAMIONETA ( EGL-971)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
+      ]
+    },
+    {
+      "n": 12,
+      "idIntervencion": "10294",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Cutervo",
+      "distrito": "Callayuc",
+      "sector": "San Francisco - C.p El Cumbe – La Union",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".",
+      "fechaInicio": "15/06/2026",
+      "fechaFin": "30/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-882)",
+        "VOLQUETE ( EGV-785)",
+        "EXCAVADORA HIDRAULICA ( 85464)"
+      ]
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10440",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Cutervo",
+      "distrito": "La Ramada",
+      "sector": "Suro Chico - Las Palmas – El Porvenir",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
+      "descripcion": "“MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
+      "fechaInicio": "18/08/2025",
+      "fechaFin": "31/08/2025",
+      "maquinaria": [
+        "VOLQUETE ( EGM-788)",
+        "VOLQUETE ( EGV-810)",
+        "MOTONIVELADORA ( SZL03378)",
+        "CARGADOR FRONTAL ( M5K00334)"
+      ]
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10465",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Cutervo",
+      "distrito": "San Andres De Cutervo",
+      "sector": "C.p. Pajonal Y Cp. Chorro Blanco",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°008-2026-MDSAC",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. PAJONAL Y CP. CHORRO BLANCO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
+      "fechaInicio": "27/08/2026",
+      "fechaFin": "04/10/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 810148)",
+        "VOLQUETE ( EGV-797)",
+        "RODILLO COMPACTADOR ( H1762469)",
+        "MOTONIVELADORA ( SZL03378)",
+        "VOLQUETE ( EGV-830)"
+      ]
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10415",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "Jaen",
+      "distrito": "Jaen",
+      "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°083-2026-CPJ/SO",
+      "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
+      "fechaInicio": "07/08/2026",
+      "fechaFin": "05/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-106)"
+      ]
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10419",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Sector Vista Hermosa",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS CON EL SECTOR VISTA HERMOSA ETAPA I, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-835)",
+        "VOLQUETE ( EGV-848)",
+        "CARGADOR FRONTAL ( JLX00219)",
+        "VOLQUETE ( EGV-774)",
+        "RODILLO COMPACTADOR ( H1762462)"
+      ]
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10239",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "Centro Poblado San Francisco",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N° 048-2026-PCM",
+      "descripcion": "“LIMPIEZA Y REMOCION DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTROS POBLADOS SAN FRANCISCO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "20/05/2026",
+      "fechaFin": "24/08/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81371)"
+      ]
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10326",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": null,
+      "provincia": "San Ignacio",
+      "distrito": "Namballe",
+      "sector": "C.p. San Pedro",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”",
+      "fechaInicio": "25/06/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-819)",
+        "VOLQUETE ( EGM-833)"
+      ]
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10426",
+      "departamento": "CUSCO",
+      "deptoLabel": "Cusco",
+      "regionId": null,
+      "provincia": "Quispicanchi",
+      "distrito": "Urcos",
+      "sector": "Urcuspampa-bajo",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº019-2026",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO CACHIMAYO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR URCUSPAMPA-BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+320 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO",
+      "fechaInicio": "12/08/2026",
+      "fechaFin": "27/08/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGN-096)",
+        "TRACTOR SOBRE ORUGA ( 81384)",
+        "CARGADOR FRONTAL ( JLX00830)",
+        "VOLQUETE ( EGM-819)",
+        "CAMIONETA ( EGM-019)"
+      ]
+    },
+    {
+      "n": 20,
+      "idIntervencion": "10438",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": null,
+      "provincia": "Ambo",
+      "distrito": "Ambo",
+      "sector": "Huancapata",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO\".",
+      "fechaInicio": "18/08/2026",
+      "fechaFin": "01/09/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGN-104)",
+        "CAMIONETA ( EGL-984)",
+        "VOLQUETE ( EGM-934)",
+        "VOLQUETE ( EGM-776)",
+        "EXCAVADORA HIDRAULICA ( 810156)"
+      ]
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10437",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": null,
+      "provincia": "Leoncio Prado",
+      "distrito": "Jose Crespo Y Castillo",
+      "sector": "27 De Mayo",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° N° 002-2021-VIVIENDA/VMVU/PNC (ADENDA N° 5)",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "02/09/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGL-984)",
+        "VOLQUETE ( EGV-841)",
+        "VOLQUETE ( EGV-798)",
+        "REMOLCADOR ( EGN-104)",
+        "EXCAVADORA HIDRAULICA ( TJT10096)"
+      ]
+    },
+    {
+      "n": 22,
+      "idIntervencion": "9469",
+      "departamento": "ICA",
+      "deptoLabel": "Ica",
+      "regionId": "ica",
+      "provincia": "Ica",
+      "distrito": "San Jose De Los Molinos",
+      "sector": "Yesera",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº001-2023-ADENDA 02",
+      "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA",
+      "fechaInicio": "26/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-925)",
+        "EXCAVADORA HIDRAULICA ( D523572)",
+        "TRACTOR SOBRE ORUGA ( 81386)",
+        "REMOLCADOR ( EAJ-543)"
+      ]
+    },
+    {
+      "n": 23,
+      "idIntervencion": "10431",
+      "departamento": "ICA",
+      "deptoLabel": "Ica",
+      "regionId": "ica",
+      "provincia": "Palpa",
+      "distrito": "Rio Grande",
+      "sector": "Centros Poblados De San Jacinto, Los Alaches, Paucarrastro, Ranchería, Santa Rosa, La Isla, Huaraco, Huambo, Chantay, Marccarenja, Palmar, Granado, Pampa Blanca, Pernil (bajo Y Alto), San Miguel, Campanario, Lucriche, Campanario, Ucuchimpana, Rio Grande, El Molino, Florita",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 025-2026-MDRG/CM",
+      "descripcion": "DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.",
+      "fechaInicio": "24/08/2026",
+      "fechaFin": "22/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-013)"
+      ]
+    },
+    {
+      "n": 24,
+      "idIntervencion": "10448",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": null,
+      "provincia": "Satipo",
+      "distrito": "Rio Tambo",
+      "sector": "Zona Urbana",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.",
+      "fechaInicio": "26/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGN-004)",
+        "CARGADOR FRONTAL ( D001612)",
+        "VOLQUETE ( EGM-832)",
+        "VOLQUETE ( EGV-796)"
+      ]
+    },
+    {
+      "n": 25,
+      "idIntervencion": "10452",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Gran Chimu",
+      "distrito": "Cascas",
+      "sector": "Conoden",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº060-2024-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA SAN FELIPE SECTOR CONODEN, DISTRITO DE CASCAS, PROVINCIA GRAN CHIMU, DEPARTAMENTO DE LA LIBERTAD",
+      "fechaInicio": "20/08/2026",
+      "fechaFin": "29/08/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10075)",
+        "REMOLCADOR ( EAJ-379)"
+      ]
+    },
+    {
+      "n": 26,
+      "idIntervencion": "10425",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "Canucubamba",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 038-2026-CHUG",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "fechaInicio": "10/08/2026",
+      "fechaFin": "27/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-853)",
+        "TRACTOR SOBRE ORUGA ( J8B05109)",
+        "VOLQUETE ( EGV-795)"
+      ]
+    },
+    {
+      "n": 27,
+      "idIntervencion": "10441",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "Zancobamba",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO ZANCOBAMBA – EL ROLLO, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "fechaInicio": "13/08/2026",
+      "fechaFin": "27/08/2026",
+      "maquinaria": [
+        "RETROEXCAVADORA ( 286754)"
+      ]
+    },
+    {
+      "n": 28,
+      "idIntervencion": "10355",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Lagunas",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE ALCALDIA N° 002-2026-MDLM/A",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE",
+      "fechaInicio": "15/07/2026",
+      "fechaFin": "12/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGM-884)"
+      ]
+    },
+    {
+      "n": 29,
+      "idIntervencion": "9176",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Pimentel",
+      "sector": "Urb. Ingeniero I , Ii Y La Pradera",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03 /PLIA",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “PRENDIMIENTO” EN LOS SECTORES DE LAS URB. INGENIERO I Y II Y LA PRADERA, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00",
+      "fechaInicio": "18/08/2026",
+      "fechaFin": "29/08/2026",
+      "maquinaria": [
+        "RETROEXCAVADORA ( 286748)",
+        "VOLQUETE ( EGV-833)"
+      ]
+    },
+    {
+      "n": 30,
+      "idIntervencion": "9170",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Lambayeque",
+      "distrito": "Chochope",
+      "sector": "Sectores “chochope” Y “parranal”",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA 03-CONVENIO Nº036-2022",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.",
+      "fechaInicio": "24/08/2026",
+      "fechaFin": "06/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10111)"
+      ]
+    },
+    {
+      "n": 31,
+      "idIntervencion": "10417",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Lambayeque",
+      "distrito": "Olmos",
+      "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 060-2026-MDO/CM",
+      "descripcion": "ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE",
+      "fechaInicio": "12/08/2026",
+      "fechaFin": "10/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EAA-171)"
+      ]
+    },
+    {
+      "n": 32,
+      "idIntervencion": "10213",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Huarochiri",
+      "distrito": "San Antonio",
+      "sector": "Sector La Rinconada – Con Referencia R-28",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "D.S. N° 094-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”",
+      "fechaInicio": "31/07/2026",
+      "fechaFin": "31/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGN-497)",
+        "EXCAVADORA HIDRAULICA ( A10910)"
+      ]
+    },
+    {
+      "n": 33,
+      "idIntervencion": "10420",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Ate",
+      "sector": "Casa Huerta La Rinconada",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR CASA HUERTA LA RINCONADA ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
+      "fechaInicio": "12/08/2026",
+      "fechaFin": "29/08/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10120)",
+        "VOLQUETE ( EGV-794)"
+      ]
+    },
+    {
+      "n": 34,
+      "idIntervencion": "10309",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Chaclacayo",
+      "sector": "Cusipata",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N°2 CONVENIO Nº 008-2024-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "04/09/2026",
+      "maquinaria": [
+        "CARGADOR FRONTAL ( D001610)",
+        "EXCAVADORA HIDRAULICA ( A10912)"
+      ]
+    },
+    {
+      "n": 35,
+      "idIntervencion": "10416",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Cieneguilla",
+      "sector": "Sector Cuatro De La Asociación De Vivienda Residencial Río Seco",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC.",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DE LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VIII, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.",
+      "fechaInicio": "17/08/2026",
+      "fechaFin": "31/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGN-505)",
+        "EXCAVADORA HIDRAULICA ( A10891)"
+      ]
+    },
+    {
+      "n": 36,
+      "idIntervencion": "10371",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Los Olivos",
+      "sector": "Puente Panamericana",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 10-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+000 AL 0+340 KM DESDE EL PUENTE PANAMERICANA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\".",
+      "fechaInicio": "20/08/2026",
+      "fechaFin": "03/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( D810373)"
+      ]
+    },
+    {
+      "n": 37,
+      "idIntervencion": "10074",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Vertiente Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "02/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-832)",
+        "EXCAVADORA HIDRAULICA ( A10875)"
+      ]
+    },
+    {
+      "n": 38,
+      "idIntervencion": "10364",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": null,
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "La Bocatoma De La Ptap Huachipa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "fechaInicio": "22/07/2026",
+      "fechaFin": "01/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10116)",
+        "TRACTOR SOBRE ORUGA ( 82541)",
+        "CARGADOR FRONTAL ( JLX00207)",
+        "VOLQUETE ( EGV-825)",
+        "VOLQUETE ( EGV-840)"
+      ]
+    },
+    {
+      "n": 39,
+      "idIntervencion": "9407",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": null,
+      "provincia": "Maynas",
+      "distrito": "Punchana",
+      "sector": "Punchana",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 104-2026-UPCDYR-GSM-MDP",
+      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. NUESTRA SEÑORA DE LA SALUD, SANTA MARIA DEL AMAZONAS Y DELICIA MANZUR, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO",
+      "fechaInicio": "14/08/2026",
+      "fechaFin": "12/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-806)",
+        "MINI CARGADOR ( LMST05745)"
+      ]
+    },
+    {
+      "n": 40,
+      "idIntervencion": "9379",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": null,
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Centro Poblado Ninarumi",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "17/07/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "RETROEXCAVADORA ( 284005)"
+      ]
+    },
+    {
+      "n": 41,
+      "idIntervencion": "9409",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": null,
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Centro Poblado Ninarumi",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
+      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "17/07/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGP-009)",
+        "CARGADOR FRONTAL ( JLX00249)"
+      ]
+    },
+    {
+      "n": 42,
+      "idIntervencion": "9403",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": null,
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "San Juan Bautista",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "08/08/2026",
+      "fechaFin": "06/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-773)"
+      ]
+    },
+    {
+      "n": 43,
+      "idIntervencion": "10442",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Papayal Bajo, Monte Grande",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 097-2026-PCM",
+      "descripcion": "LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "07/09/2026",
+      "maquinaria": [
+        "CARGADOR FRONTAL ( D001587)"
+      ]
+    },
+    {
+      "n": 44,
+      "idIntervencion": "10411",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 097-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA",
+      "fechaInicio": "06/08/2026",
+      "fechaFin": "30/08/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( AE800572)"
+      ]
+    },
+    {
+      "n": 45,
+      "idIntervencion": "9474",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Veintiseis De Octubre",
+      "sector": "Dren 66",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 019–2025-VIVIENDA/VMVU/PNC-PLIA",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00",
+      "fechaInicio": "27/08/2026",
+      "fechaFin": "10/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EAJ-400)",
+        "CARGADOR FRONTAL ( D001580)",
+        "EXCAVADORA HIDRAULICA ( TJT10107)",
+        "VOLQUETE ( EAJ-390)"
+      ]
+    },
+    {
+      "n": 46,
+      "idIntervencion": "10436",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Melgar",
+      "distrito": "Umachiri",
+      "sector": "Paccochuma Y Huamanruro",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO",
+      "fechaInicio": "14/08/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 47,
+      "idIntervencion": "10412",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": null,
+      "provincia": "Lamas",
+      "distrito": "Cuñumbuqui",
+      "sector": "Elina",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 014-2026",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN",
+      "fechaInicio": "17/08/2026",
+      "fechaFin": "08/08/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 85469)"
+      ]
+    },
+    {
+      "n": 48,
+      "idIntervencion": "9438",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": null,
+      "provincia": "Rioja",
+      "distrito": "Pardo Miguel",
+      "sector": "Centro, Los Angeles Y Miraflores",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
+      "fechaInicio": "04/08/2026",
+      "fechaFin": "11/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-010)"
+      ]
+    },
+    {
+      "n": 49,
+      "idIntervencion": "10306",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Inclan",
+      "sector": "Inclan Y Anexos Iii Etapa",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO Nª 020-2026-CM-MDI",
+      "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "18/08/2026",
+      "fechaFin": "16/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-975)"
+      ]
+    },
+    {
+      "n": 50,
+      "idIntervencion": "10307",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Sama",
+      "sector": "Sama Y Anexos Iv Etapa",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO Nª 002-2026-CM-MDS",
+      "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "10/08/2026",
+      "fechaFin": "08/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-007)"
+      ]
+    },
+    {
+      "n": 51,
+      "idIntervencion": "10369",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "30/07/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGM-976)",
+        "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
+      "n": 52,
+      "idIntervencion": "10414",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”",
+      "fechaInicio": "07/08/2026",
+      "fechaFin": "05/09/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-052)",
+        "CAMION CISTERNA DE AGUA ( EGN-007)"
+      ]
+    }
+  ]
+}
