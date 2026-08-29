@@ -2,12 +2,10 @@
 // Región nueva agregada el 29/08/2026 (Franco: "empecemos por Lima" -- primer departamento
 // nuevo del sitio, además de las 8 regiones originales).
 //
-// Ejecutadas/en ejecución/programadas + mapa de intervenciones + convenios + flota: PENDIENTE.
-// El pipeline (pipeline/generar_todas_regiones.py) ya tiene a Lima agregada a DEPARTAMENTOS y
-// DEPARTAMENTO_BBOX -- falta correrlo una vez con VPN de VIVIENDA conectada:
-//   python pipeline/generar_todas_regiones.py --repo "D:\Presentacion_PNC" --regiones lima
-// Hasta entonces, ./_generated/lima.js queda con arreglos vacíos (placeholder, nunca datos
-// inventados) y esas secciones se ven vacías o en "0" en el sitio.
+// Ejecutadas/en ejecución/programadas + mapa de intervenciones + convenios + flota: ya
+// corridas contra Producción (29/08/2026, commit 3c4de5a) -- ./_generated/lima.js tiene
+// datos reales, no el placeholder inicial. Para refrescar más adelante:
+//   python pipeline/generar_todas_regiones.py --repo "D:\Presentacion_PNC" --regiones lima --git-push
 //
 // Presupuesto/Escenarios FEN: Lima tiene un vacío real de datos en el MAIN -- el reporte
 // nacional (inter_20260824204815.xlsx) trae 119 filas de Lima, todas con LAT/LONG, pero
@@ -16,9 +14,11 @@
 // (mismo criterio que Puno/Tacna) esta región NO tiene sección "escenarios" -- se omite en
 // vez de mostrar un presupuesto en cero que no es real.
 //
-// Puntos críticos ANA: sin el extracto del acuerdo multisectorial para Lima todavía (viene
-// de un documento aparte que sube la ANA, no del MAIN) -- queda null, igual que Puno/Tacna,
-// hasta contar con esa fuente.
+// Puntos críticos (agregado 29/08/2026, aclarado por Franco): NO viene de un extracto ANA
+// aparte -- sale del mismo consolidado 536 usado para todosResponsables, filtrando además
+// por RESPONSABLE = MVCS (igual patrón que Ancash/La Libertad: sus 4/varios puntos críticos
+// también son justo sus filas con RESPONSABLE=MVCS). Para Lima son 3 fichas. Esto es distinto
+// del acumulado por entidad de la Ayuda Memoria, que sigue siendo todosResponsablesResumen.
 //
 // todosResponsables (agregado 29/08/2026): igual método que Ancash/La Libertad -- filas de
 // 'EXCEL_CONSOLIDADO_536_PARA_MIDAGRI_14.08.2026_VF_REV_ANA.xlsx', hoja CONSOLIDADO, filtrado
@@ -43,7 +43,37 @@ export default {
 
   ...datosBD,
 
-  puntosCriticos: null,
+  // puntosCriticos (agregado 29/08/2026): igual criterio que Ancash/La Libertad -- del mismo
+  // consolidado 536 (CONSOLIDADO, filtrado DEPARTAMENTO=Lima), las fichas con RESPONSABLE=MVCS
+  // (Vivienda) son las que se muestran en esta sección del sitio -- para Lima son 3 (coincide
+  // con mvcs:3 en todosResponsablesResumen abajo). Esto es distinto del acumulado por entidad
+  // que va en la Ayuda Memoria (ese sigue siendo todosResponsablesResumen, sin tocar).
+  puntosCriticos: [
+    {
+      provincia: 'Huarochiri',
+      distrito: 'Ricardo Palma',
+      sector: 'Pascana III',
+      fichaTecnica: 'FTR-MC-PREV N° 0018-2026-ANA-AAA.CF-ALA.CHRL',
+      descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Río Seco-Toro Cocha.',
+      metaKm: 0.05,
+    },
+    {
+      provincia: 'Huarochiri',
+      distrito: 'Huachupampa',
+      sector: 'Pongo',
+      fichaTecnica: 'FTR-CB-PREV N° 0372-2025-ANA-AAA.CF-ALA.CHRL',
+      descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Chico.',
+      metaKm: 0.43,
+    },
+    {
+      provincia: 'Huarochiri',
+      distrito: 'Santa Cruz de Cocachacra',
+      sector: 'Corcona',
+      fichaTecnica: 'FTR-MC-PREV N° 0100-2026-ANA-AAA.CF-ALA.CHRL',
+      descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Huaura.',
+      metaKm: 0.5,
+    },
+  ],
   escenarios: null,
 
   // Sin fuente de capacidad de flota (Estado_Maquinarias) filtrada por Lima todavía --
