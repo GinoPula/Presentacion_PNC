@@ -153,6 +153,27 @@ DEPARTAMENTOS = {
     "la-libertad": "LA LIBERTAD",
     "lima":        "LIMA",
     "arequipa":    "AREQUIPA",
+    # 15 departamentos agregados 30/08/2026 (Franco: "termina las demas regiones que faltan").
+    # A diferencia de los 10 anteriores, para estos NO hay Excel consolidado de fichas MVCS/ANA
+    # ni archivo de presupuesto Moderado/Severo -- solo el reporte en vivo del MAIN. Por eso sus
+    # src/data/regions/<slug>.js quedan con puntosCriticos/escenarios/capacidad/personalUBO
+    # vacíos (mismo patrón que Puno/Tacna), y solo esta sección (ejecutadas/en ejecución/
+    # programadas/convenios/flota) sale con datos reales una vez que se corra el pipeline.
+    "amazonas":      "AMAZONAS",
+    "apurimac":      "APURIMAC",
+    "ayacucho":      "AYACUCHO",
+    "cajamarca":     "CAJAMARCA",
+    "callao":        "CALLAO",
+    "cusco":         "CUSCO",
+    "huancavelica":  "HUANCAVELICA",
+    "huanuco":       "HUANUCO",
+    "junin":         "JUNIN",
+    "loreto":        "LORETO",
+    "madre-de-dios": "MADRE DE DIOS",
+    "moquegua":      "MOQUEGUA",
+    "pasco":         "PASCO",
+    "san-martin":    "SAN MARTIN",
+    "ucayali":       "UCAYALI",
 }
 
 # ---------------------------------------------------------------------------
@@ -200,6 +221,33 @@ DEPARTAMENTO_BBOX = {
     # queda fuera, revisar y ajustar -- y si se consigue el contorno real, reemplazar esto igual
     # que se hizo para las demás regiones.
     "AREQUIPA":    (-17.35, -14.30, -75.05, -70.85),
+
+    # 15 departamentos agregados 30/08/2026. Sin polígono en mapaLimites.js y sin puntos
+    # suficientes en Producción todavía para cruzarlos como se hizo con Arequipa -- estimados
+    # directamente de los extremos geográficos publicados de cada departamento (límites político-
+    # administrativos del Perú), con colchón amplio (~0.3-0.5°, más ancho que las 10 regiones
+    # anteriores) porque no hay puntos reales para validar contra falsos positivos todavía. Se
+    # revisaron contra las coordenadas que sí trae hoy 'inter_20260824204815.xlsx' para los 12 que
+    # tienen filas (Amazonas, Apurímac, Ayacucho, Cajamarca, Cusco, Huancavelica, Huánuco, Junín,
+    # Loreto, Moquegua, Pasco, San Martín) y todas caen dentro de la caja estimada. Los otros 3
+    # (Callao, Madre de Dios, Ucayali) no tienen ninguna fila en ese reporte todavía -- su caja es
+    # 100% estimada de fuentes públicas, sin ningún punto real para contrastar. Si al correr el
+    # pipeline aparece un punto real fuera de estas cajas, ajustar (mismo criterio que las demás).
+    "AMAZONAS":      (-7.00, -3.00, -78.90, -76.90),
+    "APURIMAC":      (-14.90, -13.20, -73.75, -72.30),
+    "AYACUCHO":      (-15.60, -12.30, -75.05, -73.10),
+    "CAJAMARCA":     (-7.85, -4.70, -79.40, -77.70),
+    "CALLAO":        (-12.20, -11.70, -77.25, -76.90),
+    "CUSCO":         (-15.50, -11.20, -73.90, -70.40),
+    "HUANCAVELICA":  (-13.90, -11.80, -76.00, -74.35),
+    "HUANUCO":       (-10.60, -8.10, -77.10, -74.30),
+    "JUNIN":         (-12.90, -10.10, -76.40, -73.70),
+    "LORETO":        (-8.20, 0.00, -78.50, -69.50),
+    "MADRE DE DIOS": (-13.50, -9.50, -72.50, -68.50),
+    "MOQUEGUA":      (-17.85, -15.85, -71.40, -70.35),
+    "PASCO":         (-11.20, -9.70, -76.60, -74.60),
+    "SAN MARTIN":    (-8.85, -5.70, -77.60, -75.80),
+    "UCAYALI":       (-11.50, -7.00, -75.80, -70.50),
 }
 
 

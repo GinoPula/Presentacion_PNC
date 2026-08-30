@@ -57,6 +57,24 @@ DEPTO_TO_REGION = {
     'LA LIBERTAD': 'la-libertad',
     'LIMA': 'lima',
     'AREQUIPA': 'arequipa',
+    # 15 departamentos agregados 30/08/2026 -- ver comentario largo en
+    # generar_todas_regiones.py (DEPARTAMENTOS) sobre por qué estos no tienen
+    # puntosCriticos/escenarios curados como los 10 anteriores.
+    'AMAZONAS': 'amazonas',
+    'APURIMAC': 'apurimac',
+    'AYACUCHO': 'ayacucho',
+    'CAJAMARCA': 'cajamarca',
+    'CALLAO': 'callao',
+    'CUSCO': 'cusco',
+    'HUANCAVELICA': 'huancavelica',
+    'HUANUCO': 'huanuco',
+    'JUNIN': 'junin',
+    'LORETO': 'loreto',
+    'MADRE DE DIOS': 'madre-de-dios',
+    'MOQUEGUA': 'moquegua',
+    'PASCO': 'pasco',
+    'SAN MARTIN': 'san-martin',
+    'UCAYALI': 'ucayali',
 }
 
 
