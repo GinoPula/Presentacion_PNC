@@ -152,6 +152,7 @@ DEPARTAMENTOS = {
     "ica":         "ICA",
     "la-libertad": "LA LIBERTAD",
     "lima":        "LIMA",
+    "arequipa":    "AREQUIPA",
 }
 
 # ---------------------------------------------------------------------------
@@ -187,6 +188,18 @@ DEPARTAMENTO_BBOX = {
     # este, con el mismo colchón de ~0.15° que las demás. Si algún punto real de Lima
     # queda fuera de esta caja, revisar y ajustar (mismo criterio que las otras 7).
     "LIMA":        (-13.65, -10.15, -78.00, -75.50),
+    # AREQUIPA agregado 29/08/2026: mapaLimites.js todavía no tiene su polígono (no se pudo
+    # descargar el contorno público desde aquí), así que se estimó cruzando los extremos
+    # geográficos publicados del departamento (norte: La Unión/Cotahuasi ~-14.3; sur: Islay/
+    # costa ~-17.3; oeste: Caravelí/Chala ~-75.0; este: Caylloma, borde con Puno, ~-70.9) con
+    # los 70 puntos reales ya en Producción (`inter_20260824204815.xlsx`, filtrando 2 filas con
+    # coordenada corrupta -- típico problema de UTM pegado directo en lat/long, ver comentario
+    # de La Libertad): esos 70 caen en lat -16.48/-15.13, lon -74.61/-71.41 pero solo cubren 6
+    # de las 8 provincias (falta Caylloma e Islay), por eso la caja es más ancha que ese rango.
+    # Colchón más generoso que las demás (~0.2-0.3°) por la misma razón. Si algún punto real
+    # queda fuera, revisar y ajustar -- y si se consigue el contorno real, reemplazar esto igual
+    # que se hizo para las demás regiones.
+    "AREQUIPA":    (-17.35, -14.30, -75.05, -70.85),
 }
 
 

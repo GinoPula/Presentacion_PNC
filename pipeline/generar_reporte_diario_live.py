@@ -56,6 +56,7 @@ DEPTO_TO_REGION = {
     'ICA': 'ica',
     'LA LIBERTAD': 'la-libertad',
     'LIMA': 'lima',
+    'AREQUIPA': 'arequipa',
 }
 
 
