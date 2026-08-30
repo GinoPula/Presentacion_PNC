@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "29/08/2026",
-    "horaCorte": "19:59",
+    "fechaCorte": "30/08/2026",
+    "horaCorte": "08:29",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -586,7 +586,7 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03 /PLIA",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “PRENDIMIENTO” EN LOS SECTORES DE LAS URB. INGENIERO I Y II Y LA PRADERA, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00",
       "fechaInicio": "18/08/2026",
-      "fechaFin": "29/08/2026",
+      "fechaFin": "31/08/2026",
       "maquinaria": [
         "RETROEXCAVADORA ( 286748)",
         "VOLQUETE ( EGV-833)"
