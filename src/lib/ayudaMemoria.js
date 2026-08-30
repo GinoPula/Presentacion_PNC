@@ -284,7 +284,14 @@ function seccionNarrativa(data, regionLabel) {
       ),
     ]
   }
-  const anios = Object.keys(n).filter((k) => /^\d{4}$/.test(k)).sort()
+  // 29/08/2026 -- a pedido de Franco (comentario de su jefe en reunión: esa narrativa del 2025
+  // ya no debería ir): se deja de mostrar el bloque histórico 2025, aunque siga curado en el
+  // archivo de la región (por si se quiere revertir). Se prueba así primero -- si se confirma,
+  // el siguiente paso sería limpiar el bloque "2025" de los 8 archivos de región directamente.
+  const ANIOS_OCULTOS = ['2025']
+  const anios = Object.keys(n)
+    .filter((k) => /^\d{4}$/.test(k) && !ANIOS_OCULTOS.includes(k))
+    .sort()
   const out = [titulo2(`Intervenciones de PNC Maquinarias en la región ${regionLabel}.`, { size: 24 })]
   for (const anio of anios) {
     const bloque = n[anio]

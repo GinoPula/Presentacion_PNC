@@ -231,6 +231,16 @@ export default {
   ],
   todosResponsablesResumen: { ana: 9, midagri: 121, defensa: 8, mtc: 1, mvcs: 3, total: 142 },
 
+  // ayudaMemoriaDisponible (agregado 29/08/2026): activa el botón "Generar Ayuda Memoria" en la
+  // web. Lima NO tiene un Word de Ayuda Memoria curado a mano (a diferencia de las 8 regiones
+  // originales) -- pero ya no hace falta uno: el jefe de Franco pidió retirar la narrativa
+  // histórica 2025 (ver src/lib/ayudaMemoria.js, seccionNarrativa), así que Lima simplemente usa
+  // el párrafo genérico automático que ya arma esa función a partir de datos en vivo
+  // (data.ejecutadasTotal.cantidad + meta.periodo) cuando no hay ayudaMemoriaNarrativa curada --
+  // sin necesidad de un documento fuente. Este es el camino a seguir para las próximas regiones
+  // nuevas (p. ej. Arequipa): activar este flag alcanza, no hace falta pedir un Word aparte.
+  ayudaMemoriaDisponible: true,
+
   // Galería editable desde el panel del propietario (agregar ?admin=1 a la URL) --
   // los datos viven en src/data/galeria/lima.json, el panel los actualiza vía la API de GitHub.
   galeria,
