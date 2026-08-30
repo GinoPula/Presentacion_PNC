@@ -29,13 +29,14 @@ export default {
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 17175.0, metaKm: 0.5, poblacion: 11000 },
     { provincia: 'Tacna', distrito: 'Palca', cantidad: 2, metaVol: 8000.0, metaKm: 1.6, poblacion: 176 },
     { provincia: 'Tacna', distrito: 'Sama', cantidad: 2, metaVol: 10000.0, metaKm: 10.4, poblacion: 1050 },
-    { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
+    { provincia: 'Tacna', distrito: 'Tacna', cantidad: 2, metaVol: 9185.0, metaKm: 0.7, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 77135.0, metaKm: 14.5, poblacion: 24976 },
+  programadasTotal: { cantidad: 13, metaVol: 82000.0, metaKm: 15.0, poblacion: 24976 },
 
   programadasDetalle: [
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA-00    ', fechaInicio: '01/09/2026', fechaFin: '20/09/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Calana', sector: 'Sector Calana', ficha: '018-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CALANA, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA                 ', fechaInicio: '15/09/2026', fechaFin: '25/09/2026', metaVol: 5640.0, metaKm: 0.4, poblacion: 350 },
+    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Morro Sama Y Puente Fondopes', ficha: '046-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA ', fechaInicio: '15/09/2026', fechaFin: '29/09/2026', metaVol: 4865.0, metaKm: 0.5, poblacion: null },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Buena Vista', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE BUENA VISTA, SECTOR BUENA VISTA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA   ', fechaInicio: '21/09/2026', fechaFin: '20/10/2026', metaVol: 5000.0, metaKm: 10.0, poblacion: 800 },
     { provincia: 'Tacna', distrito: 'Calana', sector: 'Recodo', ficha: '007-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR RECODO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00       ', fechaInicio: '02/10/2026', fechaFin: '16/10/2026', metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                               ', fechaInicio: '05/10/2026', fechaFin: '14/10/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },

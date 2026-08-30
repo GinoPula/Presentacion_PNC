@@ -2830,12 +2830,12 @@ const mapaIntervenciones = {
     "provincia": "Morropon",
     "distrito": "Chulucanas",
     "sector": "",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA  ",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA   ",
     "ficha": "FTI N°114-2026-LD-E-PIU	",
     "fechaInicio": "06/08/2026",
-    "fechaFin": "30/08/2026",
+    "fechaFin": "04/09/2026",
     "poblacion": 110,
-    "volumen": 7400,
+    "volumen": 10300,
     "enlace": null
   },
   {
@@ -2852,7 +2852,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 372,
-    "volumen": 5600,
+    "volumen": 7000,
     "enlace": null
   },
   {
@@ -2869,7 +2869,7 @@ const mapaIntervenciones = {
     "fechaInicio": "27/08/2026",
     "fechaFin": "10/09/2026",
     "poblacion": 1000,
-    "volumen": 650,
+    "volumen": 1750,
     "enlace": null
   }
 ],
@@ -3823,7 +3823,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
-    "volumen": 0,
+    "volumen": 989,
     "enlace": null
   }
 ],
