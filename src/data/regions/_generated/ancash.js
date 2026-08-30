@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
+    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH    ', inicio: '26/08/2026', fin: '31/08/2026', volAcum: 252.0, kmAcum: 0.04, poblacion: 2516 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 7456 },
   ],
 
@@ -66,13 +67,12 @@ export default {
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Parco', ficha: '029-2026-LDP-ANC', descripcion: ' DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN DERECHO DEL CAUCE DEL RIO SANTA DEL SECTOR DE PARCO, TRAMO II, DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00  ', fechaInicio: '17/12/2026', fechaFin: '26/12/2026', metaVol: 8122.5, metaKm: 0.57, poblacion: 70 },
   ],
 
-  conveniosCount: 5,
+  conveniosCount: 4,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 03/03/2027' },
     { entidad: 'Municipalidad Provincial Yungay', detail: 'hasta 07/07/2027' },
     { entidad: 'Municipalidad Provincial Huaraz', detail: 'hasta 21/07/2027' },
     { entidad: 'Municipalidad Provincial Casma', detail: 'hasta 21/08/2027' },
-    { entidad: 'Municipalidad Distrital Independencia', detail: 'vence 29/08/2026 (a un mes de caducar)' },
   ],
 
   flota: [
