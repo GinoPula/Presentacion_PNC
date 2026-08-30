@@ -7,12 +7,14 @@
 // datos reales, no el placeholder inicial. Para refrescar más adelante:
 //   python pipeline/generar_todas_regiones.py --repo "D:\Presentacion_PNC" --regiones lima --git-push
 //
-// Presupuesto/Escenarios FEN: Lima tiene un vacío real de datos en el MAIN -- el reporte
-// nacional (inter_20260824204815.xlsx) trae 119 filas de Lima, todas con LAT/LONG, pero
-// MONTO_CONTRATADO y MONTO_EJECUTADO están en cero/nulo en el 100% de esas filas. No es un
-// bug del pipeline: es que a Lima no le han cargado ese dato en Producción todavía. Por eso
-// (mismo criterio que Puno/Tacna) esta región NO tiene sección "escenarios" -- se omite en
-// vez de mostrar un presupuesto en cero que no es real.
+// Presupuesto/Escenarios FEN (corregido 30/08/2026 -- Franco notó la omisión): SÍ hay fila de
+// Lima en 'DATA_PRESUPUESTO_REGIONES_NORTE_1.xlsx' (la misma fuente que usan Piura/Ancash/
+// Lambayeque/La Libertad/Tumbes), con su desglose Moderado/Severo de mantenimiento, combustible
+// y personal -- se había omitido por error, confundiéndolo con otro dato distinto (el reporte
+// nacional inter_20260824204815.xlsx, que sí trae 119 filas de Lima pero con MONTO_CONTRATADO/
+// MONTO_EJECUTADO en cero/nulo -- eso es un dato aparte, de "ejecutadasPorTipo", no de este
+// escenario FEN). igual que en Piura/Ancash, esa hoja no trae el número de intervenciones
+// proyectadas por escenario -- queda en null en vez de inventarlo.
 //
 // Puntos críticos (agregado 29/08/2026, aclarado por Franco): NO viene de un extracto ANA
 // aparte -- sale del mismo consolidado 536 usado para todosResponsables, filtrando además
@@ -74,7 +76,10 @@ export default {
       metaKm: 0.5,
     },
   ],
-  escenarios: null,
+  escenarios: [
+    { nombre: 'Escenario N° 1', condicion: 'Condiciones Moderadas', presupuesto: 924657.54, mantenimiento: 333320.54, combustible: 332418.65, personal: 258918.35, intervenciones: null },
+    { nombre: 'Escenario N° 2', condicion: 'Condiciones Severas', presupuesto: 8082191.78, mantenimiento: 2913468.4, combustible: 2905585.22, personal: 2263138.16, intervenciones: null },
+  ],
 
   // Sin fuente de capacidad de flota (Estado_Maquinarias) filtrada por Lima todavía --
   // se deja vacío (nunca inventado) hasta correr el pipeline o recibir el Excel de flota.
