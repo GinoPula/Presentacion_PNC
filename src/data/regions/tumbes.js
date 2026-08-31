@@ -9,6 +9,8 @@
 // el volumen/km ejecutado en todas las regiones. Cantidad y población no se vieron afectadas.
 // Refrescado otra vez el mismo día con inter_20260824204815.xlsx (~9h después, sin cambio de
 // lógica) para reflejar los avances incrementales del MAIN.
+// Actualizado 31/08/2026: presupuesto del Escenario Severo (ver comentario junto a 'escenarios'
+// más abajo) con la Exposición de Motivos del Decreto Supremo de transferencia FEN 2026-2027.
 import datosBD from './_generated/tumbes'
 import galeria from '../galeria/tumbes.json'
 
@@ -85,13 +87,27 @@ export default {
       personal: 153433.1,
       intervenciones: 16,
     },
+    // Escenario Severo actualizado 31/08/2026 con la "Exposición de Motivos" del Decreto Supremo
+    // que autoriza la Transferencia de Partidas para el FEN 2026-2027 (a cargo del MVCS). Esta
+    // cifra es la BRECHA de recursos adicionales que el Programa le pide al MEF -- no el costo
+    // operativo total del escenario -- para las 79 intervenciones de Tumbes (mismo número que ya
+    // veníamos usando; el Cuadro 3 del decreto lo confirma). Reemplaza el valor anterior (que salía
+    // de 'DATA_PRESUPUESTO_REGIONES_NORTE_1.xlsx', un costo operativo estimado más amplio):
+    //   mantenimiento: suma de las líneas de repuestos/lubricantes con UBO=TUMBES en el detalle de
+    //     "Necesidad de bienes para mantenimiento" del decreto (S/253,050 -- el decreto no da un
+    //     total de mantenimiento por UBO, solo por tipo de gasto a nivel nacional, así que se sumó
+    //     a mano cada línea con UBO=Tumbes).
+    //   combustible: Cuadro 6 "Combustible requerido para intervenciones preventivas", fila TUMBES.
+    //   personal: Cuadro 7 "Operadores/conductores" (S/220,800) + Cuadro 8 "Servicios de gestión
+    //     operativa en UBOs" (S/196,800), fila/bloque TUMBES de cada uno -- el decreto trata ambos
+    //     como parte de "Locación de servicios".
     {
       nombre: 'Escenario N° 2',
       condicion: 'Condiciones Severas',
-      presupuesto: 2705479.45,
-      mantenimiento: 975271.2,
-      combustible: 972632.34,
-      personal: 757575.91,
+      presupuesto: 1458150.0,
+      mantenimiento: 253050.0,
+      combustible: 787500.0,
+      personal: 417600.0,
       intervenciones: 79,
     },
   ],
