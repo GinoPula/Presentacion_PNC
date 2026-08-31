@@ -58,6 +58,33 @@ export default {
   ],
   todosResponsablesResumen: { ana: 10, midagri: 0, defensa: 3, mtc: 0, mvcs: 2, total: 15 },
 
+  // Presupuesto de la sección "Acuerdo Multisectorial" (ver puntosCriticos abajo) -- viene de la
+  // misma Ayuda Memoria de referencia que envió Franco el 31/08/2026 (ya estaba resuelto ahí, no
+  // es un placeholder "xx"); a diferencia del presupuesto Severo (ver 'escenarios'), este monto es
+  // específico de Tumbes, así que se deja como campo por región y no como constante nacional.
+  presupuestoAcuerdoMultisectorial: 380893.0,
+
+  // "Puntos críticos restantes" (79 identificados - 15 priorizados en programadasDetalle = 64) --
+  // agregado 31/08/2026 a partir del Excel 'RANKING 710 SEVERO PROG FINAL PARA 724.xlsx' que
+  // Franco envió, mismo dato que ya se completó a mano en el .docx de referencia (cuadro
+  // PROVINCIA/DISTRITO/N° INTERVENCIÓN de la sección 4.1). Se porta acá para que el generador web
+  // también lo muestre, en vez de quedar solo en el Word editado a mano.
+  puntosCriticosRestantes: [
+    { provincia: 'Contralmirante Villar', distrito: 'Canoas de Punta Sal', cantidad: 8 },
+    { provincia: 'Contralmirante Villar', distrito: 'Casitas', cantidad: 5 },
+    { provincia: 'Contralmirante Villar', distrito: 'Zorritos', cantidad: 10 },
+    { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 9 },
+    { provincia: 'Tumbes', distrito: 'La Cruz', cantidad: 5 },
+    { provincia: 'Tumbes', distrito: 'Pampas de Hospital', cantidad: 4 },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', cantidad: 3 },
+    { provincia: 'Tumbes', distrito: 'Tumbes', cantidad: 12 },
+    { provincia: 'Zarumilla', distrito: 'Aguas Verdes', cantidad: 1 },
+    { provincia: 'Zarumilla', distrito: 'La Cruz', cantidad: 1 },
+    { provincia: 'Zarumilla', distrito: 'Matapalo', cantidad: 3 },
+    { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 2 },
+    { provincia: 'Zarumilla', distrito: 'Zarumilla', cantidad: 1 },
+  ],
+
   puntosCriticos: [
     {
       provincia: 'Tumbes',
