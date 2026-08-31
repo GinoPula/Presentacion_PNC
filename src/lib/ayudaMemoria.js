@@ -71,6 +71,64 @@ function listaProvincias(arr) {
 }
 
 // ---------------------------------------------------------------------------
+// Ámbito (provincia/distrito) -- agregado 31/08/2026 a pedido de Franco: pidieron
+// una Ayuda Memoria acotada a solo algunas provincias/distritos de un departamento
+// (caso concreto: Puno -> provincias de Puno y Huancané, y solo el distrito de
+// Juliaca dentro de la provincia de San Román), usando la misma plantilla. Ver
+// construirAyudaMemoriaFiltrada() más abajo y AyudaMemoriaFiltroModal.jsx para la UI.
+//
+// 'seleccion' es un Map<provincia, 'todos' | Set<distrito>> -- 'todos' cuando el
+// usuario marcó la provincia entera, un Set cuando acotó a distritos puntuales.
+// ---------------------------------------------------------------------------
+
+// Provincias/distritos disponibles para un departamento, calculado en vivo a
+// partir de los mismos datos que ya alimentan el resto del documento
+// (programadasDetalle y puntosCriticos son las únicas piezas con esa
+// granularidad -- ver comentario grande al inicio del archivo).
+export function obtenerAmbitoDisponible(data) {
+  const mapa = new Map()
+  const agregar = (arr) => {
+    ;(arr || []).forEach((r) => {
+      if (!r.provincia) return
+      if (!mapa.has(r.provincia)) mapa.set(r.provincia, new Set())
+      if (r.distrito) mapa.get(r.provincia).add(r.distrito)
+    })
+  }
+  agregar(data.programadasDetalle)
+  agregar(data.puntosCriticos)
+  return [...mapa.entries()]
+    .map(([provincia, distritos]) => ({ provincia, distritos: [...distritos].sort((a, b) => a.localeCompare(b, 'es')) }))
+    .sort((a, b) => a.provincia.localeCompare(b.provincia, 'es'))
+}
+
+export function filtrarPorAmbito(filas, seleccion) {
+  if (!seleccion || !seleccion.size) return []
+  return (filas || []).filter((f) => {
+    const distritos = seleccion.get(f.provincia)
+    if (!distritos) return false
+    return distritos === 'todos' || distritos.has(f.distrito)
+  })
+}
+
+function describirSeleccion(seleccion) {
+  const partes = []
+  for (const [provincia, distritos] of seleccion.entries()) {
+    if (distritos === 'todos') partes.push(`provincia de ${provincia}`)
+    else partes.push(`distrito${distritos.size > 1 ? 's' : ''} de ${[...distritos].sort((a, b) => a.localeCompare(b, 'es')).join(', ')} (provincia de ${provincia})`)
+  }
+  return partes.join('; ')
+}
+
+function seccionAlcance(seleccion, regionLabel) {
+  return [
+    titulo2('Ámbito del presente documento.'),
+    parrafo(
+      `El presente documento comprende únicamente el ámbito seleccionado dentro del departamento de ${regionLabel}: ${describirSeleccion(seleccion)}.`
+    ),
+  ]
+}
+
+// ---------------------------------------------------------------------------
 // Estilos base -- extraídos del .docx real (ver comentario de cabecera)
 // ---------------------------------------------------------------------------
 const FONT = 'Calibri'
@@ -308,8 +366,8 @@ function seccionNarrativa(data, regionLabel) {
 // ---------------------------------------------------------------------------
 // Tabla de programadas (en vivo) -- en el original va con encabezado celeste
 // ---------------------------------------------------------------------------
-function seccionProgramadas(data, regionLabel) {
-  const filas = (data.programadasDetalle || []).map((p) => ({
+function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = false } = {}) {
+  const filas = (programadasDetalle || []).map((p) => ({
     depart: regionLabel.toUpperCase(),
     provincia: p.provincia?.toUpperCase(),
     distrito: p.distrito?.toUpperCase(),
@@ -322,7 +380,14 @@ function seccionProgramadas(data, regionLabel) {
     metaKm: fmtNum(p.metaKm, 2),
     poblacion: fmtNum(p.poblacion),
   }))
-  if (!filas.length) return []
+  if (!filas.length) {
+    // 'mostrarVacio' se usa en la Ayuda Memoria filtrada por ámbito: que no haya
+    // programadas para el ámbito elegido es información real que hay que mostrar
+    // (p.ej. "0 programadas en Juliaca"), no un motivo para omitir la sección.
+    return mostrarVacio
+      ? [parrafo('No se registran intervenciones programadas para el ámbito seleccionado.')]
+      : []
+  }
   return [
     parrafo(
       `En adición, se tiene ${filas.length} intervenciones programadas de acuerdo al siguiente detalle:`
@@ -351,12 +416,20 @@ function seccionProgramadas(data, regionLabel) {
   ]
 }
 
+function seccionProgramadas(data, regionLabel) {
+  return tablaProgramadas(data.programadasDetalle, regionLabel)
+}
+
 // ---------------------------------------------------------------------------
 // Puntos críticos ANA (en vivo)
 // ---------------------------------------------------------------------------
-function seccionPuntosCriticos(data) {
-  const pc = data.puntosCriticos || []
-  if (!pc.length) return []
+function tablaPuntosCriticos(pc, { mostrarVacio = false } = {}) {
+  pc = pc || []
+  if (!pc.length) {
+    return mostrarVacio
+      ? [parrafo('No se registran puntos críticos ANA para el ámbito seleccionado.')]
+      : []
+  }
   const filas = pc.map((p) => ({
     provincia: p.provincia,
     distrito: p.distrito,
@@ -379,6 +452,10 @@ function seccionPuntosCriticos(data) {
       filas
     ),
   ]
+}
+
+function seccionPuntosCriticos(data) {
+  return tablaPuntosCriticos(data.puntosCriticos)
 }
 
 // ---------------------------------------------------------------------------
@@ -679,6 +756,104 @@ export async function descargarAyudaMemoria(data, regionId) {
   const a = document.createElement('a')
   a.href = url
   a.download = `Ayuda_Memoria_${nombreRegion}_${fecha}.docx`
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+  setTimeout(() => URL.revokeObjectURL(url), 10000)
+}
+
+// ---------------------------------------------------------------------------
+// Ayuda Memoria por ÁMBITO (provincia/distrito) -- agregado 31/08/2026 a pedido
+// de Franco: "sacar una Ayuda memoria en la plataforma web de: Juliaca (distrito
+// de la provincia de San Román), Huancané (provincia), Puno (provincia)". Misma
+// plantilla visual que construirAyudaMemoria(), pero acotada a un subconjunto de
+// provincias/distritos dentro de un departamento, y sin las secciones que no
+// tienen esa granularidad (narrativa de ejecutadas, escenarios FEN, todos los
+// responsables) -- ver comentario grande de obtenerAmbitoDisponible() más arriba
+// sobre qué partes de los datos sí se pueden filtrar en vivo y cuáles no.
+// ---------------------------------------------------------------------------
+export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
+  const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
+  const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
+  const alcanceTexto = describirSeleccion(seleccion)
+
+  const membreteBytes = await cargarMembrete()
+
+  const filasProgramadas = filtrarPorAmbito(data.programadasDetalle, seleccion)
+  const filasPuntosCriticos = filtrarPorAmbito(data.puntosCriticos, seleccion)
+
+  const contenido = [
+    parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 80 },
+      children: [
+        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+      ],
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 240 },
+      children: [run({ text: `Ámbito: ${alcanceTexto}`, bold: true, color: COLOR_SECCION, size: 22 })],
+    }),
+    ...seccionAntecedentes(),
+    ...seccionAlcance(seleccion, regionLabel),
+    ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
+    ...notaEjecutadasNoFiltrable(data, regionLabel),
+    ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
+    ...(data.flota && data.flota.length
+      ? [
+          parrafo(
+            'La flota y capacidad operativa que se detalla a continuación corresponde a toda la Unidad Básica Operativa (UBO) del departamento; no se contabiliza de forma exclusiva para el ámbito seleccionado.'
+          ),
+          ...seccionFlota(data),
+        ]
+      : []),
+  ]
+
+  const margenPagina = { top: 1440, bottom: 1440, left: 1133, right: 1440, header: 720, footer: 720 }
+
+  return new Document({
+    styles: {
+      default: {
+        document: { run: { font: FONT, size: 22 } },
+      },
+    },
+    sections: [
+      {
+        properties: {
+          page: {
+            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.PORTRAIT },
+            margin: margenPagina,
+          },
+        },
+        headers: { default: crearEncabezado(membreteBytes) },
+        footers: { default: crearPie() },
+        children: contenido,
+      },
+    ],
+  })
+}
+
+function notaEjecutadasNoFiltrable(data, regionLabel) {
+  if (!data.ejecutadasTotal) return []
+  return [
+    parrafo(
+      `Nota: el registro de intervenciones EJECUTADAS de la fuente actual solo está disponible a nivel departamental (${regionLabel}), por lo que no es posible desagregarlo de forma confiable para el ámbito seleccionado; por ese motivo no se incluye en este documento.`
+    ),
+  ]
+}
+
+export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion) {
+  const doc = await construirAyudaMemoriaFiltrada(data, regionId, seleccion)
+  const blob = await Packer.toBlob(doc)
+  const nombreRegion = (data.meta?.region || regionId).replace(/^Región\s+/i, '').replace(/\s+/g, '_')
+  const alcanceSlug = [...seleccion.keys()].join('-').replace(/\s+/g, '_')
+  const fecha = new Date().toISOString().slice(0, 10).replace(/-/g, '')
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `Ayuda_Memoria_${nombreRegion}_${alcanceSlug}_${fecha}.docx`
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)

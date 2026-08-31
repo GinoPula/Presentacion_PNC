@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList, HiOutlineBookOpen } from 'react-icons/hi'
+import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList, HiOutlineBookOpen, HiOutlineFilter } from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
 import ReporteDiarioModal from './ReporteDiarioModal'
-import { descargarAyudaMemoria } from '../lib/ayudaMemoria'
+import AyudaMemoriaFiltroModal from './AyudaMemoriaFiltroModal'
+import { descargarAyudaMemoria, obtenerAmbitoDisponible } from '../lib/ayudaMemoria'
 import { GLOBAL_ID } from '../data/regions'
 
 export default function Nav({ data, regionId, onRegionChange }) {
@@ -11,12 +12,16 @@ export default function Nav({ data, regionId, onRegionChange }) {
   const [open, setOpen] = useState(false)
   const [generando, setGenerando] = useState(false)
   const [reporteAbierto, setReporteAbierto] = useState(false)
+  const [filtroAbierto, setFiltroAbierto] = useState(false)
   const isGlobal = regionId === GLOBAL_ID
   // El reporte diario se filtra al departamento seleccionado en ese momento (si no es Vista
   // General); en Vista General muestra el consolidado nacional, igual al Excel que se le envía
   // al Ministro.
   const reporteRegionId = isGlobal ? null : regionId
   const reporteRegionLabel = isGlobal ? null : data.shortLabel || data.meta?.region
+  // Ayuda Memoria por ámbito (agregado 31/08/2026): solo tiene sentido si hay provincias/distritos
+  // con datos filtrables (programadasDetalle/puntosCriticos) en la región activa.
+  const ambitoDisponible = !isGlobal && data.ayudaMemoriaDisponible ? obtenerAmbitoDisponible(data) : []
 
   async function handleAyudaMemoria() {
     if (generando || isGlobal) return
@@ -113,6 +118,17 @@ export default function Nav({ data, regionId, onRegionChange }) {
               <span className="hidden 2xl:inline">{generando ? 'Generando…' : 'Ayuda Memoria'}</span>
             </button>
           )}
+          {ambitoDisponible.length > 0 && (
+            <button
+              onClick={() => setFiltroAbierto(true)}
+              title="Ayuda Memoria por ámbito (provincia / distrito)"
+              aria-label="Generar Ayuda Memoria por ámbito"
+              className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink 2xl:px-3.5"
+            >
+              <HiOutlineFilter size={16} />
+              <span className="hidden 2xl:inline">Ayuda Memoria por ámbito</span>
+            </button>
+          )}
           <a
             href={`${import.meta.env.BASE_URL}guia-uso-pnc-maquinarias.html`}
             download="Guia-de-uso-PNC-Maquinarias.html"
@@ -166,6 +182,18 @@ export default function Nav({ data, regionId, onRegionChange }) {
                   {generando ? 'Generando…' : 'Descargar Ayuda Memoria'}
                 </button>
               )}
+              {ambitoDisponible.length > 0 && (
+                <button
+                  onClick={() => {
+                    setOpen(false)
+                    setFiltroAbierto(true)
+                  }}
+                  className="flex items-center justify-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm font-medium text-ink-dim"
+                >
+                  <HiOutlineFilter size={16} />
+                  Ayuda Memoria por ámbito
+                </button>
+              )}
               <a
                 href={`${import.meta.env.BASE_URL}guia-uso-pnc-maquinarias.html`}
                 download="Guia-de-uso-PNC-Maquinarias.html"
@@ -197,6 +225,14 @@ export default function Nav({ data, regionId, onRegionChange }) {
         onClose={() => setReporteAbierto(false)}
         regionId={reporteRegionId}
         regionLabel={reporteRegionLabel}
+      />
+
+      <AyudaMemoriaFiltroModal
+        open={filtroAbierto}
+        onClose={() => setFiltroAbierto(false)}
+        data={data}
+        regionId={regionId}
+        regionLabel={data.shortLabel || data.meta?.region}
       />
     </header>
   )
