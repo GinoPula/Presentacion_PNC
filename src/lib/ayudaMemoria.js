@@ -300,21 +300,6 @@ function seccionAntecedentes() {
     parrafo(
       'Actualmente, el PNC Maquinarias cuenta con 19 UBOs ubicadas en los departamentos de Lima, Ayacucho, Cusco, Ancash, Ica, Arequipa, Tacna, Loreto, Tumbes, Lambayeque, La Libertad, Piura, Junín, Amazonas, San Martín, Cajamarca, Puno, Apurímac y Huánuco.'
     ),
-    parrafo([
-      run({ text: 'Durante el año 2025, el MVCS a través del Programa Nuestras Ciudades ', bold: true }),
-      run({ text: 'suscribió un total de 118 Convenios', bold: true }),
-      ' de Colaboración Interinstitucional con entidades de los tres niveles de gobierno, para realizar labores de prevención a nivel nacional.',
-    ]),
-    parrafo([
-      run({ text: 'A nivel nacional y durante el 2025, ', bold: true }),
-      'el Ministerio de Vivienda realizó ',
-      run({ text: '733', bold: true }),
-      ' trabajos de limpieza y descolmatación, en cerca de ',
-      run({ text: '536', bold: true }),
-      ' kilómetros de ríos y quebradas a nivel nacional. Más de ',
-      run({ text: '14,501,022', bold: true }),
-      ' pobladores se beneficiaron con las labores que se realizaron en puntos críticos de las regiones de Lima, Piura, Puno, San Martín, Tacna, Tumbes, Amazonas, entre otras.',
-    ]),
   ]
 }
 
