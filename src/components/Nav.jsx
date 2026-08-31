@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList } from 'react-icons/hi'
+import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList, HiOutlineBookOpen } from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
 import ReporteDiarioModal from './ReporteDiarioModal'
 import { descargarAyudaMemoria } from '../lib/ayudaMemoria'
@@ -113,6 +113,16 @@ export default function Nav({ data, regionId, onRegionChange }) {
               <span className="hidden 2xl:inline">{generando ? 'Generando…' : 'Ayuda Memoria'}</span>
             </button>
           )}
+          <a
+            href={`${import.meta.env.BASE_URL}guia-uso-pnc-maquinarias.html`}
+            download="Guia-de-uso-PNC-Maquinarias.html"
+            title="Guía de uso"
+            aria-label="Descargar guía de uso de la plataforma"
+            className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink 2xl:px-3.5"
+          >
+            <HiOutlineBookOpen size={16} />
+            <span className="hidden 2xl:inline">Guía de uso</span>
+          </a>
           <RegionSwitcher regionId={regionId} onChange={handleRegionChange} />
         </div>
 
@@ -156,6 +166,15 @@ export default function Nav({ data, regionId, onRegionChange }) {
                   {generando ? 'Generando…' : 'Descargar Ayuda Memoria'}
                 </button>
               )}
+              <a
+                href={`${import.meta.env.BASE_URL}guia-uso-pnc-maquinarias.html`}
+                download="Guia-de-uso-PNC-Maquinarias.html"
+                onClick={() => setOpen(false)}
+                className="flex items-center justify-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm font-medium text-ink-dim"
+              >
+                <HiOutlineBookOpen size={16} />
+                Guía de uso
+              </a>
               <div className="flex flex-col gap-1">
                 {links.map((l) => (
                   <a
