@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 60620.5, km: 2.58, poblacion: 6993, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
-    { tipo: 'Prevención', cantidad: 12, m3: 28987.98, km: 3.8, poblacion: 9419, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
+    { tipo: 'Prevención', cantidad: 13, m3: 30825.94, km: 3.97, poblacion: 9686, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 89608.48, km: 6.38, poblacion: 16412 },
+  ejecutadasTotal: { cantidad: 22, m3: 91446.44, km: 6.56, poblacion: 16679 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Ayacucho', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA PONTÓN 02, DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO -00        ', inicio: '19/08/2026', fin: '29/08/2026', volAcum: 1837.96, kmAcum: 0.17, poblacion: 267 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

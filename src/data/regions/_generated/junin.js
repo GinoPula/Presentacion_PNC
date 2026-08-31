@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 600.0, kmAcum: 0.27, poblacion: 1330 },
+    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 2800.0, kmAcum: 1.27, poblacion: 1330 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
