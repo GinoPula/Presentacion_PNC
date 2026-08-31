@@ -9661,6 +9661,23 @@ const mapaIntervenciones = {
     "poblacion": 350,
     "volumen": 16970,
     "enlace": null
+  },
+  {
+    "id": 10427,
+    "lat": -13.442181,
+    "lng": -72.254039,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Anta",
+    "distrito": "Zurite",
+    "sector": "Loboyoc-Cruzpata",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ",
+    "ficha": "029-2026-LD-P-CUS",
+    "fechaInicio": "26/09/2026",
+    "fechaFin": "09/10/2026",
+    "poblacion": 245,
+    "volumen": 4083.4,
+    "enlace": null
   }
 ],
   huancavelica: [
