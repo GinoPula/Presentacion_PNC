@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 112514.0, km: 9.68, poblacion: 15888, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
-    { tipo: 'Urgente atención', cantidad: 8, m3: 20694.7, km: 43.8, poblacion: 2741, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
+    { tipo: 'Prevención', cantidad: 16, m3: 118014.0, km: 9.88, poblacion: 16209, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
+    { tipo: 'Urgente atención', cantidad: 9, m3: 23251.7, km: 46.64, poblacion: 2997, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 31, m3: 169870.7, km: 55.4, poblacion: 26341 },
+  ejecutadasTotal: { cantidad: 33, m3: 177927.7, km: 58.44, poblacion: 26918 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,9 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ', inicio: '10/08/2026', fin: '27/08/2026', volAcum: 1930.0, kmAcum: 2.1, poblacion: 256 },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO ZANCOBAMBA – EL ROLLO, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD ', inicio: '13/08/2026', fin: '27/08/2026', volAcum: 1302.0, kmAcum: 2.56, poblacion: 346 },
-    { provincia: 'Gran Chimu', distrito: 'Cascas', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA SAN FELIPE SECTOR CONODEN, DISTRITO DE CASCAS, PROVINCIA GRAN CHIMU, DEPARTAMENTO DE LA LIBERTAD', inicio: '20/08/2026', fin: '29/08/2026', volAcum: 1650.0, kmAcum: 0.06, poblacion: 321 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

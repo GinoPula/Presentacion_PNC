@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 7, m3: 64719.0, km: 3.27, poblacion: 1940, provincias: ['Calca', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 8, m3: 81689.0, km: 3.6, poblacion: 2290, provincias: ['Calca', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 175304.0, km: 14.92, poblacion: 7604 },
+  ejecutadasTotal: { cantidad: 22, m3: 192274.0, km: 15.24, poblacion: 7954 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Quispicanchi', distrito: 'Urcos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO CACHIMAYO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR URCUSPAMPA-BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+320 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO  ', inicio: '12/08/2026', fin: '27/08/2026', volAcum: 6570.0, kmAcum: 0.12, poblacion: 350 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

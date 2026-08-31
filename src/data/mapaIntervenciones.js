@@ -728,17 +728,17 @@ const mapaIntervenciones = {
     "id": 10369,
     "lat": -3.60504,
     "lng": -80.480279,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Tumbes",
     "distrito": "Corrales",
     "sector": "",
-    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ",
+    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
     "ficha": "067-2026-AA-U-TUM",
     "fechaInicio": "30/07/2026",
     "fechaFin": "28/08/2026",
     "poblacion": 1356,
-    "volumen": 675,
+    "volumen": 720,
     "enlace": null
   },
   {
@@ -772,7 +772,7 @@ const mapaIntervenciones = {
     "fechaInicio": "07/08/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 1356,
-    "volumen": 495,
+    "volumen": 600,
     "enlace": null
   }
 ],
@@ -2847,7 +2847,7 @@ const mapaIntervenciones = {
     "provincia": "Huancabamba",
     "distrito": "Canchaque",
     "sector": "Papayal Bajo, Monte Grande",
-    "descripcion": "\"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA\"",
+    "descripcion": "\"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA\" ",
     "ficha": "FTI N°119-2026-LETV-E-PIU",
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
@@ -3079,23 +3079,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9814,
-    "lat": -9.503439,
-    "lng": -77.535269,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huaraz",
-    "distrito": "Independencia",
-    "sector": "Palmira Baja",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CASCA EN EL SECTOR PALMIRA BAJA, DEL DISTRITO DE INDEPENDENCIA, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ANCASH              ",
-    "ficha": "030-2026-LDP-ANC",
-    "fechaInicio": "03/03/2026",
-    "fechaFin": "07/03/2026",
-    "poblacion": 70,
-    "volumen": 730,
-    "enlace": null
-  },
-  {
     "id": 9962,
     "lat": -9.74271,
     "lng": -77.448977,
@@ -3111,6 +3094,23 @@ const mapaIntervenciones = {
     "poblacion": 20,
     "volumen": 1200,
     "enlace": "https://drive.google.com/file/d/1iwQDojATLeqvnwjbVvTcrstmd3mi10Bv/view?usp=drive_link"
+  },
+  {
+    "id": 9814,
+    "lat": -9.503439,
+    "lng": -77.535269,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Independencia",
+    "sector": "Palmira Baja",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CASCA EN EL SECTOR PALMIRA BAJA, DEL DISTRITO DE INDEPENDENCIA, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ANCASH              ",
+    "ficha": "030-2026-LDP-ANC",
+    "fechaInicio": "03/03/2026",
+    "fechaFin": "07/03/2026",
+    "poblacion": 70,
+    "volumen": 730,
+    "enlace": null
   },
   {
     "id": 9974,
@@ -3825,6 +3825,23 @@ const mapaIntervenciones = {
     "poblacion": 7456,
     "volumen": 989,
     "enlace": null
+  },
+  {
+    "id": 10428,
+    "lat": -9.736122,
+    "lng": -77.44779,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Uchipampa",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH   ",
+    "ficha": "102-2026-LDP-ANC",
+    "fechaInicio": "31/08/2026",
+    "fechaFin": "07/09/2026",
+    "poblacion": 150,
+    "volumen": 3750,
+    "enlace": null
   }
 ],
   lambayeque: [
@@ -4301,7 +4318,7 @@ const mapaIntervenciones = {
     "fechaInicio": "15/07/2026",
     "fechaFin": "12/09/2026",
     "poblacion": null,
-    "volumen": 1380,
+    "volumen": 1395,
     "enlace": null
   },
   {
@@ -4369,7 +4386,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 66,
+    "volumen": 154,
     "enlace": null
   },
   {
@@ -4432,12 +4449,12 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Chochope",
     "sector": "Sectores “Chochope” Y “Parranal”",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.       ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.        ",
     "ficha": "043-2026 -LD-P-LAM",
     "fechaInicio": "24/08/2026",
     "fechaFin": "06/09/2026",
     "poblacion": 1200,
-    "volumen": 3720,
+    "volumen": 4640,
     "enlace": null
   }
 ],
@@ -4830,7 +4847,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 750,
-    "volumen": 60,
+    "volumen": 90,
     "enlace": null
   },
   {
@@ -4847,7 +4864,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 1400,
+    "volumen": 2500,
     "enlace": null
   }
 ],
@@ -5298,17 +5315,17 @@ const mapaIntervenciones = {
     "id": 10425,
     "lat": -7.774589,
     "lng": -77.817713,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Sanchez Carrion",
     "distrito": "Chugay",
     "sector": "Canucubamba",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ",
     "ficha": "065 - 2026 - MTV - U - LIB",
     "fechaInicio": "10/08/2026",
-    "fechaFin": "27/08/2026",
+    "fechaFin": "28/08/2026",
     "poblacion": 256,
-    "volumen": 1930,
+    "volumen": 2557,
     "enlace": null
   },
   {
@@ -5366,17 +5383,17 @@ const mapaIntervenciones = {
     "id": 10452,
     "lat": -7.54669,
     "lng": -78.670332,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Gran Chimu",
     "distrito": "Cascas",
     "sector": "Conoden",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA SAN FELIPE SECTOR CONODEN, DISTRITO DE CASCAS, PROVINCIA GRAN CHIMU, DEPARTAMENTO DE LA LIBERTAD",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA SAN FELIPE SECTOR CONODEN, DISTRITO DE CASCAS, PROVINCIA GRAN CHIMU, DEPARTAMENTO DE LA LIBERTAD  ",
     "ficha": "068-2026-LD-P-LIB",
     "fechaInicio": "20/08/2026",
-    "fechaFin": "29/08/2026",
+    "fechaFin": "27/08/2026",
     "poblacion": 321,
-    "volumen": 1650,
+    "volumen": 5500,
     "enlace": null
   }
 ],
@@ -6449,7 +6466,7 @@ const mapaIntervenciones = {
     "fechaInicio": "22/07/2026",
     "fechaFin": "01/09/2026",
     "poblacion": 2500000,
-    "volumen": 31884.1,
+    "volumen": 37988.6,
     "enlace": null
   },
   {
@@ -6461,12 +6478,12 @@ const mapaIntervenciones = {
     "provincia": "Huarochiri",
     "distrito": "San Antonio",
     "sector": "Sector La Rinconada – Con Referencia R-28",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”            ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”             ",
     "ficha": "098-2026-LDE-LIM",
     "fechaInicio": "31/07/2026",
-    "fechaFin": "31/08/2026",
+    "fechaFin": "04/09/2026",
     "poblacion": 1500,
-    "volumen": 1479.94,
+    "volumen": 1727.94,
     "enlace": null
   },
   {
@@ -6500,24 +6517,24 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "04/09/2026",
     "poblacion": 1050,
-    "volumen": 4160,
+    "volumen": 6680,
     "enlace": null
   },
   {
     "id": 10420,
     "lat": -12.011331,
     "lng": -76.792417,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Ate",
     "sector": "Casa Huerta La Rinconada",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR CASA HUERTA LA RINCONADA ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”  ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR CASA HUERTA LA RINCONADA ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”   ",
     "ficha": "120-2026-LDP-LIM",
     "fechaInicio": "12/08/2026",
     "fechaFin": "29/08/2026",
     "poblacion": 700,
-    "volumen": 2557.8,
+    "volumen": 2893.8,
     "enlace": null
   },
   {
@@ -6551,7 +6568,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 250,
-    "volumen": 2210,
+    "volumen": 2635,
     "enlace": null
   },
   {
@@ -7352,7 +7369,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
-    "volumen": 11670,
+    "volumen": 12120,
     "enlace": null
   },
   {
@@ -9632,17 +9649,17 @@ const mapaIntervenciones = {
     "id": 10426,
     "lat": -13.693,
     "lng": -71.601423,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Quispicanchi",
     "distrito": "Urcos",
     "sector": "Urcuspampa-Bajo",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO CACHIMAYO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR URCUSPAMPA-BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+320 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO  ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO CACHIMAYO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR URCUSPAMPA-BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+320 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO   ",
     "ficha": "028-2026-LD-P-CUS",
     "fechaInicio": "12/08/2026",
     "fechaFin": "27/08/2026",
     "poblacion": 350,
-    "volumen": 6570,
+    "volumen": 16970,
     "enlace": null
   }
 ],

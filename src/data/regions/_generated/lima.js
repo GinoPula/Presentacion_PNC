@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 38237.33, km: 1.08, poblacion: 17845, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 48, m3: 347663.82, km: 15.51, poblacion: 43413, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
+    { tipo: 'Prevención', cantidad: 49, m3: 350557.62, km: 15.66, poblacion: 44113, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 63, m3: 405848.25, km: 32.95, poblacion: 80092 },
+  ejecutadasTotal: { cantidad: 64, m3: 408742.05, km: 33.11, poblacion: 80792 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,12 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, km: 89.97, poblacion: 13670110 },
 
   enEjecucion: [
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM  AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA "    ', inicio: '22/07/2026', fin: '01/09/2026', volAcum: 31884.1, kmAcum: 0.29, poblacion: 2500000 },
-    { provincia: 'Huarochiri', distrito: 'San Antonio', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”            ', inicio: '31/07/2026', fin: '31/08/2026', volAcum: 1479.94, kmAcum: 0.06, poblacion: 1500 },
-    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ', inicio: '11/08/2026', fin: '04/09/2026', volAcum: 4160.0, kmAcum: 0.1, poblacion: 1050 },
-    { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR CASA HUERTA LA RINCONADA ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”  ', inicio: '12/08/2026', fin: '29/08/2026', volAcum: 2557.8, kmAcum: 0.13, poblacion: 700 },
+    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM  AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA "    ', inicio: '22/07/2026', fin: '01/09/2026', volAcum: 37988.6, kmAcum: 0.32, poblacion: 2500000 },
+    { provincia: 'Huarochiri', distrito: 'San Antonio', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”             ', inicio: '31/07/2026', fin: '04/09/2026', volAcum: 1727.94, kmAcum: 0.07, poblacion: 1500 },
+    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ', inicio: '11/08/2026', fin: '04/09/2026', volAcum: 6680.0, kmAcum: 0.17, poblacion: 1050 },
     { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DE LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VIII, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.   ', inicio: '17/08/2026', fin: '31/08/2026', volAcum: 7302.75, kmAcum: 0.03, poblacion: 7000 },
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.       ', inicio: '19/08/2026', fin: '02/09/2026', volAcum: 2210.0, kmAcum: 0.05, poblacion: 250 },
+    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.       ', inicio: '19/08/2026', fin: '02/09/2026', volAcum: 2635.0, kmAcum: 0.06, poblacion: 250 },
     { provincia: 'Lima', distrito: 'Los Olivos', tipo: 'Prevención', descripcion: '“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+000 AL 0+340 KM DESDE EL PUENTE PANAMERICANA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA".   ', inicio: '20/08/2026', fin: '03/09/2026', volAcum: 2169.0, kmAcum: 0.19, poblacion: 8788 },
   ],
 
@@ -94,11 +93,11 @@ export default {
     { tipo: 'Camión grúa', cantidad: 2, marca: 'Iveco', codigos: ['EGQ-980', 'EGR-000'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 4, marca: 'Caterpillar', codigos: ['JLX00207', 'JLX00206', 'JLX00246', 'JLX00293'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'John Deere', codigos: ['D001611', 'D001610'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 3, marca: 'Caterpillar', codigos: ['TJT10120', 'TJT10126', 'TJT10116'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10117'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10120', 'TJT10116'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10117', 'TJT10126'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'John Deere', codigos: ['D810454', 'D810373'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 6, marca: 'Komatsu', codigos: ['A10875', 'A10891', 'A10910', 'A10880', 'A10882', 'A10912'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10892'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 5, marca: 'Komatsu', codigos: ['A10875', 'A10891', 'A10910', 'A10880', 'A10912'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['A10882', 'A10892'], estado: 'inoperativo' },
     { tipo: 'Mini cargador', cantidad: 2, marca: 'Bobcat', codigos: ['B38V11139', 'B38V11148'], estado: 'operativo' },
     { tipo: 'Mini cargador', cantidad: 1, marca: 'Caterpillar', codigos: ['LMST05748'], estado: 'operativo' },
     { tipo: 'Plataforma', cantidad: 1, marca: 'ACS', codigos: ['EGR-073'], estado: 'operativo' },

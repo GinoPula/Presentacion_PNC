@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 32995.25, km: 6.97, poblacion: 8931, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
     { tipo: 'Prevención', cantidad: 23, m3: 75793.85, km: 11.05, poblacion: 19682, provincias: ['Contralmirante Villar', 'Tumbes'] },
-    { tipo: 'Urgente atención', cantidad: 11, m3: 6315.0, km: null, poblacion: 15032, provincias: ['Tumbes'] },
+    { tipo: 'Urgente atención', cantidad: 12, m3: 7035.0, km: null, poblacion: 16388, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 43, m3: 115104.1, km: 18.02, poblacion: 43645 },
+  ejecutadasTotal: { cantidad: 44, m3: 115824.1, km: 18.02, poblacion: 45001 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 195402.73, km: 43.25, poblacion: 93958 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '30/07/2026', fin: '28/08/2026', volAcum: 675.0, kmAcum: 0.0, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 495.0, kmAcum: 0.0, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 600.0, kmAcum: 0.0, poblacion: 1356 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
