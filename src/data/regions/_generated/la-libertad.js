@@ -68,7 +68,7 @@ export default {
   ],
 
   flota: [
-    { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGL-983'], estado: 'operativo' },
+    { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGL-983'], estado: 'inoperativo' },
     { tipo: 'Camión grúa', cantidad: 1, marca: 'Iveco', codigos: ['EGQ-986'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00778'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'John Deere', codigos: ['D001604', 'D001607'], estado: 'operativo' },
