@@ -627,6 +627,14 @@ function seccionFlota(data) {
 // Plan FEN (fijo, con el nombre de región insertado) + Escenarios (en vivo)
 // ---------------------------------------------------------------------------
 function seccionFEN(data, regionLabel) {
+  // 31/08/2026 -- a pedido de Franco: en las regiones "normales" (sin puntos críticos ANA ni
+  // Escenario Severo curados -- Puno, Tacna y las 15 regiones nuevas) esta sección entera debe
+  // desaparecer (4 secciones en el documento), no solo la tabla de escenarios -- antes se seguía
+  // mostrando el título y los 2 párrafos introductorios del Plan FEN aunque no hubiera escenarios
+  // que mostrar. En las regiones que sí tienen ambos datos (Ancash, La Libertad, Lambayeque, Lima,
+  // Piura, Tumbes) esta sección va completa, igual que antes (5 secciones).
+  const esc = data.escenarios
+  if (!esc || !esc.length) return []
   const out = [
     titulo2('PLAN DE TRABAJO ANTE EL ESTADO DE ALERTA DEL FENÓMENO DEL NIÑO 2026-2027', { color: null, font: 'Arial Narrow' }),
     parrafo(
@@ -636,41 +644,38 @@ function seccionFEN(data, regionLabel) {
       'El contexto general de este plan de trabajo son los comunicados oficiales de la Comisión Multisectorial Encargada del Estudio Nacional del Fenómeno El Niño (ENFEN), que mantiene el estado de "Alerta de El Niño Costero", estimando que dicho fenómeno se prolongue hasta el verano de 2027, con mayor probabilidad de magnitud fuerte entre junio y septiembre de 2026, disminuyendo a moderada hacia fin de año.'
     ),
   ]
-  const esc = data.escenarios
-  if (esc && esc.length) {
-    out.push(titulo2('ESCENARIOS IDENTIFICADOS EN EL PLAN DE TRABAJO', { color: null, font: 'Arial Narrow' }))
-    esc.forEach((e) => {
-      out.push(
-        parrafo([run({ text: `Escenario Operativo ${e.nombre}: ${e.condicion}`, bold: true })])
+  out.push(titulo2('ESCENARIOS IDENTIFICADOS EN EL PLAN DE TRABAJO', { color: null, font: 'Arial Narrow' }))
+  esc.forEach((e) => {
+    out.push(
+      parrafo([run({ text: `Escenario Operativo ${e.nombre}: ${e.condicion}`, bold: true })])
+    )
+    out.push(
+      parrafo([
+        run({ text: `Presupuesto ante el Escenario ${e.nombre}: `, bold: true }),
+        run({ text: fmtSoles(e.presupuesto), bold: true }),
+      ])
+    )
+    out.push(
+      tabla(
+        [
+          { clave: 'departamento', titulo: 'DEPARTAMENTO', peso: 0.24 },
+          { clave: 'mantenimiento', titulo: 'MANTENIMIENTO', peso: 0.22, align: AlignmentType.RIGHT },
+          { clave: 'combustible', titulo: 'COMBUSTIBLE', peso: 0.22, align: AlignmentType.RIGHT },
+          { clave: 'personal', titulo: 'PERSONAL', peso: 0.18, align: AlignmentType.RIGHT },
+          { clave: 'intervenciones', titulo: 'N° INTERV.', peso: 0.14, align: AlignmentType.RIGHT },
+        ],
+        [
+          {
+            departamento: regionLabel.toUpperCase(),
+            mantenimiento: fmtSoles(e.mantenimiento),
+            combustible: fmtSoles(e.combustible),
+            personal: fmtSoles(e.personal),
+            intervenciones: e.intervenciones != null ? fmtNum(e.intervenciones) : '—',
+          },
+        ]
       )
-      out.push(
-        parrafo([
-          run({ text: `Presupuesto ante el Escenario ${e.nombre}: `, bold: true }),
-          run({ text: fmtSoles(e.presupuesto), bold: true }),
-        ])
-      )
-      out.push(
-        tabla(
-          [
-            { clave: 'departamento', titulo: 'DEPARTAMENTO', peso: 0.24 },
-            { clave: 'mantenimiento', titulo: 'MANTENIMIENTO', peso: 0.22, align: AlignmentType.RIGHT },
-            { clave: 'combustible', titulo: 'COMBUSTIBLE', peso: 0.22, align: AlignmentType.RIGHT },
-            { clave: 'personal', titulo: 'PERSONAL', peso: 0.18, align: AlignmentType.RIGHT },
-            { clave: 'intervenciones', titulo: 'N° INTERV.', peso: 0.14, align: AlignmentType.RIGHT },
-          ],
-          [
-            {
-              departamento: regionLabel.toUpperCase(),
-              mantenimiento: fmtSoles(e.mantenimiento),
-              combustible: fmtSoles(e.combustible),
-              personal: fmtSoles(e.personal),
-              intervenciones: e.intervenciones != null ? fmtNum(e.intervenciones) : '—',
-            },
-          ]
-        )
-      )
-    })
-  }
+    )
+  })
   return out
 }
 
