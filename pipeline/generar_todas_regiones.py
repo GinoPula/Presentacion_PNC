@@ -1248,7 +1248,16 @@ def main():
         mensaje = f"Actualiza datos de regiones ({args.periodo}) -- pipeline automático"
         hay_cambios = correr_git(repo, ["commit", "-m", mensaje])
         if args.git_push and hay_cambios:
-            correr_git(repo, ["push"])
+            # Antes de subir, trae lo último de origin y reacomoda nuestro commit
+            # encima (en vez de fusionarlo). Esto evita que el push falle si el
+            # otro pipeline (Reporte Diario) subió cambios entre que empezamos y
+            # terminamos esta corrida -- algo cada vez más probable ahora que
+            # ambas tareas corren con solo 15-30 min de diferencia.
+            if not correr_git(repo, ["pull", "--rebase", "--autostash"]):
+                print("  [!] git pull --rebase falló -- no se intentará el push para no "
+                      "dejar el repo en un estado inconsistente. Revisar a mano.")
+            else:
+                correr_git(repo, ["push"])
         elif args.git_push:
             print("  (nada que subir -- no hubo cambios en los datos)")
 
