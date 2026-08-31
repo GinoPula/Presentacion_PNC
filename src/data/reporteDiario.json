@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "31/08/2026",
-    "horaCorte": "10:59",
+    "horaCorte": "11:14",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -399,6 +399,22 @@
     },
     {
       "n": 20,
+      "idIntervencion": "10427",
+      "departamento": "CUSCO",
+      "deptoLabel": "Cusco",
+      "regionId": "cusco",
+      "provincia": "Anta",
+      "distrito": "Zurite",
+      "sector": "Loboyoc-cruzpata",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº101-2025",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO",
+      "fechaInicio": "26/09/2026",
+      "fechaFin": "09/10/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 21,
       "idIntervencion": "10438",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -420,7 +436,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "idIntervencion": "10437",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -442,7 +458,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "idIntervencion": "9469",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -463,7 +479,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "idIntervencion": "10431",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -481,7 +497,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "idIntervencion": "10448",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -502,7 +518,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "idIntervencion": "10441",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -520,7 +536,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "idIntervencion": "10355",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -538,7 +554,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "idIntervencion": "9176",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -557,7 +573,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "idIntervencion": "9170",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -575,7 +591,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "idIntervencion": "10417",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -593,7 +609,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "idIntervencion": "10213",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -612,7 +628,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "idIntervencion": "10309",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -631,7 +647,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "idIntervencion": "10416",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -650,7 +666,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "idIntervencion": "10371",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -668,7 +684,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "idIntervencion": "10364",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -690,7 +706,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "idIntervencion": "10074",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -709,7 +725,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "9407",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -728,7 +744,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -746,7 +762,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "9379",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -764,7 +780,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "9409",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -783,7 +799,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "10442",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -801,7 +817,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -819,7 +835,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -840,7 +856,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "10436",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -856,7 +872,7 @@
       "maquinaria": []
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "10412",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -874,7 +890,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -892,7 +908,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -910,7 +926,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -928,7 +944,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "10414",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
