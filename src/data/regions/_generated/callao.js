@@ -1,38 +1,33 @@
 // GENERADO AUTOMATICAMENTE por generar_todas_regiones.py -- no editar a mano.
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
-//
-// PLACEHOLDER (30/08/2026): Callao se acaba de registrar en el pipeline
-// (DEPARTAMENTOS / DEPARTAMENTO_BBOX en generar_todas_regiones.py) pero
-// todavía no se corrió contra Producción desde esta sesión -- estos valores
-// están en cero a propósito (nunca inventados) hasta que Franco corra:
-//   python pipeline/generar_todas_regiones.py --repo "D:\Presentacion_PNC" --regiones callao --git-push
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Prevención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Urgente atención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
   ],
   ejecutadasTotal: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
-    { tipo: 'Emergencia', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Prevención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Urgente atención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
+    { tipo: 'Emergencia', cantidad: 2, m3: 53175.16, km: 3.71, poblacion: 11000, provincias: ['Callao'] },
+    { tipo: 'Prevención', cantidad: 1, m3: 8510.0, km: 0.65, poblacion: 1500, provincias: ['Callao'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
+  ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 61685.16, km: 4.36, poblacion: 12500 },
 
-  enEjecucion: [],
+  enEjecucion: [
+  ],
 
   programadasCols: ['provincia', 'distrito'],
-  programadas: [],
+  programadas: [
+  ],
   programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
 
-  programadasDetalle: [],
+  programadasDetalle: [
+  ],
 
   conveniosCount: 0,
-  conveniosVigentes: [],
+  conveniosVigentes: [
+  ],
 
-  flota: [],
+  flota: [
+  ],
   flotaTotal: 0,
 }

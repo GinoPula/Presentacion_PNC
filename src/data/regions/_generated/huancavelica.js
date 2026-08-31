@@ -1,38 +1,35 @@
 // GENERADO AUTOMATICAMENTE por generar_todas_regiones.py -- no editar a mano.
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
-//
-// PLACEHOLDER (30/08/2026): Huancavelica se acaba de registrar en el pipeline
-// (DEPARTAMENTOS / DEPARTAMENTO_BBOX en generar_todas_regiones.py) pero
-// todavía no se corrió contra Producción desde esta sesión -- estos valores
-// están en cero a propósito (nunca inventados) hasta que Franco corra:
-//   python pipeline/generar_todas_regiones.py --repo "D:\Presentacion_PNC" --regiones huancavelica --git-push
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Prevención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Urgente atención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
+    { tipo: 'Emergencia', cantidad: 2, m3: 6879.0, km: 1.94, poblacion: 18240, provincias: ['Tayacaja'] },
   ],
-  ejecutadasTotal: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
+  ejecutadasTotal: { cantidad: 2, m3: 6879.0, km: 1.94, poblacion: 18240 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
-    { tipo: 'Emergencia', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Prevención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
-    { tipo: 'Urgente atención', cantidad: 0, m3: 0, km: 0, poblacion: 0, provincias: [] },
+    { tipo: 'Prevención', cantidad: 7, m3: 14580.0, km: 2.2, poblacion: 546, provincias: ['Castrovirreyna', 'Churcampa'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
+  ejecutadasTotalAnioAnterior: { cantidad: 7, m3: 14580.0, km: 2.2, poblacion: 546 },
 
-  enEjecucion: [],
+  enEjecucion: [
+  ],
 
   programadasCols: ['provincia', 'distrito'],
-  programadas: [],
+  programadas: [
+  ],
   programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
 
-  programadasDetalle: [],
+  programadasDetalle: [
+  ],
 
-  conveniosCount: 0,
-  conveniosVigentes: [],
+  conveniosCount: 2,
+  conveniosVigentes: [
+    { entidad: 'Gobierno Regional', detail: 'hasta 21/08/2027' },
+    { entidad: 'Municipalidad Distrital El Carmen', detail: 'hasta 12/02/2027' },
+  ],
 
-  flota: [],
+  flota: [
+  ],
   flotaTotal: 0,
 }
