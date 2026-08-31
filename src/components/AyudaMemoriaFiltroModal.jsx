@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { HiOutlineX, HiOutlineDocumentDownload, HiOutlineExclamationCircle, HiChevronDown, HiChevronUp, HiOutlinePlus } from 'react-icons/hi'
 import { obtenerAmbitoDisponible, descargarAyudaMemoriaFiltrada } from '../lib/ayudaMemoria'
+import mapaIntervenciones from '../data/mapaIntervenciones'
 
 const plural = (n, singular, pl = `${singular}s`) => (n === 1 ? singular : pl)
 
@@ -30,7 +31,7 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
   const [nuevoDistrito, setNuevoDistrito] = useState({})
   const [generando, setGenerando] = useState(false)
 
-  const ambitoBase = useMemo(() => (data ? obtenerAmbitoDisponible(data) : []), [data])
+  const ambitoBase = useMemo(() => (data ? obtenerAmbitoDisponible(data, regionId) : []), [data, regionId])
   // Mezcla los distritos en vivo con los agregados a mano, para mostrarlos juntos.
   const ambito = useMemo(
     () =>
@@ -270,7 +271,9 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
           {/* Footer */}
           <div className="border-t border-white/[0.06] bg-surface-1 px-6 py-5 sm:px-8">
             <p className="mb-3 text-[12px] text-ink-mute">
-              Nota: las intervenciones EJECUTADAS solo están disponibles a nivel departamental en la fuente actual y no se incluyen en el documento filtrado (ver el aviso dentro del propio documento). Sí se filtran las intervenciones programadas y los puntos críticos.
+              {mapaIntervenciones[regionId]
+                ? 'El documento incluye intervenciones ejecutadas, en ejecución y programadas, todas filtradas al ámbito elegido.'
+                : 'Nota: en esta región las intervenciones EJECUTADAS solo están disponibles a nivel departamental en la fuente actual y no se pueden filtrar por provincia/distrito (el documento lo aclara). Sí se filtran las programadas y los puntos críticos.'}
             </p>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="text-[12px] font-medium text-ink-mute">

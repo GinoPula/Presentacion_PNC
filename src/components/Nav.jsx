@@ -21,7 +21,7 @@ export default function Nav({ data, regionId, onRegionChange }) {
   const reporteRegionLabel = isGlobal ? null : data.shortLabel || data.meta?.region
   // Ayuda Memoria por ámbito (agregado 31/08/2026): solo tiene sentido si hay provincias/distritos
   // con datos filtrables (programadasDetalle/puntosCriticos) en la región activa.
-  const ambitoDisponible = !isGlobal && data.ayudaMemoriaDisponible ? obtenerAmbitoDisponible(data) : []
+  const ambitoDisponible = !isGlobal && data.ayudaMemoriaDisponible ? obtenerAmbitoDisponible(data, regionId) : []
 
   async function handleAyudaMemoria() {
     if (generando || isGlobal) return

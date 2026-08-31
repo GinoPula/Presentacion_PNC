@@ -54,6 +54,7 @@ import {
   HorizontalPositionRelativeFrom, VerticalPositionRelativeFrom, TextWrappingType,
 } from 'docx'
 import membreteUrl from '../assets/membrete-mvcs.png'
+import mapaIntervenciones from '../data/mapaIntervenciones'
 
 // ---------------------------------------------------------------------------
 // Utilidades de formato
@@ -85,7 +86,7 @@ function listaProvincias(arr) {
 // partir de los mismos datos que ya alimentan el resto del documento
 // (programadasDetalle y puntosCriticos son las únicas piezas con esa
 // granularidad -- ver comentario grande al inicio del archivo).
-export function obtenerAmbitoDisponible(data) {
+export function obtenerAmbitoDisponible(data, regionId) {
   const mapa = new Map()
   const agregar = (arr) => {
     ;(arr || []).forEach((r) => {
@@ -96,9 +97,27 @@ export function obtenerAmbitoDisponible(data) {
   }
   agregar(data.programadasDetalle)
   agregar(data.puntosCriticos)
+  // Los puntos EJECUTADA/EN EJECUCIÓN de mapaIntervenciones.js (usado para el mapa) traen
+  // provincia/distrito propios y a veces cubren lugares que programadasDetalle no tiene
+  // (p.ej. Sandia en Puno) -- se suman acá para que también salgan como opción en el filtro.
+  agregar(mapaIntervenciones[regionId])
   return [...mapa.entries()]
     .map(([provincia, distritos]) => ({ provincia, distritos: [...distritos].sort((a, b) => a.localeCompare(b, 'es')) }))
     .sort((a, b) => a.provincia.localeCompare(b.provincia, 'es'))
+}
+
+// Puntos EJECUTADA/EN EJECUCIÓN (mapaIntervenciones.js) que caen dentro del ámbito elegido --
+// esta es la fuente que sí tiene provincia/distrito por punto (a diferencia de
+// data.ejecutadasTotal/ejecutadasPorTipo, que solo traen el agregado departamental). Solo cubre
+// las regiones que tienen entrada en mapaIntervenciones.js (las que alimentan el mapa); para las
+// demás no hay manera honesta de desagregar ejecutadas por provincia/distrito todavía.
+export function filtrarEjecutadasPorAmbito(regionId, seleccion) {
+  const puntos = mapaIntervenciones[regionId]
+  if (!puntos) return null // región sin datos de mapa -- distinto de "sin resultados"
+  return filtrarPorAmbito(
+    puntos.filter((p) => p.estado === 'Ejecutada' || p.estado === 'En ejecución'),
+    seleccion
+  )
 }
 
 export function filtrarPorAmbito(filas, seleccion) {
@@ -403,6 +422,50 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
 
 function seccionProgramadas(data, regionLabel) {
   return tablaProgramadas(data.programadasDetalle, regionLabel)
+}
+
+// ---------------------------------------------------------------------------
+// Tabla de EJECUTADA / EN EJECUCIÓN por punto (mapaIntervenciones.js) -- usada solo en la Ayuda
+// Memoria filtrada por ámbito, ver construirAyudaMemoriaFiltrada() y filtrarEjecutadasPorAmbito().
+// ---------------------------------------------------------------------------
+function tablaEjecutadas(puntos, { mostrarVacio = false } = {}) {
+  const filas = (puntos || []).map((p) => ({
+    provincia: p.provincia?.toUpperCase(),
+    distrito: p.distrito?.toUpperCase(),
+    sector: p.sector?.toUpperCase() || '—',
+    estado: (p.estado || '').toUpperCase(),
+    ficha: p.ficha || '—',
+    descripcion: (p.descripcion || '').trim().replace(/\s+/g, ' '),
+    fechaInicio: p.fechaInicio || '—',
+    fechaFin: p.fechaFin || '—',
+    volumen: fmtNum(p.volumen),
+    poblacion: fmtNum(p.poblacion),
+  }))
+  if (!filas.length) {
+    return mostrarVacio
+      ? [parrafo('No se registran intervenciones ejecutadas ni en ejecución para el ámbito seleccionado.')]
+      : []
+  }
+  return [
+    parrafo(`Se registran ${filas.length} intervenciones ejecutadas o en ejecución en el ámbito seleccionado, de acuerdo al siguiente detalle:`),
+    tabla(
+      [
+        { clave: 'provincia', titulo: 'PROV.', peso: 0.09 },
+        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.1 },
+        { clave: 'sector', titulo: 'SECTOR', peso: 0.1 },
+        { clave: 'estado', titulo: 'ESTADO', peso: 0.09 },
+        { clave: 'ficha', titulo: 'FICHA', peso: 0.1 },
+        { clave: 'descripcion', titulo: 'DESCRIPCIÓN', peso: 0.28 },
+        { clave: 'fechaInicio', titulo: 'INICIO', peso: 0.07 },
+        { clave: 'fechaFin', titulo: 'FIN', peso: 0.07 },
+        { clave: 'volumen', titulo: 'VOL', peso: 0.05, align: AlignmentType.RIGHT },
+        { clave: 'poblacion', titulo: 'POB', peso: 0.05, align: AlignmentType.RIGHT },
+      ],
+      filas,
+      PORTRAIT_WIDTH,
+      { fontSize: PROGRAMADAS_FONT_SIZE }
+    ),
+  ]
 }
 
 // ---------------------------------------------------------------------------
@@ -771,6 +834,7 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
 
   const filasProgramadas = filtrarPorAmbito(data.programadasDetalle, seleccion)
   const filasPuntosCriticos = filtrarPorAmbito(data.puntosCriticos, seleccion)
+  const filasEjecutadas = filtrarEjecutadasPorAmbito(regionId, seleccion) // null = región sin mapaIntervenciones.js
 
   const contenido = [
     parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
@@ -788,8 +852,11 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
     }),
     ...seccionAntecedentes(),
     ...seccionAlcance(seleccion, regionLabel),
+    ...titulo2Ejecutadas(regionLabel),
+    ...(filasEjecutadas !== null
+      ? tablaEjecutadas(filasEjecutadas, { mostrarVacio: true })
+      : notaEjecutadasNoFiltrable(data, regionLabel)),
     ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
-    ...notaEjecutadasNoFiltrable(data, regionLabel),
     ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
     ...(data.flota && data.flota.length
       ? [
@@ -825,6 +892,13 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
   })
 }
 
+function titulo2Ejecutadas(regionLabel) {
+  return [titulo2(`Intervenciones ejecutadas y en ejecución en ${regionLabel} -- ámbito seleccionado.`, { size: 24 })]
+}
+
+// Solo se usa cuando la región no tiene entrada en mapaIntervenciones.js (ver
+// filtrarEjecutadasPorAmbito) -- hoy eso es un puñado de las 25 regiones; para el resto sí hay
+// datos reales por punto y se usa tablaEjecutadas() en su lugar.
 function notaEjecutadasNoFiltrable(data, regionLabel) {
   if (!data.ejecutadasTotal) return []
   return [
