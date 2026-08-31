@@ -833,16 +833,29 @@ function seccionTodosResponsables(data, regionLabel) {
 // ---------------------------------------------------------------------------
 // Flota y mantenimiento (en vivo)
 // ---------------------------------------------------------------------------
-function seccionFlota(data, numeroSeccion) {
-  const flota = data.flota || []
-  if (!flota.length) return []
-  // 31/08/2026: la plantilla real llama a esta sección "RELACIÓN DE ACTIVO Y PERSONAL" (antes acá
-  // decía "MAQUINARIAS Y VEHÍCULOS DE LA UBO", que no aparece así en el documento original).
-  const numero = numeroSeccion != null ? `${numeroSeccion}. ` : ''
-  const filasFlota = []
-  flota.forEach((f) => {
+// 01/09/2026 -- a pedido de Franco: la propia plantilla trae una nota junto a este cuadro
+// ("Este cuadro debe ir clasificado por Tipo de Flota Maquinaria Pesada y Vehiculo pesado y las
+// cantidades") que antes no se aplicaba -- la tabla salía como un solo listado plano. Clasificación
+// por palabras clave del nombre del tipo de unidad (data.flota[].tipo, en vivo desde el pipeline):
+// MAQUINARIA PESADA = equipo autopropulsado de movimiento de tierras (cargadores, excavadoras,
+// motoniveladoras, retroexcavadoras, rodillos, tractores); VEHÍCULO PESADO = camiones y unidades de
+// transporte sobre ruedas (camionetas, camiones cisterna/grúa/auxilio, plataformas, remolcadores,
+// volquetes). Un tipo que no calce con ninguna de las dos palabras clave cae en "Otros" en vez de
+// asignarse a una categoría al azar -- así no se pierde ni se clasifica mal ninguna unidad.
+const MAQUINARIA_PESADA_RE = /cargador|excavadora|motoniveladora|retroexcavadora|rodillo|tractor|moto ?niveladora|compactador|grua torre/i
+const VEHICULO_PESADO_RE = /cami[oó]n|camioneta|plataforma|remolcador|volquete|tr[aá]iler|b[uú]s|[oó]mnibus/i
+function clasificarFlota(tipo) {
+  const t = tipo || ''
+  if (MAQUINARIA_PESADA_RE.test(t)) return 'Maquinaria Pesada'
+  if (VEHICULO_PESADO_RE.test(t)) return 'Vehículo Pesado'
+  return 'Otros'
+}
+
+function tablaFlotaGrupo(items) {
+  const filas = []
+  items.forEach((f) => {
     f.codigos.forEach((cod, i) => {
-      filasFlota.push({
+      filas.push({
         tipo: i === 0 ? f.tipo.toUpperCase() : '',
         cantidad: i === 0 ? f.cantidad : '',
         codigo: cod,
@@ -851,22 +864,42 @@ function seccionFlota(data, numeroSeccion) {
       })
     })
   })
+  return tabla(
+    [
+      { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.24 },
+      { clave: 'cantidad', titulo: 'CANTIDAD', peso: 0.1, align: AlignmentType.RIGHT },
+      { clave: 'codigo', titulo: 'CÓDIGO', peso: 0.2 },
+      { clave: 'marca', titulo: 'MARCA', peso: 0.2 },
+      { clave: 'estado', titulo: 'ESTADO', peso: 0.26 },
+    ],
+    filas
+  )
+}
+
+function seccionFlota(data, numeroSeccion) {
+  const flota = data.flota || []
+  if (!flota.length) return []
+  // 31/08/2026: la plantilla real llama a esta sección "RELACIÓN DE ACTIVO Y PERSONAL" (antes acá
+  // decía "MAQUINARIAS Y VEHÍCULOS DE LA UBO", que no aparece así en el documento original).
+  const numero = numeroSeccion != null ? `${numeroSeccion}. ` : ''
   const enMantenimiento = flota.filter((f) => f.estado === 'inoperativo' && f.nota)
 
-  const out = [
-    titulo2(`${numero}RELACIÓN DE ACTIVO Y PERSONAL`),
-    tabla(
-      [
-        { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.24 },
-        { clave: 'cantidad', titulo: 'CANTIDAD', peso: 0.1, align: AlignmentType.RIGHT },
-        { clave: 'codigo', titulo: 'CÓDIGO', peso: 0.2 },
-        { clave: 'marca', titulo: 'MARCA', peso: 0.2 },
-        { clave: 'estado', titulo: 'ESTADO', peso: 0.26 },
-      ],
-      filasFlota
-    ),
-    parrafo(`Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`),
-  ]
+  const grupos = new Map([
+    ['Maquinaria Pesada', []],
+    ['Vehículo Pesado', []],
+    ['Otros', []],
+  ])
+  flota.forEach((f) => grupos.get(clasificarFlota(f.tipo)).push(f))
+
+  const out = [titulo2(`${numero}RELACIÓN DE ACTIVO Y PERSONAL`)]
+  for (const [nombreGrupo, items] of grupos) {
+    if (!items.length) continue
+    const subtotal = items.reduce((a, f) => a + f.cantidad, 0)
+    out.push(titulo2(nombreGrupo, { color: null, size: 22 }))
+    out.push(tablaFlotaGrupo(items))
+    out.push(parrafo(`Subtotal ${nombreGrupo}: ${fmtNum(subtotal)} unidades.`))
+  }
+  out.push(parrafo([run({ text: `Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`, bold: true })]))
 
   if (enMantenimiento.length) {
     out.push(titulo2('MAQUINARIAS Y VEHÍCULOS EN MANTENIMIENTO'))
