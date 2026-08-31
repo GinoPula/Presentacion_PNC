@@ -8050,13 +8050,13 @@ const mapaIntervenciones = {
     "provincia": "Huanta",
     "distrito": "Sivia",
     "sector": "Grupo 4 Y Pampa Aurora",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO I), EN EL SECTOR GRUPO 4 Y PAMPA AURORA DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO         ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO I), EN EL SECTOR GRUPO 4 Y PAMPA AURORA DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO          ",
     "ficha": "19-2026- LD-E-AYAC ",
     "fechaInicio": "04/06/2026",
     "fechaFin": "25/06/2026",
     "poblacion": 3248,
     "volumen": 6120,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
     "id": 10232,
@@ -8084,7 +8084,7 @@ const mapaIntervenciones = {
     "provincia": "Huanta",
     "distrito": "Sivia",
     "sector": "Grupo 4",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO II), EN EL SECTOR GRUPO 4 DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO             ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO II), EN EL SECTOR GRUPO 4 DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO              ",
     "ficha": "40-2026-LD-E-AYAC",
     "fechaInicio": "02/07/2026",
     "fechaFin": "23/07/2026",
