@@ -478,6 +478,19 @@ def titulo(valor):
 # 1) CONSULTA: exactamente la misma lógica ya validada en 03_generar_region.py,
 #    devuelve los datos TAL COMO vienen de la base (mayúsculas, sin traducir).
 # ---------------------------------------------------------------------------
+# Clasificación de actividad "agua potable" vs el resto -- agregada 01/09/2026 a pedido de Franco
+# ("desglosar la cantidad total de m3 entre material removido y agua potable"). No hay una columna
+# de categoría en tb_em_intervencion (solo inte.descripcion, texto libre), así que se clasifica por
+# palabra clave sobre esa descripción -- mismo criterio que ya se usa para flota (clasificarFlota en
+# ayudaMemoria.js). Regex ancla el verbo (abastecimiento/distribución) cerca de "agua" para no
+# confundir actividades de agua potable con menciones incidentales de "agua" en nombres de lugar
+# (p.ej. distrito "Aguas Verdes") o de río ("aguas arriba/abajo de..."), que NO deben contar como
+# agua potable. Un puñado de fichas de "mejoramiento de vías PARA distribución de agua" también
+# matchean (la vía es un medio, pero el texto dice explícitamente que sirve para distribuir agua) --
+# se cuentan como agua potable por seguir el texto literal; avisar a Franco si prefiere lo contrario.
+_REGEX_AGUA_POTABLE = r"(abastecimiento|distribuci[oó]n)\s+([a-z]+\s+){0,4}agua"
+
+
 def _consultar_ejecutadas_por_tipo(cur, departamento, periodo):
     """Devuelve (lista_por_tipo, total) para estado='EJECUTADA' en un
     departamento+periodo dados. Separado en función propia porque se llama
@@ -489,6 +502,9 @@ def _consultar_ejecutadas_por_tipo(cur, departamento, periodo):
                SUM(COALESCE(
                    (SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_vol, 0)) AS m3,
+               SUM(CASE WHEN inte.descripcion ~* %s THEN COALESCE(
+                   (SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
+                   inte.meta_vol, 0) ELSE 0 END) AS m3_agua_potable,
                SUM(COALESCE(
                    (SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_km, 0)) AS km,
@@ -498,16 +514,18 @@ def _consultar_ejecutadas_por_tipo(cur, departamento, periodo):
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado = 'EJECUTADA'
         GROUP BY inte.tipo
         ORDER BY inte.tipo;
-    """, (departamento, periodo))
+    """, (_REGEX_AGUA_POTABLE, departamento, periodo))
     por_tipo = cur.fetchall()
     lista = [
-        {"tipo": r["tipo"], "cantidad": r["cantidad"], "m3": round(num(r["m3"]), 2), "km": round(num(r["km"]), 2),
+        {"tipo": r["tipo"], "cantidad": r["cantidad"], "m3": round(num(r["m3"]), 2),
+         "m3AguaPotable": round(num(r["m3_agua_potable"]), 2), "km": round(num(r["km"]), 2),
          "poblacion": entero(r["poblacion"]), "provincias": list(r["provincias"] or [])}
         for r in por_tipo
     ]
     total = {
         "cantidad": sum(r["cantidad"] for r in por_tipo),
         "m3": round(sum(num(r["m3"]) for r in por_tipo), 2),
+        "m3AguaPotable": round(sum(num(r["m3_agua_potable"]) for r in por_tipo), 2),
         "km": round(sum(num(r["km"]) for r in por_tipo), 2),
         "poblacion": sum(entero(r["poblacion"]) for r in por_tipo),
     }
@@ -530,7 +548,7 @@ def consultar_departamento(cur, departamento, periodo):
         resultado["ejecutadasPorTipoAnioAnterior"], resultado["ejecutadasTotalAnioAnterior"] = \
             _consultar_ejecutadas_por_tipo(cur, departamento, anio_anterior)
     else:
-        resultado["ejecutadasPorTipoAnioAnterior"], resultado["ejecutadasTotalAnioAnterior"] = [], {"cantidad": 0, "m3": 0.0, "km": 0.0, "poblacion": 0}
+        resultado["ejecutadasPorTipoAnioAnterior"], resultado["ejecutadasTotalAnioAnterior"] = [], {"cantidad": 0, "m3": 0.0, "m3AguaPotable": 0.0, "km": 0.0, "poblacion": 0}
 
     cur.execute("""
         SELECT inte.provincia, inte.distrito, inte.tipo, inte.descripcion,
@@ -940,7 +958,14 @@ def emitir_js(r):
     L.extend(_emitir_por_tipo(r["ejecutadasPorTipo"]))
     L.append("  ],")
     et = r["ejecutadasTotal"]
-    L.append(f"  ejecutadasTotal: {{ cantidad: {js_num(et['cantidad'])}, m3: {js_num(et['m3'])}, km: {js_num(et['km'])}, poblacion: {js_num(et['poblacion'])} }},")
+    # m3AguaPotable (agregado 01/09/2026, ver _REGEX_AGUA_POTABLE): desglose del mismo total de m3,
+    # no un dato nuevo aparte -- así que m3 (material removido) + m3AguaPotable siempre suma el
+    # total de m3 que ya se mostraba antes. seccionNarrativa() en ayudaMemoria.js lo resta para
+    # sacar el m3 de "material removido".
+    L.append(
+        f"  ejecutadasTotal: {{ cantidad: {js_num(et['cantidad'])}, m3: {js_num(et['m3'])}, "
+        f"m3AguaPotable: {js_num(et.get('m3AguaPotable', 0))}, km: {js_num(et['km'])}, poblacion: {js_num(et['poblacion'])} }},"
+    )
     L.append("")
 
     # Histórico del año anterior -- ver _consultar_ejecutadas_por_tipo(). Se
@@ -951,8 +976,11 @@ def emitir_js(r):
     L.append("  ejecutadasPorTipoAnioAnterior: [")
     L.extend(_emitir_por_tipo(r.get("ejecutadasPorTipoAnioAnterior") or []))
     L.append("  ],")
-    eta = r.get("ejecutadasTotalAnioAnterior") or {"cantidad": 0, "m3": 0.0, "km": 0.0, "poblacion": 0}
-    L.append(f"  ejecutadasTotalAnioAnterior: {{ cantidad: {js_num(eta['cantidad'])}, m3: {js_num(eta['m3'])}, km: {js_num(eta['km'])}, poblacion: {js_num(eta['poblacion'])} }},")
+    eta = r.get("ejecutadasTotalAnioAnterior") or {"cantidad": 0, "m3": 0.0, "m3AguaPotable": 0.0, "km": 0.0, "poblacion": 0}
+    L.append(
+        f"  ejecutadasTotalAnioAnterior: {{ cantidad: {js_num(eta['cantidad'])}, m3: {js_num(eta['m3'])}, "
+        f"m3AguaPotable: {js_num(eta.get('m3AguaPotable', 0))}, km: {js_num(eta['km'])}, poblacion: {js_num(eta['poblacion'])} }},"
+    )
     L.append("")
 
     L.append("  enEjecucion: [")
