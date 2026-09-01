@@ -2830,9 +2830,9 @@ const mapaIntervenciones = {
     "provincia": "Piura",
     "distrito": "Veintiseis De Octubre",
     "sector": "Japon Turquia",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL JAPÓN Y DREN PLUVIAL TURQUÍA DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" - II   ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL JAPÓN Y DREN PLUVIAL TURQUÍA DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" - II    ",
     "ficha": "FTI N°125-2026-LD-PI-PIU    ",
-    "fechaInicio": "01/08/2026",
+    "fechaInicio": "31/07/2026",
     "fechaFin": "17/08/2026",
     "poblacion": 5268,
     "volumen": 5616,
@@ -3823,7 +3823,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "31/08/2026",
     "poblacion": 2516,
-    "volumen": 252,
+    "volumen": 630,
     "enlace": null
   },
   {
@@ -3857,7 +3857,7 @@ const mapaIntervenciones = {
     "fechaInicio": "31/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 150,
-    "volumen": 3750,
+    "volumen": 0,
     "enlace": null
   }
 ],
@@ -7815,7 +7815,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/08/2026",
     "fechaFin": "15/09/2026",
     "poblacion": 500,
-    "volumen": 2400,
+    "volumen": 2900,
     "enlace": null
   },
   {
