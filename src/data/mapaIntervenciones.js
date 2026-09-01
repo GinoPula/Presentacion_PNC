@@ -8982,12 +8982,12 @@ const mapaIntervenciones = {
     "id": 10239,
     "lat": -5.437604,
     "lng": -78.902286,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "San Ignacio",
     "distrito": "La Coipa",
     "sector": "Centro Poblado San Francisco",
-    "descripcion": " “LIMPIEZA Y REMOCION DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTROS POBLADOS SAN FRANCISCO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”       ",
+    "descripcion": " “LIMPIEZA Y REMOCION DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTROS POBLADOS SAN FRANCISCO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”        ",
     "ficha": "N°047-2026-LETV-E-AMZ",
     "fechaInicio": "20/05/2026",
     "fechaFin": "24/08/2026",
@@ -9179,7 +9179,7 @@ const mapaIntervenciones = {
     "fechaInicio": "25/06/2026",
     "fechaFin": "28/08/2026",
     "poblacion": 274,
-    "volumen": 1170,
+    "volumen": 2145,
     "enlace": null
   },
   {

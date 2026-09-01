@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 3, m3: 16875.0, km: 1.85, poblacion: 1477, provincias: ['San Ignacio'] },
+    { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
     { tipo: 'Prevención', cantidad: 18, m3: 108520.95, km: 8.18, poblacion: 11620, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 39, m3: 175847.31, km: 125.83, poblacion: 50168, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 60, m3: 301243.26, km: 135.86, poblacion: 63265 },
+  ejecutadasTotal: { cantidad: 61, m3: 313918.26, km: 135.86, poblacion: 63680 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,9 +18,8 @@ export default {
 
   enEjecucion: [
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '18/08/2025', fin: '31/08/2025', volAcum: 240.0, kmAcum: 0.47, poblacion: 135 },
-    { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y REMOCION DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTROS POBLADOS SAN FRANCISCO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”       ', inicio: '20/05/2026', fin: '24/08/2026', volAcum: 12675.0, kmAcum: 0.0, poblacion: 415 },
     { provincia: 'Cutervo', distrito: 'Callayuc', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA".    ', inicio: '15/06/2026', fin: '30/08/2026', volAcum: 2180.0, kmAcum: 1.5, poblacion: 438 },
-    { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ', inicio: '25/06/2026', fin: '28/08/2026', volAcum: 1170.0, kmAcum: 1.17, poblacion: 274 },
+    { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ', inicio: '25/06/2026', fin: '28/08/2026', volAcum: 2145.0, kmAcum: 2.15, poblacion: 274 },
     { provincia: 'Cajamarca', distrito: 'Jesus', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00             ', inicio: '05/08/2026', fin: '13/09/2026', volAcum: 210.0, kmAcum: 0.06, poblacion: 625 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: '  “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”      ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 405.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS CON EL SECTOR VISTA HERMOSA ETAPA I, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”   ', inicio: '11/08/2026', fin: '28/08/2026', volAcum: 1620.0, kmAcum: 1.46, poblacion: 165 },
