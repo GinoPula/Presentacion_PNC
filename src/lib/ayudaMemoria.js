@@ -162,6 +162,13 @@ const COLOR_SECCION = 'C00000' // encabezados de sección (la mayoría)
 // constante acá y no como campo por región -- aparece igual en la Ayuda Memoria de cualquier
 // departamento que tenga Escenario Severo curado.
 const PRESUPUESTO_NACIONAL_SEVERO = 21981975.0
+// Presupuesto del Acuerdo Multisectorial a nivel nacional (agregado 01/09/2026, a partir del
+// Excel que Franco envió -- "BASE_DATOS.xlsx", hoja "CONSOLIDADO SOLO MVCS 55": los 55 puntos
+// críticos a cargo del MVCS a nivel nacional, columna "COSTO ESTIMADO MVCS" -- suma = 25,500,000
+// exacto, lo que Franco confirmó como la cifra correcta ("el excel que ya tienes el último que es
+// de los 25.5millones"). Igual que PRESUPUESTO_NACIONAL_SEVERO, es un monto ÚNICO a nivel
+// nacional -- aparece igual en la 4.2 de cualquier departamento con puntos críticos curados.
+const PRESUPUESTO_NACIONAL_MULTISECTORIAL = 25500000.0
 const HEADER_FILL = '000000' // relleno de encabezado de tabla (mayoría: puntos críticos, flota, etc.)
 const HEADER_TEXT = 'FFFFFF'
 const HEADER_FILL_PROGRAMADAS = 'AED6F1' // la tabla de "programadas" usa celeste, no negro
@@ -235,9 +242,10 @@ function crearPie() {
   })
 }
 
-function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = false, fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE } = {}) {
+function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = false, fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE, colSpan } = {}) {
   return new TableCell({
     width: width ? { size: width, type: WidthType.DXA } : undefined,
+    columnSpan: colSpan || undefined,
     shading: header ? { type: ShadingType.CLEAR, color: 'auto', fill } : undefined,
     verticalAlign: VerticalAlign.CENTER,
     margins: { top: 60, bottom: 60, left: 80, right: 80 },
@@ -306,27 +314,25 @@ function bullet(texto) {
 // ---------------------------------------------------------------------------
 // Antecedentes (fijo, igual en las 8 regiones)
 // ---------------------------------------------------------------------------
-// 01/09/2026 -- a pedido de Franco, se reescribió Antecedentes para calzar palabra por palabra con
-// el texto de la plantilla real (título, paréntesis de PREVENCIÓN/URGENCIA/EMERGENCIA, y el "xxx
-// Convenios... a nivel nacional" fusionado en el mismo párrafo que las 19 UBO, no como párrafo
-// aparte). Es el mismo texto para las 25 regiones -- el propio párrafo lo dice ("a nivel
-// nacional"), por eso lo único que cambia entre regiones es el número de Convenios, que sale de
-// conveniosCountGlobal (suma en vivo de data.conveniosCount de las 25 regiones -- ver
-// src/data/global.js). Antes acá se mostraba el conteo POR departamento para evitar que este total
-// nacional (hoy 95) no calzara con una cifra vieja de una plantilla anterior (170); como esta vez
-// Franco pidió expresamente "a nivel nacional", se usa el total nacional en vivo.
+// 01/09/2026 -- a pedido de Franco, se reescribió Antecedentes por segunda vez el mismo día para
+// calzar con el texto final que envió (fusiona las dos primeras oraciones en un solo párrafo, saca
+// la oración "Este pool de maquinaria está a disposición...", y agrega numerales (I)/(II)/(III)
+// antes de PREVENCIÓN/URGENCIA/EMERGENCIA). Sigue siendo el mismo texto para las 25 regiones -- el
+// propio párrafo lo dice ("a nivel nacional"), por eso lo único que cambia entre regiones es el
+// número de Convenios, que sale de conveniosCountGlobal (suma en vivo de data.conveniosCount de
+// las 25 regiones -- ver src/data/global.js).
 function seccionAntecedentes(data, regionLabel, numAntecedentes, numActividades) {
   const p1 = (n) => (n != null ? `${n}. ` : '')
   return [
     titulo2(`${p1(numAntecedentes)}Antecedentes.`),
     parrafo(
-      'El PNC-MAQUINARIAS del Programa Nuestras Ciudades (PNC) realiza trabajos de prevención y mitigación de riesgos a nivel nacional para proteger a las poblaciones más vulnerables del país. Este pool de maquinaria está a disposición para realizar trabajos de prevención y atender emergencias causadas por fenómenos naturales o climatológicos como huaicos, desbordes de ríos, sismos y terremotos.'
+      'El PNC-MAQUINARIAS del Programa Nuestras Ciudades (PNC) realiza trabajos de prevención y mitigación de riesgos a nivel nacional para proteger a las poblaciones más vulnerables del país, causadas por fenómenos naturales o climatológicos como huaicos, desbordes de ríos, sismos y terremotos.'
     ),
     parrafo(
-      'En este marco, el PNC-MAQUINARIAS realiza intervenciones de PREVENCIÓN (requiere Convenios de Colaboración Interinstitucional), URGENCIA (requiere acuerdo de concejo) e intervenciones de EMERGENCIA (requiere Decreto de emergencia PCM). Las intervenciones se realizan en zonas donde existen viviendas, para protección del equipamiento e infraestructura urbana.'
+      'En este marco, el PNC-MAQUINARIAS realiza intervenciones de (I) PREVENCIÓN (requiere Convenios de Colaboración Interinstitucional), (II) URGENCIA (requiere acuerdo de concejo) e intervenciones de (III) EMERGENCIA (requiere Decreto de emergencia PCM). Las intervenciones se realizan en zonas donde existen viviendas, para protección del equipamiento e infraestructura urbana.'
     ),
     parrafo(
-      `Actualmente, se cuenta con 19 Unidades Básicas Operativas (UBO) ubicadas en los departamentos de Lima, Ayacucho, Cusco, Ancash, Ica, Arequipa, Tacna, Loreto, Tumbes, Lambayeque, La Libertad, Piura, Junín, Amazonas, San Martín, Cajamarca, Puno, Apurímac y Huánuco y, se cuenta con ${fmtNum(conveniosCountGlobal)} Convenios de Colaboración Interinstitucional vigentes con entidades de los tres niveles de gobierno a nivel nacional.`
+      `Las intervenciones se realizan a nivel nacional a través de las 19 Unidades Básicas Operativas (UBO) ubicadas en los departamentos de Lima, Ayacucho, Cusco, Ancash, Ica, Arequipa, Tacna, Loreto, Tumbes, Lambayeque, La Libertad, Piura, Junín, Amazonas, San Martín, Cajamarca, Puno, Apurímac y Huánuco y, se cuenta con ${fmtNum(conveniosCountGlobal)} Convenios de Colaboración Interinstitucional vigentes con entidades de los tres niveles de gobierno a nivel nacional.`
     ),
     titulo2(`${p1(numActividades)}Principales Actividades.`, { color: null }),
     bullet('Limpieza y descolmatación de drenes, quebradas, canales y ríos y conformación de diques de protección, hasta garantizar la escorrentía y desfogue de las aguas.'),
@@ -346,73 +352,60 @@ function parrafoActividad(a) {
   ])
 }
 
-// Cuadro resumen PROVINCIA / N° PROGRAMADAS / N° EJECUTADAS / N° EN EJECUCIÓN -- agregado
-// 31/08/2026, ampliado el mismo día a pedido de Franco ("se necesita que vaya un cuadro de las
-// programadas, ejecutadas y en ejecución en caso tuviera"): la plantilla real solo trae
-// EJECUTADAS/EN EJECUCIÓN acá, pero para dar una vista completa del estado de las intervenciones
-// en la sección "3. INTERVENCIONES" se suma también PROGRAMADAS (data.programadasDetalle, en
-// vivo). EJECUTADAS/EN EJECUCIÓN sigue viniendo de mapaIntervenciones.js (la misma fuente que ya
-// usa el mapa y el filtro por ámbito -- ver comentario grande junto a obtenerAmbitoDisponible()),
-// así que esas dos columnas solo tienen datos reales para las regiones con entrada ahí (tumbes,
-// puno, tacna, piura, ancash, lambayeque, ica); para el resto quedan en blanco (no se inventa un
-// 0 que parezca un dato confirmado). Si NINGUNA de las tres fuentes tiene datos para la región, se
-// omite la tabla entera (return null).
+// Cuadro resumen PROVINCIA / DISTRITO / N° EJECUTADAS / N° EN EJECUCIÓN -- agregado 31/08/2026,
+// reescrito 01/09/2026 a pedido de Franco ("en ese cuadro se le tiene que añadir distrito...
+// programadas no van aquí"): vuelve a calzar con la plantilla real (solo EJECUTADAS/EN EJECUCIÓN,
+// sin PROGRAMADAS, que se había agregado un día antes por pedido suyo y ahora se saca), y se
+// agrega una columna DISTRITO junto a PROVINCIA. Sale de mapaIntervenciones.js (misma fuente que
+// ya usa el mapa y el filtro por ámbito -- ver comentario grande junto a
+// obtenerAmbitoDisponible()), que sí trae distrito por punto; solo tiene datos para las regiones
+// con entrada ahí (tumbes, puno, tacna, piura, ancash, lambayeque, ica) -- para el resto se omite
+// la tabla entera (return null) en vez de mostrar una tabla vacía o inventar un 0.
 function tablaResumenIntervenciones(data, regionId) {
-  const porProvincia = new Map()
-  const fila = (provincia) => {
-    if (!provincia) return null
-    if (!porProvincia.has(provincia)) porProvincia.set(provincia, { programadas: 0, ejecutadas: 0, enEjecucion: 0 })
-    return porProvincia.get(provincia)
-  }
-  ;(data.programadasDetalle || []).forEach((p) => {
-    const c = fila(p.provincia)
-    if (c) c.programadas += 1
-  })
-  const tieneMapa = !!mapaIntervenciones[regionId]
-  ;(mapaIntervenciones[regionId] || []).forEach((p) => {
-    const c = fila(p.provincia)
-    if (!c) return
+  const puntos = mapaIntervenciones[regionId]
+  if (!puntos || !puntos.length) return null
+
+  const porFila = new Map()
+  const clave = (provincia, distrito) => `${provincia} ${distrito}`
+  puntos.forEach((p) => {
+    if (!p.provincia || !p.distrito) return
+    const k = clave(p.provincia, p.distrito)
+    if (!porFila.has(k)) porFila.set(k, { provincia: p.provincia, distrito: p.distrito, ejecutadas: 0, enEjecucion: 0 })
+    const c = porFila.get(k)
     if (p.estado === 'Ejecutada') c.ejecutadas += 1
     else if (p.estado === 'En ejecución') c.enEjecucion += 1
   })
-  const provincias = [...porProvincia.keys()].sort((a, b) => a.localeCompare(b, 'es'))
-  if (!provincias.length) return null
-  const totales = provincias.reduce(
-    (acc, p) => {
-      const c = porProvincia.get(p)
-      acc.programadas += c.programadas
+  const filasOrdenadas = [...porFila.values()].sort(
+    (a, b) => a.provincia.localeCompare(b.provincia, 'es') || a.distrito.localeCompare(b.distrito, 'es')
+  )
+  if (!filasOrdenadas.length) return null
+  const totales = filasOrdenadas.reduce(
+    (acc, c) => {
       acc.ejecutadas += c.ejecutadas
       acc.enEjecucion += c.enEjecucion
       return acc
     },
-    { programadas: 0, ejecutadas: 0, enEjecucion: 0 }
+    { ejecutadas: 0, enEjecucion: 0 }
   )
-  if (!totales.programadas && !totales.ejecutadas && !totales.enEjecucion) return null
 
-  const pesos = [0.4, 0.2, 0.2, 0.2]
+  const pesos = [0.3, 0.3, 0.2, 0.2]
   const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
   const estilo = { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS }
-  // Guion en vez de "0": una región sin entrada en mapaIntervenciones.js no tiene forma de saber
-  // si sus EJECUTADAS/EN EJECUCIÓN son de verdad cero o simplemente no están disponibles -- mostrar
-  // "0" ahí se leería como un dato confirmado que no lo es.
-  const celdaCant = (valor, disponible, ancho) => celda(!disponible ? '—' : valor || '', { width: ancho, align: AlignmentType.RIGHT })
-  const filas = provincias.map((p) => {
-    const c = porProvincia.get(p)
+  const filas = filasOrdenadas.map((c) => {
     return new TableRow({
       children: [
-        celda(p.toUpperCase(), { width: anchos[0] }),
-        celda(c.programadas || '', { width: anchos[1], align: AlignmentType.RIGHT }),
-        celdaCant(c.ejecutadas, tieneMapa, anchos[2]),
-        celdaCant(c.enEjecucion, tieneMapa, anchos[3]),
+        celda(c.provincia.toUpperCase(), { width: anchos[0] }),
+        celda(c.distrito.toUpperCase(), { width: anchos[1] }),
+        celda(c.ejecutadas || '', { width: anchos[2], align: AlignmentType.RIGHT }),
+        celda(c.enEjecucion || '', { width: anchos[3], align: AlignmentType.RIGHT }),
       ],
     })
   })
   const filaTotal = new TableRow({
     children: [
-      celda('Total general', { width: anchos[0], bold: true }),
-      celda(fmtNum(totales.programadas), { width: anchos[1], align: AlignmentType.RIGHT, bold: true }),
-      celda(tieneMapa ? fmtNum(totales.ejecutadas) : '—', { width: anchos[2], align: AlignmentType.RIGHT, bold: true }),
-      celda(tieneMapa ? fmtNum(totales.enEjecucion) : '—', { width: anchos[3], align: AlignmentType.RIGHT, bold: true }),
+      celda('Total general', { width: anchos[0], bold: true, colSpan: 2 }),
+      celda(fmtNum(totales.ejecutadas), { width: anchos[2], align: AlignmentType.RIGHT, bold: true }),
+      celda(fmtNum(totales.enEjecucion), { width: anchos[3], align: AlignmentType.RIGHT, bold: true }),
     ],
   })
   return new Table({
@@ -423,7 +416,7 @@ function tablaResumenIntervenciones(data, regionId) {
         tableHeader: true,
         children: [
           celda('PROVINCIA', { header: true, width: anchos[0], ...estilo }),
-          celda('N° PROGRAMADAS', { header: true, width: anchos[1], align: AlignmentType.RIGHT, ...estilo }),
+          celda('DISTRITO', { header: true, width: anchos[1], ...estilo }),
           celda('N° EJECUTADAS', { header: true, width: anchos[2], align: AlignmentType.RIGHT, ...estilo }),
           celda('N° EN EJECUCIÓN', { header: true, width: anchos[3], align: AlignmentType.RIGHT, ...estilo }),
         ],
@@ -706,13 +699,16 @@ function seccionPuntosCriticos(data, regionLabel, numeroSeccion) {
       parrafo([run({ text: `Presupuesto ${regionLabel}: `, bold: true }), run({ text: `${fmtSoles(data.presupuestoAcuerdoMultisectorial)}.`, bold: true })])
     )
     // 01/09/2026 -- a pedido de Franco ("te falto poner"): la plantilla real trae esta segunda
-    // línea también en la 4.2, igual que en la 4.1 (ver seccionFEN). A diferencia del monto
-    // nacional de la 4.1 (PRESUPUESTO_NACIONAL_SEVERO, ya confirmado), este monto nacional del
-    // Acuerdo Multisectorial sigue como "S/[PENDIENTE]" en la propia plantilla de referencia -- no
-    // hay una cifra confirmada todavía, así que se deja el mismo placeholder "xxxxxx" en vez de
-    // inventar un número.
+    // línea también en la 4.2, igual que en la 4.1 (ver seccionFEN). El monto nacional
+    // (PRESUPUESTO_NACIONAL_MULTISECTORIAL, S/25,500,000) se confirmó el mismo día con el Excel
+    // "BASE_DATOS.xlsx" -- ver comentario junto a la constante.
     out.push(
-      parrafo([run({ text: '(Recursos solicitados al MEF, cuyo monto a nivel nacional equivale a S/xxxxxx)', bold: true })])
+      parrafo([
+        run({
+          text: `(Recursos solicitados al MEF, cuyo monto a nivel nacional equivale a ${fmtSoles(PRESUPUESTO_NACIONAL_MULTISECTORIAL)})`,
+          bold: true,
+        }),
+      ])
     )
   }
   return out
@@ -860,26 +856,23 @@ function clasificarFlota(tipo) {
   return 'Otros'
 }
 
+// 01/09/2026 -- a pedido de Franco: la tabla de maquinarias queda solo con TIPO UNIDAD | CANTIDAD
+// (antes también traía CÓDIGO, MARCA y ESTADO por unidad individual). Con eso ya no hace falta una
+// fila por código -- una fila por tipo de unidad alcanza. Además, data.flota a veces trae más de
+// una entrada con el mismo "tipo" (p.ej. distintas marcas del mismo VOLQUETE) -- antes cada una se
+// distinguía por su columna MARCA/CÓDIGO, pero al quedar solo TIPO UNIDAD esas entradas se ven
+// como una fila duplicada; se fusionan sumando la cantidad para que cada tipo aparezca una sola vez.
 function tablaFlotaGrupo(items) {
-  const filas = []
+  const porTipo = new Map()
   items.forEach((f) => {
-    f.codigos.forEach((cod, i) => {
-      filas.push({
-        tipo: i === 0 ? f.tipo.toUpperCase() : '',
-        cantidad: i === 0 ? f.cantidad : '',
-        codigo: cod,
-        marca: f.marca.toUpperCase(),
-        estado: f.estado.toUpperCase(),
-      })
-    })
+    const tipo = f.tipo.toUpperCase()
+    porTipo.set(tipo, (porTipo.get(tipo) || 0) + f.cantidad)
   })
+  const filas = [...porTipo.entries()].map(([tipo, cantidad]) => ({ tipo, cantidad }))
   return tabla(
     [
-      { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.24 },
-      { clave: 'cantidad', titulo: 'CANTIDAD', peso: 0.1, align: AlignmentType.RIGHT },
-      { clave: 'codigo', titulo: 'CÓDIGO', peso: 0.2 },
-      { clave: 'marca', titulo: 'MARCA', peso: 0.2 },
-      { clave: 'estado', titulo: 'ESTADO', peso: 0.26 },
+      { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.7 },
+      { clave: 'cantidad', titulo: 'CANTIDAD', peso: 0.3, align: AlignmentType.RIGHT },
     ],
     filas
   )
@@ -969,10 +962,14 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
   const severo = esc.find((e) => /severo|severa/i.test(e.condicion || ''))
   if (severo) {
     out.push(titulo2(`${numeroSub}PUNTOS CRÍTICOS EN UN ESCENARIO SEVERO IDENTIFICADOS POR EL MVCS`, { color: null, font: 'Arial Narrow' }))
+    // 01/09/2026 -- texto exacto que envió Franco para este párrafo (antes decía "puntos de
+    // intervención... priorizados según criterios..."). El número de priorizados sale de
+    // data.programadasDetalle (en vivo) -- es el mismo "main de las programadas" que arma el
+    // cuadro que va justo debajo.
     if (severo.intervenciones != null) {
       out.push(
         parrafo(
-          `En el departamento de ${regionLabel} se han identificado ${fmtNum(severo.intervenciones)} puntos de intervención ante un escenario severo del Fenómeno El Niño, priorizados según criterios de vulnerabilidad, recurrencia y población afectada, así como la participación de los gobiernos Regionales y Locales:`
+          `En el departamento de ${regionLabel} se han identificado ${fmtNum(severo.intervenciones)} puntos críticos ante un escenario severo del Fenómeno El Niño, de estos puntos se han priorizados ${fmtNum(data.programadasDetalle?.length ?? 0)}, sin ser limitativas, según los criterios de vulnerabilidad, recurrencia y población afectada, así como la participación de los gobiernos Regionales y Locales las siguientes intervenciones:`
         )
       )
     }
@@ -993,37 +990,10 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
     )
   }
 
-  // Otros escenarios (p.ej. "Condiciones Moderadas"): no forman parte de la numeración 4.x de la
-  // plantilla real (que solo numera Severo=4.1 y Acuerdo Multisectorial=4.2), pero se conserva el
-  // detalle operativo (mantenimiento/combustible/personal) que ya se venía mostrando, como
-  // información complementaria sin encabezado numerado.
-  const otros = esc.filter((e) => e !== severo)
-  otros.forEach((e) => {
-    out.push(parrafo([run({ text: `Escenario Operativo ${e.nombre}: ${e.condicion}`, bold: true })]))
-    out.push(
-      parrafo([run({ text: `Presupuesto ante el Escenario ${e.nombre}: `, bold: true }), run({ text: fmtSoles(e.presupuesto), bold: true })])
-    )
-    out.push(
-      tabla(
-        [
-          { clave: 'departamento', titulo: 'DEPARTAMENTO', peso: 0.24 },
-          { clave: 'mantenimiento', titulo: 'MANTENIMIENTO', peso: 0.22, align: AlignmentType.RIGHT },
-          { clave: 'combustible', titulo: 'COMBUSTIBLE', peso: 0.22, align: AlignmentType.RIGHT },
-          { clave: 'personal', titulo: 'PERSONAL', peso: 0.18, align: AlignmentType.RIGHT },
-          { clave: 'intervenciones', titulo: 'N° INTERV.', peso: 0.14, align: AlignmentType.RIGHT },
-        ],
-        [
-          {
-            departamento: regionLabel.toUpperCase(),
-            mantenimiento: fmtSoles(e.mantenimiento),
-            combustible: fmtSoles(e.combustible),
-            personal: fmtSoles(e.personal),
-            intervenciones: e.intervenciones != null ? fmtNum(e.intervenciones) : '—',
-          },
-        ]
-      )
-    )
-  })
+  // Otros escenarios (p.ej. "Condiciones Moderadas"): 01/09/2026 -- a pedido de Franco ("este
+  // cuadro no va"), se dejó de mostrar este bloque -- no forma parte de las 5 secciones de la
+  // plantilla real (que solo trae el Escenario Severo en la 4.1). Se deja "esc"/"otros" filtrado
+  // por si se necesita más adelante, pero ya no se renderiza nada de acá.
   return out
 }
 
@@ -1055,7 +1025,7 @@ export async function construirAyudaMemoria(data, regionId) {
       alignment: AlignmentType.CENTER,
       spacing: { after: 240 },
       children: [
-        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
       ],
     }),
     ...seccionAntecedentes(data, regionLabel, 1, 2),
@@ -1140,7 +1110,7 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
       alignment: AlignmentType.CENTER,
       spacing: { after: 80 },
       children: [
-        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
       ],
     }),
     new Paragraph({
