@@ -4,13 +4,13 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 2, m3: 6879.0, km: 1.94, poblacion: 18240, provincias: ['Tayacaja'] },
   ],
-  ejecutadasTotal: { cantidad: 2, m3: 6879.0, km: 1.94, poblacion: 18240 },
+  ejecutadasTotal: { cantidad: 2, m3: 6879.0, m3AguaPotable: 0.0, km: 1.94, poblacion: 18240 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Prevención', cantidad: 7, m3: 14580.0, km: 2.2, poblacion: 546, provincias: ['Castrovirreyna', 'Churcampa'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 7, m3: 14580.0, km: 2.2, poblacion: 546 },
+  ejecutadasTotalAnioAnterior: { cantidad: 7, m3: 14580.0, m3AguaPotable: 0.0, km: 2.2, poblacion: 546 },
 
   enEjecucion: [
   ],

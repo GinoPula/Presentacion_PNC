@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 16, m3: 118014.0, km: 9.88, poblacion: 16209, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 10, m3: 24907.7, km: 49.95, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 34, m3: 179583.7, km: 61.75, poblacion: 27264 },
+  ejecutadasTotal: { cantidad: 34, m3: 179583.7, m3AguaPotable: 0.0, km: 61.75, poblacion: 27264 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 33, m3: 240619.5, km: 16.2, poblacion: 32009, provincias: ['Ascope', 'Gran Chimu', 'Pataz', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 14, m3: 51328.5, km: 50.31, poblacion: 11179, provincias: ['Ascope', 'Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, km: 75.82, poblacion: 75320 },
+  ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
   ],

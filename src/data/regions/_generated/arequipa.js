@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 9, m3: 122653.98, km: 5.76, poblacion: 6200, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 22, m3: 13610.0, km: 0.15, poblacion: 13176, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 45, m3: 295583.91, km: 58.84, poblacion: 43926 },
+  ejecutadasTotal: { cantidad: 45, m3: 295583.91, m3AguaPotable: 13220.0, km: 58.84, poblacion: 43926 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 19, m3: 224767.14, km: 10.67, poblacion: 19100, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 28, m3: 62128.13, km: 22.48, poblacion: 31255, provincias: ['Arequipa', 'Camana', 'Caraveli'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, km: 42.88, poblacion: 52610 },
+  ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, m3AguaPotable: 18540.0, km: 42.88, poblacion: 52610 },
 
   enEjecucion: [
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.\n\n  ', inicio: '04/08/2026', fin: '02/09/2026', volAcum: 675.0, kmAcum: 0.0, poblacion: 525 },

@@ -4,13 +4,13 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Prevención', cantidad: 3, m3: 20430.0, km: 3.19, poblacion: 4680, provincias: ['Oxapampa'] },
   ],
-  ejecutadasTotal: { cantidad: 3, m3: 20430.0, km: 3.19, poblacion: 4680 },
+  ejecutadasTotal: { cantidad: 3, m3: 20430.0, m3AguaPotable: 0.0, km: 3.19, poblacion: 4680 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Prevención', cantidad: 2, m3: 7590.0, km: 0.67, poblacion: 3180, provincias: ['Oxapampa'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 2, m3: 7590.0, km: 0.67, poblacion: 3180 },
+  ejecutadasTotalAnioAnterior: { cantidad: 2, m3: 7590.0, m3AguaPotable: 0.0, km: 0.67, poblacion: 3180 },
 
   enEjecucion: [
   ],

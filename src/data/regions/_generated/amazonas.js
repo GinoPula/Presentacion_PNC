@@ -4,13 +4,13 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 1, m3: 5400.0, km: 0.08, poblacion: 400, provincias: ['Chachapoyas'] },
   ],
-  ejecutadasTotal: { cantidad: 1, m3: 5400.0, km: 0.08, poblacion: 400 },
+  ejecutadasTotal: { cantidad: 1, m3: 5400.0, m3AguaPotable: 0.0, km: 0.08, poblacion: 400 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Emergencia', cantidad: 3, m3: 4120.0, km: null, poblacion: 7375, provincias: ['Utcubamba'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, km: 0.0, poblacion: 7375 },
+  ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
   ],

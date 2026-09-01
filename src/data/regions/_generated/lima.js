@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 50, m3: 358520.12, km: 15.69, poblacion: 51113, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 65, m3: 416704.55, km: 33.14, poblacion: 87792 },
+  ejecutadasTotal: { cantidad: 65, m3: 416704.55, m3AguaPotable: 0.0, km: 33.14, poblacion: 87792 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 108, m3: 941303.41, km: 34.98, poblacion: 2582907, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 4, m3: 22224.7, km: 8.95, poblacion: 19890, provincias: ['Lima', 'Yauyos'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, km: 89.97, poblacion: 13670110 },
+  ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, m3AguaPotable: 0.0, km: 89.97, poblacion: 13670110 },
 
   enEjecucion: [
     { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM  AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA "    ', inicio: '22/07/2026', fin: '01/09/2026', volAcum: 37988.6, kmAcum: 0.32, poblacion: 2500000 },

@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 27, m3: 152411.68, km: 49.36, poblacion: 113557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 34607.5, km: 28.15, poblacion: 9758, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 52, m3: 290434.51, km: 102.52, poblacion: 152411 },
+  ejecutadasTotal: { cantidad: 52, m3: 290434.51, m3AguaPotable: 195.0, km: 102.52, poblacion: 152411 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 75, m3: 328725.48, km: 107.59, poblacion: 232421, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura'] },
     { tipo: 'Urgente atención', cantidad: 20, m3: 153102.63, km: 82.51, poblacion: 38324, provincias: ['Ayabaca', 'Huancabamba', 'Morropon'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, km: 194.1, poblacion: 299874 },
+  ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
     { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA   ', inicio: '06/08/2026', fin: '04/09/2026', volAcum: 10300.0, kmAcum: 0.28, poblacion: 110 },

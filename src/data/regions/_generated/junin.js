@@ -6,14 +6,14 @@ export default {
     { tipo: 'Prevención', cantidad: 14, m3: 89995.0, km: 9.14, poblacion: 263890, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 34, m3: 268089.0, km: 21.76, poblacion: 535412 },
+  ejecutadasTotal: { cantidad: 34, m3: 268089.0, m3AguaPotable: 120.0, km: 21.76, poblacion: 535412 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Emergencia', cantidad: 8, m3: 100890.0, km: 8.2, poblacion: 7650, provincias: ['Chanchamayo', 'Huancayo', 'Jauja'] },
     { tipo: 'Prevención', cantidad: 30, m3: 201680.0, km: 36.0, poblacion: 57522, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Jauja', 'Tarma'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, km: 44.2, poblacion: 65172 },
+  ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
     { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 2800.0, kmAcum: 1.27, poblacion: 1330 },

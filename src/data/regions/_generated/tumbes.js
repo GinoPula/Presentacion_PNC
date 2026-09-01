@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 23, m3: 75793.85, km: 11.05, poblacion: 19682, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 7035.0, km: null, poblacion: 16388, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 44, m3: 115824.1, km: 18.02, poblacion: 45001 },
+  ejecutadasTotal: { cantidad: 44, m3: 115824.1, m3AguaPotable: 7035.0, km: 18.02, poblacion: 45001 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 49, m3: 159311.48, km: 34.0, poblacion: 69230, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
     { tipo: 'Urgente atención', cantidad: 22, m3: 13504.0, km: 2.68, poblacion: 20109, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 195402.73, km: 43.25, poblacion: 93958 },
+  ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 195402.73, m3AguaPotable: 8490.0, km: 43.25, poblacion: 93958 },
 
   enEjecucion: [
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 600.0, kmAcum: 0.0, poblacion: 1356 },

@@ -5,7 +5,7 @@ export default {
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
     { tipo: 'Prevención', cantidad: 8, m3: 81689.0, km: 3.6, poblacion: 2290, provincias: ['Calca', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 192274.0, km: 15.24, poblacion: 7954 },
+  ejecutadasTotal: { cantidad: 22, m3: 192274.0, m3AguaPotable: 0.0, km: 15.24, poblacion: 7954 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,7 @@ export default {
     { tipo: 'Prevención', cantidad: 24, m3: 171352.0, km: 8.54, poblacion: 5246, provincias: ['Acomayo', 'Anta', 'Calca', 'Canchis', 'Quispicanchi', 'Urubamba'] },
     { tipo: 'Urgente atención', cantidad: 3, m3: 4555.0, km: 0.98, poblacion: 2520, provincias: ['Canchis', 'Paucartambo', 'Quispicanchi'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, km: 17.96, poblacion: 14146 },
+  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
     { provincia: 'Anta', distrito: 'Zurite', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ', inicio: '26/09/2026', fin: '09/10/2026', volAcum: 1285.0, kmAcum: 0.37, poblacion: 245 },

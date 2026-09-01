@@ -5,7 +5,7 @@ export default {
     { tipo: 'Emergencia', cantidad: 5, m3: 19770.0, km: 1.54, poblacion: 1620, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
     { tipo: 'Prevención', cantidad: 13, m3: 95539.96, km: 15.15, poblacion: 7430, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
   ],
-  ejecutadasTotal: { cantidad: 18, m3: 115309.96, km: 16.69, poblacion: 9050 },
+  ejecutadasTotal: { cantidad: 18, m3: 115309.96, m3AguaPotable: 0.0, km: 16.69, poblacion: 9050 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,7 @@ export default {
     { tipo: 'Prevención', cantidad: 13, m3: 133101.66, km: 10.84, poblacion: 9983, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 14615.76, km: 3.39, poblacion: 5220, provincias: ['Abancay', 'Aymaraes'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, km: 18.12, poblacion: 17398 },
+  ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
     { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 2900.0, kmAcum: 0.44, poblacion: 500 },

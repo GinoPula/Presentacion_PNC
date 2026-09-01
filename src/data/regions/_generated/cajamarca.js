@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 18, m3: 108520.95, km: 8.17, poblacion: 11620, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 40, m3: 177797.31, km: 127.54, poblacion: 50333, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 62, m3: 315868.26, km: 137.56, poblacion: 63845 },
+  ejecutadasTotal: { cantidad: 62, m3: 315868.26, m3AguaPotable: 2640.0, km: 137.56, poblacion: 63845 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 21, m3: 137470.26, km: 11.51, poblacion: 10906, provincias: ['Cajabamba', 'Cajamarca', 'Cutervo', 'San Marcos', 'San Miguel', 'Santa Cruz'] },
     { tipo: 'Urgente atención', cantidad: 49, m3: 311515.19, km: 200.46, poblacion: 62847, provincias: ['Chota', 'Cutervo', 'Jaen', 'San Ignacio', 'San Marcos', 'San Miguel'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 83, m3: 534701.29, km: 217.87, poblacion: 100929 },
+  ejecutadasTotalAnioAnterior: { cantidad: 83, m3: 534701.29, m3AguaPotable: 1830.0, km: 217.87, poblacion: 100929 },
 
   enEjecucion: [
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '18/08/2025', fin: '31/08/2025', volAcum: 240.0, kmAcum: 0.47, poblacion: 135 },

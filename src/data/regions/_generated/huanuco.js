@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 13, m3: 72774.0, km: 7.05, poblacion: 13330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 17, m3: 84301.4, km: 8.99, poblacion: 15208 },
+  ejecutadasTotal: { cantidad: 17, m3: 84301.4, m3AguaPotable: 0.0, km: 8.99, poblacion: 15208 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 23, m3: 227090.0, km: 16.43, poblacion: 12288, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 3, m3: 3625.0, km: 3.61, poblacion: 9900, provincias: ['Ambo', 'Leoncio Prado', 'Puerto Inca'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, km: 27.26, poblacion: 26226 },
+  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
     { provincia: 'Ambo', distrito: 'Ambo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO".      ', inicio: '18/08/2026', fin: '01/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 3000 },

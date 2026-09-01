@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 12, m3: 85706.58, km: 4.17, poblacion: 11300, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 5, m3: 3720.0, km: null, poblacion: 3750, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 120758.58, km: 5.36, poblacion: 31700 },
+  ejecutadasTotal: { cantidad: 22, m3: 120758.58, m3AguaPotable: 3720.0, km: 5.36, poblacion: 31700 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 29, m3: 208057.5, km: 7.58, poblacion: 18587, provincias: ['Nasca', 'Pisco'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 4543.0, km: 0.33, poblacion: 4780, provincias: ['Nasca', 'Palpa'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, km: 9.94, poblacion: 25247 },
+  ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
     { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 120.0, kmAcum: 0.0, poblacion: 750 },

@@ -4,19 +4,19 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Urgente atención', cantidad: 17, m3: 39135.0, km: 22.5, poblacion: 45407, provincias: ['Maynas'] },
   ],
-  ejecutadasTotal: { cantidad: 17, m3: 39135.0, km: 22.5, poblacion: 45407 },
+  ejecutadasTotal: { cantidad: 17, m3: 39135.0, m3AguaPotable: 6120.0, km: 22.5, poblacion: 45407 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Emergencia', cantidad: 2, m3: 5736.0, km: 4.78, poblacion: 9300, provincias: ['Maynas'] },
     { tipo: 'Urgente atención', cantidad: 41, m3: 83571.0, km: 52.67, poblacion: 99052, provincias: ['Alto Amazonas', 'Maynas'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, km: 57.45, poblacion: 108352 },
+  ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '17/07/2026', fin: '28/08/2026', volAcum: 2345.0, kmAcum: 2.58, poblacion: 4000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '17/07/2026', fin: '28/08/2026', volAcum: 2380.0, kmAcum: 2.6, poblacion: 4000 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.              ', inicio: '17/07/2026', fin: '28/08/2026', volAcum: 4080.0, kmAcum: 3.25, poblacion: 4000 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ', inicio: '08/08/2026', fin: '06/09/2026', volAcum: 470.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ', inicio: '08/08/2026', fin: '06/09/2026', volAcum: 500.0, kmAcum: 0.0, poblacion: 1000 },
     { provincia: 'Maynas', distrito: 'Punchana', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. NUESTRA SEÑORA DE LA SALUD, SANTA MARIA DEL AMAZONAS Y DELICIA MANZUR, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO', inicio: '14/08/2026', fin: '12/09/2026', volAcum: 1330.0, kmAcum: 0.95, poblacion: 3800 },
   ],
 

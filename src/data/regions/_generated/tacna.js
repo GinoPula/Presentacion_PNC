@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 13, m3: 71190.0, km: 3.35, poblacion: 21614, provincias: ['Tacna'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 12513.2, km: 14.56, poblacion: 4858, provincias: ['Tacna'] },
   ],
-  ejecutadasTotal: { cantidad: 29, m3: 120813.2, km: 19.99, poblacion: 31336 },
+  ejecutadasTotal: { cantidad: 29, m3: 120813.2, m3AguaPotable: 3356.2, km: 19.99, poblacion: 31336 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,10 +14,10 @@ export default {
     { tipo: 'Prevención', cantidad: 24, m3: 124649.0, km: 7.48, poblacion: 28527, provincias: ['Tacna'] },
     { tipo: 'Urgente atención', cantidad: 16, m3: 27502.2, km: 48.62, poblacion: 6192, provincias: ['Jorge Basadre', 'Tacna'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, km: 60.8, poblacion: 46847 },
+  ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 200.0, kmAcum: 0.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 215.0, kmAcum: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 135.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Calana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CALANA, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA                    ', inicio: '01/09/2026', fin: '11/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 350 },
   ],

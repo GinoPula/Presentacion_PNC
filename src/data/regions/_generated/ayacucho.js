@@ -5,7 +5,7 @@ export default {
     { tipo: 'Emergencia', cantidad: 9, m3: 60620.5, km: 2.58, poblacion: 6993, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
     { tipo: 'Prevención', cantidad: 13, m3: 30825.94, km: 3.97, poblacion: 9686, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 91446.44, km: 6.56, poblacion: 16679 },
+  ejecutadasTotal: { cantidad: 22, m3: 91446.44, m3AguaPotable: 0.0, km: 6.56, poblacion: 16679 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,7 @@ export default {
     { tipo: 'Prevención', cantidad: 18, m3: 62903.55, km: 6.5, poblacion: 6111, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
     { tipo: 'Urgente atención', cantidad: 2, m3: 3626.8, km: 0.2, poblacion: 96, provincias: ['Huanta'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, km: 15.53, poblacion: 15797 },
+  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
   ],

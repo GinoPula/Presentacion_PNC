@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 22, m3: 127626.35, km: 50.62, poblacion: 43160, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 4, m3: 2788.0, km: null, poblacion: 9381, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 32, m3: 174176.35, km: 57.31, poblacion: 61971 },
+  ejecutadasTotal: { cantidad: 32, m3: 174176.35, m3AguaPotable: 2788.0, km: 57.31, poblacion: 61971 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 24, m3: 174019.0, km: 48.17, poblacion: 89138, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 37761.0, km: 17.0, poblacion: 16958, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, km: 71.22, poblacion: 114957 },
+  ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: '  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE             ', inicio: '15/07/2026', fin: '12/09/2026', volAcum: 1395.0, kmAcum: 0.0, poblacion: null },

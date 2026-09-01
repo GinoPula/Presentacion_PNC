@@ -3,12 +3,12 @@
 export default {
   ejecutadasPorTipo: [
   ],
-  ejecutadasTotal: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
+  ejecutadasTotal: { cantidad: 0, m3: 0, m3AguaPotable: 0, km: 0, poblacion: 0 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 0, m3: 0, km: 0, poblacion: 0 },
+  ejecutadasTotalAnioAnterior: { cantidad: 0, m3: 0, m3AguaPotable: 0, km: 0, poblacion: 0 },
 
   enEjecucion: [
   ],

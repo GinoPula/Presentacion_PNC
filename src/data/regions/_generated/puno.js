@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 14, m3: 129380.69, km: 32.78, poblacion: 7823, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'San Roman'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 35983.78, km: 109.39, poblacion: 21085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 284353.42, km: 158.61, poblacion: 46939 },
+  ejecutadasTotal: { cantidad: 36, m3: 284353.42, m3AguaPotable: 8612.02, km: 158.61, poblacion: 46939 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 37, m3: 477655.33, km: 92.13, poblacion: 21137, provincias: ['Azangaro', 'El Collao', 'Huancane', 'Lampa', 'Melgar', 'Puno', 'San Roman'] },
     { tipo: 'Urgente atención', cantidad: 10, m3: 27075.88, km: 64.66, poblacion: 3886, provincias: ['Azangaro', 'Lampa', 'San Roman'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, km: 186.63, poblacion: 37757 },
+  ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 5368.45, kmAcum: 20970.5, poblacion: 1000 },

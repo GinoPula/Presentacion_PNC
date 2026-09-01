@@ -6,7 +6,7 @@ export default {
     { tipo: 'Prevención', cantidad: 43, m3: 143297.0, km: 16.46, poblacion: 45787, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 55, m3: 162495.0, km: 23.61, poblacion: 68442 },
+  ejecutadasTotal: { cantidad: 55, m3: 162495.0, m3AguaPotable: 570.0, km: 23.61, poblacion: 68442 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,7 @@ export default {
     { tipo: 'Prevención', cantidad: 55, m3: 174038.79, km: 29.64, poblacion: 159864, provincias: ['Bolognesi', 'Carhuaz', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Santa', 'Sihuas'] },
     { tipo: 'Urgente atención', cantidad: 5, m3: 954.05, km: null, poblacion: 3012, provincias: ['Huaraz', 'Santa'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, km: 31.78, poblacion: 192641 },
+  ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
     { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH    ', inicio: '26/08/2026', fin: '31/08/2026', volAcum: 630.0, kmAcum: 0.1, poblacion: 2516 },

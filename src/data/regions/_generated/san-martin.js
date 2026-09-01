@@ -5,7 +5,7 @@ export default {
     { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
     { tipo: 'Urgente atención', cantidad: 10, m3: 18105.0, km: 18.93, poblacion: 7725, provincias: ['Bellavista', 'Moyobamba', 'Rioja'] },
   ],
-  ejecutadasTotal: { cantidad: 14, m3: 32244.15, km: 26.09, poblacion: 9125 },
+  ejecutadasTotal: { cantidad: 14, m3: 32244.15, m3AguaPotable: 5385.0, km: 26.09, poblacion: 9125 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,7 @@ export default {
     { tipo: 'Prevención', cantidad: 2, m3: 10737.5, km: 2.24, poblacion: 450, provincias: ['Moyobamba'] },
     { tipo: 'Urgente atención', cantidad: 24, m3: 38222.04, km: 24.0, poblacion: 16120, provincias: ['Bellavista', 'El Dorado', 'Moyobamba', 'Picota', 'Rioja', 'San Martin'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, km: 35.22, poblacion: 19836 },
+  ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ', inicio: '31/07/2026', fin: '14/08/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
