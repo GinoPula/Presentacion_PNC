@@ -6529,10 +6529,10 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Chaclacayo",
     "sector": "Cusipata",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.     ",
     "ficha": "105-2026-LDP-LIM",
     "fechaInicio": "11/08/2026",
-    "fechaFin": "04/09/2026",
+    "fechaFin": "09/09/2026",
     "poblacion": 1050,
     "volumen": 6680,
     "enlace": null
