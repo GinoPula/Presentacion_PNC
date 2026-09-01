@@ -10049,11 +10049,11 @@ const mapaIntervenciones = {
     "provincia": "Ambo",
     "distrito": "Ambo",
     "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+095, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO      ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+095, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO       ",
     "ficha": "N° 040-2026-LD-P-HCO",
     "fechaInicio": "04/08/2026",
     "fechaFin": "12/08/2026",
-    "poblacion": null,
+    "poblacion": 3000,
     "volumen": 1320,
     "enlace": null
   },

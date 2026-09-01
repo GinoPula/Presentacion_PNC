@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 72774.0, km: 7.05, poblacion: 10330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 13, m3: 72774.0, km: 7.05, poblacion: 13330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 17, m3: 84301.4, km: 8.99, poblacion: 12208 },
+  ejecutadasTotal: { cantidad: 17, m3: 84301.4, km: 8.99, poblacion: 15208 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
