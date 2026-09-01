@@ -705,6 +705,15 @@ function seccionPuntosCriticos(data, regionLabel, numeroSeccion) {
     out.push(
       parrafo([run({ text: `Presupuesto ${regionLabel}: `, bold: true }), run({ text: `${fmtSoles(data.presupuestoAcuerdoMultisectorial)}.`, bold: true })])
     )
+    // 01/09/2026 -- a pedido de Franco ("te falto poner"): la plantilla real trae esta segunda
+    // línea también en la 4.2, igual que en la 4.1 (ver seccionFEN). A diferencia del monto
+    // nacional de la 4.1 (PRESUPUESTO_NACIONAL_SEVERO, ya confirmado), este monto nacional del
+    // Acuerdo Multisectorial sigue como "S/[PENDIENTE]" en la propia plantilla de referencia -- no
+    // hay una cifra confirmada todavía, así que se deja el mismo placeholder "xxxxxx" en vez de
+    // inventar un número.
+    out.push(
+      parrafo([run({ text: '(Recursos solicitados al MEF, cuyo monto a nivel nacional equivale a S/xxxxxx)', bold: true })])
+    )
   }
   return out
 }
@@ -1057,7 +1066,10 @@ export async function construirAyudaMemoria(data, regionId) {
     ...seccionFEN(data, regionLabel, tienePlanFEN ? 4 : null),
     ...seccionPuntosCriticos(data, regionLabel, tienePlanFEN ? 4 : null),
     ...seccionFlota(data, numFlota),
-    ...seccionTodosResponsables(data, regionLabel),
+    // 01/09/2026 -- a pedido de Franco ("esta parte no va"): se quitó "Acuerdos Puntos Críticos --
+    // todos los responsables" (seccionTodosResponsables) del documento completo -- no es parte de
+    // las 5 secciones de la plantilla real, era contenido extra que se había agregado antes. La
+    // función se deja definida por si se necesita más adelante, pero ya no se llama acá.
   ]
 
   // Márgenes reales de la plantilla (asimétricos: izquierdo 1133, resto 1440;
