@@ -5366,17 +5366,17 @@ const mapaIntervenciones = {
     "id": 10441,
     "lat": -7.676894,
     "lng": -77.821317,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Sanchez Carrion",
     "distrito": "Chugay",
     "sector": "Zancobamba",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO ZANCOBAMBA – EL ROLLO, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO ZANCOBAMBA – EL ROLLO, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ",
     "ficha": "067-2026-MTV-U-LIB",
     "fechaInicio": "13/08/2026",
     "fechaFin": "27/08/2026",
     "poblacion": 346,
-    "volumen": 1302,
+    "volumen": 1656,
     "enlace": null
   },
   {
@@ -6558,17 +6558,17 @@ const mapaIntervenciones = {
     "id": 10416,
     "lat": -12.082071,
     "lng": -76.733524,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Cieneguilla",
     "sector": "Sector Cuatro De La Asociación De Vivienda Residencial Río Seco",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DE LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VIII, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.   ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DE LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VIII, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.    ",
     "ficha": "119-2026-LDP-LIM",
     "fechaInicio": "17/08/2026",
     "fechaFin": "31/08/2026",
     "poblacion": 7000,
-    "volumen": 7302.75,
+    "volumen": 7962.5,
     "enlace": null
   },
   {
@@ -7369,7 +7369,7 @@ const mapaIntervenciones = {
     "fechaInicio": "04/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 525,
-    "volumen": 645,
+    "volumen": 675,
     "enlace": null
   },
   {
@@ -7386,7 +7386,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 640,
-    "volumen": 420,
+    "volumen": 465,
     "enlace": null
   },
   {
@@ -7403,7 +7403,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
-    "volumen": 12120,
+    "volumen": 12990,
     "enlace": null
   },
   {
@@ -7437,7 +7437,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 360,
+    "volumen": 390,
     "enlace": null
   },
   {
@@ -7454,7 +7454,24 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 0,
+    "volumen": 660,
+    "enlace": null
+  },
+  {
+    "id": 10413,
+    "lat": -15.142497,
+    "lng": -72.762259,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "La Union",
+    "distrito": "Alca",
+    "sector": "Quebrada Chococo",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.     ",
+    "ficha": "72-2026-LDP-ARE",
+    "fechaInicio": "01/09/2026",
+    "fechaFin": "22/09/2026",
+    "poblacion": 1300,
+    "volumen": 8667.06,
     "enlace": null
   }
 ],
@@ -7815,7 +7832,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 900,
-    "volumen": 1450,
+    "volumen": 2500,
     "enlace": null
   }
 ],
@@ -11362,6 +11379,23 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1ZSy_UhaIWVt_E-__MKEQccysM4N0NqLL/view?usp=sharing"
   },
   {
+    "id": 10348,
+    "lat": -6.212151,
+    "lng": -75.805319,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Martin",
+    "distrito": "El Porvenir",
+    "sector": "Pelejo",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ",
+    "ficha": "036-2026-MTV-U-SAM ",
+    "fechaInicio": "31/07/2026",
+    "fechaFin": "14/08/2026",
+    "poblacion": null,
+    "volumen": 0,
+    "enlace": null
+  },
+  {
     "id": 9438,
     "lat": -5.738582,
     "lng": -77.505692,
@@ -11375,7 +11409,7 @@ const mapaIntervenciones = {
     "fechaInicio": "04/08/2026",
     "fechaFin": "11/09/2026",
     "poblacion": 1125,
-    "volumen": 690,
+    "volumen": 795,
     "enlace": null
   },
   {
@@ -11392,7 +11426,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/08/2026",
     "fechaFin": "08/08/2026",
     "poblacion": 750,
-    "volumen": 1900,
+    "volumen": 2950,
     "enlace": null
   }
 ],

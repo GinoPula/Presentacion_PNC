@@ -16,8 +16,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 690.0, kmAcum: 0.0, poblacion: 1125 },
-    { provincia: 'Lamas', distrito: 'Cuñumbuqui', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN      ', inicio: '17/08/2026', fin: '08/08/2026', volAcum: 1900.0, kmAcum: 0.13, poblacion: 750 },
+    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ', inicio: '31/07/2026', fin: '14/08/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 795.0, kmAcum: 0.0, poblacion: 1125 },
+    { provincia: 'Lamas', distrito: 'Cuñumbuqui', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN      ', inicio: '17/08/2026', fin: '08/08/2026', volAcum: 2950.0, kmAcum: 0.2, poblacion: 750 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -32,12 +33,10 @@ export default {
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', cantidad: 2, metaVol: 12100.0, metaKm: 0.55, poblacion: 2050 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', cantidad: 3, metaVol: 3510.0, metaKm: 0.0, poblacion: 3375 },
     { provincia: 'Rioja', distrito: 'Yuracyacu', cantidad: 1, metaVol: 8700.0, metaKm: 0.7, poblacion: 750 },
-    { provincia: 'San Martin', distrito: 'El Porvenir', cantidad: 1, metaVol: 1650.0, metaKm: 3.3, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 15, metaVol: 67039.6, metaKm: 12.04, poblacion: 9025 },
+  programadasTotal: { cantidad: 14, metaVol: 65389.6, metaKm: 8.74, poblacion: 9025 },
 
   programadasDetalle: [
-    { provincia: 'San Martin', distrito: 'El Porvenir', sector: 'Pelejo', ficha: '036-2026-MTV-U-SAM ', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN    ', fechaInicio: '31/07/2026', fechaFin: '14/08/2026', metaVol: 1650.0, metaKm: 3.3, poblacion: null },
     { provincia: 'Bellavista', distrito: 'San Pablo', sector: 'Dos De Mayo Y Nuevo Flores', ficha: '015-2026-MTV-U-SAM ', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                ', fechaInicio: '02/09/2026', fechaFin: '16/09/2026', metaVol: 1979.6, metaKm: 2.83, poblacion: 300 },
     { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '038-2026-LD-E-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN   ', fechaInicio: '03/09/2026', fechaFin: '17/09/2026', metaVol: 1800.0, metaKm: 1.0, poblacion: null },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '007-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN    ', fechaInicio: '17/09/2026', fechaFin: '16/10/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },

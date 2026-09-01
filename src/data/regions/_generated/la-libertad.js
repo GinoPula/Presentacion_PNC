@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Prevención', cantidad: 16, m3: 118014.0, km: 9.88, poblacion: 16209, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
-    { tipo: 'Urgente atención', cantidad: 9, m3: 23251.7, km: 46.64, poblacion: 2997, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
+    { tipo: 'Urgente atención', cantidad: 10, m3: 24907.7, km: 49.95, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 33, m3: 177927.7, km: 58.44, poblacion: 26918 },
+  ejecutadasTotal: { cantidad: 34, m3: 179583.7, km: 61.75, poblacion: 27264 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO ZANCOBAMBA – EL ROLLO, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD ', inicio: '13/08/2026', fin: '27/08/2026', volAcum: 1302.0, kmAcum: 2.56, poblacion: 346 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
