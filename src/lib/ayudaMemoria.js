@@ -345,17 +345,36 @@ function bullet(texto) {
 function seccionAntecedentes(data, regionLabel, numAntecedentes, numActividades) {
   const p1 = (n) => (n != null ? `${n}. ` : '')
   return [
-    titulo2(`${p1(numAntecedentes)}Antecedentes.`),
+    // 01/09/2026 -- a pedido de Franco ("mayúscula y color rojo los títulos... así tal cual el
+    // documento que te envié"): los títulos de esta sección van en MAYÚSCULA y sin punto final
+    // (antes "Antecedentes."/"Principales Actividades." en versalita con punto), y "PRINCIPALES
+    // ACTIVIDADES" en rojo igual que el resto de títulos de sección (antes tenía `color: null`,
+    // que lo dejaba en negro).
+    titulo2(`${p1(numAntecedentes)}ANTECEDENTES`),
     parrafo(
       'El PNC-MAQUINARIAS del Programa Nuestras Ciudades (PNC) realiza trabajos de prevención y mitigación de riesgos a nivel nacional para proteger a las poblaciones más vulnerables del país, causadas por fenómenos naturales o climatológicos como huaicos, desbordes de ríos, sismos y terremotos.'
     ),
-    parrafo(
-      'En este marco, el PNC-MAQUINARIAS realiza intervenciones de (I) PREVENCIÓN (requiere Convenios de Colaboración Interinstitucional), (II) URGENCIA (requiere acuerdo de concejo) e intervenciones de (III) EMERGENCIA (requiere Decreto de emergencia PCM). Las intervenciones se realizan en zonas donde existen viviendas, para protección del equipamiento e infraestructura urbana.'
-    ),
-    parrafo(
-      `Las intervenciones se realizan a nivel nacional a través de las 19 Unidades Básicas Operativas (UBO) ubicadas en los departamentos de Lima, Ayacucho, Cusco, Ancash, Ica, Arequipa, Tacna, Loreto, Tumbes, Lambayeque, La Libertad, Piura, Junín, Amazonas, San Martín, Cajamarca, Puno, Apurímac y Huánuco y, se cuenta con ${fmtNum(conveniosCountGlobal)} Convenios de Colaboración Interinstitucional vigentes con entidades de los tres niveles de gobierno a nivel nacional.`
-    ),
-    titulo2(`${p1(numActividades)}Principales Actividades.`, { color: null }),
+    // 01/09/2026 -- a pedido de Franco: PREVENCIÓN/URGENCIA/EMERGENCIA van en negrita, igual que en
+    // el documento que envió.
+    parrafo([
+      'En este marco, el PNC-MAQUINARIAS realiza intervenciones de (I) ',
+      run({ text: 'PREVENCIÓN', bold: true }),
+      ' (requiere Convenios de Colaboración Interinstitucional), (II) ',
+      run({ text: 'URGENCIA', bold: true }),
+      ' (requiere acuerdo de concejo) e intervenciones de (III) ',
+      run({ text: 'EMERGENCIA', bold: true }),
+      ' (requiere Decreto de emergencia PCM). Las intervenciones se realizan en zonas donde existen viviendas, para protección del equipamiento e infraestructura urbana.',
+    ]),
+    // 01/09/2026 -- a pedido de Franco: las cantidades ("19 Unidades Básicas Operativas" y el
+    // número de convenios) van en negrita, igual que en el documento que envió.
+    parrafo([
+      'Las intervenciones se realizan a nivel nacional a través de las ',
+      run({ text: '19 Unidades Básicas Operativas', bold: true }),
+      ' (UBO) ubicadas en los departamentos de Lima, Ayacucho, Cusco, Ancash, Ica, Arequipa, Tacna, Loreto, Tumbes, Lambayeque, La Libertad, Piura, Junín, Amazonas, San Martín, Cajamarca, Puno, Apurímac y Huánuco y, se cuenta con ',
+      run({ text: `${fmtNum(conveniosCountGlobal)} Convenios de Colaboración Interinstitucional`, bold: true }),
+      ' vigentes con entidades de los tres niveles de gobierno a nivel nacional.',
+    ]),
+    titulo2(`${p1(numActividades)}PRINCIPALES ACTIVIDADES`),
     bullet('Limpieza y descolmatación de drenes, quebradas, canales y ríos y conformación de diques de protección, hasta garantizar la escorrentía y desfogue de las aguas.'),
     bullet('Limpieza de escombros por desastres y nivelación de terrenos para damnificados.'),
     bullet('Mejoramiento de la transitabilidad de calles y vías de acceso dentro de centros poblados urbanos y rurales.'),
@@ -583,21 +602,49 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
       const m3AguaPotable = et.m3AguaPotable ?? calcularDesgloseAguaPotableEnVivo(regionId, et)?.m3AguaPotable
       const tieneDesglose = m3AguaPotable != null
       const m3MaterialRemovido = tieneDesglose ? Math.max(0, (et.m3 || 0) - m3AguaPotable) : null
-      const fraseM3 = tieneDesglose
-        ? `${fmtNum(m3MaterialRemovido, 2)} m³ de material removido y ${fmtNum(m3AguaPotable, 2)} m³ de agua potable`
-        : `${fmtNum(et.m3, 2)} m³ de material removido`
+      // 01/09/2026 -- a pedido de Franco ("negrita en las cantidades en los textos, tal cual el
+      // documento que enviaste"): las cantidades de este párrafo (año, intervenciones, m³,
+      // población, km, ejecutadas/en ejecución) van en negrita -- el resto del texto no.
+      const fraseM3Runs = tieneDesglose
+        ? [
+            run({ text: `${fmtNum(m3MaterialRemovido, 2)} m³`, bold: true }),
+            ' de material removido y ',
+            run({ text: `${fmtNum(m3AguaPotable, 2)} m³`, bold: true }),
+            ' de agua potable',
+          ]
+        : [run({ text: `${fmtNum(et.m3, 2)} m³`, bold: true }), ' de material removido']
       out.push(
         parrafo(
-          `En el año ${anio}, a la fecha se han ejecutado ${fmtNum(totalIntervenciones)} intervenciones con un total de ${fraseM3}, en beneficio de más de ${fmtNum(et.poblacion)} pobladores${et.km != null ? ` comprendido en ${fmtNum(et.km, 2)} km` : ''}. De estas intervenciones ${fmtNum(et.cantidad)} ya ${et.cantidad === 1 ? 'ha sido ejecutada' : 'han sido ejecutadas'} y ${fmtNum(enEj)} ${enEj === 1 ? 'está' : 'están'} en ejecución.`
+          [
+            'En el año ',
+            run({ text: String(anio), bold: true }),
+            ', a la fecha se han ',
+            run({ text: `ejecutado ${fmtNum(totalIntervenciones)} intervenciones`, bold: true }),
+            ' con un total de ',
+            ...fraseM3Runs,
+            ', en beneficio de más de ',
+            run({ text: fmtNum(et.poblacion), bold: true }),
+            ' pobladores',
+            ...(et.km != null ? [', comprendido en ', run({ text: `${fmtNum(et.km, 2)} km`, bold: true })] : []),
+            '. De estas intervenciones ',
+            run({ text: fmtNum(et.cantidad), bold: true }),
+            ` ya ${et.cantidad === 1 ? 'ha sido ejecutada' : 'han sido ejecutadas'} y `,
+            run({ text: fmtNum(enEj), bold: true }),
+            ` ${enEj === 1 ? 'está' : 'están'} en ejecución.`,
+          ]
         )
       )
       if (data.ejecutadasPorTipo?.length) {
-        const partes = data.ejecutadasPorTipo
-          .filter((t) => t.cantidad)
-          .map((t) => `${fmtNum(t.cantidad)} a ${t.tipo}`)
-        if (partes.length) {
-          const ultima = partes.pop()
-          out.push(parrafo(`De estas intervenciones, ${partes.length ? partes.join(', ') + ' y ' : ''}${ultima}.`))
+        const items = data.ejecutadasPorTipo.filter((t) => t.cantidad)
+        if (items.length) {
+          const piezas = items.map((t) => [run({ text: fmtNum(t.cantidad), bold: true }), ` a ${t.tipo}`])
+          const ultima = piezas.pop()
+          const cuerpo = []
+          piezas.forEach((p, i) => {
+            cuerpo.push(...p, i < piezas.length - 1 ? ', ' : ' y ')
+          })
+          cuerpo.push(...ultima)
+          out.push(parrafo(['De estas intervenciones, ', ...cuerpo, '.']))
         }
       }
     } else {
@@ -628,11 +675,13 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
   const out = [titulo]
   for (const anio of anios) {
     const bloque = n[anio]
-    out.push(parrafo(`Durante el ${anio}, el PNC Maquinarias en la región ${regionLabel} ha ejecutado ${bloque.total} intervenciones.`))
+    out.push(
+      parrafo([`Durante el ${anio}, el PNC Maquinarias en la región ${regionLabel} ha `, run({ text: `ejecutado ${bloque.total} intervenciones`, bold: true }), '.'])
+    )
     bloque.porActividad.forEach((a) => out.push(parrafoActividad(a)))
   }
   if (n.enEjecucion) {
-    out.push(parrafo(`Asimismo, se vienen ejecutando ${n.enEjecucion.total} intervenciones.`))
+    out.push(parrafo(['Asimismo, se vienen ', run({ text: `ejecutando ${n.enEjecucion.total} intervenciones`, bold: true }), '.']))
     n.enEjecucion.porActividad.forEach((a) => out.push(parrafoActividad(a)))
   }
   if (resumen) {
@@ -668,9 +717,7 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
       : []
   }
   return [
-    parrafo(
-      `En adición, se tiene ${filas.length} intervenciones programadas de acuerdo al siguiente detalle:`
-    ),
+    parrafo(['En adición, se tiene ', run({ text: `${filas.length} intervenciones programadas`, bold: true }), ' de acuerdo al siguiente detalle:']),
     tabla(
       [
         { clave: 'depart', titulo: 'DEPART.', peso: 0.07 },
@@ -705,7 +752,7 @@ function seccionProgramadas(data, regionLabel) {
   const resumen = tablaConteoProvinciaDistrito(filas, 'N° PUNTOS CRÍTICOS PRIORIZADOS')
   if (!resumen) return []
   return [
-    parrafo(`En adición, se tiene ${fmtNum(filas.length)} intervenciones programadas de acuerdo al siguiente detalle:`),
+    parrafo(['En adición, se tiene ', run({ text: `${fmtNum(filas.length)} intervenciones programadas`, bold: true }), ' de acuerdo al siguiente detalle:']),
     resumen,
   ]
 }
@@ -737,7 +784,9 @@ function tablaEjecutadas(puntos, { mostrarVacio = false, intro } = {}) {
       : []
   }
   return [
-    parrafo(intro || `Se registran ${filas.length} intervenciones ejecutadas o en ejecución en el ámbito seleccionado, de acuerdo al siguiente detalle:`),
+    parrafo(
+      intro || ['Se registran ', run({ text: `${filas.length} intervenciones ejecutadas o en ejecución`, bold: true }), ' en el ámbito seleccionado, de acuerdo al siguiente detalle:']
+    ),
     tabla(
       [
         { clave: 'provincia', titulo: 'PROV.', peso: 0.09 },
@@ -777,7 +826,7 @@ function tablaPuntosCriticos(pc, { mostrarVacio = false } = {}) {
     meta: fmtNum(p.metaKm, 3),
   }))
   return [
-    parrafo(`Asimismo, el MVCS intervendrá (${pc.length}) puntos críticos ante el Fenómeno del Niño, de acuerdo a lo siguiente:`),
+    parrafo(['Asimismo, el MVCS intervendrá ', run({ text: `${pc.length} puntos críticos`, bold: true }), ' ante el Fenómeno del Niño, conforme el siguiente cuadro:']),
     tabla(
       [
         { clave: 'provincia', titulo: 'PROVINCIA', peso: 0.13 },
@@ -824,7 +873,7 @@ function tablaPuntosCriticosRestantes(filas) {
     ],
   })
   return [
-    parrafo(`Respecto a los ${fmtNum(total)} puntos críticos restantes, se detallan los distritos identificados en el siguiente cuadro:`),
+    parrafo(['Respecto a los ', run({ text: `${fmtNum(total)} puntos críticos restantes`, bold: true }), ', se detallan los distritos identificados en el siguiente cuadro:']),
     new Table({
       width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
       columnWidths: anchos,
@@ -854,7 +903,13 @@ function seccionPuntosCriticos(data, regionLabel, numeroSeccion, regionId) {
   // 01/09/2026 -- a pedido de Franco: en el cuerpo va solo el resumen por provincia/distrito
   // (mismo formato que el cuadro del punto 3); el detalle completo (sector, código, nombre de
   // actividad, meta) se movió al Anexo -- ver seccionAnexo() y tablaPuntosCriticos().
-  out.push(parrafo(`Asimismo, el MVCS intervendrá ${fmtNum(data.puntosCriticos.length)} puntos críticos ante el Fenómeno del Niño, conforme el siguiente cuadro:`))
+  out.push(
+    parrafo([
+      'Asimismo, el MVCS intervendrá ',
+      run({ text: `${fmtNum(data.puntosCriticos.length)} puntos críticos`, bold: true }),
+      ' ante el Fenómeno del Niño, conforme el siguiente cuadro:',
+    ])
+  )
   const resumenANA = tablaConteoProvinciaDistrito(data.puntosCriticos, 'N° PUNTOS CRÍTICOS')
   if (resumenANA) out.push(resumenANA)
   // Presupuesto del Acuerdo Multisectorial -- 01/09/2026: se saca de PRESUPUESTO_MULTISECTORIAL_POR_REGION
@@ -1135,9 +1190,11 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
   // no van en el documento, queda solo el título de la sección.
   const out = [
     // 31/08/2026: título corregido -- la plantilla real dice "PLAN DE INTERVENCIÓN ANTE EL ESTADO
-    // DE ALERTA..." (antes acá decía "PLAN DE TRABAJO ANTE EL ESTADO..."). Se mantiene la
-    // inconsistencia real de la plantilla (Arial Narrow, sin color rojo) para este encabezado.
-    titulo2(`${numero}PLAN DE INTERVENCIÓN ANTE EL ESTADO DE ALERTA DEL FENÓMENO EL NIÑO 2026-2027`, { color: null, font: 'Arial Narrow' }),
+    // DE ALERTA..." (antes acá decía "PLAN DE TRABAJO ANTE EL ESTADO..."). 01/09/2026 -- a pedido
+    // de Franco ("mayúscula y color rojo los títulos... tal cual el documento que te envié"): se
+    // quitó la inconsistencia de la plantilla real (antes Arial Narrow, sin color rojo) -- ahora
+    // usa la misma fuente y el mismo rojo que el resto de títulos de sección.
+    titulo2(`${numero}PLAN DE INTERVENCIÓN ANTE EL ESTADO DE ALERTA DEL FENÓMENO EL NIÑO 2026-2027`),
   ]
 
   // 4.1 -- PUNTOS CRÍTICOS EN UN ESCENARIO SEVERO IDENTIFICADOS POR EL MVCS (31/08/2026: antes acá
@@ -1150,16 +1207,20 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
   // data.puntosCriticosRestantes en src/data/regions/tumbes.js), sacado del Excel RANKING_710.
   const severo = esc.find((e) => /severo|severa/i.test(e.condicion || ''))
   if (severo) {
-    out.push(titulo2(`${numeroSub}PUNTOS CRÍTICOS EN UN ESCENARIO SEVERO IDENTIFICADOS POR EL MVCS`, { color: null, font: 'Arial Narrow' }))
+    out.push(titulo2(`${numeroSub}PUNTOS CRÍTICOS EN UN ESCENARIO SEVERO IDENTIFICADOS POR EL MVCS`))
     // 01/09/2026 -- texto exacto que envió Franco para este párrafo (antes decía "puntos de
     // intervención... priorizados según criterios..."). El número de priorizados sale de
     // data.programadasDetalle (en vivo) -- es el mismo "main de las programadas" que arma el
-    // cuadro que va justo debajo.
+    // cuadro que va justo debajo. Las cantidades van en negrita, a pedido de Franco.
     if (severo.intervenciones != null) {
       out.push(
-        parrafo(
-          `En el departamento de ${regionLabel} se han identificado ${fmtNum(severo.intervenciones)} puntos críticos ante un escenario severo del Fenómeno El Niño, de estos puntos se han priorizados ${fmtNum(data.programadasDetalle?.length ?? 0)}, sin ser limitativas, según los criterios de vulnerabilidad, recurrencia y población afectada, así como la participación de los gobiernos Regionales y Locales las siguientes intervenciones:`
-        )
+        parrafo([
+          `En el departamento de ${regionLabel} se han identificado `,
+          run({ text: `${fmtNum(severo.intervenciones)} puntos críticos`, bold: true }),
+          ' ante un escenario severo del Fenómeno El Niño, de estos puntos ',
+          run({ text: `se han priorizados ${fmtNum(data.programadasDetalle?.length ?? 0)}`, bold: true }),
+          ', sin ser limitativas, según los criterios de vulnerabilidad, recurrencia y población afectada, así como la participación de los gobiernos Regionales y Locales las siguientes intervenciones:',
+        ])
       )
     }
     // 01/09/2026 -- a pedido de Franco: en el cuerpo va solo el resumen por provincia/distrito
@@ -1203,14 +1264,17 @@ function seccionAnexo(data, regionLabel, regionId) {
   const hayPuntosCriticosANA = !!data.puntosCriticos?.length
   if (!hayEjecucion && !hayPriorizadas && !hayPuntosCriticosANA) return []
 
+  // 01/09/2026 -- a pedido de Franco ("mayúscula y color rojo los títulos... tal cual el documento
+  // que te envié"): los subtítulos del Anexo van en mayúscula y en el mismo rojo que el resto de
+  // títulos de sección (antes en versalita y `color: null`, negro).
   const out = [titulo2('ANEXO')]
 
-  out.push(titulo2('Detalle de ejecución', { color: null, size: 22 }))
+  out.push(titulo2('DETALLE DE EJECUCIÓN', { size: 22 }))
   if (hayEjecucion) {
     const puntos = mapaIntervenciones[regionId].filter((p) => p.estado === 'Ejecutada' || p.estado === 'En ejecución')
     out.push(
       ...tablaEjecutadas(puntos, {
-        intro: `Se registran ${fmtNum(puntos.length)} intervenciones ejecutadas o en ejecución, de acuerdo al siguiente detalle:`,
+        intro: ['Se registran ', run({ text: `${fmtNum(puntos.length)} intervenciones ejecutadas o en ejecución`, bold: true }), ', de acuerdo al siguiente detalle:'],
       })
     )
   } else {
@@ -1218,12 +1282,12 @@ function seccionAnexo(data, regionLabel, regionId) {
   }
 
   if (hayPriorizadas) {
-    out.push(titulo2('Priorizadas', { color: null, size: 22 }))
+    out.push(titulo2('PRIORIZADAS', { size: 22 }))
     out.push(...tablaProgramadas(data.programadasDetalle, regionLabel))
   }
 
   if (hayPuntosCriticosANA) {
-    out.push(titulo2('Puntos críticos ANA', { color: null, size: 22 }))
+    out.push(titulo2('PUNTOS CRÍTICOS ANA', { size: 22 }))
     out.push(...tablaPuntosCriticos(data.puntosCriticos))
   }
 
