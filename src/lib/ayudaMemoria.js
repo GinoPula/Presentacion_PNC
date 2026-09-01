@@ -448,6 +448,42 @@ function tablaResumenIntervenciones(data, regionId) {
   })
 }
 
+// ---------------------------------------------------------------------------
+// Desglose EN VIVO material removido / agua potable (agregado 01/09/2026 a pedido de Franco:
+// "el término es Distribucion de agua para consumo humano... jales el dato real" -- no esperar a
+// que se re-corra el pipeline, que ya trae et.m3AguaPotable pero requiere que Franco lo ejecute
+// contra la BD por VPN (ver _REGEX_AGUA_POTABLE en generar_todas_regiones.py).
+//
+// Mientras tanto, se calcula el mismo desglose acá usando mapaIntervenciones.js (la misma fuente
+// que ya alimenta tablaResumenIntervenciones/el mapa/el filtro por ámbito), clasificando la
+// descripción de cada punto EJECUTADA con la misma regla que el pipeline
+// (abastecimiento/distribución + agua, que cubre el término "Distribución de agua para consumo
+// humano" que pidió Franco, y también "Abastecimiento de agua potable"/"...para consumo humano").
+//
+// Se usa SOLO cuando el total calculado desde mapaIntervenciones.js reconcilia EXACTO (misma
+// cantidad y mismo m3, con margen de redondeo) con data.ejecutadasTotal -- si no reconcilia,
+// mapaIntervenciones.js está incompleto para esa región frente a la BD (caso detectado en Áncash
+// y La Libertad, a las que les faltan registros) y se prefiere no mostrar un desglose que no
+// cuadraría con el total oficial, en vez de mostrar un número que parezca real pero esté mal.
+// Regiones que sí reconcilian hoy: Tumbes, Puno, Tacna, Piura, Lambayeque, Ica.
+// ---------------------------------------------------------------------------
+const RE_AGUA_POTABLE = /(?:abastecimiento|distribuci[oó]n)\s+(?:\w+\s+){0,4}agua/i
+
+function calcularDesgloseAguaPotableEnVivo(regionId, et) {
+  if (!et) return null
+  const puntos = mapaIntervenciones[regionId]
+  if (!puntos || !puntos.length) return null
+  const ejecutadas = puntos.filter((p) => p.estado === 'Ejecutada')
+  const cantidad = ejecutadas.length
+  const m3Total = ejecutadas.reduce((acc, p) => acc + Number(p.volumen || 0), 0)
+  const reconcilia = cantidad === (et.cantidad || 0) && Math.abs(m3Total - (et.m3 || 0)) < 0.5
+  if (!reconcilia) return null
+  const m3AguaPotable = ejecutadas
+    .filter((p) => RE_AGUA_POTABLE.test(p.descripcion || ''))
+    .reduce((acc, p) => acc + Number(p.volumen || 0), 0)
+  return { m3AguaPotable: Math.round(m3AguaPotable * 100) / 100 }
+}
+
 function seccionNarrativa(data, regionLabel, regionId, numero) {
   const n = data.ayudaMemoriaNarrativa
   const titulo = titulo2(`${numero != null ? numero + '. ' : ''}Intervenciones de PNC Maquinarias - ${regionLabel.toUpperCase()}`, { size: 24 })
@@ -465,9 +501,25 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
     const out = [titulo]
     if (et) {
       const totalIntervenciones = (et.cantidad || 0) + enEj
+      // 01/09/2026 -- a pedido de Franco: desglosar el total de m³ entre "material removido" y
+      // "agua potable" (antes todo se mostraba junto como "material removido", aunque una parte de
+      // esos m³ viene de intervenciones de abastecimiento/distribución de agua, no de limpieza).
+      // et.m3AguaPotable es el campo del pipeline (ver _REGEX_AGUA_POTABLE en
+      // generar_todas_regiones.py) -- solo está disponible en regiones ya regeneradas con esa
+      // versión del pipeline, que Franco todavía no ha corrido. Mientras tanto se calcula el mismo
+      // desglose EN VIVO desde mapaIntervenciones.js (ver calcularDesgloseAguaPotableEnVivo() más
+      // arriba), que reconcilia con el total oficial en 6 de las 8 regiones con datos de mapa. Si
+      // ninguna de las dos fuentes está disponible/confiable, se muestra el texto de siempre (sin
+      // desglosar) en vez de inventar un reparto.
+      const m3AguaPotable = et.m3AguaPotable ?? calcularDesgloseAguaPotableEnVivo(regionId, et)?.m3AguaPotable
+      const tieneDesglose = m3AguaPotable != null
+      const m3MaterialRemovido = tieneDesglose ? Math.max(0, (et.m3 || 0) - m3AguaPotable) : null
+      const fraseM3 = tieneDesglose
+        ? `${fmtNum(m3MaterialRemovido, 2)} m³ de material removido y ${fmtNum(m3AguaPotable, 2)} m³ de agua potable`
+        : `${fmtNum(et.m3, 2)} m³ de material removido`
       out.push(
         parrafo(
-          `En el año ${anio}, a la fecha se han ejecutado ${fmtNum(totalIntervenciones)} intervenciones con un total de ${fmtNum(et.m3, 2)} m³ de material removido, en beneficio de más de ${fmtNum(et.poblacion)} pobladores${et.km != null ? ` comprendido en ${fmtNum(et.km, 2)} km` : ''}. De estas intervenciones ${fmtNum(et.cantidad)} ya ${et.cantidad === 1 ? 'ha sido ejecutada' : 'han sido ejecutadas'} y ${fmtNum(enEj)} ${enEj === 1 ? 'está' : 'están'} en ejecución.`
+          `En el año ${anio}, a la fecha se han ejecutado ${fmtNum(totalIntervenciones)} intervenciones con un total de ${fraseM3}, en beneficio de más de ${fmtNum(et.poblacion)} pobladores${et.km != null ? ` comprendido en ${fmtNum(et.km, 2)} km` : ''}. De estas intervenciones ${fmtNum(et.cantidad)} ya ${et.cantidad === 1 ? 'ha sido ejecutada' : 'han sido ejecutadas'} y ${fmtNum(enEj)} ${enEj === 1 ? 'está' : 'están'} en ejecución.`
         )
       )
       if (data.ejecutadasPorTipo?.length) {
@@ -487,7 +539,11 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
       )
     }
     if (resumen) {
-      out.push(parrafo('El cuadro resumen de programadas, ejecutadas y en ejecución es el siguiente:'))
+      // 01/09/2026 -- a pedido de Franco ("la palabra programadas no debe ir"): esta oración
+      // introduce tablaResumenIntervenciones(), que desde el pedido anterior de Franco ya NO trae
+      // columna de programadas (ver comentario junto a esa función) -- la oración se había quedado
+      // desactualizada.
+      out.push(parrafo('El cuadro resumen de ejecutadas y en ejecución es el siguiente:'))
       out.push(resumen)
     }
     return out
@@ -908,7 +964,6 @@ function seccionFlota(data, numeroSeccion) {
   // 31/08/2026: la plantilla real llama a esta sección "RELACIÓN DE ACTIVO Y PERSONAL" (antes acá
   // decía "MAQUINARIAS Y VEHÍCULOS DE LA UBO", que no aparece así en el documento original).
   const numero = numeroSeccion != null ? `${numeroSeccion}. ` : ''
-  const enMantenimiento = flota.filter((f) => f.estado === 'inoperativo' && f.nota)
 
   const grupos = new Map([
     ['Maquinaria Pesada', []],
@@ -927,27 +982,9 @@ function seccionFlota(data, numeroSeccion) {
   }
   out.push(parrafo([run({ text: `Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`, bold: true })]))
 
-  if (enMantenimiento.length) {
-    out.push(titulo2('MAQUINARIAS Y VEHÍCULOS EN MANTENIMIENTO'))
-    out.push(
-      tabla(
-        [
-          { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.2 },
-          { clave: 'codigo', titulo: 'CÓDIGO', peso: 0.15 },
-          { clave: 'marca', titulo: 'MARCA', peso: 0.15 },
-          { clave: 'nota', titulo: 'ESTADO / OBSERVACIÓN', peso: 0.5 },
-        ],
-        enMantenimiento.flatMap((f) =>
-          f.codigos.map((cod) => ({
-            tipo: f.tipo.toUpperCase(),
-            codigo: cod,
-            marca: f.marca.toUpperCase(),
-            nota: `INOPERATIVO -- ${f.nota}`,
-          }))
-        )
-      )
-    )
-  }
+  // 01/09/2026 -- a pedido de Franco ("quita Maquinarias y vehiculos en mantenimiento, no va"): se
+  // quitó esta tabla (unidades inoperativas con su código/marca/observación). data.flota sigue
+  // trayendo el campo 'nota' por unidad para quien lo necesite más adelante, pero ya no se muestra.
   return out
 }
 
