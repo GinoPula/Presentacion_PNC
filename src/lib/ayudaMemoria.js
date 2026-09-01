@@ -169,6 +169,27 @@ const PRESUPUESTO_NACIONAL_SEVERO = 21981975.0
 // de los 25.5millones"). Igual que PRESUPUESTO_NACIONAL_SEVERO, es un monto ÚNICO a nivel
 // nacional -- aparece igual en la 4.2 de cualquier departamento con puntos críticos curados.
 const PRESUPUESTO_NACIONAL_MULTISECTORIAL = 25500000.0
+// Presupuesto del Acuerdo Multisectorial POR REGIÓN (agregado 01/09/2026 -- a pedido de Franco:
+// "debe ir el monto total y el de la región... de los puntos críticos de ANA... para que pongas el
+// total"). Mismo Excel/hoja/columna que PRESUPUESTO_NACIONAL_MULTISECTORIAL ("BASE_DATOS.xlsx",
+// hoja "CONSOLIDADO SOLO MVCS 55", columna "COSTO ESTIMADO MVCS"), pero agrupado por DEPARTAMENTO
+// en vez de sumado a nivel nacional -- los 8 departamentos de esa hoja son exactamente los mismos 8
+// que hoy tienen puntosCriticos curados (Ancash, Arequipa, Ica, La Libertad, Lambayeque, Lima,
+// Piura, Tumbes), así que reemplaza el campo `presupuestoAcuerdoMultisectorial` que antes solo
+// existía a mano en tumbes.js (S/380,893, de una fuente distinta) -- ahora las 8 regiones usan la
+// misma fuente/metodología, en vez de un valor curado aparte por región. Los 8 montos suman
+// exactamente PRESUPUESTO_NACIONAL_MULTISECTORIAL (con 1 céntimo de diferencia por redondeo a 2
+// decimales en cada fila -- no se ajusta, es la fuente real).
+const PRESUPUESTO_MULTISECTORIAL_POR_REGION = {
+  ancash: 619164.68,
+  arequipa: 14323364.13,
+  ica: 4197199.59,
+  'la-libertad': 1334361.53,
+  lambayeque: 1144020.67,
+  lima: 1055652.67,
+  piura: 2058040.07,
+  tumbes: 768196.67,
+}
 const HEADER_FILL = '000000' // relleno de encabezado de tabla (mayoría: puntos críticos, flota, etc.)
 const HEADER_TEXT = 'FFFFFF'
 const HEADER_FILL_PROGRAMADAS = 'AED6F1' // la tabla de "programadas" usa celeste, no negro
@@ -683,7 +704,7 @@ function tablaPuntosCriticosRestantes(filas) {
   ]
 }
 
-function seccionPuntosCriticos(data, regionLabel, numeroSeccion) {
+function seccionPuntosCriticos(data, regionLabel, numeroSeccion, regionId) {
   if (!data.puntosCriticos?.length) return []
   // 31/08/2026 -- la plantilla real trae esta tabla bajo un encabezado propio ("4.2 PUNTOS
   // CRÍTICOS IDENTIFICADOS POR ACUERDO MULTISECTORIAL") que antes no se mostraba acá; se agrega
@@ -691,12 +712,15 @@ function seccionPuntosCriticos(data, regionLabel, numeroSeccion) {
   const numero = numeroSeccion != null ? `${numeroSeccion}.2 ` : ''
   const out = [titulo2(`${numero}PUNTOS CRÍTICOS IDENTIFICADOS POR ACUERDO MULTISECTORIAL`)]
   out.push(...tablaPuntosCriticos(data.puntosCriticos))
-  // Presupuesto del Acuerdo Multisectorial (campo curado por región, ver comentario en
-  // src/data/regions/tumbes.js -- por ahora solo Tumbes lo tiene confirmado; para el resto se
-  // omite en vez de mostrar un monto sin verificar).
-  if (regionLabel && data.presupuestoAcuerdoMultisectorial != null) {
+  // Presupuesto del Acuerdo Multisectorial -- 01/09/2026: se saca de PRESUPUESTO_MULTISECTORIAL_POR_REGION
+  // (en vivo desde BASE_DATOS.xlsx, ver comentario junto a la constante) en vez de un campo curado a
+  // mano por región; data.presupuestoAcuerdoMultisectorial queda como respaldo por si alguna región
+  // nueva trae su propio monto curado antes de estar en esa tabla. Para las regiones sin ninguna de
+  // las dos fuentes se omite la línea en vez de mostrar un monto sin verificar.
+  const presupuestoRegion = PRESUPUESTO_MULTISECTORIAL_POR_REGION[regionId] ?? data.presupuestoAcuerdoMultisectorial
+  if (regionLabel && presupuestoRegion != null) {
     out.push(
-      parrafo([run({ text: `Presupuesto ${regionLabel}: `, bold: true }), run({ text: `${fmtSoles(data.presupuestoAcuerdoMultisectorial)}.`, bold: true })])
+      parrafo([run({ text: `Presupuesto ${regionLabel}: `, bold: true }), run({ text: `${fmtSoles(presupuestoRegion)}.`, bold: true })])
     )
     // 01/09/2026 -- a pedido de Franco ("te falto poner"): la plantilla real trae esta segunda
     // línea también en la 4.2, igual que en la 4.1 (ver seccionFEN). El monto nacional
@@ -1034,7 +1058,7 @@ export async function construirAyudaMemoria(data, regionId) {
     // Escenario Severo) a la cual moverlo -- ver comentario grande en seccionFEN().
     ...(tienePlanFEN ? [] : seccionProgramadas(data, regionLabel)),
     ...seccionFEN(data, regionLabel, tienePlanFEN ? 4 : null),
-    ...seccionPuntosCriticos(data, regionLabel, tienePlanFEN ? 4 : null),
+    ...seccionPuntosCriticos(data, regionLabel, tienePlanFEN ? 4 : null, regionId),
     ...seccionFlota(data, numFlota),
     // 01/09/2026 -- a pedido de Franco ("esta parte no va"): se quitó "Acuerdos Puntos Críticos --
     // todos los responsables" (seccionTodosResponsables) del documento completo -- no es parte de

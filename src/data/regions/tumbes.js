@@ -58,11 +58,14 @@ export default {
   ],
   todosResponsablesResumen: { ana: 10, midagri: 0, defensa: 3, mtc: 0, mvcs: 2, total: 15 },
 
-  // Presupuesto de la sección "Acuerdo Multisectorial" (ver puntosCriticos abajo) -- viene de la
-  // misma Ayuda Memoria de referencia que envió Franco el 31/08/2026 (ya estaba resuelto ahí, no
-  // es un placeholder "xx"); a diferencia del presupuesto Severo (ver 'escenarios'), este monto es
-  // específico de Tumbes, así que se deja como campo por región y no como constante nacional.
-  presupuestoAcuerdoMultisectorial: 380893.0,
+  // Presupuesto de la sección "Acuerdo Multisectorial" (ver puntosCriticos abajo) -- este campo se
+  // usó hasta el 01/09/2026 (venía de la Ayuda Memoria de referencia que envió Franco el
+  // 31/08/2026: S/380,893). Ese mismo día Franco pidió que el monto de las 8 regiones con puntos
+  // críticos ANA saliera de una sola fuente/metodología ("BASE_DATOS.xlsx"), así que ahora se usa
+  // PRESUPUESTO_MULTISECTORIAL_POR_REGION en ayudaMemoria.js (que da S/768,196.67 para Tumbes con
+  // esa fuente -- distinto a este valor viejo). Se deja el campo comentado en vez de borrarlo por
+  // si hace falta volver al monto anterior.
+  // presupuestoAcuerdoMultisectorial: 380893.0,
 
   // "Puntos críticos restantes" (79 identificados - 15 priorizados en programadasDetalle = 64) --
   // agregado 31/08/2026 a partir del Excel 'RANKING 710 SEVERO PROG FINAL PARA 724.xlsx' que
