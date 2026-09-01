@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "31/08/2026",
-    "horaCorte": "23:59",
+    "fechaCorte": "01/09/2026",
+    "horaCorte": "00:14",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
