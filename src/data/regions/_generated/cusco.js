@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Anta', distrito: 'Zurite', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ', inicio: '26/09/2026', fin: '09/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 245 },
+    { provincia: 'Anta', distrito: 'Zurite', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ', inicio: '26/09/2026', fin: '09/10/2026', volAcum: 1285.0, kmAcum: 0.37, poblacion: 245 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
