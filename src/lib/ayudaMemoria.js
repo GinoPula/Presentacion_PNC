@@ -469,19 +469,88 @@ function tablaResumenIntervenciones(data, regionId) {
 // ---------------------------------------------------------------------------
 const RE_AGUA_POTABLE = /(?:abastecimiento|distribuci[oó]n)\s+(?:\w+\s+){0,4}agua/i
 
-function calcularDesgloseAguaPotableEnVivo(regionId, et) {
-  if (!et) return null
+// Compartida por calcularDesgloseAguaPotableEnVivo() y el Anexo "Detalle de Ejecución" (ver
+// seccionAnexo más abajo): ambos necesitan saber si mapaIntervenciones.js es confiable para una
+// región antes de mostrar algo calculado a partir de ella.
+function mapaEjecutadasReconciliaConTotal(regionId, et) {
+  if (!et) return false
   const puntos = mapaIntervenciones[regionId]
-  if (!puntos || !puntos.length) return null
+  if (!puntos || !puntos.length) return false
   const ejecutadas = puntos.filter((p) => p.estado === 'Ejecutada')
   const cantidad = ejecutadas.length
   const m3Total = ejecutadas.reduce((acc, p) => acc + Number(p.volumen || 0), 0)
-  const reconcilia = cantidad === (et.cantidad || 0) && Math.abs(m3Total - (et.m3 || 0)) < 0.5
-  if (!reconcilia) return null
+  return cantidad === (et.cantidad || 0) && Math.abs(m3Total - (et.m3 || 0)) < 0.5
+}
+
+function calcularDesgloseAguaPotableEnVivo(regionId, et) {
+  if (!mapaEjecutadasReconciliaConTotal(regionId, et)) return null
+  const ejecutadas = mapaIntervenciones[regionId].filter((p) => p.estado === 'Ejecutada')
   const m3AguaPotable = ejecutadas
     .filter((p) => RE_AGUA_POTABLE.test(p.descripcion || ''))
     .reduce((acc, p) => acc + Number(p.volumen || 0), 0)
   return { m3AguaPotable: Math.round(m3AguaPotable * 100) / 100 }
+}
+
+// ---------------------------------------------------------------------------
+// Cuadro resumen genérico PROVINCIA / DISTRITO / <conteo> -- agregado 01/09/2026 a pedido de
+// Franco ("los cuadros resumen van a ir ahora resumidos así como el item 3... el cuadro detalle
+// va en los anexos"): reemplaza, en el CUERPO del documento, a las tablas de detalle completo de
+// 4.1 (Priorizadas) y 4.2 (Puntos Críticos ANA) -- que ahora van solo en el Anexo (ver
+// seccionAnexo) -- por el mismo formato de 3 columnas que ya usa tablaResumenIntervenciones() en
+// el punto 3.
+// ---------------------------------------------------------------------------
+function agruparConteoPorProvinciaDistrito(filas) {
+  const porFila = new Map()
+  ;(filas || []).forEach((f) => {
+    if (!f.provincia || !f.distrito) return
+    const k = `${f.provincia} ${f.distrito}`
+    if (!porFila.has(k)) porFila.set(k, { provincia: f.provincia, distrito: f.distrito, cantidad: 0 })
+    porFila.get(k).cantidad += 1
+  })
+  return [...porFila.values()].sort(
+    (a, b) => a.provincia.localeCompare(b.provincia, 'es') || a.distrito.localeCompare(b.distrito, 'es')
+  )
+}
+
+function tablaConteoProvinciaDistrito(filas, tituloColumna) {
+  const agrupado = agruparConteoPorProvinciaDistrito(filas)
+  if (!agrupado.length) return null
+  const total = agrupado.reduce((acc, c) => acc + c.cantidad, 0)
+  const pesos = [0.35, 0.35, 0.3]
+  const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
+  const estilo = { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS }
+  const filas_ = agrupado.map(
+    (c) =>
+      new TableRow({
+        children: [
+          celda(c.provincia.toUpperCase(), { width: anchos[0] }),
+          celda(c.distrito.toUpperCase(), { width: anchos[1] }),
+          celda(fmtNum(c.cantidad), { width: anchos[2], align: AlignmentType.RIGHT }),
+        ],
+      })
+  )
+  const filaTotal = new TableRow({
+    children: [
+      celda('Total general', { width: anchos[0], bold: true, colSpan: 2 }),
+      celda(fmtNum(total), { width: anchos[2], align: AlignmentType.RIGHT, bold: true }),
+    ],
+  })
+  return new Table({
+    width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
+    columnWidths: anchos,
+    rows: [
+      new TableRow({
+        tableHeader: true,
+        children: [
+          celda('PROVINCIA', { header: true, width: anchos[0], ...estilo }),
+          celda('DISTRITO', { header: true, width: anchos[1], ...estilo }),
+          celda(tituloColumna, { header: true, width: anchos[2], align: AlignmentType.RIGHT, ...estilo }),
+        ],
+      }),
+      ...filas_,
+      filaTotal,
+    ],
+  })
 }
 
 function seccionNarrativa(data, regionLabel, regionId, numero) {
@@ -626,15 +695,30 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
   ]
 }
 
+// 01/09/2026 -- a pedido de Franco, mismo cambio que en 4.1 (ver seccionFEN): en el cuerpo va el
+// resumen por provincia/distrito, no la tabla de detalle completo (que se movió al Anexo). Esta
+// función solo se usa en regiones sin Plan FEN/Escenario Severo curado (Puno, Tacna, y las
+// regiones nuevas), donde no hay una sección 4.1 aparte a la cual moverlo.
 function seccionProgramadas(data, regionLabel) {
-  return tablaProgramadas(data.programadasDetalle, regionLabel)
+  const filas = data.programadasDetalle
+  if (!filas?.length) return []
+  const resumen = tablaConteoProvinciaDistrito(filas, 'N° PUNTOS CRÍTICOS PRIORIZADOS')
+  if (!resumen) return []
+  return [
+    parrafo(`En adición, se tiene ${fmtNum(filas.length)} intervenciones programadas de acuerdo al siguiente detalle:`),
+    resumen,
+  ]
 }
 
 // ---------------------------------------------------------------------------
 // Tabla de EJECUTADA / EN EJECUCIÓN por punto (mapaIntervenciones.js) -- usada solo en la Ayuda
 // Memoria filtrada por ámbito, ver construirAyudaMemoriaFiltrada() y filtrarEjecutadasPorAmbito().
 // ---------------------------------------------------------------------------
-function tablaEjecutadas(puntos, { mostrarVacio = false } = {}) {
+// 'intro' es personalizable porque esta tabla se usa en dos contextos con textos distintos: la
+// Ayuda Memoria filtrada por ámbito (texto por defecto, "...en el ámbito seleccionado") y, desde
+// 01/09/2026, el Anexo "Detalle de ejecución" del documento completo (ver seccionAnexo), donde no
+// hay ámbito -- se le pasa un texto propio.
+function tablaEjecutadas(puntos, { mostrarVacio = false, intro } = {}) {
   const filas = (puntos || []).map((p) => ({
     provincia: p.provincia?.toUpperCase(),
     distrito: p.distrito?.toUpperCase(),
@@ -653,7 +737,7 @@ function tablaEjecutadas(puntos, { mostrarVacio = false } = {}) {
       : []
   }
   return [
-    parrafo(`Se registran ${filas.length} intervenciones ejecutadas o en ejecución en el ámbito seleccionado, de acuerdo al siguiente detalle:`),
+    parrafo(intro || `Se registran ${filas.length} intervenciones ejecutadas o en ejecución en el ámbito seleccionado, de acuerdo al siguiente detalle:`),
     tabla(
       [
         { clave: 'provincia', titulo: 'PROV.', peso: 0.09 },
@@ -767,7 +851,12 @@ function seccionPuntosCriticos(data, regionLabel, numeroSeccion, regionId) {
   // junto con la numeración de la sección (heredada de seccionFEN -- ver construirAyudaMemoria()).
   const numero = numeroSeccion != null ? `${numeroSeccion}.2 ` : ''
   const out = [titulo2(`${numero}PUNTOS CRÍTICOS IDENTIFICADOS POR ACUERDO MULTISECTORIAL`)]
-  out.push(...tablaPuntosCriticos(data.puntosCriticos))
+  // 01/09/2026 -- a pedido de Franco: en el cuerpo va solo el resumen por provincia/distrito
+  // (mismo formato que el cuadro del punto 3); el detalle completo (sector, código, nombre de
+  // actividad, meta) se movió al Anexo -- ver seccionAnexo() y tablaPuntosCriticos().
+  out.push(parrafo(`Asimismo, el MVCS intervendrá ${fmtNum(data.puntosCriticos.length)} puntos críticos ante el Fenómeno del Niño, conforme el siguiente cuadro:`))
+  const resumenANA = tablaConteoProvinciaDistrito(data.puntosCriticos, 'N° PUNTOS CRÍTICOS')
+  if (resumenANA) out.push(resumenANA)
   // Presupuesto del Acuerdo Multisectorial -- 01/09/2026: se saca de PRESUPUESTO_MULTISECTORIAL_POR_REGION
   // (en vivo desde BASE_DATOS.xlsx, ver comentario junto a la constante) en vez de un campo curado a
   // mano por región; data.presupuestoAcuerdoMultisectorial queda como respaldo por si alguna región
@@ -942,20 +1031,64 @@ function clasificarFlota(tipo) {
 // una entrada con el mismo "tipo" (p.ej. distintas marcas del mismo VOLQUETE) -- antes cada una se
 // distinguía por su columna MARCA/CÓDIGO, pero al quedar solo TIPO UNIDAD esas entradas se ven
 // como una fila duplicada; se fusionan sumando la cantidad para que cada tipo aparezca una sola vez.
-function tablaFlotaGrupo(items) {
-  const porTipo = new Map()
-  items.forEach((f) => {
-    const tipo = f.tipo.toUpperCase()
-    porTipo.set(tipo, (porTipo.get(tipo) || 0) + f.cantidad)
-  })
-  const filas = [...porTipo.entries()].map(([tipo, cantidad]) => ({ tipo, cantidad }))
-  return tabla(
-    [
-      { clave: 'tipo', titulo: 'TIPO UNIDAD', peso: 0.7 },
-      { clave: 'cantidad', titulo: 'CANTIDAD', peso: 0.3, align: AlignmentType.RIGHT },
+// 01/09/2026 -- a pedido de Franco ("más resumido el cuadro de Maquinarias, ajustarlo un poco
+// más"): antes salían 2-3 tablas de Word separadas (una por grupo, cada una con su propio
+// encabezado TIPO UNIDAD/CANTIDAD) más un título y un párrafo de subtotal entre medio. Se fusiona
+// todo en UNA sola tabla: una fila-banner por grupo (fondo gris, en vez de un título de sección
+// aparte) seguida de sus filas y una fila de subtotal en negrita -- mismos datos, con mucha menos
+// repetición visual.
+function tablaFlotaCombinada(grupos) {
+  const pesos = [0.7, 0.3]
+  const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
+  const estilo = { fill: HEADER_FILL, textColor: HEADER_TEXT }
+
+  const filas = []
+  for (const [nombreGrupo, items] of grupos) {
+    const porTipo = new Map()
+    items.forEach((f) => {
+      const tipo = f.tipo.toUpperCase()
+      porTipo.set(tipo, (porTipo.get(tipo) || 0) + f.cantidad)
+    })
+    filas.push(
+      new TableRow({
+        children: [
+          celda(nombreGrupo, { header: true, width: PORTRAIT_WIDTH, colSpan: 2, fill: 'D9D9D9', textColor: '000000' }),
+        ],
+      })
+    )
+    let subtotal = 0
+    for (const [tipo, cantidad] of porTipo) {
+      subtotal += cantidad
+      filas.push(
+        new TableRow({
+          children: [celda(tipo, { width: anchos[0] }), celda(fmtNum(cantidad), { width: anchos[1], align: AlignmentType.RIGHT })],
+        })
+      )
+    }
+    filas.push(
+      new TableRow({
+        children: [
+          celda(`Subtotal ${nombreGrupo}`, { width: anchos[0], bold: true }),
+          celda(fmtNum(subtotal), { width: anchos[1], align: AlignmentType.RIGHT, bold: true }),
+        ],
+      })
+    )
+  }
+
+  return new Table({
+    width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
+    columnWidths: anchos,
+    rows: [
+      new TableRow({
+        tableHeader: true,
+        children: [
+          celda('TIPO UNIDAD', { header: true, width: anchos[0], ...estilo }),
+          celda('CANTIDAD', { header: true, width: anchos[1], align: AlignmentType.RIGHT, ...estilo }),
+        ],
+      }),
+      ...filas,
     ],
-    filas
-  )
+  })
 }
 
 function seccionFlota(data, numeroSeccion) {
@@ -971,15 +1104,10 @@ function seccionFlota(data, numeroSeccion) {
     ['Otros', []],
   ])
   flota.forEach((f) => grupos.get(clasificarFlota(f.tipo)).push(f))
+  const gruposConDatos = [...grupos].filter(([, items]) => items.length)
 
   const out = [titulo2(`${numero}RELACIÓN DE ACTIVO Y PERSONAL`)]
-  for (const [nombreGrupo, items] of grupos) {
-    if (!items.length) continue
-    const subtotal = items.reduce((a, f) => a + f.cantidad, 0)
-    out.push(titulo2(nombreGrupo, { color: null, size: 22 }))
-    out.push(tablaFlotaGrupo(items))
-    out.push(parrafo(`Subtotal ${nombreGrupo}: ${fmtNum(subtotal)} unidades.`))
-  }
+  out.push(tablaFlotaCombinada(gruposConDatos))
   out.push(parrafo([run({ text: `Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`, bold: true })]))
 
   // 01/09/2026 -- a pedido de Franco ("quita Maquinarias y vehiculos en mantenimiento, no va"): se
@@ -1034,9 +1162,11 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
         )
       )
     }
-    if (data.programadasDetalle?.length) {
-      out.push(...tablaProgramadas(data.programadasDetalle, regionLabel))
-    }
+    // 01/09/2026 -- a pedido de Franco: en el cuerpo va solo el resumen por provincia/distrito
+    // (mismo formato que el cuadro del punto 3); el detalle completo (ficha técnica, descripción,
+    // fechas, vol/km/pob) se movió al Anexo -- ver seccionAnexo() y tablaProgramadas().
+    const resumenPriorizadas = tablaConteoProvinciaDistrito(data.programadasDetalle, 'N° PUNTOS CRÍTICOS PRIORIZADOS')
+    if (resumenPriorizadas) out.push(resumenPriorizadas)
     out.push(...tablaPuntosCriticosRestantes(data.puntosCriticosRestantes))
     out.push(
       parrafo([run({ text: `Presupuesto ${regionLabel}: `, bold: true }), run({ text: `${fmtSoles(severo.presupuesto)}.`, bold: true })])
@@ -1055,6 +1185,48 @@ function seccionFEN(data, regionLabel, numeroSeccion) {
   // cuadro no va"), se dejó de mostrar este bloque -- no forma parte de las 5 secciones de la
   // plantilla real (que solo trae el Escenario Severo en la 4.1). Se deja "esc"/"otros" filtrado
   // por si se necesita más adelante, pero ya no se renderiza nada de acá.
+  return out
+}
+
+// ---------------------------------------------------------------------------
+// ANEXO -- agregado 01/09/2026 a pedido de Franco ("el cuadro detalle va en los anexos"): reúne al
+// final del documento las tablas de detalle completo que antes iban en el cuerpo (punto 3, 4.1 y
+// 4.2) y que ahí se reemplazaron por el resumen provincia/distrito -- ver
+// tablaConteoProvinciaDistrito(), seccionFEN() y seccionPuntosCriticos(). "Detalle de ejecución"
+// (por punto, con ficha/descripción/fechas) sale de mapaIntervenciones.js -- solo confiable en las
+// regiones donde reconcilia con el total oficial (ver mapaEjecutadasReconciliaConTotal()); en las
+// demás se muestra una nota en vez de un cuadro vacío o con datos que no cuadran.
+// ---------------------------------------------------------------------------
+function seccionAnexo(data, regionLabel, regionId) {
+  const hayEjecucion = mapaEjecutadasReconciliaConTotal(regionId, data.ejecutadasTotal)
+  const hayPriorizadas = !!data.programadasDetalle?.length
+  const hayPuntosCriticosANA = !!data.puntosCriticos?.length
+  if (!hayEjecucion && !hayPriorizadas && !hayPuntosCriticosANA) return []
+
+  const out = [titulo2('ANEXO')]
+
+  out.push(titulo2('Detalle de ejecución', { color: null, size: 22 }))
+  if (hayEjecucion) {
+    const puntos = mapaIntervenciones[regionId].filter((p) => p.estado === 'Ejecutada' || p.estado === 'En ejecución')
+    out.push(
+      ...tablaEjecutadas(puntos, {
+        intro: `Se registran ${fmtNum(puntos.length)} intervenciones ejecutadas o en ejecución, de acuerdo al siguiente detalle:`,
+      })
+    )
+  } else {
+    out.push(parrafo('Detalle de ejecución por punto no disponible aún para esta región.'))
+  }
+
+  if (hayPriorizadas) {
+    out.push(titulo2('Priorizadas', { color: null, size: 22 }))
+    out.push(...tablaProgramadas(data.programadasDetalle, regionLabel))
+  }
+
+  if (hayPuntosCriticosANA) {
+    out.push(titulo2('Puntos críticos ANA', { color: null, size: 22 }))
+    out.push(...tablaPuntosCriticos(data.puntosCriticos))
+  }
+
   return out
 }
 
@@ -1101,6 +1273,7 @@ export async function construirAyudaMemoria(data, regionId) {
     // todos los responsables" (seccionTodosResponsables) del documento completo -- no es parte de
     // las 5 secciones de la plantilla real, era contenido extra que se había agregado antes. La
     // función se deja definida por si se necesita más adelante, pero ya no se llama acá.
+    ...seccionAnexo(data, regionLabel, regionId),
   ]
 
   // Márgenes reales de la plantilla (asimétricos: izquierdo 1133, resto 1440;
