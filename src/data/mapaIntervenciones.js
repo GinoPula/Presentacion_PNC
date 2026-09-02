@@ -3840,7 +3840,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
-    "volumen": 1762,
+    "volumen": 2794,
     "enlace": null
   }
 ],
@@ -10703,6 +10703,40 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 1330,
     "volumen": 3600,
+    "enlace": null
+  },
+  {
+    "id": 10447,
+    "lat": -12.187495,
+    "lng": -75.238474,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Chupuro",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNI    ",
+    "ficha": "070-2026-LETV-E-JUN",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "01/10/2026",
+    "poblacion": 360,
+    "volumen": 8694,
+    "enlace": null
+  },
+  {
+    "id": 10446,
+    "lat": -12.156162,
+    "lng": -75.236929,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Viques",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ",
+    "ficha": "069-2026-LETV-E-JUN",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "01/10/2026",
+    "poblacion": 336,
+    "volumen": 9800,
     "enlace": null
   }
 ],
