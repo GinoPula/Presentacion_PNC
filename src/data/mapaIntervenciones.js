@@ -1944,7 +1944,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Calana",
     "sector": "Sector Calana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CALANA, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA                    ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CALANA, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA                     ",
     "ficha": "018-2026-LD-P-TAC",
     "fechaInicio": "01/09/2026",
     "fechaFin": "11/09/2026",
@@ -4881,7 +4881,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 3600,
+    "volumen": 4700,
     "enlace": null
   }
 ],
@@ -7369,7 +7369,7 @@ const mapaIntervenciones = {
     "fechaInicio": "04/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 525,
-    "volumen": 675,
+    "volumen": 705,
     "enlace": null
   },
   {
@@ -7386,7 +7386,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 640,
-    "volumen": 465,
+    "volumen": 495,
     "enlace": null
   },
   {
@@ -7403,7 +7403,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
-    "volumen": 12990,
+    "volumen": 13410,
     "enlace": null
   },
   {
@@ -7437,7 +7437,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 390,
+    "volumen": 420,
     "enlace": null
   },
   {
@@ -7454,7 +7454,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 660,
+    "volumen": 1440,
     "enlace": null
   },
   {
@@ -7471,7 +7471,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 8667.06,
+    "volumen": 0,
     "enlace": null
   }
 ],
@@ -7815,7 +7815,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/08/2026",
     "fechaFin": "15/09/2026",
     "poblacion": 500,
-    "volumen": 2900,
+    "volumen": 3150,
     "enlace": null
   },
   {
@@ -7832,7 +7832,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 900,
-    "volumen": 2500,
+    "volumen": 2800,
     "enlace": null
   }
 ],
@@ -8222,10 +8222,10 @@ const mapaIntervenciones = {
     "provincia": "Cutervo",
     "distrito": "La Ramada",
     "sector": "Suro Chico - Las Palmas – El Porvenir",
-    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ",
+    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”  ",
     "ficha": "N°063-2026-MTVU-AMZ",
     "fechaInicio": "18/08/2025",
-    "fechaFin": "31/08/2025",
+    "fechaFin": "06/09/2025",
     "poblacion": 135,
     "volumen": 240,
     "enlace": null
@@ -9106,30 +9106,13 @@ const mapaIntervenciones = {
     "provincia": "Cutervo",
     "distrito": "Callayuc",
     "sector": "San Francisco - C.P El Cumbe – La Union",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".    ",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".     ",
     "ficha": "N°051-2026-MTVU-AMZ",
     "fechaInicio": "15/06/2026",
-    "fechaFin": "30/08/2026",
+    "fechaFin": "07/09/2026",
     "poblacion": 438,
     "volumen": 2180,
     "enlace": null
-  },
-  {
-    "id": 10295,
-    "lat": -6.29319,
-    "lng": -78.602977,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "La Ramada",
-    "sector": "La Ramada – San Luis De Lucma",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA: SAN LUIS DE LUCMA, LA RAMADA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
-    "ficha": "N°060-2026-MTVU-AMZ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "25/06/2026",
-    "poblacion": 4228,
-    "volumen": 5220,
-    "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
   },
   {
     "id": 10285,
@@ -9147,6 +9130,23 @@ const mapaIntervenciones = {
     "poblacion": 50,
     "volumen": 2485.92,
     "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
+  },
+  {
+    "id": 10295,
+    "lat": -6.29319,
+    "lng": -78.602977,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "La Ramada – San Luis De Lucma",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA: SAN LUIS DE LUCMA, LA RAMADA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
+    "ficha": "N°060-2026-MTVU-AMZ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "25/06/2026",
+    "poblacion": 4228,
+    "volumen": 5220,
+    "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -9191,10 +9191,10 @@ const mapaIntervenciones = {
     "provincia": "San Ignacio",
     "distrito": "Namballe",
     "sector": "C.P. San Pedro",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ",
     "ficha": "N°056-2026-MTVU-AMZ",
     "fechaInicio": "25/06/2026",
-    "fechaFin": "28/08/2026",
+    "fechaFin": "07/09/2026",
     "poblacion": 274,
     "volumen": 2145,
     "enlace": null
@@ -10719,7 +10719,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1330,
-    "volumen": 2800,
+    "volumen": 3600,
     "enlace": null
   }
 ],
