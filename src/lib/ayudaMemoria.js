@@ -399,38 +399,26 @@ function parrafoActividad(a) {
 // agrega una columna DISTRITO junto a PROVINCIA. Sale de mapaIntervenciones.js (misma fuente que
 // ya usa el mapa y el filtro por ámbito -- ver comentario grande junto a
 // obtenerAmbitoDisponible()), que sí trae distrito por punto; solo tiene datos para las regiones
-// con entrada ahí (tumbes, puno, tacna, piura, ancash, lambayeque, ica) -- para el resto se omite
-// la tabla entera (return null) en vez de mostrar una tabla vacía o inventar un 0.
-// Reconciliación de mapaIntervenciones.js contra los totales OFICIALES de la región (mismo
-// principio que mapaEjecutadasReconciliaConTotal() más abajo, usado para el desglose de agua
-// potable y el Anexo). Agregado 02/09/2026 después de que Franco reportó un caso real: en La
-// Libertad, la narrativa (fuente oficial, curada a mano en data.ayudaMemoriaNarrativa) decía "se
-// vienen ejecutando 3 intervenciones", pero el cuadro resumen de abajo (que arma sus columnas
-// EJECUTADAS/EN EJECUCIÓN contando el campo `estado` de mapaIntervenciones.js) las mostraba TODAS
-// bajo EJECUTADAS, con la columna EN EJECUCIÓN en blanco -- porque en ese momento
-// mapaIntervenciones.js (una fuente separada, con su propio rezago frente al pipeline oficial)
-// todavía no tenía esos puntos marcados como "En ejecución", o le faltaban puntos "Ejecutada"
-// frente al total oficial (revisado: a la fecha de este fix, a La Libertad le faltan 3 puntos
-// "Ejecutada" frente a ejecutadasTotal.cantidad -- 28 en el mapa vs. 31 oficial -- y a Áncash le
-// falta 1). Este chequeo evita que vuelva a pasar en CUALQUIER región: si el conteo de
-// Ejecutada/En ejecución de mapaIntervenciones.js no cuadra EXACTO contra
-// ejecutadasTotal.cantidad/enEjecucion.length (los campos oficiales del pipeline), se prefiere no
-// mostrar el cuadro por provincia/distrito -- que saldría con una columna mal repartida o un total
-// que no cuadra con el párrafo de arriba -- en vez de mostrar un desglose que parece real pero
-// está mal. Mismo criterio que ya se aplicaba en el Anexo, ahora también en el cuerpo.
-function mapaResumenReconciliaConTotal(regionId, et, enEjecucionOficial) {
-  if (!et) return false
-  const puntos = mapaIntervenciones[regionId]
-  if (!puntos || !puntos.length) return false
-  const ejecutadas = puntos.filter((p) => p.estado === 'Ejecutada').length
-  const enEjecucion = puntos.filter((p) => p.estado === 'En ejecución').length
-  return ejecutadas === (et.cantidad || 0) && enEjecucion === (enEjecucionOficial?.length ?? 0)
-}
-
+// con entrada ahí (tumbes, puno, tacna, piura, ancash, lambayeque, ica, la-libertad) -- para el
+// resto se omite la tabla entera (return null) en vez de mostrar una tabla vacía o inventar un 0.
+//
+// Reconciliación contra los totales OFICIALES (02/09/2026, revisado dos veces a pedido de Franco):
+// mapaIntervenciones.js es una fuente secundaria (para el mapa) con su propio rezago frente al
+// pipeline oficial -- a veces le faltan puntos "Ejecutada" frente a ejecutadasTotal.cantidad (caso
+// real: a La Libertad le faltaban 3, a Áncash 1). La primera versión de este fix ocultaba el
+// cuadro entero cuando eso pasaba (mismo criterio que ya usaba el Anexo para su propio detalle),
+// pero Franco lo probó y pidió que el cuadro se muestre SIEMPRE ("porque no sale el cuadro,
+// corrigelo bien, se necesita ese cuadro") -- tiene que estar presente, solo que con el total
+// correcto. Ahora, si el conteo de mapaIntervenciones.js se queda corto frente al total oficial
+// (ejecutadasTotal.cantidad / enEjecucion.length), se agrega una fila "Otros" con la diferencia,
+// para que el Total general del cuadro cuadre EXACTO con esos totales oficiales -- los mismos que
+// ya se mencionan en el párrafo de arriba -- en vez de mostrar un cuadro que se queda corto y lo
+// contradice. Es un cambio chico y honesto (no se inventa a qué distrito pertenecen esos puntos,
+// solo se reconoce que existen) en vez de repartirlos a ciegas entre los distritos que sí tiene
+// mapaIntervenciones.js, lo que sería inventar un dato que no se tiene.
 function tablaResumenIntervenciones(data, regionId) {
   const puntos = mapaIntervenciones[regionId]
   if (!puntos || !puntos.length) return null
-  if (!mapaResumenReconciliaConTotal(regionId, data.ejecutadasTotal, data.enEjecucion)) return null
 
   const porFila = new Map()
   const clave = (provincia, distrito) => `${provincia} ${distrito}`
@@ -454,6 +442,18 @@ function tablaResumenIntervenciones(data, regionId) {
     },
     { ejecutadas: 0, enEjecucion: 0 }
   )
+
+  // Si mapaIntervenciones.js se queda corto frente a los totales oficiales, se agrega la fila
+  // "Otros" con la diferencia -- ver comentario grande de arriba. `Math.max(0, ...)` porque un
+  // sobrante (mapa con MÁS puntos que el total oficial) es un problema de datos distinto -- no se
+  // resta una fila negativa, se deja tal cual para que se note en el propio Total general.
+  const faltanEjecutadas = Math.max(0, (data.ejecutadasTotal?.cantidad ?? 0) - totales.ejecutadas)
+  const faltanEnEjecucion = Math.max(0, (data.enEjecucion?.length ?? 0) - totales.enEjecucion)
+  if (faltanEjecutadas || faltanEnEjecucion) {
+    filasOrdenadas.push({ provincia: 'Otros', distrito: 'Pendiente de georreferenciar', ejecutadas: faltanEjecutadas, enEjecucion: faltanEnEjecucion })
+    totales.ejecutadas += faltanEjecutadas
+    totales.enEjecucion += faltanEnEjecucion
+  }
 
   const pesos = [0.3, 0.3, 0.2, 0.2]
   const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
