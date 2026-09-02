@@ -1151,6 +1151,8 @@ function seccionFlota(data, numeroSeccion) {
   if (!flota.length) return []
   // 31/08/2026: la plantilla real llama a esta sección "RELACIÓN DE ACTIVO Y PERSONAL" (antes acá
   // decía "MAQUINARIAS Y VEHÍCULOS DE LA UBO", que no aparece así en el documento original).
+  // 02/09/2026 -- a pedido de Franco ("la palabra Y PERSONAL retirala, solamente es RELACION DE
+  // ACTIVO"): se quitó "Y PERSONAL" del título.
   const numero = numeroSeccion != null ? `${numeroSeccion}. ` : ''
 
   const grupos = new Map([
@@ -1161,7 +1163,7 @@ function seccionFlota(data, numeroSeccion) {
   flota.forEach((f) => grupos.get(clasificarFlota(f.tipo)).push(f))
   const gruposConDatos = [...grupos].filter(([, items]) => items.length)
 
-  const out = [titulo2(`${numero}RELACIÓN DE ACTIVO Y PERSONAL`)]
+  const out = [titulo2(`${numero}RELACIÓN DE ACTIVO`)]
   out.push(tablaFlotaCombinada(gruposConDatos))
   out.push(parrafo([run({ text: `Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`, bold: true })]))
 
