@@ -1245,8 +1245,8 @@ const mapaIntervenciones = {
     "provincia": "Azangaro",
     "distrito": "Muñani",
     "sector": "Arcupunco-Mororcco",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD DEL RÍO ARCUPUNCO EN LA COMUNIDAD DE ARCUPUNCO -MORORCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO DEPARTAMENTO PUNO      ",
-    "ficha": "FTI N° 036-2025-LDP-PUN",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD DEL RÍO ARCUPUNCO EN LA COMUNIDAD DE ARCUPUNCO -MORORCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO DEPARTAMENTO PUNO       ",
+    "ficha": "FTI N° 036-2026-LDP-PUN",
     "fechaInicio": "02/06/2026",
     "fechaFin": "16/06/2026",
     "poblacion": 968,
@@ -10889,7 +10889,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1330,
-    "volumen": 3600,
+    "volumen": 4400,
     "enlace": null
   },
   {
@@ -11630,7 +11630,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/08/2026",
     "fechaFin": "08/08/2026",
     "poblacion": 750,
-    "volumen": 2950,
+    "volumen": 3250,
     "enlace": null
   }
 ],

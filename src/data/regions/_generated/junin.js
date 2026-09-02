@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 3600.0, kmAcum: 1.64, poblacion: 1330 },
+    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 4400.0, kmAcum: 2.0, poblacion: 1330 },
     { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE\nINTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNI    ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 360 },
     { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 336 },
   ],
