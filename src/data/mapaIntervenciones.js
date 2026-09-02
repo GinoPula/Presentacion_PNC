@@ -8237,13 +8237,13 @@ const mapaIntervenciones = {
     "provincia": "Huanta",
     "distrito": "Sivia",
     "sector": "Grupo 4",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO II), EN EL SECTOR GRUPO 4 DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO              ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO SIVIA MAYU (TRAMO II), EN EL SECTOR GRUPO 4 DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO               ",
     "ficha": "40-2026-LD-E-AYAC",
     "fechaInicio": "02/07/2026",
     "fechaFin": "23/07/2026",
     "poblacion": null,
     "volumen": 4590,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
     "id": 10338,
@@ -8254,13 +8254,13 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Andres Avelino Caceres Dorregaray",
     "sector": "Valle Huatatas",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DEL DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO HUATATAS, SECTOR DEL VALLE DE HUATATAS DEL DISTRITO DE ANDRÉS AVELINO CÁCERES DORREGARAY, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO    ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DEL DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO HUATATAS, SECTOR DEL VALLE DE HUATATAS DEL DISTRITO DE ANDRÉS AVELINO CÁCERES DORREGARAY, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO     ",
     "ficha": "41-2026- LD-PI-AYAC",
     "fechaInicio": "06/07/2026",
     "fechaFin": "12/07/2026",
     "poblacion": null,
     "volumen": 1980,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 9276,
@@ -8271,13 +8271,13 @@ const mapaIntervenciones = {
     "provincia": "Huanta",
     "distrito": "Sivia",
     "sector": "C.P. Triboline",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO, REFORZAMIENTO DE DIQUES CON MATERIAL, EN EL RIO TRIBOLINE, EN EL SECTOR TRIBOLINE DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO-00               ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO, REFORZAMIENTO DE DIQUES CON MATERIAL, EN EL RIO TRIBOLINE, EN EL SECTOR TRIBOLINE DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO-00                ",
     "ficha": "20-2026- LD-PI-AYAC ",
     "fechaInicio": "22/07/2026",
     "fechaFin": "08/08/2026",
     "poblacion": 869,
     "volumen": 3822,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 9704,
