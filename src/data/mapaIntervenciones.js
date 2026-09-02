@@ -9561,6 +9561,23 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 9022,
+    "lat": null,
+    "lng": null,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "La Convencion",
+    "distrito": "Kumpirushiato",
+    "sector": "Postakiato",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO POSTAKIATO, EN EL SECTOR POSTAKIATO, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+757 KM, DISTRITO DE KUMPIRUSHIATO, PROVINCIA DE LA CONVENCION, REGION CUSCO                  ",
+    "ficha": "043-2025-LDP-CUS",
+    "fechaInicio": "31/12/2025",
+    "fechaFin": "23/01/2026",
+    "poblacion": 198,
+    "volumen": 14985,
+    "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
+  },
+  {
     "id": 9832,
     "lat": -12.885281,
     "lng": -72.130139,
@@ -9796,6 +9813,23 @@ const mapaIntervenciones = {
     "fechaFin": "20/06/2026",
     "poblacion": 125,
     "volumen": 28040,
+    "enlace": null
+  },
+  {
+    "id": 10299,
+    "lat": null,
+    "lng": null,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "La Convencion",
+    "distrito": "Kumpirushiato",
+    "sector": "Kuviriari",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO PALMEIRAS, EN EL SECTOR KUVIRIARI, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+470 KM, DISTRITO DE KUMPIRUSHIATO, PROVINCIA DE LA CONVENCION, REGION CUSCO   ",
+    "ficha": "015-2026-LD-E-CUS",
+    "fechaInicio": "24/06/2026",
+    "fechaFin": "14/07/2026",
+    "poblacion": 198,
+    "volumen": 12210,
     "enlace": null
   },
   {
