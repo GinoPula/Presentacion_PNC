@@ -401,9 +401,36 @@ function parrafoActividad(a) {
 // obtenerAmbitoDisponible()), que sí trae distrito por punto; solo tiene datos para las regiones
 // con entrada ahí (tumbes, puno, tacna, piura, ancash, lambayeque, ica) -- para el resto se omite
 // la tabla entera (return null) en vez de mostrar una tabla vacía o inventar un 0.
+// Reconciliación de mapaIntervenciones.js contra los totales OFICIALES de la región (mismo
+// principio que mapaEjecutadasReconciliaConTotal() más abajo, usado para el desglose de agua
+// potable y el Anexo). Agregado 02/09/2026 después de que Franco reportó un caso real: en La
+// Libertad, la narrativa (fuente oficial, curada a mano en data.ayudaMemoriaNarrativa) decía "se
+// vienen ejecutando 3 intervenciones", pero el cuadro resumen de abajo (que arma sus columnas
+// EJECUTADAS/EN EJECUCIÓN contando el campo `estado` de mapaIntervenciones.js) las mostraba TODAS
+// bajo EJECUTADAS, con la columna EN EJECUCIÓN en blanco -- porque en ese momento
+// mapaIntervenciones.js (una fuente separada, con su propio rezago frente al pipeline oficial)
+// todavía no tenía esos puntos marcados como "En ejecución", o le faltaban puntos "Ejecutada"
+// frente al total oficial (revisado: a la fecha de este fix, a La Libertad le faltan 3 puntos
+// "Ejecutada" frente a ejecutadasTotal.cantidad -- 28 en el mapa vs. 31 oficial -- y a Áncash le
+// falta 1). Este chequeo evita que vuelva a pasar en CUALQUIER región: si el conteo de
+// Ejecutada/En ejecución de mapaIntervenciones.js no cuadra EXACTO contra
+// ejecutadasTotal.cantidad/enEjecucion.length (los campos oficiales del pipeline), se prefiere no
+// mostrar el cuadro por provincia/distrito -- que saldría con una columna mal repartida o un total
+// que no cuadra con el párrafo de arriba -- en vez de mostrar un desglose que parece real pero
+// está mal. Mismo criterio que ya se aplicaba en el Anexo, ahora también en el cuerpo.
+function mapaResumenReconciliaConTotal(regionId, et, enEjecucionOficial) {
+  if (!et) return false
+  const puntos = mapaIntervenciones[regionId]
+  if (!puntos || !puntos.length) return false
+  const ejecutadas = puntos.filter((p) => p.estado === 'Ejecutada').length
+  const enEjecucion = puntos.filter((p) => p.estado === 'En ejecución').length
+  return ejecutadas === (et.cantidad || 0) && enEjecucion === (enEjecucionOficial?.length ?? 0)
+}
+
 function tablaResumenIntervenciones(data, regionId) {
   const puntos = mapaIntervenciones[regionId]
   if (!puntos || !puntos.length) return null
+  if (!mapaResumenReconciliaConTotal(regionId, data.ejecutadasTotal, data.enEjecucion)) return null
 
   const porFila = new Map()
   const clave = (provincia, distrito) => `${provincia} ${distrito}`
@@ -1294,6 +1321,184 @@ function seccionAnexo(data, regionLabel, regionId) {
   }
 
   return out
+}
+
+// ---------------------------------------------------------------------------
+// Versión "Ministro" -- agregada 02/09/2026 a pedido de Franco ("me estan indicando como una
+// sugerencia que como podría ser la ayuda memoria un poco mas resumida o pequeña para el
+// Ministro"). Reutiliza EXACTAMENTE las mismas funciones/datos que la Ayuda Memoria completa
+// (nada se recalcula aparte, para no arriesgar que un número diverja entre las dos versiones) --
+// lo único que cambia es qué secciones entran:
+//   - Se reemplazan "1. Antecedentes" y "2. Principales Actividades" (texto institucional fijo,
+//     igual en las 25 regiones, sin un solo número propio de la región) por una portada de
+//     "Resumen Ejecutivo": los mismos 4 números grandes que ya se muestran en el panorama de la
+//     web (ejecutadas, m³, población, flota -- ver Panorama.jsx) más 2-4 líneas con lo más
+//     importante de la región (interpretación en prosa, no solo el dato suelto).
+//   - Se mantienen igual "Intervenciones" (con su cuadro resumen), "Plan de Intervención ante el
+//     FEN" (4.1/4.2 -- ya solo con cuadros resumen por provincia/distrito, no de detalle) y
+//     "Relación de Activo" -- son los números que le sirven a alguien para decidir.
+//   - Se quita el Anexo completo (seccionAnexo). Es, con diferencia, la parte que más páginas
+//     ocupa: medido con el documento completo generado para Piura, el Anexo arranca a media
+//     página 3 y sigue hasta la página 10 de 10 -- 7 de 10 páginas son ese detalle ficha por
+//     ficha (fechas exactas, descripción legal completa de cada obra), que es información de
+//     trazabilidad para el equipo técnico, no algo que un Ministro necesite leer fila por fila.
+//     Sigue disponible tal cual en la Ayuda Memoria completa (construirAyudaMemoria).
+// ---------------------------------------------------------------------------
+
+// Una casilla de la grilla de "números grandes" de la portada -- número en negrita grande arriba,
+// etiqueta chica en gris abajo, dentro de una celda de tabla (docx no tiene flex/grid propio; una
+// tabla con 2 párrafos por celda es la forma estándar de lograr este layout).
+function statCelda(valor, etiqueta, width) {
+  return new TableCell({
+    width: { size: width, type: WidthType.DXA },
+    verticalAlign: VerticalAlign.CENTER,
+    margins: { top: 160, bottom: 160, left: 120, right: 120 },
+    children: [
+      new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 40 }, children: [run({ text: valor, bold: true, size: 40 })] }),
+      new Paragraph({ alignment: AlignmentType.CENTER, children: [run({ text: etiqueta, size: 16, color: '595959' })] }),
+    ],
+  })
+}
+
+// Grilla de 2 columnas -- 4 estadísticas quedan en 2 filas de 2, legible en el ancho de una hoja
+// vertical sin achicar demasiado la letra.
+function tablaResumenEjecutivo(stats) {
+  const anchoCol = Math.round(PORTRAIT_WIDTH / 2)
+  const filas = []
+  for (let i = 0; i < stats.length; i += 2) {
+    filas.push(new TableRow({ children: stats.slice(i, i + 2).map((s) => statCelda(s.valor, s.etiqueta, anchoCol)) }))
+  }
+  return new Table({ width: { size: PORTRAIT_WIDTH, type: WidthType.DXA }, columnWidths: [anchoCol, anchoCol], rows: filas })
+}
+
+function seccionPortadaResumen(data, regionLabel, regionId) {
+  const et = data.ejecutadasTotal
+  const enEj = data.enEjecucion?.length || 0
+  const esc = data.escenarios
+  const severo = esc?.find((e) => /severo|severa/i.test(e.condicion || ''))
+  const anio = (data.meta?.periodo || '').match(/\d{4}/)?.[0] || new Date().getFullYear()
+
+  // Mismos 4 números que ya se muestran en el Panorama de la web (ver Panorama.jsx) -- están
+  // disponibles siempre, en las 25 regiones, así que la grilla nunca sale vacía ni a medias.
+  const stats = [
+    { valor: fmtNum(et?.cantidad), etiqueta: 'Intervenciones ejecutadas' },
+    { valor: `${fmtNum(et?.m3)} m³`, etiqueta: 'Material removido' },
+    { valor: fmtNum(et?.poblacion), etiqueta: 'Población beneficiada' },
+    { valor: fmtNum(data.flotaTotal), etiqueta: 'Unidades de maquinaria y flota' },
+  ]
+
+  const bullets = []
+  if (et) {
+    bullets.push(
+      bullet(
+        `En ${anio}, el PNC Maquinarias ha ejecutado ${fmtNum(et.cantidad)} intervenciones en ${regionLabel}${
+          enEj ? `, con ${fmtNum(enEj)} más en ejecución` : ''
+        }, en beneficio de ${fmtNum(et.poblacion)} pobladores.`
+      )
+    )
+  }
+  if (severo) {
+    // 02/09/2026 -- severo.intervenciones no está curado en todas las regiones con Escenario
+    // Severo (p.ej. Lima) -- mismo dato que seccionFEN() ya trata como opcional (ver su
+    // `if (severo.intervenciones != null)`). Sin ese número, la frase se arma sin el "de los X
+    // identificados" en vez de mostrar el "—" de fmtNum() para un valor null.
+    const priorizados = fmtNum(data.programadasDetalle?.length ?? 0)
+    const fraseUniverso = severo.intervenciones != null ? ` de los ${fmtNum(severo.intervenciones)} puntos críticos identificados` : ' puntos críticos'
+    bullets.push(
+      bullet(
+        `Ante un escenario severo del Fenómeno El Niño se han priorizado ${priorizados}${fraseUniverso} en ${regionLabel}, con un presupuesto regional solicitado al MEF de ${fmtSoles(
+          severo.presupuesto
+        )} (${fmtSoles(PRESUPUESTO_NACIONAL_SEVERO)} a nivel nacional).`
+      )
+    )
+  }
+  const presupuestoMultisectorial = PRESUPUESTO_MULTISECTORIAL_POR_REGION[regionId] ?? data.presupuestoAcuerdoMultisectorial
+  if (data.puntosCriticos?.length && presupuestoMultisectorial != null) {
+    bullets.push(
+      bullet(
+        `El MVCS intervendrá además ${fmtNum(data.puntosCriticos.length)} puntos críticos por Acuerdo Multisectorial en ${regionLabel}, con un presupuesto regional de ${fmtSoles(
+          presupuestoMultisectorial
+        )}.`
+      )
+    )
+  }
+  bullets.push(bullet(`Cuenta con ${fmtNum(data.flotaTotal)} unidades de maquinaria y vehículos asignadas a la UBO de ${regionLabel}.`))
+
+  return [titulo2('RESUMEN EJECUTIVO', { size: 24 }), tablaResumenEjecutivo(stats), new Paragraph({ spacing: { before: 200 }, children: [] }), ...bullets]
+}
+
+export async function construirAyudaMemoriaMinistro(data, regionId) {
+  const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
+  const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
+
+  const membreteBytes = await cargarMembrete()
+
+  // Misma lógica de numeración que construirAyudaMemoria(), corrida 2 números hacia atrás porque
+  // esta versión no trae "1. Antecedentes" ni "2. Principales Actividades" -- ver comentario
+  // grande arriba.
+  const tienePlanFEN = !!(data.escenarios && data.escenarios.length)
+  const numFEN = tienePlanFEN ? 2 : null
+  const numFlota = tienePlanFEN ? 3 : 2
+
+  const contenido = [
+    parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 60 },
+      children: [
+        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+      ],
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 240 },
+      children: [run({ text: 'AYUDA MEMORIA — RESUMEN EJECUTIVO', bold: true, color: COLOR_SECCION, size: 20 })],
+    }),
+    ...seccionPortadaResumen(data, regionLabel, regionId),
+    ...seccionNarrativa(data, regionLabel, regionId, 1),
+    ...(tienePlanFEN ? [] : seccionProgramadas(data, regionLabel)),
+    ...seccionFEN(data, regionLabel, numFEN),
+    ...seccionPuntosCriticos(data, regionLabel, numFEN, regionId),
+    ...seccionFlota(data, numFlota),
+  ]
+
+  const margenPagina = { top: 1440, bottom: 1440, left: 1133, right: 1440, header: 720, footer: 720 }
+
+  return new Document({
+    styles: {
+      default: {
+        document: { run: { font: FONT, size: 22 } },
+      },
+    },
+    sections: [
+      {
+        properties: {
+          page: {
+            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.PORTRAIT },
+            margin: margenPagina,
+          },
+        },
+        headers: { default: crearEncabezado(membreteBytes) },
+        footers: { default: crearPie() },
+        children: contenido,
+      },
+    ],
+  })
+}
+
+export async function descargarAyudaMemoriaMinistro(data, regionId) {
+  const doc = await construirAyudaMemoriaMinistro(data, regionId)
+  const blob = await Packer.toBlob(doc)
+  const nombreRegion = (data.meta?.region || regionId).replace(/^Región\s+/i, '').replace(/\s+/g, '_')
+  const fecha = new Date().toISOString().slice(0, 10).replace(/-/g, '')
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `Ayuda_Memoria_Ministro_${nombreRegion}_${fecha}.docx`
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+  setTimeout(() => URL.revokeObjectURL(url), 10000)
 }
 
 // ---------------------------------------------------------------------------
