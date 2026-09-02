@@ -3096,23 +3096,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9962,
-    "lat": -9.74271,
-    "lng": -77.448977,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Ticapampa",
-    "sector": "Ichic Huishca",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA DEL SECTOR ICHIC HUISHCA, DISTRITO DE TICAPAMPA, PROVINCIA DE RECUAY, REGION ÁNCASH    ",
-    "ficha": "050-2026-LDP-ANC",
-    "fechaInicio": "03/03/2026",
-    "fechaFin": "05/03/2026",
-    "poblacion": 20,
-    "volumen": 1200,
-    "enlace": "https://drive.google.com/file/d/1iwQDojATLeqvnwjbVvTcrstmd3mi10Bv/view?usp=drive_link"
-  },
-  {
     "id": 9814,
     "lat": -9.503439,
     "lng": -77.535269,
@@ -3128,6 +3111,23 @@ const mapaIntervenciones = {
     "poblacion": 70,
     "volumen": 730,
     "enlace": null
+  },
+  {
+    "id": 9962,
+    "lat": -9.74271,
+    "lng": -77.448977,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Ticapampa",
+    "sector": "Ichic Huishca",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA DEL SECTOR ICHIC HUISHCA, DISTRITO DE TICAPAMPA, PROVINCIA DE RECUAY, REGION ÁNCASH    ",
+    "ficha": "050-2026-LDP-ANC",
+    "fechaInicio": "03/03/2026",
+    "fechaFin": "05/03/2026",
+    "poblacion": 20,
+    "volumen": 1200,
+    "enlace": "https://drive.google.com/file/d/1iwQDojATLeqvnwjbVvTcrstmd3mi10Bv/view?usp=drive_link"
   },
   {
     "id": 9974,
@@ -3823,7 +3823,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "31/08/2026",
     "poblacion": 2516,
-    "volumen": 630,
+    "volumen": 1008,
     "enlace": null
   },
   {
@@ -3841,23 +3841,6 @@ const mapaIntervenciones = {
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
     "volumen": 1762,
-    "enlace": null
-  },
-  {
-    "id": 10428,
-    "lat": -9.736122,
-    "lng": -77.44779,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Uchipampa",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH   ",
-    "ficha": "102-2026-LDP-ANC",
-    "fechaInicio": "31/08/2026",
-    "fechaFin": "07/09/2026",
-    "poblacion": 150,
-    "volumen": 0,
     "enlace": null
   }
 ],
