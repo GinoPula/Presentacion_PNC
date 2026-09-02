@@ -35,7 +35,7 @@ export default {
   programadasTotal: { cantidad: 13, metaVol: 69565.6, metaKm: 14.3, poblacion: 25096 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Morro Sama Y Puente Fondopes', ficha: '046-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '14/09/2026', fechaFin: '28/09/2026', metaVol: 4865.0, metaKm: 0.5, poblacion: 500 },
+    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Morro Sama Y Puente Fondopes', ficha: '046-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '07/09/2026', fechaFin: '21/09/2026', metaVol: 4865.0, metaKm: 0.5, poblacion: 500 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Buena Vista', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE BUENA VISTA, SECTOR BUENA VISTA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA   ', fechaInicio: '21/09/2026', fechaFin: '20/10/2026', metaVol: 5000.0, metaKm: 10.0, poblacion: 800 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '05/10/2026', fechaFin: '24/10/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Bocatoma Catambu Y La Banda', ficha: '013-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMTACION EN EL CAUCE DEL RIO SAMA, SECTOR BOCATOMA CATAMBU Y LA BANDA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA-00                  ', fechaInicio: '06/10/2026', fechaFin: '15/10/2026', metaVol: 5000.0, metaKm: 0.4, poblacion: 250 },
@@ -62,7 +62,8 @@ export default {
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-008'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00222'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810311'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['85422', 'A10893'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85422'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10893'], estado: 'inoperativo' },
     { tipo: 'Mini cargador', cantidad: 2, marca: 'John Deere', codigos: ['G275475', '282134'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03377'], estado: 'operativo' },
     { tipo: 'Plataforma', cantidad: 3, marca: 'ACS', codigos: ['EGR-071', 'EGR-072', 'EGR-070'], estado: 'operativo' },
