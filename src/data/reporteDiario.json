@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "01/09/2026",
-    "horaCorte": "23:06",
+    "fechaCorte": "02/09/2026",
+    "horaCorte": "08:49",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -315,7 +315,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".",
       "fechaInicio": "15/06/2026",
-      "fechaFin": "30/08/2026",
+      "fechaFin": "07/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-785)",
         "EXCAVADORA HIDRAULICA ( 85464)",
@@ -335,7 +335,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "descripcion": "“MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
       "fechaInicio": "18/08/2025",
-      "fechaFin": "31/08/2025",
+      "fechaFin": "06/09/2025",
       "maquinaria": [
         "VOLQUETE ( EGV-810)",
         "VOLQUETE ( EGM-788)",
@@ -415,7 +415,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
       "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”",
       "fechaInicio": "25/06/2026",
-      "fechaFin": "28/08/2026",
+      "fechaFin": "07/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGM-833)",
         "VOLQUETE ( EGV-819)"
