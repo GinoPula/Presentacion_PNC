@@ -8554,23 +8554,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Le_7RIHr7ItaeTz3DCtuK3JsX3Ai4dsa/view?usp=drive_link"
   },
   {
-    "id": 10044,
-    "lat": -6.177059,
-    "lng": -78.919664,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "Callayuc",
-    "sector": "El Sallof - La Llangua",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO: EL SALLOF - LA LLANGUA, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.       ",
-    "ficha": "N°023-2026-MTVU-AMZ",
-    "fechaInicio": "16/03/2026",
-    "fechaFin": "06/05/2026",
-    "poblacion": 187,
-    "volumen": 3855,
-    "enlace": "https://drive.google.com/file/d/18-4_m7lxR7BLEQBqMkBn6Kz6tydOKLkk/view?usp=drive_link"
-  },
-  {
     "id": 10001,
     "lat": -5.327405,
     "lng": -78.93903,
@@ -8586,6 +8569,23 @@ const mapaIntervenciones = {
     "poblacion": 498,
     "volumen": 1995,
     "enlace": "https://drive.google.com/file/d/1X6XuvJKPzFMyL-7NHxZyTPTHOV_pIDvL/view?usp=drive_link"
+  },
+  {
+    "id": 10044,
+    "lat": -6.177059,
+    "lng": -78.919664,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "Callayuc",
+    "sector": "El Sallof - La Llangua",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO: EL SALLOF - LA LLANGUA, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.       ",
+    "ficha": "N°023-2026-MTVU-AMZ",
+    "fechaInicio": "16/03/2026",
+    "fechaFin": "06/05/2026",
+    "poblacion": 187,
+    "volumen": 3855,
+    "enlace": "https://drive.google.com/file/d/18-4_m7lxR7BLEQBqMkBn6Kz6tydOKLkk/view?usp=drive_link"
   },
   {
     "id": 9664,
@@ -8605,23 +8605,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10033,
-    "lat": -7.343699,
-    "lng": -78.470842,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cajamarca",
-    "distrito": "Asuncion",
-    "sector": "Congacruz-Sanjapampa",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO CONGACRUZ HASTA EL ANEXO SANJAPAMPA, DISTRITO DE ASUNCIÓN, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ",
-    "ficha": "FTI N° 036-2026-MTV-U-CAJ",
-    "fechaInicio": "19/03/2026",
-    "fechaFin": "01/04/2026",
-    "poblacion": 280,
-    "volumen": 2170,
-    "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
-  },
-  {
     "id": 8859,
     "lat": -5.691199,
     "lng": -78.774925,
@@ -8637,6 +8620,23 @@ const mapaIntervenciones = {
     "poblacion": 375,
     "volumen": 660,
     "enlace": "https://drive.google.com/file/d/19HdTrLW2jBs2XgZ5Jxy8UYBrhNxsv-mB/view?usp=drive_link"
+  },
+  {
+    "id": 10033,
+    "lat": -7.343699,
+    "lng": -78.470842,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cajamarca",
+    "distrito": "Asuncion",
+    "sector": "Congacruz-Sanjapampa",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO CONGACRUZ HASTA EL ANEXO SANJAPAMPA, DISTRITO DE ASUNCIÓN, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ",
+    "ficha": "FTI N° 036-2026-MTV-U-CAJ",
+    "fechaInicio": "19/03/2026",
+    "fechaFin": "01/04/2026",
+    "poblacion": 280,
+    "volumen": 2170,
+    "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
   },
   {
     "id": 10039,
@@ -8877,23 +8877,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Z0zzWU0G3a1FEOHBOu7jl40P_5cOFpoQ/view?usp=drive_link"
   },
   {
-    "id": 10215,
-    "lat": -5.38814,
-    "lng": -78.90893,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "La Coipa",
-    "sector": "La Copia - C.P. Rumipite",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
-    "ficha": "N°043-2026-MTVU-AMZ",
-    "fechaInicio": "07/05/2026",
-    "fechaFin": "29/05/2026",
-    "poblacion": 2804,
-    "volumen": 5500,
-    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
-  },
-  {
     "id": 10216,
     "lat": -6.118035,
     "lng": -78.887405,
@@ -8909,6 +8892,23 @@ const mapaIntervenciones = {
     "poblacion": 9361,
     "volumen": 6310,
     "enlace": null
+  },
+  {
+    "id": 10215,
+    "lat": -5.38814,
+    "lng": -78.90893,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "La Coipa",
+    "sector": "La Copia - C.P. Rumipite",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
+    "ficha": "N°043-2026-MTVU-AMZ",
+    "fechaInicio": "07/05/2026",
+    "fechaFin": "29/05/2026",
+    "poblacion": 2804,
+    "volumen": 5500,
+    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
   },
   {
     "id": 10234,
@@ -9098,23 +9098,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10285,
-    "lat": -7.476362,
-    "lng": -78.956451,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "San Benito",
-    "sector": "Colbot",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
-    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "26/06/2026",
-    "poblacion": 50,
-    "volumen": 2485.92,
-    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
-  },
-  {
     "id": 10295,
     "lat": -6.29319,
     "lng": -78.602977,
@@ -9130,6 +9113,23 @@ const mapaIntervenciones = {
     "poblacion": 4228,
     "volumen": 5220,
     "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
+  },
+  {
+    "id": 10285,
+    "lat": -7.476362,
+    "lng": -78.956451,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "San Benito",
+    "sector": "Colbot",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "26/06/2026",
+    "poblacion": 50,
+    "volumen": 2485.92,
+    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -9384,6 +9384,23 @@ const mapaIntervenciones = {
     "fechaFin": "28/09/2026",
     "poblacion": 500,
     "volumen": 7136.64,
+    "enlace": null
+  },
+  {
+    "id": 10471,
+    "lat": -7.224478,
+    "lng": -78.905478,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "Tantarica",
+    "sector": "El Sapo - Catan",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ",
+    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "16/09/2026",
+    "poblacion": 500,
+    "volumen": 2907.2,
     "enlace": null
   }
 ],
