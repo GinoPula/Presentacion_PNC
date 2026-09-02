@@ -59,6 +59,19 @@ export default function PresupuestoGeneral() {
   // naranja que ya tenía Severo en la paleta de 2 colores, para no romper la asociación visual.
   const severo = escenariosGlobal.find((e) => e.condicion.includes('Severas')) || escenariosGlobal[escenariosGlobal.length - 1]
   const colorSevero = palette[1]
+
+  // 02/09/2026 -- Franco: "tiene que coincidir con los 21 millones no puede ir 20 millones". La
+  // tarjeta de abajo mostraba `severo.presupuesto`, que es la suma en vivo del campo `escenarios`
+  // de solo 6 regiones (Tumbes, Piura, Áncash, Lambayeque, La Libertad, Lima) -- da S/20,974,489.12,
+  // un monto distinto (y menor) al de "Demanda MEF" que ya se muestra arriba en el bloque resumen
+  // (S/21,981,975.00, presupuestoFenResumenGlobal.demandaMef -- el monto oficial presentado al MEF
+  // sobre los 724 puntos críticos de las 19 regiones). Para que la tarjeta no contradiga ese dato,
+  // ahora muestra ese mismo monto nacional en vez del subtotal de 6 regiones. El desglose por rubro
+  // (Mantenimiento/Combustible/Personal) del gráfico de abajo sigue viniendo de esas 6 regiones
+  // porque es la única fuente que trae ese nivel de detalle -- no cuadra exacto contra el monto de
+  // la tarjeta, así que se aclara en el subtítulo del gráfico para que no genere confusión.
+  const presupuestoSeveroNacional = presupuestoFenResumenGlobal.demandaMef
+
   const chartData = ['Mantenimiento', 'Combustible', 'Personal'].map((rubro) => {
     const key = rubro === 'Mantenimiento' ? 'mantenimiento' : rubro === 'Combustible' ? 'combustible' : 'personal'
     return { rubro, Presupuesto: severo[key] }
@@ -72,7 +85,7 @@ export default function PresupuestoGeneral() {
         <SectionHeading
           eyebrow="Fenómeno El Niño · Presupuesto nacional"
           title="Presupuesto general ante el FEN"
-          description={`Presupuesto del escenario Severo, sumado sobre las ${regionesConEscenarios.length} regiones con esta data (${nombresRegiones}). ${regionesSinEscenarios.map((r) => r.shortLabel).join(', ')} aún no tienen esta información — quedan fuera del total hasta contar con su fuente.`}
+          description={`Demanda presupuestal oficial del escenario Severo ante el MEF, sobre los ${fmtInt(presupuestoFenResumenGlobal.puntosCriticos)} puntos críticos de las ${presupuestoFenResumenGlobal.regionesConPuntos} regiones. El desglose por rubro (mantenimiento, combustible, personal) del gráfico de abajo solo está disponible para ${regionesConEscenarios.length} de esas regiones (${nombresRegiones}) — ${regionesSinEscenarios.map((r) => r.shortLabel).join(', ')} aún no cuentan con esa data detallada.`}
         />
 
         <Reveal delay={0.05} className="mt-10">
@@ -148,8 +161,8 @@ export default function PresupuestoGeneral() {
                 <HiOutlineExclamationCircle />
               </span>
             </div>
-            <div className="mt-5 font-tabular font-display text-3xl font-bold text-ink sm:text-4xl">{fmtCurrency(severo.presupuesto)}</div>
-            <div className="mt-1 text-xs text-ink-mute">Presupuesto total estimado · {regionesConEscenarios.length} regiones</div>
+            <div className="mt-5 font-tabular font-display text-3xl font-bold text-ink sm:text-4xl">{fmtCurrency(presupuestoSeveroNacional)}</div>
+            <div className="mt-1 text-xs text-ink-mute">Presupuesto total estimado · demanda oficial MEF, {presupuestoFenResumenGlobal.regionesConPuntos} regiones</div>
           </Card>
         </Reveal>
 
@@ -158,7 +171,10 @@ export default function PresupuestoGeneral() {
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <h3 className="font-display text-lg font-semibold text-ink">Composición del presupuesto por rubro</h3>
-                <p className="mt-1 text-sm text-ink-mute">Mantenimiento, combustible y personal — consolidado nacional, escenario Severo</p>
+                <p className="mt-1 text-sm text-ink-mute">
+                  Mantenimiento, combustible y personal — {regionesConEscenarios.length} regiones con este desglose ({nombresRegiones}), escenario
+                  Severo
+                </p>
               </div>
             </div>
             <div className="mt-6 h-72">
