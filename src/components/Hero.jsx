@@ -69,7 +69,7 @@ export default function Hero({ data, regionId, onRegionChange }) {
           className="mt-6 max-w-2xl text-balance text-lg leading-relaxed text-ink-dim sm:text-xl"
         >
           Reporte operativo de maquinaria pesada e intervenciones de prevención y emergencia
-          ejecutadas por el PNC en la {data.meta.region} — corte a {data.meta.periodo}.
+          ejecutadas por el PNC en la {data.meta.region}.
         </motion.p>
 
         <motion.div

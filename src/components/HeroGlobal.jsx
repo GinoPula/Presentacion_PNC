@@ -71,7 +71,7 @@ export default function HeroGlobal({ onRegionChange }) {
           transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-2xl text-balance text-lg leading-relaxed text-ink-dim sm:text-xl"
         >
-          Panorama nacional de las {REGION_LIST.length} regiones donde opera PNC Maquinarias — {nombresRegiones} — corte a Agosto 2026.
+          Panorama nacional de las {REGION_LIST.length} regiones donde opera PNC Maquinarias — {nombresRegiones}.
         </motion.p>
 
         <motion.div
