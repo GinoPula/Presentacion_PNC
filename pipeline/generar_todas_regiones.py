@@ -388,12 +388,14 @@ TRAD_TIPO = {
 }
 TRAD_MARCA = {
     "ACS": "ACS",
+    "BOBCAT": "Bobcat",
     "CATERPILLAR": "Caterpillar",
     "HAMM": "Hamm",
     "HINO": "Hino",
     "INDUSTRIA FIRME": "Industria Firme",
     "IVECO": "Iveco",
     "JOHN DEERE": "John Deere",
+    "KAWASAKI": "Kawasaki",
     "KOMATSU": "Komatsu",
     "MERCEDES BENZ": "Mercedes Benz",
     "MITSUBISHI": "Mitsubishi",

@@ -392,6 +392,27 @@ function parrafoActividad(a) {
   ])
 }
 
+// "De estas intervenciones, X a Emergencia, Y a Prevención y Z a Urgente atención." -- EN VIVO,
+// desde data.ejecutadasPorTipo (clasificación LEGAL de la intervención, agrupada por el pipeline
+// -- ver GROUP BY inte.tipo en _consultar_ejecutadas_por_tipo() de generar_todas_regiones.py). Ojo,
+// es una clasificación DISTINTA a "actividad" (limpieza y descolmatación/transitabilidad/agua
+// potable, la física) que usa parrafoActividad() -- no son intercambiables, ver el comentario
+// grande junto a la rama con narrativa curada más abajo. Extraída a función propia 02/09/2026 (a
+// pedido de Franco, "jala los datos en vivo con ese desglose") para reusarla también en La
+// Libertad, que antes solo mostraba esto en regiones sin narrativa curada.
+function parrafoPorTipo(ejecutadasPorTipo) {
+  const items = (ejecutadasPorTipo || []).filter((t) => t.cantidad)
+  if (!items.length) return null
+  const piezas = items.map((t) => [run({ text: fmtNum(t.cantidad), bold: true }), ` a ${t.tipo}`])
+  const ultima = piezas.pop()
+  const cuerpo = []
+  piezas.forEach((p, i) => {
+    cuerpo.push(...p, i < piezas.length - 1 ? ', ' : ' y ')
+  })
+  cuerpo.push(...ultima)
+  return parrafo(['De estas intervenciones, ', ...cuerpo, '.'])
+}
+
 // Cuadro resumen PROVINCIA / DISTRITO / N° EJECUTADAS / N° EN EJECUCIÓN -- agregado 31/08/2026,
 // reescrito 01/09/2026 a pedido de Franco ("en ese cuadro se le tiene que añadir distrito...
 // programadas no van aquí"): vuelve a calzar con la plantilla real (solo EJECUTADAS/EN EJECUCIÓN,
@@ -461,7 +482,13 @@ function tablaResumenIntervenciones(data, regionId) {
     totales.enEjecucion += faltanEnEjecucion
   }
 
-  const pesos = [0.3, 0.3, 0.2, 0.2]
+  // 02/09/2026 -- a pedido de Franco: cuando ya no hay NINGUNA intervención en ejecución en toda
+  // la región (totales.enEjecucion === 0 -- caso real de La Libertad cuando las 3 que estaban en
+  // ejecución pasaron a Ejecutada), se saca la columna "N° EN EJECUCIÓN" completa en vez de
+  // mostrarla toda en blanco/0. Si aunque sea una fila tiene en ejecución, la columna se mantiene.
+  const mostrarEnEjecucion = totales.enEjecucion > 0
+
+  const pesos = mostrarEnEjecucion ? [0.3, 0.3, 0.2, 0.2] : [0.35, 0.35, 0.3]
   const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
   const estilo = { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS }
   const filas = filasOrdenadas.map((c) => {
@@ -470,7 +497,7 @@ function tablaResumenIntervenciones(data, regionId) {
         celda(c.provincia.toUpperCase(), { width: anchos[0] }),
         celda(c.distrito.toUpperCase(), { width: anchos[1] }),
         celda(c.ejecutadas || '', { width: anchos[2], align: AlignmentType.RIGHT }),
-        celda(c.enEjecucion || '', { width: anchos[3], align: AlignmentType.RIGHT }),
+        ...(mostrarEnEjecucion ? [celda(c.enEjecucion || '', { width: anchos[3], align: AlignmentType.RIGHT })] : []),
       ],
     })
   })
@@ -478,7 +505,7 @@ function tablaResumenIntervenciones(data, regionId) {
     children: [
       celda('Total general', { width: anchos[0], bold: true, colSpan: 2 }),
       celda(fmtNum(totales.ejecutadas), { width: anchos[2], align: AlignmentType.RIGHT, bold: true }),
-      celda(fmtNum(totales.enEjecucion), { width: anchos[3], align: AlignmentType.RIGHT, bold: true }),
+      ...(mostrarEnEjecucion ? [celda(fmtNum(totales.enEjecucion), { width: anchos[3], align: AlignmentType.RIGHT, bold: true })] : []),
     ],
   })
   return new Table({
@@ -491,7 +518,7 @@ function tablaResumenIntervenciones(data, regionId) {
           celda('PROVINCIA', { header: true, width: anchos[0], ...estilo }),
           celda('DISTRITO', { header: true, width: anchos[1], ...estilo }),
           celda('N° EJECUTADAS', { header: true, width: anchos[2], align: AlignmentType.RIGHT, ...estilo }),
-          celda('N° EN EJECUCIÓN', { header: true, width: anchos[3], align: AlignmentType.RIGHT, ...estilo }),
+          ...(mostrarEnEjecucion ? [celda('N° EN EJECUCIÓN', { header: true, width: anchos[3], align: AlignmentType.RIGHT, ...estilo })] : []),
         ],
       }),
       ...filas,
@@ -667,19 +694,8 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
           ]
         )
       )
-      if (data.ejecutadasPorTipo?.length) {
-        const items = data.ejecutadasPorTipo.filter((t) => t.cantidad)
-        if (items.length) {
-          const piezas = items.map((t) => [run({ text: fmtNum(t.cantidad), bold: true }), ` a ${t.tipo}`])
-          const ultima = piezas.pop()
-          const cuerpo = []
-          piezas.forEach((p, i) => {
-            cuerpo.push(...p, i < piezas.length - 1 ? ', ' : ' y ')
-          })
-          cuerpo.push(...ultima)
-          out.push(parrafo(['De estas intervenciones, ', ...cuerpo, '.']))
-        }
-      }
+      const parrafoTipo = parrafoPorTipo(data.ejecutadasPorTipo)
+      if (parrafoTipo) out.push(parrafoTipo)
     } else {
       out.push(
         parrafo(
@@ -706,19 +722,64 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
     .filter((k) => /^\d{4}$/.test(k) && !ANIOS_OCULTOS.includes(k))
     .sort()
   const out = [titulo]
+  // 02/09/2026 -- mismo bug de fondo que el de "en ejecución" (ver comentario grande de abajo):
+  // el año más reciente visible (hoy 2026, el único no oculto) es el año EN CURSO, así que su
+  // "total" curado a mano también se desactualiza según avanza el año (caso real: Franco vio 31
+  // en el documento cuando el pipeline ya traía 34). Los años anteriores (cerrados, ocultos por
+  // ANIOS_OCULTOS) sí son estáticos de verdad -- no cambian.
+  //
+  // OJO -- el desglose "por actividad" del bloque curado (limpieza y descolmatación /
+  // transitabilidad / agua potable, la física) NO tiene equivalente en vivo por esa misma
+  // clasificación -- data.ejecutadasPorTipo agrupa por "tipo" (Emergencia / Prevención / Urgente
+  // atención, la clasificación LEGAL de la intervención, ver Antecedentes), que es un criterio
+  // distinto. Probé mapear tipo->actividad directamente y daba un texto incorrecto ("8
+  // intervenciones de Emergencia..." en vez de "22 de limpieza y descolmatación..."). A pedido de
+  // Franco ("jala los datos en vivo con ese desglose Emergencia, Prevención y Urgente atención"),
+  // para el año en curso se muestra el desglose POR TIPO en vivo (parrafoPorTipo(), la misma pieza
+  // que ya usan las regiones sin narrativa curada como Puno) en vez del desglose "por actividad"
+  // curado -- que se omite para el año en curso, ya que ya no se puede mantener actualizado sin
+  // ese campo. El desglose por actividad curado se sigue mostrando tal cual para años cerrados
+  // (2025, hoy oculto por ANIOS_OCULTOS pero disponible si se revierte eso).
+  const anioActual = anios[anios.length - 1]
   for (const anio of anios) {
     const bloque = n[anio]
-    out.push(
-      parrafo([`Durante el ${anio}, el PNC Maquinarias en la región ${regionLabel} ha `, run({ text: `ejecutado ${bloque.total} intervenciones`, bold: true }), '.'])
-    )
-    bloque.porActividad.forEach((a) => out.push(parrafoActividad(a)))
+    const et = anio === anioActual ? data.ejecutadasTotal : null
+    if (et) {
+      out.push(
+        parrafo([`Durante el ${anio}, el PNC Maquinarias en la región ${regionLabel} ha `, run({ text: `ejecutado ${fmtNum(et.cantidad)} intervenciones`, bold: true }), '.'])
+      )
+      const parrafoTipo = parrafoPorTipo(data.ejecutadasPorTipo)
+      if (parrafoTipo) out.push(parrafoTipo)
+    } else {
+      out.push(
+        parrafo([`Durante el ${anio}, el PNC Maquinarias en la región ${regionLabel} ha `, run({ text: `ejecutado ${bloque.total} intervenciones`, bold: true }), '.'])
+      )
+      bloque.porActividad.forEach((a) => out.push(parrafoActividad(a)))
+    }
   }
-  if (n.enEjecucion) {
+  // 02/09/2026 -- BUG que reportó Franco con captura: n.enEjecucion es el bloque curado a mano
+  // (estático, copiado una vez de un documento -- ver el aviso grande en data/regions/la-libertad.js
+  // sobre que "en ejecución" es justo el campo que se va a desactualizar con el año). Pasó
+  // exactamente eso: la corrida del pipeline del 02/09 trajo 0 en ejecución en vivo (las 3 que
+  // estaban ya pasaron a Ejecutada) pero este párrafo seguía imprimiendo el "3" viejo sin mirar el
+  // dato vivo -- contradecía al propio cuadro de abajo, que sí sale de mapaIntervenciones.js/en
+  // vivo y ya mostraba 0. Ahora se compara contra data.enEjecucion (en vivo, _generated/<region>.js):
+  // si coincide con el curado, se mantiene el detalle rico por actividad (ya verificado); si no
+  // coincide pero sigue habiendo alguna en vivo, se prefiere el número vivo sin el detalle por
+  // actividad (que ya no se puede confirmar); si el dato vivo es 0, no se imprime nada -- no hay
+  // nada que reportar, en vez de una oración que la data ya no respalda.
+  const enEjViva = data.enEjecucion?.length ?? 0
+  if (n.enEjecucion && enEjViva > 0 && enEjViva === n.enEjecucion.total) {
     out.push(parrafo(['Asimismo, se vienen ', run({ text: `ejecutando ${n.enEjecucion.total} intervenciones`, bold: true }), '.']))
     n.enEjecucion.porActividad.forEach((a) => out.push(parrafoActividad(a)))
+  } else if (enEjViva > 0) {
+    out.push(parrafo(['Asimismo, se vienen ', run({ text: `ejecutando ${fmtNum(enEjViva)} intervenciones`, bold: true }), '.']))
   }
   if (resumen) {
-    out.push(parrafo('El cuadro resumen de programadas, ejecutadas y en ejecución es el siguiente:'))
+    // 02/09/2026 -- se saca "programadas" (ya no va en este cuadro, ver comentario junto a
+    // tablaResumenIntervenciones) -- se había quedado desactualizada en esta rama igual que ya se
+    // corrigió en la otra (línea ~701).
+    out.push(parrafo('El cuadro resumen de ejecutadas y en ejecución es el siguiente:'))
     out.push(resumen)
   }
   return out
