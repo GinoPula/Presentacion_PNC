@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 18, m3: 108520.95, km: 8.17, poblacion: 11620, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 19, m3: 124900.95, km: 8.59, poblacion: 12020, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 40, m3: 177797.31, km: 127.54, poblacion: 50333, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 62, m3: 315868.26, m3AguaPotable: 2640.0, km: 137.56, poblacion: 63845 },
+  ejecutadasTotal: { cantidad: 63, m3: 332248.26, m3AguaPotable: 2640.0, km: 137.99, poblacion: 64245 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -22,7 +22,6 @@ export default {
     { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ', inicio: '25/06/2026', fin: '07/09/2026', volAcum: 2145.0, kmAcum: 2.15, poblacion: 274 },
     { provincia: 'Cajamarca', distrito: 'Jesus', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00             ', inicio: '05/08/2026', fin: '13/09/2026', volAcum: 210.0, kmAcum: 0.06, poblacion: 625 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: '  “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”      ', inicio: '07/08/2026', fin: '05/09/2026', volAcum: 405.0, kmAcum: 0.0, poblacion: 5000 },
-    { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO I, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '13/08/2026', fin: '01/09/2026', volAcum: 15600.0, kmAcum: 0.4, poblacion: 400 },
     { provincia: 'Cajamarca', distrito: 'Jesus', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN LA QUEBRADA SHILLAC - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+400, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00     ', inicio: '27/08/2026', fin: '05/09/2026', volAcum: 1450.0, kmAcum: 0.14, poblacion: 750 },
     { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', tipo: 'Prevención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. PAJONAL Y CP. CHORRO BLANCO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”', inicio: '27/08/2026', fin: '04/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 426 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ', inicio: '28/08/2026', fin: '28/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500 },
