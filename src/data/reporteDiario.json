@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "02/09/2026",
-    "horaCorte": "17:44",
+    "horaCorte": "17:59",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -185,13 +185,13 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "19/09/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81372)",
-        "EXCAVADORA HIDRAULICA ( D523227)",
-        "VOLQUETE ( EGM-798)",
-        "VOLQUETE ( EGM-805)",
         "REMOLCADOR ( EGM-982)",
+        "EXCAVADORA HIDRAULICA ( D523227)",
+        "CAMIONETA ( EGM-015)",
+        "TRACTOR SOBRE ORUGA ( 81372)",
+        "VOLQUETE ( EGM-798)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)"
+        "VOLQUETE ( EGM-805)"
       ]
     },
     {
@@ -299,8 +299,8 @@
       "fechaFin": "07/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( 85464)",
-        "VOLQUETE ( EGV-785)",
-        "VOLQUETE ( EGM-882)"
+        "VOLQUETE ( EGM-882)",
+        "VOLQUETE ( EGV-785)"
       ]
     },
     {
@@ -398,8 +398,8 @@
       "fechaInicio": "25/06/2026",
       "fechaFin": "07/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-819)",
-        "VOLQUETE ( EGM-833)"
+        "VOLQUETE ( EGM-833)",
+        "VOLQUETE ( EGV-819)"
       ]
     },
     {
@@ -743,7 +743,6 @@
         "TRACTOR SOBRE ORUGA ( 82541)",
         "CARGADOR FRONTAL ( JLX00293)",
         "VOLQUETE ( EGV-825)",
-        "VOLQUETE ( EGV-840)",
         "EXCAVADORA HIDRAULICA ( TJT10116)"
       ]
     },
@@ -964,8 +963,8 @@
       "fechaInicio": "31/07/2026",
       "fechaFin": "14/08/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-867)",
-        "VOLQUETE ( EGV-854)"
+        "VOLQUETE ( EGV-854)",
+        "VOLQUETE ( EGV-867)"
       ]
     },
     {
