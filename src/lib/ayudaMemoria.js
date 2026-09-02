@@ -409,13 +409,19 @@ function parrafoActividad(a) {
 // cuadro entero cuando eso pasaba (mismo criterio que ya usaba el Anexo para su propio detalle),
 // pero Franco lo probó y pidió que el cuadro se muestre SIEMPRE ("porque no sale el cuadro,
 // corrigelo bien, se necesita ese cuadro") -- tiene que estar presente, solo que con el total
-// correcto. Ahora, si el conteo de mapaIntervenciones.js se queda corto frente al total oficial
+// correcto. Por eso, si el conteo de mapaIntervenciones.js se queda corto frente al total oficial
 // (ejecutadasTotal.cantidad / enEjecucion.length), se agrega una fila "Otros" con la diferencia,
-// para que el Total general del cuadro cuadre EXACTO con esos totales oficiales -- los mismos que
-// ya se mencionan en el párrafo de arriba -- en vez de mostrar un cuadro que se queda corto y lo
-// contradice. Es un cambio chico y honesto (no se inventa a qué distrito pertenecen esos puntos,
-// solo se reconoce que existen) en vez de repartirlos a ciegas entre los distritos que sí tiene
-// mapaIntervenciones.js, lo que sería inventar un dato que no se tiene.
+// para que el Total general del cuadro cuadre EXACTO con esos totales oficiales -- en vez de
+// mostrar un cuadro que se queda corto y los contradice.
+//
+// RAÍZ DEL PROBLEMA, corregida en el pipeline (02/09/2026, mismo día -- Franco: "la fuente para
+// esa información es del main"): esos puntos "faltantes" no son un hueco de datos real, es que
+// formatear_puntos_mapa() en generar_todas_regiones.py los excluía COMPLETOS (con todo y provincia/
+// distrito) cuando su coordenada no se podía ubicar, en vez de excluir solo el pin del mapa. Ya se
+// corrigió ahí -- ahora esos puntos SÍ llegan a mapaIntervenciones.js (con lat/lng en null) y
+// tablaResumenIntervenciones() los agrupa como cualquier otro punto, por provincia/distrito reales.
+// La fila "Otros" de acá abajo queda como red de seguridad para cualquier otro desfase que aparezca
+// (o mientras Franco no vuelve a correr el pipeline contra el MAIN), no como la solución de fondo.
 function tablaResumenIntervenciones(data, regionId) {
   const puntos = mapaIntervenciones[regionId]
   if (!puntos || !puntos.length) return null

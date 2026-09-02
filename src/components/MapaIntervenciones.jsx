@@ -12,8 +12,18 @@ const ESRI_TOPO_URL = 'https://server.arcgisonline.com/ArcGIS/rest/services/Worl
 
 // Puntos de las 8 regiones combinados en un solo universo, cada uno etiquetado con su región --
 // para la vista "Mapa general" de la pestaña Global. Se arma una sola vez (los datos son estáticos).
+//
+// 02/09/2026 -- mapaIntervenciones.js ahora puede traer puntos con "lat"/"lng" en null (el pipeline
+// los incluye igual, sin coordenada, para no perder su provincia/distrito en el cuadro resumen del
+// Ayuda Memoria -- ver comentario de formatear_puntos_mapa() en generar_todas_regiones.py). Este
+// mapa sí necesita coordenada para dibujar un pin, así que se filtran acá -- el comportamiento del
+// mapa no cambia frente a como era antes de ese fix.
+const tienenCoordenada = (p) => p.lat != null && p.lng != null
+
 const allRegionsPoints = REGION_LIST.flatMap((r) =>
-  (mapaIntervenciones[r.id] || []).map((p) => ({ ...p, region: r.id, regionLabel: r.shortLabel })),
+  (mapaIntervenciones[r.id] || [])
+    .filter(tienenCoordenada)
+    .map((p) => ({ ...p, region: r.id, regionLabel: r.shortLabel })),
 )
 
 const ANA_REPORTE_RIESGOS_URL = 'https://ginopula.github.io/ReporteRiesgos/'
@@ -159,7 +169,7 @@ export default function MapaIntervenciones({ regionId, shortLabel, isGlobal = fa
   const boundaryLayerRef = useRef(null)
   const prevFilterKeyRef = useRef('')
 
-  const allPoints = isGlobal ? allRegionsPoints : mapaIntervenciones[regionId] || []
+  const allPoints = isGlobal ? allRegionsPoints : (mapaIntervenciones[regionId] || []).filter(tienenCoordenada)
 
   const [showEjecutada, setShowEjecutada] = useState(true)
   const [showEnEjecucion, setShowEnEjecucion] = useState(true)

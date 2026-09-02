@@ -14,7 +14,7 @@ export default function Clasificacion() {
           description="Cuatro rutas de activación definen cómo el PNC moviliza maquinaria y personal, según el nivel de urgencia y el respaldo institucional de cada intervención."
         />
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {clasificacion.map((c, i) => {
             const Icon = icons[i]
             return (

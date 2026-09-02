@@ -21,7 +21,7 @@ export default function TiposIntervencion() {
           description="Seis modalidades de intervención con maquinaria pesada del PNC, activadas según el nivel de urgencia y respaldadas por su base legal correspondiente. Va a ser igual para todas las UBOs."
         />
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {tiposIntervencion.map((t, i) => (
             <Reveal key={t.id} delay={i * 0.05}>
               <Card className="group h-full overflow-hidden p-0 transition-colors hover:bg-surface-3/60">

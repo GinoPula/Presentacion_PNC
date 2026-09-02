@@ -24,38 +24,38 @@ export default function Activos({ data }) {
           ))}
         </div>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-5">
+        <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-5">
           <Reveal delay={0.1} className="lg:col-span-3">
             <TableShell>
               <thead>
                 <tr className="border-b border-white/[0.06] text-xs uppercase tracking-wide text-ink-mute">
-                  <th className="px-5 py-3.5 font-medium">Tipo de unidad</th>
-                  <th className="px-5 py-3.5 font-medium">Marca</th>
-                  <th className="px-5 py-3.5 text-right font-medium">Cant.</th>
-                  <th className="px-5 py-3.5 font-medium">Estado</th>
+                  <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Tipo de unidad</th>
+                  <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Marca</th>
+                  <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Cant.</th>
+                  <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Estado</th>
                 </tr>
               </thead>
               <tbody>
                 {flota.map((f, i) => (
-                  <tr key={`${f.tipo}-${f.marca}-${i}`} className="border-b border-white/[0.04] text-sm last:border-0 hover:bg-white/[0.02]">
-                    <td className="px-5 py-3.5 font-medium text-ink">
+                  <tr key={`${f.tipo}-${f.marca}-${i}`} className="border-b border-white/[0.04] text-xs last:border-0 hover:bg-white/[0.02] sm:text-sm">
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium text-ink">
                       {f.tipo}
                       <div className="mt-0.5 font-tabular text-[11px] text-ink-mute">{f.codigos.join(' · ')}</div>
                     </td>
-                    <td className="px-5 py-3.5 text-ink-dim">{f.marca}</td>
-                    <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{f.cantidad}</td>
-                    <td className="px-5 py-3.5">
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-ink-dim">{f.marca}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{f.cantidad}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5">
                       <Badge tone={f.estado === 'operativo' ? 'good' : 'critical'}>{f.estado === 'operativo' ? 'Operativo' : 'Inoperativo'}</Badge>
                       {f.nota && <div className="mt-1 font-tabular text-[10px] text-ink-mute">{f.nota}</div>}
                     </td>
                   </tr>
                 ))}
-                <tr className="bg-white/[0.03] text-sm font-semibold text-ink">
-                  <td className="px-5 py-3.5" colSpan={2}>
+                <tr className="bg-white/[0.03] text-xs font-semibold text-ink sm:text-sm">
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5" colSpan={2}>
                     Total inventario
                   </td>
-                  <td className="px-5 py-3.5 text-right font-tabular">{flotaTotal}</td>
-                  <td className="px-5 py-3.5" />
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{flotaTotal}</td>
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5" />
                 </tr>
               </tbody>
             </TableShell>

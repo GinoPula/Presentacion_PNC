@@ -17,29 +17,29 @@ export default function Intervenciones({ data }) {
           <TableShell>
             <thead>
               <tr className="border-b border-white/[0.06] text-xs uppercase tracking-wide text-ink-mute">
-                <th className="px-5 py-3.5 font-medium">Tipo de actividad</th>
-                <th className="px-5 py-3.5 text-right font-medium">Cant. int.</th>
-                <th className="px-5 py-3.5 text-right font-medium">m³ removidos</th>
-                <th className="px-5 py-3.5 text-right font-medium">Km atendidos</th>
-                <th className="px-5 py-3.5 text-right font-medium">Pob. beneficiada</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Tipo de actividad</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Cant. int.</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">m³ removidos</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Km atendidos</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Pob. beneficiada</th>
               </tr>
             </thead>
             <tbody>
               {ejecutadasPorTipo.map((r) => (
-                <tr key={r.tipo} className="border-b border-white/[0.04] text-sm last:border-0 hover:bg-white/[0.02]">
-                  <td className="px-5 py-3.5 font-medium text-ink">{r.tipo}</td>
-                  <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.cantidad)}</td>
-                  <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.m3)}</td>
-                  <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{r.km === null ? '—' : fmtDecimal(r.km)}</td>
-                  <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.poblacion)}</td>
+                <tr key={r.tipo} className="border-b border-white/[0.04] text-xs last:border-0 hover:bg-white/[0.02] sm:text-sm">
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium text-ink">{r.tipo}</td>
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.cantidad)}</td>
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.m3)}</td>
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{r.km === null ? '—' : fmtDecimal(r.km)}</td>
+                  <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.poblacion)}</td>
                 </tr>
               ))}
-              <tr className="bg-white/[0.03] text-sm font-semibold text-ink">
-                <td className="px-5 py-3.5">Total general</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtInt(ejecutadasTotal.cantidad)}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtDecimal(ejecutadasTotal.m3)}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtDecimal(ejecutadasTotal.km)}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtInt(ejecutadasTotal.poblacion)}</td>
+              <tr className="bg-white/[0.03] text-xs font-semibold text-ink sm:text-sm">
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5">Total general</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtInt(ejecutadasTotal.cantidad)}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtDecimal(ejecutadasTotal.m3)}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtDecimal(ejecutadasTotal.km)}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtInt(ejecutadasTotal.poblacion)}</td>
               </tr>
             </tbody>
           </TableShell>
@@ -63,7 +63,11 @@ export default function Intervenciones({ data }) {
                   </div>
                   <Badge tone="amber">{e.tipo}</Badge>
                 </div>
-                <div className="mt-5 grid grid-cols-3 gap-4 border-t border-white/[0.06] pt-4">
+                {/* 02/09/2026 -- a pedido de Franco (responsive en celular): antes era grid-cols-3
+                    fijo -- con fechas de vigencia largas ("dd/mm/aaaa — dd/mm/aaaa") en una columna
+                    de ~90px se veía cortado/apretado en celular. Se apila en una columna en pantallas
+                    angostas y vuelve a 3 columnas desde sm:. */}
+                <div className="mt-5 grid grid-cols-1 gap-3 border-t border-white/[0.06] pt-4 sm:grid-cols-3 sm:gap-4">
                   <div>
                     <div className="text-[11px] uppercase tracking-wide text-ink-mute">Vigencia</div>
                     <div className="mt-1 font-tabular text-xs text-ink-dim">

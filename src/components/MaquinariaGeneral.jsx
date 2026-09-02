@@ -15,7 +15,7 @@ export default function MaquinariaGeneral() {
           description={`Flota vehicular y de maquinaria pesada asignada a las ${REGION_LIST.length} UBOs regionales, sumada a nivel nacional.`}
         />
 
-        <div className="mt-12 grid gap-4 lg:grid-cols-[320px_1fr]">
+        <div className="mt-12 grid grid-cols-1 gap-4 lg:grid-cols-[320px_1fr]">
           <Reveal>
             <Card className="flex h-full flex-col items-center justify-center gap-2 p-8 text-center">
               <HiOutlineTruck className="text-2xl text-amber" />

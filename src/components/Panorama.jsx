@@ -63,7 +63,7 @@ export default function Panorama({ data }) {
           />
         </div>
 
-        <div className="mt-6 grid gap-6 lg:grid-cols-5">
+        <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-5">
           <Reveal delay={0.1} className="lg:col-span-3">
             <Card className="h-full p-6 sm:p-8">
               <div className="flex items-center justify-between">
@@ -83,7 +83,7 @@ export default function Panorama({ data }) {
                       tick={{ fill: '#aab1c0', fontSize: 13 }}
                       axisLine={false}
                       tickLine={false}
-                      width={110}
+                      width={128}
                     />
                     <Tooltip cursor={{ fill: 'rgba(255,255,255,0.04)' }} content={<ChartTooltip />} />
                     <Bar dataKey="cantidad" radius={[0, 6, 6, 0]} maxBarSize={28}>
@@ -113,9 +113,12 @@ export default function Panorama({ data }) {
               </div>
               <div className="flex flex-1 flex-col gap-3">
                 {conveniosVigentes.map((c) => (
-                  <div key={c.entidad} className="flex items-center justify-between gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-3">
+                  <div
+                    key={c.entidad}
+                    className="flex flex-col gap-1 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-3"
+                  >
                     <span className="text-sm font-medium text-ink">{c.entidad}</span>
-                    <span className="whitespace-nowrap font-tabular text-xs text-ink-mute">{c.detail}</span>
+                    <span className="font-tabular text-xs text-ink-mute sm:whitespace-nowrap">{c.detail}</span>
                   </div>
                 ))}
               </div>

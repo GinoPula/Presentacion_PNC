@@ -66,11 +66,15 @@ export function StatTile({ icon, value, label, sub, delay = 0, accent = 'brand' 
   }
   return (
     <Reveal delay={delay}>
-      <Card className="flex h-full flex-col gap-3 p-6">
+      {/* 02/09/2026 -- a pedido de Franco (responsive en celular): antes el valor era
+          text-3xl fijo -- con totales nacionales grandes (ej. "1,843,854") en una tarjeta
+          de 2 columnas (~155px) el número se salía de la tarjeta y empujaba el ancho de
+          toda la página. Se achica en celular y vuelve al tamaño de siempre desde sm:. */}
+      <Card className="flex h-full flex-col gap-3 p-4 sm:p-6">
         <div className="flex items-center justify-between">
           {icon && <span className={`text-xl ${accentMap[accent]}`}>{icon}</span>}
         </div>
-        <div className={`font-tabular font-display text-3xl font-bold tracking-tight sm:text-4xl ${accentMap[accent]}`}>
+        <div className={`font-tabular font-display text-xl font-bold tracking-tight sm:text-3xl lg:text-4xl ${accentMap[accent]}`}>
           {value}
         </div>
         <div className="text-sm font-medium text-ink">{label}</div>
@@ -98,7 +102,11 @@ export function Badge({ children, tone = 'default' }) {
 export function TableShell({ children }) {
   return (
     <div className="scroll-thin overflow-x-auto rounded-2xl border border-white/[0.06] bg-surface-2/60">
-      <table className="w-full min-w-[560px] border-collapse text-left text-sm">{children}</table>
+      {/* 02/09/2026 -- a pedido de Franco: más compacto en celular. min-width más bajo + letra más
+          chica en pantallas angostas para que quepan más columnas antes de tener que deslizar; a
+          partir de sm: vuelve al tamaño de siempre. El deslizado horizontal (overflow-x-auto de
+          arriba) sigue como respaldo para las tablas que de todos modos no entran. */}
+      <table className="w-full min-w-[480px] border-collapse text-left text-xs sm:min-w-[560px] sm:text-sm">{children}</table>
     </div>
   )
 }

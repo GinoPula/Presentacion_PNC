@@ -13,7 +13,7 @@ export default function PuntosCriticos({ data }) {
           description="Sectores identificados por la Autoridad Nacional del Agua dentro del acuerdo multisectorial, cuya intervención de limpieza y descolmatación fue asignada al Ministerio de Vivienda, Construcción y Saneamiento."
         />
 
-        <div className="mt-10 grid gap-5 lg:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-2">
           {puntosCriticos.map((p, i) => (
             <Reveal key={p.fichaTecnica || `${p.distrito}-${i}`} delay={i * 0.08}>
               <Card className="h-full p-6 sm:p-7">

@@ -44,7 +44,7 @@ export default function Escenarios({ data }) {
           description="Proyección de costos operativos frente al Fenómeno El Niño (FEN), según la severidad de las condiciones climáticas esperadas en la región."
         />
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2">
           {escenarios.map((e) => (
             <Reveal key={e.nombre} delay={e.nombre.includes('1') ? 0 : 0.08}>
               <Card className="p-6 sm:p-7">

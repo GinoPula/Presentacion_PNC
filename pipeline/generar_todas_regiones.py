@@ -637,9 +637,18 @@ def consultar_departamento(cur, departamento, periodo):
     """, (departamento,))
     resultado["_flota_cruda"] = cur.fetchall()
 
-    # ---------- 6) PUNTOS DEL MAPA (ejecutadas + en ejecución, con coordenadas) ----------
+    # ---------- 6) PUNTOS DEL MAPA (ejecutadas + en ejecución) ----------
     # Confirmado 25/08/2026: pnc.tb_em_intervencion tiene lat/long/sector/ficha_tec/
     # enlace_info_cierre directamente -- ya no depende del Excel del MAIN.
+    #
+    # 02/09/2026 -- OJO: esta consulta traía "AND inte.lat IS NOT NULL AND inte.long IS NOT
+    # NULL", así que un registro con coordenada nula en la base ni siquiera llegaba a Python --
+    # se perdía ACÁ, antes de que formatear_puntos_mapa() pudiera hacer nada. Es la causa real
+    # del bug que reportó Franco (La Libertad: 3 "EJECUTADA" 2026 sin fila en el cuadro resumen
+    # del Ayuda Memoria pese a existir en el MAIN). Se saca el filtro de coordenada: ahora se
+    # traen TODAS las EJECUTADA/EN EJECUCIÓN del departamento/periodo, tengan o no lat/long, y es
+    # formatear_puntos_mapa() (ver su comentario) el que decide qué hacer con las que no tienen
+    # coordenada -- las mantiene para el cuadro/Anexo, sin pin en el mapa.
     cur.execute("""
         SELECT inte.id_intervencion, inte.lat, inte.long, inte.estado, inte.tipo,
                inte.provincia, inte.distrito, inte.sector, inte.descripcion,
@@ -655,7 +664,6 @@ def consultar_departamento(cur, departamento, periodo):
         FROM pnc.tb_em_intervencion inte
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s
           AND inte.estado IN ('EJECUTADA', 'EN EJECUCIÓN')
-          AND inte.lat IS NOT NULL AND inte.long IS NOT NULL
         ORDER BY inte.fecha_inicio;
     """, (departamento, periodo))
     resultado["_puntos_mapa_crudo"] = cur.fetchall()
@@ -868,11 +876,25 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
     """Convierte las filas crudas de la sección 6) de consultar_departamento()
     (ejecutadas/en ejecución con lat/long) a la misma forma que ya usan los
     puntos cargados a mano en mapaIntervenciones.js. De paso valida/corrige
-    cada coordenada contra su departamento (ver corregir_coordenada_punto) --
-    los puntos que no se puedan ubicar en ningún lugar razonable de Perú se
-    excluyen en vez de aparecer en el mar o fuera del país."""
+    cada coordenada contra su departamento (ver corregir_coordenada_punto).
+
+    02/09/2026 -- ANTES, un punto cuya coordenada no se podía ubicar en
+    ningún lugar razonable de Perú se excluía COMPLETO (con provincia,
+    distrito, estado, ficha, etc. y todo), no solo su pin del mapa. Eso hacía
+    que esos registros -- reales en el MAIN, solo sin coordenada usable --
+    desaparecieran también de tablaResumenIntervenciones() en el Ayuda
+    Memoria (caso detectado por Franco: La Libertad mostraba "3 en ejecución"
+    en la narrativa pero 0 en el cuadro PROVINCIA/DISTRITO, porque a esas 3
+    intervenciones les faltaba la coordenada y por eso mapaIntervenciones.js
+    no las traía en absoluto). Ahora el punto SIEMPRE se agrega -- con "lat"/
+    "lng" en null cuando la coordenada no se pudo resolver -- y son los
+    consumidores que sí necesitan coordenada (el mapa, MapaIntervenciones.jsx)
+    los que filtran esos puntos antes de dibujar pines/encuadrar el mapa. Los
+    consumidores que solo necesitan provincia/distrito/estado (el cuadro
+    resumen del Ayuda Memoria, el Anexo, el filtro por ámbito) ya no pierden
+    estos registros."""
     puntos = []
-    excluidos = 0
+    sin_coordenada = 0
     for p in puntos_crudo:
         id_i = entero(p["id_intervencion"])
         sector_orig = titulo(p["sector"])
@@ -881,12 +903,11 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
             departamento, id_intervencion=id_i, sector=sector_orig,
         )
         if lat is None or lon is None:
-            excluidos += 1
-            continue
+            sin_coordenada += 1
         puntos.append({
             "id": id_i,
-            "lat": round(lat, 6),
-            "lng": round(lon, 6),
+            "lat": round(lat, 6) if lat is not None else None,
+            "lng": round(lon, 6) if lon is not None else None,
             "estado": (p["estado"] or "").strip().capitalize(),
             "tipo": (p["tipo"] or "").strip().capitalize(),
             "provincia": titulo(p["provincia"]),
@@ -900,9 +921,10 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
             "volumen": num(p["volumen"]),
             "enlace": p["enlace_info_cierre"] if p["enlace_info_cierre"] else None,
         })
-    if excluidos:
-        print(f"  [!] {excluidos} punto(s) del mapa excluido(s) por coordenadas inválidas "
-              f"(ver avisos arriba).")
+    if sin_coordenada:
+        print(f"  [!] {sin_coordenada} punto(s) sin coordenada usable (ver avisos arriba) -- "
+              f"se incluyen igual en mapaIntervenciones.js (provincia/distrito/estado), pero "
+              f"sin pin en el mapa.")
     return puntos
 
 
@@ -1051,7 +1073,11 @@ def jstr(v):
 
 
 def jcoord(v):
-    """Número con hasta 6 decimales sin ceros de más (-3.5479, -75.202, 5928)."""
+    """Número con hasta 6 decimales sin ceros de más (-3.5479, -75.202, 5928).
+    None -> "null" (02/09/2026: caso de lat/lng sin coordenada usable, ver
+    formatear_puntos_mapa)."""
+    if v is None:
+        return "null"
     v = round(float(v), 6)
     s = f"{v:.6f}".rstrip("0").rstrip(".")
     return s if s not in ("", "-") else "0"

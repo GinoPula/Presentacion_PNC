@@ -24,12 +24,12 @@ export default function Programadas({ data }) {
           <TableShell>
             <thead>
               <tr className="border-b border-white/[0.06] text-xs uppercase tracking-wide text-ink-mute">
-                <th className="px-5 py-3.5 font-medium">Provincia</th>
-                <th className="px-5 py-3.5 font-medium">Distrito</th>
-                <th className="px-5 py-3.5 text-right font-medium">Cant.</th>
-                <th className="px-5 py-3.5 text-right font-medium">Meta vol. (m³)</th>
-                <th className="px-5 py-3.5 text-right font-medium">Meta km</th>
-                <th className="px-5 py-3.5 text-right font-medium">Pob. benef.</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Provincia</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium">Distrito</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Cant.</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Meta vol. (m³)</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Meta km</th>
+                <th className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-medium">Pob. benef.</th>
               </tr>
             </thead>
             <tbody>
@@ -37,22 +37,22 @@ export default function Programadas({ data }) {
                 const showProvincia = r.provincia !== lastProvincia
                 lastProvincia = r.provincia
                 return (
-                  <tr key={i} className="border-b border-white/[0.04] text-sm last:border-0 hover:bg-white/[0.02]">
-                    <td className="px-5 py-3.5 font-medium text-ink">{showProvincia ? r.provincia : <span className="text-ink-mute/40">—</span>}</td>
-                    <td className="px-5 py-3.5 text-ink-dim">{r.distrito}</td>
-                    <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{r.cantidad}</td>
-                    <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.metaVol)}</td>
-                    <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.metaKm)}</td>
-                    <td className="px-5 py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.poblacion)}</td>
+                  <tr key={i} className="border-b border-white/[0.04] text-xs last:border-0 hover:bg-white/[0.02] sm:text-sm">
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 font-medium text-ink">{showProvincia ? r.provincia : <span className="text-ink-mute/40">—</span>}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-ink-dim">{r.distrito}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{r.cantidad}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.metaVol)}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtDecimal(r.metaKm)}</td>
+                    <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular text-ink-dim">{fmtInt(r.poblacion)}</td>
                   </tr>
                 )
               })}
-              <tr className="bg-white/[0.03] text-sm font-semibold text-ink">
-                <td className="px-5 py-3.5" colSpan={2}>Total general</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{programadasTotal.cantidad}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtDecimal(programadasTotal.metaVol)}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtDecimal(programadasTotal.metaKm)}</td>
-                <td className="px-5 py-3.5 text-right font-tabular">{fmtInt(programadasTotal.poblacion)}</td>
+              <tr className="bg-white/[0.03] text-xs font-semibold text-ink sm:text-sm">
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5" colSpan={2}>Total general</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{programadasTotal.cantidad}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtDecimal(programadasTotal.metaVol)}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtDecimal(programadasTotal.metaKm)}</td>
+                <td className="px-3 py-2.5 sm:px-5 sm:py-3.5 text-right font-tabular">{fmtInt(programadasTotal.poblacion)}</td>
               </tr>
             </tbody>
           </TableShell>
