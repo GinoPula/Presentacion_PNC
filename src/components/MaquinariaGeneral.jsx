@@ -26,7 +26,7 @@ export default function MaquinariaGeneral() {
 
           <Reveal delay={0.08}>
             <Card className="h-full p-6 sm:p-7">
-              <div className="text-sm font-semibold text-ink">Flota por región</div>
+              <div className="text-sm font-semibold text-ink">Flota por UBO</div>
               <div className="mt-5 flex flex-col gap-3">
                 {regionFlotaRanking.map((r) => (
                   <div key={r.id} className="flex items-center gap-4">

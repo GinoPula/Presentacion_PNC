@@ -54,7 +54,7 @@ export default function PanoramaGlobal() {
           <Card className="p-6 sm:p-8">
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="font-display text-lg font-semibold text-ink">Intervenciones ejecutadas por región</h3>
+                <h3 className="font-display text-lg font-semibold text-ink">Intervenciones ejecutadas por UBO</h3>
                 <p className="mt-1 text-sm text-ink-mute">Cantidad de intervenciones · 2026 · mayor a menor</p>
               </div>
             </div>
