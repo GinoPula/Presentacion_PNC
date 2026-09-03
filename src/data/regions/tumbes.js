@@ -142,6 +142,26 @@ export default {
     },
   ],
 
+  // Resumen del Presupuesto FEN para esta región (agregado 03/09/2026, a pedido de Franco: el
+  // mismo detalle que se armó para la Vista General -- ver comentario grande junto a
+  // presupuestoFenResumenGlobal en src/data/global.js) -- mismas 2 fuentes, filtradas por
+  // Departamento = TUMBES:
+  //   puntosCriticos/materialM3/poblacionBeneficiada/demandaMef: "Demandas 2026 FEN- Formato
+  //     Cronograma Meta Fisica FINALV2_010926.xlsx" (fila a fila, 75 filas de Tumbes).
+  //   longitudKm: "programacion_no_fen.xlsx", hoja FINAL, fila TUMBES -- es la única de las dos
+  //     que trae Km.
+  // OJO: 75 puntos críticos (este resumen) vs. las 79 "intervenciones" del Escenario Severo de
+  // arriba -- son 2 fuentes distintas (el Excel de demanda MEF vs. el Decreto Supremo de
+  // Transferencia de Partidas), igual que ya se explica en el comentario del Escenario Severo.
+  presupuestoFenResumen: {
+    fechaCorte: '01/09/2026',
+    puntosCriticos: 75,
+    materialM3: 467336.22,
+    longitudKm: 63.463,
+    poblacionBeneficiada: 104056,
+    demandaMef: 1887809.73,
+  },
+
   capacidad: [
     { label: 'Maquinaria pesada', valor: 8 },
     { label: 'Volquetes', valor: 8 },

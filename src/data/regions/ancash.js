@@ -143,6 +143,23 @@ export default {
     { nombre: 'Escenario N° 2', condicion: 'Condiciones Severas', presupuesto: 3595890.41, mantenimiento: 1296246.53, combustible: 1292739.19, personal: 1006904.69, intervenciones: null },
   ],
 
+  // Resumen del Presupuesto FEN para esta región (agregado 03/09/2026, a pedido de Franco: el
+  // mismo detalle que se armó para la Vista General -- ver comentario grande junto a
+  // presupuestoFenResumenGlobal en src/data/global.js) -- mismas 2 fuentes, filtradas por
+  // Departamento = ANCASH:
+  //   puntosCriticos/materialM3/poblacionBeneficiada/demandaMef: "Demandas 2026 FEN- Formato
+  //     Cronograma Meta Fisica FINALV2_010926.xlsx" (fila a fila, 104 filas de Áncash).
+  //   longitudKm: "programacion_no_fen.xlsx", hoja FINAL, fila ANCASH -- es la única de las dos
+  //     que trae Km.
+  presupuestoFenResumen: {
+    fechaCorte: '01/09/2026',
+    puntosCriticos: 104,
+    materialM3: 502492.81,
+    longitudKm: 74.62,
+    poblacionBeneficiada: 194393,
+    demandaMef: 2029825.17,
+  },
+
   capacidad: [
     { label: 'Maquinaria pesada', valor: 9 },
     { label: 'Volquetes', valor: 2 },

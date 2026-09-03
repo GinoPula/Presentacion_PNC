@@ -135,6 +135,23 @@ export default {
     },
   ],
 
+  // Resumen del Presupuesto FEN para esta región (agregado 03/09/2026, a pedido de Franco: el
+  // mismo detalle que se armó para la Vista General -- ver comentario grande junto a
+  // presupuestoFenResumenGlobal en src/data/global.js) -- mismas 2 fuentes, filtradas por
+  // Departamento = LAMBAYEQUE:
+  //   puntosCriticos/materialM3/poblacionBeneficiada/demandaMef: "Demandas 2026 FEN- Formato
+  //     Cronograma Meta Fisica FINALV2_010926.xlsx" (fila a fila, 33 filas de Lambayeque).
+  //   longitudKm: "programacion_no_fen.xlsx", hoja FINAL, fila LAMBAYEQUE -- es la única de las
+  //     dos que trae Km.
+  presupuestoFenResumen: {
+    fechaCorte: '01/09/2026',
+    puntosCriticos: 33,
+    materialM3: 438538.09,
+    longitudKm: 56.824,
+    poblacionBeneficiada: 82843,
+    demandaMef: 1771479.38,
+  },
+
   capacidad: [
     { label: 'Maquinaria pesada', valor: 7 },
     { label: 'Volquetes', valor: 7 },

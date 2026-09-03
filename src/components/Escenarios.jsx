@@ -1,9 +1,37 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
-import { HiOutlineCurrencyDollar, HiOutlineExclamationCircle } from 'react-icons/hi'
+import { HiOutlineCurrencyDollar, HiOutlineExclamationCircle, HiOutlineCheckCircle } from 'react-icons/hi'
 import { Reveal, SectionHeading, Card, StatTile } from './UI'
-import { fmtCurrency, fmtInt } from '../lib/format'
+import { fmtCurrency, fmtInt, fmtDecimal } from '../lib/format'
 
 const palette = ['#2a78d6', '#eb6834']
+
+// Mismos 5 ítems que el resumen de la Vista General (ver RESUMEN_ITEMS en PresupuestoGeneral.jsx
+// y el comentario grande junto a presupuestoFenResumenGlobal en src/data/global.js) -- agregado
+// 03/09/2026 a pedido de Franco: quería este mismo detalle también por región, no solo a nivel
+// nacional. Misma fuente y mismo criterio, filtrado por departamento en vez de sumado a nivel país
+// -- ver el comentario junto a `presupuestoFenResumen` en cada archivo de región que lo trae.
+const RESUMEN_ITEMS = (r) => [
+  {
+    label: 'Puntos Críticos',
+    text: `Intervención en ${fmtInt(r.puntosCriticos)} puntos críticos identificados en la región.`,
+  },
+  {
+    label: 'Descolmatación',
+    text: `Movimiento de ${fmtDecimal(r.materialM3 / 1000000, 1)} millones de m³ de material excedente.`,
+  },
+  {
+    label: 'Longitud de Cauces',
+    text: `Limpieza y adecuación en ${fmtDecimal(r.longitudKm, 1)} Km de cauces.`,
+  },
+  {
+    label: 'Impacto Social',
+    text: `${fmtDecimal(r.poblacionBeneficiada / 1000000, 1)} millones de personas protegidas y beneficiadas.`,
+  },
+  {
+    label: 'Demanda MEF',
+    text: `Solicitud de demanda presupuestal por ${fmtCurrency(r.demandaMef)}.`,
+  },
+]
 
 function ChartTooltip({ active, payload, label }) {
   if (!active || !payload?.length) return null
@@ -21,7 +49,7 @@ function ChartTooltip({ active, payload, label }) {
 }
 
 export default function Escenarios({ data }) {
-  const { escenarios } = data
+  const { escenarios, presupuestoFenResumen } = data
   const seriesColors = Object.fromEntries(escenarios.map((e, i) => [e.nombre, palette[i % palette.length]]))
   const chartData = ['Mantenimiento', 'Combustible', 'Personal'].map((rubro) => {
     const key = rubro === 'Mantenimiento' ? 'mantenimiento' : rubro === 'Combustible' ? 'combustible' : 'personal'
@@ -43,6 +71,26 @@ export default function Escenarios({ data }) {
           title={brecha ? `${escenarios.length} escenarios, una brecha de ${brecha}x en el presupuesto` : 'Escenarios de presupuesto ante el FEN'}
           description="Proyección de costos operativos frente al Fenómeno El Niño (FEN), según la severidad de las condiciones climáticas esperadas en la región."
         />
+
+        {presupuestoFenResumen && (
+          <Reveal delay={0.02} className="mt-10">
+            <Card className="p-6 sm:p-8">
+              <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-mute">
+                Demanda presupuestal oficial ante el MEF · corte {presupuestoFenResumen.fechaCorte}
+              </div>
+              <ul className="mt-4 flex flex-col gap-3">
+                {RESUMEN_ITEMS(presupuestoFenResumen).map((item) => (
+                  <li key={item.label} className="flex items-start gap-3 text-sm leading-relaxed text-ink-dim">
+                    <HiOutlineCheckCircle className="mt-0.5 shrink-0 text-series-1" />
+                    <span>
+                      <span className="font-semibold text-ink">{item.label}:</span> {item.text}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </Reveal>
+        )}
 
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2">
           {escenarios.map((e) => (

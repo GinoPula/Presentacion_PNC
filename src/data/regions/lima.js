@@ -81,6 +81,23 @@ export default {
     { nombre: 'Escenario N° 2', condicion: 'Condiciones Severas', presupuesto: 8082191.78, mantenimiento: 2913468.4, combustible: 2905585.22, personal: 2263138.16, intervenciones: null },
   ],
 
+  // Resumen del Presupuesto FEN para esta región (agregado 03/09/2026, a pedido de Franco: el
+  // mismo detalle que se armó para la Vista General -- ver comentario grande junto a
+  // presupuestoFenResumenGlobal en src/data/global.js) -- mismas 2 fuentes, filtradas por
+  // Departamento = LIMA:
+  //   puntosCriticos/materialM3/poblacionBeneficiada/demandaMef: "Demandas 2026 FEN- Formato
+  //     Cronograma Meta Fisica FINALV2_010926.xlsx" (fila a fila, 221 filas de Lima).
+  //   longitudKm: "programacion_no_fen.xlsx", hoja FINAL, fila LIMA -- es la única de las dos que
+  //     trae Km.
+  presupuestoFenResumen: {
+    fechaCorte: '01/09/2026',
+    puntosCriticos: 221,
+    materialM3: 1268365.55,
+    longitudKm: 181.702,
+    poblacionBeneficiada: 347783,
+    demandaMef: 5123576.42,
+  },
+
   // Sin fuente de capacidad de flota (Estado_Maquinarias) filtrada por Lima todavía --
   // se deja vacío (nunca inventado) hasta correr el pipeline o recibir el Excel de flota.
   capacidad: [],
