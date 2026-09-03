@@ -5,7 +5,6 @@ import { fmtCurrency, fmtInt, fmtDecimal } from '../lib/format'
 import {
   escenariosGlobal,
   regionesConEscenarios,
-  regionesSinEscenarios,
   programadasCantidadGlobal,
   presupuestoFenResumenGlobal,
 } from '../data/global'
@@ -85,7 +84,7 @@ export default function PresupuestoGeneral() {
         <SectionHeading
           eyebrow="Fenómeno El Niño · Presupuesto nacional"
           title="Presupuesto general ante el FEN"
-          description={`Demanda presupuestal oficial del escenario Severo ante el MEF, sobre los ${fmtInt(presupuestoFenResumenGlobal.puntosCriticos)} puntos críticos de las ${presupuestoFenResumenGlobal.regionesConPuntos} regiones. El desglose por rubro (mantenimiento, combustible, personal) del gráfico de abajo solo está disponible para ${regionesConEscenarios.length} de esas regiones (${nombresRegiones}) — ${regionesSinEscenarios.map((r) => r.shortLabel).join(', ')} aún no cuentan con esa data detallada.`}
+          description={`Demanda presupuestal oficial del escenario Severo ante el MEF, sobre los ${fmtInt(presupuestoFenResumenGlobal.puntosCriticos)} puntos críticos de las ${presupuestoFenResumenGlobal.regionesConPuntos} regiones.`}
         />
 
         <Reveal delay={0.05} className="mt-10">
