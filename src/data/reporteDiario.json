@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/09/2026",
-    "horaCorte": "10:44",
+    "horaCorte": "10:59",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -40,7 +40,7 @@
       "marcoLegal": "CONVENIO Nº035-2026",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH",
       "fechaInicio": "26/08/2026",
-      "fechaFin": "31/08/2026",
+      "fechaFin": "07/09/2026",
       "maquinaria": [
         "CAMIONETA ( EAJ-733)",
         "REMOLCADOR ( EAJ-560)",
@@ -131,25 +131,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10418",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "A.h. Isidoro Berrocal",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
-      "fechaInicio": "11/08/2026",
-      "fechaFin": "09/09/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
-        "CAMIONETA ( EGM-015)"
-      ]
-    },
-    {
-      "n": 8,
       "idIntervencion": "10085",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -168,6 +149,25 @@
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "CAMIONETA ( EGM-015)",
         "VOLQUETE ( EGM-774)"
+      ]
+    },
+    {
+      "n": 8,
+      "idIntervencion": "10418",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "A.h. Isidoro Berrocal",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-980)",
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -688,6 +688,22 @@
     },
     {
       "n": 35,
+      "idIntervencion": "10470",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Cieneguilla",
+      "sector": "Tinajas",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "II. ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
+      "fechaInicio": "03/09/2026",
+      "fechaFin": "17/09/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 36,
       "idIntervencion": "10460",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -706,7 +722,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10371",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -724,7 +740,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "10364",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -745,7 +761,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "10074",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -764,7 +780,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "9407",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -780,25 +796,6 @@
       "maquinaria": [
         "MINI CARGADOR ( LMST05745)",
         "VOLQUETE ( EGV-806)"
-      ]
-    },
-    {
-      "n": 40,
-      "idIntervencion": "9409",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Centro Poblado Ninarumi",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
-      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "17/07/2026",
-      "fechaFin": "28/08/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGP-009)",
-        "CARGADOR FRONTAL ( JLX00249)"
       ]
     },
     {
@@ -821,6 +818,25 @@
     },
     {
       "n": 42,
+      "idIntervencion": "9409",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Centro Poblado Ninarumi",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
+      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "17/07/2026",
+      "fechaFin": "28/08/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGP-009)",
+        "CARGADOR FRONTAL ( JLX00249)"
+      ]
+    },
+    {
+      "n": 43,
       "idIntervencion": "9379",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -838,7 +854,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "10442",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -856,7 +872,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -874,7 +890,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -895,7 +911,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10436",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -911,7 +927,7 @@
       "maquinaria": []
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "10412",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -929,7 +945,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -947,7 +963,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -966,7 +982,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -986,7 +1002,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 52,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1004,7 +1020,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 53,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1022,7 +1038,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 54,
       "idIntervencion": "10414",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
