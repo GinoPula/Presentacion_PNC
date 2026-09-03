@@ -17,9 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA   ', inicio: '06/08/2026', fin: '04/09/2026', volAcum: 10300.0, kmAcum: 0.28, poblacion: 110 },
+    { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA   ', inicio: '06/08/2026', fin: '04/09/2026', volAcum: 13500.0, kmAcum: 0.35, poblacion: 110 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: '"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA" ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 7000.0, kmAcum: 0.93, poblacion: 372 },
-    { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00         ', inicio: '27/08/2026', fin: '10/09/2026', volAcum: 1750.0, kmAcum: 0.37, poblacion: 1000 },
+    { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00         ', inicio: '27/08/2026', fin: '10/09/2026', volAcum: 3850.0, kmAcum: 0.78, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
