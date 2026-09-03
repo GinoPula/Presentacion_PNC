@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/09/2026",
-    "horaCorte": "16:29",
+    "horaCorte": "16:44",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -317,9 +317,9 @@
       "fechaFin": "06/09/2025",
       "maquinaria": [
         "MOTONIVELADORA ( SZL03378)",
+        "CARGADOR FRONTAL ( M5K00334)",
         "VOLQUETE ( EGV-810)",
-        "VOLQUETE ( EGM-788)",
-        "CARGADOR FRONTAL ( M5K00334)"
+        "VOLQUETE ( EGM-788)"
       ]
     },
     {
@@ -431,11 +431,11 @@
       "fechaInicio": "18/08/2026",
       "fechaFin": "01/09/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-104)",
         "VOLQUETE ( EGM-934)",
+        "VOLQUETE ( EGM-776)",
+        "REMOLCADOR ( EGN-104)",
         "EXCAVADORA HIDRAULICA ( 810156)",
-        "CAMIONETA ( EGL-984)",
-        "VOLQUETE ( EGM-776)"
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
@@ -453,11 +453,11 @@
       "fechaInicio": "19/08/2026",
       "fechaFin": "02/09/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-104)",
+        "CAMIONETA ( EGL-984)",
         "VOLQUETE ( EGV-841)",
         "VOLQUETE ( EGV-798)",
         "EXCAVADORA HIDRAULICA ( TJT10096)",
-        "CAMIONETA ( EGL-984)"
+        "REMOLCADOR ( EGN-104)"
       ]
     },
     {
@@ -514,10 +514,10 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "01/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EGO-049)",
         "VOLQUETE ( EGM-871)",
         "REMOLCADOR ( EGN-004)",
-        "CARGADOR FRONTAL ( JLX00220)"
+        "CARGADOR FRONTAL ( JLX00220)",
+        "CAMIONETA ( EGO-049)"
       ]
     },
     {
@@ -535,10 +535,10 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "01/10/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-760)",
         "CARGADOR FRONTAL ( JLX00221)",
         "REMOLCADOR ( EGN-004)",
-        "CAMIONETA ( EGO-049)",
-        "VOLQUETE ( EGV-760)"
+        "CAMIONETA ( EGO-049)"
       ]
     },
     {
@@ -726,23 +726,20 @@
     },
     {
       "n": 37,
-      "idIntervencion": "10364",
+      "idIntervencion": "10439",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
       "regionId": "lima",
       "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "La Bocatoma De La Ptap Huachipa",
+      "distrito": "Los Olivos",
+      "sector": "Puente Bethania",
       "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
-      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
-      "fechaInicio": "22/07/2026",
-      "fechaFin": "05/09/2026",
+      "marcoLegal": "CONVENIO N° 10-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA",
+      "fechaInicio": "03/09/2026",
+      "fechaFin": "13/09/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 82541)",
-        "VOLQUETE ( EGV-825)",
-        "CARGADOR FRONTAL ( JLX00293)",
-        "EXCAVADORA HIDRAULICA ( TJT10116)"
+        "EXCAVADORA HIDRAULICA ( D810373)"
       ]
     },
     {
@@ -766,19 +763,24 @@
     },
     {
       "n": 39,
-      "idIntervencion": "10478",
+      "idIntervencion": "10364",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
       "regionId": "lima",
-      "provincia": "Yauyos",
-      "distrito": "Yauyos",
-      "sector": "Sector Critico N° 01-puente Auco",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "La Bocatoma De La Ptap Huachipa",
       "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC.",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+000 HASTA LA PROGRESIVA 0+160) KM, EN EL SECTOR CRÍTICO N°01: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
-      "fechaInicio": "09/09/2026",
-      "fechaFin": "23/09/2026",
-      "maquinaria": []
+      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "fechaInicio": "22/07/2026",
+      "fechaFin": "05/09/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 82541)",
+        "VOLQUETE ( EGV-825)",
+        "CARGADOR FRONTAL ( JLX00293)",
+        "EXCAVADORA HIDRAULICA ( TJT10116)"
+      ]
     },
     {
       "n": 40,
