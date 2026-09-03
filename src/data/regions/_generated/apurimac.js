@@ -16,8 +16,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 3150.0, kmAcum: 0.47, poblacion: 500 },
-    { provincia: 'Abancay', distrito: 'Circa', tipo: 'Prevención', descripcion: '  "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC"-00       ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 2800.0, kmAcum: 0.18, poblacion: 900 },
+    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 3400.0, kmAcum: 0.5, poblacion: 500 },
+    { provincia: 'Abancay', distrito: 'Circa', tipo: 'Prevención', descripcion: '  "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC"-00       ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 3600.0, kmAcum: 0.24, poblacion: 900 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -82,8 +82,8 @@ export default {
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'inoperativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81442', '82538'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGV-792', 'EGV-803', 'EGV-778'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-828', 'EGM-781'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 3, marca: 'Scania', codigos: ['EGM-780', 'EGM-872', 'EGM-777'], estado: 'inoperativo' },
+    { tipo: 'Volquete', cantidad: 3, marca: 'Scania', codigos: ['EGM-828', 'EGM-781', 'EGM-872'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-780', 'EGM-777'], estado: 'inoperativo' },
   ],
   flotaTotal: 19,
 }

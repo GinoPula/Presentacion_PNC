@@ -80,7 +80,7 @@ export default {
     { tipo: 'Mini cargador', cantidad: 1, marca: 'Caterpillar', codigos: ['MST05749'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-137'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGO-046'], estado: 'operativo' },
-    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['284442'], estado: 'inoperativo' },
+    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['284442'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Caterpillar', codigos: ['J8B05104'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81317'], estado: 'inoperativo' },
     { tipo: 'Volquete', cantidad: 5, marca: 'Scania', codigos: ['EGM-809', 'EGM-793', 'EGM-771', 'EGM-782', 'EGM-959'], estado: 'operativo' },
