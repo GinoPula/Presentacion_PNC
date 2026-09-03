@@ -6568,7 +6568,7 @@ const mapaIntervenciones = {
     "fechaInicio": "22/07/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 2500000,
-    "volumen": 37083.6,
+    "volumen": 39183.6,
     "enlace": null
   },
   {
@@ -6670,7 +6670,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 250,
-    "volumen": 2635,
+    "volumen": 3485,
     "enlace": null
   },
   {
@@ -11014,23 +11014,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/drive/folders/1fOzg_ufsizBV3PBgClzN37Rex-OhqEcY"
   },
   {
-    "id": 9402,
-    "lat": -3.771157,
-    "lng": -73.301097,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Maynas",
-    "distrito": "San Juan Bautista",
-    "sector": "Aa.Hh. Ampliacion Los Claveles",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL AA.HH. AMPLIACION LOS CLAVELES DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.            ",
-    "ficha": "004-2026-CTMPV-U-LOR",
-    "fechaInicio": "16/02/2026",
-    "fechaFin": "07/03/2026",
-    "poblacion": 3500,
-    "volumen": 2660,
-    "enlace": "https://drive.google.com/drive/folders/1J0-vT2-V8L7fd62UHi_aWchs9ztKN_60"
-  },
-  {
     "id": 9386,
     "lat": -3.82138,
     "lng": -73.325781,
@@ -11046,6 +11029,23 @@ const mapaIntervenciones = {
     "poblacion": 4300,
     "volumen": 4560,
     "enlace": "https://drive.google.com/drive/folders/1uoVhICUX8bqYS3GZSGKAdl4l-LHm1-7m"
+  },
+  {
+    "id": 9402,
+    "lat": -3.771157,
+    "lng": -73.301097,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Maynas",
+    "distrito": "San Juan Bautista",
+    "sector": "Aa.Hh. Ampliacion Los Claveles",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL AA.HH. AMPLIACION LOS CLAVELES DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.            ",
+    "ficha": "004-2026-CTMPV-U-LOR",
+    "fechaInicio": "16/02/2026",
+    "fechaFin": "07/03/2026",
+    "poblacion": 3500,
+    "volumen": 2660,
+    "enlace": "https://drive.google.com/drive/folders/1J0-vT2-V8L7fd62UHi_aWchs9ztKN_60"
   },
   {
     "id": 9381,
@@ -11184,23 +11184,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9404,
-    "lat": -3.873445,
-    "lng": -73.359176,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Maynas",
-    "distrito": "San Juan Bautista",
-    "sector": "Centro Poblado Varillalito",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ",
-    "ficha": "016-2026-LD-U-LOR",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "05/07/2026",
-    "poblacion": 2000,
-    "volumen": 3720,
-    "enlace": "https://drive.google.com/drive/folders/1Gl8stDR-OogjCxUjGYcy5TGD9nNCsJrA"
-  },
-  {
     "id": 9399,
     "lat": -3.880585,
     "lng": -73.35234,
@@ -11216,6 +11199,23 @@ const mapaIntervenciones = {
     "poblacion": 2000,
     "volumen": 2310,
     "enlace": "https://drive.google.com/drive/folders/1rTxNNQGUToBR041e1R3Zcz4FbzA1sMA5"
+  },
+  {
+    "id": 9404,
+    "lat": -3.873445,
+    "lng": -73.359176,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Maynas",
+    "distrito": "San Juan Bautista",
+    "sector": "Centro Poblado Varillalito",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ",
+    "ficha": "016-2026-LD-U-LOR",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "05/07/2026",
+    "poblacion": 2000,
+    "volumen": 3720,
+    "enlace": "https://drive.google.com/drive/folders/1Gl8stDR-OogjCxUjGYcy5TGD9nNCsJrA"
   },
   {
     "id": 9401,
@@ -11252,37 +11252,37 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9409,
-    "lat": -3.845597,
-    "lng": -73.391947,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Maynas",
-    "distrito": "San Juan Bautista",
-    "sector": "Centro Poblado Ninarumi",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ",
-    "ficha": "019-2026-CTMPV-U-LOR",
-    "fechaInicio": "17/07/2026",
-    "fechaFin": "28/08/2026",
-    "poblacion": 4000,
-    "volumen": 2380,
-    "enlace": null
-  },
-  {
     "id": 9379,
     "lat": -3.873489,
     "lng": -73.356958,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Maynas",
     "distrito": "San Juan Bautista",
     "sector": "Centro Poblado Ninarumi",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.              ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.               ",
     "ficha": "018-2026-LD-U-LOR",
     "fechaInicio": "17/07/2026",
     "fechaFin": "28/08/2026",
     "poblacion": 4000,
     "volumen": 4320,
+    "enlace": null
+  },
+  {
+    "id": 9409,
+    "lat": -3.845597,
+    "lng": -73.391947,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Maynas",
+    "distrito": "San Juan Bautista",
+    "sector": "Centro Poblado Ninarumi",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ",
+    "ficha": "019-2026-CTMPV-U-LOR",
+    "fechaInicio": "17/07/2026",
+    "fechaFin": "28/08/2026",
+    "poblacion": 4000,
+    "volumen": 2380,
     "enlace": null
   },
   {
@@ -11294,10 +11294,10 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "San Juan Bautista",
     "sector": "San Juan Bautista",
-    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ",
+    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ",
     "ficha": "021-2026-AA-U-LOR",
     "fechaInicio": "08/08/2026",
-    "fechaFin": "06/09/2026",
+    "fechaFin": "06/10/2026",
     "poblacion": 1000,
     "volumen": 530,
     "enlace": null
