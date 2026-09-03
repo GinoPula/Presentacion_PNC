@@ -699,13 +699,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "Las Gardenias",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
     "ficha": "066-2026-LD-E-TUM",
     "fechaInicio": "08/07/2026",
     "fechaFin": "16/07/2026",
     "poblacion": 325,
     "volumen": 900,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
   },
   {
     "id": 10373,
@@ -716,13 +716,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "Trujillo",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TRUJILLO III, EN EL SECTOR TRUJILLO DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES     ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TRUJILLO III, EN EL SECTOR TRUJILLO DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES       ",
     "ficha": "068-2026-LD-E-TUM",
     "fechaInicio": "17/07/2026",
     "fechaFin": "30/07/2026",
     "poblacion": 95,
     "volumen": 1200,
-    "enlace": "https://drive.google.com/file/d/1s3E1__EDwObYYtJumep-v_zrlRwcrcsK/view?usp=drive_link"
+    "enlace": "https://drive.google.com/file/d/144NKO074rZmFyb6vQdQp-R37Rs8pxYxC/view?usp=drive_link"
   },
   {
     "id": 10369,
@@ -1898,7 +1898,7 @@ const mapaIntervenciones = {
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
-    "volumen": 215,
+    "volumen": 230,
     "enlace": null
   },
   {
