@@ -82,7 +82,7 @@ export default {
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGO-046'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['284442'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Caterpillar', codigos: ['J8B05104'], estado: 'operativo' },
-    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81317'], estado: 'inoperativo' },
+    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81317'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 5, marca: 'Scania', codigos: ['EGM-809', 'EGM-793', 'EGM-771', 'EGM-782', 'EGM-959'], estado: 'operativo' },
   ],
   flotaTotal: 16,
