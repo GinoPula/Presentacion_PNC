@@ -24,7 +24,7 @@ export const globalMeta = {
   region: 'Vista General',
   programa: 'Programa Nuestras Ciudades',
   seccion: 'Maquinarias',
-  periodo: 'Agosto 2026',
+  periodo: '2026',
 }
 
 export const ejecutadasTotalGlobal = {
@@ -60,15 +60,33 @@ export const totalUBO = regionesConUBO.length
 
 export const programadasCantidadGlobal = sum(regionArr, (r) => r.programadasTotal?.cantidad)
 
+// Regiones con datos reales del pipeline -- 03/09/2026, a pedido de Franco: notó que Ucayali
+// (que todavía no se corrió contra el MAIN -- ver comentario "PLACEHOLDER" en
+// src/data/regions/_generated/ucayali.js) aparecía igual en el listado "Intervenciones ejecutadas
+// por región" de la Vista General, con una barra en 0 indistinguible de una región que de verdad
+// ejecutó cero intervenciones.
+//
+// Un placeholder trae TODOS sus agregados en cero a la vez (ejecutadas, programadas, convenios Y
+// flota) -- eso en la práctica no pasa en una región ya corrida contra el MAIN: aun sin ninguna
+// intervención ejecutada este año, casi siempre hay programadas, convenios vigentes, o flota
+// asignada (si tiene UBO). Se usa esa combinación para distinguir "0 de verdad" de "todavía no se
+// corrió el pipeline para esta región", sin inventar ni marcar nada a mano.
+function tieneDatosReales(r) {
+  return r.ejecutadasTotal.cantidad > 0 || (r.programadasTotal?.cantidad || 0) > 0 || r.conveniosCount > 0 || r.flotaTotal > 0
+}
+
+export const regionesConDatos = REGION_LIST.filter((r) => tieneDatosReales(regions[r.id]))
+
 // Ranking de regiones por intervenciones ejecutadas (mayor a menor) -- para el listado de barras.
-export const regionEjecutadasRanking = REGION_LIST.map((r) => ({
+// Solo sobre regionesConDatos (ver arriba), para no mezclar "sin datos todavía" con "cero real".
+export const regionEjecutadasRanking = regionesConDatos.map((r) => ({
   id: r.id,
   name: r.shortLabel,
   value: regions[r.id].ejecutadasTotal.cantidad,
 })).sort((a, b) => b.value - a.value)
 
-// Ranking de regiones por flota total (mayor a menor).
-export const regionFlotaRanking = REGION_LIST.map((r) => ({
+// Ranking de regiones por flota total (mayor a menor). Mismo criterio que arriba.
+export const regionFlotaRanking = regionesConDatos.map((r) => ({
   id: r.id,
   name: r.shortLabel,
   value: regions[r.id].flotaTotal,
@@ -157,7 +175,7 @@ export const presupuestoFenResumenGlobal = {
 export const fuentesGlobal = [
   'Programa Nuestras Ciudades (PNC) — Ministerio de Vivienda, Construcción y Saneamiento',
   'Autoridad Nacional del Agua (ANA) — Acuerdo Multisectorial de Puntos Críticos',
-  `Unidades Básicas Operativas (UBO) de las ${REGION_LIST.length} regiones`,
+  `Unidades Básicas Operativas (UBO) de los ${totalUBO} departamentos`,
 ]
 
 // Objeto con la misma forma (meta + fuentes) que usan los componentes compartidos (p. ej. Footer),

@@ -24,7 +24,7 @@ export default {
     region: 'Región Puno',
     programa: 'Programa Nuestras Ciudades',
     seccion: 'Maquinarias',
-    periodo: 'Agosto 2026',
+    periodo: '2026',
   },
 
   ...datosBD,

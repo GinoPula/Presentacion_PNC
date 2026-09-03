@@ -69,7 +69,7 @@ export default {
     region: 'Región La Libertad',
     programa: 'Programa Nuestras Ciudades',
     seccion: 'Maquinarias',
-    periodo: 'Agosto 2026',
+    periodo: '2026',
   },
 
   ...datosBD,

@@ -1,8 +1,7 @@
 import { HiOutlineTruck, HiOutlineGlobeAlt, HiOutlineUsers, HiOutlineCube } from 'react-icons/hi'
 import { Reveal, SectionHeading, StatTile, Card } from './UI'
 import { fmtInt, fmtDecimal } from '../lib/format'
-import { ejecutadasTotalGlobal, conveniosCountGlobal, flotaTotalGlobal, regionEjecutadasRanking } from '../data/global'
-import { REGION_LIST } from '../data/regions'
+import { ejecutadasTotalGlobal, conveniosCountGlobal, flotaTotalGlobal, regionEjecutadasRanking, totalUBO } from '../data/global'
 
 const maxValor = Math.max(...regionEjecutadasRanking.map((r) => r.value)) || 1
 
@@ -11,9 +10,9 @@ export default function PanoramaGlobal() {
     <section id="estado-general" className="relative border-t border-white/[0.05] bg-surface-0 py-24 sm:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
-          eyebrow="Panorama nacional · Agosto 2026"
+          eyebrow="Panorama nacional · 2026"
           title="Estado operativo general de las regiones"
-          description={`Resultados acumulados del Programa Nuestras Ciudades en las ${REGION_LIST.length} regiones donde opera PNC Maquinarias, entre prevención, emergencia y atención urgente, durante 2026.`}
+          description={`Resultados acumulados del Programa Nuestras Ciudades a través de las ${totalUBO} Unidades Básicas Operativas (UBO), entre prevención, emergencia y atención urgente, durante 2026.`}
         />
 
         <div className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -45,7 +44,7 @@ export default function PanoramaGlobal() {
             icon={<HiOutlineTruck />}
             value={flotaTotalGlobal}
             label="Unidades de maquinaria y flota"
-            sub={`Suma de las ${REGION_LIST.length} UBOs regionales`}
+            sub={`Suma de las ${totalUBO} UBOs regionales`}
             accent="amber"
             delay={0.15}
           />

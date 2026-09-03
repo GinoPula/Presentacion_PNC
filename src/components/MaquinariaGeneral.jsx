@@ -1,7 +1,6 @@
 import { HiOutlineTruck } from 'react-icons/hi'
 import { Reveal, SectionHeading, Card } from './UI'
-import { flotaTotalGlobal, regionFlotaRanking } from '../data/global'
-import { REGION_LIST } from '../data/regions'
+import { flotaTotalGlobal, regionFlotaRanking, totalUBO } from '../data/global'
 
 const maxValor = Math.max(...regionFlotaRanking.map((r) => r.value)) || 1
 
@@ -10,9 +9,9 @@ export default function MaquinariaGeneral() {
     <section id="maquinaria" className="relative border-t border-white/[0.05] bg-surface-1 py-24 sm:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
-          eyebrow={`Unidades Básicas Operativas · ${REGION_LIST.length} regiones`}
+          eyebrow={`Unidades Básicas Operativas · ${totalUBO} departamentos`}
           title="Cantidad total de maquinarias"
-          description={`Flota vehicular y de maquinaria pesada asignada a las ${REGION_LIST.length} UBOs regionales, sumada a nivel nacional.`}
+          description={`Flota vehicular y de maquinaria pesada asignada a las ${totalUBO} UBOs regionales, sumada a nivel nacional.`}
         />
 
         <div className="mt-12 grid grid-cols-1 gap-4 lg:grid-cols-[320px_1fr]">
@@ -21,7 +20,7 @@ export default function MaquinariaGeneral() {
               <HiOutlineTruck className="text-2xl text-amber" />
               <div className="font-tabular font-display text-5xl font-bold tracking-tight text-amber">{flotaTotalGlobal}</div>
               <div className="text-sm font-medium text-ink">unidades totales</div>
-              <div className="text-xs text-ink-mute">Suma de las {REGION_LIST.length} regiones</div>
+              <div className="text-xs text-ink-mute">Suma de las {totalUBO} UBOs</div>
             </Card>
           </Reveal>
 

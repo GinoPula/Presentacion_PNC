@@ -29,7 +29,7 @@ export default {
     region: 'Región Madre de Dios',
     programa: 'Programa Nuestras Ciudades',
     seccion: 'Maquinarias',
-    periodo: 'Agosto 2026',
+    periodo: '2026',
   },
 
   ...datosBD,

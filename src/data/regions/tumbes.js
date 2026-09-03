@@ -23,7 +23,7 @@ export default {
     region: 'Región Tumbes',
     programa: 'Programa Nuestras Ciudades',
     seccion: 'Maquinarias',
-    periodo: 'Agosto 2026',
+    periodo: '2026',
   },
 
   ...datosBD,
