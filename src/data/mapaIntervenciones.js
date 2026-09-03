@@ -495,13 +495,13 @@ const mapaIntervenciones = {
     "provincia": "Contralmirante Villar",
     "distrito": "Zorritos",
     "sector": "Acapulco",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”      ",
     "ficha": "053-2026-LD-PI-TUM",
     "fechaInicio": "29/04/2026",
     "fechaFin": "06/05/2026",
     "poblacion": 1374,
     "volumen": 600,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
   },
   {
     "id": 10199,
@@ -512,13 +512,13 @@ const mapaIntervenciones = {
     "provincia": "Contralmirante Villar",
     "distrito": "Zorritos",
     "sector": "Nueva Esperanza",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AMOTAPE (AGUAS ABAJO), EN EL SECTOR NUEVA ESPERANZA DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”   ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AMOTAPE (AGUAS ABAJO), EN EL SECTOR NUEVA ESPERANZA DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
     "ficha": "054-2026-LD-PI-TUM",
     "fechaInicio": "29/04/2026",
     "fechaFin": "06/05/2026",
     "poblacion": 1546,
     "volumen": 180,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
   },
   {
     "id": 10210,
@@ -631,13 +631,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "Las Palmeras",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA LAS PALMERAS, EN EL SECTOR LAS PALMERAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA LAS PALMERAS, EN EL SECTOR LAS PALMERAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"   ",
     "ficha": "058-2026-LD-PI-TUM",
     "fechaInicio": "11/06/2026",
     "fechaFin": "17/06/2026",
     "poblacion": 1024,
     "volumen": 420,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1L6z3GeM99KWVQvDat05HT2hs1WN2ZaU2/view?usp=drive_link"
   },
   {
     "id": 10308,
@@ -648,13 +648,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA LAS GARDENIAS, EN EL SECTOR ALTO DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA LAS GARDENIAS, EN EL SECTOR ALTO DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
     "ficha": "059-2026-LD-PI-TUM",
     "fechaInicio": "18/06/2026",
     "fechaFin": "19/06/2026",
     "poblacion": 1024,
     "volumen": 150,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1WHchJVaQBYmABGmaRL-_2tTlpvITc0dJ/view?usp=drive_link"
   },
   {
     "id": 10320,
@@ -665,13 +665,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "Tumbes",
     "sector": "Puente Antiguo",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO TUMBES, EN EL SECTOR PUENTE ANTIGUO DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\" ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO TUMBES, EN EL SECTOR PUENTE ANTIGUO DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  ",
     "ficha": "060-2026-LD-E-TUM",
     "fechaInicio": "23/06/2026",
     "fechaFin": "24/06/2026",
     "poblacion": 1767,
     "volumen": 720,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
     "id": 10340,
@@ -750,13 +750,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "Miramar",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA MIRAMAR III, EN EL SECTOR MIRAMAR DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES   ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL CANAL VÍA MIRAMAR III, EN EL SECTOR MIRAMAR DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES    ",
     "ficha": "069-2026-LD-PI-TUM",
     "fechaInicio": "31/07/2026",
     "fechaFin": "04/08/2026",
     "poblacion": 342,
     "volumen": 262.5,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1s3E1__EDwObYYtJumep-v_zrlRwcrcsK/view?usp=drive_link"
   },
   {
     "id": 10414,
@@ -4335,7 +4335,7 @@ const mapaIntervenciones = {
     "fechaInicio": "15/07/2026",
     "fechaFin": "12/09/2026",
     "poblacion": null,
-    "volumen": 1395,
+    "volumen": 1530,
     "enlace": null
   },
   {
@@ -4471,7 +4471,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "06/09/2026",
     "poblacion": 1200,
-    "volumen": 4640,
+    "volumen": 7400,
     "enlace": null
   },
   {
@@ -4488,7 +4488,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "14/09/2026",
     "poblacion": 10100,
-    "volumen": 1539.66,
+    "volumen": 310,
     "enlace": null
   },
   {
@@ -4505,7 +4505,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 4408,
-    "volumen": 13942,
+    "volumen": 200,
     "enlace": null
   }
 ],
@@ -10940,7 +10940,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 8694,
+    "volumen": 0,
     "enlace": null
   },
   {
@@ -10957,7 +10957,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 9800,
+    "volumen": 0,
     "enlace": null
   }
 ],
@@ -11299,7 +11299,7 @@ const mapaIntervenciones = {
     "fechaInicio": "08/08/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
-    "volumen": 530,
+    "volumen": 550,
     "enlace": null
   },
   {
