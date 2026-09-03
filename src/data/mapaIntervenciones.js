@@ -4980,10 +4980,10 @@ const mapaIntervenciones = {
     "provincia": "Chepen",
     "distrito": "Pacanga",
     "sector": "Huaca Blanca Baja",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CHAMAN, SECTOR HUACA BLANCA BAJA TRAMO I, DISTRITO DE PACANGA, PROVINCIA DE CHEPEN, DEPARTAMENTO DE LA LIBERTAD            ",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CHAMAN, SECTOR HUACA BLANCA BAJA TRAMO I, DISTRITO DE PACANGA, PROVINCIA DE CHEPEN, DEPARTAMENTO DE LA LIBERTAD             ",
     "ficha": "028-2026-LD-P-LIB",
     "fechaInicio": "28/01/2026",
-    "fechaFin": "11/03/2026",
+    "fechaFin": "12/03/2026",
     "poblacion": 500,
     "volumen": 8000,
     "enlace": "https://drive.google.com/file/d/1oFR1nU35-WLL_APowazaMnhi8NLwipL6/view?usp=drive_link"
@@ -6568,7 +6568,7 @@ const mapaIntervenciones = {
     "fechaInicio": "22/07/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 2500000,
-    "volumen": 37988.6,
+    "volumen": 37083.6,
     "enlace": null
   },
   {
