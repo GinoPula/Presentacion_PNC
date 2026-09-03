@@ -177,6 +177,24 @@ DEPARTAMENTOS = {
 }
 
 # ---------------------------------------------------------------------------
+# Máquinas alquiladas -- 03/09/2026, a pedido de Franco: el reporte general venía mostrando 453
+# unidades de flota a nivel nacional, pero el número real (sin contar alquiladas) son 450.
+#
+# No hay ningún campo en fc_em_maquinaria_1/vw_em_maquina_estado_activo que marque esto de forma
+# confiable para poder filtrarlo con una condición genérica -- se probó estado_reg (viene NULL
+# para las 530 filas del universo con cod_ubo 1-25), estado_desc (solo trae OPERATIVO/
+# INOPERATIVO) y contrato_maquinaria (vacío en las 3). El campo 'detalle' sí trae la nota "UNIDAD
+# ALQUILADA 2026" para 2 de las 3, pero la tercera (R3-ACS) no tiene ninguna marca en la base --
+# así que se excluyen por código explícito, confirmado a mano por Franco, con el mismo criterio
+# que ya se usa para los cod_ubo 26/27 de la ANA (ver DEPARTAMENTO_BBOX/consulta de flota más
+# abajo). Las 3 son de Junín (cod_ubo 12): R3-ACS (camión cisterna de agua, ACS), 81376 (tractor
+# sobre oruga, Komatsu) y CRS70638 (retroexcavadora, Caterpillar).
+#
+# OJO: si en el futuro aparecen más máquinas alquiladas, hay que agregar su código acá a mano --
+# no hay forma de detectarlas solas desde la base tal como está hoy.
+FLOTA_CODIGOS_ALQUILADOS = ("R3-ACS", "81376", "CRS70638")
+
+# ---------------------------------------------------------------------------
 # Cajas geográficas (lat_min, lat_max, lon_min, lon_max) para validar/corregir
 # los puntos del mapa. Agregado 26/08/2026: en La Libertad una intervención
 # salía en el mar -- la coordenada de esa fila en Producción venía en UTM
@@ -632,11 +650,12 @@ def consultar_departamento(cur, departamento, periodo):
         FROM pnc.fc_em_maquinaria_1 fcm
         LEFT JOIN pnc.vw_em_maquina_estado_activo vme ON fcm.numero = vme.id_maquina
         WHERE fcm.codigo IS NOT NULL
+          AND fcm.codigo NOT IN %s
           AND vme.cod_ubo = (
               SELECT id_dpto FROM pnc.lim_departamentos WHERE upper(nom_dpto) = %s
           )
         ORDER BY fcm.tipo_unidad, fcm.marca;
-    """, (departamento,))
+    """, (FLOTA_CODIGOS_ALQUILADOS, departamento))
     resultado["_flota_cruda"] = cur.fetchall()
 
     # ---------- 6) PUNTOS DEL MAPA (ejecutadas + en ejecución) ----------
