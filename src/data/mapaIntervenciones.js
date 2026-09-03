@@ -1910,13 +1910,13 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "La Yarada Los Palos",
     "sector": "Puente Palos Aguas Arriba",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                    ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SECO, SECTOR PUENTE LOS PALOS AGUAS ARRIBA, DISTRITO LA  YARADA LOS PALOS, PROVINCIA DE TACNA. REGION DE TACNA                     ",
     "ficha": "034-2026-LD-P-TAC",
     "fechaInicio": "17/08/2026",
     "fechaFin": "27/08/2026",
     "poblacion": 700,
     "volumen": 4340,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1pDwDKErIiCUYz2_hgt4icDPkYnO9jY6r/view?usp=drive_link"
   },
   {
     "id": 10306,
@@ -6619,7 +6619,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1050,
-    "volumen": 6680,
+    "volumen": 8155,
     "enlace": null
   },
   {
@@ -6677,17 +6677,17 @@ const mapaIntervenciones = {
     "id": 10371,
     "lat": -11.917814,
     "lng": -77.073676,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Los Olivos",
     "sector": "Puente Panamericana",
-    "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+000 AL 0+340 KM DESDE EL PUENTE PANAMERICANA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\".    ",
+    "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+000 AL 0+340 KM DESDE EL PUENTE PANAMERICANA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\".     ",
     "ficha": "116-2026-LDP-LIM",
     "fechaInicio": "20/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 8788,
-    "volumen": 2169,
+    "volumen": 3981,
     "enlace": null
   },
   {
@@ -6722,6 +6722,23 @@ const mapaIntervenciones = {
     "fechaFin": "17/09/2026",
     "poblacion": 1500,
     "volumen": 8976,
+    "enlace": null
+  },
+  {
+    "id": 10439,
+    "lat": -11.920428,
+    "lng": -77.075203,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Los Olivos",
+    "sector": "Puente Bethania",
+    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\"    ",
+    "ficha": "121-2026-LD-LIM",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "13/09/2026",
+    "poblacion": 8788,
+    "volumen": 8085,
     "enlace": null
   }
 ],
