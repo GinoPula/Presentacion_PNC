@@ -88,11 +88,18 @@ export default function Nav({ data, regionId, onRegionChange }) {
   }
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'border-b border-white/[0.06] bg-surface-0/85 backdrop-blur-md' : 'border-b border-transparent bg-transparent'
-      }`}
-    >
+    // OJO (03/09/2026, bug reportado por Franco): ReporteDiarioModal y AyudaMemoriaFiltroModal
+    // van FUERA del <header>, no adentro. El <header> usa backdrop-blur-md cuando hay scroll, y
+    // backdrop-filter (igual que filter/transform) convierte a ese elemento en el "contenedor" de
+    // cualquier descendiente position:fixed -- así, el modal (que también es fixed inset-0) dejaba
+    // de cubrir toda la pantalla y quedaba encajado dentro de la altura de la barra de navegación,
+    // viéndose como una franja angosta arriba con la página de fondo visible debajo.
+    <>
+      <header
+        className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+          scrolled ? 'border-b border-white/[0.06] bg-surface-0/85 backdrop-blur-md' : 'border-b border-transparent bg-transparent'
+        }`}
+      >
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-6 py-4">
         <a href="#top" className="flex shrink-0 items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white">PNC</span>
@@ -259,6 +266,7 @@ export default function Nav({ data, regionId, onRegionChange }) {
           </motion.nav>
         )}
       </AnimatePresence>
+      </header>
 
       <ReporteDiarioModal
         open={reporteAbierto}
@@ -274,6 +282,6 @@ export default function Nav({ data, regionId, onRegionChange }) {
         regionId={regionId}
         regionLabel={data.shortLabel || data.meta?.region}
       />
-    </header>
+    </>
   )
 }
