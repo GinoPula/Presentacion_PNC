@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/09/2026",
-    "horaCorte": "11:59",
+    "horaCorte": "12:14",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -83,12 +83,12 @@
       "fechaInicio": "19/08/2026",
       "fechaFin": "07/09/2026",
       "maquinaria": [
+        "VOLQUETE ( EGM-777)",
+        "VOLQUETE ( EGV-792)",
+        "TRACTOR SOBRE ORUGA ( 81442)",
         "VOLQUETE ( EGM-780)",
         "EXCAVADORA HIDRAULICA ( 810370)",
-        "REMOLCADOR ( EGV-851)",
-        "TRACTOR SOBRE ORUGA ( 81442)",
-        "VOLQUETE ( EGV-792)",
-        "VOLQUETE ( EGM-777)"
+        "REMOLCADOR ( EGV-851)"
       ]
     },
     {
@@ -131,28 +131,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10085",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "La Yesera I Tramo Ii",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 79-2025-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
-      "fechaInicio": "11/08/2026",
-      "fechaFin": "09/09/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGM-982)",
-        "EXCAVADORA HIDRAULICA ( A10856)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)",
-        "VOLQUETE ( EGM-774)"
-      ]
-    },
-    {
-      "n": 8,
       "idIntervencion": "10418",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -166,8 +144,30 @@
       "fechaInicio": "11/08/2026",
       "fechaFin": "09/09/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
-        "CAMIONETA ( EGM-015)"
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-980)"
+      ]
+    },
+    {
+      "n": 8,
+      "idIntervencion": "10085",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "La Yesera I Tramo Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 79-2025-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-774)",
+        "EXCAVADORA HIDRAULICA ( A10856)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "CAMIONETA ( EGM-015)",
+        "REMOLCADOR ( EGM-982)"
       ]
     },
     {
@@ -219,26 +219,6 @@
     },
     {
       "n": 11,
-      "idIntervencion": "9662",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Jesus",
-      "sector": "La Huaraclla (urbano)",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
-      "fechaInicio": "05/08/2026",
-      "fechaFin": "13/09/2026",
-      "maquinaria": [
-        "CAMIONETA ( EGL-971)",
-        "VOLQUETE ( EGM-782)",
-        "RETROEXCAVADORA ( 284442)"
-      ]
-    },
-    {
-      "n": 12,
       "idIntervencion": "10156",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -256,6 +236,26 @@
         "EXCAVADORA HIDRAULICA ( 85462)",
         "CAMIONETA ( EGL-971)",
         "REMOLCADOR ( EGO-046)"
+      ]
+    },
+    {
+      "n": 12,
+      "idIntervencion": "9662",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajamarca",
+      "distrito": "Jesus",
+      "sector": "La Huaraclla (urbano)",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
+      "fechaInicio": "05/08/2026",
+      "fechaFin": "13/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-782)",
+        "RETROEXCAVADORA ( 284442)",
+        "CAMIONETA ( EGL-971)"
       ]
     },
     {
@@ -475,10 +475,10 @@
       "fechaInicio": "26/08/2026",
       "fechaFin": "09/09/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( D523572)",
+        "VOLQUETE ( EGM-925)",
         "REMOLCADOR ( EAJ-543)",
         "TRACTOR SOBRE ORUGA ( 81386)",
-        "VOLQUETE ( EGM-925)"
+        "EXCAVADORA HIDRAULICA ( D523572)"
       ]
     },
     {
@@ -741,6 +741,25 @@
     },
     {
       "n": 38,
+      "idIntervencion": "10074",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Vertiente Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
+      "fechaInicio": "19/08/2026",
+      "fechaFin": "02/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGV-832)"
+      ]
+    },
+    {
+      "n": 39,
       "idIntervencion": "10364",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -761,25 +780,6 @@
       ]
     },
     {
-      "n": 39,
-      "idIntervencion": "10074",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Vertiente Ii",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "19/08/2026",
-      "fechaFin": "02/09/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)",
-        "VOLQUETE ( EGV-832)"
-      ]
-    },
-    {
       "n": 40,
       "idIntervencion": "9407",
       "departamento": "LORETO",
@@ -794,8 +794,8 @@
       "fechaInicio": "14/08/2026",
       "fechaFin": "12/09/2026",
       "maquinaria": [
-        "MINI CARGADOR ( LMST05745)",
-        "VOLQUETE ( EGV-806)"
+        "VOLQUETE ( EGV-806)",
+        "MINI CARGADOR ( LMST05745)"
       ]
     },
     {
@@ -818,43 +818,6 @@
     },
     {
       "n": 42,
-      "idIntervencion": "9409",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Centro Poblado Ninarumi",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
-      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "17/07/2026",
-      "fechaFin": "28/08/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGP-009)",
-        "CARGADOR FRONTAL ( JLX00249)"
-      ]
-    },
-    {
-      "n": 43,
-      "idIntervencion": "9379",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Centro Poblado Ninarumi",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 067-2026-CAHT-SGIMV-MDSJB",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "17/07/2026",
-      "fechaFin": "28/08/2026",
-      "maquinaria": [
-        "RETROEXCAVADORA ( 284005)"
-      ]
-    },
-    {
-      "n": 44,
       "idIntervencion": "10442",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -872,7 +835,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 43,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -890,7 +853,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 44,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -904,14 +867,14 @@
       "fechaInicio": "27/08/2026",
       "fechaFin": "10/09/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)",
+        "VOLQUETE ( EAJ-390)",
         "VOLQUETE ( EAJ-400)",
         "CARGADOR FRONTAL ( D001580)",
-        "VOLQUETE ( EAJ-390)"
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
-      "n": 47,
+      "n": 45,
       "idIntervencion": "10436",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -927,7 +890,7 @@
       "maquinaria": []
     },
     {
-      "n": 48,
+      "n": 46,
       "idIntervencion": "10412",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -945,7 +908,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 47,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -963,7 +926,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 48,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -982,7 +945,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 49,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -996,13 +959,13 @@
       "fechaInicio": "01/09/2026",
       "fechaFin": "11/09/2026",
       "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 810311)",
         "VOLQUETE ( EGV-789)",
-        "REMOLCADOR ( EGN-105)",
-        "EXCAVADORA HIDRAULICA ( 810311)"
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
-      "n": 52,
+      "n": 50,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1020,7 +983,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 51,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1038,7 +1001,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 52,
       "idIntervencion": "10414",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
