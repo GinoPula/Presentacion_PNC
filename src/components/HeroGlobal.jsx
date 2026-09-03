@@ -3,12 +3,12 @@ import { HiOutlineArrowDown } from 'react-icons/hi'
 import heroBg from '../assets/photos/hero-bg.jpg'
 import logoMvcs from '../assets/logos/logo-mvcs.png'
 import RegionSwitcher from './RegionSwitcher'
-import { GLOBAL_ID, REGION_LIST } from '../data/regions'
-import { ejecutadasTotalGlobal, flotaTotalGlobal } from '../data/global'
+import { GLOBAL_ID } from '../data/regions'
+import { ejecutadasTotalGlobal, flotaTotalGlobal, regionesConUBO, totalUBO } from '../data/global'
 import { fmtInt, joinNombres } from '../lib/format'
 
 export default function HeroGlobal({ onRegionChange }) {
-  const nombresRegiones = joinNombres(REGION_LIST.map((r) => r.shortLabel))
+  const nombresUBO = joinNombres(regionesConUBO.map((r) => r.shortLabel))
   const quickStats = [
     { value: fmtInt(ejecutadasTotalGlobal.cantidad), label: 'Intervenciones ejecutadas' },
     { value: fmtInt(ejecutadasTotalGlobal.poblacion), label: 'Población beneficiada' },
@@ -71,7 +71,8 @@ export default function HeroGlobal({ onRegionChange }) {
           transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-2xl text-balance text-lg leading-relaxed text-ink-dim sm:text-xl"
         >
-          Panorama nacional de las {REGION_LIST.length} regiones donde opera PNC Maquinarias — {nombresRegiones}.
+          Panorama nacional a través de las {totalUBO} Unidades Básicas Operativas (UBO) ubicadas en los departamentos de{' '}
+          {nombresUBO}.
         </motion.p>
 
         <motion.div

@@ -38,6 +38,26 @@ export const conveniosCountGlobal = sum(regionArr, (r) => r.conveniosCount)
 
 export const flotaTotalGlobal = sum(regionArr, (r) => r.flotaTotal)
 
+// Departamentos con Unidad Básica Operativa (UBO) propia -- 03/09/2026, a pedido de Franco para
+// la redacción de la Vista General ("...a través de las N UBO ubicadas en los departamentos de...").
+//
+// Se deriva de flotaTotal (que YA viene en vivo del MAIN vía la consulta de flota del pipeline --
+// ver "_flota_cruda" en consultar_departamento(), que junta vw_em_maquina_estado_activo.cod_ubo
+// con lim_departamentos.id_dpto): un departamento "tiene UBO" si el MAIN le tiene maquinaria
+// asignada bajo ese cod_ubo (flotaTotal > 0). No hay ningún número escrito a mano.
+//
+// Confirmado con Franco por consulta directa en pgAdmin (03/09/2026): a nivel nacional son 19
+// departamentos con UBO real. Hay 2 códigos de UBO más (26 y 27) que NO se cuentan -- son de la
+// ANA (Autoridad Nacional del Agua, dato de 2025), no del PNC.
+//
+// OJO: mientras una región nueva (agregada 30/08/2026, ej. Junín) siga con su _generated/<slug>.js
+// en cero porque el pipeline todavía no corrió para ella, su flotaTotal sale 0 y este conteo la va
+// a excluir aunque sí tenga UBO real en el MAIN -- el número se corrige solo apenas Franco corra el
+// pipeline para esa región (no hace falta tocar este archivo de nuevo).
+export const regionesConUBO = REGION_LIST.filter((r) => regions[r.id].flotaTotal > 0)
+
+export const totalUBO = regionesConUBO.length
+
 export const programadasCantidadGlobal = sum(regionArr, (r) => r.programadasTotal?.cantidad)
 
 // Ranking de regiones por intervenciones ejecutadas (mayor a menor) -- para el listado de barras.
