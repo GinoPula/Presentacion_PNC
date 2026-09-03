@@ -89,11 +89,11 @@ export default {
     { provincia: 'Piura', distrito: 'Cura Mori', sector: '', ficha: 'FTI N°003-2026-LD-PI-PIU', descripcion: '  REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDA DEL RIO PIURA EN EL SECTOR SANTA ROSA DISTRITO DE CURA MORI- PROVINCIA PIURA – REGIÓN PIURA -00           ', fechaInicio: '15/12/2026', fechaFin: '24/12/2026', metaVol: 840.0, metaKm: 0.3, poblacion: 15000 },
   ],
 
-  conveniosCount: 23,
+  conveniosCount: 22,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '1 convenio vigente' },
-    { entidad: 'Municipalidad Distrital', detail: '21 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '20 convenios vigentes' },
   ],
 
   flota: [
