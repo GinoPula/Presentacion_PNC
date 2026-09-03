@@ -77,16 +77,19 @@ function tieneDatosReales(r) {
 
 export const regionesConDatos = REGION_LIST.filter((r) => tieneDatosReales(regions[r.id]))
 
-// Ranking de regiones por intervenciones ejecutadas (mayor a menor) -- para el listado de barras.
-// Solo sobre regionesConDatos (ver arriba), para no mezclar "sin datos todavía" con "cero real".
-export const regionEjecutadasRanking = regionesConDatos.map((r) => ({
+// Ranking de intervenciones ejecutadas por UBO (mayor a menor) -- para el listado de barras --
+// 03/09/2026, a pedido de Franco: el listado es "por UBO", así que debe quedar acotado a
+// regionesConUBO (las 19 con UBO real, ver arriba) y no a regionesConDatos -- de lo contrario
+// aparecían departamentos sin UBO propia (Pasco, Huancavelica, Moquegua) que sí tienen alguna
+// intervención ejecutada por otra vía pero no cuentan como UBO.
+export const regionEjecutadasRanking = regionesConUBO.map((r) => ({
   id: r.id,
   name: r.shortLabel,
   value: regions[r.id].ejecutadasTotal.cantidad,
 })).sort((a, b) => b.value - a.value)
 
-// Ranking de regiones por flota total (mayor a menor). Mismo criterio que arriba.
-export const regionFlotaRanking = regionesConDatos.map((r) => ({
+// Ranking de flota total por UBO (mayor a menor). Mismo criterio que arriba.
+export const regionFlotaRanking = regionesConUBO.map((r) => ({
   id: r.id,
   name: r.shortLabel,
   value: regions[r.id].flotaTotal,
