@@ -206,13 +206,13 @@ const mapaIntervenciones = {
     "provincia": "Contralmirante Villar",
     "distrito": "Zorritos",
     "sector": "Las Delicias",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS DELICIAS, EN EL SECTOR DE LAS DELICIAS ALTO DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS DELICIAS, EN EL SECTOR DE LAS DELICIAS ALTO DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
     "ficha": "009-2026-LD-PI-TUM",
     "fechaInicio": "12/03/2026",
     "fechaFin": "20/03/2026",
     "poblacion": 1889,
     "volumen": 6240,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1ITZ-GST27UtxF0Rr8OtHpTXDhOu2zozR/view?usp=drive_link"
   },
   {
     "id": 10019,
@@ -257,13 +257,13 @@ const mapaIntervenciones = {
     "provincia": "Contralmirante Villar",
     "distrito": "Zorritos",
     "sector": "Leoncio Prado",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LEONCIO PRADO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES\"",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LEONCIO PRADO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES\" ",
     "ficha": "008-2026-LD-PI-TUM",
     "fechaInicio": "21/03/2026",
     "fechaFin": "26/03/2026",
     "poblacion": 687,
     "volumen": 1125,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
     "id": 10060,
@@ -3274,13 +3274,13 @@ const mapaIntervenciones = {
     "provincia": "Recuay",
     "distrito": "Recuay",
     "sector": "Atoc Huacanca",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA ATOC HUACANCA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH       ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA ATOC HUACANCA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH        ",
     "ficha": "057-2026-LDP-ANC",
     "fechaInicio": "24/03/2026",
     "fechaFin": "16/04/2026",
     "poblacion": 4500,
     "volumen": 2320,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/106kzvBT6DuvAITl2Cq-Xku-knkkQLUY3/view?usp=drive_link"
   },
   {
     "id": 10089,
@@ -3308,13 +3308,13 @@ const mapaIntervenciones = {
     "provincia": "Recuay",
     "distrito": "Huayllapampa",
     "sector": "Huanchac",
-    "descripcion": " MEJORAMIENTO DE LA TRANSITABILIDAD DE LA TROCHA CARROZABLE TRAMO: EMP. AN-793 (VISTA ALEGRE) – SHANYO, DEL DISTRITO DE HUAYLLAPAMPA, PROVINCIA RECUAY, REGIÓN ANCASH  ",
+    "descripcion": " MEJORAMIENTO DE LA TRANSITABILIDAD DE LA TROCHA CARROZABLE TRAMO: EMP. AN-793 (VISTA ALEGRE) – SHANYO, DEL DISTRITO DE HUAYLLAPAMPA, PROVINCIA RECUAY, REGIÓN ANCASH   ",
     "ficha": "075-2026-MTVU-ANC",
     "fechaInicio": "13/04/2026",
     "fechaFin": "15/04/2026",
     "poblacion": 35,
     "volumen": 1490,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1IainJqxqOvWGD54O0q4HSsFxTAYMmQT5/view?usp=drive_link"
   },
   {
     "id": 10132,
