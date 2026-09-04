@@ -3393,13 +3393,13 @@ const mapaIntervenciones = {
     "provincia": "Recuay",
     "distrito": "Ticapampa",
     "sector": "Santa Gertrudis",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL DREN SANTA GERTRUDIS DEL DISTRITO DE TICAPAMPA, PROVINCIA DE RECUAY, DEPARTAMENTO ÁNCASH   ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL DREN SANTA GERTRUDIS DEL DISTRITO DE TICAPAMPA, PROVINCIA DE RECUAY, DEPARTAMENTO ÁNCASH    ",
     "ficha": "052-2026-LDP-ANC",
     "fechaInicio": "29/04/2026",
     "fechaFin": "02/05/2026",
     "poblacion": 60,
     "volumen": 1045,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1UzNeo0mXif3jsIohbc46d77jg_kHRxeN/view?usp=drive_link"
   },
   {
     "id": 10207,
@@ -3410,13 +3410,13 @@ const mapaIntervenciones = {
     "provincia": "Recuay",
     "distrito": "Recuay",
     "sector": "Atoc Huacanca",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA ATOC HUACANCA TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH   ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA ATOC HUACANCA TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ",
     "ficha": "081-2026-LDP-ANC",
     "fechaInicio": "05/05/2026",
     "fechaFin": "11/05/2026",
     "poblacion": 4500,
     "volumen": 2858,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1WctgIpJhjuMAd3hEBuNkagXqO_sS3RUu/view?usp=drive_link"
   },
   {
     "id": 10057,
@@ -11384,7 +11384,7 @@ const mapaIntervenciones = {
     "fechaInicio": "08/08/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
-    "volumen": 550,
+    "volumen": 570,
     "enlace": null
   },
   {
