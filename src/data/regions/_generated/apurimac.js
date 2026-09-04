@@ -16,8 +16,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 3400.0, kmAcum: 0.5, poblacion: 500 },
-    { provincia: 'Abancay', distrito: 'Circa', tipo: 'Prevención', descripcion: '  "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC"-00       ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 3600.0, kmAcum: 0.24, poblacion: 900 },
+    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 3650.0, kmAcum: 0.53, poblacion: 500 },
+    { provincia: 'Abancay', distrito: 'Circa', tipo: 'Prevención', descripcion: '  "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC"-00       ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 4000.0, kmAcum: 0.26, poblacion: 900 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

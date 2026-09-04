@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 17, m3: 103415.33, km: 25.0, poblacion: 29096, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Emergencia', cantidad: 18, m3: 105015.33, km: 26.08, poblacion: 29946, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 27, m3: 152411.68, km: 49.36, poblacion: 113557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
-    { tipo: 'Urgente atención', cantidad: 8, m3: 34607.5, km: 28.15, poblacion: 9758, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Urgente atención', cantidad: 9, m3: 34667.5, km: 28.15, poblacion: 14258, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 52, m3: 290434.51, m3AguaPotable: 195.0, km: 102.52, poblacion: 152411 },
+  ejecutadasTotal: { cantidad: 54, m3: 292094.51, m3AguaPotable: 255.0, km: 103.6, poblacion: 157761 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
