@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "04/09/2026",
-    "horaCorte": "06:44",
+    "horaCorte": "09:59",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -777,7 +777,7 @@
       "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
       "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
       "fechaInicio": "19/08/2026",
-      "fechaFin": "02/09/2026",
+      "fechaFin": "05/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( A10875)",
         "VOLQUETE ( EGV-832)"
