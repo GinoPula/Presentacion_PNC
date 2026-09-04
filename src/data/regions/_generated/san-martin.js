@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ', inicio: '31/07/2026', fin: '14/08/2026', volAcum: 150.0, kmAcum: 0.3, poblacion: null },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 885.0, kmAcum: 0.0, poblacion: 1125 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 930.0, kmAcum: 0.0, poblacion: 1125 },
     { provincia: 'Lamas', distrito: 'Cuñumbuqui', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN       ', inicio: '17/08/2026', fin: '08/08/2026', volAcum: 3250.0, kmAcum: 0.22, poblacion: 750 },
     { provincia: 'Bellavista', distrito: 'San Pablo', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                  ', inicio: '03/09/2026', fin: '17/09/2026', volAcum: 120.0, kmAcum: 0.17, poblacion: 300 },
   ],
@@ -62,7 +62,7 @@ export default {
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-011'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Kawasaki', codigos: ['70J12945'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810312'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85469'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85469'], estado: 'inoperativo' },
     { tipo: 'Plataforma', cantidad: 2, marca: 'ACS', codigos: ['EGR-075', 'EGR-074'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286603'], estado: 'operativo' },
     { tipo: 'Rodillo compactador', cantidad: 1, marca: 'Hamm', codigos: ['H1762467'], estado: 'operativo' },
