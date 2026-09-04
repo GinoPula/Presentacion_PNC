@@ -3183,7 +3183,7 @@ const mapaIntervenciones = {
   {
     "id": 9975,
     "lat": -10.080569,
-    "lng": -72.163872,
+    "lng": -78.163872,
     "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Huarmey",
@@ -3336,7 +3336,7 @@ const mapaIntervenciones = {
   {
     "id": 10037,
     "lat": -10.085937,
-    "lng": -72.166223,
+    "lng": -78.166223,
     "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Huarmey",
@@ -3420,8 +3420,8 @@ const mapaIntervenciones = {
   },
   {
     "id": 10057,
-    "lat": null,
-    "lng": null,
+    "lat": -9.826459,
+    "lng": -77.991366,
     "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Huarmey",
@@ -5228,8 +5228,8 @@ const mapaIntervenciones = {
   },
   {
     "id": 9570,
-    "lat": null,
-    "lng": null,
+    "lat": -7.804252,
+    "lng": -77.914941,
     "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Sanchez Carrion",
@@ -5245,8 +5245,8 @@ const mapaIntervenciones = {
   },
   {
     "id": 9568,
-    "lat": null,
-    "lng": null,
+    "lat": -7.798411,
+    "lng": -77.91962,
     "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Sanchez Carrion",
@@ -5415,8 +5415,8 @@ const mapaIntervenciones = {
   },
   {
     "id": 9569,
-    "lat": null,
-    "lng": null,
+    "lat": -7.798396,
+    "lng": -77.912636,
     "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Sanchez Carrion",
@@ -10889,7 +10889,7 @@ const mapaIntervenciones = {
     "fechaInicio": "25/07/2026",
     "fechaFin": "17/08/2026",
     "poblacion": 113,
-    "volumen": 22404,
+    "volumen": 21894,
     "enlace": null
   },
   {
