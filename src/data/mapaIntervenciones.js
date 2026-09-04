@@ -1898,7 +1898,7 @@ const mapaIntervenciones = {
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
-    "volumen": 230,
+    "volumen": 245,
     "enlace": null
   },
   {
@@ -3376,13 +3376,13 @@ const mapaIntervenciones = {
     "provincia": "Huaraz",
     "distrito": "Independencia",
     "sector": "Huanchac",
-    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A LOS CENTROS POBLADOS DEL DISTRITO DE INDEPENDENCIA 3DA ETAPA, PROVINCIA DE HUARAZ, REGIÓN ANCASH  ",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A LOS CENTROS POBLADOS DEL DISTRITO DE INDEPENDENCIA 3DA ETAPA, PROVINCIA DE HUARAZ, REGIÓN ANCASH   ",
     "ficha": "078-2026-AAU-ANC",
     "fechaInicio": "27/04/2026",
     "fechaFin": "16/05/2026",
     "poblacion": 750,
     "volumen": 90,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1ltdbWQA9y62MlQ0OEhiEi_OLR1v-LNRW/view?usp=drive_link"
   },
   {
     "id": 10195,
@@ -4961,12 +4961,12 @@ const mapaIntervenciones = {
     "provincia": "Ica",
     "distrito": "San Jose De Los Molinos",
     "sector": "Yesera",
-    "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                ",
+    "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                 ",
     "ficha": "FT I N°011-2026-LDP- ICA",
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 6600,
+    "volumen": 7400,
     "enlace": null
   }
 ],
