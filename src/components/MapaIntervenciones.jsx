@@ -195,6 +195,19 @@ export default function MapaIntervenciones({ regionId, shortLabel, isGlobal = fa
     [regionPoints, showEjecutada, showEnEjecucion],
   )
 
+  // Universo de puntos según las capas activas, pero SIN acotar por la región ya elegida -- se usa
+  // solo para calcular qué regiones ofrecer en el selector "Región" de la vista Global. (03/09/2026,
+  // a pedido de Franco: "cuando selecciono el filtro ejecucion en region me sale 8 pero en el listado
+  // me aparecen todas" -- el listado de regiones debe acotarse a las capas activas, igual que ya
+  // pasa con provincia/distrito. No puede calcularse a partir de layerPoints porque ese ya está
+  // acotado a selectedRegion, y con una región ya elegida el resultado sería siempre esa sola.)
+  const layerPointsSinRegion = useMemo(
+    () => allPoints.filter((p) => (p.estado === 'Ejecutada' ? showEjecutada : showEnEjecucion)),
+    [allPoints, showEjecutada, showEnEjecucion],
+  )
+  const regionesDisponibles = useMemo(() => new Set(layerPointsSinRegion.map((p) => p.region)), [layerPointsSinRegion])
+  const regionesFiltradas = useMemo(() => REGION_LIST.filter((r) => regionesDisponibles.has(r.id)), [regionesDisponibles])
+
   const provincias = useMemo(() => [...new Set(layerPoints.map((p) => p.provincia))].sort(), [layerPoints])
   const distritos = useMemo(
     () => (provincia ? [...new Set(layerPoints.filter((p) => p.provincia === provincia).map((p) => p.distrito))].sort() : []),
@@ -233,18 +246,22 @@ export default function MapaIntervenciones({ regionId, shortLabel, isGlobal = fa
     setDistrito('')
   }
 
-  // Si al cambiar de capa (o de región, en Global) la provincia/distrito elegidos dejan de tener
-  // intervenciones del estado activo, se limpian solos para no dejar el filtro apuntando a una
-  // selección vacía.
+  // Si al cambiar de capa la región elegida deja de tener intervenciones del estado activo (o, en
+  // cascada, si la provincia/distrito elegidos dejan de tener intervenciones del estado activo), se
+  // limpian solos para no dejar el filtro apuntando a una selección vacía.
   useEffect(() => {
-    if (provincia && !provincias.includes(provincia)) {
+    if (isGlobal && selectedRegion && !regionesDisponibles.has(selectedRegion)) {
+      setSelectedRegion('')
+      setProvincia('')
+      setDistrito('')
+    } else if (provincia && !provincias.includes(provincia)) {
       setProvincia('')
       setDistrito('')
     } else if (distrito && !distritos.includes(distrito)) {
       setDistrito('')
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [provincias, distritos])
+  }, [regionesDisponibles, provincias, distritos])
 
   // Inicializa el mapa una vez por región (se remonta solo al cambiar de región).
   useEffect(() => {
@@ -357,8 +374,8 @@ export default function MapaIntervenciones({ regionId, shortLabel, isGlobal = fa
                       Región
                     </label>
                     <select id="mapfp-region" className="mapfp-select" value={selectedRegion} onChange={(e) => handleRegionChange(e.target.value)}>
-                      <option value="">Todas (8)</option>
-                      {REGION_LIST.map((r) => (
+                      <option value="">Todas ({regionesFiltradas.length})</option>
+                      {regionesFiltradas.map((r) => (
                         <option key={r.id} value={r.id}>
                           {r.shortLabel}
                         </option>
