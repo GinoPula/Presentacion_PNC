@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "04/09/2026",
-    "horaCorte": "09:59",
+    "horaCorte": "10:14",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -691,6 +691,25 @@
     },
     {
       "n": 35,
+      "idIntervencion": "10460",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Ate",
+      "sector": "Asoc. Los Jardines",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
+      "fechaInicio": "31/08/2026",
+      "fechaFin": "14/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-794)",
+        "EXCAVADORA HIDRAULICA ( TJT10120)"
+      ]
+    },
+    {
+      "n": 36,
       "idIntervencion": "10309",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -709,7 +728,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10470",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -725,25 +744,6 @@
       "maquinaria": [
         "VOLQUETE ( EGN-505)",
         "EXCAVADORA HIDRAULICA ( A10891)"
-      ]
-    },
-    {
-      "n": 37,
-      "idIntervencion": "10460",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lima",
-      "sector": "Asoc. Los Jardines",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
-      "fechaInicio": "31/08/2026",
-      "fechaFin": "14/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGV-794)",
-        "EXCAVADORA HIDRAULICA ( TJT10120)"
       ]
     },
     {
