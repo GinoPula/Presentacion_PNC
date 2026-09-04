@@ -4915,7 +4915,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 5800,
+    "volumen": 6600,
     "enlace": null
   }
 ],
@@ -11664,7 +11664,7 @@ const mapaIntervenciones = {
     "fechaInicio": "31/07/2026",
     "fechaFin": "14/08/2026",
     "poblacion": null,
-    "volumen": 0,
+    "volumen": 150,
     "enlace": null
   },
   {
@@ -11699,6 +11699,23 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 750,
     "volumen": 3250,
+    "enlace": null
+  },
+  {
+    "id": 9446,
+    "lat": -6.801263,
+    "lng": -76.536684,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Bellavista",
+    "distrito": "San Pablo",
+    "sector": "Dos De Mayo Y Nuevo Flores",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                  ",
+    "ficha": "015-2026-MTV-U-SAM ",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "17/09/2026",
+    "poblacion": 300,
+    "volumen": 120,
     "enlace": null
   }
 ],
