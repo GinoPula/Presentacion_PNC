@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH     ', inicio: '26/08/2026', fin: '07/09/2026', volAcum: 1386.0, kmAcum: 0.28, poblacion: 2516 },
+    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH     ', inicio: '26/08/2026', fin: '07/09/2026', volAcum: 1764.0, kmAcum: 0.28, poblacion: 2516 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 3370.0, kmAcum: 0.39, poblacion: 7456 },
   ],
 
@@ -87,7 +87,7 @@ export default {
     { tipo: 'Remolcador', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EAJ-560', 'EGN-071'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'New Holland', codigos: ['NNHH09046'], estado: 'operativo', nota: 'Movilizada a la UBO Junín para atención de emergencia.' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81373', '82454'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-808'], estado: 'inoperativo' },
+    { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-808'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-824'], estado: 'operativo' },
   ],
   flotaTotal: 18,

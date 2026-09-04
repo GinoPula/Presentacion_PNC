@@ -3840,7 +3840,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 2516,
-    "volumen": 1386,
+    "volumen": 1764,
     "enlace": null
   },
   {
@@ -9588,6 +9588,23 @@ const mapaIntervenciones = {
     "fechaFin": "16/09/2026",
     "poblacion": 500,
     "volumen": 2907.2,
+    "enlace": null
+  },
+  {
+    "id": 10477,
+    "lat": -5.274787,
+    "lng": -78.892452,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Chirinos",
+    "sector": "Caserio La Union – Sector El Filo",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA” ",
+    "ficha": "N°066-2026-MTVU-AMZ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "16/09/2026",
+    "poblacion": 170,
+    "volumen": 2532,
     "enlace": null
   }
 ],
