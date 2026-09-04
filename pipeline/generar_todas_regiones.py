@@ -344,6 +344,26 @@ def corregir_coordenada_punto(lat, lon, departamento, id_intervencion=None, sect
                    f"automáticamente ({lat}, {lon}) -> ({lat_c}, {lon_c}).")
             return lat_c, lon_c
 
+    # 1.5) ¿Ya viene convertida a lat/long pero con la zona UTM de origen
+    #      equivocada? Caso confirmado por Franco 03/09/2026 con la ficha
+    #      056-2026-LDE-ANC (id 10037, Huarmey): el punto real es UTM zona
+    #      17S (Este 810607, Norte 8883740), pero en Producción lo
+    #      convirtieron a mano con la zona 18S y guardaron el resultado ya
+    #      convertido -- lat=-10.085937, long=-72.166223 (un lat/long válido
+    #      a simple vista, por eso el paso 2 de abajo -que solo detecta UTM
+    #      crudo pegado en las columnas- nunca lo agarra). Cada zona UTM mide
+    #      6° de longitud y la latitud no cambia entre zonas, así que un
+    #      error de N zonas de origen se ve como la longitud corrida en
+    #      exactamente N × 6° -- se prueban 1 y 2 zonas (Perú solo usa 3:
+    #      17S/18S/19S) para ambos lados.
+    for delta in (-6, 6, -12, 12):
+        lon_c = lon + delta
+        if _dentro_de_bbox(lat, lon_c, bbox):
+            avisar(f"{etiqueta}: la longitud parecía convertida con la zona UTM de origen "
+                   f"equivocada (corrida {delta}°) -- corregida automáticamente "
+                   f"({lat}, {lon}) -> ({lat}, {round(lon_c, 6)}).")
+            return lat, round(lon_c, 6)
+
     # 2) ¿Es UTM (este/norte) pegado por error en las columnas lat/long? Se
     #    prueban las 3 zonas de Perú y las 2 formas de asignar las columnas
     #    (lat=norte/long=este es la más probable, pero también al revés).
