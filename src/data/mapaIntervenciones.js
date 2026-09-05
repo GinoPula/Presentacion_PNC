@@ -6631,10 +6631,10 @@ const mapaIntervenciones = {
     "provincia": "Huarochiri",
     "distrito": "San Antonio",
     "sector": "Sector La Rinconada – Con Referencia R-28",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”              ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”                ",
     "ficha": "098-2026-LDE-LIM",
     "fechaInicio": "31/07/2026",
-    "fechaFin": "04/09/2026",
+    "fechaFin": "11/09/2026",
     "poblacion": 1500,
     "volumen": 1727.94,
     "enlace": null
@@ -6670,7 +6670,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1050,
-    "volumen": 8155,
+    "volumen": 9755,
     "enlace": null
   },
   {
@@ -6721,7 +6721,7 @@ const mapaIntervenciones = {
     "fechaInicio": "19/08/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 250,
-    "volumen": 3485,
+    "volumen": 4037.5,
     "enlace": null
   },
   {
@@ -7573,7 +7573,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
-    "volumen": 15300,
+    "volumen": 15750,
     "enlace": null
   },
   {
@@ -7590,7 +7590,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 640,
-    "volumen": 570,
+    "volumen": 600,
     "enlace": null
   },
   {
@@ -7624,7 +7624,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 465,
+    "volumen": 495,
     "enlace": null
   },
   {
@@ -7641,7 +7641,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 2940,
+    "volumen": 3660,
     "enlace": null
   },
   {
@@ -7658,7 +7658,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 1230,
+    "volumen": 1830,
     "enlace": null
   },
   {
@@ -7675,7 +7675,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 525,
-    "volumen": 30,
+    "volumen": 60,
     "enlace": null
   }
 ],
@@ -10893,6 +10893,23 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10389,
+    "lat": -12.152072,
+    "lng": -75.228102,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Viques",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN      ",
+    "ficha": "061-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "08/08/2026",
+    "poblacion": 175,
+    "volumen": 10215,
+    "enlace": null
+  },
+  {
     "id": 10385,
     "lat": -12.157955,
     "lng": -75.264889,
@@ -10907,23 +10924,6 @@ const mapaIntervenciones = {
     "fechaFin": "17/08/2026",
     "poblacion": 113,
     "volumen": 21894,
-    "enlace": null
-  },
-  {
-    "id": 10389,
-    "lat": -12.152001,
-    "lng": -75.230881,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Viques",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ",
-    "ficha": "061-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "08/08/2026",
-    "poblacion": 175,
-    "volumen": 10215,
     "enlace": null
   },
   {
@@ -11401,7 +11401,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/08/2026",
     "fechaFin": "12/09/2026",
     "poblacion": 3800,
-    "volumen": 1470,
+    "volumen": 1680,
     "enlace": null
   }
 ],
@@ -11715,7 +11715,7 @@ const mapaIntervenciones = {
     "fechaInicio": "31/07/2026",
     "fechaFin": "14/08/2026",
     "poblacion": null,
-    "volumen": 150,
+    "volumen": 270,
     "enlace": null
   },
   {
@@ -11739,17 +11739,17 @@ const mapaIntervenciones = {
     "id": 10412,
     "lat": -6.6226,
     "lng": -76.383762,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Lamas",
     "distrito": "Cuñumbuqui",
     "sector": "Elina",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN       ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MAMONAQUIHUA KM0+000 AL KM+0+400 SECTOR ELINA, DISTRITO DE CUÑUMBUQUE, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN        ",
     "ficha": "037-2026-LD-U-SAM",
     "fechaInicio": "17/08/2026",
     "fechaFin": "08/08/2026",
     "poblacion": 750,
-    "volumen": 3250,
+    "volumen": 3400,
     "enlace": null
   },
   {
@@ -11766,7 +11766,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "17/09/2026",
     "poblacion": 300,
-    "volumen": 120,
+    "volumen": 300,
     "enlace": null
   }
 ],
