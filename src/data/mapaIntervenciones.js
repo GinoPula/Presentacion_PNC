@@ -53,7 +53,7 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "Tumbes",
     "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN DE LA POLICIA NACIONAL DEL PERU - PNP, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”           ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN DE LA POLICIA NACIONAL DEL PERU - PNP, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”            ",
     "ficha": "023-2026-LD-PI-TUM",
     "fechaInicio": "28/01/2026",
     "fechaFin": "30/01/2026",
