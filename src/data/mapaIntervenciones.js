@@ -3864,17 +3864,17 @@ const mapaIntervenciones = {
     "id": 10453,
     "lat": -9.215494,
     "lng": -77.694026,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Yungay",
     "distrito": "Shupluy",
     "sector": "Santo Toribio",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH     ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SANTO TORIBIO TRAMO II, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY, REGION ANCASH      ",
     "ficha": "097-2026-LDP-ANC",
     "fechaInicio": "26/08/2026",
-    "fechaFin": "07/09/2026",
+    "fechaFin": "04/09/2026",
     "poblacion": 2516,
-    "volumen": 1764,
+    "volumen": 2268,
     "enlace": null
   },
   {
@@ -4517,10 +4517,10 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Chochope",
     "sector": "Sectores “Chochope” Y “Parranal”",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.        ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.         ",
     "ficha": "043-2026 -LD-P-LAM",
     "fechaInicio": "24/08/2026",
-    "fechaFin": "06/09/2026",
+    "fechaFin": "08/09/2026",
     "poblacion": 1200,
     "volumen": 7400,
     "enlace": null
@@ -7641,7 +7641,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 3660,
+    "volumen": 4050,
     "enlace": null
   },
   {
@@ -7658,7 +7658,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 1830,
+    "volumen": 2160,
     "enlace": null
   },
   {
@@ -11766,7 +11766,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "17/09/2026",
     "poblacion": 300,
-    "volumen": 300,
+    "volumen": 428,
     "enlace": null
   }
 ],

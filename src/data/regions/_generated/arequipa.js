@@ -20,8 +20,8 @@ export default {
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".               ', inicio: '11/08/2026', fin: '09/09/2026', volAcum: 15750.0, kmAcum: 2.04, poblacion: 1500 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ', inicio: '11/08/2026', fin: '09/09/2026', volAcum: 600.0, kmAcum: 0.0, poblacion: 640 },
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '18/08/2026', fin: '16/09/2026', volAcum: 495.0, kmAcum: 0.0, poblacion: 504 },
-    { provincia: 'Caraveli', distrito: 'Chaparra', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".                ', inicio: '28/08/2026', fin: '19/09/2026', volAcum: 3660.0, kmAcum: 0.1, poblacion: 700 },
-    { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 1830.0, kmAcum: 0.18, poblacion: 1300 },
+    { provincia: 'Caraveli', distrito: 'Chaparra', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".                ', inicio: '28/08/2026', fin: '19/09/2026', volAcum: 4050.0, kmAcum: 0.1, poblacion: 700 },
+    { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 2160.0, kmAcum: 0.21, poblacion: 1300 },
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '03/09/2026', fin: '02/10/2026', volAcum: 60.0, kmAcum: 0.0, poblacion: 525 },
   ],
 
@@ -47,7 +47,7 @@ export default {
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'El Chaparral', ficha: '34-2026-LDP-ARE', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR EL CHAPARRAL, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.      ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 4692.69, metaKm: 0.39, poblacion: 400 },
   ],
 
-  conveniosCount: 9,
+  conveniosCount: 10,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial Caraveli', detail: 'hasta 07/10/2026' },
     { entidad: 'Municipalidad Distrital Chaparra', detail: 'vence 11/09/2026 (a un mes de caducar)' },
@@ -58,6 +58,7 @@ export default {
     { entidad: 'Municipalidad Distrital Characato', detail: 'hasta 16/06/2027' },
     { entidad: 'Municipalidad Distrital Alca', detail: 'hasta 08/07/2027' },
     { entidad: 'Municipalidad Distrital Cayma', detail: 'hasta 20/07/2027' },
+    { entidad: 'Municipalidad Distrital Huanuhuanu', detail: 'hasta 03/09/2027' },
   ],
 
   flota: [

@@ -81,10 +81,10 @@ export default {
     { provincia: 'Lima', distrito: 'Cieneguilla', sector: 'Colgante La Libertad Aguas Abajo', ficha: '024-2026-LDP-LIM', descripcion: 'LIMPIEZA Y DESCOLMATACI├ôN DEL CAUCE DE LA CUENCA LURIN PROG. 0+000 A 0+506 EN EL SECTOR PUENTE COLGANTE LA LIBERTAD AGUAS ABAJO, DISTRITO DE CIENEGUILLA - LIMA ÔÇô LIMA-00   ', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 11055.81, metaKm: 0.36, poblacion: 350 },
   ],
 
-  conveniosCount: 19,
+  conveniosCount: 21,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial', detail: '2 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '17 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '19 convenios vigentes' },
   ],
 
   flota: [

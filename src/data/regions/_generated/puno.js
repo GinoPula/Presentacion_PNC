@@ -66,11 +66,11 @@ export default {
     { provincia: 'Melgar', distrito: 'Santa Rosa', sector: 'Parina', ficha: 'FTI N°026-2026-LDP-PUN', descripcion: ' ENCAUZAMIENTO DEL RIO PARINA, EN EL SECTOR PARINA, DISTRITO DE SANTA ROSA, PROVINCIA DE MELGAR, DEPARTAMENTO DE PUNO-00     ', fechaInicio: '14/12/2026', fechaFin: '28/12/2026', metaVol: 14500.0, metaKm: 1.16, poblacion: 600 },
   ],
 
-  conveniosCount: 28,
+  conveniosCount: 29,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '6 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '21 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '22 convenios vigentes' },
   ],
 
   flota: [
