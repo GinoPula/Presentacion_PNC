@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "06/09/2026",
-    "horaCorte": "14:44",
+    "fechaCorte": "08/09/2026",
+    "horaCorte": "14:47",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -19,12 +19,12 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
       "fechaInicio": "31/08/2026",
-      "fechaFin": "07/09/2026",
+      "fechaFin": "14/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10127)",
-        "CAMIONETA ( EAJ-733)",
         "REMOLCADOR ( EGN-071)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-601)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-601)",
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -42,9 +42,9 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "08/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EAJ-733)",
         "REMOLCADOR ( EAJ-560)",
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10129)"
       ]
     },
@@ -63,36 +63,13 @@
       "fechaInicio": "17/08/2026",
       "fechaFin": "15/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-803)",
         "EXCAVADORA HIDRAULICA ( 85423)",
+        "VOLQUETE ( EGV-803)",
         "REMOLCADOR ( EGV-851)"
       ]
     },
     {
       "n": 4,
-      "idIntervencion": "9639",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Circa",
-      "sector": "Ccaracuñi",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº092-2025",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC\"-00",
-      "fechaInicio": "19/08/2026",
-      "fechaFin": "07/09/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 810370)",
-        "TRACTOR SOBRE ORUGA ( 81442)",
-        "REMOLCADOR ( EGV-851)",
-        "VOLQUETE ( EGV-792)",
-        "VOLQUETE ( EGM-777)",
-        "VOLQUETE ( EGM-780)"
-      ]
-    },
-    {
-      "n": 5,
       "idIntervencion": "10430",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -106,12 +83,12 @@
       "fechaInicio": "18/08/2026",
       "fechaFin": "16/09/2026",
       "maquinaria": [
-        "CAMIONETA ( EGM-015)",
-        "CAMION CISTERNA DE AGUA ( EGN-005)"
+        "CAMION CISTERNA DE AGUA ( EGN-005)",
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
-      "n": 6,
+      "n": 5,
       "idIntervencion": "10469",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -127,6 +104,28 @@
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-983)",
         "CAMIONETA ( EGM-015)"
+      ]
+    },
+    {
+      "n": 6,
+      "idIntervencion": "10085",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "La Yesera I Tramo Ii",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 79-2025-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10856)",
+        "CAMIONETA ( EGM-015)",
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGM-774)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
       ]
     },
     {
@@ -150,28 +149,6 @@
     },
     {
       "n": 8,
-      "idIntervencion": "10085",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "La Yesera I Tramo Ii",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 79-2025-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".",
-      "fechaInicio": "11/08/2026",
-      "fechaFin": "09/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGM-774)",
-        "EXCAVADORA HIDRAULICA ( A10856)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "REMOLCADOR ( EGM-982)",
-        "CAMIONETA ( EGM-015)"
-      ]
-    },
-    {
-      "n": 9,
       "idIntervencion": "10194",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -186,16 +163,16 @@
       "fechaFin": "19/09/2026",
       "maquinaria": [
         "REMOLCADOR ( EGM-982)",
-        "VOLQUETE ( EGM-805)",
-        "VOLQUETE ( EGM-798)",
-        "TRACTOR SOBRE ORUGA ( 81372)",
         "CAMIONETA ( EGM-015)",
+        "VOLQUETE ( EGM-805)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "EXCAVADORA HIDRAULICA ( D523227)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
+        "TRACTOR SOBRE ORUGA ( 81372)",
+        "VOLQUETE ( EGM-798)"
       ]
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10413",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -209,16 +186,16 @@
       "fechaInicio": "01/09/2026",
       "fechaFin": "22/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-782)",
-        "CARGADOR FRONTAL ( JLX00260)",
-        "VOLQUETE ( EGN-052)",
         "CAMIONETA ( EGM-015)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "REMOLCADOR ( EGM-982)"
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGV-782)",
+        "VOLQUETE ( EGN-052)",
+        "CARGADOR FRONTAL ( JLX00260)"
       ]
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10156",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -230,16 +207,16 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
       "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN LA QUEBRADA SHILLAC - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+400, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
       "fechaInicio": "27/08/2026",
-      "fechaFin": "05/09/2026",
+      "fechaFin": "08/09/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-971)",
         "REMOLCADOR ( EGO-046)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
-        "EXCAVADORA HIDRAULICA ( 85462)"
+        "EXCAVADORA HIDRAULICA ( 85462)",
+        "CAMIONETA ( EGL-971)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
       ]
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "9662",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -253,13 +230,13 @@
       "fechaInicio": "05/08/2026",
       "fechaFin": "13/09/2026",
       "maquinaria": [
+        "RETROEXCAVADORA ( 284442)",
         "CAMIONETA ( EGL-971)",
-        "VOLQUETE ( EGM-782)",
-        "RETROEXCAVADORA ( 284442)"
+        "VOLQUETE ( EGM-782)"
       ]
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10471",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -273,16 +250,16 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "16/09/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-971)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
-        "REMOLCADOR ( EGO-046)",
-        "VOLQUETE ( EGM-959)",
         "VOLQUETE ( EGM-809)",
+        "VOLQUETE ( EGM-959)",
+        "REMOLCADOR ( EGO-046)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
+        "CAMIONETA ( EGL-971)",
         "CARGADOR FRONTAL ( JLX00213)"
       ]
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10294",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -294,36 +271,15 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".",
       "fechaInicio": "15/06/2026",
-      "fechaFin": "07/09/2026",
+      "fechaFin": "12/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-882)",
         "EXCAVADORA HIDRAULICA ( 85464)",
+        "VOLQUETE ( EGM-882)",
         "VOLQUETE ( EGV-785)"
       ]
     },
     {
-      "n": 15,
-      "idIntervencion": "10440",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "La Ramada",
-      "sector": "Suro Chico - Las Palmas – El Porvenir",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
-      "descripcion": "“MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
-      "fechaInicio": "18/08/2025",
-      "fechaFin": "06/09/2025",
-      "maquinaria": [
-        "MOTONIVELADORA ( SZL03378)",
-        "VOLQUETE ( EGM-788)",
-        "CARGADOR FRONTAL ( M5K00334)",
-        "VOLQUETE ( EGV-810)"
-      ]
-    },
-    {
-      "n": 16,
+      "n": 14,
       "idIntervencion": "10465",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -337,33 +293,15 @@
       "fechaInicio": "27/08/2026",
       "fechaFin": "04/10/2026",
       "maquinaria": [
-        "MOTONIVELADORA ( SZL03378)",
-        "RODILLO COMPACTADOR ( H1762469)",
         "EXCAVADORA HIDRAULICA ( 810148)",
         "VOLQUETE ( EGV-797)",
-        "VOLQUETE ( EGV-830)"
+        "VOLQUETE ( EGV-830)",
+        "MOTONIVELADORA ( SZL03378)",
+        "RODILLO COMPACTADOR ( H1762469)"
       ]
     },
     {
-      "n": 17,
-      "idIntervencion": "10415",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Jaen",
-      "distrito": "Jaen",
-      "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°083-2026-CPJ/SO",
-      "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
-      "fechaInicio": "07/08/2026",
-      "fechaFin": "05/09/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-106)"
-      ]
-    },
-    {
-      "n": 18,
+      "n": 15,
       "idIntervencion": "10477",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -377,15 +315,15 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "16/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-848)",
-        "CARGADOR FRONTAL ( JLX00219)",
         "RODILLO COMPACTADOR ( H1762462)",
+        "VOLQUETE ( EGV-774)",
         "VOLQUETE ( EGV-835)",
-        "VOLQUETE ( EGV-774)"
+        "VOLQUETE ( EGV-848)",
+        "CARGADOR FRONTAL ( JLX00219)"
       ]
     },
     {
-      "n": 19,
+      "n": 16,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -399,12 +337,12 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "28/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-591)",
-        "VOLQUETE ( EGV-826)"
+        "VOLQUETE ( EGV-826)",
+        "VOLQUETE ( EGN-591)"
       ]
     },
     {
-      "n": 20,
+      "n": 17,
       "idIntervencion": "10326",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -416,14 +354,14 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
       "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”",
       "fechaInicio": "25/06/2026",
-      "fechaFin": "07/09/2026",
+      "fechaFin": "12/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGM-833)",
         "VOLQUETE ( EGV-819)"
       ]
     },
     {
-      "n": 21,
+      "n": 18,
       "idIntervencion": "10427",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -434,34 +372,28 @@
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO Nº101-2025",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO",
-      "fechaInicio": "26/09/2026",
-      "fechaFin": "09/10/2026",
+      "fechaInicio": "26/08/2026",
+      "fechaFin": "09/09/2026",
       "maquinaria": []
     },
     {
-      "n": 22,
-      "idIntervencion": "10438",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Ambo",
-      "distrito": "Ambo",
-      "sector": "Huancapata",
+      "n": 19,
+      "idIntervencion": "10443",
+      "departamento": "CUSCO",
+      "deptoLabel": "Cusco",
+      "regionId": "cusco",
+      "provincia": "Calca",
+      "distrito": "Calca",
+      "sector": "Caytupampa",
       "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO\".",
-      "fechaInicio": "18/08/2026",
-      "fechaFin": "01/09/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGN-104)",
-        "VOLQUETE ( EGM-776)",
-        "VOLQUETE ( EGM-934)",
-        "CAMIONETA ( EGL-984)",
-        "EXCAVADORA HIDRAULICA ( 810156)"
-      ]
+      "marcoLegal": "CONVENIO Nº005-2023-ADENDA 03",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "26/09/2026",
+      "maquinaria": []
     },
     {
-      "n": 23,
+      "n": 20,
       "idIntervencion": "10437",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -473,17 +405,17 @@
       "marcoLegal": "CONVENIO N° N° 002-2021-VIVIENDA/VMVU/PNC (ADENDA N° 5)",
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO",
       "fechaInicio": "19/08/2026",
-      "fechaFin": "02/09/2026",
+      "fechaFin": "10/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-798)",
         "CAMIONETA ( EGL-984)",
         "REMOLCADOR ( EGN-104)",
         "EXCAVADORA HIDRAULICA ( TJT10096)",
+        "VOLQUETE ( EGV-798)",
         "VOLQUETE ( EGV-841)"
       ]
     },
     {
-      "n": 24,
+      "n": 21,
       "idIntervencion": "9469",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -497,14 +429,14 @@
       "fechaInicio": "26/08/2026",
       "fechaFin": "09/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-925)",
         "REMOLCADOR ( EAJ-543)",
+        "VOLQUETE ( EGM-925)",
         "EXCAVADORA HIDRAULICA ( D523572)",
         "TRACTOR SOBRE ORUGA ( 81386)"
       ]
     },
     {
-      "n": 25,
+      "n": 22,
       "idIntervencion": "10431",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -522,7 +454,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 23,
       "idIntervencion": "10447",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -536,14 +468,14 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "01/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-871)",
         "CAMIONETA ( EGO-049)",
-        "CARGADOR FRONTAL ( JLX00220)",
-        "REMOLCADOR ( EGN-004)"
+        "VOLQUETE ( EGM-871)",
+        "REMOLCADOR ( EGN-004)",
+        "CARGADOR FRONTAL ( JLX00220)"
       ]
     },
     {
-      "n": 27,
+      "n": 24,
       "idIntervencion": "10446",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -557,14 +489,14 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "01/10/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-004)",
         "CARGADOR FRONTAL ( JLX00221)",
+        "REMOLCADOR ( EGN-004)",
         "CAMIONETA ( EGO-049)",
         "VOLQUETE ( EGV-760)"
       ]
     },
     {
-      "n": 28,
+      "n": 25,
       "idIntervencion": "10448",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -578,14 +510,34 @@
       "fechaInicio": "26/08/2026",
       "fechaFin": "09/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-796)",
+        "VOLQUETE ( EGM-832)",
         "REMOLCADOR ( EGN-004)",
         "CARGADOR FRONTAL ( D001612)",
-        "VOLQUETE ( EGM-832)"
+        "VOLQUETE ( EGV-796)"
       ]
     },
     {
-      "n": 29,
+      "n": 26,
+      "idIntervencion": "10491",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pacasmayo",
+      "distrito": "San Pedro De Lloc",
+      "sector": "Puente San Jose",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº027-2026",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "21/09/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EAJ-379)",
+        "TRACTOR SOBRE ORUGA ( AE800573)",
+        "EXCAVADORA HIDRAULICA ( TJT10075)"
+      ]
+    },
+    {
+      "n": 27,
       "idIntervencion": "10355",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -603,7 +555,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 28,
       "idIntervencion": "9158",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -619,7 +571,7 @@
       "maquinaria": []
     },
     {
-      "n": 31,
+      "n": 29,
       "idIntervencion": "9170",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -637,7 +589,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 30,
       "idIntervencion": "10468",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -653,7 +605,7 @@
       "maquinaria": []
     },
     {
-      "n": 33,
+      "n": 31,
       "idIntervencion": "10417",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -671,7 +623,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 32,
       "idIntervencion": "10213",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -685,12 +637,12 @@
       "fechaInicio": "31/07/2026",
       "fechaFin": "11/09/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10910)",
-        "VOLQUETE ( EGN-497)"
+        "VOLQUETE ( EGN-497)",
+        "EXCAVADORA HIDRAULICA ( A10910)"
       ]
     },
     {
-      "n": 35,
+      "n": 33,
       "idIntervencion": "10460",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -704,12 +656,12 @@
       "fechaInicio": "31/08/2026",
       "fechaFin": "14/09/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10120)",
-        "VOLQUETE ( EGV-794)"
+        "VOLQUETE ( EGV-794)",
+        "EXCAVADORA HIDRAULICA ( TJT10120)"
       ]
     },
     {
-      "n": 36,
+      "n": 34,
       "idIntervencion": "10309",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -723,12 +675,12 @@
       "fechaInicio": "11/08/2026",
       "fechaFin": "09/09/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10912)",
-        "CARGADOR FRONTAL ( D001610)"
+        "CARGADOR FRONTAL ( D001610)",
+        "EXCAVADORA HIDRAULICA ( A10912)"
       ]
     },
     {
-      "n": 37,
+      "n": 35,
       "idIntervencion": "10470",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -747,7 +699,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 36,
       "idIntervencion": "10439",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -765,8 +717,8 @@
       ]
     },
     {
-      "n": 39,
-      "idIntervencion": "10364",
+      "n": 37,
+      "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
       "regionId": "lima",
@@ -775,37 +727,19 @@
       "sector": "La Bocatoma De La Ptap Huachipa",
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
-      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
-      "fechaInicio": "22/07/2026",
-      "fechaFin": "05/09/2026",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "21/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-825)",
-        "EXCAVADORA HIDRAULICA ( TJT10116)",
+        "VOLQUETE ( EGV-840)",
         "TRACTOR SOBRE ORUGA ( 82541)",
-        "CARGADOR FRONTAL ( JLX00293)"
+        "CARGADOR FRONTAL ( JLX00207)",
+        "VOLQUETE ( EGV-825)",
+        "EXCAVADORA HIDRAULICA ( TJT10116)"
       ]
     },
     {
-      "n": 40,
-      "idIntervencion": "10074",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Vertiente Ii",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "1. ADENDA N°2 CONVENIO N° 81-2023-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "19/08/2026",
-      "fechaFin": "05/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGV-832)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
-      ]
-    },
-    {
-      "n": 41,
+      "n": 38,
       "idIntervencion": "9407",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -824,7 +758,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 39,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -842,25 +776,7 @@
       ]
     },
     {
-      "n": 43,
-      "idIntervencion": "10442",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Papayal Bajo, Monte Grande",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 097-2026-PCM",
-      "descripcion": "LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA",
-      "fechaInicio": "19/08/2026",
-      "fechaFin": "07/09/2026",
-      "maquinaria": [
-        "CARGADOR FRONTAL ( D001587)"
-      ]
-    },
-    {
-      "n": 44,
+      "n": 40,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -872,13 +788,13 @@
       "marcoLegal": "D.S. N° 097-2026-PCM",
       "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA",
       "fechaInicio": "06/08/2026",
-      "fechaFin": "04/09/2026",
+      "fechaFin": "09/09/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( AE800572)"
       ]
     },
     {
-      "n": 45,
+      "n": 41,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -893,29 +809,29 @@
       "fechaFin": "10/09/2026",
       "maquinaria": [
         "VOLQUETE ( EAJ-400)",
+        "CARGADOR FRONTAL ( D001580)",
         "VOLQUETE ( EAJ-390)",
-        "EXCAVADORA HIDRAULICA ( TJT10107)",
-        "CARGADOR FRONTAL ( D001580)"
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
-      "n": 46,
-      "idIntervencion": "10436",
+      "n": 42,
+      "idIntervencion": "10435",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
       "regionId": "puno",
-      "provincia": "Melgar",
-      "distrito": "Umachiri",
-      "sector": "Paccochuma Y Huamanruro",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
-      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO",
-      "fechaInicio": "14/08/2026",
-      "fechaFin": "28/08/2026",
+      "provincia": "Sandia",
+      "distrito": "San Juan Del Oro",
+      "sector": "Challohuma",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº048-2025-ADENDA 01",
+      "descripcion": "REFORZAMIENTO DEL DIQUE DE PROTECCIÓN EN EL CAUCE DEL RÍO CHALLOHUMA, SECTOR CHALLOHUMA, DISTRITO DE SAN JUAN DEL ORO, PROVINCIA DE SANDIA, DEPARTAMENTO DE PUNO",
+      "fechaInicio": "25/08/2026",
+      "fechaFin": "06/09/2026",
       "maquinaria": []
     },
     {
-      "n": 47,
+      "n": 43,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -927,17 +843,17 @@
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 0022-2026-MDSP",
       "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN",
       "fechaInicio": "03/09/2026",
-      "fechaFin": "17/09/2026",
+      "fechaFin": "18/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-589)",
-        "VOLQUETE ( EGN-496)",
         "VOLQUETE ( EGR-389)",
-        "CARGADOR FRONTAL ( 70J12945)",
-        "RODILLO COMPACTADOR ( H1762467)"
+        "VOLQUETE ( EGN-589)",
+        "RODILLO COMPACTADOR ( H1762467)",
+        "VOLQUETE ( EGN-496)",
+        "CARGADOR FRONTAL ( 70J12945)"
       ]
     },
     {
-      "n": 48,
+      "n": 44,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -955,7 +871,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 45,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -967,13 +883,13 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°014-2026-MDP-P/A.",
       "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN",
       "fechaInicio": "31/07/2026",
-      "fechaFin": "14/08/2026",
+      "fechaFin": "25/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-867)"
       ]
     },
     {
-      "n": 50,
+      "n": 46,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -987,13 +903,13 @@
       "fechaInicio": "01/09/2026",
       "fechaFin": "11/09/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
         "EXCAVADORA HIDRAULICA ( 810311)",
+        "REMOLCADOR ( EGN-105)",
         "VOLQUETE ( EGV-789)"
       ]
     },
     {
-      "n": 51,
+      "n": 47,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1011,7 +927,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 48,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1029,8 +945,27 @@
       ]
     },
     {
-      "n": 53,
-      "idIntervencion": "10414",
+      "n": 49,
+      "idIntervencion": "10466",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Tacna",
+      "sector": "Morro Sama Y Puente Fondopes",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
+      "descripcion": "LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "21/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 85422)",
+        "REMOLCADOR ( EGN-105)"
+      ]
+    },
+    {
+      "n": 50,
+      "idIntervencion": "10493",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
       "regionId": "tumbes",
@@ -1039,13 +974,10 @@
       "sector": "",
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”",
-      "fechaInicio": "07/08/2026",
-      "fechaFin": "05/09/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-007)",
-        "CAMIONETA ( EGM-052)"
-      ]
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "06/10/2026",
+      "maquinaria": []
     }
   ]
 }
