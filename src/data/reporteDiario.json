@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "08/09/2026",
-    "horaCorte": "19:07",
+    "horaCorte": "19:22",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -196,6 +196,26 @@
     },
     {
       "n": 10,
+      "idIntervencion": "9662",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajamarca",
+      "distrito": "Jesus",
+      "sector": "La Huaraclla (urbano)",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
+      "fechaInicio": "05/08/2026",
+      "fechaFin": "13/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-782)",
+        "RETROEXCAVADORA ( 284442)",
+        "CAMIONETA ( EGL-971)"
+      ]
+    },
+    {
+      "n": 11,
       "idIntervencion": "10156",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -213,26 +233,6 @@
         "CAMIONETA ( EGL-971)",
         "EXCAVADORA HIDRAULICA ( 85462)",
         "PLATAFORMA (CAMA BAJA) ( EGO-137)"
-      ]
-    },
-    {
-      "n": 11,
-      "idIntervencion": "9662",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Jesus",
-      "sector": "La Huaraclla (urbano)",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
-      "fechaInicio": "05/08/2026",
-      "fechaFin": "13/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGM-782)",
-        "RETROEXCAVADORA ( 284442)",
-        "CAMIONETA ( EGL-971)"
       ]
     },
     {
@@ -844,6 +844,22 @@
     },
     {
       "n": 43,
+      "idIntervencion": "10501",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Tirapata",
+      "sector": "Purina Patacollana, San Pedro De Pucarani Y Puyutira",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 037-2026-MDT/CM",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO",
+      "fechaInicio": "03/09/2026",
+      "fechaFin": "12/09/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 44,
       "idIntervencion": "10435",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -859,7 +875,7 @@
       "maquinaria": []
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -881,7 +897,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -899,7 +915,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -917,7 +933,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -937,7 +953,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -955,7 +971,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -973,7 +989,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -992,7 +1008,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 52,
       "idIntervencion": "10493",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
