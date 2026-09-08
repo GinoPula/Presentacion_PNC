@@ -10672,23 +10672,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9982,
-    "lat": -11.05829,
-    "lng": -75.341915,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Chanchamayo",
-    "distrito": "Chanchamayo",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, TRAMO N°01 PROG. 0+000 A LA PROG.0+502.24 KM, TRAMO N°02 PROG. 0+000 A LA PROG. 0+257.21 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN       ",
-    "ficha": "039-2026-LD-E-JUN",
-    "fechaInicio": "24/03/2026",
-    "fechaFin": "08/04/2026",
-    "poblacion": 25200,
-    "volumen": 9810,
-    "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
-  },
-  {
     "id": 10032,
     "lat": -12.096045,
     "lng": -74.015652,
@@ -10704,6 +10687,23 @@ const mapaIntervenciones = {
     "poblacion": 60102,
     "volumen": 8710,
     "enlace": null
+  },
+  {
+    "id": 9982,
+    "lat": -11.05829,
+    "lng": -75.341915,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Chanchamayo",
+    "distrito": "Chanchamayo",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, TRAMO N°01 PROG. 0+000 A LA PROG.0+502.24 KM, TRAMO N°02 PROG. 0+000 A LA PROG. 0+257.21 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN       ",
+    "ficha": "039-2026-LD-E-JUN",
+    "fechaInicio": "24/03/2026",
+    "fechaFin": "08/04/2026",
+    "poblacion": 25200,
+    "volumen": 9810,
+    "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
   },
   {
     "id": 10056,
@@ -11012,6 +11012,23 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10390,
+    "lat": -12.153571,
+    "lng": -75.24533,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Chupuro",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN     ",
+    "ficha": "062-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "08/08/2026",
+    "poblacion": 210,
+    "volumen": 11865,
+    "enlace": null
+  },
+  {
     "id": 10385,
     "lat": -12.157955,
     "lng": -75.264889,
@@ -11046,20 +11063,20 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10390,
-    "lat": -12.153571,
-    "lng": -75.24533,
+    "id": 10402,
+    "lat": -12.158032,
+    "lng": -75.264862,
     "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Chupuro",
-    "sector": "Zona Urbana",
-    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN     ",
-    "ficha": "062-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "08/08/2026",
-    "poblacion": 210,
-    "volumen": 11865,
+    "tipo": "Urgente atención",
+    "provincia": "Chupaca",
+    "distrito": "Chongos Bajo",
+    "sector": "Anexo De Pumpunya-Barrio Progreso",
+    "descripcion": "ABASTECIMIENTO DE AGUA EN SITUACIONES DE EMERGENCIA A CONSECUENCIA DEL  SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL BARRIO PROGRESO, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN           ",
+    "ficha": "096-2026-AA-U-JUN",
+    "fechaInicio": "01/08/2026",
+    "fechaFin": "25/08/2026",
+    "poblacion": 1580,
+    "volumen": 120,
     "enlace": null
   },
   {
@@ -11077,23 +11094,6 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 402,
     "volumen": 13630,
-    "enlace": null
-  },
-  {
-    "id": 10402,
-    "lat": -12.158032,
-    "lng": -75.264862,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Chupaca",
-    "distrito": "Chongos Bajo",
-    "sector": "Anexo De Pumpunya-Barrio Progreso",
-    "descripcion": "ABASTECIMIENTO DE AGUA EN SITUACIONES DE EMERGENCIA A CONSECUENCIA DEL  SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL BARRIO PROGRESO, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN           ",
-    "ficha": "096-2026-AA-U-JUN",
-    "fechaInicio": "01/08/2026",
-    "fechaFin": "25/08/2026",
-    "poblacion": 1580,
-    "volumen": 120,
     "enlace": null
   },
   {
@@ -11145,6 +11145,23 @@ const mapaIntervenciones = {
     "fechaFin": "01/10/2026",
     "poblacion": 336,
     "volumen": 650,
+    "enlace": null
+  },
+  {
+    "id": 10450,
+    "lat": -12.1401,
+    "lng": -75.261674,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Chupaca",
+    "distrito": "Chongos Bajo",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN   ",
+    "ficha": "071-2026-LETV-E-JUN ",
+    "fechaInicio": "04/09/2026",
+    "fechaFin": "03/10/2026",
+    "poblacion": 595,
+    "volumen": 17243.1,
     "enlace": null
   }
 ],
