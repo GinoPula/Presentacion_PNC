@@ -16,9 +16,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ', inicio: '31/07/2026', fin: '14/08/2026', volAcum: 270.0, kmAcum: 0.54, poblacion: null },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 930.0, kmAcum: 0.0, poblacion: 1125 },
-    { provincia: 'Bellavista', distrito: 'San Pablo', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                  ', inicio: '03/09/2026', fin: '17/09/2026', volAcum: 428.0, kmAcum: 0.61, poblacion: 300 },
+    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN      ', inicio: '31/07/2026', fin: '25/09/2026', volAcum: 330.0, kmAcum: 0.66, poblacion: null },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 1035.0, kmAcum: 0.0, poblacion: 1125 },
+    { provincia: 'Bellavista', distrito: 'San Pablo', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                   ', inicio: '03/09/2026', fin: '18/09/2026', volAcum: 620.0, kmAcum: 0.89, poblacion: 300 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

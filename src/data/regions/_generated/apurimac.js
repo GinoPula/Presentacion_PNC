@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 19770.0, km: 1.54, poblacion: 1620, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 95539.96, km: 15.15, poblacion: 7430, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 100039.96, km: 15.45, poblacion: 8330, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
   ],
-  ejecutadasTotal: { cantidad: 18, m3: 115309.96, m3AguaPotable: 0.0, km: 16.69, poblacion: 9050 },
+  ejecutadasTotal: { cantidad: 19, m3: 119809.96, m3AguaPotable: 0.0, km: 16.99, poblacion: 9950 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,8 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 3650.0, kmAcum: 0.53, poblacion: 500 },
-    { provincia: 'Abancay', distrito: 'Circa', tipo: 'Prevención', descripcion: '  "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC"-00       ', inicio: '19/08/2026', fin: '07/09/2026', volAcum: 4000.0, kmAcum: 0.26, poblacion: 900 },
+    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ', inicio: '17/08/2026', fin: '15/09/2026', volAcum: 4400.0, kmAcum: 0.64, poblacion: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -64,11 +63,11 @@ export default {
     { provincia: 'Abancay', distrito: 'Pichirhua', sector: 'La Comunidad De Chalhuaní', ficha: 'FTI 004-2026-LDP-APU', descripcion: '   ¨LIMPIEZA Y DESCOLMATACIÓN DE LAS QUEBRADAS DE LOS RÍOS, CHUCUPAYA TRAMO I PROGRESIVA 0+00 A 0+160 KM, CHARAURO TRAMO II PROGRESIVA 0+00 A 0+120 KM, CHARAURO TRAMO III PROGRESIVA 0+00 A 0+350 KM, DE LA COMUNIDAD DE CHALHUANÍ, DISTRITO DE PICHIRHUA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC¨-00  ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 7470.0, metaKm: 0.63, poblacion: 350 },
   ],
 
-  conveniosCount: 16,
+  conveniosCount: 15,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '4 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '11 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '10 convenios vigentes' },
   ],
 
   flota: [
@@ -81,8 +80,8 @@ export default {
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'inoperativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81442', '82538'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGV-792', 'EGV-803', 'EGV-778'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 3, marca: 'Scania', codigos: ['EGM-828', 'EGM-781', 'EGM-872'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-780', 'EGM-777'], estado: 'inoperativo' },
+    { tipo: 'Volquete', cantidad: 4, marca: 'Scania', codigos: ['EGM-828', 'EGM-781', 'EGM-872', 'EGM-777'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-780'], estado: 'inoperativo' },
   ],
   flotaTotal: 19,
 }

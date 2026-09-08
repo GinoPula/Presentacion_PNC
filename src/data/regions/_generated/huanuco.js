@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 72774.0, km: 7.05, poblacion: 13330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 76779.0, km: 7.24, poblacion: 16330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 17, m3: 84301.4, m3AguaPotable: 0.0, km: 8.99, poblacion: 15208 },
+  ejecutadasTotal: { cantidad: 18, m3: 88306.4, m3AguaPotable: 0.0, km: 9.17, poblacion: 18208 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Ambo', distrito: 'Ambo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO".      ', inicio: '18/08/2026', fin: '01/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 3000 },
-    { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO"       ', inicio: '19/08/2026', fin: '02/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
+    { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO"        ', inicio: '19/08/2026', fin: '10/09/2026', volAcum: 4815.0, kmAcum: 0.55, poblacion: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -53,7 +52,7 @@ export default {
   conveniosCount: 8,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 24/02/2027' },
-    { entidad: 'Municipalidad Provincial Ambo', detail: 'hasta 07/10/2026' },
+    { entidad: 'Municipalidad Provincial Ambo', detail: 'vence 07/10/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Huanuco', detail: 'hasta 19/08/2027' },
     { entidad: 'Municipalidad Distrital Luyando', detail: 'hasta 07/11/2026' },
     { entidad: 'Municipalidad Distrital Codo Del Pozuzo', detail: 'hasta 13/11/2026' },

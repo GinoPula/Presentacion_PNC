@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -25,7 +26,6 @@ export default {
     { provincia: 'Ascope', distrito: 'Santiago De Cao', cantidad: 3, metaVol: 950.0, metaKm: 1.75, poblacion: 3888 },
     { provincia: 'Gran Chimu', distrito: 'Cascas', cantidad: 1, metaVol: 8550.0, metaKm: 0.5, poblacion: 121 },
     { provincia: 'Gran Chimu', distrito: 'Marmot', cantidad: 1, metaVol: 9500.0, metaKm: 0.5, poblacion: 204 },
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', cantidad: 1, metaVol: 25750.0, metaKm: 1.0, poblacion: 5000 },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', cantidad: 1, metaVol: 4118.0, metaKm: 4.58, poblacion: 209 },
     { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', cantidad: 1, metaVol: 1207.0, metaKm: 2.68, poblacion: 0 },
     { provincia: 'Santiago De Chuco', distrito: 'Quiruvilca', cantidad: 1, metaVol: 5310.0, metaKm: 11.8, poblacion: 399 },
@@ -33,13 +33,12 @@ export default {
     { provincia: 'Trujillo', distrito: 'Simbal', cantidad: 1, metaVol: 16140.0, metaKm: 0.75, poblacion: 1200 },
     { provincia: 'Viru', distrito: 'Chao', cantidad: 2, metaVol: 29700.0, metaKm: 1.8, poblacion: 296 },
   ],
-  programadasTotal: { cantidad: 15, metaVol: 137775.0, metaKm: 27.96, poblacion: 15067 },
+  programadasTotal: { cantidad: 14, metaVol: 112025.0, metaKm: 26.96, poblacion: 10067 },
 
   programadasDetalle: [
     { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', sector: 'Uchuy', ficha: '071-2026-LD-P-LIB', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD ', fechaInicio: '04/09/2026', fechaFin: '18/09/2026', metaVol: 1207.0, metaKm: 2.68, poblacion: null },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', sector: 'Pishauli', ficha: '072-2026-MTV-U-LIB', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD ', fechaInicio: '05/09/2026', fechaFin: '19/09/2026', metaVol: 4118.0, metaKm: 4.58, poblacion: 209 },
     { provincia: 'Santiago De Chuco', distrito: 'Quiruvilca', sector: 'Pajillas', ficha: '070-2026-MTV-U-LIB', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD ', fechaInicio: '05/09/2026', fechaFin: '19/09/2026', metaVol: 5310.0, metaKm: 11.8, poblacion: 399 },
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', sector: 'Puente San Jose', ficha: '073-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', fechaInicio: '07/09/2026', fechaFin: '21/09/2026', metaVol: 25750.0, metaKm: 1.0, poblacion: 5000 },
     { provincia: 'Ascope', distrito: 'Chicama', sector: 'Sausal', ficha: '008-2026-LDP-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y REFORZAMIENTO DE DIQUE EN LA QUEBRADA ALTO PERU SECTOR CP. SAUSAL, DISTRITO CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO LA LIBERTAD.                        ', fechaInicio: '08/09/2026', fechaFin: '22/09/2026', metaVol: 8850.0, metaKm: 1.1, poblacion: 1750 },
     { provincia: 'Gran Chimu', distrito: 'Marmot', sector: 'Septen', ficha: '005-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, DE LA QUEBRADA SEPTEN, SECTOR SEPTEN, DISTRITO DE MARMOT, PROVINCIA GRAN CHIMU, DEPARTAMENTO DE LA LIBERTAD          ', fechaInicio: '17/09/2026', fechaFin: '01/10/2026', metaVol: 9500.0, metaKm: 0.5, poblacion: 204 },
     { provincia: 'Viru', distrito: 'Chao', sector: 'Tizal', ficha: '060-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL RIO CHOROBAL, SECTOR EL TIZAL, DISTRITO DE CHAO, PROVINCIA DE VIRU, DEPARTAMENTO DE LA LIBERTAD     ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 16500.0, metaKm: 0.9, poblacion: 148 },
@@ -59,7 +58,7 @@ export default {
     { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'hasta 15/10/2026' },
     { entidad: 'Municipalidad Provincial Ascope', detail: 'hasta 20/11/2026' },
     { entidad: 'Municipalidad Provincial Pacasmayo', detail: 'hasta 27/04/2027' },
-    { entidad: 'Municipalidad Distrital Quiruvilca', detail: 'hasta 07/10/2026' },
+    { entidad: 'Municipalidad Distrital Quiruvilca', detail: 'vence 07/10/2026 (a un mes de caducar)' },
   ],
 
   flota: [

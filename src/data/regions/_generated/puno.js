@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
     { tipo: 'Prevención', cantidad: 14, m3: 129380.69, km: 32.78, poblacion: 7823, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'San Roman'] },
-    { tipo: 'Urgente atención', cantidad: 9, m3: 35983.78, km: 109.39, poblacion: 21085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'San Roman'] },
+    { tipo: 'Urgente atención', cantidad: 10, m3: 41352.23, km: 21079.89, poblacion: 22085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 284353.42, m3AguaPotable: 8612.02, km: 158.61, poblacion: 46939 },
+  ejecutadasTotal: { cantidad: 37, m3: 289721.87, m3AguaPotable: 8612.02, km: 21129.11, poblacion: 47939 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 5368.45, kmAcum: 20970.5, poblacion: 1000 },
+    { provincia: 'Sandia', distrito: 'San Juan Del Oro', tipo: 'Prevención', descripcion: ' REFORZAMIENTO DEL DIQUE DE PROTECCIÓN EN EL CAUCE DEL RÍO CHALLOHUMA, SECTOR CHALLOHUMA, DISTRITO DE SAN JUAN DEL ORO, PROVINCIA DE SANDIA, DEPARTAMENTO DE PUNO  ', inicio: '25/08/2026', fin: '06/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 290 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

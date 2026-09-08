@@ -266,23 +266,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
-    "id": 10060,
-    "lat": -3.888367,
-    "lng": -80.6094,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Casitas",
-    "sector": "Tamarindo",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PANALES, EN EL SECTOR TAMARINDO DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "039-2026-LD-PI-TUM",
-    "fechaInicio": "25/03/2026",
-    "fechaFin": "31/03/2026",
-    "poblacion": 758,
-    "volumen": 6400,
-    "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
-  },
-  {
     "id": 9492,
     "lat": -3.547885,
     "lng": -80.450429,
@@ -298,6 +281,23 @@ const mapaIntervenciones = {
     "poblacion": 1060,
     "volumen": 5928,
     "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
+  },
+  {
+    "id": 10060,
+    "lat": -3.888367,
+    "lng": -80.6094,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Casitas",
+    "sector": "Tamarindo",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PANALES, EN EL SECTOR TAMARINDO DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "039-2026-LD-PI-TUM",
+    "fechaInicio": "25/03/2026",
+    "fechaFin": "31/03/2026",
+    "poblacion": 758,
+    "volumen": 6400,
+    "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
   },
   {
     "id": 10051,
@@ -317,23 +317,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
-    "id": 10067,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "San Isidro",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ",
-    "ficha": "041-2026-AA-U-TUM",
-    "fechaInicio": "27/03/2026",
-    "fechaFin": "25/04/2026",
-    "poblacion": 1356,
-    "volumen": 630,
-    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
-  },
-  {
     "id": 10066,
     "lat": -3.683657,
     "lng": -80.674445,
@@ -351,21 +334,21 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
   },
   {
-    "id": 10094,
-    "lat": -3.694946,
-    "lng": -80.695972,
+    "id": 10067,
+    "lat": -3.60504,
+    "lng": -80.480279,
     "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Los Pinos",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "044-2026-LD-PI-TUM",
-    "fechaInicio": "02/04/2026",
-    "fechaFin": "08/04/2026",
-    "poblacion": 687,
-    "volumen": 5200,
-    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "San Isidro",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ",
+    "ficha": "041-2026-AA-U-TUM",
+    "fechaInicio": "27/03/2026",
+    "fechaFin": "25/04/2026",
+    "poblacion": 1356,
+    "volumen": 630,
+    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
     "id": 10093,
@@ -383,6 +366,23 @@ const mapaIntervenciones = {
     "poblacion": 1024,
     "volumen": 2295,
     "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
+  },
+  {
+    "id": 10094,
+    "lat": -3.694946,
+    "lng": -80.695972,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Los Pinos",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "044-2026-LD-PI-TUM",
+    "fechaInicio": "02/04/2026",
+    "fechaFin": "08/04/2026",
+    "poblacion": 687,
+    "volumen": 5200,
+    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
   },
   {
     "id": 10105,
@@ -555,23 +555,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
-    "id": 10241,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
-    "ficha": "056-2026-AA-U-TUM",
-    "fechaInicio": "21/05/2026",
-    "fechaFin": "19/06/2026",
-    "poblacion": 1356,
-    "volumen": 555,
-    "enlace": null
-  },
-  {
     "id": 10028,
     "lat": -3.642346,
     "lng": -80.580154,
@@ -587,6 +570,23 @@ const mapaIntervenciones = {
     "poblacion": 1024,
     "volumen": 7840,
     "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
+  },
+  {
+    "id": 10241,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
+    "ficha": "056-2026-AA-U-TUM",
+    "fechaInicio": "21/05/2026",
+    "fechaFin": "19/06/2026",
+    "poblacion": 1356,
+    "volumen": 555,
+    "enlace": null
   },
   {
     "id": 10169,
@@ -674,23 +674,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
-    "id": 10354,
-    "lat": -3.642479,
-    "lng": -80.592653,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "Las Gardenias",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
-    "ficha": "066-2026-LD-E-TUM",
-    "fechaInicio": "08/07/2026",
-    "fechaFin": "16/07/2026",
-    "poblacion": 325,
-    "volumen": 900,
-    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
-  },
-  {
     "id": 10340,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -706,6 +689,23 @@ const mapaIntervenciones = {
     "poblacion": 1356,
     "volumen": 585,
     "enlace": null
+  },
+  {
+    "id": 10354,
+    "lat": -3.642479,
+    "lng": -80.592653,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "Las Gardenias",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
+    "ficha": "066-2026-LD-E-TUM",
+    "fechaInicio": "08/07/2026",
+    "fechaFin": "16/07/2026",
+    "poblacion": 325,
+    "volumen": 900,
+    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
   },
   {
     "id": 10373,
@@ -762,17 +762,34 @@ const mapaIntervenciones = {
     "id": 10414,
     "lat": -3.60504,
     "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": " \"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”     ",
+    "ficha": "070-2026-AA-U-TUM",
+    "fechaInicio": "07/08/2026",
+    "fechaFin": "05/09/2026",
+    "poblacion": 1356,
+    "volumen": 780,
+    "enlace": null
+  },
+  {
+    "id": 10493,
+    "lat": -3.60504,
+    "lng": -80.480279,
     "estado": "En ejecución",
     "tipo": "Urgente atención",
     "provincia": "Tumbes",
     "distrito": "Corrales",
     "sector": "",
-    "descripcion": " \"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "070-2026-AA-U-TUM",
-    "fechaInicio": "07/08/2026",
-    "fechaFin": "05/09/2026",
+    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+    "ficha": "071-2026-AA-U-TUM",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "06/10/2026",
     "poblacion": 1356,
-    "volumen": 690,
+    "volumen": 7020,
     "enlace": null
   }
 ],
@@ -1364,10 +1381,10 @@ const mapaIntervenciones = {
     "provincia": "San Roman",
     "distrito": "San Miguel",
     "sector": "Chingora, Santa Maria, Mucra Y San Hilarión",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN VÍAS URBANAS EN LOS SECTORES DE CHINGORA, SANTA MARIA, MUCRA Y SAN HILARIÓN DEL DISTRITO DE SAN MIGUEL PROVINCIA DE SAN ROMAN REGION PUNO ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN VÍAS URBANAS EN LOS SECTORES DE CHINGORA, SANTA MARIA, MUCRA Y SAN HILARIÓN DEL DISTRITO DE SAN MIGUEL PROVINCIA DE SAN ROMAN REGION PUNO  ",
     "ficha": "FTI N° 073-2026-MTVU-PUN",
-    "fechaInicio": "23/07/2026",
-    "fechaFin": "06/08/2026",
+    "fechaInicio": "22/07/2026",
+    "fechaFin": "12/08/2026",
     "poblacion": 10700,
     "volumen": 7782.98,
     "enlace": null
@@ -1393,17 +1410,34 @@ const mapaIntervenciones = {
     "id": 10436,
     "lat": -14.79126,
     "lng": -70.730178,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Melgar",
     "distrito": "Umachiri",
     "sector": "Paccochuma Y Huamanruro",
-    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO",
+    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ",
     "ficha": "FTI N° 076-2026-MTVU-PUN",
     "fechaInicio": "14/08/2026",
     "fechaFin": "28/08/2026",
     "poblacion": 1000,
     "volumen": 5368.45,
+    "enlace": null
+  },
+  {
+    "id": 10435,
+    "lat": -14.208673,
+    "lng": -69.151994,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Sandia",
+    "distrito": "San Juan Del Oro",
+    "sector": "Challohuma",
+    "descripcion": " REFORZAMIENTO DEL DIQUE DE PROTECCIÓN EN EL CAUCE DEL RÍO CHALLOHUMA, SECTOR CHALLOHUMA, DISTRITO DE SAN JUAN DEL ORO, PROVINCIA DE SANDIA, DEPARTAMENTO DE PUNO  ",
+    "ficha": "FTI N° 075-2026-LDP-PUN",
+    "fechaInicio": "25/08/2026",
+    "fechaFin": "06/09/2026",
+    "poblacion": 290,
+    "volumen": 1074,
     "enlace": null
   }
 ],
@@ -1898,7 +1932,7 @@ const mapaIntervenciones = {
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
-    "volumen": 245,
+    "volumen": 260,
     "enlace": null
   },
   {
@@ -1932,7 +1966,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/10/2026",
     "poblacion": 550,
-    "volumen": 195,
+    "volumen": 210,
     "enlace": null
   },
   {
@@ -1949,7 +1983,24 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "11/09/2026",
     "poblacion": 350,
-    "volumen": 3000,
+    "volumen": 3800,
+    "enlace": null
+  },
+  {
+    "id": 10466,
+    "lat": -17.988008,
+    "lng": -70.876617,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Tacna",
+    "sector": "Morro Sama Y Puente Fondopes",
+    "descripcion": " LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA      ",
+    "ficha": "046-2026-LD-P-TAC",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "21/09/2026",
+    "poblacion": 500,
+    "volumen": 0,
     "enlace": null
   }
 ],
@@ -2881,29 +2932,29 @@ const mapaIntervenciones = {
     "provincia": "Morropon",
     "distrito": "Chulucanas",
     "sector": "",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA   ",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA    ",
     "ficha": "FTI N°114-2026-LD-E-PIU	",
     "fechaInicio": "06/08/2026",
-    "fechaFin": "04/09/2026",
+    "fechaFin": "09/09/2026",
     "poblacion": 110,
-    "volumen": 13500,
+    "volumen": 16200,
     "enlace": null
   },
   {
     "id": 10442,
     "lat": -5.230932,
     "lng": -79.64156,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Huancabamba",
     "distrito": "Canchaque",
     "sector": "Papayal Bajo, Monte Grande",
-    "descripcion": "\"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA\" ",
+    "descripcion": "\"LEVANTAMIENTO DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DEL CAMINO VECINAL ENTRE LOS TRAMOS DE PAPAYAL BAJO, MONTE GRANDE, PIEDRA BLANCA, PAPAYAL ALTO, HUAMALA ALTO, HUAMALA BAJO Y SOCCHA ALTA, DISTRITO DE CANCHAQUE - PROVINCIA DE HUANCABAMBA - DEPARTAMENTO DE PIURA\"  ",
     "ficha": "FTI N°119-2026-LETV-E-PIU",
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 372,
-    "volumen": 7000,
+    "volumen": 11436,
     "enlace": null
   },
   {
@@ -2920,7 +2971,7 @@ const mapaIntervenciones = {
     "fechaInicio": "27/08/2026",
     "fechaFin": "10/09/2026",
     "poblacion": 1000,
-    "volumen": 3850,
+    "volumen": 5350,
     "enlace": null
   }
 ],
@@ -3891,7 +3942,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
-    "volumen": 3946,
+    "volumen": 3060,
     "enlace": null
   },
   {
@@ -3903,12 +3954,12 @@ const mapaIntervenciones = {
     "provincia": "Recuay",
     "distrito": "Recuay",
     "sector": "Uchipampa",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH      ",
     "ficha": "102-2026-LDP-ANC",
     "fechaInicio": "31/08/2026",
-    "fechaFin": "07/09/2026",
+    "fechaFin": "14/09/2026",
     "poblacion": 150,
-    "volumen": 0,
+    "volumen": 375,
     "enlace": null
   }
 ],
@@ -4386,7 +4437,7 @@ const mapaIntervenciones = {
     "fechaInicio": "15/07/2026",
     "fechaFin": "12/09/2026",
     "poblacion": null,
-    "volumen": 1530,
+    "volumen": 1770,
     "enlace": null
   },
   {
@@ -4454,7 +4505,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 154,
+    "volumen": 187,
     "enlace": null
   },
   {
@@ -4522,7 +4573,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "08/09/2026",
     "poblacion": 1200,
-    "volumen": 7400,
+    "volumen": 9850,
     "enlace": null
   },
   {
@@ -4539,7 +4590,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "14/09/2026",
     "poblacion": 10100,
-    "volumen": 310,
+    "volumen": 650,
     "enlace": null
   },
   {
@@ -4556,7 +4607,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 4408,
-    "volumen": 200,
+    "volumen": 1750,
     "enlace": null
   }
 ],
@@ -4949,7 +5000,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 750,
-    "volumen": 150,
+    "volumen": 210,
     "enlace": null
   },
   {
@@ -4966,7 +5017,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 7400,
+    "volumen": 7500,
     "enlace": null
   }
 ],
@@ -5465,23 +5516,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1JN9n4W1mbHpViKLEyt4uWMTCukbeFP-3/view?usp=drive_link"
   },
   {
-    "id": 10425,
-    "lat": -7.774589,
-    "lng": -77.817713,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Sanchez Carrion",
-    "distrito": "Chugay",
-    "sector": "Canucubamba",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ",
-    "ficha": "065 - 2026 - MTV - U - LIB",
-    "fechaInicio": "10/08/2026",
-    "fechaFin": "28/08/2026",
-    "poblacion": 256,
-    "volumen": 2557,
-    "enlace": null
-  },
-  {
     "id": 10424,
     "lat": -8.00097,
     "lng": -78.309945,
@@ -5496,6 +5530,23 @@ const mapaIntervenciones = {
     "fechaFin": "24/08/2026",
     "poblacion": 5181,
     "volumen": 771,
+    "enlace": null
+  },
+  {
+    "id": 10425,
+    "lat": -7.774589,
+    "lng": -77.817713,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Chugay",
+    "sector": "Canucubamba",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO CANUCUBAMBA - SAN JUAN, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ",
+    "ficha": "065 - 2026 - MTV - U - LIB",
+    "fechaInicio": "10/08/2026",
+    "fechaFin": "28/08/2026",
+    "poblacion": 256,
+    "volumen": 2557,
     "enlace": null
   },
   {
@@ -5547,6 +5598,23 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 321,
     "volumen": 5500,
+    "enlace": null
+  },
+  {
+    "id": 10491,
+    "lat": -7.482855,
+    "lng": -79.418601,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Pacasmayo",
+    "distrito": "San Pedro De Lloc",
+    "sector": "Puente San Jose",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ",
+    "ficha": "073-2026-LD-P-LIB",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "21/09/2026",
+    "poblacion": 5000,
+    "volumen": 25750,
     "enlace": null
   }
 ],
@@ -6283,23 +6351,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10114,
-    "lat": -11.665801,
-    "lng": -76.78935,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Canta",
-    "distrito": "Santa Rosa De Quives",
-    "sector": "Santa Rosa De Quives",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA ARAHUAY, SECTOR SANTA ROSA DE QUIVES TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”         ",
-    "ficha": "083-2026-LDE-LIM",
-    "fechaInicio": "13/05/2026",
-    "fechaFin": "02/06/2026",
-    "poblacion": 225,
-    "volumen": 12725.4,
-    "enlace": null
-  },
-  {
     "id": 10181,
     "lat": -11.990545,
     "lng": -76.778948,
@@ -6314,6 +6365,23 @@ const mapaIntervenciones = {
     "fechaFin": "25/05/2026",
     "poblacion": 900,
     "volumen": 7700,
+    "enlace": null
+  },
+  {
+    "id": 10114,
+    "lat": -11.665801,
+    "lng": -76.78935,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Canta",
+    "distrito": "Santa Rosa De Quives",
+    "sector": "Santa Rosa De Quives",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA ARAHUAY, SECTOR SANTA ROSA DE QUIVES TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”         ",
+    "ficha": "083-2026-LDE-LIM",
+    "fechaInicio": "13/05/2026",
+    "fechaFin": "02/06/2026",
+    "poblacion": 225,
+    "volumen": 12725.4,
     "enlace": null
   },
   {
@@ -6572,23 +6640,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10123,
-    "lat": -12.082204,
-    "lng": -76.73566,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Cieneguilla",
-    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
-    "ficha": "091-2026-LDP-LIM",
-    "fechaInicio": "20/07/2026",
-    "fechaFin": "14/08/2026",
-    "poblacion": 7000,
-    "volumen": 11960,
-    "enlace": null
-  },
-  {
     "id": 10119,
     "lat": -11.950189,
     "lng": -76.748039,
@@ -6606,20 +6657,37 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10123,
+    "lat": -12.082204,
+    "lng": -76.73566,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Cieneguilla",
+    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
+    "ficha": "091-2026-LDP-LIM",
+    "fechaInicio": "20/07/2026",
+    "fechaFin": "14/08/2026",
+    "poblacion": 7000,
+    "volumen": 11960,
+    "enlace": null
+  },
+  {
     "id": 10364,
     "lat": -12.009603,
     "lng": -76.88072,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Lurigancho",
     "sector": "La Bocatoma De La Ptap Huachipa",
-    "descripcion": " \"DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM  AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA \"     ",
+    "descripcion": " \"DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+000 KM  AL 0+300 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA \"      ",
     "ficha": "110-2026-LDP-LIM",
     "fechaInicio": "22/07/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 2500000,
-    "volumen": 39183.6,
+    "volumen": 41403.6,
     "enlace": null
   },
   {
@@ -6711,17 +6779,17 @@ const mapaIntervenciones = {
     "id": 10074,
     "lat": -11.951722,
     "lng": -76.748517,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Lurigancho",
     "sector": "Vertiente Ii",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.        ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHACRASANA, VERTIENTE II, DISTRITO DE LURIGANCHO - PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA”.          ",
     "ficha": "075-2026-LDP-LIM",
     "fechaInicio": "19/08/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 250,
-    "volumen": 4037.5,
+    "volumen": 4165,
     "enlace": null
   },
   {
@@ -6755,7 +6823,24 @@ const mapaIntervenciones = {
     "fechaInicio": "31/08/2026",
     "fechaFin": "14/09/2026",
     "poblacion": 2600,
-    "volumen": 2960.15,
+    "volumen": 1095,
+    "enlace": null
+  },
+  {
+    "id": 10439,
+    "lat": -11.920428,
+    "lng": -77.075203,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Los Olivos",
+    "sector": "Puente Bethania",
+    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\"    ",
+    "ficha": "121-2026-LD-LIM",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "13/09/2026",
+    "poblacion": 8788,
+    "volumen": 1500,
     "enlace": null
   },
   {
@@ -6776,20 +6861,20 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10439,
-    "lat": -11.920428,
-    "lng": -77.075203,
+    "id": 10365,
+    "lat": -12.009188,
+    "lng": -76.878017,
     "estado": "En ejecución",
     "tipo": "Prevención",
     "provincia": "Lima",
-    "distrito": "Los Olivos",
-    "sector": "Puente Bethania",
-    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\"    ",
-    "ficha": "121-2026-LD-LIM",
-    "fechaInicio": "03/09/2026",
-    "fechaFin": "13/09/2026",
-    "poblacion": 8788,
-    "volumen": 8085,
+    "distrito": "Lurigancho",
+    "sector": "La Bocatoma De La Ptap Huachipa",
+    "descripcion": " DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM  AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA      ",
+    "ficha": "111-2026-LDP-LIM",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "21/09/2026",
+    "poblacion": 2500000,
+    "volumen": 29925,
     "enlace": null
   }
 ],
@@ -7573,7 +7658,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
-    "volumen": 15750,
+    "volumen": 16650,
     "enlace": null
   },
   {
@@ -7590,7 +7675,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 640,
-    "volumen": 600,
+    "volumen": 630,
     "enlace": null
   },
   {
@@ -7624,7 +7709,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 495,
+    "volumen": 525,
     "enlace": null
   },
   {
@@ -7641,7 +7726,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 4050,
+    "volumen": 4800,
     "enlace": null
   },
   {
@@ -7658,7 +7743,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 2160,
+    "volumen": 2760,
     "enlace": null
   },
   {
@@ -7675,7 +7760,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 525,
-    "volumen": 60,
+    "volumen": 105,
     "enlace": null
   }
 ],
@@ -8019,24 +8104,24 @@ const mapaIntervenciones = {
     "fechaInicio": "17/08/2026",
     "fechaFin": "15/09/2026",
     "poblacion": 500,
-    "volumen": 3650,
+    "volumen": 4400,
     "enlace": null
   },
   {
     "id": 9639,
     "lat": -13.862644,
     "lng": -72.998896,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Abancay",
     "distrito": "Circa",
     "sector": "Ccaracuñi",
-    "descripcion": "  \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+400, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC\"-00       ",
+    "descripcion": "  \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA MARGEN DERECHA DEL RIO PACHACHACA SECTOR CCARACUÑI PROGRESIVA KM 0+00 AL KM 0+300, DEL DISTRITO DE CIRCA, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC\"-00         ",
     "ficha": "FTI N°021-2026-LD-P-APU",
     "fechaInicio": "19/08/2026",
     "fechaFin": "07/09/2026",
     "poblacion": 900,
-    "volumen": 4000,
+    "volumen": 4500,
     "enlace": null
   }
 ],
@@ -8421,17 +8506,17 @@ const mapaIntervenciones = {
     "id": 10440,
     "lat": -6.235605,
     "lng": -78.606654,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Cutervo",
     "distrito": "La Ramada",
     "sector": "Suro Chico - Las Palmas – El Porvenir",
-    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”  ",
+    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA: SURO CHICO LAS PALMAS, EL PORVENIR DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”   ",
     "ficha": "N°063-2026-MTVU-AMZ",
     "fechaInicio": "18/08/2025",
-    "fechaFin": "06/09/2025",
+    "fechaFin": "03/09/2025",
     "poblacion": 135,
-    "volumen": 240,
+    "volumen": 735,
     "enlace": null
   },
   {
@@ -9285,23 +9370,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10293,
-    "lat": -5.691199,
-    "lng": -78.774925,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Jaen",
-    "distrito": "Jaen",
-    "sector": "El Pongo, Fila Alta, Chamaya, Molino  Chamaya, Palo Blanco, La Pushura,  San Agustin",
-    "descripcion": " “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”   ",
-    "ficha": "N°055-2026-AAU-AMZ",
-    "fechaInicio": "15/06/2026",
-    "fechaFin": "31/07/2026",
-    "poblacion": 5000,
-    "volumen": 660,
-    "enlace": null
-  },
-  {
     "id": 10294,
     "lat": -6.23918,
     "lng": -78.897973,
@@ -9310,12 +9378,29 @@ const mapaIntervenciones = {
     "provincia": "Cutervo",
     "distrito": "Callayuc",
     "sector": "San Francisco - C.P El Cumbe – La Union",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".     ",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".      ",
     "ficha": "N°051-2026-MTVU-AMZ",
     "fechaInicio": "15/06/2026",
-    "fechaFin": "07/09/2026",
+    "fechaFin": "12/09/2026",
     "poblacion": 438,
-    "volumen": 2180,
+    "volumen": 3590,
+    "enlace": null
+  },
+  {
+    "id": 10293,
+    "lat": -5.691199,
+    "lng": -78.774925,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Jaen",
+    "distrito": "Jaen",
+    "sector": "El Pongo, Fila Alta, Chamaya, Molino  Chamaya, Palo Blanco, La Pushura,  San Agustin",
+    "descripcion": " “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”     ",
+    "ficha": "N°055-2026-AAU-AMZ",
+    "fechaInicio": "15/06/2026",
+    "fechaFin": "31/07/2026",
+    "poblacion": 5000,
+    "volumen": 660,
     "enlace": null
   },
   {
@@ -9395,12 +9480,12 @@ const mapaIntervenciones = {
     "provincia": "San Ignacio",
     "distrito": "Namballe",
     "sector": "C.P. San Pedro",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
     "ficha": "N°056-2026-MTVU-AMZ",
     "fechaInicio": "25/06/2026",
-    "fechaFin": "07/09/2026",
+    "fechaFin": "12/09/2026",
     "poblacion": 274,
-    "volumen": 2145,
+    "volumen": 2550,
     "enlace": null
   },
   {
@@ -9519,24 +9604,24 @@ const mapaIntervenciones = {
     "fechaInicio": "05/08/2026",
     "fechaFin": "13/09/2026",
     "poblacion": 625,
-    "volumen": 210,
+    "volumen": 1610,
     "enlace": null
   },
   {
     "id": 10415,
     "lat": -5.691199,
     "lng": -78.774925,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Jaen",
     "distrito": "Jaen",
     "sector": "El Pongo, Fila Alta, Chamaya, Molino  Chamaya, Palo Blanco, La Pushura,  San Agustin",
-    "descripcion": "  “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA IV DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”      ",
+    "descripcion": "  “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA V DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”        ",
     "ficha": "N°058-2026-AAU-AMZ",
     "fechaInicio": "07/08/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 5000,
-    "volumen": 405,
+    "volumen": 660,
     "enlace": null
   },
   {
@@ -9582,12 +9667,12 @@ const mapaIntervenciones = {
     "provincia": "Cajamarca",
     "distrito": "Jesus",
     "sector": "La Huaraclla (Parte Alta)",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN LA QUEBRADA SHILLAC - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+400, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00     ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN LA QUEBRADA SHILLAC - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+400, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00      ",
     "ficha": "FTI N° 043-2026-LD-PI-CAJ",
     "fechaInicio": "27/08/2026",
-    "fechaFin": "05/09/2026",
+    "fechaFin": "08/09/2026",
     "poblacion": 750,
-    "volumen": 3050,
+    "volumen": 3350,
     "enlace": null
   },
   {
@@ -9638,7 +9723,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 500,
-    "volumen": 2907.2,
+    "volumen": 2480,
     "enlace": null
   },
   {
@@ -9650,8 +9735,8 @@ const mapaIntervenciones = {
     "provincia": "San Ignacio",
     "distrito": "Chirinos",
     "sector": "Caserio La Union – Sector El Filo",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA” ",
-    "ficha": "N°066-2026-MTVU-AMZ",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”  ",
+    "ficha": "N°067-2026-MTVU-AMZ",
     "fechaInicio": "02/09/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 170,
@@ -10045,12 +10130,29 @@ const mapaIntervenciones = {
     "provincia": "Anta",
     "distrito": "Zurite",
     "sector": "Loboyoc-Cruzpata",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO    ",
     "ficha": "029-2026-LD-P-CUS",
-    "fechaInicio": "26/09/2026",
-    "fechaFin": "09/10/2026",
+    "fechaInicio": "26/08/2026",
+    "fechaFin": "09/09/2026",
     "poblacion": 245,
-    "volumen": 1285,
+    "volumen": 3090,
+    "enlace": null
+  },
+  {
+    "id": 10443,
+    "lat": -13.337044,
+    "lng": -71.956384,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Calca",
+    "distrito": "Calca",
+    "sector": "Caytupampa",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ",
+    "ficha": "002-2026-LD-P-CUS",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "26/09/2026",
+    "poblacion": 134,
+    "volumen": 12243,
     "enlace": null
   }
 ],
@@ -10384,17 +10486,17 @@ const mapaIntervenciones = {
     "id": 10438,
     "lat": -10.12892,
     "lng": -76.203194,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Ambo",
     "distrito": "Ambo",
     "sector": "Huancapata",
-    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO\".      ",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN, Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175 KM, SEGUNDO TRAMO, MARGEN DERECHA, SECTOR HUANCAPATA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO\".        ",
     "ficha": "N° 044-2026-LD-P-HCO.",
     "fechaInicio": "18/08/2026",
-    "fechaFin": "01/09/2026",
+    "fechaFin": "05/09/2026",
     "poblacion": 3000,
-    "volumen": 3733.33,
+    "volumen": 4005,
     "enlace": null
   },
   {
@@ -10406,12 +10508,12 @@ const mapaIntervenciones = {
     "provincia": "Leoncio Prado",
     "distrito": "Jose Crespo Y Castillo",
     "sector": "27 De Mayo",
-    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO\"       ",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO\"        ",
     "ficha": "N° 043-2026-LD-P-HCO",
     "fechaInicio": "19/08/2026",
-    "fechaFin": "02/09/2026",
+    "fechaFin": "10/09/2026",
     "poblacion": null,
-    "volumen": 5500,
+    "volumen": 4815,
     "enlace": null
   }
 ],
@@ -11025,7 +11127,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 0,
+    "volumen": 1350,
     "enlace": null
   },
   {
@@ -11042,7 +11144,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 0,
+    "volumen": 650,
     "enlace": null
   }
 ],
@@ -11384,7 +11486,7 @@ const mapaIntervenciones = {
     "fechaInicio": "08/08/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
-    "volumen": 590,
+    "volumen": 620,
     "enlace": null
   },
   {
@@ -11710,12 +11812,12 @@ const mapaIntervenciones = {
     "provincia": "San Martin",
     "distrito": "El Porvenir",
     "sector": "Pelejo",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN     ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN      ",
     "ficha": "036-2026-MTV-U-SAM ",
     "fechaInicio": "31/07/2026",
-    "fechaFin": "14/08/2026",
+    "fechaFin": "25/09/2026",
     "poblacion": null,
-    "volumen": 270,
+    "volumen": 330,
     "enlace": null
   },
   {
@@ -11732,7 +11834,7 @@ const mapaIntervenciones = {
     "fechaInicio": "04/08/2026",
     "fechaFin": "11/09/2026",
     "poblacion": 1125,
-    "volumen": 930,
+    "volumen": 1035,
     "enlace": null
   },
   {
@@ -11761,12 +11863,12 @@ const mapaIntervenciones = {
     "provincia": "Bellavista",
     "distrito": "San Pablo",
     "sector": "Dos De Mayo Y Nuevo Flores",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                  ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                   ",
     "ficha": "015-2026-MTV-U-SAM ",
     "fechaInicio": "03/09/2026",
-    "fechaFin": "17/09/2026",
+    "fechaFin": "18/09/2026",
     "poblacion": 300,
-    "volumen": 428,
+    "volumen": 620,
     "enlace": null
   }
 ],

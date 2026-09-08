@@ -16,23 +16,22 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Anta', distrito: 'Zurite', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO  ', inicio: '26/09/2026', fin: '09/10/2026', volAcum: 1285.0, kmAcum: 0.37, poblacion: 245 },
+    { provincia: 'Anta', distrito: 'Zurite', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO CHIRAPAYOC, EN EL SECTOR LOBOYOC DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+100 KM, Y EN EL SECTOR CRUZPATA DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 1+080 KM, DISTRITO DE ZURITE, PROVINCIA DE ANTA, REGION CUSCO    ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 3090.0, kmAcum: 0.89, poblacion: 245 },
+    { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 134 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
-    { provincia: 'Calca', distrito: 'Calca', cantidad: 1, metaVol: 12243.0, metaKm: 0.28, poblacion: 134 },
     { provincia: 'Canchis', distrito: 'Checacupe', cantidad: 1, metaVol: 8700.0, metaKm: 0.38, poblacion: 150 },
     { provincia: 'Canchis', distrito: 'Combapata', cantidad: 1, metaVol: 7500.0, metaKm: 0.5, poblacion: 120 },
     { provincia: 'Canchis', distrito: 'Marangani', cantidad: 1, metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', cantidad: 1, metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 70741.45, metaKm: 2.64, poblacion: 749 },
+  programadasTotal: { cantidad: 5, metaVol: 58498.45, metaKm: 2.37, poblacion: 615 },
 
   programadasDetalle: [
-    { provincia: 'Canchis', distrito: 'Marangani', sector: 'Huiscachani Central', ficha: '026-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO       ', fechaInicio: '14/09/2026', fechaFin: '13/10/2026', metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
-    { provincia: 'Calca', distrito: 'Calca', sector: 'Caytupampa', ficha: '002-2026-LD-P-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO', fechaInicio: '01/10/2026', fechaFin: '20/10/2026', metaVol: 12243.0, metaKm: 0.28, poblacion: 134 },
+    { provincia: 'Canchis', distrito: 'Marangani', sector: 'Huiscachani Central', ficha: '026-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO        ', fechaInicio: '14/10/2026', fechaFin: '12/11/2026', metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', sector: 'Saucepampa', ficha: '030-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO ', fechaInicio: '15/10/2026', fechaFin: '13/11/2026', metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
     { provincia: 'Canchis', distrito: 'Checacupe', sector: 'Checacupe-Bajo', ficha: '023-2026-LD-P-CUS', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO PITUMARCA, EN EL SECTOR CHECACUPE-BAJO, DE LA PROGRESIVA KM 0+00 A LA PROGRESIVA KM 0+380, DISTRITO DE CHECACUPE, PROVINCIA DE CANCHIS, REGION CUSCO".-00                    ', fechaInicio: '02/11/2026', fechaFin: '15/11/2026', metaVol: 8700.0, metaKm: 0.38, poblacion: 150 },
     { provincia: 'Canchis', distrito: 'Combapata', sector: 'C.P. Combapata', ficha: '024-2026-LD-P-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACION DE CAUCE DEL RIO VILCANOTA EN EL SECTOR DE C.P. COMBAPATA DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DEL DISTRITO DE COMBAPATA, DE LA PROVINCIA DE CANCHIS, REGION CUSCO-00                                ', fechaInicio: '15/11/2026', fechaFin: '29/11/2026', metaVol: 7500.0, metaKm: 0.5, poblacion: 120 },
