@@ -1439,6 +1439,23 @@ const mapaIntervenciones = {
     "poblacion": 290,
     "volumen": 1074,
     "enlace": null
+  },
+  {
+    "id": 10501,
+    "lat": -14.873536,
+    "lng": -70.413228,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Azangaro",
+    "distrito": "Tirapata",
+    "sector": "Purina Patacollana, San Pedro De Pucarani Y Puyutira",
+    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO",
+    "ficha": "FTI N° 078-2026-MTVU-PUN",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "12/09/2026",
+    "poblacion": 560,
+    "volumen": 2795.45,
+    "enlace": null
   }
 ],
   tacna: [
@@ -11503,7 +11520,7 @@ const mapaIntervenciones = {
     "fechaInicio": "08/08/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
-    "volumen": 620,
+    "volumen": 640,
     "enlace": null
   },
   {
