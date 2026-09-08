@@ -2,8 +2,8 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 9, m3: 60620.5, km: 2.58, poblacion: 6993, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 30825.94, km: 3.97, poblacion: 9686, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
+    { tipo: 'Emergencia', cantidad: 8, m3: 59152.0, km: 2.5, poblacion: 6828, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 32294.44, km: 4.06, poblacion: 9851, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
   ejecutadasTotal: { cantidad: 22, m3: 91446.44, m3AguaPotable: 0.0, km: 6.56, poblacion: 16679 },
 
