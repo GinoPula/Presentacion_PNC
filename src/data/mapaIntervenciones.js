@@ -11379,13 +11379,13 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "Punchana",
     "sector": "Aa.Hh. Santa Rosa Del Amazonas, Santa Maria Del Amazonas Y Nueva Unión",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. SANTA ROSA DEL AMAZONAS, SANTA MARIA DEL AMAZONAS Y NUEVA UNIÓN, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.         ",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. SANTA ROSA DEL AMAZONAS, SANTA MARIA DEL AMAZONAS Y NUEVA UNIÓN, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.          ",
     "ficha": "012-2026-CTMPV-U-LOR",
     "fechaInicio": "22/05/2026",
     "fechaFin": "18/06/2026",
     "poblacion": 3700,
     "volumen": 2450,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1RFq-tNtO0d17M_FowsxIX_7aqbZfmqPZ"
   },
   {
     "id": 9399,
