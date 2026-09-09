@@ -3978,6 +3978,23 @@ const mapaIntervenciones = {
     "poblacion": 150,
     "volumen": 1275,
     "enlace": null
+  },
+  {
+    "id": 10492,
+    "lat": -9.223753,
+    "lng": -77.690387,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Yungay",
+    "distrito": "Shupluy",
+    "sector": "Choccha",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY ",
+    "ficha": "098-2026-LDP-ANC",
+    "fechaInicio": "07/09/2026",
+    "fechaFin": "16/09/2026",
+    "poblacion": 160,
+    "volumen": 3900,
+    "enlace": null
   }
 ],
   lambayeque: [
@@ -4585,10 +4602,10 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Chochope",
     "sector": "Sectores “Chochope” Y “Parranal”",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.         ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.          ",
     "ficha": "043-2026 -LD-P-LAM",
     "fechaInicio": "24/08/2026",
-    "fechaFin": "08/09/2026",
+    "fechaFin": "09/09/2026",
     "poblacion": 1200,
     "volumen": 9850,
     "enlace": null
