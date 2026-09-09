@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/09/2026",
-    "horaCorte": "03:16",
+    "horaCorte": "03:31",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -50,6 +50,22 @@
     },
     {
       "n": 3,
+      "idIntervencion": "10492",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Yungay",
+      "distrito": "Shupluy",
+      "sector": "Choccha",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº035-2026",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "16/09/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 4,
       "idIntervencion": "10266",
       "departamento": "APURIMAC",
       "deptoLabel": "Apurimac",
@@ -69,7 +85,7 @@
       ]
     },
     {
-      "n": 4,
+      "n": 5,
       "idIntervencion": "10430",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -88,7 +104,7 @@
       ]
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "10469",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -103,25 +119,6 @@
       "fechaFin": "02/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-983)",
-        "CAMIONETA ( EGM-015)"
-      ]
-    },
-    {
-      "n": 6,
-      "idIntervencion": "10418",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "A.h. Isidoro Berrocal",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
-      "fechaInicio": "11/08/2026",
-      "fechaFin": "09/09/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
         "CAMIONETA ( EGM-015)"
       ]
     },
@@ -149,6 +146,25 @@
     },
     {
       "n": 8,
+      "idIntervencion": "10418",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "A.h. Isidoro Berrocal",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/08/2026",
+      "fechaFin": "09/09/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-980)",
+        "CAMIONETA ( EGM-015)"
+      ]
+    },
+    {
+      "n": 9,
       "idIntervencion": "10194",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -172,7 +188,7 @@
       ]
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "10413",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -192,26 +208,6 @@
         "REMOLCADOR ( EGM-982)",
         "VOLQUETE ( EGV-782)",
         "VOLQUETE ( EGN-052)"
-      ]
-    },
-    {
-      "n": 10,
-      "idIntervencion": "9662",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Jesus",
-      "sector": "La Huaraclla (urbano)",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
-      "fechaInicio": "05/08/2026",
-      "fechaFin": "13/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGM-782)",
-        "RETROEXCAVADORA ( 284442)",
-        "CAMIONETA ( EGL-971)"
       ]
     },
     {
@@ -237,6 +233,26 @@
     },
     {
       "n": 12,
+      "idIntervencion": "9662",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajamarca",
+      "distrito": "Jesus",
+      "sector": "La Huaraclla (urbano)",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
+      "fechaInicio": "05/08/2026",
+      "fechaFin": "13/09/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGM-782)",
+        "RETROEXCAVADORA ( 284442)",
+        "CAMIONETA ( EGL-971)"
+      ]
+    },
+    {
+      "n": 13,
       "idIntervencion": "10471",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -259,7 +275,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "idIntervencion": "10294",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -279,7 +295,7 @@
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "idIntervencion": "10465",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -301,7 +317,7 @@
       ]
     },
     {
-      "n": 15,
+      "n": 16,
       "idIntervencion": "10477",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -323,7 +339,7 @@
       ]
     },
     {
-      "n": 16,
+      "n": 17,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -342,7 +358,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "idIntervencion": "10326",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -361,7 +377,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "idIntervencion": "10427",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -381,7 +397,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "10443",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -400,7 +416,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "idIntervencion": "10437",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -422,7 +438,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "idIntervencion": "9469",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -443,7 +459,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "idIntervencion": "10431",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -461,7 +477,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "idIntervencion": "10450",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -482,7 +498,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "idIntervencion": "10447",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -503,7 +519,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "idIntervencion": "10446",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -524,7 +540,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "idIntervencion": "10448",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -545,7 +561,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "idIntervencion": "10491",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -565,7 +581,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "idIntervencion": "10355",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -583,7 +599,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "idIntervencion": "9158",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -599,7 +615,7 @@
       "maquinaria": []
     },
     {
-      "n": 30,
+      "n": 31,
       "idIntervencion": "9170",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -617,7 +633,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 32,
       "idIntervencion": "10468",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -633,7 +649,7 @@
       "maquinaria": []
     },
     {
-      "n": 32,
+      "n": 33,
       "idIntervencion": "10417",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -651,7 +667,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "idIntervencion": "10213",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -670,7 +686,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "idIntervencion": "10460",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -689,7 +705,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "idIntervencion": "10309",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -708,7 +724,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10470",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -727,7 +743,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "10439",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -742,24 +758,6 @@
       "fechaFin": "13/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( A10880)"
-      ]
-    },
-    {
-      "n": 38,
-      "idIntervencion": "10498",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "fechaInicio": "08/09/2026",
-      "fechaFin": "21/09/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)"
       ]
     },
     {
@@ -786,6 +784,24 @@
     },
     {
       "n": 40,
+      "idIntervencion": "10498",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "fechaInicio": "08/09/2026",
+      "fechaFin": "21/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)"
+      ]
+    },
+    {
+      "n": 41,
       "idIntervencion": "9407",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -804,7 +820,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -822,7 +838,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -840,7 +856,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -861,7 +877,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "10501",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -877,7 +893,7 @@
       "maquinaria": []
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10435",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -893,7 +909,7 @@
       "maquinaria": []
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -915,7 +931,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -936,7 +952,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -954,7 +970,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -972,7 +988,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -992,7 +1008,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 52,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1010,7 +1026,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 53,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1028,7 +1044,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 54,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1047,7 +1063,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 55,
       "idIntervencion": "10493",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
