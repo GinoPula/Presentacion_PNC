@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO"        ', inicio: '19/08/2026', fin: '10/09/2026', volAcum: 4815.0, kmAcum: 0.55, poblacion: null },
+    { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO"         ', inicio: '19/08/2026', fin: '10/09/2026', volAcum: 4815.0, kmAcum: 0.55, poblacion: 672 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

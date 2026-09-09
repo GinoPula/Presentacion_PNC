@@ -4010,7 +4010,7 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 160,
-    "volumen": 3900,
+    "volumen": 390,
     "enlace": null
   }
 ],
@@ -5068,7 +5068,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
-    "volumen": 7500,
+    "volumen": 7900,
     "enlace": null
   }
 ],
@@ -10593,11 +10593,11 @@ const mapaIntervenciones = {
     "provincia": "Leoncio Prado",
     "distrito": "Jose Crespo Y Castillo",
     "sector": "27 De Mayo",
-    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO\"        ",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO\"         ",
     "ficha": "N° 043-2026-LD-P-HCO",
     "fechaInicio": "19/08/2026",
     "fechaFin": "10/09/2026",
-    "poblacion": null,
+    "poblacion": 672,
     "volumen": 4815,
     "enlace": null
   }
