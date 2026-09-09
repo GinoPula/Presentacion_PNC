@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/09/2026",
-    "horaCorte": "20:20",
+    "horaCorte": "20:35",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -865,7 +865,7 @@
       "marcoLegal": "D.S. N° 097-2026-PCM",
       "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA",
       "fechaInicio": "06/08/2026",
-      "fechaFin": "09/09/2026",
+      "fechaFin": "10/09/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( AE800572)"
       ]
