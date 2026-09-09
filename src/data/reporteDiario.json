@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/09/2026",
-    "horaCorte": "03:31",
+    "horaCorte": "03:47",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -627,7 +627,7 @@
       "marcoLegal": "ADENDA 03-CONVENIO Nº036-2022",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.",
       "fechaInicio": "24/08/2026",
-      "fechaFin": "08/09/2026",
+      "fechaFin": "09/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10111)"
       ]
