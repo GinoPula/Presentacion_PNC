@@ -10748,13 +10748,13 @@ const mapaIntervenciones = {
     "provincia": "Tarma",
     "distrito": "Palca",
     "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL LA QUEBRADA PALCA, PROG. 0+000 A LA PROG.0+667.59 KM, EN LA ZONA URBANA DEL DISTRITO DE PALCA, PROVINCIA DE TARMA-REGION JUNIN              ",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL LA QUEBRADA PALCA, PROG. 0+000 A LA PROG.0+667.59 KM, EN LA ZONA URBANA DEL DISTRITO DE PALCA, PROVINCIA DE TARMA-REGION JUNIN               ",
     "ficha": "037-2026-LD-E-JUN",
     "fechaInicio": "20/03/2026",
     "fechaFin": "17/05/2026",
     "poblacion": 6960,
     "volumen": 6240,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1xhT9f-_69KIB9dDnqNdyryF4L6c-U_76/view?usp=drive_link"
   },
   {
     "id": 10032,
@@ -10765,13 +10765,13 @@ const mapaIntervenciones = {
     "provincia": "Satipo",
     "distrito": "Rio Tambo",
     "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN    ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN     ",
     "ficha": "042-2026-LD-E-JUN",
     "fechaInicio": "24/03/2026",
     "fechaFin": "17/04/2026",
     "poblacion": 60102,
     "volumen": 8710,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
   },
   {
     "id": 9982,
@@ -10808,23 +10808,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1tdHgD7ZR8dSKOkUX26YSufEFGfdi2aSa/view?usp=drive_link"
   },
   {
-    "id": 10081,
-    "lat": -10.930004,
-    "lng": -74.870696,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Chanchamayo",
-    "distrito": "Pichanaqui",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES DE LA PROGRESIVA 0+000 AL 1+328.07 DEL RIO PERENE EN LA ZONA URBANA DEL DISTRITO DE PICHANAKI, PROVINCIA CHANCHAMAYO, REGION JUNIN     ",
-    "ficha": "044-2026-LD-E-JUN",
-    "fechaInicio": "31/03/2026",
-    "fechaFin": "14/04/2026",
-    "poblacion": 21000,
-    "volumen": 6850,
-    "enlace": null
-  },
-  {
     "id": 10082,
     "lat": -12.074613,
     "lng": -75.197796,
@@ -10840,6 +10823,23 @@ const mapaIntervenciones = {
     "poblacion": 139200,
     "volumen": 1233,
     "enlace": "https://drive.google.com/file/d/1T63weDT46ikQvzU0pHEBk0RgKwe1H3Zg/view?usp=drive_link"
+  },
+  {
+    "id": 10081,
+    "lat": -10.930004,
+    "lng": -74.870696,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Chanchamayo",
+    "distrito": "Pichanaqui",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES DE LA PROGRESIVA 0+000 AL 1+328.07 DEL RIO PERENE EN LA ZONA URBANA DEL DISTRITO DE PICHANAKI, PROVINCIA CHANCHAMAYO, REGION JUNIN      ",
+    "ficha": "044-2026-LD-E-JUN",
+    "fechaInicio": "31/03/2026",
+    "fechaFin": "14/04/2026",
+    "poblacion": 21000,
+    "volumen": 6850,
+    "enlace": "https://drive.google.com/file/d/1RiN9Lw6N2MsKkwWeh1Nty2OEjpyMTDji/view?usp=drive_link"
   },
   {
     "id": 10083,
@@ -10969,13 +10969,13 @@ const mapaIntervenciones = {
     "provincia": "Satipo",
     "distrito": "Rio Tambo",
     "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LA PROGRESIVA 0+000 AL 001+720.10 DE LA LOCALIDAD DE PUERTO SHAMPINTIARI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.      ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LA PROGRESIVA 0+000 AL 001+720.10 DE LA LOCALIDAD DE PUERTO SHAMPINTIARI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.       ",
     "ficha": "051-2026-LD-E-JUN",
     "fechaInicio": "09/06/2026",
     "fechaFin": "22/06/2026",
     "poblacion": 2000,
     "volumen": 2500,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1vVW8iaw0DUiDu2rb7Jvhpen9xe4ThzIR/view?usp=drive_link"
   },
   {
     "id": 10362,
@@ -11020,13 +11020,13 @@ const mapaIntervenciones = {
     "provincia": "Chupaca",
     "distrito": "Chongos Bajo",
     "sector": "Anexo De Pumpunya",
-    "descripcion": "LIMPIEZA DE ACUMULACION DE ESCOMBROS, EN AFECTACION DE VIVIENDAS Y VIAS DE ACCESO EN LA  PROG. 0+000 A LA PROG. 0+115.09 KM EN EL ANEXO PUMPUYA, DISTRITO DE CHONGOS BAJO,PROVINCIA DE CHUPACA, REGION JUNIN               ",
+    "descripcion": "LIMPIEZA DE ACUMULACION DE ESCOMBROS, EN AFECTACION DE VIVIENDAS Y VIAS DE ACCESO EN LA  PROG. 0+000 A LA PROG. 0+115.09 KM EN EL ANEXO PUMPUYA, DISTRITO DE CHONGOS BAJO,PROVINCIA DE CHUPACA, REGION JUNIN                ",
     "ficha": "036-2026-LETV-E-JUN",
     "fechaInicio": "19/07/2026",
     "fechaFin": "21/07/2026",
     "poblacion": 21,
     "volumen": 1795,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/165jOAMK4854m6tdhfCMU6g7rIrdQn5J7/view?usp=drive_link"
   },
   {
     "id": 10217,
@@ -11088,13 +11088,30 @@ const mapaIntervenciones = {
     "provincia": "Huancayo",
     "distrito": "Viques",
     "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN      ",
+    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN       ",
     "ficha": "061-2026-LETV-E-JUN ",
     "fechaInicio": "25/07/2026",
     "fechaFin": "08/08/2026",
     "poblacion": 175,
     "volumen": 10215,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
+  },
+  {
+    "id": 10393,
+    "lat": -12.157963,
+    "lng": -75.264487,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Chupaca",
+    "distrito": "Chongos Bajo",
+    "sector": "Anexo De Pumpunya",
+    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL ANEXO DE PUMPUNYA-ZONA CENTRO, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN         ",
+    "ficha": "065-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "31/07/2026",
+    "poblacion": 63,
+    "volumen": 3100,
+    "enlace": "https://drive.google.com/file/d/1VvxnQx-Q4BNe1SsiDRWwAdczCfakyO-3/view?usp=drive_link"
   },
   {
     "id": 10390,
@@ -11122,30 +11139,13 @@ const mapaIntervenciones = {
     "provincia": "Chupaca",
     "distrito": "Chongos Bajo",
     "sector": "Anexo De Pumpunya",
-    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                ",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                 ",
     "ficha": "056-2026-LETV-E-JUN ",
     "fechaInicio": "25/07/2026",
     "fechaFin": "17/08/2026",
     "poblacion": 113,
     "volumen": 21894,
-    "enlace": null
-  },
-  {
-    "id": 10393,
-    "lat": -12.157963,
-    "lng": -75.264487,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Chupaca",
-    "distrito": "Chongos Bajo",
-    "sector": "Anexo De Pumpunya",
-    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL ANEXO DE PUMPUNYA-ZONA CENTRO, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN        ",
-    "ficha": "065-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "31/07/2026",
-    "poblacion": 63,
-    "volumen": 3100,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
   },
   {
     "id": 10402,
