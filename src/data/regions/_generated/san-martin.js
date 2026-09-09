@@ -16,9 +16,10 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN      ', inicio: '31/07/2026', fin: '25/09/2026', volAcum: 330.0, kmAcum: 0.66, poblacion: null },
+    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN      ', inicio: '31/07/2026', fin: '25/09/2026', volAcum: 420.0, kmAcum: 0.84, poblacion: null },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ', inicio: '04/08/2026', fin: '11/09/2026', volAcum: 1035.0, kmAcum: 0.0, poblacion: 1125 },
     { provincia: 'Bellavista', distrito: 'San Pablo', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                   ', inicio: '03/09/2026', fin: '18/09/2026', volAcum: 620.0, kmAcum: 0.89, poblacion: 300 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN             ', inicio: '08/09/2026', fin: '21/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,15 +29,13 @@ export default {
     { provincia: 'Lamas', distrito: 'Caynarachi', cantidad: 1, metaVol: 8700.0, metaKm: 0.35, poblacion: 500 },
     { provincia: 'Lamas', distrito: 'Shanao', cantidad: 2, metaVol: 13000.0, metaKm: 0.6, poblacion: 1450 },
     { provincia: 'Lamas', distrito: 'Tabalosos', cantidad: 1, metaVol: 8500.0, metaKm: 0.6, poblacion: 600 },
-    { provincia: 'Picota', distrito: 'San Hilarion', cantidad: 1, metaVol: 3000.0, metaKm: 0.3, poblacion: 0 },
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', cantidad: 2, metaVol: 12100.0, metaKm: 0.55, poblacion: 2050 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', cantidad: 3, metaVol: 3510.0, metaKm: 0.0, poblacion: 3375 },
     { provincia: 'Rioja', distrito: 'Yuracyacu', cantidad: 1, metaVol: 8700.0, metaKm: 0.7, poblacion: 750 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 64610.0, metaKm: 5.21, poblacion: 8725 },
+  programadasTotal: { cantidad: 12, metaVol: 61610.0, metaKm: 4.91, poblacion: 8725 },
 
   programadasDetalle: [
-    { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '038-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN            ', fechaInicio: '08/09/2026', fechaFin: '21/09/2026', metaVol: 3000.0, metaKm: 0.3, poblacion: null },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '007-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN    ', fechaInicio: '17/09/2026', fechaFin: '16/10/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },
     { provincia: 'Lamas', distrito: 'Shanao', sector: 'Shanao', ficha: '024-2026-LD-PI-SAM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL ALUVIÓNICO DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+300 KM EN LA QUEBRADA SHANAO, DISTRITO DE SHANAO, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN"                                   ', fechaInicio: '21/09/2026', fechaFin: '01/10/2026', metaVol: 5500.0, metaKm: 0.3, poblacion: 600 },
     { provincia: 'Lamas', distrito: 'Tabalosos', sector: 'San Miguel Del Rio Mayo', ficha: '021-2026-LD-PI-SAM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL ALUVIÓNICO DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+600 KM QUEBRADA SAN MIGUEL, EN EL CASERIO SAN MIGUEL DISTRITO DE TABALOSOS, PROVINCIA DE LAMAS,  REGIÓN SAN MARTÍN   ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 8500.0, metaKm: 0.6, poblacion: 600 },
