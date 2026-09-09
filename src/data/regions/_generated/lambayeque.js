@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 43762.0, km: 6.69, poblacion: 9430, provincias: ['Chiclayo', 'Lambayeque'] },
-    { tipo: 'Prevención', cantidad: 23, m3: 128866.35, km: 51.39, poblacion: 53360, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
+    { tipo: 'Prevención', cantidad: 24, m3: 138716.35, km: 55.45, poblacion: 54560, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 4, m3: 2788.0, km: null, poblacion: 9381, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 33, m3: 175416.35, m3AguaPotable: 2788.0, km: 58.08, poblacion: 72171 },
+  ejecutadasTotal: { cantidad: 34, m3: 185266.35, m3AguaPotable: 2788.0, km: 62.13, poblacion: 73371 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: '  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE             ', inicio: '15/07/2026', fin: '12/09/2026', volAcum: 1770.0, kmAcum: 0.0, poblacion: null },
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ', inicio: '12/08/2026', fin: '10/10/2026', volAcum: 187.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Lambayeque', distrito: 'Chochope', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.          ', inicio: '24/08/2026', fin: '09/09/2026', volAcum: 9850.0, kmAcum: 4.06, poblacion: 1200 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', tipo: 'Prevención', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.               ', inicio: '01/09/2026', fin: '14/09/2026', volAcum: 650.0, kmAcum: 0.31, poblacion: 10100 },
     { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”  ', inicio: '02/09/2026', fin: '22/09/2026', volAcum: 1750.0, kmAcum: 0.06, poblacion: 4408 },
   ],
