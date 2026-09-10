@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "10/09/2026",
-    "horaCorte": "02:12",
+    "horaCorte": "02:27",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -435,8 +435,8 @@
       "fechaInicio": "19/08/2026",
       "fechaFin": "10/09/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-984)",
         "REMOLCADOR ( EGN-104)",
+        "CAMIONETA ( EGL-984)",
         "EXCAVADORA HIDRAULICA ( TJT10096)",
         "VOLQUETE ( EGV-798)",
         "VOLQUETE ( EGV-841)"
@@ -702,25 +702,6 @@
     },
     {
       "n": 35,
-      "idIntervencion": "10309",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Chaclacayo",
-      "sector": "Cusipata",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N°2 CONVENIO Nº 008-2024-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
-      "fechaInicio": "11/08/2026",
-      "fechaFin": "09/09/2026",
-      "maquinaria": [
-        "CARGADOR FRONTAL ( D001610)",
-        "EXCAVADORA HIDRAULICA ( A10912)"
-      ]
-    },
-    {
-      "n": 36,
       "idIntervencion": "10470",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -739,7 +720,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 36,
       "idIntervencion": "10439",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -757,7 +738,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 37,
       "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -779,7 +760,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 38,
       "idIntervencion": "10498",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -797,7 +778,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 39,
       "idIntervencion": "9407",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -816,7 +797,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 40,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -834,7 +815,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 41,
       "idIntervencion": "10503",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -853,7 +834,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 42,
       "idIntervencion": "10411",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -871,7 +852,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 43,
       "idIntervencion": "9474",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -892,7 +873,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 44,
       "idIntervencion": "10501",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -908,7 +889,7 @@
       "maquinaria": []
     },
     {
-      "n": 46,
+      "n": 45,
       "idIntervencion": "10435",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -924,7 +905,7 @@
       "maquinaria": []
     },
     {
-      "n": 47,
+      "n": 46,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -946,7 +927,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 47,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -967,7 +948,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 48,
       "idIntervencion": "9438",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -985,7 +966,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 49,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1003,7 +984,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 50,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1023,7 +1004,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1041,7 +1022,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 52,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1059,7 +1040,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 53,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
