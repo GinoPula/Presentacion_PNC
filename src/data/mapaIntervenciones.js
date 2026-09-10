@@ -10757,23 +10757,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1xhT9f-_69KIB9dDnqNdyryF4L6c-U_76/view?usp=drive_link"
   },
   {
-    "id": 10032,
-    "lat": -12.096045,
-    "lng": -74.015652,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Satipo",
-    "distrito": "Rio Tambo",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN     ",
-    "ficha": "042-2026-LD-E-JUN",
-    "fechaInicio": "24/03/2026",
-    "fechaFin": "17/04/2026",
-    "poblacion": 60102,
-    "volumen": 8710,
-    "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
-  },
-  {
     "id": 9982,
     "lat": -11.05829,
     "lng": -75.341915,
@@ -10789,6 +10772,23 @@ const mapaIntervenciones = {
     "poblacion": 25200,
     "volumen": 9810,
     "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
+  },
+  {
+    "id": 10032,
+    "lat": -12.096045,
+    "lng": -74.015652,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Satipo",
+    "distrito": "Rio Tambo",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN     ",
+    "ficha": "042-2026-LD-E-JUN",
+    "fechaInicio": "24/03/2026",
+    "fechaFin": "17/04/2026",
+    "poblacion": 60102,
+    "volumen": 8710,
+    "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
   },
   {
     "id": 10056,
@@ -11080,23 +11080,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10389,
-    "lat": -12.152072,
-    "lng": -75.228102,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Viques",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN       ",
-    "ficha": "061-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "08/08/2026",
-    "poblacion": 175,
-    "volumen": 10215,
-    "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
-  },
-  {
     "id": 10393,
     "lat": -12.157963,
     "lng": -75.264487,
@@ -11112,6 +11095,23 @@ const mapaIntervenciones = {
     "poblacion": 63,
     "volumen": 3100,
     "enlace": "https://drive.google.com/file/d/1VvxnQx-Q4BNe1SsiDRWwAdczCfakyO-3/view?usp=drive_link"
+  },
+  {
+    "id": 10385,
+    "lat": -12.157955,
+    "lng": -75.264889,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Chupaca",
+    "distrito": "Chongos Bajo",
+    "sector": "Anexo De Pumpunya",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                 ",
+    "ficha": "056-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "17/08/2026",
+    "poblacion": 113,
+    "volumen": 21894,
+    "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
   },
   {
     "id": 10390,
@@ -11131,21 +11131,21 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10385,
-    "lat": -12.157955,
-    "lng": -75.264889,
+    "id": 10389,
+    "lat": -12.152072,
+    "lng": -75.228102,
     "estado": "Ejecutada",
     "tipo": "Emergencia",
-    "provincia": "Chupaca",
-    "distrito": "Chongos Bajo",
-    "sector": "Anexo De Pumpunya",
-    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                 ",
-    "ficha": "056-2026-LETV-E-JUN ",
+    "provincia": "Huancayo",
+    "distrito": "Viques",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN       ",
+    "ficha": "061-2026-LETV-E-JUN ",
     "fechaInicio": "25/07/2026",
-    "fechaFin": "17/08/2026",
-    "poblacion": 113,
-    "volumen": 21894,
-    "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
+    "fechaFin": "08/08/2026",
+    "poblacion": 175,
+    "volumen": 10215,
+    "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
   },
   {
     "id": 10402,
@@ -11182,23 +11182,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10448,
-    "lat": -11.97951,
-    "lng": -74.012631,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Satipo",
-    "distrito": "Rio Tambo",
-    "sector": "Zona Urbana",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.    ",
-    "ficha": "067-2026-LD-P-JUN",
-    "fechaInicio": "26/08/2026",
-    "fechaFin": "09/09/2026",
-    "poblacion": 1330,
-    "volumen": 4400,
-    "enlace": null
-  },
-  {
     "id": 10447,
     "lat": -12.187495,
     "lng": -75.238474,
@@ -11212,7 +11195,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 3950,
+    "volumen": 4970,
     "enlace": null
   },
   {
@@ -11229,7 +11212,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 2970,
+    "volumen": 3860,
     "enlace": null
   },
   {
@@ -11246,7 +11229,7 @@ const mapaIntervenciones = {
     "fechaInicio": "04/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 595,
-    "volumen": 2860,
+    "volumen": 3630,
     "enlace": null
   }
 ],
@@ -11605,7 +11588,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/08/2026",
     "fechaFin": "12/09/2026",
     "poblacion": 3800,
-    "volumen": 2380,
+    "volumen": 2520,
     "enlace": null
   }
 ],
