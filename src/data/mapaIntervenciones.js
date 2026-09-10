@@ -266,23 +266,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
-    "id": 9492,
-    "lat": -3.547885,
-    "lng": -80.450429,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Tumbes",
-    "distrito": "Tumbes",
-    "sector": "Salamanca",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN SALAMANCA TRAMO I (ALIVIADERO NATURAL), EN EL SECTOR DE SALAMANCA DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "002-2026-LD-PI-TUM",
-    "fechaInicio": "25/03/2026",
-    "fechaFin": "02/04/2026",
-    "poblacion": 1060,
-    "volumen": 5928,
-    "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
-  },
-  {
     "id": 10060,
     "lat": -3.888367,
     "lng": -80.6094,
@@ -298,6 +281,23 @@ const mapaIntervenciones = {
     "poblacion": 758,
     "volumen": 6400,
     "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
+  },
+  {
+    "id": 9492,
+    "lat": -3.547885,
+    "lng": -80.450429,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "Tumbes",
+    "sector": "Salamanca",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN SALAMANCA TRAMO I (ALIVIADERO NATURAL), EN EL SECTOR DE SALAMANCA DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "002-2026-LD-PI-TUM",
+    "fechaInicio": "25/03/2026",
+    "fechaFin": "02/04/2026",
+    "poblacion": 1060,
+    "volumen": 5928,
+    "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
   },
   {
     "id": 10051,
@@ -317,23 +317,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
-    "id": 10066,
-    "lat": -3.683657,
-    "lng": -80.674445,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Los Pozos",
-    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS POZOS, EN EL SECTOR LOS POZOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "040-2026-LD-PI-TUM",
-    "fechaInicio": "27/03/2026",
-    "fechaFin": "01/04/2026",
-    "poblacion": 1031,
-    "volumen": 7650,
-    "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
-  },
-  {
     "id": 10067,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -351,21 +334,21 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
-    "id": 10093,
-    "lat": -3.640265,
-    "lng": -80.597849,
+    "id": 10066,
+    "lat": -3.683657,
+    "lng": -80.674445,
     "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "",
-    "descripcion": "“LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD EN LOS SECTORES CIUDAD SATÉLITE Y BUENAVENTURA DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "043-2026-LETV-E-TUM",
-    "fechaInicio": "02/04/2026",
-    "fechaFin": "09/04/2026",
-    "poblacion": 1024,
-    "volumen": 2295,
-    "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Los Pozos",
+    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS POZOS, EN EL SECTOR LOS POZOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "040-2026-LD-PI-TUM",
+    "fechaInicio": "27/03/2026",
+    "fechaFin": "01/04/2026",
+    "poblacion": 1031,
+    "volumen": 7650,
+    "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
   },
   {
     "id": 10094,
@@ -383,6 +366,23 @@ const mapaIntervenciones = {
     "poblacion": 687,
     "volumen": 5200,
     "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
+  },
+  {
+    "id": 10093,
+    "lat": -3.640265,
+    "lng": -80.597849,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "",
+    "descripcion": "“LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD EN LOS SECTORES CIUDAD SATÉLITE Y BUENAVENTURA DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "043-2026-LETV-E-TUM",
+    "fechaInicio": "02/04/2026",
+    "fechaFin": "09/04/2026",
+    "poblacion": 1024,
+    "volumen": 2295,
+    "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
   },
   {
     "id": 10105,
@@ -555,23 +555,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
-    "id": 10028,
-    "lat": -3.642346,
-    "lng": -80.580154,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA COLOMA TRAMO II, EN EL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  -00    ",
-    "ficha": "036-2026-LD-PI-TUM",
-    "fechaInicio": "21/05/2026",
-    "fechaFin": "11/06/2026",
-    "poblacion": 1024,
-    "volumen": 7840,
-    "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
-  },
-  {
     "id": 10241,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -587,6 +570,23 @@ const mapaIntervenciones = {
     "poblacion": 1356,
     "volumen": 555,
     "enlace": null
+  },
+  {
+    "id": 10028,
+    "lat": -3.642346,
+    "lng": -80.580154,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA COLOMA TRAMO II, EN EL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  -00    ",
+    "ficha": "036-2026-LD-PI-TUM",
+    "fechaInicio": "21/05/2026",
+    "fechaFin": "11/06/2026",
+    "poblacion": 1024,
+    "volumen": 7840,
+    "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
   },
   {
     "id": 10169,
@@ -674,23 +674,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
-    "id": 10340,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
-    "ficha": "061-2026-AA-U-TUM",
-    "fechaInicio": "08/07/2026",
-    "fechaFin": "05/08/2026",
-    "poblacion": 1356,
-    "volumen": 585,
-    "enlace": null
-  },
-  {
     "id": 10354,
     "lat": -3.642479,
     "lng": -80.592653,
@@ -706,6 +689,23 @@ const mapaIntervenciones = {
     "poblacion": 325,
     "volumen": 900,
     "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
+  },
+  {
+    "id": 10340,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
+    "ficha": "061-2026-AA-U-TUM",
+    "fechaInicio": "08/07/2026",
+    "fechaFin": "05/08/2026",
+    "poblacion": 1356,
+    "volumen": 585,
+    "enlace": null
   },
   {
     "id": 10373,
@@ -773,23 +773,6 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 1356,
     "volumen": 780,
-    "enlace": null
-  },
-  {
-    "id": 10493,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-    "ficha": "071-2026-AA-U-TUM",
-    "fechaInicio": "07/09/2026",
-    "fechaFin": "06/10/2026",
-    "poblacion": 1356,
-    "volumen": 7020,
     "enlace": null
   }
 ],
@@ -6755,7 +6738,7 @@ const mapaIntervenciones = {
     "fechaInicio": "31/07/2026",
     "fechaFin": "11/09/2026",
     "poblacion": 1500,
-    "volumen": 1929.44,
+    "volumen": 2022.44,
     "enlace": null
   },
   {
@@ -6789,7 +6772,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1050,
-    "volumen": 11075,
+    "volumen": 11755,
     "enlace": null
   },
   {
