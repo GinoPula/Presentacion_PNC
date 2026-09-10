@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 1, m3: 5400.0, km: 0.08, poblacion: 400, provincias: ['Chachapoyas'] },
+    { tipo: 'Emergencia', cantidad: 2, m3: 15900.0, km: 0.38, poblacion: 616, provincias: ['Chachapoyas', 'Rodriguez De Mendoza'] },
   ],
-  ejecutadasTotal: { cantidad: 1, m3: 5400.0, m3AguaPotable: 0.0, km: 0.08, poblacion: 400 },
+  ejecutadasTotal: { cantidad: 2, m3: 15900.0, m3AguaPotable: 0.0, km: 0.38, poblacion: 616 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
-    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN MARGEN IZQUIERDO DEL RIO GEBIL DESDE LA PROGRESIVA 0+000 K.M A LA PROGRESIVA 0+300 K.M, DEL DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA, REGION AMAZONAS”           ', inicio: '02/07/2026', fin: '09/09/2026', volAcum: 8300.0, kmAcum: 0.22, poblacion: 216 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
