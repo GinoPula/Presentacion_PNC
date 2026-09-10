@@ -4471,7 +4471,7 @@ const mapaIntervenciones = {
     "fechaInicio": "15/07/2026",
     "fechaFin": "12/09/2026",
     "poblacion": null,
-    "volumen": 1770,
+    "volumen": 1860,
     "enlace": null
   },
   {
@@ -4539,7 +4539,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 187,
+    "volumen": 209,
     "enlace": null
   },
   {
@@ -4602,7 +4602,7 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Chochope",
     "sector": "Sectores “Chochope” Y “Parranal”",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.           ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE 4.90 KM DE LA QUEBRADA “MERCEDES” ENTRE LOS SECTORES “CHOCHOPE” Y “PARRANAL” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE.             ",
     "ficha": "043-2026 -LD-P-LAM",
     "fechaInicio": "24/08/2026",
     "fechaFin": "09/09/2026",
@@ -4624,7 +4624,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "14/09/2026",
     "poblacion": 10100,
-    "volumen": 650,
+    "volumen": 1010,
     "enlace": null
   },
   {
@@ -4641,7 +4641,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 4408,
-    "volumen": 1750,
+    "volumen": 4550,
     "enlace": null
   }
 ],
