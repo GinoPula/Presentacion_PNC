@@ -7699,12 +7699,12 @@ const mapaIntervenciones = {
     "id": 10085,
     "lat": -15.777643,
     "lng": -73.36777,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Caraveli",
     "distrito": "Caraveli",
     "sector": "La Yesera I Tramo Ii",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".               ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                ",
     "ficha": "49-2026-LDP-ARE",
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
@@ -7716,17 +7716,17 @@ const mapaIntervenciones = {
     "id": 10418,
     "lat": -15.776943,
     "lng": -73.375736,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Caraveli",
     "distrito": "Caraveli",
     "sector": "A.H. Isidoro Berrocal",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.  ",
     "ficha": "73-2026-AA-U-ARE",
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 640,
-    "volumen": 675,
+    "volumen": 720,
     "enlace": null
   },
   {
@@ -7760,7 +7760,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 555,
+    "volumen": 585,
     "enlace": null
   },
   {
@@ -7777,7 +7777,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 5580,
+    "volumen": 6150,
     "enlace": null
   },
   {
@@ -7794,7 +7794,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 3360,
+    "volumen": 4020,
     "enlace": null
   },
   {
