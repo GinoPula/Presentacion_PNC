@@ -7832,6 +7832,23 @@ const mapaIntervenciones = {
     "poblacion": 400,
     "volumen": 5400,
     "enlace": "https://drive.google.com/file/d/1OzUrBENwmV3r_aUOxDCVjKhxLn39ALBL/view?usp=drive_link"
+  },
+  {
+    "id": 10149,
+    "lat": -5.518264,
+    "lng": -77.345103,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Rodriguez De Mendoza",
+    "distrito": "Omia",
+    "sector": "",
+    "descripcion": " “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN MARGEN IZQUIERDO DEL RIO GEBIL DESDE LA PROGRESIVA 0+000 K.M A LA PROGRESIVA 0+300 K.M, DEL DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA, REGION AMAZONAS”         ",
+    "ficha": "N°050-2026-LDE-AMZ",
+    "fechaInicio": "02/07/2026",
+    "fechaFin": "09/09/2026",
+    "poblacion": 216,
+    "volumen": 6900,
+    "enlace": null
   }
 ],
   apurimac: [
