@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "10/09/2026",
-    "horaCorte": "21:50",
+    "horaCorte": "22:06",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -160,12 +160,12 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "19/09/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "EXCAVADORA HIDRAULICA ( D523227)",
         "REMOLCADOR ( EGM-982)",
         "VOLQUETE ( EGM-805)",
         "VOLQUETE ( EGM-798)",
         "TRACTOR SOBRE ORUGA ( 81372)",
-        "EXCAVADORA HIDRAULICA ( D523227)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "CAMIONETA ( EGM-015)"
       ]
     },
@@ -228,9 +228,9 @@
       "fechaInicio": "05/08/2026",
       "fechaFin": "13/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-782)",
+        "CAMIONETA ( EGL-971)",
         "RETROEXCAVADORA ( 284442)",
-        "CAMIONETA ( EGL-971)"
+        "VOLQUETE ( EGM-782)"
       ]
     },
     {
@@ -595,8 +595,8 @@
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-821)",
-        "RETROEXCAVADORA ( 286748)"
+        "RETROEXCAVADORA ( 286748)",
+        "VOLQUETE ( EGV-821)"
       ]
     },
     {
@@ -716,6 +716,24 @@
     },
     {
       "n": 36,
+      "idIntervencion": "10498",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "fechaInicio": "08/09/2026",
+      "fechaFin": "21/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)"
+      ]
+    },
+    {
+      "n": 37,
       "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -737,24 +755,6 @@
       ]
     },
     {
-      "n": 37,
-      "idIntervencion": "10498",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "fechaInicio": "08/09/2026",
-      "fechaFin": "21/09/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)"
-      ]
-    },
-    {
       "n": 38,
       "idIntervencion": "9407",
       "departamento": "LORETO",
@@ -769,8 +769,8 @@
       "fechaInicio": "14/08/2026",
       "fechaFin": "12/09/2026",
       "maquinaria": [
-        "MINI CARGADOR ( LMST05745)",
-        "VOLQUETE ( EGV-806)"
+        "VOLQUETE ( EGV-806)",
+        "MINI CARGADOR ( LMST05745)"
       ]
     },
     {
@@ -843,10 +843,10 @@
       "fechaInicio": "27/08/2026",
       "fechaFin": "10/09/2026",
       "maquinaria": [
+        "VOLQUETE ( EAJ-400)",
         "CARGADOR FRONTAL ( D001580)",
         "EXCAVADORA HIDRAULICA ( TJT10107)",
-        "VOLQUETE ( EAJ-390)",
-        "VOLQUETE ( EAJ-400)"
+        "VOLQUETE ( EAJ-390)"
       ]
     },
     {
@@ -897,10 +897,10 @@
       "fechaFin": "18/09/2026",
       "maquinaria": [
         "CARGADOR FRONTAL ( 70J12945)",
-        "VOLQUETE ( EGN-496)",
         "RODILLO COMPACTADOR ( H1762467)",
         "VOLQUETE ( EGN-589)",
-        "VOLQUETE ( EGR-389)"
+        "VOLQUETE ( EGR-389)",
+        "VOLQUETE ( EGN-496)"
       ]
     },
     {
@@ -926,24 +926,6 @@
     },
     {
       "n": 47,
-      "idIntervencion": "9438",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Rioja",
-      "distrito": "Pardo Miguel",
-      "sector": "Centro, Los Angeles Y Miraflores",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
-      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
-      "fechaInicio": "04/08/2026",
-      "fechaFin": "11/09/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-010)"
-      ]
-    },
-    {
-      "n": 48,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -961,7 +943,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 48,
       "idIntervencion": "9720",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -981,7 +963,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 49,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -999,7 +981,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 50,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1017,7 +999,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
