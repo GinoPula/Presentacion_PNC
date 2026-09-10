@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 6026.0, kmAcum: 0.7, poblacion: 7456 },
     { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH      ', inicio: '31/08/2026', fin: '14/09/2026', volAcum: 2100.0, kmAcum: 0.14, poblacion: 150 },
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY ', inicio: '07/09/2026', fin: '16/09/2026', volAcum: 390.0, kmAcum: 0.05, poblacion: 160 },
+    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY ', inicio: '07/09/2026', fin: '16/09/2026', volAcum: 546.0, kmAcum: 0.07, poblacion: 160 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

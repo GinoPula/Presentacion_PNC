@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 5900.0, kmAcum: 0.22, poblacion: 5000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
