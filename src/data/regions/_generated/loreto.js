@@ -27,7 +27,7 @@ export default {
   programadasTotal: { cantidad: 3, metaVol: 4800.0, metaKm: 2.1, poblacion: 5280 },
 
   programadasDetalle: [
-    { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '020-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.            ', fechaInicio: '10/09/2026', fechaFin: '24/09/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
+    { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '020-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.             ', fechaInicio: '25/09/2026', fechaFin: '19/10/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Nueva Ciudad De Belen - Varillalito', ficha: '023-2026-AA-U-LOR', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.      ', fechaInicio: '12/11/2026', fechaFin: '11/12/2026', metaVol: 720.0, metaKm: 0.0, poblacion: 1000 },
     { provincia: 'Maynas', distrito: 'Punchana', sector: 'Punchana', ficha: '024-2026-AA-U-LOR', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.        ', fechaInicio: '02/12/2026', fechaFin: '31/12/2026', metaVol: 680.0, metaKm: 0.0, poblacion: 780 },
   ],
