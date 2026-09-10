@@ -8543,7 +8543,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Ayacucho",
     "sector": "Wari Accopampa",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO                 ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO                  ",
     "ficha": "12-2026- LD-PI-AYAC",
     "fechaInicio": "10/08/2026",
     "fechaFin": "18/08/2026",
@@ -10254,7 +10254,7 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "26/09/2026",
     "poblacion": 134,
-    "volumen": 1340,
+    "volumen": 1960,
     "enlace": null
   }
 ],
@@ -11919,7 +11919,7 @@ const mapaIntervenciones = {
     "fechaInicio": "31/07/2026",
     "fechaFin": "25/09/2026",
     "poblacion": null,
-    "volumen": 510,
+    "volumen": 585,
     "enlace": null
   },
   {
@@ -11970,7 +11970,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "18/09/2026",
     "poblacion": 300,
-    "volumen": 870,
+    "volumen": 1095,
     "enlace": null
   },
   {
