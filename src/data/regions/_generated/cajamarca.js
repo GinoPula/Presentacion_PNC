@@ -25,6 +25,7 @@ export default {
     { provincia: 'Contumaza', distrito: 'Tantarica', tipo: 'Urgente atención', descripcion: '“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '02/09/2026', fin: '16/09/2026', volAcum: 2980.0, kmAcum: 11.0, poblacion: 500 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”  ', inicio: '02/09/2026', fin: '16/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 170 },
     { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO II, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 550 },
+    { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '09/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,17 +35,15 @@ export default {
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 2, metaVol: 7590.0, metaKm: 0.56, poblacion: 2010 },
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 1, metaVol: 2460.0, metaKm: 0.61, poblacion: 0 },
     { provincia: 'Contumaza', distrito: 'Contumaza', cantidad: 1, metaVol: 3168.0, metaKm: 0.44, poblacion: 125 },
-    { provincia: 'Cutervo', distrito: 'La Ramada', cantidad: 1, metaVol: 4446.23, metaKm: 6.59, poblacion: 553 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
     { provincia: 'Jaen', distrito: 'Jaen', cantidad: 3, metaVol: 16260.56, metaKm: 1.66, poblacion: 2900 },
     { provincia: 'San Marcos', distrito: 'Eduardo Villanueva', cantidad: 1, metaVol: 1200.0, metaKm: 0.38, poblacion: 250 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', cantidad: 2, metaVol: 7500.0, metaKm: 0.42, poblacion: 900 },
   ],
-  programadasTotal: { cantidad: 14, metaVol: 52444.16, metaKm: 13.77, poblacion: 8088 },
+  programadasTotal: { cantidad: 13, metaVol: 47997.93, metaKm: 7.18, poblacion: 7535 },
 
   programadasDetalle: [
     { provincia: 'Contumaza', distrito: 'Contumaza', sector: 'C.P. Tabacal', ficha: 'FTI N° 058-2026-LD-PI-CAJ', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”. ', fechaInicio: '07/09/2026', fechaFin: '21/09/2026', metaVol: 3168.0, metaKm: 0.44, poblacion: 125 },
-    { provincia: 'Cutervo', distrito: 'La Ramada', sector: 'C.P. Las Iglesias – C.P. La Cubillina', ficha: 'N°068-2026-MTVU-AMZ', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”', fechaInicio: '08/09/2026', fechaFin: '05/10/2026', metaVol: 4446.23, metaKm: 6.59, poblacion: 553 },
     { provincia: 'Jaen', distrito: 'Jaen', sector: 'El Parral', ficha: 'N°022-2026-LDP-AMZ', descripcion: 'LIMPIEZA DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE TALUD CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA AMOJU TRAMO II, DESDE LA PROGRESIVA 0+433.84 K.M. A LA PROGRESIVA 0+927.40 K.M., DEL SECTOR PARRAL,  DISTRITO DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA                 ', fechaInicio: '10/09/2026', fechaFin: '09/10/2026', metaVol: 8819.25, metaKm: 0.49, poblacion: 2000 },
     { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Sector Tulpuna Y Mollepampa', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. \n(FALTA DE CONVENIO CON LA M.P. DE CAJAMARCA - SE EJECUTARÁ A SOLICITUD DEL GORE)  ', fechaInicio: '23/09/2026', fechaFin: '07/10/2026', metaVol: 5598.0, metaKm: 1.55, poblacion: 150 },
     { provincia: 'Cajamarca', distrito: 'Jesus', sector: 'La Colpa', ficha: 'FTI N° 021-2026-LD-PI-CAJ', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA LA COLPA EL GAVILÁN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+200, EN EL CASERÍO LA COLPA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },

@@ -9778,6 +9778,23 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10471,
+    "lat": -7.224478,
+    "lng": -78.905478,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "Tantarica",
+    "sector": "El Sapo - Catan",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ",
+    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "16/09/2026",
+    "poblacion": 500,
+    "volumen": 2980,
+    "enlace": null
+  },
+  {
     "id": 10477,
     "lat": -5.274787,
     "lng": -78.892452,
@@ -9795,20 +9812,20 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10471,
-    "lat": -7.224478,
-    "lng": -78.905478,
+    "id": 10499,
+    "lat": -6.241433,
+    "lng": -78.590541,
     "estado": "En ejecución",
     "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "Tantarica",
-    "sector": "El Sapo - Catan",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ",
-    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
-    "fechaInicio": "02/09/2026",
-    "fechaFin": "16/09/2026",
-    "poblacion": 500,
-    "volumen": 2980,
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "C.P. Las Iglesias – C.P. La Cubillina",
+    "descripcion": " “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ",
+    "ficha": "N°068-2026-MTVU-AMZ",
+    "fechaInicio": "09/09/2026",
+    "fechaFin": "06/10/2026",
+    "poblacion": 553,
+    "volumen": 4446.23,
     "enlace": null
   },
   {
@@ -10220,7 +10237,7 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 245,
-    "volumen": 3090,
+    "volumen": 4085,
     "enlace": null
   },
   {
