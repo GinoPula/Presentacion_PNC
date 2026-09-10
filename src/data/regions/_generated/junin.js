@@ -23,7 +23,7 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 5, metaVol: 36997.0, metaKm: 3.34, poblacion: 33400 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 5, metaVol: 37712.97, metaKm: 3.37, poblacion: 30620 },
     { provincia: 'Concepcion', distrito: 'Concepcion', cantidad: 1, metaVol: 6500.0, metaKm: 0.15, poblacion: 1200 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', cantidad: 1, metaVol: 5714.0, metaKm: 1.0, poblacion: 300 },
     { provincia: 'Huancayo', distrito: 'Pucara', cantidad: 1, metaVol: 16702.3, metaKm: 3.16, poblacion: 770 },
@@ -33,14 +33,14 @@ export default {
     { provincia: 'Jauja', distrito: 'Masma', cantidad: 2, metaVol: 14000.0, metaKm: 3.0, poblacion: 1200 },
     { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
   ],
-  programadasTotal: { cantidad: 14, metaVol: 115149.53, metaKm: 15.99, poblacion: 46010 },
+  programadasTotal: { cantidad: 14, metaVol: 115865.5, metaKm: 16.01, poblacion: 43230 },
 
   programadasDetalle: [
     { provincia: 'Jauja', distrito: 'Julcan', sector: 'Río Yacus', ficha: '021-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00              ', fechaInicio: '01/09/2026', fechaFin: '14/09/2026', metaVol: 8400.0, metaKm: 0.54, poblacion: 480 },
     { provincia: 'Jauja', distrito: 'Masma', sector: 'Zona Urbana', ficha: '006-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO MASMA  DE LA  PROG. 0+000 A LA PROG. 1+500, VARIOS SECTORES AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE MASMA, PROVINCIA DE JAUJA, REGION JUNIN"-00                   ', fechaInicio: '01/09/2026', fechaFin: '15/09/2026', metaVol: 7000.0, metaKm: 1.5, poblacion: 600 },
     { provincia: 'Huancayo', distrito: 'Pucara', sector: 'Zona Urbana', ficha: '005-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO CHANCHAS VARIOS TRAMOS DE LA PROG. 0+000 A LA PROG. 3+158 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE PUCARA, PROVINCIA HUANCAYO, REGION JUNIN-00        ', fechaInicio: '01/09/2026', fechaFin: '15/09/2026', metaVol: 16702.3, metaKm: 3.16, poblacion: 770 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', sector: 'Zona Urbana', ficha: '003-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN"-00                  ', fechaInicio: '09/09/2026', fechaFin: '22/09/2026', metaVol: 5714.0, metaKm: 1.0, poblacion: 300 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA DEL RIO GAROU, DESDE LA PROG 0+000 A LA PROG 0+600, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN-00              ', fechaInicio: '15/09/2026', fechaFin: '28/09/2026', metaVol: 7500.0, metaKm: 0.6, poblacion: 3500 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN', fechaInicio: '15/09/2026', fechaFin: '29/09/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Garou', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA RIO GAROU, DESDE LA PROG 0+000 A LA PROG 0+700, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN-00    ', fechaInicio: '18/09/2026', fechaFin: '02/10/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500 },
     { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                    ', fechaInicio: '18/09/2026', fechaFin: '01/10/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
     { provincia: 'Jauja', distrito: 'Masma', sector: 'Zona Urbana', ficha: '007-2026-LD-P-JUN', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO MASMA, DE LA PROG 0+000 A LA PROG 1+500, EN VARIOS SECTORES DEL DISTRITO DE MASMA, PROVINCIA DE JAUJA, REGION JUNIN-00    ', fechaInicio: '05/10/2026', fechaFin: '18/10/2026', metaVol: 7000.0, metaKm: 1.5, poblacion: 600 },
