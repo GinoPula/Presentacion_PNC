@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 38237.33, km: 1.08, poblacion: 17845, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 53, m3: 408069.72, km: 16.43, poblacion: 2560151, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
+    { tipo: 'Prevención', cantidad: 54, m3: 419824.72, km: 16.82, poblacion: 2561201, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 68, m3: 466254.15, m3AguaPotable: 0.0, km: 33.88, poblacion: 2596830 },
+  ejecutadasTotal: { cantidad: 69, m3: 478009.15, m3AguaPotable: 0.0, km: 34.27, poblacion: 2597880 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,8 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huarochiri', distrito: 'San Antonio', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”                ', inicio: '31/07/2026', fin: '11/09/2026', volAcum: 2022.44, kmAcum: 0.08, poblacion: 1500 },
-    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO I, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.     ', inicio: '11/08/2026', fin: '09/09/2026', volAcum: 11755.0, kmAcum: 0.39, poblacion: 1050 },
-    { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”   ', inicio: '31/08/2026', fin: '14/09/2026', volAcum: 1560.0, kmAcum: 0.1, poblacion: 2600 },
+    { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”   ', inicio: '31/08/2026', fin: '14/09/2026', volAcum: 1755.0, kmAcum: 0.12, poblacion: 2600 },
     { provincia: 'Lima', distrito: 'Los Olivos', tipo: 'Prevención', descripcion: ' “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA"    ', inicio: '03/09/2026', fin: '13/09/2026', volAcum: 1500.0, kmAcum: 0.1, poblacion: 8788 },
     { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ', inicio: '03/09/2026', fin: '17/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1500 },
     { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM  AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA      ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2500000 },
