@@ -7760,7 +7760,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 504,
-    "volumen": 585,
+    "volumen": 600,
     "enlace": null
   },
   {
@@ -7777,7 +7777,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 700,
-    "volumen": 6150,
+    "volumen": 6900,
     "enlace": null
   },
   {
@@ -7794,7 +7794,7 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 4020,
+    "volumen": 4680,
     "enlace": null
   },
   {
@@ -7811,7 +7811,24 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 525,
-    "volumen": 180,
+    "volumen": 210,
+    "enlace": null
+  },
+  {
+    "id": 10507,
+    "lat": -15.776943,
+    "lng": -73.375736,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "A.H. Isidoro Berrocal",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.    ",
+    "ficha": "77-2026-AA-U-ARE",
+    "fechaInicio": "11/09/2026",
+    "fechaFin": "10/10/2026",
+    "poblacion": 640,
+    "volumen": 720,
     "enlace": null
   }
 ],
@@ -9774,7 +9791,7 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "28/09/2026",
     "poblacion": 500,
-    "volumen": 7136.64,
+    "volumen": 585,
     "enlace": null
   },
   {
