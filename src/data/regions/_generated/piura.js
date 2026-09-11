@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Morropon', distrito: 'Chulucanas', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA     ', inicio: '06/08/2026', fin: '10/09/2026', volAcum: 16500.0, kmAcum: 0.47, poblacion: 110 },
     { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00          ', inicio: '27/08/2026', fin: '11/09/2026', volAcum: 5350.0, kmAcum: 1.1, poblacion: 1000 },
     { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 212 },
   ],

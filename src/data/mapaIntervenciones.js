@@ -2176,23 +2176,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1TUYlb9HFSktoA1nfLaE6PeYQmF_1_rJl/view?usp=drive_link"
   },
   {
-    "id": 9476,
-    "lat": -5.20044,
-    "lng": -80.651396,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Piura",
-    "distrito": "Veintiseis De Octubre",
-    "sector": "Dren Pluvial Japon - Turquia",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL JAPÓN Y DREN PLUVIAL TURQUÍA DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA                ",
-    "ficha": "FTI N°012-2026-LD-PI-PIU",
-    "fechaInicio": "26/02/2026",
-    "fechaFin": "11/03/2026",
-    "poblacion": 5268,
-    "volumen": 9969.77,
-    "enlace": "https://drive.google.com/file/d/1-c7U4rsz-HFJkiOj1UI0LtAyd0x6lKDS/view?usp=drive_link"
-  },
-  {
     "id": 9953,
     "lat": -4.180615,
     "lng": -81.131338,
@@ -2208,6 +2191,23 @@ const mapaIntervenciones = {
     "poblacion": 2585,
     "volumen": 4200,
     "enlace": "https://drive.google.com/file/d/1z7u5djTCXpldIyPxwQA2chB3pGHQb9cD/view?usp=drive_link"
+  },
+  {
+    "id": 9476,
+    "lat": -5.20044,
+    "lng": -80.651396,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Piura",
+    "distrito": "Veintiseis De Octubre",
+    "sector": "Dren Pluvial Japon - Turquia",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL JAPÓN Y DREN PLUVIAL TURQUÍA DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA                ",
+    "ficha": "FTI N°012-2026-LD-PI-PIU",
+    "fechaInicio": "26/02/2026",
+    "fechaFin": "11/03/2026",
+    "poblacion": 5268,
+    "volumen": 9969.77,
+    "enlace": "https://drive.google.com/file/d/1-c7U4rsz-HFJkiOj1UI0LtAyd0x6lKDS/view?usp=drive_link"
   },
   {
     "id": 9951,
@@ -2295,23 +2295,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1ERzrUOG1Ca-ItKflpek5veOkn9S8ttEd/view?usp=drive_link"
   },
   {
-    "id": 10003,
-    "lat": -4.107915,
-    "lng": -81.044283,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Talara",
-    "distrito": "Mancora",
-    "sector": "",
-    "descripcion": " “LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD EN EL SECTOR  09 DE DICIEMBRE DEL DISTRITO DE MÁNCORA, PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA”						         ",
-    "ficha": "033-2026-LETV-E-TUM",
-    "fechaInicio": "12/03/2026",
-    "fechaFin": "16/03/2026",
-    "poblacion": 610,
-    "volumen": 1345.5,
-    "enlace": "https://drive.google.com/file/d/18B1kIZo_K4W795i28wzcPh-mWVR0lVin/view?usp=drive_link"
-  },
-  {
     "id": 10004,
     "lat": -4.752286,
     "lng": -79.761913,
@@ -2327,6 +2310,23 @@ const mapaIntervenciones = {
     "poblacion": 560,
     "volumen": 6600,
     "enlace": "https://drive.google.com/file/d/17NFyuriNvElpDrMyu6fmnSCi1kgiSyEq/view?usp=drive_link"
+  },
+  {
+    "id": 10003,
+    "lat": -4.107915,
+    "lng": -81.044283,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Talara",
+    "distrito": "Mancora",
+    "sector": "",
+    "descripcion": " “LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD EN EL SECTOR  09 DE DICIEMBRE DEL DISTRITO DE MÁNCORA, PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA”						         ",
+    "ficha": "033-2026-LETV-E-TUM",
+    "fechaInicio": "12/03/2026",
+    "fechaFin": "16/03/2026",
+    "poblacion": 610,
+    "volumen": 1345.5,
+    "enlace": "https://drive.google.com/file/d/18B1kIZo_K4W795i28wzcPh-mWVR0lVin/view?usp=drive_link"
   },
   {
     "id": 10000,
@@ -2550,23 +2550,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1543mMI80DvTXfXitVinef1nIbdXoVpoE/view?usp=drive_link"
   },
   {
-    "id": 10136,
-    "lat": -4.568781,
-    "lng": -81.148751,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Talara",
-    "distrito": "El Alto",
-    "sector": "El Alto",
-    "descripcion": " ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO POR URGENCIA EN DISTRITO DE EL ALTO, PROVINCIA DE TALARA, DEPARTAMENTO PIURA      ",
-    "ficha": "FTI N°115-2026-AA-U-PIU",
-    "fechaInicio": "20/04/2026",
-    "fechaFin": "19/06/2026",
-    "poblacion": 3310,
-    "volumen": 195,
-    "enlace": null
-  },
-  {
     "id": 10142,
     "lat": -4.945747,
     "lng": -80.132347,
@@ -2581,6 +2564,23 @@ const mapaIntervenciones = {
     "fechaFin": "16/05/2026",
     "poblacion": 786,
     "volumen": 21900,
+    "enlace": null
+  },
+  {
+    "id": 10136,
+    "lat": -4.568781,
+    "lng": -81.148751,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Talara",
+    "distrito": "El Alto",
+    "sector": "El Alto",
+    "descripcion": " ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO POR URGENCIA EN DISTRITO DE EL ALTO, PROVINCIA DE TALARA, DEPARTAMENTO PIURA      ",
+    "ficha": "FTI N°115-2026-AA-U-PIU",
+    "fechaInicio": "20/04/2026",
+    "fechaFin": "19/06/2026",
+    "poblacion": 3310,
+    "volumen": 195,
     "enlace": null
   },
   {
@@ -2921,23 +2921,6 @@ const mapaIntervenciones = {
     "fechaFin": "17/08/2026",
     "poblacion": 5268,
     "volumen": 5616,
-    "enlace": null
-  },
-  {
-    "id": 10411,
-    "lat": -4.947544,
-    "lng": -80.137704,
-    "estado": "En ejecución",
-    "tipo": "Emergencia",
-    "provincia": "Morropon",
-    "distrito": "Chulucanas",
-    "sector": "",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE, DE LA QUEBRADA LA PEÑA - TRAMO II, CASERIO DE LA PEÑA, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA     ",
-    "ficha": "FTI N°114-2026-LD-E-PIU	",
-    "fechaInicio": "06/08/2026",
-    "fechaFin": "10/09/2026",
-    "poblacion": 110,
-    "volumen": 16500,
     "enlace": null
   },
   {
@@ -5227,23 +5210,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1_iov6VpVWnI_WcJgti6eFndgbHHpqOaD/view?usp=drive_link"
   },
   {
-    "id": 9985,
-    "lat": -8.131964,
-    "lng": -78.929459,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Trujillo",
-    "distrito": "Laredo",
-    "sector": "Pampas De San Juan",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN LA QUEBRADA SANTO DOMINGO, SECTOR PAMPAS DE SAN JUAN, DISTRITO DE LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD      ",
-    "ficha": "041-2026-LD-P-LIB",
-    "fechaInicio": "06/03/2026",
-    "fechaFin": "28/03/2026",
-    "poblacion": 657,
-    "volumen": 17675,
-    "enlace": "https://drive.google.com/file/d/13h7x41dNwBFbH7KOrgXKsJ_sAC6uVkr5/view?usp=drive_link"
-  },
-  {
     "id": 9987,
     "lat": -7.896296,
     "lng": -79.265289,
@@ -5276,6 +5242,23 @@ const mapaIntervenciones = {
     "poblacion": 400,
     "volumen": 7000,
     "enlace": "https://drive.google.com/file/d/17ncPAhR0-oy88QN52cpGZS6rdCzlbxUp/view?usp=drive_link"
+  },
+  {
+    "id": 9985,
+    "lat": -8.131964,
+    "lng": -78.929459,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Trujillo",
+    "distrito": "Laredo",
+    "sector": "Pampas De San Juan",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN LA QUEBRADA SANTO DOMINGO, SECTOR PAMPAS DE SAN JUAN, DISTRITO DE LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD      ",
+    "ficha": "041-2026-LD-P-LIB",
+    "fechaInicio": "06/03/2026",
+    "fechaFin": "28/03/2026",
+    "poblacion": 657,
+    "volumen": 17675,
+    "enlace": "https://drive.google.com/file/d/13h7x41dNwBFbH7KOrgXKsJ_sAC6uVkr5/view?usp=drive_link"
   },
   {
     "id": 10061,
@@ -5329,23 +5312,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Gtc7N4I_CuZ9bdfPHgH8aIHOOlByLpYE/view?usp=drive_link"
   },
   {
-    "id": 9570,
-    "lat": -7.804252,
-    "lng": -77.914941,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Sanchez Carrion",
-    "distrito": "Huamachuco",
-    "sector": "Yanasara",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHIQUICHAL, SECTOR PUENTE CHIQUICHAL-YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD         ",
-    "ficha": "027-2026-LD-P-LIB",
-    "fechaInicio": "06/04/2026",
-    "fechaFin": "25/04/2026",
-    "poblacion": 750,
-    "volumen": 7200,
-    "enlace": null
-  },
-  {
     "id": 9568,
     "lat": -7.798411,
     "lng": -77.91962,
@@ -5361,6 +5327,23 @@ const mapaIntervenciones = {
     "poblacion": 750,
     "volumen": 20965,
     "enlace": "https://drive.google.com/file/d/1CKvcpKtZuEaS1lY8TJRzmc4UPyZ2F0Bm/view?usp=drive_link"
+  },
+  {
+    "id": 9570,
+    "lat": -7.804252,
+    "lng": -77.914941,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "sector": "Yanasara",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHIQUICHAL, SECTOR PUENTE CHIQUICHAL-YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD         ",
+    "ficha": "027-2026-LD-P-LIB",
+    "fechaInicio": "06/04/2026",
+    "fechaFin": "25/04/2026",
+    "poblacion": 750,
+    "volumen": 7200,
+    "enlace": null
   },
   {
     "id": 10178,
@@ -5550,23 +5533,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1JN9n4W1mbHpViKLEyt4uWMTCukbeFP-3/view?usp=drive_link"
   },
   {
-    "id": 10424,
-    "lat": -8.00097,
-    "lng": -78.309945,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Santiago De Chuco",
-    "distrito": "Quiruvilca",
-    "sector": "Quiruvilca",
-    "descripcion": "LIMPIEZA DE CUNETAS Y OBRAS DE ARTE DE LA CIUDAD DE QUIRUVILCA, DISTRITO DE QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD   ",
-    "ficha": "056-LDOA-P-LIB",
-    "fechaInicio": "10/08/2026",
-    "fechaFin": "24/08/2026",
-    "poblacion": 5181,
-    "volumen": 771,
-    "enlace": null
-  },
-  {
     "id": 10425,
     "lat": -7.774589,
     "lng": -77.817713,
@@ -5581,6 +5547,23 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 256,
     "volumen": 2557,
+    "enlace": null
+  },
+  {
+    "id": 10424,
+    "lat": -8.00097,
+    "lng": -78.309945,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Santiago De Chuco",
+    "distrito": "Quiruvilca",
+    "sector": "Quiruvilca",
+    "descripcion": "LIMPIEZA DE CUNETAS Y OBRAS DE ARTE DE LA CIUDAD DE QUIRUVILCA, DISTRITO DE QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD   ",
+    "ficha": "056-LDOA-P-LIB",
+    "fechaInicio": "10/08/2026",
+    "fechaFin": "24/08/2026",
+    "poblacion": 5181,
+    "volumen": 771,
     "enlace": null
   },
   {
@@ -5649,6 +5632,40 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": 5000,
     "volumen": 5900,
+    "enlace": null
+  },
+  {
+    "id": 10481,
+    "lat": -7.662996,
+    "lng": -77.818522,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "sector": "Uchuy",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ",
+    "ficha": "071-2026-MTV-U-LIB",
+    "fechaInicio": "09/09/2026",
+    "fechaFin": "23/09/2026",
+    "poblacion": null,
+    "volumen": 1207,
+    "enlace": null
+  },
+  {
+    "id": 10483,
+    "lat": -7.783411,
+    "lng": -77.876978,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Chugay",
+    "sector": "Pishauli",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ",
+    "ficha": "072-2026-MTV-U-LIB",
+    "fechaInicio": "10/09/2026",
+    "fechaFin": "24/09/2026",
+    "poblacion": 209,
+    "volumen": 4118,
     "enlace": null
   }
 ],
