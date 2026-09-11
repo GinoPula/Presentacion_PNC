@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Sandia', distrito: 'San Juan Del Oro', tipo: 'Prevención', descripcion: ' REFORZAMIENTO DEL DIQUE DE PROTECCIÓN EN EL CAUCE DEL RÍO CHALLOHUMA, SECTOR CHALLOHUMA, DISTRITO DE SAN JUAN DEL ORO, PROVINCIA DE SANDIA, DEPARTAMENTO DE PUNO  ', inicio: '25/08/2026', fin: '06/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 290 },
-    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 560 },
+    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO ', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 2340.0, kmAcum: 9.55, poblacion: 560 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
