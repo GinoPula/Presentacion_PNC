@@ -4,14 +4,13 @@ import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboar
 import RegionSwitcher from './RegionSwitcher'
 import ReporteDiarioModal from './ReporteDiarioModal'
 import AyudaMemoriaFiltroModal from './AyudaMemoriaFiltroModal'
-import { descargarAyudaMemoria, descargarAyudaMemoriaMinistro, obtenerAmbitoDisponible } from '../lib/ayudaMemoria'
+import { descargarAyudaMemoria, obtenerAmbitoDisponible } from '../lib/ayudaMemoria'
 import { GLOBAL_ID } from '../data/regions'
 
 export default function Nav({ data, regionId, onRegionChange }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [generando, setGenerando] = useState(false)
-  const [generandoMinistro, setGenerandoMinistro] = useState(false)
   const [reporteAbierto, setReporteAbierto] = useState(false)
   const [filtroAbierto, setFiltroAbierto] = useState(false)
   const isGlobal = regionId === GLOBAL_ID
@@ -34,23 +33,6 @@ export default function Nav({ data, regionId, onRegionChange }) {
       window.alert('No se pudo generar la Ayuda Memoria. Revisa la consola para más detalle.')
     } finally {
       setGenerando(false)
-    }
-  }
-
-  // 02/09/2026 -- a pedido de Franco: versión más corta de la Ayuda Memoria pensada para el
-  // Ministro (sin el Anexo de detalle ficha por ficha, con una portada de Resumen Ejecutivo en
-  // vez de Antecedentes/Principales Actividades) -- ver comentario grande junto a
-  // construirAyudaMemoriaMinistro() en src/lib/ayudaMemoria.js.
-  async function handleAyudaMemoriaMinistro() {
-    if (generandoMinistro || isGlobal) return
-    setGenerandoMinistro(true)
-    try {
-      await descargarAyudaMemoriaMinistro(data, regionId)
-    } catch (err) {
-      console.error('No se pudo generar la Ayuda Memoria (versión Ministro):', err)
-      window.alert('No se pudo generar la Ayuda Memoria (versión Ministro). Revisa la consola para más detalle.')
-    } finally {
-      setGenerandoMinistro(false)
     }
   }
 
@@ -143,18 +125,6 @@ export default function Nav({ data, regionId, onRegionChange }) {
               <span className="hidden 2xl:inline">{generando ? 'Generando…' : 'Ayuda Memoria'}</span>
             </button>
           )}
-          {data.ayudaMemoriaDisponible && (
-            <button
-              onClick={handleAyudaMemoriaMinistro}
-              disabled={generandoMinistro}
-              title={generandoMinistro ? 'Generando…' : 'Ayuda Memoria (versión Ministro, resumida)'}
-              aria-label={generandoMinistro ? 'Generando Ayuda Memoria versión Ministro' : 'Generar Ayuda Memoria versión Ministro'}
-              className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink disabled:opacity-50 2xl:px-3.5"
-            >
-              <HiOutlineDocumentDownload size={16} />
-              <span className="hidden 2xl:inline">{generandoMinistro ? 'Generando…' : 'Ayuda Memoria (Ministro)'}</span>
-            </button>
-          )}
           {ambitoDisponible.length > 0 && (
             <button
               onClick={() => setFiltroAbierto(true)}
@@ -217,16 +187,6 @@ export default function Nav({ data, regionId, onRegionChange }) {
                 >
                   <HiOutlineDocumentDownload size={16} />
                   {generando ? 'Generando…' : 'Descargar Ayuda Memoria'}
-                </button>
-              )}
-              {data.ayudaMemoriaDisponible && (
-                <button
-                  onClick={handleAyudaMemoriaMinistro}
-                  disabled={generandoMinistro}
-                  className="flex items-center justify-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm font-medium text-ink-dim disabled:opacity-50"
-                >
-                  <HiOutlineDocumentDownload size={16} />
-                  {generandoMinistro ? 'Generando…' : 'Ayuda Memoria (Ministro)'}
                 </button>
               )}
               {ambitoDisponible.length > 0 && (
