@@ -9761,23 +9761,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10465,
-    "lat": -6.216043,
-    "lng": -78.735235,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "San Andres De Cutervo",
-    "sector": "C.P. Pajonal Y Cp. Chorro Blanco",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. PAJONAL Y CP. CHORRO BLANCO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA” ",
-    "ficha": "N°064-2026-MTVU-AMZ",
-    "fechaInicio": "27/08/2026",
-    "fechaFin": "04/10/2026",
-    "poblacion": 426,
-    "volumen": 10140,
-    "enlace": null
-  },
-  {
     "id": 10464,
     "lat": -5.381971,
     "lng": -78.969797,
@@ -9825,7 +9808,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 170,
-    "volumen": 2532,
+    "volumen": 1005,
     "enlace": null
   },
   {
