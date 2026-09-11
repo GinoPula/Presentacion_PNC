@@ -38,10 +38,10 @@ export default {
     { provincia: 'Anta', distrito: 'Limatambo', sector: 'Challabamba', ficha: '025-2026-LDP-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIôN DEL CAUCE DEL RìO CHALLABAMBA,  EN EL SECTOR CHALLABAMBA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE LIMATAMBO, PROVINCIA ANTA, REGIôN CUSCO-00  ', fechaInicio: '03/12/2026', fechaFin: '15/12/2026', metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
   ],
 
-  conveniosCount: 15,
+  conveniosCount: 14,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial', detail: '3 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '12 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '11 convenios vigentes' },
   ],
 
   flota: [
