@@ -65,11 +65,70 @@ const fmtNum = (n, dec = 0) => {
   return Number(n).toLocaleString('es-PE', { minimumFractionDigits: dec, maximumFractionDigits: dec })
 }
 const fmtSoles = (n) => `S/ ${fmtNum(n, 2)}`
+// 11/09/2026 -- confirmado contra el XML crudo de AM_PASCO_11.docx: las cifras de m³/meta y
+// población que aparecen DENTRO de los párrafos narrativos de "Temas Relevantes"/"Temas
+// Pendientes" (y el TOTAL de la tabla de programadas) van SIN separador de miles y SIN forzar
+// decimales -- "20430 m³", "4680 pobladores", "53609.41 m3" -- a diferencia de las mismas cifras
+// dentro de las TABLAS (cuerpo de ejecutadas/programadas y el TOTAL de ejecutadas), que sí usan
+// fmtNum con coma de miles y 2 decimales fijos ("20,430.00"). Es una inconsistencia real del
+// propio documento aprobado (tabla formateada, texto/TOTAL-programadas crudo), no un error
+// nuestro -- se replica tal cual. fmtCrudo solo redondea a `dec` decimales para evitar ruido de
+// punto flotante (0.1+0.2) y deja que la interpolación de JS muestre el número tal como es
+// (sin ceros de más: 20430 sale "20430", no "20430.00").
+const fmtCrudo = (n, dec = 2) => {
+  if (n === null || n === undefined) return '—'
+  const factor = 10 ** dec
+  return Math.round(Number(n) * factor) / factor
+}
 const volquetadas = (m3) => Math.round(Number(m3 || 0) / 15)
 
 function listaProvincias(arr) {
   if (!arr || !arr.length) return ''
   return arr.map((p) => p.toUpperCase()).join(', ')
+}
+
+// ---------------------------------------------------------------------------
+// Rango de fechas -- agregado 11/09/2026 a pedido de Franco ("la ayuda memoria
+// necesita que le añadas un filtro de fechas"), como un segundo filtro
+// independiente y combinable con el de ámbito (provincia/distrito) que ya
+// existía. Mismo criterio que ya usa el Reporte Consolidado Nacional
+// (build_reporte.py): se filtra por la fecha de INICIO de la intervención
+// (fechaInicio), no por si el rango se solapa con la ejecución completa --
+// así una intervención cuenta una sola vez, en el rango en el que arrancó.
+//
+// 'rango' es { desde: Date|null, hasta: Date|null } o null/undefined cuando
+// no se aplica filtro de fechas (comportamiento previo, sin cambios). Los
+// datos de origen (mapaIntervenciones.js, programadasDetalle) traen
+// fechaInicio/fechaFin como texto 'DD/MM/YYYY' (ver generar_todas_regiones.py),
+// no objetos Date -- de ahí parseFechaPE().
+function parseFechaPE(texto) {
+  const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec((texto || '').trim())
+  if (!m) return null
+  const [, d, mes, a] = m
+  const f = new Date(Number(a), Number(mes) - 1, Number(d))
+  return Number.isNaN(f.getTime()) ? null : f
+}
+
+// Fila sin fechaInicio (o con un formato que no se pudo interpretar): se
+// EXCLUYE cuando hay un filtro de fechas activo, en vez de mostrarla igual --
+// mismo espíritu que ya usa el resto del archivo para datos incompletos (una
+// coordenada inválida se excluye del mapa, un km fuera de rango se excluye
+// del acumulado): no se inventa si cae o no dentro del rango elegido.
+function enRangoFechas(fechaInicioTexto, rango) {
+  if (!rango || (!rango.desde && !rango.hasta)) return true
+  const f = parseFechaPE(fechaInicioTexto)
+  if (!f) return false
+  if (rango.desde && f < rango.desde) return false
+  if (rango.hasta && f > rango.hasta) return false
+  return true
+}
+
+function describirRangoFechas(rango) {
+  if (!rango || (!rango.desde && !rango.hasta)) return ''
+  const fmt = (d) => d.toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
+  if (rango.desde && rango.hasta) return `iniciadas entre el ${fmt(rango.desde)} y el ${fmt(rango.hasta)}`
+  if (rango.desde) return `iniciadas a partir del ${fmt(rango.desde)}`
+  return `iniciadas hasta el ${fmt(rango.hasta)}`
 }
 
 // ---------------------------------------------------------------------------
@@ -112,22 +171,56 @@ export function obtenerAmbitoDisponible(data, regionId) {
 // data.ejecutadasTotal/ejecutadasPorTipo, que solo traen el agregado departamental). Solo cubre
 // las regiones que tienen entrada en mapaIntervenciones.js (las que alimentan el mapa); para las
 // demás no hay manera honesta de desagregar ejecutadas por provincia/distrito todavía.
-export function filtrarEjecutadasPorAmbito(regionId, seleccion) {
+export function filtrarEjecutadasPorAmbito(regionId, seleccion, rango, codigos) {
   const puntos = mapaIntervenciones[regionId]
   if (!puntos) return null // región sin datos de mapa -- distinto de "sin resultados"
   return filtrarPorAmbito(
     puntos.filter((p) => p.estado === 'Ejecutada' || p.estado === 'En ejecución'),
-    seleccion
+    seleccion,
+    rango,
+    codigos
   )
 }
 
-export function filtrarPorAmbito(filas, seleccion) {
+// 'codigos' es opcional -- Set<'LD-P'|'LD-E'> o null/undefined cuando no se aplica filtro de
+// código de actividad (comportamiento previo, sin cambios). Ver codigoActividadDe() más arriba.
+export function filtrarPorAmbito(filas, seleccion, rango, codigos) {
   if (!seleccion || !seleccion.size) return []
   return (filas || []).filter((f) => {
     const distritos = seleccion.get(f.provincia)
     if (!distritos) return false
-    return distritos === 'todos' || distritos.has(f.distrito)
+    if (!(distritos === 'todos' || distritos.has(f.distrito))) return false
+    if (!enRangoFechas(f.fechaInicio, rango)) return false
+    if (codigos && codigos.size && !codigos.has(codigoActividadDe(f.ficha))) return false
+    return true
   })
+}
+
+// ---------------------------------------------------------------------------
+// Código de actividad (LD-P / LD-E) -- agregado 11/09/2026 a pedido de Franco: dentro de
+// "Limpieza y Descolmatación" hay dos motivos legales distintos -- Prevención (LD-P, requiere
+// Convenio) y Emergencia (LD-E, requiere Decreto) -- codificados dentro del propio FICHA_TEC
+// ("027-2026-LD-P-JUN", "042-2026-LD-E-TAC"...), no como un campo aparte en los datos. Es un
+// TERCER filtro, combinable con ámbito y fechas (mismo patrón: Set vacío/undefined = sin filtro,
+// se muestra todo igual que antes).
+//
+// A pedido explícito de Franco, este filtro se limita a estos dos códigos -- NO a todos los que
+// aparecen en FICHA_TEC (hay otros como "LD-PI", "AA-U", "MTV-U" en varias regiones, ver
+// mapaIntervenciones.js). Una ficha con un código distinto de LD-P/LD-E simplemente no matchea
+// ninguno de los dos y por lo tanto no se puede seleccionar con este filtro (ni incluir ni
+// excluir a propósito) -- si Franco pide ampliarlo más adelante, conviene generalizarlo a partir
+// de los códigos reales que existan en los datos en vez de hardcodear una lista.
+//
+// codigoActividadDe() tolera las variantes reales que aparecen en producción SIN el guion entre
+// "LD" y la letra (p.ej. "093-2026-LDP-ANC", "028-2026-LDE-PUN" -- mismo código, solo que quien
+// tipeó esa ficha en particular no puso el guion) -- confirmado revisando los FICHA_TEC reales de
+// varias regiones (Áncash, Puno) en mapaIntervenciones.js. Un código de tres letras como "LD-PI"
+// (Piura/Tumbes/Lambayeque) NO matchea ni LD-P ni LD-E a propósito: el patrón exige que la letra
+// P/E vaya seguida de un guion o del final del texto, así "LD-PI" (P seguida de "I", no de guion)
+// queda fuera.
+function codigoActividadDe(ficha) {
+  const m = /-LD-?([PE])(?:-|$)/i.exec(ficha || '')
+  return m ? `LD-${m[1].toUpperCase()}` : null
 }
 
 function describirSeleccion(seleccion) {
@@ -139,12 +232,26 @@ function describirSeleccion(seleccion) {
   return partes.join('; ')
 }
 
-function seccionAlcance(seleccion, regionLabel) {
+// 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx): el título
+// pierde el punto final ("Ámbito del presente documento", no "...documento.") y el párrafo ya NO
+// detalla la provincia/distrito elegida (antes terminaba en ": {describirSeleccion(seleccion)}.")
+// -- queda una oración genérica. 'seleccion' se deja en la firma (ya no se usa acá) porque
+// describirSeleccion() sigue viva por si se necesita en otro lado más adelante.
+//
+// 11/09/2026 -- se había agregado acá una segunda oración cuando hay filtro de fechas activo
+// ("Las intervenciones... están acotadas a las fechas..."), pero se RETIRA al verificar contra
+// AM_PASCO_11.docx (plantilla aprobada por el Director Ejecutivo, reenviada por Franco): esa
+// sección tiene una sola oración fija, sin mención de fechas, y esta era una redacción nuestra sin
+// respaldo en ningún documento real. Se prefiere no inventar texto nuevo en una sección que el
+// Director ya aprobó tal cual -- las tablas de abajo ya reflejan el filtro de fechas con sus datos
+// (eso es informacion real), así que la oración no hacía falta para que el documento fuera honesto.
+// Si Franco pide que sí se mencione el rango de fechas en el texto, se puede retomar
+// describirRangoFechas() (se deja la función viva más abajo) una vez tengamos un ejemplo real que
+// confirme la redacción exacta.
+function seccionAlcance(seleccion, regionLabel, rango) {
   return [
-    titulo2('Ámbito del presente documento.'),
-    parrafo(
-      `El presente documento comprende únicamente el ámbito seleccionado dentro del departamento de ${regionLabel}: ${describirSeleccion(seleccion)}.`
-    ),
+    titulo2('Ámbito del presente documento'),
+    parrafo(`El presente documento comprende únicamente el ámbito seleccionado dentro del departamento de ${regionLabel}.`),
   ]
 }
 
@@ -190,12 +297,21 @@ const PRESUPUESTO_MULTISECTORIAL_POR_REGION = {
   piura: 2058040.07,
   tumbes: 768196.67,
 }
-const HEADER_FILL = '000000' // relleno de encabezado de tabla (mayoría: puntos críticos, flota, etc.)
+const HEADER_FILL = '000000' // relleno de encabezado de tabla (resumen, puntos críticos, responsables)
 const HEADER_TEXT = 'FFFFFF'
-const HEADER_FILL_PROGRAMADAS = 'AED6F1' // la tabla de "programadas" usa celeste, no negro
+const HEADER_FILL_PROGRAMADAS = 'AED6F1' // el resumen de "programadas" (tablaConteoProvinciaDistrito) sigue en celeste
 const HEADER_TEXT_PROGRAMADAS = '000000'
+// 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx, ver
+// comentarios en tablaEjecutadas()/tablaProgramadas()/seccionFlota() más abajo): el encabezado de
+// las tablas de detalle EJECUTADAS y PROGRAMADAS pasa de negro/celeste a gris, con texto blanco.
+// Los subtotales/TOTAL de RELACIÓN DE ACTIVOS usan sus propios tonos (gris claro / celeste),
+// extraídos igual del .docx real.
+const HEADER_FILL_GRIS = '808080'
+const SUBTOTAL_FILL_GRIS_CLARO = 'F2F2F2'
+const TOTAL_FILL_AZUL = 'DBE5F1'
 const CELL_FONT_SIZE = 17 // 8.5pt, en half-points -- tamaño por defecto de las tablas angostas
-const PROGRAMADAS_FONT_SIZE = 12 // 6pt -- igual que la plantilla real: la tabla de "programadas" tiene 11 columnas y se queda toda en vertical (nunca apaisada), así que usa letra chica para que no se corten encabezados
+const PROGRAMADAS_FONT_SIZE = 12 // 6pt -- igual que la plantilla real: la tabla de "programadas" tiene 9 columnas y se queda toda en vertical (nunca apaisada), así que usa letra chica para que no se corten encabezados
+const EJECUTADAS_FONT_SIZE = 10 // 5pt -- la tabla de EJECUTADAS de la nueva plantilla (10 columnas, con ACUMULADO KM nuevo) usa letra aún más chica que PROGRAMADAS_FONT_SIZE
 const PAGE_WIDTH = 11909 // tamaño de página EXACTO de la plantilla real (no el A4 "de catálogo" 11906)
 const PAGE_HEIGHT = 16834
 // Todas las hojas van en vertical, igual que la plantilla real -- ver
@@ -263,7 +379,11 @@ function crearPie() {
   })
 }
 
-function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = false, fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE, colSpan } = {}) {
+// 'bold' se deja en null por defecto (en vez de false) para poder distinguir "no me
+// pronuncio, usa lo que corresponda a header" de "quiero esta celda con shading pero SIN
+// negrita" (caso real: los subtotales de RELACIÓN DE ACTIVOS -- ver tablaFlotaCombinada() --
+// llevan fondo gris pero texto normal, no negrita como un encabezado de verdad).
+function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold = null, fill = HEADER_FILL, textColor = HEADER_TEXT, fontSize = CELL_FONT_SIZE, colSpan } = {}) {
   return new TableCell({
     width: width ? { size: width, type: WidthType.DXA } : undefined,
     columnSpan: colSpan || undefined,
@@ -276,7 +396,7 @@ function celda(texto, { header = false, width, align = AlignmentType.LEFT, bold 
         children: [
           run({
             text: String(texto ?? ''),
-            bold: header || bold,
+            bold: bold === null ? header : bold,
             color: header ? textColor : undefined,
             size: fontSize,
           }),
@@ -350,7 +470,14 @@ function seccionAntecedentes(data, regionLabel, numAntecedentes, numActividades)
     // (antes "Antecedentes."/"Principales Actividades." en versalita con punto), y "PRINCIPALES
     // ACTIVIDADES" en rojo igual que el resto de títulos de sección (antes tenía `color: null`,
     // que lo dejaba en negro).
-    titulo2(`${p1(numAntecedentes)}ANTECEDENTES`),
+    //
+    // 08/09/2026 -- REVERTIDO a pedido del Director Ejecutivo (nueva plantilla revisada,
+    // AM_PASCO_11.docx): "Antecedentes." vuelve a ir en versalita con punto -- confirmado en el
+    // XML crudo del .docx real, el run dice literalmente "Antecedentes." (no "ANTECEDENTES"), en
+    // el rojo MÁS CLARO del título principal (CC0000, no el C00000 del resto de secciones) --
+    // así queda una inconsistencia real entre "Antecedentes." y "PRINCIPALES ACTIVIDADES" (que sí
+    // se queda en mayúscula/C00000), pero es tal cual el documento aprobado, no un error nuestro.
+    titulo2(`${p1(numAntecedentes)}Antecedentes.`, { color: COLOR_TITULO }),
     parrafo(
       'El PNC-MAQUINARIAS del Programa Nuestras Ciudades (PNC) realiza trabajos de prevención y mitigación de riesgos a nivel nacional para proteger a las poblaciones más vulnerables del país, causadas por fenómenos naturales o climatológicos como huaicos, desbordes de ríos, sismos y terremotos.'
     ),
@@ -634,7 +761,7 @@ function tablaConteoProvinciaDistrito(filas, tituloColumna) {
 
 function seccionNarrativa(data, regionLabel, regionId, numero) {
   const n = data.ayudaMemoriaNarrativa
-  const titulo = titulo2(`${numero != null ? numero + '. ' : ''}Intervenciones de PNC Maquinarias - ${regionLabel.toUpperCase()}`, { size: 24 })
+  const titulo = titulo2(`${numero != null ? numero + '. ' : ''}Intervenciones de PNC Maquinarias en la región ${regionLabel}.`, { color: COLOR_TITULO, size: 24 })
   const resumen = tablaResumenIntervenciones(data, regionId)
   if (!n) {
     // Regiones sin narrativa curada a mano (todas menos La Libertad por ahora): se arma el mismo
@@ -786,21 +913,27 @@ function seccionNarrativa(data, regionLabel, regionId, numero) {
 }
 
 // ---------------------------------------------------------------------------
-// Tabla de programadas (en vivo) -- en el original va con encabezado celeste
+// Tabla de programadas (en vivo)
 // ---------------------------------------------------------------------------
+// 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx, extraída del
+// XML crudo del .docx real): se quitan las columnas DEPART. y SECTOR, las que quedan usan los
+// nombres de columna crudos del MAIN (FICHA_TEC, DESCRIPCION sin tilde, FECHA_INICIO, FECHA_FIN,
+// META_VOL, META_KM, POB_BENEFICIADA) en vez de las etiquetas cortas de antes, el encabezado pasa
+// de celeste a gris con texto blanco, META_VOL y POB_BENEFICIADA pasan a 2 decimales (antes 0), y
+// se agrega una fila TOTAL (gris, negrita, blanco) con la suma de META_VOL/META_KM/POB_BENEFICIADA.
+// La intro también cambia ("...programadas en la región {región}...", ya no lleva negrita) y el
+// párrafo de las fechas pierde la frase "disponibilidad de recursos,".
 function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = false } = {}) {
   const filas = (programadasDetalle || []).map((p) => ({
-    depart: regionLabel.toUpperCase(),
     provincia: p.provincia?.toUpperCase(),
     distrito: p.distrito?.toUpperCase(),
-    sector: p.sector?.toUpperCase(),
     ficha: p.ficha,
     descripcion: p.descripcion,
     fechaInicio: p.fechaInicio,
     fechaFin: p.fechaFin,
-    metaVol: fmtNum(p.metaVol),
+    metaVol: fmtNum(p.metaVol, 2),
     metaKm: fmtNum(p.metaKm, 2),
-    poblacion: fmtNum(p.poblacion),
+    poblacion: fmtNum(p.poblacion, 2),
   }))
   if (!filas.length) {
     // 'mostrarVacio' se usa en la Ayuda Memoria filtrada por ámbito: que no haya
@@ -810,28 +943,57 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
       ? [parrafo('No se registran intervenciones programadas para el ámbito seleccionado.')]
       : []
   }
+
+  const columnas = [
+    { clave: 'provincia', titulo: 'PROVINCIA', peso: 0.09 },
+    { clave: 'distrito', titulo: 'DISTRITO', peso: 0.1 },
+    { clave: 'ficha', titulo: 'FICHA_TEC', peso: 0.12 },
+    { clave: 'descripcion', titulo: 'DESCRIPCION', peso: 0.35 },
+    { clave: 'fechaInicio', titulo: 'FECHA_INICIO', peso: 0.09 },
+    { clave: 'fechaFin', titulo: 'FECHA_FIN', peso: 0.09 },
+    { clave: 'metaVol', titulo: 'META_VOL', peso: 0.06, align: AlignmentType.RIGHT },
+    { clave: 'metaKm', titulo: 'META_KM', peso: 0.05, align: AlignmentType.RIGHT },
+    { clave: 'poblacion', titulo: 'POB_BENEFICIADA', peso: 0.05, align: AlignmentType.RIGHT },
+  ]
+  const anchos = columnas.map((c) => Math.round(PORTRAIT_WIDTH * c.peso))
+  const estilo = { fill: HEADER_FILL_GRIS, textColor: HEADER_TEXT }
+
+  const totalVol = programadasDetalle.reduce((acc, p) => acc + Number(p.metaVol || 0), 0)
+  const totalKm = programadasDetalle.reduce((acc, p) => acc + Number(p.metaKm || 0), 0)
+  const totalPob = programadasDetalle.reduce((acc, p) => acc + Number(p.poblacion || 0), 0)
+
   return [
-    parrafo(['En adición, se tiene ', run({ text: `${filas.length} intervenciones programadas`, bold: true }), ' de acuerdo al siguiente detalle:']),
-    tabla(
-      [
-        { clave: 'depart', titulo: 'DEPART.', peso: 0.07 },
-        { clave: 'provincia', titulo: 'PROV.', peso: 0.07 },
-        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.08 },
-        { clave: 'sector', titulo: 'SECTOR', peso: 0.08 },
-        { clave: 'ficha', titulo: 'FICHA TEC.', peso: 0.11 },
-        { clave: 'descripcion', titulo: 'DESCRIPCIÓN', peso: 0.32 },
-        { clave: 'fechaInicio', titulo: 'INICIO', peso: 0.07 },
-        { clave: 'fechaFin', titulo: 'FIN', peso: 0.07 },
-        { clave: 'metaVol', titulo: 'VOL', peso: 0.045, align: AlignmentType.RIGHT },
-        { clave: 'metaKm', titulo: 'KM', peso: 0.04, align: AlignmentType.RIGHT },
-        { clave: 'poblacion', titulo: 'POB', peso: 0.045, align: AlignmentType.RIGHT },
+    parrafo(`En adición, se tiene ${fmtNum(filas.length)} intervenciones programadas en la región ${regionLabel} de acuerdo al siguiente detalle:`),
+    new Table({
+      width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
+      columnWidths: anchos,
+      rows: [
+        new TableRow({
+          tableHeader: true,
+          children: columnas.map((c, i) => celda(c.titulo, { header: true, width: anchos[i], align: c.align, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo })),
+        }),
+        ...filas.map(
+          (fila) =>
+            new TableRow({
+              children: columnas.map((c, i) => celda(fila[c.clave], { width: anchos[i], align: c.align, fontSize: PROGRAMADAS_FONT_SIZE })),
+            })
+        ),
+        new TableRow({
+          children: [
+            // 11/09/2026 -- confirmado contra AM_PASCO_11.docx: el TOTAL de esta tabla va con
+            // números CRUDOS (sin coma de miles, sin forzar decimales -- "53609.41", "2.59",
+            // "6700"), a diferencia del cuerpo de la tabla que sí usa fmtNum con coma+2 decimales
+            // ("24,280.50"). Es una inconsistencia real del propio documento aprobado (cuerpo
+            // formateado, TOTAL crudo) -- no un error nuestro, se replica tal cual.
+            celda(fmtCrudo(totalVol), { header: true, width: anchos[6], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            celda(fmtCrudo(totalKm), { header: true, width: anchos[7], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            celda(fmtCrudo(totalPob), { header: true, width: anchos[8], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+          ],
+        }),
       ],
-      filas,
-      PORTRAIT_WIDTH,
-      { fill: HEADER_FILL_PROGRAMADAS, textColor: HEADER_TEXT_PROGRAMADAS, fontSize: PROGRAMADAS_FONT_SIZE }
-    ),
+    }),
     parrafo(
-      'Las fechas de inicio programadas están sujetas a variaciones por condiciones climáticas, gestiones administrativas, disponibilidad de recursos, situaciones de emergencia u otros factores imprevistos.'
+      'Las fechas de inicio programadas están sujetas a variaciones por condiciones climáticas, gestiones administrativas, situaciones de emergencia u otros factores imprevistos.'
     ),
   ]
 }
@@ -859,45 +1021,87 @@ function seccionProgramadas(data, regionLabel) {
 // Ayuda Memoria filtrada por ámbito (texto por defecto, "...en el ámbito seleccionado") y, desde
 // 01/09/2026, el Anexo "Detalle de ejecución" del documento completo (ver seccionAnexo), donde no
 // hay ámbito -- se le pasa un texto propio.
+//
+// 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx, extraída del
+// XML crudo): se quita la columna SECTOR, FICHA pasa a ir antes de ESTADO, los encabezados usan
+// los nombres crudos del MAIN (FICHA_TEC, DESCRIPCION sin tilde, FECHA_INICIO, FECHA_FIN,
+// "ACUMULADO VOL"/"ACUMULADO KM"/"POB BENEFICIADA"), el encabezado pasa de negro a gris con texto
+// blanco y baja de PROGRAMADAS_FONT_SIZE a EJECUTADAS_FONT_SIZE (más chico -- ver comentario junto
+// a esa constante), VOL y POB pasan a 2 decimales (antes 0), se agrega una columna ACUMULADO KM
+// nueva, y se agrega una fila TOTAL (sin sombreado, sin negrita) con la suma de VOL/KM/POB.
+//
+// ACUMULADO KM -- 09/09/2026: mapaIntervenciones.js ya trae el campo de longitud (km) por
+// intervención -- se agregó a la consulta SQL de generar_todas_regiones.py (sección "6) PUNTOS DEL
+// MAPA"), mismo patrón/tabla/acceso que "volumen" (pnc.fc_em_intervencion_avance.avance_km, con
+// inte.meta_km como respaldo). El fallback "—" de acá abajo se deja igual, para las regiones que
+// todavía no se regeneraron con esta versión del pipeline (su mapaIntervenciones.js no tiene el
+// campo "km" todavía -- undefined, no 0).
 function tablaEjecutadas(puntos, { mostrarVacio = false, intro } = {}) {
   const filas = (puntos || []).map((p) => ({
     provincia: p.provincia?.toUpperCase(),
     distrito: p.distrito?.toUpperCase(),
-    sector: p.sector?.toUpperCase() || '—',
-    estado: (p.estado || '').toUpperCase(),
     ficha: p.ficha || '—',
+    estado: (p.estado || '').toUpperCase(),
     descripcion: (p.descripcion || '').trim().replace(/\s+/g, ' '),
     fechaInicio: p.fechaInicio || '—',
     fechaFin: p.fechaFin || '—',
-    volumen: fmtNum(p.volumen),
-    poblacion: fmtNum(p.poblacion),
+    volumen: fmtNum(p.volumen, 2),
+    km: p.km != null ? fmtNum(p.km, 2) : '—',
+    poblacion: fmtNum(p.poblacion, 2),
   }))
   if (!filas.length) {
     return mostrarVacio
       ? [parrafo('No se registran intervenciones ejecutadas ni en ejecución para el ámbito seleccionado.')]
       : []
   }
+
+  const columnas = [
+    { clave: 'provincia', titulo: 'PROVINCIA', peso: 0.08 },
+    { clave: 'distrito', titulo: 'DISTRITO', peso: 0.09 },
+    { clave: 'ficha', titulo: 'FICHA_TEC', peso: 0.11 },
+    { clave: 'estado', titulo: 'ESTADO', peso: 0.08 },
+    { clave: 'descripcion', titulo: 'DESCRIPCION', peso: 0.31 },
+    { clave: 'fechaInicio', titulo: 'FECHA_INICIO', peso: 0.08 },
+    { clave: 'fechaFin', titulo: 'FECHA_FIN', peso: 0.08 },
+    { clave: 'volumen', titulo: 'ACUMULADO VOL', peso: 0.06, align: AlignmentType.RIGHT },
+    { clave: 'km', titulo: 'ACUMULADO KM', peso: 0.055, align: AlignmentType.RIGHT },
+    { clave: 'poblacion', titulo: 'POB BENEFICIADA', peso: 0.055, align: AlignmentType.RIGHT },
+  ]
+  const anchos = columnas.map((c) => Math.round(PORTRAIT_WIDTH * c.peso))
+  const estilo = { fill: HEADER_FILL_GRIS, textColor: HEADER_TEXT }
+
+  const totalVol = puntos.reduce((acc, p) => acc + Number(p.volumen || 0), 0)
+  const totalKm = puntos.reduce((acc, p) => acc + Number(p.km || 0), 0)
+  const totalPob = puntos.reduce((acc, p) => acc + Number(p.poblacion || 0), 0)
+
   return [
     parrafo(
       intro || ['Se registran ', run({ text: `${filas.length} intervenciones ejecutadas o en ejecución`, bold: true }), ' en el ámbito seleccionado, de acuerdo al siguiente detalle:']
     ),
-    tabla(
-      [
-        { clave: 'provincia', titulo: 'PROV.', peso: 0.09 },
-        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.1 },
-        { clave: 'sector', titulo: 'SECTOR', peso: 0.1 },
-        { clave: 'estado', titulo: 'ESTADO', peso: 0.09 },
-        { clave: 'ficha', titulo: 'FICHA', peso: 0.1 },
-        { clave: 'descripcion', titulo: 'DESCRIPCIÓN', peso: 0.28 },
-        { clave: 'fechaInicio', titulo: 'INICIO', peso: 0.07 },
-        { clave: 'fechaFin', titulo: 'FIN', peso: 0.07 },
-        { clave: 'volumen', titulo: 'VOL', peso: 0.05, align: AlignmentType.RIGHT },
-        { clave: 'poblacion', titulo: 'POB', peso: 0.05, align: AlignmentType.RIGHT },
+    new Table({
+      width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
+      columnWidths: anchos,
+      rows: [
+        new TableRow({
+          tableHeader: true,
+          children: columnas.map((c, i) => celda(c.titulo, { header: true, width: anchos[i], align: c.align, fontSize: EJECUTADAS_FONT_SIZE, ...estilo })),
+        }),
+        ...filas.map(
+          (fila) =>
+            new TableRow({
+              children: columnas.map((c, i) => celda(fila[c.clave], { width: anchos[i], align: c.align, fontSize: EJECUTADAS_FONT_SIZE })),
+            })
+        ),
+        new TableRow({
+          children: [
+            celda('TOTAL', { width: anchos.slice(0, 7).reduce((a, w) => a + w, 0), colSpan: 7, align: AlignmentType.CENTER, fontSize: EJECUTADAS_FONT_SIZE }),
+            celda(fmtNum(totalVol, 2), { width: anchos[7], align: AlignmentType.CENTER, fontSize: EJECUTADAS_FONT_SIZE }),
+            celda(fmtNum(totalKm, 2), { width: anchos[8], align: AlignmentType.CENTER, fontSize: EJECUTADAS_FONT_SIZE }),
+            celda(fmtNum(totalPob, 2), { width: anchos[9], align: AlignmentType.CENTER, fontSize: EJECUTADAS_FONT_SIZE }),
+          ],
+        }),
       ],
-      filas,
-      PORTRAIT_WIDTH,
-      { fontSize: PROGRAMADAS_FONT_SIZE }
-    ),
+    }),
   ]
 }
 
@@ -1166,12 +1370,19 @@ function seccionTodosResponsables(data, regionLabel) {
 // volquetes). Un tipo que no calce con ninguna de las dos palabras clave cae en "Otros" en vez de
 // asignarse a una categoría al azar -- así no se pierde ni se clasifica mal ninguna unidad.
 const MAQUINARIA_PESADA_RE = /cargador|excavadora|motoniveladora|retroexcavadora|rodillo|tractor|moto ?niveladora|compactador|grua torre/i
+// 08/09/2026 -- ya no se usa para clasificar RELACIÓN DE ACTIVOS (ver clasificarFlotaSimple() más
+// abajo, nueva plantilla): se deja documentada por si se necesita en otro lado -- antes distinguía
+// "Vehículo Pesado" de "Otros" dentro del grupo que no es MAQUINARIA_PESADA_RE, algo que la nueva
+// columna FLOTA (solo MAQUINARIA/VEHICULO) ya no diferencia.
 const VEHICULO_PESADO_RE = /cami[oó]n|camioneta|plataforma|remolcador|volquete|tr[aá]iler|b[uú]s|[oó]mnibus/i
-function clasificarFlota(tipo) {
-  const t = tipo || ''
-  if (MAQUINARIA_PESADA_RE.test(t)) return 'Maquinaria Pesada'
-  if (VEHICULO_PESADO_RE.test(t)) return 'Vehículo Pesado'
-  return 'Otros'
+
+// 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx): la columna
+// FLOTA ya no agrupa en "Maquinaria Pesada"/"Vehículo Pesado"/"Otros" (clasificarFlota(), arriba,
+// que dejó de usarse) -- pasa a ser una columna MAQUINARIA/VEHICULO por fila, solo dos valores
+// posibles. Mismo criterio de fondo (MAQUINARIA_PESADA_RE) para decidir cuál de las dos es; lo que
+// no matchea esa regex cae en VEHICULO por defecto (ya no hay un tercer balde "Otros").
+function clasificarFlotaSimple(tipo) {
+  return MAQUINARIA_PESADA_RE.test(tipo || '') ? 'MAQUINARIA' : 'VEHICULO'
 }
 
 // 01/09/2026 -- a pedido de Franco: la tabla de maquinarias queda solo con TIPO UNIDAD | CANTIDAD
@@ -1180,49 +1391,66 @@ function clasificarFlota(tipo) {
 // una entrada con el mismo "tipo" (p.ej. distintas marcas del mismo VOLQUETE) -- antes cada una se
 // distinguía por su columna MARCA/CÓDIGO, pero al quedar solo TIPO UNIDAD esas entradas se ven
 // como una fila duplicada; se fusionan sumando la cantidad para que cada tipo aparezca una sola vez.
-// 01/09/2026 -- a pedido de Franco ("más resumido el cuadro de Maquinarias, ajustarlo un poco
-// más"): antes salían 2-3 tablas de Word separadas (una por grupo, cada una con su propio
-// encabezado TIPO UNIDAD/CANTIDAD) más un título y un párrafo de subtotal entre medio. Se fusiona
-// todo en UNA sola tabla: una fila-banner por grupo (fondo gris, en vez de un título de sección
-// aparte) seguida de sus filas y una fila de subtotal en negrita -- mismos datos, con mucha menos
-// repetición visual.
-function tablaFlotaCombinada(grupos) {
-  const pesos = [0.7, 0.3]
+//
+// 08/09/2026 -- REESTRUCTURADO, nueva plantilla revisada con el Director Ejecutivo
+// (AM_PASCO_11.docx, extraída del XML crudo): ya no hay una fila-banner por grupo -- la tabla pasa
+// a 3 columnas fijas (TIPO_UNIDAD | FLOTA | CANTIDAD), con "FLOTA" (MAQUINARIA/VEHICULO,
+// clasificarFlotaSimple()) como columna normal en cada fila. El encabezado y los "Subtotal" usan
+// fondo gris claro (SUBTOTAL_FILL_GRIS_CLARO) con texto normal (sin negrita en el encabezado ni en
+// "Subtotal", solo la cantidad numérica se ve resaltada por el fondo); se agrega una fila TOTAL
+// final (celeste, TOTAL_FILL_AZUL, en negrita) con el gran total de unidades.
+function tablaFlotaCombinada(flota) {
+  const pesos = [0.42, 0.24, 0.34]
   const anchos = pesos.map((p) => Math.round(PORTRAIT_WIDTH * p))
-  const estilo = { fill: HEADER_FILL, textColor: HEADER_TEXT }
+  const anchoLabel = anchos[0] + anchos[1]
+  const FUENTE_CUERPO = 18 // 9pt, tal cual el .docx real
+
+  const grupos = new Map([
+    ['MAQUINARIA', []],
+    ['VEHICULO', []],
+  ])
+  flota.forEach((f) => grupos.get(clasificarFlotaSimple(f.tipo)).push(f))
 
   const filas = []
+  let granTotal = 0
   for (const [nombreGrupo, items] of grupos) {
+    if (!items.length) continue
     const porTipo = new Map()
     items.forEach((f) => {
       const tipo = f.tipo.toUpperCase()
       porTipo.set(tipo, (porTipo.get(tipo) || 0) + f.cantidad)
     })
-    filas.push(
-      new TableRow({
-        children: [
-          celda(nombreGrupo, { header: true, width: PORTRAIT_WIDTH, colSpan: 2, fill: 'D9D9D9', textColor: '000000' }),
-        ],
-      })
-    )
     let subtotal = 0
     for (const [tipo, cantidad] of porTipo) {
       subtotal += cantidad
       filas.push(
         new TableRow({
-          children: [celda(tipo, { width: anchos[0] }), celda(fmtNum(cantidad), { width: anchos[1], align: AlignmentType.RIGHT })],
+          children: [
+            celda(tipo, { width: anchos[0], fontSize: FUENTE_CUERPO }),
+            celda(nombreGrupo, { width: anchos[1], fontSize: FUENTE_CUERPO }),
+            celda(fmtNum(cantidad), { width: anchos[2], align: AlignmentType.RIGHT, fontSize: FUENTE_CUERPO }),
+          ],
         })
       )
     }
+    granTotal += subtotal
     filas.push(
       new TableRow({
         children: [
-          celda(`Subtotal ${nombreGrupo}`, { width: anchos[0], bold: true }),
-          celda(fmtNum(subtotal), { width: anchos[1], align: AlignmentType.RIGHT, bold: true }),
+          celda('Subtotal', { header: true, width: anchoLabel, colSpan: 2, fill: SUBTOTAL_FILL_GRIS_CLARO, textColor: '000000', bold: false, fontSize: FUENTE_CUERPO }),
+          celda(fmtNum(subtotal), { header: true, width: anchos[2], align: AlignmentType.RIGHT, fill: SUBTOTAL_FILL_GRIS_CLARO, textColor: '000000', bold: false, fontSize: FUENTE_CUERPO }),
         ],
       })
     )
   }
+  filas.push(
+    new TableRow({
+      children: [
+        celda('TOTAL', { header: true, width: anchoLabel, colSpan: 2, fill: TOTAL_FILL_AZUL, textColor: '000000', align: AlignmentType.CENTER, fontSize: FUENTE_CUERPO }),
+        celda(fmtNum(granTotal), { header: true, width: anchos[2], align: AlignmentType.CENTER, fill: TOTAL_FILL_AZUL, textColor: '000000', fontSize: FUENTE_CUERPO }),
+      ],
+    })
+  )
 
   return new Table({
     width: { size: PORTRAIT_WIDTH, type: WidthType.DXA },
@@ -1231,8 +1459,9 @@ function tablaFlotaCombinada(grupos) {
       new TableRow({
         tableHeader: true,
         children: [
-          celda('TIPO UNIDAD', { header: true, width: anchos[0], ...estilo }),
-          celda('CANTIDAD', { header: true, width: anchos[1], align: AlignmentType.RIGHT, ...estilo }),
+          celda('TIPO_UNIDAD', { header: true, width: anchos[0], align: AlignmentType.CENTER, fill: SUBTOTAL_FILL_GRIS_CLARO, textColor: '000000' }),
+          celda('FLOTA', { header: true, width: anchos[1], align: AlignmentType.CENTER, fill: SUBTOTAL_FILL_GRIS_CLARO, textColor: '000000' }),
+          celda('CANTIDAD', { header: true, width: anchos[2], align: AlignmentType.CENTER, fill: SUBTOTAL_FILL_GRIS_CLARO, textColor: '000000' }),
         ],
       }),
       ...filas,
@@ -1247,18 +1476,12 @@ function seccionFlota(data, numeroSeccion) {
   // decía "MAQUINARIAS Y VEHÍCULOS DE LA UBO", que no aparece así en el documento original).
   // 02/09/2026 -- a pedido de Franco ("la palabra Y PERSONAL retirala, solamente es RELACION DE
   // ACTIVO"): se quitó "Y PERSONAL" del título.
+  // 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx): el título
+  // pasa a "RELACIÓN DE ACTIVOS" (plural, confirmado en el XML crudo del .docx real).
   const numero = numeroSeccion != null ? `${numeroSeccion}. ` : ''
 
-  const grupos = new Map([
-    ['Maquinaria Pesada', []],
-    ['Vehículo Pesado', []],
-    ['Otros', []],
-  ])
-  flota.forEach((f) => grupos.get(clasificarFlota(f.tipo)).push(f))
-  const gruposConDatos = [...grupos].filter(([, items]) => items.length)
-
-  const out = [titulo2(`${numero}RELACIÓN DE ACTIVO`)]
-  out.push(tablaFlotaCombinada(gruposConDatos))
+  const out = [titulo2(`${numero}RELACIÓN DE ACTIVOS`)]
+  out.push(tablaFlotaCombinada(flota))
   out.push(parrafo([run({ text: `Total de la flota: ${fmtNum(data.flotaTotal ?? flota.reduce((a, f) => a + f.cantidad, 0))} unidades.`, bold: true })]))
 
   // 01/09/2026 -- a pedido de Franco ("quita Maquinarias y vehiculos en mantenimiento, no va"): se
@@ -1513,7 +1736,7 @@ export async function construirAyudaMemoriaMinistro(data, regionId) {
       alignment: AlignmentType.CENTER,
       spacing: { after: 60 },
       children: [
-        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
       ],
     }),
     new Paragraph({
@@ -1596,7 +1819,7 @@ export async function construirAyudaMemoria(data, regionId) {
       alignment: AlignmentType.CENTER,
       spacing: { after: 240 },
       children: [
-        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
       ],
     }),
     ...seccionAntecedentes(data, regionLabel, 1, 2),
@@ -1665,37 +1888,52 @@ export async function descargarAyudaMemoria(data, regionId) {
 // responsables) -- ver comentario grande de obtenerAmbitoDisponible() más arriba
 // sobre qué partes de los datos sí se pueden filtrar en vivo y cuáles no.
 // ---------------------------------------------------------------------------
-export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
+export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
   const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
   const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
-  const alcanceTexto = describirSeleccion(seleccion)
+  const anio = (data.meta?.periodo || '').match(/\d{4}/)?.[0] || new Date().getFullYear()
 
   const membreteBytes = await cargarMembrete()
 
-  const filasProgramadas = filtrarPorAmbito(data.programadasDetalle, seleccion)
+  // El filtro de fechas y el de código de actividad (LD-P/LD-E) se aplican solo a las dos
+  // fuentes que realmente tienen fecha de inicio y ficha por fila: programadas y ejecutadas/en
+  // ejecución. Los puntos críticos ANA (filasPuntosCriticos) NO son eventos con fecha propia ni
+  // traen FICHA_TEC de Limpieza y Descolmatación -- son ubicaciones/acuerdos -- así que se quedan
+  // fuera de ambos filtros a propósito (pasarlos ahí excluiría todos los puntos críticos, lo cual
+  // sería incorrecto: no es que falten datos, es que el concepto no aplica).
+  const filasProgramadas = filtrarPorAmbito(data.programadasDetalle, seleccion, rango, codigos)
   const filasPuntosCriticos = filtrarPorAmbito(data.puntosCriticos, seleccion)
-  const filasEjecutadas = filtrarEjecutadasPorAmbito(regionId, seleccion) // null = región sin mapaIntervenciones.js
+  const filasEjecutadas = filtrarEjecutadasPorAmbito(regionId, seleccion, rango, codigos) // null = región sin mapaIntervenciones.js
+
+  // 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx): la
+  // introducción de la tabla de ejecutadas cambia de "Se registran N intervenciones ejecutadas o
+  // en ejecución en el ámbito seleccionado..." a "Durante el {año}, el PNC Maquinarias en la
+  // región {Región} ha ejecutado N intervenciones, de acuerdo al siguiente detalle:" (solo el
+  // nombre de la región va en negrita, ver XML del documento real) -- y solo se muestra cuando SÍ
+  // hay ejecutadas; con 0, el propio mensaje de tablaEjecutadas() ya lo cubre.
+  const introEjecutadas =
+    filasEjecutadas && filasEjecutadas.length
+      ? [`Durante el ${anio}, el PNC Maquinarias en la región `, run({ text: regionLabel, bold: true }), ` ha ejecutado ${fmtNum(filasEjecutadas.length)} intervenciones, de acuerdo al siguiente detalle:`]
+      : undefined
 
   const contenido = [
     parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
     new Paragraph({
       alignment: AlignmentType.CENTER,
-      spacing: { after: 80 },
+      spacing: { after: 240 },
       children: [
-        run({ text: `PROGRAMA NUESTRAS CIUDADES: PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
+        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
       ],
     }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER,
-      spacing: { after: 240 },
-      children: [run({ text: `Ámbito: ${alcanceTexto}`, bold: true, color: COLOR_SECCION, size: 22 })],
-    }),
     ...seccionAntecedentes(data, regionLabel),
-    ...seccionAlcance(seleccion, regionLabel),
-    ...titulo2Ejecutadas(regionLabel),
+    ...seccionAlcance(seleccion, regionLabel, rango),
+    ...seccionTemasRelevantes(filasEjecutadas, regionLabel),
+    ...seccionTemasPendientes(filasProgramadas, regionLabel),
+    titulo2(`Intervenciones de PNC Maquinarias en la región ${regionLabel}.`, { color: COLOR_TITULO, size: 24 }),
     ...(filasEjecutadas !== null
-      ? tablaEjecutadas(filasEjecutadas, { mostrarVacio: true })
+      ? tablaEjecutadas(filasEjecutadas, { mostrarVacio: true, intro: introEjecutadas })
       : notaEjecutadasNoFiltrable(data, regionLabel)),
+    ...bulletEnEjecucion(filasEjecutadas, regionLabel),
     ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
     ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
     ...(data.flota && data.flota.length
@@ -1732,8 +1970,111 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion) {
   })
 }
 
-function titulo2Ejecutadas(regionLabel) {
-  return [titulo2(`Intervenciones ejecutadas y en ejecución en ${regionLabel} -- ámbito seleccionado.`, { size: 24 })]
+// ---------------------------------------------------------------------------
+// "Temas Relevantes" / "Temas Pendientes" -- agregado 08/09/2026, nueva plantilla revisada con el
+// Director Ejecutivo (AM_PASCO_11.docx). Son dos párrafos de resumen EN VIVO, calculados a partir
+// de los mismos puntos ya filtrados por ámbito que usan las tablas de detalle (filasEjecutadas /
+// filasProgramadas) -- ver construirAyudaMemoriaFiltrada().
+//
+// OJO -- "actividad" (limpieza y descolmatación / transitabilidad / agua potable) se infiere acá
+// por palabras clave en la descripción, mismo patrón que ya usa RE_AGUA_POTABLE más abajo para el
+// desglose de agua potable en la narrativa del documento completo. No es un campo real del punto
+// (mapaIntervenciones.js/programadasDetalle no traen "actividad"), así que es una aproximación --
+// "limpieza y descolmatación" es la actividad por defecto cuando no calza con ninguna palabra
+// clave más específica (es, con enorme diferencia, la actividad más frecuente en las 25 regiones).
+const RE_TRANSITABILIDAD_ACTIVIDAD = /transitabilidad|calles|v[ií]as? de acceso/i
+const RE_AGUA_POTABLE_ACTIVIDAD = /agua potable|abastecimiento.*agua|distribuci[oó]n.*agua/i
+function actividadDe(descripcion) {
+  const d = descripcion || ''
+  if (RE_AGUA_POTABLE_ACTIVIDAD.test(d)) return 'abastecimiento y distribución de agua potable'
+  if (RE_TRANSITABILIDAD_ACTIVIDAD.test(d)) return 'mejoramiento de la transitabilidad'
+  return 'limpieza y descolmatación'
+}
+
+// 09/09/2026 -- la longitud (km) ya viene en vivo desde mapaIntervenciones.js (ver
+// generar_todas_regiones.py, sección "PUNTOS DEL MAPA": pnc.fc_em_intervencion_avance.avance_km,
+// mismo patrón/tabla/acceso ya usado para "volumen" y para la sección "enEjecucion"). Se suma acá
+// igual que m³/población -- ver kmConocido en seccionTemasRelevantes() para el caso de una región
+// todavía no regenerada con esta versión del pipeline.
+// Cláusula intermedia sobre el volumen (m³) -- el confirmado contra AM_PASCO_11.docx es
+// "removiendo material sedimentado en el cauce como piedras, lodo y maleza", pero esa frase solo
+// es cierta para limpieza/descolmatación (que es la única actividad que trae el ejemplo real). Para
+// las otras dos actividades que ya distingue actividadDe() (agua potable / transitabilidad) sería
+// literalmente falso decir que se "removió material del cauce" -- se usa una cláusula neutra en
+// esos casos en vez de inventar una redacción específica sin un ejemplo real que la confirme.
+function fraseVolumen(actividad) {
+  return actividad === 'limpieza y descolmatación'
+    ? 'removiendo material sedimentado en el cauce como piedras, lodo y maleza en un total de'
+    : 'con un total de'
+}
+
+// 09/09/2026 -- ahora que el pipeline sí trae "km" acumulado por punto (ver el comentario grande
+// junto a filtrarEjecutadasPorAmbito()/tablaEjecutadas() más arriba, y generar_todas_regiones.py
+// sección "PUNTOS DEL MAPA"), se agrega de vuelta la cláusula "en una longitud de X km" que trae
+// la plantilla real (AM_PASCO_11.docx: "...en un total de 20430 m³, en una longitud de 3.18 km,
+// beneficiando a..."). OJO -- mapaIntervenciones.js de una región que todavía no se regeneró con
+// el pipeline actualizado no tiene el campo "km" en sus puntos (undefined, no 0) -- en ese caso NO
+// se muestra la cláusula de longitud para ese grupo, en vez de mostrar "0.00 km" (que sería falso,
+// no "no hay dato"). kmConocido se apaga apenas un punto del grupo no trae el campo.
+function seccionTemasRelevantes(filasEjecutadas, regionLabel) {
+  if (!filasEjecutadas || !filasEjecutadas.length) return []
+  const anio = new Date().getFullYear()
+  const grupos = new Map()
+  filasEjecutadas.forEach((p) => {
+    const act = actividadDe(p.descripcion)
+    if (!grupos.has(act)) grupos.set(act, { cantidad: 0, provincias: new Set(), m3: 0, km: 0, kmConocido: true, poblacion: 0 })
+    const g = grupos.get(act)
+    g.cantidad += 1
+    if (p.provincia) g.provincias.add(p.provincia)
+    g.m3 += Number(p.volumen || 0)
+    if (p.km != null) g.km += Number(p.km)
+    else g.kmConocido = false
+    g.poblacion += Number(p.poblacion || 0)
+  })
+  const parrafos = [...grupos.entries()].map(([actividad, g]) => {
+    const provincias = [...g.provincias].sort((a, b) => a.localeCompare(b, 'es'))
+    const fraseLongitud = g.kmConocido ? `, en una longitud de ${fmtNum(g.km, 2)} km` : ''
+    return parrafo(
+      `En el año ${anio} se han ejecutado en la región ${regionLabel} ${fmtNum(g.cantidad)} intervencion${g.cantidad === 1 ? '' : 'es'} de ${actividad}, en la${provincias.length > 1 ? 's' : ''} provincia${provincias.length > 1 ? 's' : ''} de ${listaProvincias(provincias)}, ${fraseVolumen(actividad)} ${fmtCrudo(g.m3)} m³${fraseLongitud}, beneficiando a ${fmtCrudo(g.poblacion)} pobladores.`
+    )
+  })
+  return [titulo2('Temas Relevantes'), ...parrafos]
+}
+
+function seccionTemasPendientes(filasProgramadas, regionLabel) {
+  if (!filasProgramadas || !filasProgramadas.length) return []
+  const anio = new Date().getFullYear()
+  const grupos = new Map()
+  filasProgramadas.forEach((p) => {
+    const act = actividadDe(p.descripcion)
+    if (!grupos.has(act)) grupos.set(act, { cantidad: 0, provincias: new Set(), vol: 0, km: 0, poblacion: 0 })
+    const g = grupos.get(act)
+    g.cantidad += 1
+    if (p.provincia) g.provincias.add(p.provincia)
+    g.vol += Number(p.metaVol || 0)
+    g.km += Number(p.metaKm || 0)
+    g.poblacion += Number(p.poblacion || 0)
+  })
+  const parrafos = [...grupos.entries()].map(([actividad, g]) => {
+    const provincias = [...g.provincias].sort((a, b) => a.localeCompare(b, 'es'))
+    return parrafo(
+      `En el año ${anio} se tiene programado en la región ${regionLabel} ${fmtNum(g.cantidad)} intervencion${g.cantidad === 1 ? '' : 'es'} de ${actividad}, en la${provincias.length > 1 ? 's' : ''} provincia${provincias.length > 1 ? 's' : ''} de ${listaProvincias(provincias)} con una meta programada de ${fmtCrudo(g.vol)} m3, en una longitud de ${fmtNum(g.km, 2)} km, beneficiando a ${fmtCrudo(g.poblacion)} pobladores.`
+    )
+  })
+  return [titulo2('Temas Pendientes'), ...parrafos]
+}
+
+// "En la región X no se tiene intervención en ejecución." / "...se tiene(n) N intervención(es) en
+// ejecución." -- bullet nuevo (08/09/2026, misma plantilla revisada) entre la tabla de ejecutadas
+// y la de programadas. El caso "0 en ejecución" está confirmado tal cual contra AM_PASCO_11.docx;
+// el caso "N > 0" es una generalización razonable (no hay un ejemplo real todavía con
+// en-ejecución > 0 en el ámbito filtrado) -- revisar la redacción exacta si Franco manda un
+// ejemplo con ese caso.
+function bulletEnEjecucion(filasEjecutadas, regionLabel) {
+  if (filasEjecutadas === null) return [] // región sin mapaIntervenciones.js -- no hay cómo saberlo
+  const enEjecucion = filasEjecutadas.filter((p) => (p.estado || '').toLowerCase() === 'en ejecución').length
+  if (enEjecucion === 0) return [bullet(`En la región ${regionLabel} no se tiene intervención en ejecución.`)]
+  return [bullet(`En la región ${regionLabel} se ${enEjecucion === 1 ? 'tiene 1 intervención' : `tienen ${fmtNum(enEjecucion)} intervenciones`} en ejecución.`)]
 }
 
 // Solo se usa cuando la región no tiene entrada en mapaIntervenciones.js (ver
@@ -1748,16 +2089,28 @@ function notaEjecutadasNoFiltrable(data, regionLabel) {
   ]
 }
 
-export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion) {
-  const doc = await construirAyudaMemoriaFiltrada(data, regionId, seleccion)
+// 'rango' es opcional -- { desde: Date|null, hasta: Date|null } -- ver comentario junto a
+// enRangoFechas() más arriba. 'codigos' es opcional -- Set<'LD-P'|'LD-E'> -- ver
+// codigoActividadDe() más arriba. Cuando se pasan, el nombre del archivo suma el rango cubierto
+// (formato YYYYMMDD, igual que la fecha de generación que ya llevaba el nombre) y/o los códigos
+// elegidos, para poder distinguir a simple vista dos Ayuda Memoria del mismo ámbito con distinto
+// periodo o código.
+export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
+  const doc = await construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos)
   const blob = await Packer.toBlob(doc)
   const nombreRegion = (data.meta?.region || regionId).replace(/^Región\s+/i, '').replace(/\s+/g, '_')
   const alcanceSlug = [...seleccion.keys()].join('-').replace(/\s+/g, '_')
   const fecha = new Date().toISOString().slice(0, 10).replace(/-/g, '')
+  const slugFecha = (d) => d.toISOString().slice(0, 10).replace(/-/g, '')
+  const rangoSlug =
+    rango && (rango.desde || rango.hasta)
+      ? `_${rango.desde ? slugFecha(rango.desde) : 'inicio'}-${rango.hasta ? slugFecha(rango.hasta) : 'hoy'}`
+      : ''
+  const codigosSlug = codigos && codigos.size ? `_${[...codigos].sort().join('-')}` : ''
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = `Ayuda_Memoria_${nombreRegion}_${alcanceSlug}_${fecha}.docx`
+  a.download = `Ayuda_Memoria_${nombreRegion}_${alcanceSlug}${rangoSlug}${codigosSlug}_${fecha}.docx`
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
