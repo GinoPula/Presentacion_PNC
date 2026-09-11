@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "11/09/2026",
-    "horaCorte": "17:13",
+    "horaCorte": "17:29",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -798,7 +798,7 @@
       "marcoLegal": "CONVENIO N° 019–2025-VIVIENDA/VMVU/PNC-PLIA",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00",
       "fechaInicio": "27/08/2026",
-      "fechaFin": "10/09/2026",
+      "fechaFin": "11/09/2026",
       "maquinaria": [
         "CARGADOR FRONTAL ( D001580)",
         "VOLQUETE ( EAJ-400)",
