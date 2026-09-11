@@ -10273,6 +10273,23 @@ const mapaIntervenciones = {
     "poblacion": 134,
     "volumen": 1960,
     "enlace": null
+  },
+  {
+    "id": 10511,
+    "lat": -14.146952,
+    "lng": -71.456324,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Canas",
+    "distrito": "Pampamarca",
+    "sector": "Ornoccacca - Laguna",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ",
+    "ficha": "024-2026-LD-P-CUS",
+    "fechaInicio": "11/09/2026",
+    "fechaFin": "24/09/2026",
+    "poblacion": 280,
+    "volumen": 3554,
+    "enlace": null
   }
 ],
   huancavelica: [

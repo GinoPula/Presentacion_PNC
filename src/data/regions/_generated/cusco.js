@@ -17,20 +17,20 @@ export default {
 
   enEjecucion: [
     { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 1960.0, kmAcum: 0.04, poblacion: 134 },
+    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ', inicio: '11/09/2026', fin: '24/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 280 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
-    { provincia: 'Canas', distrito: 'Pampamarca', cantidad: 2, metaVol: 5101.62, metaKm: 1.54, poblacion: 370 },
+    { provincia: 'Canas', distrito: 'Pampamarca', cantidad: 1, metaVol: 1547.62, metaKm: 0.64, poblacion: 90 },
     { provincia: 'Canchis', distrito: 'Marangani', cantidad: 1, metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', cantidad: 1, metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', cantidad: 1, metaVol: 8032.5, metaKm: 0.23, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 55432.57, metaKm: 3.25, poblacion: 715 },
+  programadasTotal: { cantidad: 5, metaVol: 51878.57, metaKm: 2.35, poblacion: 435 },
 
   programadasDetalle: [
-    { provincia: 'Canas', distrito: 'Pampamarca', sector: 'Ornoccacca - Laguna', ficha: '024-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO', fechaInicio: '11/09/2026', fechaFin: '24/09/2026', metaVol: 3554.0, metaKm: 0.91, poblacion: 280 },
     { provincia: 'Canas', distrito: 'Pampamarca', sector: 'Tintaqmarca (Cc Pamparqui)', ficha: '023-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ', fechaInicio: '01/10/2026', fechaFin: '14/10/2026', metaVol: 1547.62, metaKm: 0.64, poblacion: 90 },
     { provincia: 'Canchis', distrito: 'Marangani', sector: 'Huiscachani Central', ficha: '026-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO        ', fechaInicio: '14/10/2026', fechaFin: '12/11/2026', metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Mollebamba Alto', ficha: '033-2026-LD-P-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.', fechaInicio: '02/11/2026', fechaFin: '15/11/2026', metaVol: 8032.5, metaKm: 0.23, poblacion: null },
