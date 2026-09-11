@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 31332.0, km: 1.19, poblacion: 16650, provincias: ['Ica', 'Nasca'] },
-    { tipo: 'Prevención', cantidad: 12, m3: 85706.58, km: 4.17, poblacion: 11300, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Prevención', cantidad: 13, m3: 93606.58, km: 4.29, poblacion: 13100, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 5, m3: 3720.0, km: null, poblacion: 3750, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 120758.58, m3AguaPotable: 3720.0, km: 5.36, poblacion: 31700 },
+  ejecutadasTotal: { cantidad: 23, m3: 128658.58, m3AguaPotable: 3720.0, km: 5.48, poblacion: 33500 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 750 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO, QUEBRADA YESERA, SECTOR YESERA, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO ICA                 ', inicio: '26/08/2026', fin: '09/09/2026', volAcum: 7900.0, kmAcum: 0.11, poblacion: 1800 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
