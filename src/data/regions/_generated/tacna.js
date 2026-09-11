@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 37110.0, km: 2.08, poblacion: 4864, provincias: ['Tacna'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 71190.0, km: 3.35, poblacion: 21614, provincias: ['Tacna'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 76830.0, km: 3.75, poblacion: 21964, provincias: ['Tacna'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 12513.2, km: 14.56, poblacion: 4858, provincias: ['Tacna'] },
   ],
-  ejecutadasTotal: { cantidad: 29, m3: 120813.2, m3AguaPotable: 3356.2, km: 19.99, poblacion: 31336 },
+  ejecutadasTotal: { cantidad: 30, m3: 126453.2, m3AguaPotable: 3356.2, km: 20.39, poblacion: 31686 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 305.0, kmAcum: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 255.0, kmAcum: 0.0, poblacion: 550 },
-    { provincia: 'Tacna', distrito: 'Calana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CALANA, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA                     ', inicio: '01/09/2026', fin: '11/09/2026', volAcum: 5640.0, kmAcum: 0.4, poblacion: 350 },
     { provincia: 'Tacna', distrito: 'Tacna', tipo: 'Prevención', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA      ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 2400.0, kmAcum: 0.28, poblacion: 500 },
   ],
 
