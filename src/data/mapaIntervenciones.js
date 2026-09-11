@@ -2966,10 +2966,10 @@ const mapaIntervenciones = {
     "provincia": "Piura",
     "distrito": "Veintiseis De Octubre",
     "sector": "Dren 66",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00         ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00          ",
     "ficha": "FTI N°009-2026-LD-PI-PIU	",
     "fechaInicio": "27/08/2026",
-    "fechaFin": "10/09/2026",
+    "fechaFin": "11/09/2026",
     "poblacion": 1000,
     "volumen": 5350,
     "enlace": null
@@ -9859,7 +9859,7 @@ const mapaIntervenciones = {
     "fechaInicio": "09/09/2026",
     "fechaFin": "23/09/2026",
     "poblacion": 550,
-    "volumen": 17136,
+    "volumen": 800,
     "enlace": null
   }
 ],
