@@ -30,6 +30,25 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
   const [extras, setExtras] = useState(new Map())
   const [nuevoDistrito, setNuevoDistrito] = useState({})
   const [generando, setGenerando] = useState(false)
+  // Filtro de fechas -- agregado 11/09/2026 a pedido de Franco, independiente del filtro de
+  // ámbito de arriba. 'desde'/'hasta' quedan como texto 'YYYY-MM-DD' (formato nativo de
+  // <input type="date">) y se convierten a Date recién al generar, en construirRango().
+  const [desde, setDesde] = useState('')
+  const [hasta, setHasta] = useState('')
+  const rangoInvalido = Boolean(desde && hasta && desde > hasta)
+  // Filtro de código de actividad (LD-P/LD-E) -- agregado 11/09/2026 a pedido de Franco, un
+  // TERCER filtro independiente además de ámbito y fechas. 'codigos' vacío = sin filtro (se
+  // muestra todo, igual que antes) -- ver codigoActividadDe()/filtrarPorAmbito() en
+  // ayudaMemoria.js para el porqué se limita a solo estos dos códigos.
+  const [codigos, setCodigos] = useState(new Set())
+  function toggleCodigo(codigo) {
+    setCodigos((prev) => {
+      const next = new Set(prev)
+      if (next.has(codigo)) next.delete(codigo)
+      else next.add(codigo)
+      return next
+    })
+  }
 
   const ambitoBase = useMemo(() => (data ? obtenerAmbitoDisponible(data, regionId) : []), [data, regionId])
   // Mezcla los distritos en vivo con los agregados a mano, para mostrarlos juntos.
@@ -119,11 +138,22 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
     })
   }
 
+  // 'YYYY-MM-DD' (texto del <input type="date">, hora local implícita medianoche) -> Date.
+  // new Date('YYYY-MM-DD') interpretaría la fecha en UTC (corriendo el día hacia atrás en
+  // zonas horarias negativas como Perú, UTC-5) -- se arma con los componentes por separado
+  // para que quede en la fecha local exacta que el usuario eligió.
+  function fechaDesdeInput(valor) {
+    if (!valor) return null
+    const [a, m, d] = valor.split('-').map(Number)
+    return new Date(a, m - 1, d)
+  }
+
   async function handleGenerar() {
-    if (generando || !seleccion.size) return
+    if (generando || !seleccion.size || rangoInvalido) return
     setGenerando(true)
     try {
-      await descargarAyudaMemoriaFiltrada(data, regionId, seleccion)
+      const rango = desde || hasta ? { desde: fechaDesdeInput(desde), hasta: fechaDesdeInput(hasta) } : undefined
+      await descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos.size ? codigos : undefined)
     } catch (err) {
       console.error('No se pudo generar la Ayuda Memoria por ámbito:', err)
       window.alert('No se pudo generar el documento. Revisa la consola para más detalle.')
@@ -268,6 +298,85 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
             )}
           </div>
 
+          {/* Filtro de fechas (opcional) -- independiente del ámbito de arriba. Se aplica por
+              fecha de INICIO de la intervención, a las ejecutadas/en ejecución y a las
+              programadas; los puntos críticos ANA no tienen fecha propia y no se ven afectados
+              (ver comentario en ayudaMemoria.js, construirAyudaMemoriaFiltrada). */}
+          <div className="border-t border-white/[0.06] px-6 py-4 sm:px-8">
+            <p className="mb-2.5 text-[12px] font-medium text-ink-dim">Acotar además por fecha de inicio (opcional)</p>
+            <div className="flex flex-wrap items-center gap-3">
+              <label className="flex items-center gap-2 text-[12px] text-ink-mute">
+                Desde
+                <input
+                  type="date"
+                  value={desde}
+                  max={hasta || undefined}
+                  onChange={(e) => setDesde(e.target.value)}
+                  className="rounded-lg border border-white/10 bg-white/[0.03] px-2.5 py-1.5 text-[12px] text-ink focus:outline-none [color-scheme:dark]"
+                />
+              </label>
+              <label className="flex items-center gap-2 text-[12px] text-ink-mute">
+                Hasta
+                <input
+                  type="date"
+                  value={hasta}
+                  min={desde || undefined}
+                  onChange={(e) => setHasta(e.target.value)}
+                  className="rounded-lg border border-white/10 bg-white/[0.03] px-2.5 py-1.5 text-[12px] text-ink focus:outline-none [color-scheme:dark]"
+                />
+              </label>
+              {(desde || hasta) && !rangoInvalido && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setDesde('')
+                    setHasta('')
+                  }}
+                  className="text-[12px] text-ink-mute underline decoration-dotted hover:text-ink"
+                >
+                  Quitar filtro de fechas
+                </button>
+              )}
+            </div>
+            {rangoInvalido && <p className="mt-2 text-[12px] text-red-400">La fecha "Desde" no puede ser posterior a "Hasta".</p>}
+          </div>
+
+          {/* Filtro de código de actividad (opcional) -- LD-P (Prevención) / LD-E (Emergencia),
+              extraído del FICHA_TEC de cada intervención. Igual que el de fechas, es combinable
+              con el ámbito de arriba: ninguno marcado = sin filtro (se muestra todo). */}
+          <div className="border-t border-white/[0.06] px-6 py-4 sm:px-8">
+            <p className="mb-2.5 text-[12px] font-medium text-ink-dim">Acotar además por código de actividad (opcional)</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-dim">
+                <input
+                  type="checkbox"
+                  checked={codigos.has('LD-P')}
+                  onChange={() => toggleCodigo('LD-P')}
+                  className="h-3.5 w-3.5 shrink-0 rounded border-white/20 bg-white/[0.03] accent-brand"
+                />
+                LD-P — Limpieza y Descolmatación (Prevención)
+              </label>
+              <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-dim">
+                <input
+                  type="checkbox"
+                  checked={codigos.has('LD-E')}
+                  onChange={() => toggleCodigo('LD-E')}
+                  className="h-3.5 w-3.5 shrink-0 rounded border-white/20 bg-white/[0.03] accent-brand"
+                />
+                LD-E — Limpieza y Descolmatación (Emergencia)
+              </label>
+              {codigos.size > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setCodigos(new Set())}
+                  className="text-[12px] text-ink-mute underline decoration-dotted hover:text-ink"
+                >
+                  Quitar filtro de código
+                </button>
+              )}
+            </div>
+          </div>
+
           {/* Footer */}
           <div className="border-t border-white/[0.06] bg-surface-1 px-6 py-5 sm:px-8">
             <p className="mb-3 text-[12px] text-ink-mute">
@@ -283,7 +392,7 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
               </span>
               <button
                 onClick={handleGenerar}
-                disabled={generando || !seleccion.size}
+                disabled={generando || !seleccion.size || rangoInvalido}
                 className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-brand/30 bg-brand/10 px-4 py-2.5 text-[13px] font-medium text-brand-soft transition-colors hover:bg-brand/15 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 <HiOutlineDocumentDownload size={16} />
