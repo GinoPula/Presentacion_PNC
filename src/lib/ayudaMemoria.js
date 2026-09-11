@@ -224,14 +224,15 @@ function codigoActividadDe(ficha) {
 }
 
 // 11/09/2026 -- se había expuesto el código de actividad como una casilla más en el modal (el
-// usuario elegía LD-P/LD-E o ninguno). Franco pidió revertir eso a los pocos minutos: "siempre
-// las ayuda memoria piden así, solamente es limpieza y descolmatación... creería yo que vaya
-// directo sin seleccionar, solamente acá interno en la lógica ya lo sabemos" -- confirmó que,
-// revisando todo lo pedido hasta ahora, SIEMPRE es Limpieza y Descolmatación (Prevención o
-// Emergencia), nunca agua potable (AA-U) ni transitabilidad (MTV-U). Pasa a ser el filtro por
-// DEFECTO, interno, sin casilla -- ver construirAyudaMemoriaFiltrada() más abajo. Se deja como
-// parámetro con default (no hardcodeado adentro de filtrarPorAmbito) por si más adelante hay que
-// volver a exponerlo o ampliarlo.
+// usuario elegía LD-P/LD-E o ninguno), luego se pasó a un filtro interno por defecto (siempre
+// solo LD-P/LD-E, sin casilla). Franco confirmó el mismo día que ESE filtro por defecto está mal
+// ("ese filtro de la lógica que hicimos de LD-E/LD-P está mal, dejarlo como estaba antes") -- se
+// REVIERTE por completo: construirAyudaMemoriaFiltrada() ya NO filtra por código de actividad,
+// vuelve a mostrar todas las intervenciones (limpieza y descolmatación, agua potable,
+// transitabilidad, etc.) tal como era antes de este cambio. codigoActividadDe() y
+// CODIGOS_LD_POR_DEFECTO se dejan definidos sin usarse -- por si en algún momento se retoma esto
+// con una definición distinta -- pero NINGÚN llamado de este archivo los pasa ya como filtro
+// activo.
 const CODIGOS_LD_POR_DEFECTO = new Set(['LD-P', 'LD-E'])
 
 function describirSeleccion(seleccion) {
@@ -1859,7 +1860,7 @@ export async function descargarAyudaMemoria(data, regionId) {
 // responsables) -- ver comentario grande de obtenerAmbitoDisponible() más arriba
 // sobre qué partes de los datos sí se pueden filtrar en vivo y cuáles no.
 // ---------------------------------------------------------------------------
-export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos = CODIGOS_LD_POR_DEFECTO) {
+export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
   const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
   const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
   const anio = (data.meta?.periodo || '').match(/\d{4}/)?.[0] || new Date().getFullYear()
@@ -2061,12 +2062,12 @@ function notaEjecutadasNoFiltrable(data, regionLabel) {
 }
 
 // 'rango' es opcional -- { desde: Date|null, hasta: Date|null } -- ver comentario junto a
-// enRangoFechas() más arriba. 'codigos' ya NO es una elección del usuario (ver
-// CODIGOS_LD_POR_DEFECTO) -- se deja como parámetro solo por si hace falta anular el default
-// desde código en vez de desde la UI. Cuando hay rango, el nombre del archivo lo suma (formato
-// YYYYMMDD, igual que la fecha de generación que ya llevaba el nombre) para poder distinguir a
-// simple vista dos Ayuda Memoria del mismo ámbito con distinto periodo.
-export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos = CODIGOS_LD_POR_DEFECTO) {
+// enRangoFechas() más arriba. 'codigos' ya NO se usa (revertido -- ver comentario junto a
+// CODIGOS_LD_POR_DEFECTO): ningún llamado de este archivo lo pasa, así que no hay filtro por
+// código de actividad. Cuando hay rango, el nombre del archivo lo suma (formato YYYYMMDD, igual
+// que la fecha de generación que ya llevaba el nombre) para poder distinguir a simple vista dos
+// Ayuda Memoria del mismo ámbito con distinto periodo.
+export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
   const doc = await construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos)
   const blob = await Packer.toBlob(doc)
   const nombreRegion = (data.meta?.region || regionId).replace(/^Región\s+/i, '').replace(/\s+/g, '_')
