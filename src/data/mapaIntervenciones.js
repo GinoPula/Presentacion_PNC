@@ -6878,23 +6878,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10470,
-    "lat": -12.143081,
-    "lng": -76.818925,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Cieneguilla",
-    "sector": "Tinajas",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ",
-    "ficha": "123-2026-LDP-LIM",
-    "fechaInicio": "03/09/2026",
-    "fechaFin": "17/09/2026",
-    "poblacion": 1500,
-    "volumen": 2904,
-    "enlace": null
-  },
-  {
     "id": 10365,
     "lat": -12.009188,
     "lng": -76.878017,
@@ -6926,6 +6909,23 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": 1000,
     "volumen": 7800,
+    "enlace": null
+  },
+  {
+    "id": 10381,
+    "lat": -11.984976,
+    "lng": -76.771258,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Chaclacayo",
+    "sector": "Cusipata",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO II, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ",
+    "ficha": "118-2026-LDP-LIM",
+    "fechaInicio": "10/09/2026",
+    "fechaFin": "24/09/2026",
+    "poblacion": 1050,
+    "volumen": 4720,
     "enlace": null
   }
 ],
@@ -9706,7 +9706,7 @@ const mapaIntervenciones = {
     "fechaInicio": "05/08/2026",
     "fechaFin": "13/09/2026",
     "poblacion": 625,
-    "volumen": 2010,
+    "volumen": 2410,
     "enlace": null
   },
   {
@@ -9808,7 +9808,7 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "16/09/2026",
     "poblacion": 500,
-    "volumen": 2980,
+    "volumen": 3480,
     "enlace": null
   },
   {

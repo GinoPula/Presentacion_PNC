@@ -22,18 +22,19 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
-    { provincia: 'Canchis', distrito: 'Checacupe', cantidad: 1, metaVol: 8700.0, metaKm: 0.38, poblacion: 150 },
+    { provincia: 'Canas', distrito: 'Pampamarca', cantidad: 2, metaVol: 5101.62, metaKm: 1.54, poblacion: 370 },
     { provincia: 'Canchis', distrito: 'Combapata', cantidad: 1, metaVol: 7500.0, metaKm: 0.5, poblacion: 120 },
     { provincia: 'Canchis', distrito: 'Marangani', cantidad: 1, metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', cantidad: 1, metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 58498.45, metaKm: 2.37, poblacion: 615 },
+  programadasTotal: { cantidad: 6, metaVol: 54900.07, metaKm: 3.53, poblacion: 835 },
 
   programadasDetalle: [
+    { provincia: 'Canas', distrito: 'Pampamarca', sector: 'Ornoccacca - Laguna', ficha: '024-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO', fechaInicio: '11/09/2026', fechaFin: '24/09/2026', metaVol: 3554.0, metaKm: 0.91, poblacion: 280 },
+    { provincia: 'Canas', distrito: 'Pampamarca', sector: 'Tintaqmarca (Cc Pamparqui)', ficha: '023-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ', fechaInicio: '01/10/2026', fechaFin: '14/10/2026', metaVol: 1547.62, metaKm: 0.64, poblacion: 90 },
     { provincia: 'Canchis', distrito: 'Marangani', sector: 'Huiscachani Central', ficha: '026-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO        ', fechaInicio: '14/10/2026', fechaFin: '12/11/2026', metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
-    { provincia: 'La Convencion', distrito: 'Santa Teresa', sector: 'Saucepampa', ficha: '030-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO ', fechaInicio: '15/10/2026', fechaFin: '13/11/2026', metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
-    { provincia: 'Canchis', distrito: 'Checacupe', sector: 'Checacupe-Bajo', ficha: '023-2026-LD-P-CUS', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO PITUMARCA, EN EL SECTOR CHECACUPE-BAJO, DE LA PROGRESIVA KM 0+00 A LA PROGRESIVA KM 0+380, DISTRITO DE CHECACUPE, PROVINCIA DE CANCHIS, REGION CUSCO".-00                    ', fechaInicio: '02/11/2026', fechaFin: '15/11/2026', metaVol: 8700.0, metaKm: 0.38, poblacion: 150 },
     { provincia: 'Canchis', distrito: 'Combapata', sector: 'C.P. Combapata', ficha: '024-2026-LD-P-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACION DE CAUCE DEL RIO VILCANOTA EN EL SECTOR DE C.P. COMBAPATA DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DEL DISTRITO DE COMBAPATA, DE LA PROVINCIA DE CANCHIS, REGION CUSCO-00                                ', fechaInicio: '15/11/2026', fechaFin: '29/11/2026', metaVol: 7500.0, metaKm: 0.5, poblacion: 120 },
+    { provincia: 'La Convencion', distrito: 'Santa Teresa', sector: 'Saucepampa', ficha: '030-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO  ', fechaInicio: '15/11/2026', fechaFin: '14/12/2026', metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
     { provincia: 'Anta', distrito: 'Limatambo', sector: 'Challabamba', ficha: '025-2026-LDP-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIôN DEL CAUCE DEL RìO CHALLABAMBA,  EN EL SECTOR CHALLABAMBA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE LIMATAMBO, PROVINCIA ANTA, REGIôN CUSCO-00  ', fechaInicio: '03/12/2026', fechaFin: '15/12/2026', metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
   ],
 
