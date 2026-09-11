@@ -4619,7 +4619,7 @@ const mapaIntervenciones = {
     "provincia": "Chiclayo",
     "distrito": "Pimentel",
     "sector": "Sector La Pradera",
-    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.               ",
+    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.                ",
     "ficha": "014-2026 -LD-P-LAM",
     "fechaInicio": "01/09/2026",
     "fechaFin": "14/09/2026",

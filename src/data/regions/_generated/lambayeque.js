@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: '  ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE              ', inicio: '15/07/2026', fin: '12/09/2026', volAcum: 1860.0, kmAcum: 0.0, poblacion: null },
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ', inicio: '12/08/2026', fin: '10/10/2026', volAcum: 209.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Chiclayo', distrito: 'Pimentel', tipo: 'Prevención', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.               ', inicio: '01/09/2026', fin: '14/09/2026', volAcum: 1010.0, kmAcum: 0.53, poblacion: 10100 },
+    { provincia: 'Chiclayo', distrito: 'Pimentel', tipo: 'Prevención', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.                ', inicio: '01/09/2026', fin: '14/09/2026', volAcum: 1010.0, kmAcum: 0.53, poblacion: 10100 },
     { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”  ', inicio: '02/09/2026', fin: '22/09/2026', volAcum: 4550.0, kmAcum: 0.13, poblacion: 4408 },
   ],
 
