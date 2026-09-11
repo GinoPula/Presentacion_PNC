@@ -36,19 +36,12 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
   const [desde, setDesde] = useState('')
   const [hasta, setHasta] = useState('')
   const rangoInvalido = Boolean(desde && hasta && desde > hasta)
-  // Filtro de código de actividad (LD-P/LD-E) -- agregado 11/09/2026 a pedido de Franco, un
-  // TERCER filtro independiente además de ámbito y fechas. 'codigos' vacío = sin filtro (se
-  // muestra todo, igual que antes) -- ver codigoActividadDe()/filtrarPorAmbito() en
-  // ayudaMemoria.js para el porqué se limita a solo estos dos códigos.
-  const [codigos, setCodigos] = useState(new Set())
-  function toggleCodigo(codigo) {
-    setCodigos((prev) => {
-      const next = new Set(prev)
-      if (next.has(codigo)) next.delete(codigo)
-      else next.add(codigo)
-      return next
-    })
-  }
+  // 11/09/2026 -- el filtro de código de actividad (LD-P/LD-E) se había expuesto acá como
+  // casillas, pero Franco pidió revertirlo a los pocos minutos: "siempre las ayuda memoria piden
+  // así, solamente es limpieza y descolmatación... creería yo que vaya directo sin seleccionar,
+  // solamente acá interno en la lógica". Pasa a ser un default INTERNO de
+  // construirAyudaMemoriaFiltrada() (ver CODIGOS_LD_POR_DEFECTO en ayudaMemoria.js) -- ya no hay
+  // estado ni casillas acá, descargarAyudaMemoriaFiltrada() lo aplica solo.
 
   const ambitoBase = useMemo(() => (data ? obtenerAmbitoDisponible(data, regionId) : []), [data, regionId])
   // Mezcla los distritos en vivo con los agregados a mano, para mostrarlos juntos.
@@ -153,7 +146,9 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
     setGenerando(true)
     try {
       const rango = desde || hasta ? { desde: fechaDesdeInput(desde), hasta: fechaDesdeInput(hasta) } : undefined
-      await descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos.size ? codigos : undefined)
+      // Sin 5° argumento: descargarAyudaMemoriaFiltrada() aplica el default interno
+      // (CODIGOS_LD_POR_DEFECTO -- Limpieza y Descolmatación, LD-P/LD-E) sin pedirlo acá.
+      await descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango)
     } catch (err) {
       console.error('No se pudo generar la Ayuda Memoria por ámbito:', err)
       window.alert('No se pudo generar el documento. Revisa la consola para más detalle.')
@@ -339,42 +334,6 @@ export default function AyudaMemoriaFiltroModal({ open, onClose, data, regionId,
               )}
             </div>
             {rangoInvalido && <p className="mt-2 text-[12px] text-red-400">La fecha "Desde" no puede ser posterior a "Hasta".</p>}
-          </div>
-
-          {/* Filtro de código de actividad (opcional) -- LD-P (Prevención) / LD-E (Emergencia),
-              extraído del FICHA_TEC de cada intervención. Igual que el de fechas, es combinable
-              con el ámbito de arriba: ninguno marcado = sin filtro (se muestra todo). */}
-          <div className="border-t border-white/[0.06] px-6 py-4 sm:px-8">
-            <p className="mb-2.5 text-[12px] font-medium text-ink-dim">Acotar además por código de actividad (opcional)</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-dim">
-                <input
-                  type="checkbox"
-                  checked={codigos.has('LD-P')}
-                  onChange={() => toggleCodigo('LD-P')}
-                  className="h-3.5 w-3.5 shrink-0 rounded border-white/20 bg-white/[0.03] accent-brand"
-                />
-                LD-P — Limpieza y Descolmatación (Prevención)
-              </label>
-              <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-dim">
-                <input
-                  type="checkbox"
-                  checked={codigos.has('LD-E')}
-                  onChange={() => toggleCodigo('LD-E')}
-                  className="h-3.5 w-3.5 shrink-0 rounded border-white/20 bg-white/[0.03] accent-brand"
-                />
-                LD-E — Limpieza y Descolmatación (Emergencia)
-              </label>
-              {codigos.size > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setCodigos(new Set())}
-                  className="text-[12px] text-ink-mute underline decoration-dotted hover:text-ink"
-                >
-                  Quitar filtro de código
-                </button>
-              )}
-            </div>
           </div>
 
           {/* Footer */}
