@@ -223,6 +223,17 @@ function codigoActividadDe(ficha) {
   return m ? `LD-${m[1].toUpperCase()}` : null
 }
 
+// 11/09/2026 -- se había expuesto el código de actividad como una casilla más en el modal (el
+// usuario elegía LD-P/LD-E o ninguno). Franco pidió revertir eso a los pocos minutos: "siempre
+// las ayuda memoria piden así, solamente es limpieza y descolmatación... creería yo que vaya
+// directo sin seleccionar, solamente acá interno en la lógica ya lo sabemos" -- confirmó que,
+// revisando todo lo pedido hasta ahora, SIEMPRE es Limpieza y Descolmatación (Prevención o
+// Emergencia), nunca agua potable (AA-U) ni transitabilidad (MTV-U). Pasa a ser el filtro por
+// DEFECTO, interno, sin casilla -- ver construirAyudaMemoriaFiltrada() más abajo. Se deja como
+// parámetro con default (no hardcodeado adentro de filtrarPorAmbito) por si más adelante hay que
+// volver a exponerlo o ampliarlo.
+const CODIGOS_LD_POR_DEFECTO = new Set(['LD-P', 'LD-E'])
+
 function describirSeleccion(seleccion) {
   const partes = []
   for (const [provincia, distritos] of seleccion.entries()) {
@@ -1794,73 +1805,33 @@ export async function descargarAyudaMemoriaMinistro(data, regionId) {
 // ---------------------------------------------------------------------------
 // Ensamblado del documento
 // ---------------------------------------------------------------------------
+// 11/09/2026 -- REESCRITO a pedido de Franco: "La ayuda memoria general del departamento con la
+// plantilla actual que te [he] enviado, quitamos el escenario severo". Antes esta función armaba
+// su propio documento con una estructura vieja (seccionNarrativa/seccionProgramadas/seccionFEN
+// con el bloque de PRESUPUESTO/Escenario Severo/seccionAnexo) que NUNCA se actualizó con la
+// plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx) -- por eso el documento seguía
+// saliendo "con la plantilla antigua" aunque el de Ayuda Memoria por ámbito ya estuviera
+// corregido. En vez de duplicar esa plantilla ya verificada, el documento "general" pasa a ser
+// exactamente construirAyudaMemoriaFiltrada() con TODO el departamento seleccionado (todas las
+// provincias/distritos disponibles) y sin rango de fechas -- mismo código, mismas correcciones de
+// formato, un solo lugar para mantener. Esto además retira el Plan de Intervención/Escenario
+// Severo de punta a punta (esa sección nunca existió en construirAyudaMemoriaFiltrada), que es
+// justo lo que pidió Franco -- "Acuerdo Multisectorial" (los puntos críticos ANA) SÍ se conserva,
+// vía tablaPuntosCriticos() dentro de construirAyudaMemoriaFiltrada.
+//
+// Las funciones viejas (seccionNarrativa, seccionProgramadas, seccionFEN, seccionPuntosCriticos,
+// seccionAnexo) quedan definidas más arriba pero YA NO SE LLAMAN desde acá -- se dejan por si hay
+// que revisar/recuperar algo puntual, no por que sigan en uso.
+//
+// OJO -- una fila de programadas/ejecutadas/puntos críticos sin 'provincia' quedaría fuera de
+// este documento (obtenerAmbitoDisponible() solo agrupa filas CON provincia, así que una fila sin
+// ese dato nunca entra a 'seleccion' y filtrarPorAmbito() la descarta) -- distinto del
+// comportamiento viejo, que no filtraba por ámbito en absoluto. En los datos reales revisados
+// hasta ahora todas las filas traen provincia, así que en la práctica no debería perderse nada.
 export async function construirAyudaMemoria(data, regionId) {
-  const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
-  const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
-
-  const membreteBytes = await cargarMembrete()
-
-  // Un solo tipo de hoja, todo en vertical -- igual que la plantilla real
-  // (que nunca usa páginas apaisadas; las tablas anchas como "programadas"
-  // usan letra chica en vez de girar la hoja). Antes se armaba en dos
-  // secciones (una vertical y una apaisada para las tablas más anchas), pero
-  // el usuario pidió que todas las hojas queden en posición vertical.
-  // Numeración de secciones (agregada 31/08/2026 para calzar con la plantilla real, que numera
-  // 1. Antecedentes / 2. Actividades Principales / 3. Intervenciones / 4. Plan de Intervención
-  // (con 4.1 Severo y 4.2 Acuerdo Multisectorial) / 5. Relación de Activo y Personal -- en las
-  // regiones sin Escenario Severo ni puntos críticos ANA curados (Puno, Tacna, etc.) la sección 4
-  // entera desaparece (ver seccionFEN) y "Relación de Activo y Personal" pasa a ser la 4, no la 5.
-  const tienePlanFEN = !!(data.escenarios && data.escenarios.length)
-  const numFlota = tienePlanFEN ? 5 : 4
-
-  const contenido = [
-    parrafo(run({ text: hoy, color: COLOR_SECCION, size: 26 }), { alignment: AlignmentType.RIGHT }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER,
-      spacing: { after: 240 },
-      children: [
-        run({ text: `PNC MAQUINARIAS EN EL DEPARTAMENTO DE ${regionLabel.toUpperCase()}`, bold: true, color: COLOR_TITULO, size: 28 }),
-      ],
-    }),
-    ...seccionAntecedentes(data, regionLabel, 1, 2),
-    ...seccionNarrativa(data, regionLabel, regionId, 3),
-    // El listado de "programadas" se muestra acá solo cuando no hay sección 4.1 (Plan FEN /
-    // Escenario Severo) a la cual moverlo -- ver comentario grande en seccionFEN().
-    ...(tienePlanFEN ? [] : seccionProgramadas(data, regionLabel)),
-    ...seccionFEN(data, regionLabel, tienePlanFEN ? 4 : null),
-    ...seccionPuntosCriticos(data, regionLabel, tienePlanFEN ? 4 : null, regionId),
-    ...seccionFlota(data, numFlota),
-    // 01/09/2026 -- a pedido de Franco ("esta parte no va"): se quitó "Acuerdos Puntos Críticos --
-    // todos los responsables" (seccionTodosResponsables) del documento completo -- no es parte de
-    // las 5 secciones de la plantilla real, era contenido extra que se había agregado antes. La
-    // función se deja definida por si se necesita más adelante, pero ya no se llama acá.
-    ...seccionAnexo(data, regionLabel, regionId),
-  ]
-
-  // Márgenes reales de la plantilla (asimétricos: izquierdo 1133, resto 1440;
-  // distancia de encabezado/pie 720) -- ver comentario de cabecera del archivo.
-  const margenPagina = { top: 1440, bottom: 1440, left: 1133, right: 1440, header: 720, footer: 720 }
-
-  return new Document({
-    styles: {
-      default: {
-        document: { run: { font: FONT, size: 22 } }, // 11pt por defecto
-      },
-    },
-    sections: [
-      {
-        properties: {
-          page: {
-            size: { width: PAGE_WIDTH, height: PAGE_HEIGHT, orientation: PageOrientation.PORTRAIT }, // tamaño real de la plantilla
-            margin: margenPagina,
-          },
-        },
-        headers: { default: crearEncabezado(membreteBytes) },
-        footers: { default: crearPie() },
-        children: contenido,
-      },
-    ],
-  })
+  const ambito = obtenerAmbitoDisponible(data, regionId)
+  const seleccionCompleta = new Map(ambito.map(({ provincia }) => [provincia, 'todos']))
+  return construirAyudaMemoriaFiltrada(data, regionId, seleccionCompleta, undefined)
 }
 
 export async function descargarAyudaMemoria(data, regionId) {
@@ -1888,7 +1859,7 @@ export async function descargarAyudaMemoria(data, regionId) {
 // responsables) -- ver comentario grande de obtenerAmbitoDisponible() más arriba
 // sobre qué partes de los datos sí se pueden filtrar en vivo y cuáles no.
 // ---------------------------------------------------------------------------
-export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
+export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos = CODIGOS_LD_POR_DEFECTO) {
   const regionLabel = data.meta?.region?.replace(/^Región\s+/i, '') || regionId
   const hoy = new Date().toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric' })
   const anio = (data.meta?.periodo || '').match(/\d{4}/)?.[0] || new Date().getFullYear()
@@ -2090,12 +2061,12 @@ function notaEjecutadasNoFiltrable(data, regionLabel) {
 }
 
 // 'rango' es opcional -- { desde: Date|null, hasta: Date|null } -- ver comentario junto a
-// enRangoFechas() más arriba. 'codigos' es opcional -- Set<'LD-P'|'LD-E'> -- ver
-// codigoActividadDe() más arriba. Cuando se pasan, el nombre del archivo suma el rango cubierto
-// (formato YYYYMMDD, igual que la fecha de generación que ya llevaba el nombre) y/o los códigos
-// elegidos, para poder distinguir a simple vista dos Ayuda Memoria del mismo ámbito con distinto
-// periodo o código.
-export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos) {
+// enRangoFechas() más arriba. 'codigos' ya NO es una elección del usuario (ver
+// CODIGOS_LD_POR_DEFECTO) -- se deja como parámetro solo por si hace falta anular el default
+// desde código en vez de desde la UI. Cuando hay rango, el nombre del archivo lo suma (formato
+// YYYYMMDD, igual que la fecha de generación que ya llevaba el nombre) para poder distinguir a
+// simple vista dos Ayuda Memoria del mismo ámbito con distinto periodo.
+export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos = CODIGOS_LD_POR_DEFECTO) {
   const doc = await construirAyudaMemoriaFiltrada(data, regionId, seleccion, rango, codigos)
   const blob = await Packer.toBlob(doc)
   const nombreRegion = (data.meta?.region || regionId).replace(/^Región\s+/i, '').replace(/\s+/g, '_')
@@ -2106,11 +2077,10 @@ export async function descargarAyudaMemoriaFiltrada(data, regionId, seleccion, r
     rango && (rango.desde || rango.hasta)
       ? `_${rango.desde ? slugFecha(rango.desde) : 'inicio'}-${rango.hasta ? slugFecha(rango.hasta) : 'hoy'}`
       : ''
-  const codigosSlug = codigos && codigos.size ? `_${[...codigos].sort().join('-')}` : ''
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = `Ayuda_Memoria_${nombreRegion}_${alcanceSlug}${rangoSlug}${codigosSlug}_${fecha}.docx`
+  a.download = `Ayuda_Memoria_${nombreRegion}_${alcanceSlug}${rangoSlug}_${fecha}.docx`
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
