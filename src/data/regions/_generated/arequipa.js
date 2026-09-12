@@ -46,10 +46,9 @@ export default {
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'El Chaparral', ficha: '34-2026-LDP-ARE', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR EL CHAPARRAL, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.      ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 4692.69, metaKm: 0.39, poblacion: 400 },
   ],
 
-  conveniosCount: 10,
+  conveniosCount: 9,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial Caraveli', detail: 'vence 07/10/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Distrital Chaparra', detail: 'hasta 11/09/2026' },
     { entidad: 'Municipalidad Distrital Lari', detail: 'vence 28/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Maca', detail: 'hasta 27/11/2026' },
     { entidad: 'Municipalidad Distrital Chiguata', detail: 'hasta 26/01/2027' },
