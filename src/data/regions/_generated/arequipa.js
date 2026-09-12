@@ -49,7 +49,7 @@ export default {
   conveniosCount: 10,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial Caraveli', detail: 'vence 07/10/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Distrital Chaparra', detail: 'vence 11/09/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Distrital Chaparra', detail: 'hasta 11/09/2026' },
     { entidad: 'Municipalidad Distrital Lari', detail: 'vence 28/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Maca', detail: 'hasta 27/11/2026' },
     { entidad: 'Municipalidad Distrital Chiguata', detail: 'hasta 26/01/2027' },
