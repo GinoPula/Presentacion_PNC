@@ -27,6 +27,17 @@ de una región nueva (mapaLimites.js, viene de una fuente pública de mapas, no 
 Producción) -- eso se agrega a mano una sola vez, la primera vez que aparece esa
 región (ver el LEEME de automatización).
 
+12/09/2026 -- ÚNICO pipeline (a pedido de Franco): esta corrida TAMBIÉN genera
+src/data/reporteDiario.json (el consolidado nacional "EN EJECUCIÓN" que usa el botón
+Reporte Diario del sitio) usando la MISMA conexión que las 25 regiones -- ver el
+comentario grande junto a consultar_reporte_diario_nacional() más abajo para el porqué.
+Antes esto vivía en una tarea programada APARTE (generar_reporte_diario_live.py,
+corriendo cada 15-30 min por su cuenta) -- eso quedaba obsoleto como tarea programada
+(dos "bacheros" golpeando la misma base en horarios distintos podían mostrar conteos
+que no cuadraban entre sí para el mismo instante). Si en el Programador de tareas de
+Windows todavía existe la tarea vieja "Actualizar Reporte Diario PNC", hay que
+DESHABILITARLA -- ver LEEME_REPORTE_DIARIO.md.
+
 Uso típico (en tu laptop, conectado a la VPN de VIVIENDA):
 
     python generar_todas_regiones.py --repo "C:\\ruta\\a\\pnc-tumbes"
@@ -37,6 +48,9 @@ Opciones:
     --periodo AAAA     Periodo/año a consultar (default: el año actual).
     --regiones LISTA   Lista separada por comas de slugs a regenerar en vez de
                         todas (ej. --regiones piura,ica). Útil para probar.
+    --sin-reporte-diario  No tocar src/data/reporteDiario.json en esta corrida (por
+                        defecto SÍ se actualiza). Pensado para una prueba rápida de
+                        una sola región sin rehacer también el reporte nacional.
     --git-commit        Además de escribir los archivos, hace `git add` + `git commit`
                         en el repo (usa --repo como working dir). NO hace push --
                         eso queda para --git-push.
@@ -106,6 +120,7 @@ LIMITACIONES CONOCIDAS DE LA AUTOMATIZACIÓN (documentado a propósito, léelo)
 import os
 import re
 import sys
+import json
 import math
 import getpass
 import argparse
@@ -175,6 +190,11 @@ DEPARTAMENTOS = {
     "san-martin":    "SAN MARTIN",
     "ucayali":       "UCAYALI",
 }
+
+# 12/09/2026 -- inverso de DEPARTAMENTOS (departamento en mayúsculas -> slug), para poder resolver
+# el "regionId" de cada fila del Reporte Diario nacional (ver consultar_reporte_diario_nacional()
+# más abajo) sin mantener una segunda lista aparte que se pueda desincronizar de esta.
+DEPTO_TO_REGION = {v: k for k, v in DEPARTAMENTOS.items()}
 
 # ---------------------------------------------------------------------------
 # Máquinas alquiladas -- 03/09/2026, a pedido de Franco: el reporte general venía mostrando 453
@@ -701,6 +721,17 @@ def consultar_departamento(cur, departamento, periodo):
                    (SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_vol, 0
                ) AS volumen,
+               -- 09/09/2026 -- se agrega el acumulado de KM (mismo patrón/tabla que ya se usa
+               -- arriba para "enEjecucion" y "volumen": pnc.fc_em_intervencion_avance.avance_km,
+               -- con inte.meta_km como respaldo si todavía no hay avance registrado). Antes esta
+               -- consulta no traía km -- por eso la columna "ACUMULADO KM" de la Ayuda Memoria
+               -- salía en blanco ("—"); con esto queda con el mismo dato real que ya usa el resto
+               -- del pipeline (ver _consultar_ejecutadas_por_tipo y la sección "enEjecucion" más
+               -- arriba, que ya leen avance_km desde la misma tabla).
+               COALESCE(
+                   (SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
+                   inte.meta_km, 0
+               ) AS km,
                inte.enlace_info_cierre
         FROM pnc.tb_em_intervencion inte
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s
@@ -710,6 +741,125 @@ def consultar_departamento(cur, departamento, periodo):
     resultado["_puntos_mapa_crudo"] = cur.fetchall()
 
     return resultado
+
+
+# ---------------------------------------------------------------------------
+# REPORTE DIARIO NACIONAL -- fusionado a este script el 12/09/2026, a pedido de Franco: existía
+# como una tarea programada APARTE (generar_reporte_diario_live.py, cada 15-30 min), mientras este
+# script (generar_todas_regiones.py) corría como otra tarea distinta -- "los dos bacheros están
+# golpeando la misma base de datos, en diferente horario" (sus palabras). Aunque ambas tareas
+# consultan exactamente las mismas filas de pnc.tb_em_intervencion (mismo WHERE
+# estado='EN EJECUCIÓN' AND periodo=X, solo que una las trae por departamento y la otra a nivel
+# nacional de una sola vez), al ser DOS conexiones/corridas independientes en horarios distintos,
+# cada una ve una "foto" de Producción tomada en un instante distinto -- de ahí que el Reporte
+# Diario y la Ayuda Memoria pudieran mostrar conteos de "en ejecución"/"ejecutadas" que no cuadran
+# entre sí para el mismo departamento en el mismo momento (caso Piura detectado el 12/09/2026: 3 en
+# ejecución en el snapshot de un pipeline, 2 en el otro). Además, al correr los dos por separado
+# cada 15-30 min, cada uno hacía su propio commit+push, con el riesgo de choque que ya estaba
+# documentado en correr_git()/main() de ambos scripts (git pull --rebase antes del push).
+#
+# La solución: una sola conexión, una sola corrida, un solo commit. Estas dos funciones
+# (consultar_reporte_diario_nacional/escribir_reporte_diario) son el mismo código que tenía
+# generar_reporte_diario_live.py (mismas dos consultas, mismo formato de salida en
+# src/data/reporteDiario.json -- los componentes de React que lo leen no cambian), solo que ahora
+# se llaman desde main() usando la MISMA conexión que ya se abrió para las 25 regiones, así que el
+# Reporte Diario y todos los _generated/<slug>.js de esta corrida reflejan el mismo instante de
+# Producción. generar_reporte_diario_live.py queda en el repo solo para pruebas manuales puntuales
+# (ver el aviso de obsolescencia en su encabezado) -- ya NO debe programarse como tarea aparte.
+def clean_text(v):
+    if v is None:
+        return ''
+    return re.sub(r'\s+', ' ', str(v)).strip().strip('"').strip()
+
+
+def titlecase_es(s):
+    if not s:
+        return s
+    return ' '.join(w.capitalize() if w else w for w in s.strip().split(' '))
+
+
+def consultar_reporte_diario_nacional(cur, periodo):
+    """Devuelve la lista de filas (mismo shape que ya consume ReporteDiarioModal.jsx/
+    reporteDiario.js) de TODAS las intervenciones 'EN EJECUCIÓN' a nivel nacional, sin filtrar por
+    departamento -- exactamente las dos consultas que tenía generar_reporte_diario_live.py."""
+    cur.execute("""
+        SELECT inte.id_intervencion,
+               inte.departamento, inte.provincia, inte.distrito, inte.sector,
+               inte.tipo, inte.marco_legal, inte.descripcion,
+               TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
+               TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin
+        FROM pnc.tb_em_intervencion inte
+        WHERE inte.estado = 'EN EJECUCIÓN' AND inte.periodo = %s
+        ORDER BY inte.departamento, inte.provincia, inte.distrito;
+    """, (periodo,))
+    filas = cur.fetchall()
+
+    # Maquinaria asignada -- consulta aparte a propósito: si el usuario de credenciales_pnc.env no
+    # tiene permiso SELECT sobre tb_em_intervencion_maquinaria, esto falla solo y el resto del
+    # reporte se genera igual (ver LEEME_REPORTE_DIARIO.md), nunca tumba la corrida completa de
+    # las 25 regiones.
+    maquinaria_por_id = {}
+    try:
+        cur.execute("""
+            SELECT im.id_intervencion,
+                   string_agg(ma.tipo_unidad || ' ( ' || im.cod_activo || ')', ', ') AS maquinaria_asignada
+            FROM pnc.tb_em_intervencion_maquinaria im
+            LEFT JOIN pnc.fc_em_maquinaria_1 ma ON im.cod_activo = ma.codigo
+            INNER JOIN pnc.tb_em_intervencion inte ON inte.id_intervencion = im.id_intervencion
+            WHERE inte.estado = 'EN EJECUCIÓN' AND inte.periodo = %s
+            GROUP BY im.id_intervencion;
+        """, (periodo,))
+        for r in cur.fetchall():
+            maquinaria_por_id[r['id_intervencion']] = clean_text(r.get('maquinaria_asignada'))
+    except Exception as e:
+        cur.connection.rollback()
+        avisar(f"Reporte Diario: no se pudo traer la maquinaria asignada ({e.__class__.__name__}: {e}). "
+               f"El reporte se genera igual, sin maquinaria por intervención (nunca inventada). "
+               f"Pídele a quien administre Producción: GRANT SELECT ON pnc.tb_em_intervencion_maquinaria TO <tu usuario>;")
+
+    rows = []
+    for i, r in enumerate(filas, start=1):
+        depto_raw = clean_text(r['departamento']).upper()
+        maquinaria_raw = maquinaria_por_id.get(r['id_intervencion'], '')
+        maquinaria_list = [m.strip() for m in maquinaria_raw.split(',') if m.strip()] if maquinaria_raw else []
+        rows.append({
+            'n': i,
+            'idIntervencion': clean_text(r.get('id_intervencion')),
+            'departamento': depto_raw,
+            'deptoLabel': titlecase_es(depto_raw),
+            'regionId': DEPTO_TO_REGION.get(depto_raw),
+            'provincia': titlecase_es(clean_text(r.get('provincia'))),
+            'distrito': titlecase_es(clean_text(r.get('distrito'))),
+            'sector': titlecase_es(clean_text(r.get('sector'))),
+            'tipo': clean_text(r.get('tipo')).upper(),
+            'marcoLegal': clean_text(r.get('marco_legal')),
+            'descripcion': clean_text(r.get('descripcion')),
+            'fechaInicio': r.get('fecha_inicio') or '',
+            'fechaFin': r.get('fecha_fin') or '',
+            'maquinaria': maquinaria_list,
+        })
+    return rows
+
+
+def escribir_reporte_diario(repo, periodo, rows):
+    """Escribe src/data/reporteDiario.json -- mismo formato exacto que ya escribía
+    generar_reporte_diario_live.py, para que ReporteDiarioModal.jsx/reporteDiario.js no necesiten
+    ningún cambio."""
+    destino = os.path.join(repo, "src", "data", "reporteDiario.json")
+    ahora = datetime.now()
+    out = {
+        'meta': {
+            'fuente': f'Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo {periodo}',
+            'fechaCorte': ahora.strftime('%d/%m/%Y'),
+            'horaCorte': ahora.strftime('%H:%M'),
+            'generadoDesc': 'ESTADO = "EN EJECUCIÓN" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos.',
+        },
+        'items': rows,
+    }
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"OK -- {len(rows)} intervenciones en ejecución (nacional) -> {destino}")
+    return destino
 
 
 # ---------------------------------------------------------------------------
@@ -960,6 +1110,11 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
             "fechaFin": p["fecha_fin"] or "",
             "poblacion": entero(p["pob_beneficiada"]) if p["pob_beneficiada"] is not None else None,
             "volumen": num(p["volumen"]),
+            # 09/09/2026 -- ver comentario junto a la consulta de la sección 6) más arriba: ahora
+            # sí viene con dato real (antes esta función no recibía "km" en absoluto porque la
+            # consulta no lo traía; el generador de la Ayuda Memoria, ayudaMemoria.js, ya sabe leer
+            # este campo -- solo mostraba "—" cuando no existía).
+            "km": num(p["km"]),
             "enlace": p["enlace_info_cierre"] if p["enlace_info_cierre"] else None,
         })
     if sin_coordenada:
@@ -1262,6 +1417,10 @@ def main():
     ap.add_argument("--repo", required=True, help="Carpeta raíz del proyecto (donde está package.json)")
     ap.add_argument("--periodo", default=str(date.today().year), help="Periodo/año a consultar (default: año actual)")
     ap.add_argument("--regiones", default=None, help="Slugs separados por coma a regenerar (default: todas)")
+    ap.add_argument("--sin-reporte-diario", action="store_true",
+                     help="No actualizar src/data/reporteDiario.json en esta corrida (por defecto SÍ se actualiza, "
+                          "en la misma conexión/commit que las regiones -- ver consultar_reporte_diario_nacional(). "
+                          "Útil para una prueba rápida de una sola región sin tocar el reporte nacional.")
     ap.add_argument("--git-commit", action="store_true", help="git add + commit después de escribir")
     ap.add_argument("--git-push", action="store_true", help="Igual que --git-commit, y además git push")
     args = ap.parse_args()
@@ -1305,6 +1464,19 @@ def main():
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
     archivos_escritos = []
+
+    # 12/09/2026 -- Reporte Diario nacional, fusionado a esta misma corrida/conexión (ver el
+    # comentario grande junto a consultar_reporte_diario_nacional()): se hace PRIMERO, antes del
+    # loop de regiones, para que quede lo más cerca posible en el tiempo del resto de consultas de
+    # esta misma corrida (todas contra el mismo Producción, sin una segunda tarea programada en otro
+    # horario de por medio).
+    if not args.sin_reporte_diario:
+        print("--- Reporte Diario (nacional) ---")
+        filas_reporte = consultar_reporte_diario_nacional(cur, args.periodo)
+        ruta_reporte_diario = escribir_reporte_diario(repo, args.periodo, filas_reporte)
+        archivos_escritos.append(ruta_reporte_diario)
+        print()
+
     for slug in slugs:
         departamento = DEPARTAMENTOS[slug]
         print(f"--- {slug} ({departamento}) ---")
@@ -1340,14 +1512,16 @@ def main():
         print("=== Git ===")
         rel = [os.path.relpath(p, repo) for p in archivos_escritos]
         correr_git(repo, ["add", *rel])
-        mensaje = f"Actualiza datos de regiones ({args.periodo}) -- pipeline automático"
+        # 12/09/2026 -- un solo mensaje de commit para regiones + Reporte Diario (antes eran dos
+        # tareas/commits separados -- ver el comentario grande junto a
+        # consultar_reporte_diario_nacional() sobre por qué se fusionaron).
+        mensaje = f"Actualiza datos de regiones y Reporte Diario ({args.periodo}) -- pipeline automático"
         hay_cambios = correr_git(repo, ["commit", "-m", mensaje])
         if args.git_push and hay_cambios:
-            # Antes de subir, trae lo último de origin y reacomoda nuestro commit
-            # encima (en vez de fusionarlo). Esto evita que el push falle si el
-            # otro pipeline (Reporte Diario) subió cambios entre que empezamos y
-            # terminamos esta corrida -- algo cada vez más probable ahora que
-            # ambas tareas corren con solo 15-30 min de diferencia.
+            # Antes de subir, trae lo último de origin y reacomoda nuestro commit encima (en vez de
+            # fusionarlo). Ya no hay un "otro pipeline" corriendo por su cuenta (Reporte Diario se
+            # fusionó acá el 12/09/2026) -- esto queda solo por si Franco también hace un commit a
+            # mano desde otra máquina mientras esta corrida está en curso.
             if not correr_git(repo, ["pull", "--rebase", "--autostash"]):
                 print("  [!] git pull --rebase falló -- no se intentará el push para no "
                       "dejar el repo en un estado inconsistente. Revisar a mano.")
