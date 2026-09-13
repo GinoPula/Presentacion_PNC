@@ -223,6 +223,31 @@ function codigoActividadDe(ficha) {
   return m ? `LD-${m[1].toUpperCase()}` : null
 }
 
+// 12/09/2026 -- a diferencia de codigoActividadDe() (que solo reconoce LD-P/LD-E exactos, ver el
+// comentario junto a CODIGOS_LD_POR_DEFECTO más abajo), esta versión reconoce CUALQUIER código de
+// la familia "LD-" -- LD-P, LD-E, LD-PI (Piura/Tumbes/Lambayeque), y cualquier otro sufijo que siga
+// al mismo patrón -- porque Franco pidió (12/09/2026) que "Temas Pendientes" y su tabla de detalle
+// filtren "todo los que comiencen con LD-xx", ya no solo Prevención/Emergencia. Sigue exigiendo que
+// justo después de "LD" venga un guion (variante con guion, p.ej. "-LD-PI-") o, sin guion, que el
+// sufijo sea P/E exacto (única variante sin guion confirmada en datos reales, ver
+// codigoActividadDe()) -- así "LD-OA"/"LDOA-PI" (código totalmente distinto) sigue sin matchear,
+// igual que antes.
+function codigoActividadCompleto(ficha) {
+  const m = /-LD(?:-([A-Z0-9]+)|([PE]))(?:-|$)/i.exec(ficha || '')
+  if (!m) return null
+  return `LD-${(m[1] || m[2]).toUpperCase()}`
+}
+
+// Filtra solo las filas cuyo FICHA_TEC trae un código de la familia "LD-" (ver
+// codigoActividadCompleto()). A pedido de Franco (12/09/2026), este filtro se aplica ÚNICAMENTE a
+// lo programado (Temas Pendientes + tabla de detalle de programadas) -- nunca a ejecutadas/en
+// ejecución (Temas Relevantes sigue mostrando todas las actividades, tal como se revirtió el
+// 11/09/2026) ni a puntos críticos. No es una casilla del modal: es lógica interna fija, igual que
+// las fechas visibles del filtro de ámbito.
+function filtrarSoloLD(filas) {
+  return (filas || []).filter((f) => codigoActividadCompleto(f.ficha) !== null)
+}
+
 // 11/09/2026 -- se había expuesto el código de actividad como una casilla más en el modal (el
 // usuario elegía LD-P/LD-E o ninguno), luego se pasó a un filtro interno por defecto (siempre
 // solo LD-P/LD-E, sin casilla). Franco confirmó el mismo día que ESE filtro por defecto está mal
@@ -1867,15 +1892,23 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
 
   const membreteBytes = await cargarMembrete()
 
-  // El filtro de fechas y el de código de actividad (LD-P/LD-E) se aplican solo a las dos
-  // fuentes que realmente tienen fecha de inicio y ficha por fila: programadas y ejecutadas/en
-  // ejecución. Los puntos críticos ANA (filasPuntosCriticos) NO son eventos con fecha propia ni
-  // traen FICHA_TEC de Limpieza y Descolmatación -- son ubicaciones/acuerdos -- así que se quedan
-  // fuera de ambos filtros a propósito (pasarlos ahí excluiría todos los puntos críticos, lo cual
-  // sería incorrecto: no es que falten datos, es que el concepto no aplica).
-  const filasProgramadas = filtrarPorAmbito(data.programadasDetalle, seleccion, rango, codigos)
+  // El filtro de fechas se aplica a las dos fuentes que realmente tienen fecha de inicio propia:
+  // programadas y ejecutadas/en ejecución. Los puntos críticos ANA (filasPuntosCriticos) NO son
+  // eventos con fecha propia -- son ubicaciones/acuerdos -- así que se quedan fuera a propósito
+  // (pasarlos ahí excluiría todos los puntos críticos, lo cual sería incorrecto: no es que falten
+  // datos, es que el concepto no aplica).
+  //
+  // El filtro por código de actividad (familia "LD-", ver filtrarSoloLD()) se aplica SOLO a lo
+  // programado -- a pedido de Franco (12/09/2026): "Solamente debe ir en lo programado el filtrado
+  // por código de actividad, todo los que comiencen con LD-xx, y el cuadro que sigue el detalle
+  // abajo en la ayuda memoria debe mostrar ese filtro de lo programado". No es una casilla del
+  // modal -- es lógica interna fija (el parámetro 'codigos' de esta función ya no se usa, queda en
+  // la firma sin efecto por si algún llamador externo todavía lo pasa). Ejecutadas/en ejecución
+  // conservan TODAS las actividades sin filtrar (ver seccionTemasRelevantes()), tal como se
+  // revirtió el 11/09/2026.
+  const filasProgramadas = filtrarSoloLD(filtrarPorAmbito(data.programadasDetalle, seleccion, rango))
   const filasPuntosCriticos = filtrarPorAmbito(data.puntosCriticos, seleccion)
-  const filasEjecutadas = filtrarEjecutadasPorAmbito(regionId, seleccion, rango, codigos) // null = región sin mapaIntervenciones.js
+  const filasEjecutadas = filtrarEjecutadasPorAmbito(regionId, seleccion, rango) // null = región sin mapaIntervenciones.js
 
   // 08/09/2026 -- nueva plantilla revisada con el Director Ejecutivo (AM_PASCO_11.docx): la
   // introducción de la tabla de ejecutadas cambia de "Se registran N intervenciones ejecutadas o
@@ -1988,11 +2021,17 @@ function fraseVolumen(actividad) {
 // el pipeline actualizado no tiene el campo "km" en sus puntos (undefined, no 0) -- en ese caso NO
 // se muestra la cláusula de longitud para ese grupo, en vez de mostrar "0.00 km" (que sería falso,
 // no "no hay dato"). kmConocido se apaga apenas un punto del grupo no trae el campo.
-function seccionTemasRelevantes(filasEjecutadas, regionLabel) {
-  if (!filasEjecutadas || !filasEjecutadas.length) return []
-  const anio = new Date().getFullYear()
+// 12/09/2026 -- a pedido de Franco: el párrafo detectó que sumaba EJECUTADA + EN EJECUCIÓN bajo la
+// misma redacción "se han ejecutado" (ej. Piura: 22 transitabilidad + 33 limpieza + 2 de un tercer
+// grupo = 57, cuando en realidad solo 55 están EJECUTADA y las otras 2 siguen EN EJECUCIÓN, no
+// terminadas) -- eso hacía pasar por "ejecutado" algo que todavía no lo está. Se separa en dos
+// grupos con redacción propia: EJECUTADA mantiene "En el año {año} se han ejecutado..." (sin
+// cambios), EN EJECUCIÓN pasa a "Actualmente se vienen ejecutando..." (sin mención de año, es una
+// situación presente/en curso, no un hecho cerrado del año). Cada grupo agrupa por actividad igual
+// que antes (agruparPorActividad), mismas cláusulas de volumen/longitud/población.
+function agruparPorActividad(filas) {
   const grupos = new Map()
-  filasEjecutadas.forEach((p) => {
+  filas.forEach((p) => {
     const act = actividadDe(p.descripcion)
     if (!grupos.has(act)) grupos.set(act, { cantidad: 0, provincias: new Set(), m3: 0, km: 0, kmConocido: true, poblacion: 0 })
     const g = grupos.get(act)
@@ -2003,14 +2042,31 @@ function seccionTemasRelevantes(filasEjecutadas, regionLabel) {
     else g.kmConocido = false
     g.poblacion += Number(p.poblacion || 0)
   })
-  const parrafos = [...grupos.entries()].map(([actividad, g]) => {
+  return grupos
+}
+
+function frasesPorActividad(grupos, introduccion, regionLabel) {
+  return [...grupos.entries()].map(([actividad, g]) => {
     const provincias = [...g.provincias].sort((a, b) => a.localeCompare(b, 'es'))
     const fraseLongitud = g.kmConocido ? `, en una longitud de ${fmtNum(g.km, 2)} km` : ''
     return parrafo(
-      `En el año ${anio} se han ejecutado en la región ${regionLabel} ${fmtNum(g.cantidad)} intervencion${g.cantidad === 1 ? '' : 'es'} de ${actividad}, en la${provincias.length > 1 ? 's' : ''} provincia${provincias.length > 1 ? 's' : ''} de ${listaProvincias(provincias)}, ${fraseVolumen(actividad)} ${fmtCrudo(g.m3)} m³${fraseLongitud}, beneficiando a ${fmtCrudo(g.poblacion)} pobladores.`
+      `${introduccion} en la región ${regionLabel} ${fmtNum(g.cantidad)} intervencion${g.cantidad === 1 ? '' : 'es'} de ${actividad}, en la${provincias.length > 1 ? 's' : ''} provincia${provincias.length > 1 ? 's' : ''} de ${listaProvincias(provincias)}, ${fraseVolumen(actividad)} ${fmtCrudo(g.m3)} m³${fraseLongitud}, beneficiando a ${fmtCrudo(g.poblacion)} pobladores.`
     )
   })
-  return [titulo2('Temas Relevantes'), ...parrafos]
+}
+
+function seccionTemasRelevantes(filasEjecutadas, regionLabel) {
+  if (!filasEjecutadas || !filasEjecutadas.length) return []
+  const anio = new Date().getFullYear()
+
+  const ejecutadas = filasEjecutadas.filter((p) => p.estado === 'Ejecutada')
+  const enEjecucion = filasEjecutadas.filter((p) => p.estado === 'En ejecución')
+
+  const parrafosEjecutadas = frasesPorActividad(agruparPorActividad(ejecutadas), `En el año ${anio} se han ejecutado`, regionLabel)
+  const parrafosEnEjecucion = frasesPorActividad(agruparPorActividad(enEjecucion), 'Actualmente se vienen ejecutando', regionLabel)
+
+  if (!parrafosEjecutadas.length && !parrafosEnEjecucion.length) return []
+  return [titulo2('Temas Relevantes'), ...parrafosEjecutadas, ...parrafosEnEjecucion]
 }
 
 function seccionTemasPendientes(filasProgramadas, regionLabel) {
