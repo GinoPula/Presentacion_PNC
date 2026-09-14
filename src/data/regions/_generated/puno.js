@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
-    { tipo: 'Prevención', cantidad: 14, m3: 129380.69, km: 32.78, poblacion: 7823, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'San Roman'] },
-    { tipo: 'Urgente atención', cantidad: 10, m3: 41352.23, km: 21079.89, poblacion: 22085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 130454.69, km: 33.13, poblacion: 8113, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 43692.23, km: 21089.44, poblacion: 22645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 37, m3: 289721.87, m3AguaPotable: 8612.02, km: 21129.11, poblacion: 47939 },
+  ejecutadasTotal: { cantidad: 39, m3: 293135.87, m3AguaPotable: 8612.02, km: 21139.02, poblacion: 48789 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Sandia', distrito: 'San Juan Del Oro', tipo: 'Prevención', descripcion: ' REFORZAMIENTO DEL DIQUE DE PROTECCIÓN EN EL CAUCE DEL RÍO CHALLOHUMA, SECTOR CHALLOHUMA, DISTRITO DE SAN JUAN DEL ORO, PROVINCIA DE SANDIA, DEPARTAMENTO DE PUNO  ', inicio: '25/08/2026', fin: '06/09/2026', volAcum: 1074.0, kmAcum: 0.36, poblacion: 290 },
-    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO ', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 2340.0, kmAcum: 9.55, poblacion: 560 },
+    { provincia: 'Puno', distrito: 'Capachica', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO MUSINGA EN LA LOCALIDAD DE HUAREJÓN DEL DISTRITO DE CAPACHICA, PROVINCIA Y DEPARTAMENTO DE PUNO ', inicio: '14/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 478 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,7 +33,6 @@ export default {
     { provincia: 'Melgar', distrito: 'Llalli', cantidad: 2, metaVol: 43300.0, metaKm: 1.65, poblacion: 450 },
     { provincia: 'Melgar', distrito: 'Santa Rosa', cantidad: 1, metaVol: 14500.0, metaKm: 1.16, poblacion: 600 },
     { provincia: 'Melgar', distrito: 'Umachiri', cantidad: 1, metaVol: 18650.0, metaKm: 0.75, poblacion: 0 },
-    { provincia: 'Puno', distrito: 'Capachica', cantidad: 1, metaVol: 9600.0, metaKm: 4.8, poblacion: 478 },
     { provincia: 'Puno', distrito: 'Paucarcolla', cantidad: 2, metaVol: 26064.0, metaKm: 4.43, poblacion: 150 },
     { provincia: 'Puno', distrito: 'Puno', cantidad: 1, metaVol: 23040.0, metaKm: 3.2, poblacion: 0 },
     { provincia: 'San Antonio De Putina', distrito: 'Putina', cantidad: 1, metaVol: 36960.0, metaKm: 2.42, poblacion: 2500 },
@@ -42,7 +40,7 @@ export default {
     { provincia: 'San Roman', distrito: 'Cabanillas', cantidad: 1, metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'Yunguyo', distrito: 'Unicachi', cantidad: 1, metaVol: 11400.0, metaKm: 1.9, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 22, metaVol: 438456.6, metaKm: 53.0, poblacion: 8663 },
+  programadasTotal: { cantidad: 21, metaVol: 428856.6, metaKm: 48.2, poblacion: 8185 },
 
   programadasDetalle: [
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Tiracoma', ficha: 'FTI N° 017-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LAVADERO Y AFLUENTE, EN EL SECTOR TIRACOMA, DISTRITO DE CABANA, PROVINCIA DE SAN ROMAN, DEPARTAMENTO DE PUNO   ', fechaInicio: '03/09/2026', fechaFin: '26/09/2026', metaVol: 26419.2, metaKm: 1.03, poblacion: 250 },
@@ -50,17 +48,16 @@ export default {
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Choquechambi Sector Balsapata - Muñani Chico', ficha: 'FTI N° 038-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO     ', fechaInicio: '09/09/2026', fechaFin: '23/09/2026', metaVol: 10224.9, metaKm: 4.87, poblacion: 540 },
     { provincia: 'Melgar', distrito: 'Llalli', sector: 'Kahuasiri Bajo', ficha: 'FTI N°004-2026-LDP-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO', fechaInicio: '10/09/2026', fechaFin: '24/09/2026', metaVol: 22500.0, metaKm: 0.63, poblacion: 300 },
     { provincia: 'El Collao', distrito: 'Pilcuyo', sector: 'Plas Ponco', ficha: 'FTI N° 034-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00    ', fechaInicio: '10/09/2026', fechaFin: '21/09/2026', metaVol: 4125.0, metaKm: 1.1, poblacion: 120 },
-    { provincia: 'Puno', distrito: 'Capachica', sector: 'Huarejon', ficha: 'FTI N° 077-2025-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO MUSINGA EN LA LOCALIDAD DE HUAREJÓN DEL DISTRITO DE CAPACHICA, PROVINCIA Y DEPARTAMENTO DE PUNO', fechaInicio: '14/09/2026', fechaFin: '23/09/2026', metaVol: 9600.0, metaKm: 4.8, poblacion: 478 },
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Muñani Chico', ficha: 'FTI N° 037-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO       ', fechaInicio: '18/09/2026', fechaFin: '28/09/2026', metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Huañoco', ficha: 'FTI N° 006-2025-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE RIO HUAÑOCO EN EL DISTRITO DE CABANA, PROVINCIA DE SAN ROMAN, DEPARTAMENTO DE PUNO           ', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 13560.0, metaKm: 5.65, poblacion: 105 },
     { provincia: 'San Antonio De Putina', distrito: 'Putina', sector: 'Putina', ficha: 'FTI N°018-2026-LDP-PUN', descripcion: ' LIMPIEZA, DESCOLMATACION DEL RIO PUTINA DEL DISTRITO DE PUTINA, PROVINCIA DE SAN ANTONIO DE PUTINA, DEPARTAMENTO DE PUNO-00        ', fechaInicio: '08/10/2026', fechaFin: '06/11/2026', metaVol: 36960.0, metaKm: 2.42, poblacion: 2500 },
     { provincia: 'Azangaro', distrito: 'Chupa', sector: 'Chacapunta', ficha: 'FTI N°017-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO TRAPICHE EN LA COMUNIDAD CHACAPUNTA, DISTRITO DE CHUPA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO           ', fechaInicio: '10/10/2026', fechaFin: '03/11/2026', metaVol: 15053.5, metaKm: 3.22, poblacion: 85 },
-    { provincia: 'Melgar', distrito: 'Llalli', sector: 'Llalli', ficha: 'FTI N° 061-2026-LDP-PUN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE CAUCE DEL RÍO LLALLIMAYO, DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO-00      ', fechaInicio: '12/10/2026', fechaFin: '10/11/2026', metaVol: 20800.0, metaKm: 1.02, poblacion: 150 },
     { provincia: 'Puno', distrito: 'Paucarcolla', sector: 'Paucarcolla', ficha: 'FTI N°019-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL RIO TOTORANI DEL DISTRITO DE PAUCARCOLLA - PROVINCIA DE PUNO - DEPARTAMENTO DE PUNO         ', fechaInicio: '12/10/2026', fechaFin: '21/10/2026', metaVol: 11664.0, metaKm: 2.43, poblacion: 150 },
+    { provincia: 'Melgar', distrito: 'Llalli', sector: 'Llalli', ficha: 'FTI N° 061-2026-LDP-PUN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE CAUCE DEL RÍO LLALLIMAYO, DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO-00      ', fechaInicio: '12/10/2026', fechaFin: '10/11/2026', metaVol: 20800.0, metaKm: 1.02, poblacion: 150 },
+    { provincia: 'Carabaya', distrito: 'Usicayos', sector: 'Quetapalo', ficha: 'FTI N°11-2026-LDP-PUN', descripcion: ' ENCAUZAMIENTO Y REFORZAMIENTO DE TALUDES DEL CAUCE DEL RIO QUETAPALO, C.C. QUETAPALO, DISTRITO DE USICAYOS, REGIÓN PUNO      ', fechaInicio: '01/11/2026', fechaFin: '16/11/2026', metaVol: 9957.6, metaKm: 1.2, poblacion: 430 },
     { provincia: 'San Roman', distrito: 'Cabanillas', sector: 'Huataquita - Chillo', ficha: 'FTI N°020-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO CHILLO EN LA COMUNIDAD DE HUATAQUITA - CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO     ', fechaInicio: '01/11/2026', fechaFin: '10/11/2026', metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'Azangaro', distrito: 'Azangaro', sector: 'Azangaro', ficha: 'FTI N°021-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO AZANGARO, DEL DISTRITO Y PROVINCIA DE AZANGARO - PUNO      ', fechaInicio: '01/11/2026', fechaFin: '30/11/2026', metaVol: 68000.0, metaKm: 2.8, poblacion: 1500 },
     { provincia: 'Puno', distrito: 'Paucarcolla', sector: 'Collama', ficha: 'FTI N° 023-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL RIO TOTORANI, TRAMO 1 SECTOR COLLAMA, DISTRITO DE PAUCARCOLLA, PROVINCIA Y REGION DE PUNO   ', fechaInicio: '01/11/2026', fechaFin: '13/11/2026', metaVol: 14400.0, metaKm: 2.0, poblacion: null },
-    { provincia: 'Carabaya', distrito: 'Usicayos', sector: 'Quetapalo', ficha: 'FTI N°11-2026-LDP-PUN', descripcion: ' ENCAUZAMIENTO Y REFORZAMIENTO DE TALUDES DEL CAUCE DEL RIO QUETAPALO, C.C. QUETAPALO, DISTRITO DE USICAYOS, REGIÓN PUNO      ', fechaInicio: '01/11/2026', fechaFin: '16/11/2026', metaVol: 9957.6, metaKm: 1.2, poblacion: 430 },
     { provincia: 'Yunguyo', distrito: 'Unicachi', sector: 'Apacheta Y Patscachi', ficha: 'FTI N° 063-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO UNICACHI EN LOS SECTORES APACHETA Y PATSCACHI DEL DISTRITO DE UNICACHI, PROVINCIA DE YUNGUYO, DEPARTAMENTO DE PUNO-00     ', fechaInicio: '05/11/2026', fechaFin: '16/11/2026', metaVol: 11400.0, metaKm: 1.9, poblacion: null },
     { provincia: 'Lampa', distrito: 'Ocuviri', sector: 'Ocuviri', ficha: 'FTI N°012-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO OCUVIRI, DEL DISTRITO DE OCUVIRI, PROVINCIA DE LAMPA Y DEPARTAMENTO PUNO         ', fechaInicio: '01/12/2026', fechaFin: '18/12/2026', metaVol: 18970.0, metaKm: 1.35, poblacion: 350 },
     { provincia: 'Puno', distrito: 'Puno', sector: 'Villa Palca', ficha: 'FTI N° 022-2026-LDP-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACI├ôN DE CAUCE DEL RIO ILLPA, DE LA COMUNIDAD DE VILLA PALCA, DEL DISTRITO DE PAUCARCOLLA, PROVINCIA DE PUNO, DEPARTAMENTO DE PUNO   ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 23040.0, metaKm: 3.2, poblacion: null },
