@@ -1981,6 +1981,7 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
           }),
         ]
       : notaEjecutadasNoFiltrable(data, regionLabel)),
+    ...seccionConveniosVigentes(data, regionLabel),
     ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
     ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
     ...(data.flota && data.flota.length
@@ -2135,16 +2136,37 @@ function seccionTemasPendientes(filasProgramadas, regionLabel) {
 }
 
 // "En la región X no se tiene intervención en ejecución." / "...se tiene(n) N intervención(es) en
-// ejecución." -- bullet nuevo (08/09/2026, misma plantilla revisada) entre la tabla de ejecutadas
-// y la de programadas. El caso "0 en ejecución" está confirmado tal cual contra AM_PASCO_11.docx;
-// el caso "N > 0" es una generalización razonable (no hay un ejemplo real todavía con
-// en-ejecución > 0 en el ámbito filtrado) -- revisar la redacción exacta si Franco manda un
-// ejemplo con ese caso.
+// ejecución." -- bullet agregado 08/09/2026 (misma plantilla revisada) entre la tabla de
+// ejecutadas y la de programadas.
+//
+// 14/09/2026 -- YA NO SE LLAMA desde construirAyudaMemoriaFiltrada(): ese único bullet se
+// reemplazó por el cuadro completo de EN EJECUCIÓN (ver tablaEjecutadas(filasSoloEnEjecucion, ...)
+// más arriba), que ya transmite la misma información (cuántas hay) y además el detalle. Se deja la
+// función tal cual, sin borrar, por si hace falta el bullet suelto en algún otro contexto.
 function bulletEnEjecucion(filasEjecutadas, regionLabel) {
   if (filasEjecutadas === null) return [] // región sin mapaIntervenciones.js -- no hay cómo saberlo
   const enEjecucion = filasEjecutadas.filter((p) => (p.estado || '').toLowerCase() === 'en ejecución').length
   if (enEjecucion === 0) return [bullet(`En la región ${regionLabel} no se tiene intervención en ejecución.`)]
   return [bullet(`En la región ${regionLabel} se ${enEjecucion === 1 ? 'tiene 1 intervención' : `tienen ${fmtNum(enEjecucion)} intervenciones`} en ejecución.`)]
+}
+
+// 14/09/2026 -- a pedido de Franco: "Después del cuadro de la ejecución mencionar los convenios
+// vigentes que tenemos para esa region eso faltaría como dato". El dato YA existía en el pipeline
+// (data.conveniosCount/conveniosVigentes, ver generar_todas_regiones.py y src/data/global.js) pero
+// hasta ahora solo se usaba para el TOTAL nacional (conveniosCountGlobal) en Antecedentes -- nunca
+// por región, dentro del cuerpo del documento. conveniosVigentes trae [{ entidad, detail }], donde
+// 'detail' ya viene como texto listo ("hasta DD/MM/YYYY"), así que se usa tal cual.
+function seccionConveniosVigentes(data, regionLabel) {
+  const convenios = data.conveniosVigentes || []
+  if (!convenios.length) return []
+  return [
+    parrafo([
+      'Asimismo, en la región ',
+      run({ text: regionLabel, bold: true }),
+      ` se cuenta con ${fmtNum(data.conveniosCount ?? convenios.length)} Convenios de Colaboración Interinstitucional vigentes:`,
+    ]),
+    ...convenios.map((c) => bullet(`${c.entidad}${c.detail ? `, vigente ${c.detail}` : ''}.`)),
+  ]
 }
 
 // Solo se usa cuando la región no tiene entrada en mapaIntervenciones.js (ver
