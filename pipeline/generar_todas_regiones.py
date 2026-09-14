@@ -898,6 +898,7 @@ def consultar_alertas_fechas_vencidas(cur, periodo):
     fecha vencida, calculado en la propia base) para poder ordenar por urgencia."""
     cur.execute("""
         SELECT inte.id_intervencion, 'PROGRAMADA_ATRASADA' AS tipo_alerta,
+               inte.estado, inte.tipo,
                inte.departamento, inte.provincia, inte.distrito, inte.sector,
                inte.ficha_tec, inte.descripcion, inte.marco_legal,
                TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
@@ -910,6 +911,7 @@ def consultar_alertas_fechas_vencidas(cur, periodo):
         UNION ALL
 
         SELECT inte.id_intervencion, 'EN_EJECUCION_ATRASADA' AS tipo_alerta,
+               inte.estado, inte.tipo,
                inte.departamento, inte.provincia, inte.distrito, inte.sector,
                inte.ficha_tec, inte.descripcion, inte.marco_legal,
                TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
@@ -930,6 +932,13 @@ def consultar_alertas_fechas_vencidas(cur, periodo):
             'n': i,
             'idIntervencion': clean_text(r.get('id_intervencion')),
             'tipoAlerta': r['tipo_alerta'],
+            # 15/09/2026 -- estado/tipo crudos de la intervención, agregados a pedido de Franco para
+            # poder filtrar el listado por "UBO / tipo de intervención / estado / fecha" en el sitio
+            # (AlertasFechasModal.jsx), independiente del tipoAlerta de arriba (que ya indica si es
+            # una PROGRAMADA o EN EJECUCIÓN atrasada -- "estado" es ese mismo dato en su forma cruda,
+            # "tipo" es PREVENCIÓN/URGENTE ATENCIÓN/EMERGENCIA, un dato aparte).
+            'estado': clean_text(r.get('estado')).upper(),
+            'tipo': clean_text(r.get('tipo')).upper(),
             'departamento': depto_raw,
             'deptoLabel': titlecase_es(depto_raw),
             'regionId': DEPTO_TO_REGION.get(depto_raw),
