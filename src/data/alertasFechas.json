@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "fuente": "Aún no generado -- corre el pipeline (generar_todas_regiones.py) para completar este archivo.",
+    "fechaCorte": "",
+    "horaCorte": "",
+    "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
+  },
+  "items": []
+}
