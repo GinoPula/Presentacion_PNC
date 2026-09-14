@@ -74,7 +74,7 @@ export default {
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGR-087'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 3, marca: 'Caterpillar', codigos: ['JLX00277', 'JLX00247', 'JLX00832'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810370'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85423'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85423'], estado: 'inoperativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAK-048'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-851'], estado: 'inoperativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'inoperativo' },

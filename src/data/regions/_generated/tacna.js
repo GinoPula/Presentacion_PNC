@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 305.0, kmAcum: 0.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 320.0, kmAcum: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 255.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Tacna', tipo: 'Prevención', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA      ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 2900.0, kmAcum: 0.33, poblacion: 500 },
   ],

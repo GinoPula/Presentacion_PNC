@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 350.0, kmAcum: 0.28, poblacion: 212 },
+    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 1250.0, kmAcum: 0.98, poblacion: 212 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
