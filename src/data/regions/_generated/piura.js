@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 19, m3: 116451.33, km: 27.81, poblacion: 30318, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
-    { tipo: 'Prevención', cantidad: 27, m3: 152411.68, km: 49.36, poblacion: 113557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
+    { tipo: 'Prevención', cantidad: 28, m3: 158793.12, km: 50.9, poblacion: 114557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 34667.5, km: 28.15, poblacion: 14258, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 55, m3: 303530.51, m3AguaPotable: 255.0, km: 105.33, poblacion: 158133 },
+  ejecutadasTotal: { cantidad: 56, m3: 309911.95, m3AguaPotable: 255.0, km: 106.86, poblacion: 159133 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Piura', distrito: 'Veintiseis De Octubre', tipo: 'Prevención', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL 66 DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 1+534 KM; DISTRITO VEINTISEIS DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00          ', inicio: '27/08/2026', fin: '11/09/2026', volAcum: 5350.0, kmAcum: 1.1, poblacion: 1000 },
-    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 212 },
+    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 350.0, kmAcum: 0.28, poblacion: 212 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

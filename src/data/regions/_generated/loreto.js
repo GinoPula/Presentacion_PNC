@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Urgente atención', cantidad: 19, m3: 45835.0, km: 27.8, poblacion: 53407, provincias: ['Maynas'] },
+    { tipo: 'Urgente atención', cantidad: 20, m3: 48845.0, km: 29.95, poblacion: 57207, provincias: ['Maynas'] },
   ],
-  ejecutadasTotal: { cantidad: 19, m3: 45835.0, m3AguaPotable: 6120.0, km: 27.8, poblacion: 53407 },
+  ejecutadasTotal: { cantidad: 20, m3: 48845.0, m3AguaPotable: 6120.0, km: 29.95, poblacion: 57207 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -15,7 +15,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '08/08/2026', fin: '06/10/2026', volAcum: 740.0, kmAcum: 0.0, poblacion: 1000 },
-    { provincia: 'Maynas', distrito: 'Punchana', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. NUESTRA SEÑORA DE LA SALUD, SANTA MARIA DEL AMAZONAS Y DELICIA MANZUR, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO', inicio: '14/08/2026', fin: '12/09/2026', volAcum: 3010.0, kmAcum: 2.15, poblacion: 3800 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
