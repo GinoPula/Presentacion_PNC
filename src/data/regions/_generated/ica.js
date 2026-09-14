@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 750 },
+    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 270.0, kmAcum: 0.0, poblacion: 750 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
