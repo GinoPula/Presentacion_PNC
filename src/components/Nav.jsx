@@ -1,10 +1,20 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiOutlineMenu, HiOutlineX, HiOutlineDocumentDownload, HiOutlineClipboardList, HiOutlineBookOpen, HiOutlineFilter } from 'react-icons/hi'
+import {
+  HiOutlineMenu,
+  HiOutlineX,
+  HiOutlineDocumentDownload,
+  HiOutlineClipboardList,
+  HiOutlineBookOpen,
+  HiOutlineFilter,
+  HiOutlineExclamation,
+} from 'react-icons/hi'
 import RegionSwitcher from './RegionSwitcher'
 import ReporteDiarioModal from './ReporteDiarioModal'
 import AyudaMemoriaFiltroModal from './AyudaMemoriaFiltroModal'
+import AlertasFechasModal from './AlertasFechasModal'
 import { descargarAyudaMemoria, obtenerAmbitoDisponible } from '../lib/ayudaMemoria'
+import { getAlertasFechas } from '../lib/alertasFechas'
 import { GLOBAL_ID } from '../data/regions'
 
 export default function Nav({ data, regionId, onRegionChange }) {
@@ -13,12 +23,20 @@ export default function Nav({ data, regionId, onRegionChange }) {
   const [generando, setGenerando] = useState(false)
   const [reporteAbierto, setReporteAbierto] = useState(false)
   const [filtroAbierto, setFiltroAbierto] = useState(false)
+  const [alertasAbierto, setAlertasAbierto] = useState(false)
   const isGlobal = regionId === GLOBAL_ID
   // El reporte diario se filtra al departamento seleccionado en ese momento (si no es Vista
   // General); en Vista General muestra el consolidado nacional, igual al Excel que se le envía
   // al Ministro.
   const reporteRegionId = isGlobal ? null : regionId
   const reporteRegionLabel = isGlobal ? null : data.shortLabel || data.meta?.region
+  // Alertas de fechas vencidas (14/09/2026, a pedido de Franco): mismo criterio de alcance que el
+  // Reporte Diario (nacional en Vista General, filtrado a la región activa si no). El conteo del
+  // botón es solo un número -- el detalle queda detrás del usuario/clave del propio modal (ver
+  // AlertasFechasModal.jsx).
+  const alertasRegionId = isGlobal ? null : regionId
+  const alertasRegionLabel = isGlobal ? null : data.shortLabel || data.meta?.region
+  const alertasCount = useMemo(() => getAlertasFechas(alertasRegionId).total, [alertasRegionId])
   // Ayuda Memoria por ámbito (agregado 31/08/2026): solo tiene sentido si hay provincias/distritos
   // con datos filtrables (programadasDetalle/puntosCriticos) en la región activa.
   const ambitoDisponible = !isGlobal && data.ayudaMemoriaDisponible ? obtenerAmbitoDisponible(data, regionId) : []
@@ -113,6 +131,20 @@ export default function Nav({ data, regionId, onRegionChange }) {
             <HiOutlineClipboardList size={16} />
             <span className="hidden 2xl:inline">Reporte Diario</span>
           </button>
+          <button
+            onClick={() => setAlertasAbierto(true)}
+            title="Alertas de fechas vencidas (uso interno)"
+            aria-label="Ver Alertas de fechas vencidas"
+            className="relative flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-3 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.06] hover:text-ink 2xl:px-3.5"
+          >
+            <HiOutlineExclamation size={16} />
+            <span className="hidden 2xl:inline">Alertas</span>
+            {alertasCount > 0 && (
+              <span className="grid h-[18px] min-w-[18px] place-items-center rounded-full bg-amber px-1 font-tabular text-[10px] font-bold text-black">
+                {alertasCount}
+              </span>
+            )}
+          </button>
           {data.ayudaMemoriaDisponible && (
             <button
               onClick={handleAyudaMemoria}
@@ -179,6 +211,21 @@ export default function Nav({ data, regionId, onRegionChange }) {
                 <HiOutlineClipboardList size={16} />
                 Reporte Diario
               </button>
+              <button
+                onClick={() => {
+                  setOpen(false)
+                  setAlertasAbierto(true)
+                }}
+                className="relative flex items-center justify-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2.5 text-sm font-medium text-ink-dim"
+              >
+                <HiOutlineExclamation size={16} />
+                Alertas
+                {alertasCount > 0 && (
+                  <span className="grid h-[18px] min-w-[18px] place-items-center rounded-full bg-amber px-1 font-tabular text-[10px] font-bold text-black">
+                    {alertasCount}
+                  </span>
+                )}
+              </button>
               {data.ayudaMemoriaDisponible && (
                 <button
                   onClick={handleAyudaMemoria}
@@ -233,6 +280,13 @@ export default function Nav({ data, regionId, onRegionChange }) {
         onClose={() => setReporteAbierto(false)}
         regionId={reporteRegionId}
         regionLabel={reporteRegionLabel}
+      />
+
+      <AlertasFechasModal
+        open={alertasAbierto}
+        onClose={() => setAlertasAbierto(false)}
+        regionId={alertasRegionId}
+        regionLabel={alertasRegionLabel}
       />
 
       <AyudaMemoriaFiltroModal
