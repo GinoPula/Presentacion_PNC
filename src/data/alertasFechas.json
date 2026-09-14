@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "14/09/2026",
-    "horaCorte": "22:20",
+    "horaCorte": "22:50",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "9354",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Amarilis",
-      "sector": "Quebrada San Cristobal",
-      "ficha": "N° 004-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA DEL CERRO SAN CRISTOBAL, DE LA PROG. 0+000 A LA PROG. 0+050, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "01/09/2026",
-      "fechaFin": "30/09/2026",
-      "diasAtraso": 13
-    },
-    {
-      "n": 3,
       "idIntervencion": "9352",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -64,7 +45,7 @@
       "diasAtraso": 13
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -83,7 +64,7 @@
       "diasAtraso": 13
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "9560",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -102,7 +83,7 @@
       "diasAtraso": 13
     },
     {
-      "n": 6,
+      "n": 5,
       "idIntervencion": "9666",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -118,6 +99,25 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "15/09/2026",
+      "diasAtraso": 13
+    },
+    {
+      "n": 6,
+      "idIntervencion": "9354",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Amarilis",
+      "sector": "Quebrada San Cristobal",
+      "ficha": "N° 004-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA DEL CERRO SAN CRISTOBAL, DE LA PROG. 0+000 A LA PROG. 0+050, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "01/09/2026",
+      "fechaFin": "30/09/2026",
       "diasAtraso": 13
     },
     {
@@ -198,25 +198,6 @@
     },
     {
       "n": 11,
-      "idIntervencion": "10472",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Contumaza",
-      "distrito": "Contumaza",
-      "sector": "C.p. Tabacal",
-      "ficha": "FTI N° 058-2026-LD-PI-CAJ",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”.",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 12,
       "idIntervencion": "10448",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,7 +216,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "9852",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +254,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "4076",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -289,6 +270,25 @@
       "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
       "fechaInicio": "10/09/2026",
       "fechaFin": "09/10/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 15,
+      "idIntervencion": "9553",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Melgar",
+      "distrito": "Llalli",
+      "sector": "Kahuasiri Bajo",
+      "ficha": "FTI N°004-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº004-2026",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "24/09/2026",
       "diasAtraso": 4
     },
     {
@@ -312,25 +312,6 @@
     },
     {
       "n": 17,
-      "idIntervencion": "9553",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Melgar",
-      "distrito": "Llalli",
-      "sector": "Kahuasiri Bajo",
-      "ficha": "FTI N°004-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº004-2026",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "24/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 18,
       "idIntervencion": "8077",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
