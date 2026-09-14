@@ -1022,9 +1022,18 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
             // "6700"), a diferencia del cuerpo de la tabla que sí usa fmtNum con coma+2 decimales
             // ("24,280.50"). Es una inconsistencia real del propio documento aprobado (cuerpo
             // formateado, TOTAL crudo) -- no un error nuestro, se replica tal cual.
-            celda(fmtCrudo(totalVol), { header: true, width: anchos[6], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
-            celda(fmtCrudo(totalKm), { header: true, width: anchos[7], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
-            celda(fmtCrudo(totalPob), { header: true, width: anchos[8], align: AlignmentType.CENTER, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            //
+            // 14/09/2026 -- a pedido de Franco: esta fila solo traía 3 celdas para una tabla de 9
+            // columnas -- Word/LibreOffice las coloca desde la IZQUIERDA (columnas 1-3, no 7-9) y
+            // estira la última para llenar el resto, así que los totales aparecían pegados a la
+            // izquierda con un hueco enorme antes del último valor, en vez de quedar debajo de
+            // META_VOL/META_KM/POB_BENEFICIADA. Se agrega una celda vacía con colSpan=6 (cubre las
+            // primeras 6 columnas) para que los 3 totales SÍ caigan en sus columnas correctas, y se
+            // alinean a la derecha (antes CENTER) igual que el cuerpo de la tabla.
+            celda('', { header: true, width: anchos.slice(0, 6).reduce((a, w) => a + w, 0), colSpan: 6, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            celda(fmtCrudo(totalVol), { header: true, width: anchos[6], align: AlignmentType.RIGHT, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            celda(fmtCrudo(totalKm), { header: true, width: anchos[7], align: AlignmentType.RIGHT, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
+            celda(fmtCrudo(totalPob), { header: true, width: anchos[8], align: AlignmentType.RIGHT, fontSize: PROGRAMADAS_FONT_SIZE, ...estilo }),
           ],
         }),
       ],
@@ -1073,7 +1082,7 @@ function seccionProgramadas(data, regionLabel) {
 // inte.meta_km como respaldo). El fallback "—" de acá abajo se deja igual, para las regiones que
 // todavía no se regeneraron con esta versión del pipeline (su mapaIntervenciones.js no tiene el
 // campo "km" todavía -- undefined, no 0).
-function tablaEjecutadas(puntos, { mostrarVacio = false, intro } = {}) {
+function tablaEjecutadas(puntos, { mostrarVacio = false, intro, vacioTexto } = {}) {
   const filas = (puntos || []).map((p) => ({
     provincia: p.provincia?.toUpperCase(),
     distrito: p.distrito?.toUpperCase(),
@@ -1087,8 +1096,12 @@ function tablaEjecutadas(puntos, { mostrarVacio = false, intro } = {}) {
     poblacion: fmtNum(p.poblacion, 2),
   }))
   if (!filas.length) {
+    // 14/09/2026 -- 'vacioTexto' personalizable: esta función ahora se llama dos veces por
+    // separado (solo EJECUTADA, solo EN EJECUCIÓN, ver construirAyudaMemoriaFiltrada), y el
+    // mensaje genérico de abajo ("ni en ejecución") ya no describe bien el caso de un solo grupo
+    // en 0 cuando el otro grupo sí tiene datos.
     return mostrarVacio
-      ? [parrafo('No se registran intervenciones ejecutadas ni en ejecución para el ámbito seleccionado.')]
+      ? [parrafo(vacioTexto || 'No se registran intervenciones ejecutadas ni en ejecución para el ámbito seleccionado.')]
       : []
   }
 
@@ -1916,9 +1929,28 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
   // región {Región} ha ejecutado N intervenciones, de acuerdo al siguiente detalle:" (solo el
   // nombre de la región va en negrita, ver XML del documento real) -- y solo se muestra cuando SÍ
   // hay ejecutadas; con 0, el propio mensaje de tablaEjecutadas() ya lo cubre.
+  //
+  // 14/09/2026 -- a pedido de Franco: esta sección (distinta de "Temas Relevantes", que ya
+  // separaba EJECUTADA de EN EJECUCIÓN desde el 12/09/2026) todavía mezclaba ambos estados bajo
+  // "ha ejecutado N" y una sola tabla (ej. La Libertad: 37 = 34 EJECUTADA + 3 EN EJECUCIÓN,
+  // mostrado como si las 37 estuvieran ejecutadas). Se separa igual: el conteo/tabla de
+  // "ha ejecutado" ahora es SOLO EJECUTADA, y se agrega un segundo cuadro propio para EN EJECUCIÓN
+  // (reemplaza el bullet de una sola línea que había antes, bulletEnEjecucion -- ya no se usa acá).
+  const filasSoloEjecutadas = (filasEjecutadas || []).filter((p) => (p.estado || '').toLowerCase() === 'ejecutada')
+  const filasSoloEnEjecucion = (filasEjecutadas || []).filter((p) => (p.estado || '').toLowerCase() === 'en ejecución')
+
   const introEjecutadas =
-    filasEjecutadas && filasEjecutadas.length
-      ? [`Durante el ${anio}, el PNC Maquinarias en la región `, run({ text: regionLabel, bold: true }), ` ha ejecutado ${fmtNum(filasEjecutadas.length)} intervenciones, de acuerdo al siguiente detalle:`]
+    filasSoloEjecutadas.length
+      ? [`Durante el ${anio}, el PNC Maquinarias en la región `, run({ text: regionLabel, bold: true }), ` ha ejecutado ${fmtNum(filasSoloEjecutadas.length)} intervenciones, de acuerdo al siguiente detalle:`]
+      : undefined
+
+  const introEnEjecucion =
+    filasSoloEnEjecucion.length
+      ? [
+          `Asimismo, en la región `,
+          run({ text: regionLabel, bold: true }),
+          ` se ${filasSoloEnEjecucion.length === 1 ? 'tiene 1 intervención' : `tienen ${fmtNum(filasSoloEnEjecucion.length)} intervenciones`} en ejecución, de acuerdo al siguiente detalle:`,
+        ]
       : undefined
 
   const contenido = [
@@ -1936,9 +1968,19 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
     ...seccionTemasPendientes(filasProgramadas, regionLabel),
     titulo2(`Intervenciones de PNC Maquinarias en la región ${regionLabel}.`, { color: COLOR_TITULO, size: 24 }),
     ...(filasEjecutadas !== null
-      ? tablaEjecutadas(filasEjecutadas, { mostrarVacio: true, intro: introEjecutadas })
+      ? [
+          ...tablaEjecutadas(filasSoloEjecutadas, {
+            mostrarVacio: true,
+            intro: introEjecutadas,
+            vacioTexto: `No se registran intervenciones ejecutadas para el ámbito seleccionado.`,
+          }),
+          ...tablaEjecutadas(filasSoloEnEjecucion, {
+            mostrarVacio: true,
+            intro: introEnEjecucion,
+            vacioTexto: `En la región ${regionLabel} no se tiene intervención en ejecución.`,
+          }),
+        ]
       : notaEjecutadasNoFiltrable(data, regionLabel)),
-    ...bulletEnEjecucion(filasEjecutadas, regionLabel),
     ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
     ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
     ...(data.flota && data.flota.length
