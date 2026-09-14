@@ -281,24 +281,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
-    "id": 10060,
-    "lat": -3.888367,
-    "lng": -80.6094,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Casitas",
-    "sector": "Tamarindo",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PANALES, EN EL SECTOR TAMARINDO DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "039-2026-LD-PI-TUM",
-    "fechaInicio": "25/03/2026",
-    "fechaFin": "31/03/2026",
-    "poblacion": 758,
-    "volumen": 6400,
-    "km": 0.2,
-    "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
-  },
-  {
     "id": 9492,
     "lat": -3.547885,
     "lng": -80.450429,
@@ -315,6 +297,24 @@ const mapaIntervenciones = {
     "volumen": 5928,
     "km": 0.57,
     "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
+  },
+  {
+    "id": 10060,
+    "lat": -3.888367,
+    "lng": -80.6094,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Casitas",
+    "sector": "Tamarindo",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PANALES, EN EL SECTOR TAMARINDO DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "039-2026-LD-PI-TUM",
+    "fechaInicio": "25/03/2026",
+    "fechaFin": "31/03/2026",
+    "poblacion": 758,
+    "volumen": 6400,
+    "km": 0.2,
+    "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
   },
   {
     "id": 10051,
@@ -335,24 +335,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
-    "id": 10067,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "San Isidro",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "041-2026-AA-U-TUM",
-    "fechaInicio": "27/03/2026",
-    "fechaFin": "25/04/2026",
-    "poblacion": 1356,
-    "volumen": 630,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
-  },
-  {
     "id": 10066,
     "lat": -3.683657,
     "lng": -80.674445,
@@ -371,22 +353,22 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
   },
   {
-    "id": 10094,
-    "lat": -3.694946,
-    "lng": -80.695972,
+    "id": 10067,
+    "lat": -3.60504,
+    "lng": -80.480279,
     "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Los Pinos",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "044-2026-LD-PI-TUM",
-    "fechaInicio": "02/04/2026",
-    "fechaFin": "08/04/2026",
-    "poblacion": 687,
-    "volumen": 5200,
-    "km": 0.65,
-    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "San Isidro",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "041-2026-AA-U-TUM",
+    "fechaInicio": "27/03/2026",
+    "fechaFin": "25/04/2026",
+    "poblacion": 1356,
+    "volumen": 630,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
     "id": 10093,
@@ -405,6 +387,24 @@ const mapaIntervenciones = {
     "volumen": 2295,
     "km": 1.53,
     "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
+  },
+  {
+    "id": 10094,
+    "lat": -3.694946,
+    "lng": -80.695972,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Los Pinos",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "044-2026-LD-PI-TUM",
+    "fechaInicio": "02/04/2026",
+    "fechaFin": "08/04/2026",
+    "poblacion": 687,
+    "volumen": 5200,
+    "km": 0.65,
+    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
   },
   {
     "id": 10105,
@@ -587,24 +587,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
-    "id": 10241,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
-    "ficha": "056-2026-AA-U-TUM",
-    "fechaInicio": "21/05/2026",
-    "fechaFin": "19/06/2026",
-    "poblacion": 1356,
-    "volumen": 555,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10028,
     "lat": -3.642346,
     "lng": -80.580154,
@@ -621,6 +603,24 @@ const mapaIntervenciones = {
     "volumen": 7840,
     "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
+  },
+  {
+    "id": 10241,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
+    "ficha": "056-2026-AA-U-TUM",
+    "fechaInicio": "21/05/2026",
+    "fechaFin": "19/06/2026",
+    "poblacion": 1356,
+    "volumen": 555,
+    "km": 0,
+    "enlace": null
   },
   {
     "id": 10169,
@@ -713,24 +713,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
-    "id": 10354,
-    "lat": -3.642479,
-    "lng": -80.592653,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "Las Gardenias",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
-    "ficha": "066-2026-LD-E-TUM",
-    "fechaInicio": "08/07/2026",
-    "fechaFin": "16/07/2026",
-    "poblacion": 325,
-    "volumen": 900,
-    "km": 0.5,
-    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
-  },
-  {
     "id": 10340,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -747,6 +729,24 @@ const mapaIntervenciones = {
     "volumen": 585,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10354,
+    "lat": -3.642479,
+    "lng": -80.592653,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "Las Gardenias",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
+    "ficha": "066-2026-LD-E-TUM",
+    "fechaInicio": "08/07/2026",
+    "fechaFin": "16/07/2026",
+    "poblacion": 325,
+    "volumen": 900,
+    "km": 0.5,
+    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
   },
   {
     "id": 10373,
@@ -817,6 +817,24 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 1356,
     "volumen": 780,
+    "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10506,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ",
+    "ficha": "072-2026-AA-U-TUM",
+    "fechaInicio": "14/09/2026",
+    "fechaFin": "13/10/2026",
+    "poblacion": 1356,
+    "volumen": 720,
     "km": 0,
     "enlace": null
   }
@@ -11904,8 +11922,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 4970,
-    "km": 2.56,
+    "volumen": 6850,
+    "km": 3.31,
     "enlace": null
   },
   {
