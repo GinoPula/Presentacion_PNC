@@ -6777,24 +6777,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10114,
-    "lat": -11.665801,
-    "lng": -76.78935,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Canta",
-    "distrito": "Santa Rosa De Quives",
-    "sector": "Santa Rosa De Quives",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA ARAHUAY, SECTOR SANTA ROSA DE QUIVES TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”         ",
-    "ficha": "083-2026-LDE-LIM",
-    "fechaInicio": "13/05/2026",
-    "fechaFin": "02/06/2026",
-    "poblacion": 225,
-    "volumen": 12725.4,
-    "km": 0.45,
-    "enlace": null
-  },
-  {
     "id": 10181,
     "lat": -11.990545,
     "lng": -76.778948,
@@ -6810,6 +6792,24 @@ const mapaIntervenciones = {
     "poblacion": 900,
     "volumen": 7700,
     "km": 0.55,
+    "enlace": null
+  },
+  {
+    "id": 10114,
+    "lat": -11.665801,
+    "lng": -76.78935,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Canta",
+    "distrito": "Santa Rosa De Quives",
+    "sector": "Santa Rosa De Quives",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA ARAHUAY, SECTOR SANTA ROSA DE QUIVES TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”         ",
+    "ficha": "083-2026-LDE-LIM",
+    "fechaInicio": "13/05/2026",
+    "fechaFin": "02/06/2026",
+    "poblacion": 225,
+    "volumen": 12725.4,
+    "km": 0.45,
     "enlace": null
   },
   {
@@ -7083,24 +7083,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10123,
-    "lat": -12.082204,
-    "lng": -76.73566,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Cieneguilla",
-    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
-    "ficha": "091-2026-LDP-LIM",
-    "fechaInicio": "20/07/2026",
-    "fechaFin": "14/08/2026",
-    "poblacion": 7000,
-    "volumen": 11960,
-    "km": 0.092,
-    "enlace": null
-  },
-  {
     "id": 10119,
     "lat": -11.950189,
     "lng": -76.748039,
@@ -7116,6 +7098,24 @@ const mapaIntervenciones = {
     "poblacion": 250,
     "volumen": 6701,
     "km": 0.149,
+    "enlace": null
+  },
+  {
+    "id": 10123,
+    "lat": -12.082204,
+    "lng": -76.73566,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Cieneguilla",
+    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
+    "ficha": "091-2026-LDP-LIM",
+    "fechaInicio": "20/07/2026",
+    "fechaFin": "14/08/2026",
+    "poblacion": 7000,
+    "volumen": 11960,
+    "km": 0.092,
     "enlace": null
   },
   {
@@ -7314,6 +7314,24 @@ const mapaIntervenciones = {
     "poblacion": 1050,
     "volumen": 4720,
     "km": 0.236,
+    "enlace": null
+  },
+  {
+    "id": 10504,
+    "lat": -11.929727,
+    "lng": -77.07852,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Los Olivos",
+    "sector": "Puente Milton A Bocatoma Chuquitanta",
+    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, SECTOR PUENTE MILTON A BOCATOMA CHUQUITANTA TRAMO II, DISTRITO DE LOS OLIVOS, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA” ",
+    "ficha": "130-2026-LDP-LIM",
+    "fechaInicio": "14/09/2026",
+    "fechaFin": "24/09/2026",
+    "poblacion": 5386,
+    "volumen": 6598.8,
+    "km": 0.423,
     "enlace": null
   }
 ],
@@ -12302,8 +12320,8 @@ const mapaIntervenciones = {
     "fechaInicio": "14/08/2026",
     "fechaFin": "12/09/2026",
     "poblacion": 3800,
-    "volumen": 2800,
-    "km": 2,
+    "volumen": 3010,
+    "km": 2.15,
     "enlace": null
   }
 ],
