@@ -25,6 +25,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/02/2026",
     "poblacion": 1356,
     "volumen": 510,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/13x0XM1ax0cwRKqTw6Ui-J9Ta8QhApspI/view?usp=drive_link"
   },
   {
@@ -42,6 +43,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/02/2026",
     "poblacion": 1385,
     "volumen": 690,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1Jq_2TExC_TXBohML-H6pubavTzsRNR-v/view?usp=drive_link"
   },
   {
@@ -59,6 +61,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/01/2026",
     "poblacion": 707,
     "volumen": 430,
+    "km": 0.19,
     "enlace": "https://drive.google.com/file/d/189p4AsBeDBnrCjGM5dZ7VoKg9KWzduYf/view?usp=drive_link"
   },
   {
@@ -76,6 +79,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/02/2026",
     "poblacion": 241,
     "volumen": 4191,
+    "km": 0.508,
     "enlace": "https://drive.google.com/file/d/1B8h99Tmv9AM-ffG-qCsnSMGPXnrIB09g/view?usp=drive_link"
   },
   {
@@ -93,6 +97,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/03/2026",
     "poblacion": 1385,
     "volumen": 360,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1vd0DPpJsDc7nueNYrUNF2w1Q0qzZB16p/view?usp=drive_link"
   },
   {
@@ -110,6 +115,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 171,
     "volumen": 2660,
+    "km": 0.56,
     "enlace": "https://drive.google.com/file/d/1GTxEKd2YZjQGxbfeRzvnSLQIShUpr3iv/view?usp=drive_link"
   },
   {
@@ -127,6 +133,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/02/2026",
     "poblacion": 123,
     "volumen": 2200,
+    "km": 0.53,
     "enlace": "https://drive.google.com/file/d/1cNcm_nvjoyjoN92C9valTO-GQ71YORBd/view?usp=drive_link"
   },
   {
@@ -144,6 +151,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 1385,
     "volumen": 465,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1yuerCqqTfCCZFHh56RDptL4twhnKGrac/view?usp=drive_link"
   },
   {
@@ -161,6 +169,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 1000,
     "volumen": 800,
+    "km": 0.1,
     "enlace": "https://drive.google.com/file/d/18knnSIZBEIMMRuoYlV8Xbp2_Z6JQaji4/view?usp=drive_link"
   },
   {
@@ -178,6 +187,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/03/2026",
     "poblacion": 2826,
     "volumen": 5722.1,
+    "km": 0.538,
     "enlace": "https://drive.google.com/file/d/1l6jAeCfXkIpsnoN51VCJWhYw7Gdy6Ai_/view?usp=drive_link"
   },
   {
@@ -195,6 +205,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 758,
     "volumen": 5175,
+    "km": 0.23,
     "enlace": "https://drive.google.com/file/d/1LrhvlgGm4ROMu4TDujFcIJTUJU6dEWSH/view?usp=drive_link"
   },
   {
@@ -212,6 +223,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 1889,
     "volumen": 6240,
+    "km": 1.2,
     "enlace": "https://drive.google.com/file/d/1ITZ-GST27UtxF0Rr8OtHpTXDhOu2zozR/view?usp=drive_link"
   },
   {
@@ -229,6 +241,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/04/2026",
     "poblacion": 1385,
     "volumen": 480,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1hK_2_hnpgvQSIuBXjKkR1GevnfhqpSi_/view?usp=drive_link"
   },
   {
@@ -246,6 +259,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 275,
     "volumen": 5320,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/1Ea5MT3JPam3lGbG6ixUu6H1HxT0pN8zY/view?usp=drive_link"
   },
   {
@@ -263,6 +277,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 687,
     "volumen": 1125,
+    "km": 0.45,
     "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
@@ -280,6 +295,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/03/2026",
     "poblacion": 758,
     "volumen": 6400,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
   },
   {
@@ -297,6 +313,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/04/2026",
     "poblacion": 1060,
     "volumen": 5928,
+    "km": 0.57,
     "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
   },
   {
@@ -314,6 +331,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 1404,
     "volumen": 2362.5,
+    "km": 1.05,
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
@@ -331,6 +349,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 1356,
     "volumen": 630,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
@@ -348,6 +367,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 1031,
     "volumen": 7650,
+    "km": 1,
     "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
   },
   {
@@ -365,6 +385,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 687,
     "volumen": 5200,
+    "km": 0.65,
     "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
   },
   {
@@ -382,6 +403,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/04/2026",
     "poblacion": 1024,
     "volumen": 2295,
+    "km": 1.53,
     "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
   },
   {
@@ -399,6 +421,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 344,
     "volumen": 2143.75,
+    "km": 0.35,
     "enlace": "https://drive.google.com/file/d/1YVgHXIHhZng42McGgseGOgAtDajHsxM4/view?usp=drive_link"
   },
   {
@@ -416,6 +439,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 275,
     "volumen": 556.5,
+    "km": 0.53,
     "enlace": "https://drive.google.com/file/d/1Qzpi2d6qKG_9Kl17PUCEcZtz6EyowY7I/view?usp=drive_link"
   },
   {
@@ -433,6 +457,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/04/2026",
     "poblacion": 516,
     "volumen": 4600,
+    "km": 0.3,
     "enlace": "https://drive.google.com/file/d/1d5kKBMAE9n-8xvjwFdUyvTui-5KpzqhI/view?usp=drive_link"
   },
   {
@@ -450,6 +475,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/05/2026",
     "poblacion": 1356,
     "volumen": 675,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1UR-JoHx7aVBB6pYhm1mCp8fDZbjQRejg/view?usp=drive_link"
   },
   {
@@ -467,6 +493,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 1546,
     "volumen": 267.75,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1heBgQeADiqYykP886OmoVwtYyRVEXWfJ/view?usp=drive_link"
   },
   {
@@ -484,6 +511,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/04/2026",
     "poblacion": 1546,
     "volumen": 952,
+    "km": 0.34,
     "enlace": "https://drive.google.com/file/d/1gGyVfuKtB5pCngInAqqnBtSuFh49ERm_/view?usp=drive_link"
   },
   {
@@ -501,6 +529,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/05/2026",
     "poblacion": 1374,
     "volumen": 600,
+    "km": 0.03,
     "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
   },
   {
@@ -518,6 +547,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/05/2026",
     "poblacion": 1546,
     "volumen": 180,
+    "km": 0.02,
     "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
   },
   {
@@ -535,6 +565,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/06/2026",
     "poblacion": 1356,
     "volumen": 660,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1GrB0dz8r4cX3PBkpzkif3l7kx7ckOVZ4/view?usp=drive_link"
   },
   {
@@ -552,6 +583,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 204,
     "volumen": 13098,
+    "km": 1.18,
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
@@ -569,6 +601,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/06/2026",
     "poblacion": 1356,
     "volumen": 555,
+    "km": 0,
     "enlace": null
   },
   {
@@ -586,6 +619,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/06/2026",
     "poblacion": 1024,
     "volumen": 7840,
+    "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
   },
   {
@@ -603,6 +637,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/06/2026",
     "poblacion": 1020,
     "volumen": 11200,
+    "km": 1.343,
     "enlace": "https://drive.google.com/file/d/1bRPHg_d6IGfDoP7_aLDWw4v9JnfPZ2FH/view?usp=drive_link"
   },
   {
@@ -620,6 +655,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/07/2026",
     "poblacion": 1356,
     "volumen": 705,
+    "km": 0,
     "enlace": null
   },
   {
@@ -637,6 +673,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/06/2026",
     "poblacion": 1024,
     "volumen": 420,
+    "km": 0.42,
     "enlace": "https://drive.google.com/file/d/1L6z3GeM99KWVQvDat05HT2hs1WN2ZaU2/view?usp=drive_link"
   },
   {
@@ -654,6 +691,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/06/2026",
     "poblacion": 1024,
     "volumen": 150,
+    "km": 0.5,
     "enlace": "https://drive.google.com/file/d/1WHchJVaQBYmABGmaRL-_2tTlpvITc0dJ/view?usp=drive_link"
   },
   {
@@ -671,6 +709,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/06/2026",
     "poblacion": 1767,
     "volumen": 720,
+    "km": 0.03,
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
@@ -688,6 +727,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/07/2026",
     "poblacion": 325,
     "volumen": 900,
+    "km": 0.5,
     "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
   },
   {
@@ -705,6 +745,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/08/2026",
     "poblacion": 1356,
     "volumen": 585,
+    "km": 0,
     "enlace": null
   },
   {
@@ -722,6 +763,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/07/2026",
     "poblacion": 95,
     "volumen": 1200,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/144NKO074rZmFyb6vQdQp-R37Rs8pxYxC/view?usp=drive_link"
   },
   {
@@ -739,6 +781,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 1356,
     "volumen": 720,
+    "km": 0,
     "enlace": null
   },
   {
@@ -756,6 +799,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/08/2026",
     "poblacion": 342,
     "volumen": 262.5,
+    "km": 0.075,
     "enlace": "https://drive.google.com/file/d/1s3E1__EDwObYYtJumep-v_zrlRwcrcsK/view?usp=drive_link"
   },
   {
@@ -773,6 +817,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 1356,
     "volumen": 780,
+    "km": 0,
     "enlace": null
   }
 ],
@@ -792,6 +837,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/01/2026",
     "poblacion": 1044,
     "volumen": 417.6,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1teob1gXHyhnCCtkBX6Wlul2lRDpi497q/view?usp=drive_link"
   },
   {
@@ -809,6 +855,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/01/2026",
     "poblacion": 2750,
     "volumen": 1680,
+    "km": 0.32,
     "enlace": "https://drive.google.com/file/d/1xyozPTIZ0jjFJ14FMcZLHCrumzrU6ZpQ/view?usp=drive_link"
   },
   {
@@ -826,6 +873,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/02/2026",
     "poblacion": 320,
     "volumen": 7574.76,
+    "km": 7.146,
     "enlace": null
   },
   {
@@ -843,6 +891,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/02/2026",
     "poblacion": 250,
     "volumen": 12000,
+    "km": 1,
     "enlace": null
   },
   {
@@ -860,6 +909,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/02/2026",
     "poblacion": 240,
     "volumen": 2765.98,
+    "km": 6.649,
     "enlace": null
   },
   {
@@ -877,6 +927,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/02/2026",
     "poblacion": 350,
     "volumen": 5460,
+    "km": 2.6,
     "enlace": "https://drive.google.com/file/d/1iKJIpa61-6yTM7I0Ldo6ia97MMbsho8X/view?usp=drive_link"
   },
   {
@@ -894,6 +945,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 240,
     "volumen": 7690.5,
+    "km": 1.079,
     "enlace": null
   },
   {
@@ -911,6 +963,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 293,
     "volumen": 10255.5,
+    "km": 2.279,
     "enlace": "https://drive.google.com/file/d/1RoJImWYp_NuuN6k_i1Awi9DyBnrY7yXU/view?usp=drive_link"
   },
   {
@@ -928,6 +981,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/03/2026",
     "poblacion": 70,
     "volumen": 6600,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -945,6 +999,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 150,
     "volumen": 23859.84,
+    "km": 1.462,
     "enlace": null
   },
   {
@@ -962,6 +1017,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 432,
     "volumen": 14932.8,
+    "km": 1.464,
     "enlace": null
   },
   {
@@ -979,6 +1035,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/03/2026",
     "poblacion": 535,
     "volumen": 5184,
+    "km": 9.1,
     "enlace": null
   },
   {
@@ -996,6 +1053,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 150,
     "volumen": 4626,
+    "km": 2.57,
     "enlace": null
   },
   {
@@ -1013,6 +1071,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 6000,
     "volumen": 4153.12,
+    "km": 17.246,
     "enlace": null
   },
   {
@@ -1030,6 +1089,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 120,
     "volumen": 10260,
+    "km": 0.76,
     "enlace": null
   },
   {
@@ -1047,6 +1107,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 150,
     "volumen": 1418.4,
+    "km": 0.591,
     "enlace": null
   },
   {
@@ -1064,6 +1125,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/04/2026",
     "poblacion": 280,
     "volumen": 3753.75,
+    "km": 1.001,
     "enlace": null
   },
   {
@@ -1081,6 +1143,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/04/2026",
     "poblacion": 150,
     "volumen": 7200,
+    "km": 4,
     "enlace": null
   },
   {
@@ -1098,6 +1161,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/04/2026",
     "poblacion": 312,
     "volumen": 7056,
+    "km": 0.882,
     "enlace": null
   },
   {
@@ -1115,6 +1179,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/04/2026",
     "poblacion": 200,
     "volumen": 6835.5,
+    "km": 1.5,
     "enlace": null
   },
   {
@@ -1132,6 +1197,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/05/2026",
     "poblacion": 731,
     "volumen": 3925.6,
+    "km": 11.216,
     "enlace": null
   },
   {
@@ -1149,6 +1215,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/05/2026",
     "poblacion": 50,
     "volumen": 23240,
+    "km": 0.35,
     "enlace": null
   },
   {
@@ -1166,6 +1233,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/05/2026",
     "poblacion": 1200,
     "volumen": 14841.35,
+    "km": 8.021,
     "enlace": null
   },
   {
@@ -1183,6 +1251,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/05/2026",
     "poblacion": 280,
     "volumen": 4050,
+    "km": 0.81,
     "enlace": null
   },
   {
@@ -1200,6 +1269,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/05/2026",
     "poblacion": 1550,
     "volumen": 925.2,
+    "km": 4.626,
     "enlace": null
   },
   {
@@ -1217,6 +1287,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/05/2026",
     "poblacion": 500,
     "volumen": 3343.62,
+    "km": 15.922,
     "enlace": null
   },
   {
@@ -1234,6 +1305,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/05/2026",
     "poblacion": 288,
     "volumen": 487.5,
+    "km": 0.065,
     "enlace": null
   },
   {
@@ -1251,6 +1323,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 968,
     "volumen": 14801.25,
+    "km": 4.223,
     "enlace": null
   },
   {
@@ -1268,6 +1341,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/06/2026",
     "poblacion": 220,
     "volumen": 5680,
+    "km": 0.355,
     "enlace": null
   },
   {
@@ -1285,6 +1359,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 2040,
     "volumen": 27000,
+    "km": 0.9,
     "enlace": null
   },
   {
@@ -1302,6 +1377,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/06/2026",
     "poblacion": 13746,
     "volumen": 6641.25,
+    "km": 1.265,
     "enlace": null
   },
   {
@@ -1319,6 +1395,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/07/2026",
     "poblacion": 480,
     "volumen": 16800,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -1336,6 +1413,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/07/2026",
     "poblacion": null,
     "volumen": 5094.92,
+    "km": 20.118,
     "enlace": null
   },
   {
@@ -1353,6 +1431,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": null,
     "volumen": 3616,
+    "km": 0.226,
     "enlace": null
   },
   {
@@ -1370,6 +1449,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 10700,
     "volumen": 7782.98,
+    "km": 26.463,
     "enlace": null
   },
   {
@@ -1387,6 +1467,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/08/2026",
     "poblacion": 150,
     "volumen": 2400,
+    "km": 1,
     "enlace": null
   },
   {
@@ -1404,6 +1485,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 1000,
     "volumen": 5368.45,
+    "km": 20970.5,
     "enlace": null
   },
   {
@@ -1421,6 +1503,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/09/2026",
     "poblacion": 290,
     "volumen": 1074,
+    "km": 0.358,
     "enlace": null
   },
   {
@@ -1438,6 +1521,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/09/2026",
     "poblacion": 560,
     "volumen": 2340,
+    "km": 9.55,
     "enlace": null
   }
 ],
@@ -1457,6 +1541,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/03/2026",
     "poblacion": 600,
     "volumen": 395,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1g_5ylcQIvYpLPSOf6KycWTYzXs_EwS3s/view?usp=drive_link"
   },
   {
@@ -1474,6 +1559,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/03/2026",
     "poblacion": 420,
     "volumen": 550,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1_vKH8RYSpC0pZcVN12oJ_x2yLa38JUQX/view?usp=drive_link"
   },
   {
@@ -1491,6 +1577,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/02/2026",
     "poblacion": 10000,
     "volumen": 6000,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1hqOx2aUUiUC0BKujXJuhqKvoANCWHkMH/view?usp=drive_link"
   },
   {
@@ -1508,6 +1595,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/02/2026",
     "poblacion": 200,
     "volumen": 6750,
+    "km": 0.35,
     "enlace": "https://drive.google.com/file/d/1xWkAtzBBNAkgNx9uXKZw8NoUT_IWQ5kY/view?usp=drive_link"
   },
   {
@@ -1525,6 +1613,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 2062,
     "volumen": 6750,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1QDc8o1w2_lhp4bhWPpFiVXDLIM1wMWY-/view?usp=drive_link"
   },
   {
@@ -1542,6 +1631,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/02/2026",
     "poblacion": 200,
     "volumen": 3960,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1TM7BX-1ee6McjCjPNp2JtjziIg4Lk3lW/view?usp=drive_link"
   },
   {
@@ -1559,6 +1649,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/02/2026",
     "poblacion": 100,
     "volumen": 4100,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1V7_EIzAjJ_11CikXTAUvJxQSt7w3sh3W/view?usp=drive_link"
   },
   {
@@ -1576,6 +1667,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/03/2026",
     "poblacion": 749,
     "volumen": 600,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1apa_jHYDHLUzuIaQFoBDjcETeaKOJ3KP/view?usp=drive_link"
   },
   {
@@ -1593,6 +1685,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/03/2026",
     "poblacion": 150,
     "volumen": 8050,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/1V7_EIzAjJ_11CikXTAUvJxQSt7w3sh3W/view?usp=drive_link"
   },
   {
@@ -1610,6 +1703,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 2062,
     "volumen": 8250,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/1RssoNb87Ea-7OxX_MUDcMwbEN_2kxlm_/view?usp=drive_link"
   },
   {
@@ -1627,6 +1721,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/04/2026",
     "poblacion": 2062,
     "volumen": 5880,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/1CYSiHtVG8vRBQGs0Ht7iAmvuz53ZJXPg/view?usp=drive_link"
   },
   {
@@ -1644,6 +1739,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/06/2026",
     "poblacion": 420,
     "volumen": 600.6,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1KVXTw_KWop89MEfGozQoJplHlgaWLRn9/view?usp=drive_link"
   },
   {
@@ -1661,6 +1757,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 3526,
     "volumen": 4860,
+    "km": 0.3,
     "enlace": "https://drive.google.com/file/d/1yHMJtF0lmVnQBbPMyxzuhSipNx3G2ng_/view?usp=drive_link"
   },
   {
@@ -1678,6 +1775,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 200,
     "volumen": 4165,
+    "km": 0.3,
     "enlace": "https://drive.google.com/file/d/11L62NxUb4vsX5Z5uaAY02o94Nkc2LC96/view?usp=drive_link"
   },
   {
@@ -1695,6 +1793,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 550,
     "volumen": 605,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/18FaF0VXqGc6yQ2K1p6TrALoAs2LVaBBK/view?usp=drive_link"
   },
   {
@@ -1712,6 +1811,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/05/2026",
     "poblacion": 749,
     "volumen": 4500,
+    "km": 9,
     "enlace": "https://drive.google.com/file/d/13DTKsa8MEZKpgdmhnb4rJaY-6tVht5kY/view?usp=drive_link"
   },
   {
@@ -1729,6 +1829,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/05/2026",
     "poblacion": 100,
     "volumen": 6100,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/15lTQM8BzP-d-ox4F1uUajTb6wddc2StS/view?usp=drive_link"
   },
   {
@@ -1746,6 +1847,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/05/2026",
     "poblacion": 200,
     "volumen": 3315,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1eI_x4kYvKe5M5frkss7nJxzzXLulKsqD/view?usp=drive_link"
   },
   {
@@ -1763,6 +1865,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/05/2026",
     "poblacion": 200,
     "volumen": 6120,
+    "km": 0.48,
     "enlace": "https://drive.google.com/file/d/1FVhYmrShd7mXLOtWuvUB36bb0IJAhpzj/view?usp=drive_link"
   },
   {
@@ -1780,6 +1883,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/05/2026",
     "poblacion": 200,
     "volumen": 6300,
+    "km": 0.3,
     "enlace": "https://drive.google.com/file/d/1W8N3IRMTQzyf9xSLtDfT33WI2pp0NrA3/view?usp=drive_link"
   },
   {
@@ -1797,6 +1901,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 400,
     "volumen": 4057,
+    "km": 4.057,
     "enlace": "https://drive.google.com/file/d/1yupj5oHMIuV9ow0z_zmw3bB8hbEBjnTE/view?usp=drive_link"
   },
   {
@@ -1814,6 +1919,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/06/2026",
     "poblacion": 150,
     "volumen": 6000,
+    "km": 0.55,
     "enlace": "https://drive.google.com/file/d/1OiJiqcnOtLQ_M86gLHF6UP0Y9vT3Q_fl/view?usp=drive_link"
   },
   {
@@ -1831,6 +1937,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/06/2026",
     "poblacion": 3526,
     "volumen": 3780,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1lUDnCjAUSW_IF9GBJDEFPIr1kQvzBGB0/view?usp=drive_link"
   },
   {
@@ -1848,6 +1955,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/06/2026",
     "poblacion": 40,
     "volumen": 5280,
+    "km": 0.3,
     "enlace": "https://drive.google.com/file/d/11HJA0T-FW2H3Yjic4M_oAIXzJV2HaCm3/view?usp=drive_link"
   },
   {
@@ -1865,6 +1973,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/08/2026",
     "poblacion": 420,
     "volumen": 600.6,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1-5_jNykdjukvCN_kh_T6-IU4s2pluLUt/view?usp=drive_link"
   },
   {
@@ -1882,6 +1991,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/08/2026",
     "poblacion": 550,
     "volumen": 605,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1o7fAk07OTE2bNo5zGNaesnJHL4OTyEem/view?usp=drive_link"
   },
   {
@@ -1899,6 +2009,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/07/2026",
     "poblacion": 100,
     "volumen": 3960,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1FIrnox97jpBq6n-M4NlVdgufFSkkeTEn/view?usp=drive_link"
   },
   {
@@ -1916,6 +2027,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/08/2026",
     "poblacion": 700,
     "volumen": 4340,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1I0KgvbciipTIiKHRAH0TecYEW7QMzYOv/view?usp=drive_link"
   },
   {
@@ -1933,6 +2045,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/10/2026",
     "poblacion": 420,
     "volumen": 305,
+    "km": 0,
     "enlace": null
   },
   {
@@ -1950,6 +2063,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 700,
     "volumen": 4340,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1pDwDKErIiCUYz2_hgt4icDPkYnO9jY6r/view?usp=drive_link"
   },
   {
@@ -1967,6 +2081,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/10/2026",
     "poblacion": 550,
     "volumen": 255,
+    "km": 0,
     "enlace": null
   },
   {
@@ -1984,6 +2099,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/09/2026",
     "poblacion": 350,
     "volumen": 5640,
+    "km": 0.4,
     "enlace": null
   },
   {
@@ -2001,6 +2117,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": 500,
     "volumen": 2400,
+    "km": 0.28,
     "enlace": null
   }
 ],
@@ -2020,6 +2137,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/01/2026",
     "poblacion": 700,
     "volumen": 5242,
+    "km": 1.12,
     "enlace": "https://drive.google.com/file/d/1LY5H5BCbgSUnigr0J_g4xprtcBo1DCPW/view?usp=drive_link"
   },
   {
@@ -2037,6 +2155,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 548,
     "volumen": 2100,
+    "km": 3,
     "enlace": "https://drive.google.com/file/d/1Oira9CFUv9T70eZ0zcp-37P7kg5llaKI/view?usp=sharing"
   },
   {
@@ -2054,6 +2173,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/02/2026",
     "poblacion": 10000,
     "volumen": 11676,
+    "km": 2.78,
     "enlace": "https://drive.google.com/file/d/1M2Giy6f4HtuTku0mhz0eVi9UbfEw83WG/view?usp=drive_link"
   },
   {
@@ -2071,6 +2191,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/02/2026",
     "poblacion": 300,
     "volumen": 300,
+    "km": 0.03,
     "enlace": null
   },
   {
@@ -2088,6 +2209,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 35,
     "volumen": 715,
+    "km": 3.01,
     "enlace": "https://drive.google.com/file/d/1zEcXx83E_Cf_pqbTfSZpMsoG4xza4zIX/view?usp=drive_link"
   },
   {
@@ -2105,6 +2227,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/03/2026",
     "poblacion": 10000,
     "volumen": 16290,
+    "km": 3.81,
     "enlace": "https://drive.google.com/file/d/1Aa3XgYFA26etmWi6Rs6TxLDmvJYN6bit/view?usp=drive_link"
   },
   {
@@ -2122,6 +2245,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/02/2026",
     "poblacion": 15000,
     "volumen": 6300,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/1dayWguW1JO8cJF6MDKpbVGjZR0izn5Ju/view?usp=drive_link"
   },
   {
@@ -2139,6 +2263,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/03/2026",
     "poblacion": 350,
     "volumen": 2873.81,
+    "km": 1.703,
     "enlace": "https://drive.google.com/file/d/1-sMu17ujMaxngra6aMq1L6jON5KT5ezi/view?usp=sharing"
   },
   {
@@ -2156,6 +2281,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/03/2026",
     "poblacion": 737,
     "volumen": 4821.25,
+    "km": 5.51,
     "enlace": "https://drive.google.com/file/d/1wBDBEqhNj3eAmgxycnecPUnXEA-MpoWc/view?usp=drive_link"
   },
   {
@@ -2173,6 +2299,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/02/2026",
     "poblacion": 610,
     "volumen": 960,
+    "km": 0.32,
     "enlace": "https://drive.google.com/file/d/1TUYlb9HFSktoA1nfLaE6PeYQmF_1_rJl/view?usp=drive_link"
   },
   {
@@ -2190,6 +2317,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 2585,
     "volumen": 4200,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1z7u5djTCXpldIyPxwQA2chB3pGHQb9cD/view?usp=drive_link"
   },
   {
@@ -2207,6 +2335,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/03/2026",
     "poblacion": 5268,
     "volumen": 9969.77,
+    "km": 1.35,
     "enlace": "https://drive.google.com/file/d/1-c7U4rsz-HFJkiOj1UI0LtAyd0x6lKDS/view?usp=drive_link"
   },
   {
@@ -2224,6 +2353,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/03/2026",
     "poblacion": 610,
     "volumen": 1810,
+    "km": 0.64,
     "enlace": "https://drive.google.com/file/d/1TBhamiPTM8FHw7lLfRv2ebEaoXX8OudR/view?usp=drive_link"
   },
   {
@@ -2241,6 +2371,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/03/2026",
     "poblacion": 610,
     "volumen": 3500,
+    "km": 0.54,
     "enlace": "https://drive.google.com/file/d/1iGIPPCYWS3resb5H5n7gP8Bja6xtCdyk/view?usp=drive_link"
   },
   {
@@ -2258,6 +2389,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 1850,
     "volumen": 6020.38,
+    "km": 2.8,
     "enlace": "https://drive.google.com/file/d/1Oira9CFUv9T70eZ0zcp-37P7kg5llaKI/view?usp=drive_link"
   },
   {
@@ -2275,6 +2407,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/03/2026",
     "poblacion": 1200,
     "volumen": 3820,
+    "km": 1.45,
     "enlace": "https://drive.google.com/file/d/1balXDuKom9W0hkD-d-hFWWQYiNbqDMuD/view?usp=sharing"
   },
   {
@@ -2292,6 +2425,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 1669,
     "volumen": 9145.46,
+    "km": 1.44,
     "enlace": "https://drive.google.com/file/d/1ERzrUOG1Ca-ItKflpek5veOkn9S8ttEd/view?usp=drive_link"
   },
   {
@@ -2309,6 +2443,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/03/2026",
     "poblacion": 560,
     "volumen": 6600,
+    "km": 0.36,
     "enlace": "https://drive.google.com/file/d/17NFyuriNvElpDrMyu6fmnSCi1kgiSyEq/view?usp=drive_link"
   },
   {
@@ -2326,6 +2461,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/03/2026",
     "poblacion": 610,
     "volumen": 1345.5,
+    "km": 0.065,
     "enlace": "https://drive.google.com/file/d/18B1kIZo_K4W795i28wzcPh-mWVR0lVin/view?usp=drive_link"
   },
   {
@@ -2343,6 +2479,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 2500,
     "volumen": 6000,
+    "km": 3.2,
     "enlace": "https://drive.google.com/file/d/1iJfiVpIX-GnQUS6xKoP9g0IpooED3qwH/view?usp=sharing"
   },
   {
@@ -2360,6 +2497,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/03/2026",
     "poblacion": 4500,
     "volumen": 300,
+    "km": 0.05,
     "enlace": "https://drive.google.com/file/d/174EDFZZI82uWHHSZfr1PEV_BK1ZsfWCD/view?usp=sharing"
   },
   {
@@ -2377,6 +2515,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 2300,
     "volumen": 1120,
+    "km": 1.2,
     "enlace": "https://drive.google.com/file/d/1x4RYrkbPYR5uZKA8KIZNnmdyvLJrfkz6/view?usp=drive_link"
   },
   {
@@ -2394,6 +2533,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/04/2026",
     "poblacion": 10000,
     "volumen": 9840,
+    "km": 2.16,
     "enlace": "https://drive.google.com/file/d/1fsv6kz5ZJSDB60pxmjBVOg9QogqmOMil/view?usp=drive_link"
   },
   {
@@ -2411,6 +2551,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 2585,
     "volumen": 330,
+    "km": 3.57,
     "enlace": "https://drive.google.com/file/d/1rDkCFAgniqwyA_QMPLb8C6U6i_1KvH8u/view?usp=drive_link"
   },
   {
@@ -2428,6 +2569,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 6978,
     "volumen": 9342,
+    "km": 1.2,
     "enlace": "https://drive.google.com/file/d/1KxWWCjx_ZF0G11ZhFqC6SE7oHKkHSedL/view?usp=drive_link"
   },
   {
@@ -2445,6 +2587,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/04/2026",
     "poblacion": 737,
     "volumen": 5250,
+    "km": 6,
     "enlace": "https://drive.google.com/file/d/1K-xDan_gfGGYnH83xEvo2H6J32VeroTQ/view?usp=drive_link"
   },
   {
@@ -2462,6 +2605,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/04/2026",
     "poblacion": 4500,
     "volumen": 60,
+    "km": 0,
     "enlace": null
   },
   {
@@ -2479,6 +2623,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/04/2026",
     "poblacion": 850,
     "volumen": 1600,
+    "km": 1.08,
     "enlace": null
   },
   {
@@ -2496,6 +2641,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/04/2026",
     "poblacion": 800,
     "volumen": 5300,
+    "km": 0.63,
     "enlace": "https://drive.google.com/file/d/1IGhcSRL0PCjATPzazJwjgj_sRl-kNjIY/view?usp=drive_link"
   },
   {
@@ -2513,6 +2659,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 6978,
     "volumen": 9342,
+    "km": 1.35,
     "enlace": "https://drive.google.com/file/d/1ZQL8Ap-TJVOB8E8uJJ4bESg_YxMs-eRj/view?usp=drive_link"
   },
   {
@@ -2530,6 +2677,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/04/2026",
     "poblacion": 33,
     "volumen": 1001.7,
+    "km": 2.782,
     "enlace": "https://drive.google.com/file/d/1Tz5AubidCCZlyz9sWoREc43obt5-_TSk/view?usp=drive_link"
   },
   {
@@ -2547,6 +2695,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/05/2026",
     "poblacion": 737,
     "volumen": 5250,
+    "km": 6,
     "enlace": "https://drive.google.com/file/d/1543mMI80DvTXfXitVinef1nIbdXoVpoE/view?usp=drive_link"
   },
   {
@@ -2564,6 +2713,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/05/2026",
     "poblacion": 786,
     "volumen": 21900,
+    "km": 0.58,
     "enlace": null
   },
   {
@@ -2581,6 +2731,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/06/2026",
     "poblacion": 3310,
     "volumen": 195,
+    "km": 0,
     "enlace": null
   },
   {
@@ -2598,6 +2749,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/05/2026",
     "poblacion": 2300,
     "volumen": 6283.63,
+    "km": 2.69,
     "enlace": null
   },
   {
@@ -2615,6 +2767,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 4500,
     "volumen": 3712.8,
+    "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1TaPdM_eFw4KiES1Q_FwXIAxY7DHndjlR/view?usp=drive_link"
   },
   {
@@ -2632,6 +2785,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/06/2026",
     "poblacion": 2500,
     "volumen": 7300,
+    "km": 2.35,
     "enlace": null
   },
   {
@@ -2649,6 +2803,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/06/2026",
     "poblacion": 2120,
     "volumen": 3600,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1HzFc5nb_JPZ2a5LlPUgGg4_GfkZAGvYA/view?usp=drive_link"
   },
   {
@@ -2666,6 +2821,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 35,
     "volumen": 667.8,
+    "km": 2.782,
     "enlace": null
   },
   {
@@ -2683,6 +2839,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/06/2026",
     "poblacion": 4500,
     "volumen": 4639.42,
+    "km": 1.459,
     "enlace": "https://drive.google.com/file/d/1GgRAANibR4FUF_Sq_t09KpMu7itHU62L/view?usp=sharing"
   },
   {
@@ -2700,6 +2857,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/06/2026",
     "poblacion": 6000,
     "volumen": 6300,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1Dn3F0d9CpaJ_3LdRWr49gWU2g68NotZ4/view?usp=drive_link"
   },
   {
@@ -2717,6 +2875,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/07/2026",
     "poblacion": 737,
     "volumen": 6249.25,
+    "km": 7.142,
     "enlace": null
   },
   {
@@ -2734,6 +2893,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/06/2026",
     "poblacion": 800,
     "volumen": 6058.8,
+    "km": 0.12,
     "enlace": null
   },
   {
@@ -2751,6 +2911,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/07/2026",
     "poblacion": 3200,
     "volumen": 11900,
+    "km": 2.2,
     "enlace": null
   },
   {
@@ -2768,6 +2929,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": 12000,
     "volumen": 9750,
+    "km": 1.3,
     "enlace": null
   },
   {
@@ -2785,6 +2947,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/07/2026",
     "poblacion": 35,
     "volumen": 834.75,
+    "km": 2.8,
     "enlace": null
   },
   {
@@ -2802,6 +2965,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/07/2026",
     "poblacion": 2200,
     "volumen": 5460,
+    "km": 1.3,
     "enlace": null
   },
   {
@@ -2819,6 +2983,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/08/2026",
     "poblacion": 280,
     "volumen": 6235.82,
+    "km": 5.885,
     "enlace": null
   },
   {
@@ -2836,6 +3001,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": 150,
     "volumen": 850,
+    "km": 2.792,
     "enlace": null
   },
   {
@@ -2853,6 +3019,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/07/2026",
     "poblacion": 1800,
     "volumen": 6100,
+    "km": 0.39,
     "enlace": null
   },
   {
@@ -2870,6 +3037,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/08/2026",
     "poblacion": 1000,
     "volumen": 4180,
+    "km": 1.456,
     "enlace": null
   },
   {
@@ -2887,6 +3055,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/08/2026",
     "poblacion": 1200,
     "volumen": 19200,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -2904,6 +3073,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/07/2026",
     "poblacion": 6300,
     "volumen": 2636.37,
+    "km": 1.35,
     "enlace": null
   },
   {
@@ -2921,6 +3091,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/08/2026",
     "poblacion": 5268,
     "volumen": 5616,
+    "km": 1.35,
     "enlace": null
   },
   {
@@ -2938,6 +3109,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/09/2026",
     "poblacion": 372,
     "volumen": 11436,
+    "km": 1.73,
     "enlace": null
   },
   {
@@ -2955,6 +3127,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/09/2026",
     "poblacion": 1000,
     "volumen": 5350,
+    "km": 1.1,
     "enlace": null
   },
   {
@@ -2972,6 +3145,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/09/2026",
     "poblacion": 212,
     "volumen": 4921.2,
+    "km": 4.1,
     "enlace": null
   }
 ],
@@ -2991,6 +3165,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/01/2026",
     "poblacion": 30,
     "volumen": 8550,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -3008,6 +3183,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/02/2026",
     "poblacion": 20,
     "volumen": 1430,
+    "km": 0.106,
     "enlace": null
   },
   {
@@ -3025,6 +3201,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/01/2026",
     "poblacion": 6604,
     "volumen": 270,
+    "km": 0.05,
     "enlace": null
   },
   {
@@ -3042,6 +3219,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/02/2026",
     "poblacion": 380,
     "volumen": 1242,
+    "km": 0.207,
     "enlace": null
   },
   {
@@ -3059,6 +3237,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/02/2026",
     "poblacion": 4515,
     "volumen": 2965,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1pQg0_MKHsPzzXlb7cH05VeOpW_0DRr6g/view?usp=drive_link"
   },
   {
@@ -3076,6 +3255,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/02/2026",
     "poblacion": 380,
     "volumen": 600,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -3093,6 +3273,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/03/2026",
     "poblacion": 750,
     "volumen": 135,
+    "km": 0,
     "enlace": null
   },
   {
@@ -3110,6 +3291,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/03/2026",
     "poblacion": 4515,
     "volumen": 6500,
+    "km": 0.407,
     "enlace": "https://drive.google.com/file/d/1KikToBEygWrIIRuZb-qEyY8tT0Ttpbqe/view?usp=drive_link"
   },
   {
@@ -3127,6 +3309,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/02/2026",
     "poblacion": 150,
     "volumen": 439,
+    "km": 0.134,
     "enlace": null
   },
   {
@@ -3144,6 +3327,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 150,
     "volumen": 307,
+    "km": 0.115,
     "enlace": null
   },
   {
@@ -3161,6 +3345,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/02/2026",
     "poblacion": 60,
     "volumen": 1025,
+    "km": 0.455,
     "enlace": null
   },
   {
@@ -3178,6 +3363,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/03/2026",
     "poblacion": 633,
     "volumen": 8484,
+    "km": 0.642,
     "enlace": null
   },
   {
@@ -3195,6 +3381,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 20,
     "volumen": 1200,
+    "km": 0.05,
     "enlace": "https://drive.google.com/file/d/1iwQDojATLeqvnwjbVvTcrstmd3mi10Bv/view?usp=drive_link"
   },
   {
@@ -3212,6 +3399,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/03/2026",
     "poblacion": 70,
     "volumen": 730,
+    "km": 0.05,
     "enlace": null
   },
   {
@@ -3229,6 +3417,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/03/2026",
     "poblacion": 20,
     "volumen": 950,
+    "km": 0.115,
     "enlace": "https://drive.google.com/file/d/1rJ53Q6AzdkZ66IG5i805EacU7b4xJVTV/view?usp=drive_link"
   },
   {
@@ -3246,6 +3435,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/03/2026",
     "poblacion": 4515,
     "volumen": 6020,
+    "km": 0.446,
     "enlace": "https://drive.google.com/file/d/179yCRU4mbxH3U4pb0TzKcRXlh17pXFyJ/view?usp=drive_link"
   },
   {
@@ -3263,6 +3453,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/03/2026",
     "poblacion": 250,
     "volumen": 5075,
+    "km": 0.282,
     "enlace": "https://drive.google.com/file/d/1f0oJZ1fihEpX2g88s0QeFFSsOP1bAYk9/view?usp=drive_link"
   },
   {
@@ -3280,6 +3471,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 320,
     "volumen": 7011,
+    "km": 0.95,
     "enlace": null
   },
   {
@@ -3297,6 +3489,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/04/2026",
     "poblacion": 750,
     "volumen": 105,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/106kzvBT6DuvAITl2Cq-Xku-knkkQLUY3/view?usp=drive_link"
   },
   {
@@ -3314,6 +3507,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 80,
     "volumen": 916,
+    "km": 0.24,
     "enlace": null
   },
   {
@@ -3331,6 +3525,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/04/2026",
     "poblacion": 4500,
     "volumen": 2320,
+    "km": 0.352,
     "enlace": "https://drive.google.com/file/d/106kzvBT6DuvAITl2Cq-Xku-knkkQLUY3/view?usp=drive_link"
   },
   {
@@ -3348,6 +3543,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 750,
     "volumen": 90,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1cvgrC5QNdwG3vCsQmUvN9gey3pBsM_-8/view?usp=drive_link"
   },
   {
@@ -3365,6 +3561,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 35,
     "volumen": 1490,
+    "km": 1.96,
     "enlace": "https://drive.google.com/file/d/1IainJqxqOvWGD54O0q4HSsFxTAYMmQT5/view?usp=drive_link"
   },
   {
@@ -3382,6 +3579,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/04/2026",
     "poblacion": 60,
     "volumen": 1230,
+    "km": 4.15,
     "enlace": "https://drive.google.com/file/d/1hH1KWWIzTxG2zyZXjD8zUjd6zC0v89Z6/view?usp=drive_link"
   },
   {
@@ -3399,6 +3597,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 4515,
     "volumen": 423,
+    "km": 0.045,
     "enlace": "https://drive.google.com/file/d/1MIwDVT7ba2i1hH5nef2O9a4SeV30BbCB/view?usp=drive_link"
   },
   {
@@ -3416,6 +3615,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/05/2026",
     "poblacion": 150,
     "volumen": 5223,
+    "km": 1.606,
     "enlace": "https://drive.google.com/file/d/1uz1yYoSjfYSYmA0ZN4ei5vfBTzCLhEib/view?usp=drive_link"
   },
   {
@@ -3433,6 +3633,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/05/2026",
     "poblacion": 750,
     "volumen": 90,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1ltdbWQA9y62MlQ0OEhiEi_OLR1v-LNRW/view?usp=drive_link"
   },
   {
@@ -3450,6 +3651,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/05/2026",
     "poblacion": 60,
     "volumen": 1045,
+    "km": 0.217,
     "enlace": "https://drive.google.com/file/d/1UzNeo0mXif3jsIohbc46d77jg_kHRxeN/view?usp=drive_link"
   },
   {
@@ -3467,6 +3669,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/05/2026",
     "poblacion": 4500,
     "volumen": 2858,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/1WctgIpJhjuMAd3hEBuNkagXqO_sS3RUu/view?usp=drive_link"
   },
   {
@@ -3484,6 +3687,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/05/2026",
     "poblacion": 64,
     "volumen": 3546,
+    "km": 0.45,
     "enlace": "https://drive.google.com/file/d/1khfF3cC9KXkTGBOgLj6BgbBp_I5AnSxb/view?usp=drive_link"
   },
   {
@@ -3501,6 +3705,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/05/2026",
     "poblacion": 150,
     "volumen": 7296,
+    "km": 0.64,
     "enlace": "https://drive.google.com/file/d/1TNCZOJ5_eh1cOC-bpahojlHXCzFPfzGF/view?usp=drive_link"
   },
   {
@@ -3518,6 +3723,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/05/2026",
     "poblacion": 80,
     "volumen": 1678,
+    "km": 0.305,
     "enlace": "https://drive.google.com/file/d/1KrfWmiqzUfYbQbDq0qZ80AABhCSF5WBz/view?usp=drive_link"
   },
   {
@@ -3535,6 +3741,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/05/2026",
     "poblacion": 4500,
     "volumen": 5508,
+    "km": 0.51,
     "enlace": "https://drive.google.com/file/d/1iS0sSzrRe8yfEQVDxjfy5SZHcVnFrkbQ/view?usp=drive_link"
   },
   {
@@ -3552,6 +3759,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/06/2026",
     "poblacion": 750,
     "volumen": 120,
+    "km": 0,
     "enlace": null
   },
   {
@@ -3569,6 +3777,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/05/2026",
     "poblacion": 31,
     "volumen": 5927,
+    "km": 0.8,
     "enlace": "https://drive.google.com/file/d/1moHuY2bXjI-N2Nhj533S6MZE8JA6-3yJ/view?usp=drive_link"
   },
   {
@@ -3586,6 +3795,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/06/2026",
     "poblacion": 167,
     "volumen": 4410,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -3603,6 +3813,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/06/2026",
     "poblacion": 4500,
     "volumen": 6712,
+    "km": 0.4,
     "enlace": null
   },
   {
@@ -3620,6 +3831,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 599,
     "volumen": 3902,
+    "km": 0.918,
     "enlace": "https://drive.google.com/file/d/1ARRVrnyY79pY48wEAIYja-SHtkopxRfv/view?usp=drive_link"
   },
   {
@@ -3637,6 +3849,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/06/2026",
     "poblacion": 750,
     "volumen": 30,
+    "km": 0,
     "enlace": null
   },
   {
@@ -3654,6 +3867,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 167,
     "volumen": 4593,
+    "km": 0.45,
     "enlace": null
   },
   {
@@ -3671,6 +3885,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 4500,
     "volumen": 2550,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -3688,6 +3903,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/06/2026",
     "poblacion": 30,
     "volumen": 2860,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -3705,6 +3921,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/07/2026",
     "poblacion": 4500,
     "volumen": 4839,
+    "km": 0.62,
     "enlace": null
   },
   {
@@ -3722,6 +3939,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/07/2026",
     "poblacion": 125,
     "volumen": 2750,
+    "km": 0.11,
     "enlace": null
   },
   {
@@ -3739,6 +3957,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/07/2026",
     "poblacion": 40,
     "volumen": 1063,
+    "km": 0.109,
     "enlace": null
   },
   {
@@ -3756,6 +3975,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/07/2026",
     "poblacion": 110,
     "volumen": 4000,
+    "km": 0.4,
     "enlace": null
   },
   {
@@ -3773,6 +3993,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/07/2026",
     "poblacion": 160,
     "volumen": 2426,
+    "km": 0.211,
     "enlace": null
   },
   {
@@ -3790,6 +4011,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/07/2026",
     "poblacion": 125,
     "volumen": 3357,
+    "km": 0.201,
     "enlace": null
   },
   {
@@ -3807,6 +4029,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/07/2026",
     "poblacion": 110,
     "volumen": 4725,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -3824,6 +4047,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/08/2026",
     "poblacion": 2305,
     "volumen": 2508,
+    "km": 0.44,
     "enlace": null
   },
   {
@@ -3841,6 +4065,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/08/2026",
     "poblacion": 127,
     "volumen": 7300,
+    "km": 0.365,
     "enlace": null
   },
   {
@@ -3858,6 +4083,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 45,
     "volumen": 3145,
+    "km": 0.55,
     "enlace": null
   },
   {
@@ -3875,6 +4101,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 2305,
     "volumen": 1920,
+    "km": 0.48,
     "enlace": null
   },
   {
@@ -3892,6 +4119,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/08/2026",
     "poblacion": 2516,
     "volumen": 3847,
+    "km": 0.675,
     "enlace": null
   },
   {
@@ -3909,6 +4137,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/08/2026",
     "poblacion": 154,
     "volumen": 2760,
+    "km": 0.23,
     "enlace": null
   },
   {
@@ -3926,6 +4155,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/09/2026",
     "poblacion": 2516,
     "volumen": 2268,
+    "km": 0.36,
     "enlace": null
   },
   {
@@ -3943,6 +4173,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
     "volumen": 6972,
+    "km": 0.811,
     "enlace": null
   },
   {
@@ -3960,6 +4191,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/09/2026",
     "poblacion": 150,
     "volumen": 2400,
+    "km": 0.16,
     "enlace": null
   },
   {
@@ -3977,6 +4209,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/09/2026",
     "poblacion": 160,
     "volumen": 546,
+    "km": 0.07,
     "enlace": null
   }
 ],
@@ -3996,6 +4229,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/01/2026",
     "poblacion": 750,
     "volumen": 1800,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1jP_yFI6fYaIV8zjGYPpe40E6tuglZgWN/view?usp=drive_link"
   },
   {
@@ -4013,6 +4247,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/02/2026",
     "poblacion": 840,
     "volumen": 3812,
+    "km": 1.48,
     "enlace": "https://drive.google.com/file/d/1DtkYgkk00qN6s5QF865z7Hybtr07brLn/view?usp=drive_link"
   },
   {
@@ -4030,6 +4265,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/02/2026",
     "poblacion": 250,
     "volumen": 1006,
+    "km": 0.95,
     "enlace": "https://drive.google.com/file/d/1X9kYjlEdUbpZHM228VvLt_7cWNMks3Cx/view?usp=drive_link"
   },
   {
@@ -4047,6 +4283,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/02/2026",
     "poblacion": 2600,
     "volumen": 6200,
+    "km": 1.7,
     "enlace": "https://drive.google.com/file/d/1TGtFl0P0gTi5zvx9BqGRO0kr8HD2xgNM/view?usp=drive_link"
   },
   {
@@ -4064,6 +4301,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/02/2026",
     "poblacion": 1800,
     "volumen": 9250,
+    "km": 3.1,
     "enlace": "https://drive.google.com/file/d/1Q3iAzTITAoUcqbQ1SLfj6L62UeA1FeGU/view?usp=drive_link"
   },
   {
@@ -4081,6 +4319,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 1500,
     "volumen": 32140,
+    "km": 1.2,
     "enlace": "https://drive.google.com/file/d/1pn__FrydbSDSvYjAp3Y9FS1FXc2n88iz/view?usp=drive_link"
   },
   {
@@ -4098,6 +4337,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 3400,
     "volumen": 4820,
+    "km": 1.75,
     "enlace": "https://drive.google.com/file/d/1dhTosybQA2xoxRxV_0wuLSrviPtdhJER/view?usp=drive_link"
   },
   {
@@ -4115,6 +4355,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/05/2026",
     "poblacion": 3350,
     "volumen": 598,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1x4x8TfZs7mLsFw17otiJFinbkTcHlzYa/view?usp=drive_link"
   },
   {
@@ -4132,6 +4373,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/04/2026",
     "poblacion": 1581,
     "volumen": 210,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/12odUI_8UderMRnAC5GUNW_DnhBRb61or/view?usp=drive_link"
   },
   {
@@ -4149,6 +4391,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 1500,
     "volumen": 6835,
+    "km": 3.5,
     "enlace": "https://drive.google.com/file/d/1tCE4VIfEsGkUPZWTpw44x9sE_tVJ9Zgu/view?usp=drive_link"
   },
   {
@@ -4166,6 +4409,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/04/2026",
     "poblacion": 2000,
     "volumen": 4160,
+    "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1SuFwnt0dPUkUCfVSi6zI1UJaXVtcFvY_/view?usp=drive_link"
   },
   {
@@ -4183,6 +4427,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 1500,
     "volumen": 655,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1koibRrOCyMNuBgsS_Jqen_duGtnpNqa3/view?usp=drive_link"
   },
   {
@@ -4200,6 +4445,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 800,
     "volumen": 3872.7,
+    "km": 4.372,
     "enlace": "https://drive.google.com/file/d/1V7IFchD-AvgI9ObHZw_qxMKtxxf-TBlN/view?usp=drive_link"
   },
   {
@@ -4217,6 +4463,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 2600,
     "volumen": 4865,
+    "km": 2.1,
     "enlace": "https://drive.google.com/file/d/1KUq2dk9f0folRttny6_r9mUBaUCXPHYa/view?usp=drive_link"
   },
   {
@@ -4234,6 +4481,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/04/2026",
     "poblacion": 200,
     "volumen": 576,
+    "km": 0.72,
     "enlace": "https://drive.google.com/file/d/1wZqkgbheiO8C19ghu_t7li6tU38OAyyR/view?usp=drive_link"
   },
   {
@@ -4251,6 +4499,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/04/2026",
     "poblacion": 700,
     "volumen": 8288,
+    "km": 2.8,
     "enlace": "https://drive.google.com/file/d/1_EdWKu8Se8zxOipHdB-ujjz97hvp8IQZ/view?usp=drive_link"
   },
   {
@@ -4268,6 +4517,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/04/2026",
     "poblacion": 1630,
     "volumen": 1366,
+    "km": 0.67,
     "enlace": "https://drive.google.com/file/d/18OFU852_3ZtpCpIfJPMO8mofkcSq6AgH/view?usp=drive_link"
   },
   {
@@ -4285,6 +4535,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/07/2026",
     "poblacion": 1100,
     "volumen": 1485,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/11F6T9PUqACXBG62-f8yBdu1p-I9gZZR9/view?usp=drive_link"
   },
   {
@@ -4302,6 +4553,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 2600,
     "volumen": 3204,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1w6qzY7qxoqc71ukB7FUtYHIaTZsd5qA5/view?usp=drive_link"
   },
   {
@@ -4319,6 +4571,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/06/2026",
     "poblacion": 2900,
     "volumen": 6390,
+    "km": 2.42,
     "enlace": "https://drive.google.com/file/d/1HZYb2jvq6DlOgpuxs9QEi9AM7Mu8aSh5/view?usp=drive_link"
   },
   {
@@ -4336,6 +4589,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 1400,
     "volumen": 10500,
+    "km": 3.383,
     "enlace": "https://drive.google.com/file/d/1CDo8wjGEmi8puvPvawtBZNMB1oCZoC5i/view?usp=drive_link"
   },
   {
@@ -4353,6 +4607,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/08/2026",
     "poblacion": 3350,
     "volumen": 495,
+    "km": 0,
     "enlace": null
   },
   {
@@ -4370,6 +4625,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 3900,
     "volumen": 7922.25,
+    "km": 3.4,
     "enlace": "https://drive.google.com/file/d/1u1lA1DWquaPJQ7HR78McZKXcqQXUkkbw/view?usp=drive_link"
   },
   {
@@ -4387,6 +4643,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/06/2026",
     "poblacion": 1020,
     "volumen": 5170,
+    "km": 2.05,
     "enlace": "https://drive.google.com/file/d/1TkW_nUMQcSkt9kskXUnNm89wf5ULZcaC/view?usp=drive_link"
   },
   {
@@ -4404,6 +4661,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 300,
     "volumen": 1250,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/10wiCObtDImt3JBttWJE2Ogb5ijQkgtLG/view?usp=drive_link"
   },
   {
@@ -4421,6 +4679,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/07/2026",
     "poblacion": 1500,
     "volumen": 9890,
+    "km": 3.57,
     "enlace": "https://drive.google.com/file/d/1mZqgHM8ts-OdLKA9tI4wXp9waMs5mJpw/view?usp=drive_link"
   },
   {
@@ -4438,6 +4697,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/07/2026",
     "poblacion": 3120,
     "volumen": 7860,
+    "km": 3.15,
     "enlace": "https://drive.google.com/file/d/1w_qZWIivI5pT_sk9jLQxAvDKM9cEdeE4/view?usp=drive_link"
   },
   {
@@ -4455,6 +4715,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/09/2026",
     "poblacion": null,
     "volumen": 1860,
+    "km": 0,
     "enlace": null
   },
   {
@@ -4472,6 +4733,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/07/2026",
     "poblacion": 2600,
     "volumen": 3830.4,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -4489,6 +4751,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/08/2026",
     "poblacion": 8500,
     "volumen": 11500,
+    "km": 3.5,
     "enlace": "https://drive.google.com/file/d/12re3EeOX5piW5Uyh9kZeXcrirQqXDhZ6/view?usp=drive_link"
   },
   {
@@ -4506,6 +4769,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 530,
     "volumen": 1386,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/1EH-QcBibHz5TCgR19T-UMy8fQuJiD2ca/view?usp=drive_link"
   },
   {
@@ -4523,6 +4787,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
     "volumen": 209,
+    "km": 0,
     "enlace": null
   },
   {
@@ -4540,6 +4805,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/08/2026",
     "poblacion": 950,
     "volumen": 9600,
+    "km": 3,
     "enlace": null
   },
   {
@@ -4557,6 +4823,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/08/2026",
     "poblacion": 1200,
     "volumen": 3240,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -4574,6 +4841,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/08/2026",
     "poblacion": 10200,
     "volumen": 1240,
+    "km": 0.76,
     "enlace": null
   },
   {
@@ -4591,6 +4859,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 1200,
     "volumen": 9850,
+    "km": 4.06,
     "enlace": null
   },
   {
@@ -4608,6 +4877,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/09/2026",
     "poblacion": 10100,
     "volumen": 1010,
+    "km": 0.53,
     "enlace": null
   },
   {
@@ -4625,6 +4895,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/09/2026",
     "poblacion": 4408,
     "volumen": 4550,
+    "km": 0.13,
     "enlace": null
   }
 ],
@@ -4644,6 +4915,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/01/2026",
     "poblacion": 1200,
     "volumen": 5400,
+    "km": 0.3,
     "enlace": "https://drive.google.com/drive/folders/1KD0kzPMO65diuRY-23cRqjThTSimWFPa?usp=drive_link"
   },
   {
@@ -4661,6 +4933,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/02/2026",
     "poblacion": 750,
     "volumen": 750,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1AOD0B8qYI33jCR8q2YZu7ZZ-auh7c8o6?usp=drive_link"
   },
   {
@@ -4678,6 +4951,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/02/2026",
     "poblacion": 1200,
     "volumen": 5760,
+    "km": 0.36,
     "enlace": "https://drive.google.com/drive/folders/1-gm9G3XX0wAso7bhbZAfVlLaJKw88Bf7?usp=drive_link"
   },
   {
@@ -4695,6 +4969,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/02/2026",
     "poblacion": 250,
     "volumen": 9360,
+    "km": 0.312,
     "enlace": "https://drive.google.com/drive/folders/1YJll0qGTHs23f75dtrxm8z53XfoCIIo0?usp=drive_link"
   },
   {
@@ -4712,6 +4987,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 750,
     "volumen": 780,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1vr2nWUGr1aZLiW3e1RdR3EO0nxS2-Ryd?usp=drive_link"
   },
   {
@@ -4729,6 +5005,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 4000,
     "volumen": 1500,
+    "km": 0.1,
     "enlace": "https://drive.google.com/drive/folders/10YciniCzYBqcGB6CtxnSH91sYV90PQ4o?usp=drive_link"
   },
   {
@@ -4746,6 +5023,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 10000,
     "volumen": 9312,
+    "km": 0.12,
     "enlace": "https://drive.google.com/drive/folders/1n23lQ_IIku5oo2KDUs7D4yQRKPUdDKLL?usp=drive_link"
   },
   {
@@ -4763,6 +5041,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 1200,
     "volumen": 11880,
+    "km": 0.44,
     "enlace": "https://drive.google.com/drive/folders/1p3-0fn_I52rEeivYqCmKLg9BoFW8E3B5?usp=drive_link"
   },
   {
@@ -4780,6 +5059,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 900,
     "volumen": 4760,
+    "km": 0.35,
     "enlace": "https://drive.google.com/file/d/1PRZbNHmQRu0KLqApIhzBOJlRybZIoQ5q/view?usp=drive_link"
   },
   {
@@ -4797,6 +5077,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/05/2026",
     "poblacion": 750,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1W0faporM4w7qOC0y4plhZYhRzmVhHfrI/view?usp=drive_link"
   },
   {
@@ -4814,6 +5095,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/04/2026",
     "poblacion": 1200,
     "volumen": 9220,
+    "km": 0.355,
     "enlace": "https://drive.google.com/file/d/1H-DWcqW-Nq1xDuJ_pAwY-nIZzvVbDtK6/view?usp=drive_link"
   },
   {
@@ -4831,6 +5113,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/04/2026",
     "poblacion": 900,
     "volumen": 3715.2,
+    "km": 0.258,
     "enlace": "https://drive.google.com/file/d/1gGMhu8DSUnl8mjpa_hdGbgYZGYndDNdO/view?usp=drive_link"
   },
   {
@@ -4848,6 +5131,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/05/2026",
     "poblacion": 1200,
     "volumen": 5432,
+    "km": 0.194,
     "enlace": "https://drive.google.com/file/d/1ErTEqaViS_8eBy6A5RviGcV7rZyavqmS/view?usp=drive_link"
   },
   {
@@ -4865,6 +5149,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/05/2026",
     "poblacion": 900,
     "volumen": 5875,
+    "km": 0.432,
     "enlace": "https://drive.google.com/file/d/1k2ak8sGVu6W1fve7Nqj_RRXLu9oqOFf4/view?usp=drive_link"
   },
   {
@@ -4882,6 +5167,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 1200,
     "volumen": 9000,
+    "km": 0.375,
     "enlace": "https://drive.google.com/file/d/1-PUS17AReX-eV1sYVLusrRdo9_9dH-ei/view?usp=drive_link"
   },
   {
@@ -4899,6 +5185,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/06/2026",
     "poblacion": 1000,
     "volumen": 3791,
+    "km": 0.446,
     "enlace": "https://drive.google.com/file/d/1-VWq_5RQMLmDz6C7RSsc_aLPWZs53myL/view?usp=drive_link"
   },
   {
@@ -4916,6 +5203,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/06/2026",
     "poblacion": 750,
     "volumen": 780,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/10K_2zH8L0CdU37sZXWy51JNNumQ43oR-/view?usp=drive_link"
   },
   {
@@ -4933,6 +5221,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/06/2026",
     "poblacion": 280,
     "volumen": 3886,
+    "km": 0.536,
     "enlace": "https://drive.google.com/file/d/1UqNrbEfI59HPnH4LsnCLP0o_PSKpY1C1/view?usp=drive_link"
   },
   {
@@ -4950,6 +5239,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 1200,
     "volumen": 9360,
+    "km": 0.39,
     "enlace": "https://drive.google.com/file/d/1MX76ji6IGOo-NlIK39XfS3i83mWfX0Ys/view?usp=drive_link"
   },
   {
@@ -4967,6 +5257,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/07/2026",
     "poblacion": 470,
     "volumen": 7182,
+    "km": 0.26,
     "enlace": "https://drive.google.com/file/d/1DQb9uGaVGiZHm6XLJJ5tLZhi9H2Qir3b/view?usp=drive_link"
   },
   {
@@ -4984,6 +5275,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/08/2026",
     "poblacion": 750,
     "volumen": 690,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1AFhdc-s61Wkdj8gPEDN6pQ0E0cPm5nfh/view?usp=drive_link"
   },
   {
@@ -5001,6 +5293,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/08/2026",
     "poblacion": 850,
     "volumen": 11605.38,
+    "km": 0.135,
     "enlace": null
   },
   {
@@ -5018,6 +5311,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/09/2026",
     "poblacion": 750,
     "volumen": 270,
+    "km": 0,
     "enlace": null
   },
   {
@@ -5035,6 +5329,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 1800,
     "volumen": 7900,
+    "km": 0.114,
     "enlace": null
   }
 ],
@@ -5054,6 +5349,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/01/2026",
     "poblacion": 100,
     "volumen": 7725,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/1GYUnHURItI6wet9OEaD6ZnIZRc-KoX0c/view?usp=drive_link"
   },
   {
@@ -5071,6 +5367,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/02/2026",
     "poblacion": 400,
     "volumen": 7000,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1GZ9XDvj7IZx4Wfrc4eO83YRWnIdXNfyk/view?usp=drive_link"
   },
   {
@@ -5088,6 +5385,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/02/2026",
     "poblacion": 1128,
     "volumen": 2777,
+    "km": 0.121,
     "enlace": null
   },
   {
@@ -5105,6 +5403,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 500,
     "volumen": 8000,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1oFR1nU35-WLL_APowazaMnhi8NLwipL6/view?usp=drive_link"
   },
   {
@@ -5122,6 +5421,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 120,
     "volumen": 6750,
+    "km": 0.278,
     "enlace": "https://drive.google.com/file/d/1JB4A0T67xQDnMP4tZTlud3Te_eNS30dL/view?usp=drive_link"
   },
   {
@@ -5139,6 +5439,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/02/2026",
     "poblacion": 400,
     "volumen": 7324,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1yp7p0jeVZnZ6X90WZuafN5z5SWjkew1x/view?usp=drive_link"
   },
   {
@@ -5156,6 +5457,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/03/2026",
     "poblacion": 3163,
     "volumen": 2120,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -5173,6 +5475,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/02/2026",
     "poblacion": 95,
     "volumen": 1625,
+    "km": 0.05,
     "enlace": "https://drive.google.com/file/d/1cX3so5wznUpvHlwbq0HzPR_h8hIU0oJf/view?usp=drive_link"
   },
   {
@@ -5190,6 +5493,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/03/2026",
     "poblacion": 58,
     "volumen": 1120,
+    "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1wHnxEIVfEx79Bde37x8pZx8a3StgweWD/view?usp=drive_link"
   },
   {
@@ -5207,6 +5511,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 35,
     "volumen": 850,
+    "km": 0.05,
     "enlace": "https://drive.google.com/file/d/1_iov6VpVWnI_WcJgti6eFndgbHHpqOaD/view?usp=drive_link"
   },
   {
@@ -5224,6 +5529,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 1333,
     "volumen": 3594,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/1lJkCB60Xs1xUq7NegHR28i9L21englUi/view?usp=drive_link"
   },
   {
@@ -5241,6 +5547,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 400,
     "volumen": 7000,
+    "km": 0.2,
     "enlace": "https://drive.google.com/file/d/17ncPAhR0-oy88QN52cpGZS6rdCzlbxUp/view?usp=drive_link"
   },
   {
@@ -5258,6 +5565,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/03/2026",
     "poblacion": 657,
     "volumen": 17675,
+    "km": 1.1,
     "enlace": "https://drive.google.com/file/d/13h7x41dNwBFbH7KOrgXKsJ_sAC6uVkr5/view?usp=drive_link"
   },
   {
@@ -5275,6 +5583,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 120,
     "volumen": 2833,
+    "km": 0.085,
     "enlace": "https://drive.google.com/file/d/1HRM-IOssWUU3j9fi2GUTNTn-V_RDtUHJ/view?usp=drive_link"
   },
   {
@@ -5292,6 +5601,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/04/2026",
     "poblacion": 350,
     "volumen": 14500,
+    "km": 0.28,
     "enlace": "https://drive.google.com/file/d/1tXE97MZY_ux88IBmDC4ALL91E_GRzGt8/view?usp=drive_link"
   },
   {
@@ -5309,6 +5619,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/04/2026",
     "poblacion": 859,
     "volumen": 830,
+    "km": 0.75,
     "enlace": "https://drive.google.com/file/d/1Gtc7N4I_CuZ9bdfPHgH8aIHOOlByLpYE/view?usp=drive_link"
   },
   {
@@ -5326,6 +5637,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 750,
     "volumen": 20965,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/1CKvcpKtZuEaS1lY8TJRzmc4UPyZ2F0Bm/view?usp=drive_link"
   },
   {
@@ -5343,6 +5655,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 750,
     "volumen": 7200,
+    "km": 0.5,
     "enlace": null
   },
   {
@@ -5360,6 +5673,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/04/2026",
     "poblacion": 2090,
     "volumen": 140,
+    "km": 0.63,
     "enlace": "https://drive.google.com/file/d/1rSUzqjmHNqAgTxrjbny95xBsMcJ6eisP/view?usp=sharing"
   },
   {
@@ -5377,6 +5691,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/05/2026",
     "poblacion": 5000,
     "volumen": 5187,
+    "km": 0.41,
     "enlace": "https://drive.google.com/file/d/1b7zvP8fTEu0ytiPMdz-MTqmV5O2gjGdh/view?usp=drive_link"
   },
   {
@@ -5394,6 +5709,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/04/2026",
     "poblacion": 83,
     "volumen": 1312.5,
+    "km": 0.05,
     "enlace": "https://drive.google.com/file/d/1n9-9-GmteRYaOBwx-2J_U7Jd9F5ArnzU/view?usp=drive_link"
   },
   {
@@ -5411,6 +5727,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/05/2026",
     "poblacion": 859,
     "volumen": 2034,
+    "km": 4.52,
     "enlace": "https://drive.google.com/file/d/1VwlgamZVhAYlQe1OdjyCwgZO5mm_8TCl/view?usp=drive_link"
   },
   {
@@ -5428,6 +5745,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/05/2026",
     "poblacion": 132,
     "volumen": 1365,
+    "km": 0.13,
     "enlace": null
   },
   {
@@ -5445,6 +5763,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/06/2026",
     "poblacion": 187,
     "volumen": 2047.5,
+    "km": 9.1,
     "enlace": "https://drive.google.com/file/d/18OOQUHZCeN616b9uZAEMYduk-Tkc02Q_/view?usp=drive_link"
   },
   {
@@ -5462,6 +5781,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/06/2026",
     "poblacion": 125,
     "volumen": 5130,
+    "km": 11.4,
     "enlace": "https://drive.google.com/file/d/1MYdcnBEBaBZo3c1g80_eq-CMi_dDhhZ-/view?usp=drive_link"
   },
   {
@@ -5479,6 +5799,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/07/2026",
     "poblacion": 489,
     "volumen": 4174.2,
+    "km": 7.73,
     "enlace": null
   },
   {
@@ -5496,6 +5817,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/07/2026",
     "poblacion": 82,
     "volumen": 3423,
+    "km": 5.1,
     "enlace": null
   },
   {
@@ -5513,6 +5835,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/08/2026",
     "poblacion": 750,
     "volumen": 18000,
+    "km": 0.5,
     "enlace": null
   },
   {
@@ -5530,6 +5853,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/08/2026",
     "poblacion": 63,
     "volumen": 4462.5,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1JN9n4W1mbHpViKLEyt4uWMTCukbeFP-3/view?usp=drive_link"
   },
   {
@@ -5547,6 +5871,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 256,
     "volumen": 2557,
+    "km": 2.84,
     "enlace": null
   },
   {
@@ -5564,6 +5889,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/08/2026",
     "poblacion": 5181,
     "volumen": 771,
+    "km": 5.1,
     "enlace": null
   },
   {
@@ -5581,6 +5907,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 346,
     "volumen": 1656,
+    "km": 3.31,
     "enlace": null
   },
   {
@@ -5598,6 +5925,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/08/2026",
     "poblacion": 82,
     "volumen": 1936,
+    "km": 3.8,
     "enlace": null
   },
   {
@@ -5615,6 +5943,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 321,
     "volumen": 5500,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -5632,6 +5961,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": 5000,
     "volumen": 5900,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -5649,6 +5979,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/09/2026",
     "poblacion": null,
     "volumen": 1207,
+    "km": 2.68,
     "enlace": null
   },
   {
@@ -5666,6 +5997,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/09/2026",
     "poblacion": 209,
     "volumen": 4118,
+    "km": 4.58,
     "enlace": null
   }
 ],
@@ -5685,6 +6017,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/02/2026",
     "poblacion": 150,
     "volumen": 9016,
+    "km": 0.46,
     "enlace": "https://drive.google.com/file/d/10BEjfM857SLb5o1ThBQ_m40CVRloDE9f/view?usp=drive_link"
   },
   {
@@ -5702,6 +6035,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/02/2026",
     "poblacion": 80,
     "volumen": 11200,
+    "km": 0.56,
     "enlace": "https://drive.google.com/file/d/1KvX7TSXFua1VIsA8xq6aChSzPoT9dr-5/view?usp=drive_link"
   },
   {
@@ -5719,6 +6053,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/02/2026",
     "poblacion": 80,
     "volumen": 15300,
+    "km": 0.45,
     "enlace": "https://drive.google.com/file/d/1xq_S3Fn-LQwwTFE6JBnrJSlnkp-NjX-Y/view?usp=drive_link"
   },
   {
@@ -5736,6 +6071,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/01/2026",
     "poblacion": 750,
     "volumen": 1365,
+    "km": 0.405,
     "enlace": "https://drive.google.com/file/d/18tQ_uLTvC99L5SOiFu_AlR21kO2UliyI/view?usp=drive_link"
   },
   {
@@ -5753,6 +6089,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/01/2026",
     "poblacion": 200,
     "volumen": 1860,
+    "km": 0.62,
     "enlace": "https://drive.google.com/file/d/1htfHeKlv5QW31w7gfK0LmHG0IzbJxidq/view?usp=drive_link"
   },
   {
@@ -5770,6 +6107,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/02/2026",
     "poblacion": 50,
     "volumen": 2915,
+    "km": 0.45,
     "enlace": "https://drive.google.com/file/d/1RIhrPQ4w631nhOIZO_J5ozRyijhUHybJ/view?usp=drive_link"
   },
   {
@@ -5787,6 +6125,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/02/2026",
     "poblacion": 40,
     "volumen": 9000,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/1r7uzcni9BvmE9Vp61vCEFgRGKHP4EAFc/view?usp=drive_link"
   },
   {
@@ -5804,6 +6143,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/02/2026",
     "poblacion": 200,
     "volumen": 9800,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/1AM0WeIZ9yK265B_O-iv65x3ljqjxo4do/view?usp=drive_link"
   },
   {
@@ -5821,6 +6161,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/02/2026",
     "poblacion": 800,
     "volumen": 6000,
+    "km": 2,
     "enlace": "https://drive.google.com/file/d/1iGx-sg9DqiVjuaa3D_iQjxj0Qdvq7lsB/view?usp=drive_link"
   },
   {
@@ -5838,6 +6179,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 700,
     "volumen": 9000,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/1SHtbsmfWT-unC9oQeIqbq_hs8UPhaCWz/view?usp=drive_link"
   },
   {
@@ -5855,6 +6197,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/02/2026",
     "poblacion": 150,
     "volumen": 981.5,
+    "km": 0.151,
     "enlace": null
   },
   {
@@ -5872,6 +6215,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 30,
     "volumen": 15000,
+    "km": 0.4,
     "enlace": "https://drive.google.com/file/d/1u5uwqVFBK7BTgc4Yz_cGJa-xnjUqTk5H/view?usp=drive_link"
   },
   {
@@ -5889,6 +6233,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/02/2026",
     "poblacion": 500,
     "volumen": 8030,
+    "km": 0.18,
     "enlace": "https://drive.google.com/file/d/1-wcKg0ByK2Uq8sQAZfll0u1xKVPr6yBC/view?usp=drive_link"
   },
   {
@@ -5906,6 +6251,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/02/2026",
     "poblacion": 2000,
     "volumen": 1530,
+    "km": 0.1,
     "enlace": "https://drive.google.com/file/d/1slRCFlbAXP1XQ42-V8X-wmSkUuQWQEvi/view?usp=drive_link"
   },
   {
@@ -5923,6 +6269,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 685,
     "volumen": 1920.75,
+    "km": 0.121,
     "enlace": null
   },
   {
@@ -5940,6 +6287,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 300,
     "volumen": 8662.5,
+    "km": 0.825,
     "enlace": "https://drive.google.com/file/d/1xX3I0cRYIUO7bSFYun20eJ9cfgfvN9m_/view?usp=drive_link"
   },
   {
@@ -5957,6 +6305,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 300,
     "volumen": 270,
+    "km": 0.1,
     "enlace": "https://drive.google.com/file/d/1Sk_9CsO-hAwOdSpHXhssctqeF5pccJP7/view?usp=drive_link"
   },
   {
@@ -5974,6 +6323,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 150,
     "volumen": 9060.1,
+    "km": 0.446,
     "enlace": null
   },
   {
@@ -5991,6 +6341,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/03/2026",
     "poblacion": 432,
     "volumen": 10929,
+    "km": 0.29,
     "enlace": null
   },
   {
@@ -6008,6 +6359,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/03/2026",
     "poblacion": 230,
     "volumen": 918,
+    "km": 0.102,
     "enlace": null
   },
   {
@@ -6025,6 +6377,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/03/2026",
     "poblacion": 800,
     "volumen": 10200,
+    "km": 0.35,
     "enlace": null
   },
   {
@@ -6042,6 +6395,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 30,
     "volumen": 21475.3,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -6059,6 +6413,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/03/2026",
     "poblacion": 120,
     "volumen": 1161,
+    "km": 0.129,
     "enlace": null
   },
   {
@@ -6076,6 +6431,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 120,
     "volumen": 4200,
+    "km": 0.12,
     "enlace": "https://drive.google.com/file/d/1756iuAdUVl0fmzyrtiDuGI3mmvRbqgKS/view?usp=drive_link"
   },
   {
@@ -6093,6 +6449,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 150,
     "volumen": 2323.6,
+    "km": 4.2,
     "enlace": "FALTA INFORME MONITOR"
   },
   {
@@ -6110,6 +6467,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 90,
     "volumen": 9138,
+    "km": 0.448,
     "enlace": "https://drive.google.com/file/d/1N9v1N-IxIJWYvJ-rA80rlh4SqlQaOTc_/view?usp=drive_link"
   },
   {
@@ -6127,6 +6485,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 900,
     "volumen": 4804.92,
+    "km": 0.352,
     "enlace": null
   },
   {
@@ -6144,6 +6503,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 7000,
     "volumen": 9343.75,
+    "km": 0.065,
     "enlace": null
   },
   {
@@ -6161,6 +6521,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/03/2026",
     "poblacion": 325,
     "volumen": 1728.25,
+    "km": 0.095,
     "enlace": null
   },
   {
@@ -6178,6 +6539,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/03/2026",
     "poblacion": 311,
     "volumen": 4005,
+    "km": 0.178,
     "enlace": null
   },
   {
@@ -6195,6 +6557,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/04/2026",
     "poblacion": 120,
     "volumen": 2464.8,
+    "km": 0.037,
     "enlace": null
   },
   {
@@ -6212,6 +6575,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 140,
     "volumen": 7924.5,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -6229,6 +6593,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/04/2026",
     "poblacion": 300,
     "volumen": 11829.55,
+    "km": 0.03,
     "enlace": null
   },
   {
@@ -6246,6 +6611,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/03/2026",
     "poblacion": 800,
     "volumen": 1288,
+    "km": 0.046,
     "enlace": null
   },
   {
@@ -6263,6 +6629,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/04/2026",
     "poblacion": 130,
     "volumen": 12482,
+    "km": 0.802,
     "enlace": "FALTA INFORME MONITOR"
   },
   {
@@ -6280,6 +6647,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/04/2026",
     "poblacion": 200,
     "volumen": 2900,
+    "km": 2.85,
     "enlace": "FALTA INFORME MONITOR"
   },
   {
@@ -6297,6 +6665,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 30,
     "volumen": 14956.2,
+    "km": 0.5,
     "enlace": null
   },
   {
@@ -6314,6 +6683,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/04/2026",
     "poblacion": 240,
     "volumen": 859.25,
+    "km": 0.048,
     "enlace": null
   },
   {
@@ -6331,6 +6701,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/04/2026",
     "poblacion": 120,
     "volumen": 5433.75,
+    "km": 0.18,
     "enlace": null
   },
   {
@@ -6348,6 +6719,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 900,
     "volumen": 6960,
+    "km": 0.232,
     "enlace": null
   },
   {
@@ -6365,6 +6737,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/05/2026",
     "poblacion": 450,
     "volumen": 2780,
+    "km": 6.4,
     "enlace": "FALTA INFORME MONITOR"
   },
   {
@@ -6382,6 +6755,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/05/2026",
     "poblacion": 150,
     "volumen": 890,
+    "km": 2,
     "enlace": "FALTA INFORME MONITOR"
   },
   {
@@ -6399,6 +6773,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/06/2026",
     "poblacion": 7000,
     "volumen": 11262.93,
+    "km": 0.035,
     "enlace": null
   },
   {
@@ -6416,6 +6791,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/06/2026",
     "poblacion": 225,
     "volumen": 12725.4,
+    "km": 0.45,
     "enlace": null
   },
   {
@@ -6433,6 +6809,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/05/2026",
     "poblacion": 900,
     "volumen": 7700,
+    "km": 0.55,
     "enlace": null
   },
   {
@@ -6450,6 +6827,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 680,
     "volumen": 4182,
+    "km": 0.112,
     "enlace": null
   },
   {
@@ -6467,6 +6845,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 7000,
     "volumen": 5159,
+    "km": 0.341,
     "enlace": null
   },
   {
@@ -6484,6 +6863,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/06/2026",
     "poblacion": 350,
     "volumen": 594,
+    "km": 0.198,
     "enlace": null
   },
   {
@@ -6501,6 +6881,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/06/2026",
     "poblacion": 2096,
     "volumen": 315,
+    "km": 0.025,
     "enlace": null
   },
   {
@@ -6518,6 +6899,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/06/2026",
     "poblacion": 350,
     "volumen": 3264,
+    "km": 0.136,
     "enlace": null
   },
   {
@@ -6535,6 +6917,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/07/2026",
     "poblacion": 680,
     "volumen": 3780,
+    "km": 0.105,
     "enlace": null
   },
   {
@@ -6552,6 +6935,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/07/2026",
     "poblacion": 7000,
     "volumen": 11817,
+    "km": 0.039,
     "enlace": null
   },
   {
@@ -6569,6 +6953,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 2096,
     "volumen": 2170,
+    "km": 0.31,
     "enlace": null
   },
   {
@@ -6586,6 +6971,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": 9500,
     "volumen": 3000,
+    "km": 0.151,
     "enlace": null
   },
   {
@@ -6603,6 +6989,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/07/2026",
     "poblacion": 2096,
     "volumen": 5128.2,
+    "km": 0.396,
     "enlace": null
   },
   {
@@ -6620,6 +7007,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": 7000,
     "volumen": 12480,
+    "km": 0.06,
     "enlace": null
   },
   {
@@ -6637,6 +7025,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/07/2026",
     "poblacion": 255,
     "volumen": 2136,
+    "km": 0.089,
     "enlace": null
   },
   {
@@ -6654,6 +7043,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/07/2026",
     "poblacion": 2096,
     "volumen": 440.3,
+    "km": 0.037,
     "enlace": null
   },
   {
@@ -6671,6 +7061,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/07/2026",
     "poblacion": 1500,
     "volumen": 3360,
+    "km": 0.032,
     "enlace": null
   },
   {
@@ -6688,6 +7079,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/08/2026",
     "poblacion": 515,
     "volumen": 20997.7,
+    "km": 0.5,
     "enlace": null
   },
   {
@@ -6705,6 +7097,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/08/2026",
     "poblacion": 7000,
     "volumen": 11960,
+    "km": 0.092,
     "enlace": null
   },
   {
@@ -6722,6 +7115,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/08/2026",
     "poblacion": 250,
     "volumen": 6701,
+    "km": 0.149,
     "enlace": null
   },
   {
@@ -6739,6 +7133,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 2500000,
     "volumen": 41403.6,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -6756,6 +7151,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/09/2026",
     "poblacion": 1500,
     "volumen": 2022.44,
+    "km": 0.08,
     "enlace": null
   },
   {
@@ -6773,6 +7169,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/08/2026",
     "poblacion": 250,
     "volumen": 4770,
+    "km": 0.106,
     "enlace": null
   },
   {
@@ -6790,6 +7187,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 1050,
     "volumen": 11755,
+    "km": 0.39,
     "enlace": null
   },
   {
@@ -6807,6 +7205,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/08/2026",
     "poblacion": 700,
     "volumen": 2893.8,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -6824,6 +7223,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/08/2026",
     "poblacion": 7000,
     "volumen": 7962.5,
+    "km": 0.035,
     "enlace": null
   },
   {
@@ -6841,6 +7241,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 250,
     "volumen": 4165,
+    "km": 0.098,
     "enlace": null
   },
   {
@@ -6858,6 +7259,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/09/2026",
     "poblacion": 8788,
     "volumen": 3981,
+    "km": 0.34,
     "enlace": null
   },
   {
@@ -6875,6 +7277,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/09/2026",
     "poblacion": 8788,
     "volumen": 3120,
+    "km": 0.235,
     "enlace": null
   },
   {
@@ -6892,6 +7295,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": 2500000,
     "volumen": 2683.8,
+    "km": 0.021,
     "enlace": null
   },
   {
@@ -6909,6 +7313,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/09/2026",
     "poblacion": 1050,
     "volumen": 4720,
+    "km": 0.236,
     "enlace": null
   }
 ],
@@ -6928,6 +7333,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/02/2026",
     "poblacion": 525,
     "volumen": 750,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1mi4NyqH9k6urtx-3EjWapkuG70lyjkJ9/view?usp=drive_link"
   },
   {
@@ -6945,6 +7351,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/01/2026",
     "poblacion": 300,
     "volumen": 9655.96,
+    "km": 0.55,
     "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
   },
   {
@@ -6962,6 +7369,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/01/2026",
     "poblacion": 400,
     "volumen": 4692.69,
+    "km": 0.39,
     "enlace": "https://drive.google.com/file/d/1vs1khE2yqU7BZ0sXjrNSabl2RWxPUWSJ/view?usp=drive_link"
   },
   {
@@ -6979,6 +7387,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/02/2026",
     "poblacion": 504,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1_wA3jLVLoIWIfclnuOJAKT_LF1U0J6AA/view?usp=drive_link"
   },
   {
@@ -6996,6 +7405,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/01/2026",
     "poblacion": 500,
     "volumen": 5000,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1e0y76oAgdFF7en3nir6RBhpFlexY7A8g/view?usp=drive_link"
   },
   {
@@ -7013,6 +7423,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/02/2026",
     "poblacion": 1200,
     "volumen": 11965.08,
+    "km": 0.66,
     "enlace": "https://drive.google.com/file/d/1wR8zOxML2k7JmxzdYuwy4C05lgM1y5-W/view?usp=drive_link"
   },
   {
@@ -7030,6 +7441,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 100,
     "volumen": 4990.13,
+    "km": 0.25,
     "enlace": "https://drive.google.com/file/d/1Lloo-zqVrVzULZkOiheQ-6CrCBZfe5I2/view?usp=drive_link"
   },
   {
@@ -7047,6 +7459,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/03/2026",
     "poblacion": 525,
     "volumen": 750,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1yrL194C81ISFljyNU60ylo1G9GFWykR1/view?usp=drive_link"
   },
   {
@@ -7064,6 +7477,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 545,
     "volumen": 750,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1zb37E1VP6kdD8EkC8SfGTIHYTdU7wJ9A/view?usp=drive_link"
   },
   {
@@ -7081,6 +7495,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 640,
     "volumen": 750,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1qQfDm2t-AQy95oDKkkHeDbwdGd37zZaw/view?usp=drive_link"
   },
   {
@@ -7098,6 +7513,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 1200,
     "volumen": 390,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1b3rJUIN1Yw17ldFMV8M0lURpmKjAY_k8/view?usp=drive_link"
   },
   {
@@ -7115,6 +7531,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/03/2026",
     "poblacion": 2500,
     "volumen": 20000,
+    "km": 4.1,
     "enlace": "https://drive.google.com/file/d/1e1D7uOPAp_F-xkTyAhBBd0mCIka1ZQCS/view?usp=drive_link"
   },
   {
@@ -7132,6 +7549,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 700,
     "volumen": 16266,
+    "km": 0.62,
     "enlace": "https://drive.google.com/file/d/1cDh3AqM2Wb1MAhY-w80S02_mIe0x-bXC/view?usp=drive_link"
   },
   {
@@ -7149,6 +7567,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/03/2026",
     "poblacion": 500,
     "volumen": 7690.48,
+    "km": 0.55,
     "enlace": "https://drive.google.com/file/d/1zc3TGQVrQDNLQkG2v1nXUC_5Ukt5F_27/view?usp=drive_link"
   },
   {
@@ -7166,6 +7585,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 1000,
     "volumen": 10816.6,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1V4WWXkBFLV3HtgKwMvQEwwRSgLAJVXQo/view?usp=drive_link"
   },
   {
@@ -7183,6 +7603,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/04/2026",
     "poblacion": 640,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1kszu1dXiN6yTtePxd8qOcRMoLeyhMg8z/view?usp=drive_link"
   },
   {
@@ -7200,6 +7621,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/04/2026",
     "poblacion": 545,
     "volumen": 450,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1TyBdkkhjcG9KTvESXAJ5ng-3Jh7CnLAb/view?usp=drive_link"
   },
   {
@@ -7217,6 +7639,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 500,
     "volumen": 16807,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/17cYZ8heSbe4iItXxhClXpzet0boScftB/view?usp=drive_link"
   },
   {
@@ -7234,6 +7657,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 4250,
     "volumen": 20363.53,
+    "km": 5.24,
     "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
   },
   {
@@ -7251,6 +7675,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 200,
     "volumen": 320,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
   },
   {
@@ -7268,6 +7693,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 525,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1tBYm-jAdlvldKlTQYCYUv4VXTvBSll4t/view?usp=drive_link"
   },
   {
@@ -7285,6 +7711,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 400,
     "volumen": 21158.8,
+    "km": 0.78,
     "enlace": "https://drive.google.com/file/d/1K-BU9NTVcnoAHOsxNqDCBSTNiQCHeIIs/view?usp=drive_link"
   },
   {
@@ -7302,6 +7729,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/04/2026",
     "poblacion": 500,
     "volumen": 7681.56,
+    "km": 1.5,
     "enlace": "https://drive.google.com/file/d/1aMniYTUYFBZOu3F2vxUxLYK-UNAPa5i6/view?usp=drive_link"
   },
   {
@@ -7319,6 +7747,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 640,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1InZb6hoP7yT_xlkQKtNnnwI00ptAezEG/view?usp=drive_link"
   },
   {
@@ -7336,6 +7765,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/05/2026",
     "poblacion": 1180,
     "volumen": 450,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1PVBdOGVHSXTInyZMmtSErePp2fYZImH9/view?usp=drive_link"
   },
   {
@@ -7353,6 +7783,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/05/2026",
     "poblacion": 300,
     "volumen": 420,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1KknC5KtJ-lrAGZQ0pbRQSsdWZLvZvMyj/view?usp=drive_link"
   },
   {
@@ -7370,6 +7801,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/06/2026",
     "poblacion": 6250,
     "volumen": 17349.97,
+    "km": 15.62,
     "enlace": "https://drive.google.com/file/d/1s7s300AXdJvktUWM9P4yq38TCJUk_9Eh/view?usp=drive_link"
   },
   {
@@ -7387,6 +7819,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/05/2026",
     "poblacion": 525,
     "volumen": 480,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1iehGO8sh_p_0K4Vzf6A8Bk_XMBWQt2HK/view?usp=drive_link"
   },
   {
@@ -7404,6 +7837,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/05/2026",
     "poblacion": 1500,
     "volumen": 18866.94,
+    "km": 1.54,
     "enlace": "https://drive.google.com/file/d/1eITrfG2XLetfXxrUXhxg0k2d8lNAwgZi/view?usp=drive_link"
   },
   {
@@ -7421,6 +7855,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/06/2026",
     "poblacion": 650,
     "volumen": 15765.94,
+    "km": 0.914,
     "enlace": "https://drive.google.com/file/d/1RteRTpOqsXGHB3AwkBx4S4qMI-4hO55e/view?usp=drive_link"
   },
   {
@@ -7438,6 +7873,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 504,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1110h9xlnq5XZCEr3N3uCChU63PZT_pVO/view?usp=drive_link"
   },
   {
@@ -7455,6 +7891,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/06/2026",
     "poblacion": 200,
     "volumen": 7567,
+    "km": 3.29,
     "enlace": "https://drive.google.com/file/d/1dvjYQXurtDgWg_fUwQHBh-zjiDnBYqV9/view?usp=drive_link"
   },
   {
@@ -7472,6 +7909,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/06/2026",
     "poblacion": 640,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1bi6hJGWGznxPdtFbTCIhqd77Hoar6EOt/view?usp=drive_link"
   },
   {
@@ -7489,6 +7927,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 525,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1D47zuk4yBWi6ukBNzm-W0wA4sZTHgz_3/view?usp=drive_link"
   },
   {
@@ -7506,6 +7945,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/07/2026",
     "poblacion": 840,
     "volumen": 390,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1heT77ObajQO3B4dKMNBw7JGK1tDIa43v/view?usp=drive_link"
   },
   {
@@ -7523,6 +7963,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/07/2026",
     "poblacion": 700,
     "volumen": 18903.11,
+    "km": 0.7,
     "enlace": "https://drive.google.com/file/d/14VlQ_9-wNlgOiAzkVQUBnHgY0OxtJt4I/view?usp=drive_link"
   },
   {
@@ -7540,6 +7981,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/07/2026",
     "poblacion": 200,
     "volumen": 7496.5,
+    "km": 6,
     "enlace": "https://drive.google.com/file/d/17k-hmaju2AD8KBmw8CsdtyLq6Ojr59w6/view?usp=drive_link"
   },
   {
@@ -7557,6 +7999,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/07/2026",
     "poblacion": 504,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1oXz4Q_Dysk-q6NMD5y2lepJIC6XUxueg/view?usp=drive_link"
   },
   {
@@ -7574,6 +8017,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/07/2026",
     "poblacion": 6500,
     "volumen": 15913.14,
+    "km": 10.61,
     "enlace": "https://drive.google.com/file/d/1nUZSnP8fzMMLWIpehTLwjLRONZtU_Lpd/view?usp=drive_link"
   },
   {
@@ -7591,6 +8035,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/08/2026",
     "poblacion": 525,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1MP8n3uIJcUzzjbT8l_-g_tQel-d9Qv9n/view?usp=drive_link"
   },
   {
@@ -7608,6 +8053,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/08/2026",
     "poblacion": 1300,
     "volumen": 10803.48,
+    "km": 0.48,
     "enlace": "https://drive.google.com/file/d/1TrnI_9O94gWePkk3paoLUGXbWlHmjurt/view?usp=drive_link"
   },
   {
@@ -7625,6 +8071,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/07/2026",
     "poblacion": 640,
     "volumen": 510,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1tBDHaI-1Hw8k8w9cYLMLIX8tCEGui6Lb/view?usp=drive_link"
   },
   {
@@ -7642,6 +8089,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/08/2026",
     "poblacion": 504,
     "volumen": 720,
+    "km": 0,
     "enlace": null
   },
   {
@@ -7659,6 +8107,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 200,
     "volumen": 6720,
+    "km": 3,
     "enlace": null
   },
   {
@@ -7676,6 +8125,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/09/2026",
     "poblacion": 525,
     "volumen": 720,
+    "km": 0,
     "enlace": null
   },
   {
@@ -7693,6 +8143,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
     "volumen": 17878.76,
+    "km": 2.33,
     "enlace": null
   },
   {
@@ -7710,6 +8161,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 640,
     "volumen": 720,
+    "km": 0,
     "enlace": null
   },
   {
@@ -7727,6 +8179,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 400,
     "volumen": 5500,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -7744,6 +8197,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/09/2026",
     "poblacion": 504,
     "volumen": 630,
+    "km": 0,
     "enlace": null
   },
   {
@@ -7761,6 +8215,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/09/2026",
     "poblacion": 700,
     "volumen": 8070,
+    "km": 0.205,
     "enlace": null
   },
   {
@@ -7778,6 +8233,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
     "volumen": 4680,
+    "km": 0.49,
     "enlace": null
   },
   {
@@ -7795,6 +8251,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/10/2026",
     "poblacion": 525,
     "volumen": 240,
+    "km": 0,
     "enlace": null
   },
   {
@@ -7812,6 +8269,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/10/2026",
     "poblacion": 640,
     "volumen": 30,
+    "km": 0,
     "enlace": null
   }
 ],
@@ -7831,6 +8289,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 400,
     "volumen": 5400,
+    "km": 0.082,
     "enlace": "https://drive.google.com/file/d/1OzUrBENwmV3r_aUOxDCVjKhxLn39ALBL/view?usp=drive_link"
   },
   {
@@ -7848,6 +8307,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 216,
     "volumen": 10500,
+    "km": 0.3,
     "enlace": null
   }
 ],
@@ -7867,6 +8327,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/01/2026",
     "poblacion": 350,
     "volumen": 3900,
+    "km": 0.13,
     "enlace": null
   },
   {
@@ -7884,6 +8345,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/02/2026",
     "poblacion": 400,
     "volumen": 3850,
+    "km": 0.25,
     "enlace": null
   },
   {
@@ -7901,6 +8363,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 50,
     "volumen": 3120,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -7918,6 +8381,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 400,
     "volumen": 2520,
+    "km": 0.7,
     "enlace": null
   },
   {
@@ -7935,6 +8399,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/02/2026",
     "poblacion": 120,
     "volumen": 105,
+    "km": 0.06,
     "enlace": "https://drive.google.com/file/d/17A6HNw5zILjPiFrs6WI9vkoWjOLPaRAy/view?usp=drive_link"
   },
   {
@@ -7952,6 +8417,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/03/2026",
     "poblacion": 350,
     "volumen": 7800,
+    "km": 0.8,
     "enlace": null
   },
   {
@@ -7969,6 +8435,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 380,
     "volumen": 2640,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -7986,6 +8453,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/03/2026",
     "poblacion": 1000,
     "volumen": 4800,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -8003,6 +8471,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 200,
     "volumen": 9000,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1WQpS06YhsxD-aznZXkP8SPQ7WL0y8xiH/view?usp=drive_link"
   },
   {
@@ -8020,6 +8489,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/05/2026",
     "poblacion": 700,
     "volumen": 14750,
+    "km": 1.55,
     "enlace": null
   },
   {
@@ -8037,6 +8507,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/04/2026",
     "poblacion": 1200,
     "volumen": 10609.59,
+    "km": 3.46,
     "enlace": null
   },
   {
@@ -8054,6 +8525,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 700,
     "volumen": 10125,
+    "km": 0.45,
     "enlace": null
   },
   {
@@ -8071,6 +8543,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/06/2026",
     "poblacion": 400,
     "volumen": 3360,
+    "km": 0.84,
     "enlace": null
   },
   {
@@ -8088,6 +8561,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/07/2026",
     "poblacion": 450,
     "volumen": 8640,
+    "km": 0.53,
     "enlace": null
   },
   {
@@ -8105,6 +8579,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/07/2026",
     "poblacion": 1250,
     "volumen": 13951.77,
+    "km": 2.82,
     "enlace": null
   },
   {
@@ -8122,6 +8597,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/07/2026",
     "poblacion": 100,
     "volumen": 2430,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -8139,6 +8615,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/08/2026",
     "poblacion": 200,
     "volumen": 3800,
+    "km": 0.25,
     "enlace": null
   },
   {
@@ -8156,6 +8633,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/08/2026",
     "poblacion": 800,
     "volumen": 9908.6,
+    "km": 2.1,
     "enlace": null
   },
   {
@@ -8173,6 +8651,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/09/2026",
     "poblacion": 500,
     "volumen": 4900,
+    "km": 0.74,
     "enlace": null
   },
   {
@@ -8190,6 +8669,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/09/2026",
     "poblacion": 900,
     "volumen": 4500,
+    "km": 0.3,
     "enlace": null
   }
 ],
@@ -8209,6 +8689,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/01/2026",
     "poblacion": 1500,
     "volumen": 554.4,
+    "km": 0.07,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8226,6 +8707,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/01/2026",
     "poblacion": 300,
     "volumen": 720,
+    "km": 0.13,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8243,6 +8725,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/02/2026",
     "poblacion": 150,
     "volumen": 2280,
+    "km": 0.38,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8260,6 +8743,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 1000,
     "volumen": 5670,
+    "km": 0.315,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8277,6 +8761,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 100,
     "volumen": 4800,
+    "km": 0.4,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8294,6 +8779,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 100,
     "volumen": 2352,
+    "km": 0.49,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8311,6 +8797,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/03/2026",
     "poblacion": 1500,
     "volumen": 3960,
+    "km": 0.24,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8328,6 +8815,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 1000,
     "volumen": 3896,
+    "km": 0.5,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
@@ -8345,6 +8833,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 1200,
     "volumen": 2232,
+    "km": 0.62,
     "enlace": "https://drive.usercontent.google.com/download?id=1nBnvjtDabrEN-X0EbGr130KdH-NonKGQ&authuser=0&acrobatPromotionSource=gdrive_chrome-list"
   },
   {
@@ -8362,6 +8851,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/04/2026",
     "poblacion": 1000,
     "volumen": 12710,
+    "km": 0.29,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB "
   },
   {
@@ -8379,6 +8869,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/03/2026",
     "poblacion": 1500,
     "volumen": 382.5,
+    "km": 0.15,
     "enlace": "https://drive.usercontent.google.com/download?id=1uLhprTd0NEFbMbsrhAvsUrRTr2XV5Ju0&authuser=0&acrobatPromotionSource=gdrive_chrome-list"
   },
   {
@@ -8396,6 +8887,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/04/2026",
     "poblacion": 1200,
     "volumen": 235.08,
+    "km": 0.065,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8413,6 +8905,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/05/2026",
     "poblacion": 1000,
     "volumen": 16380,
+    "km": 0.38,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB "
   },
   {
@@ -8430,6 +8923,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/05/2026",
     "poblacion": 40,
     "volumen": 3200,
+    "km": 0.16,
     "enlace": "https://drive.usercontent.google.com/download?id=1G3tW5Wbnpl-zrOdoUZRj4hMcBMFZw78D&authuser=0&acrobatPromotionSource=gdrive_chrome-list"
   },
   {
@@ -8447,6 +8941,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/05/2026",
     "poblacion": 40,
     "volumen": 7776,
+    "km": 0.27,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
@@ -8464,6 +8959,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/06/2026",
     "poblacion": 3248,
     "volumen": 6120,
+    "km": 0.4,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
@@ -8481,6 +8977,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/07/2026",
     "poblacion": 500,
     "volumen": 4480,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -8498,6 +8995,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/07/2026",
     "poblacion": null,
     "volumen": 4590,
+    "km": 0.3,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
@@ -8515,6 +9013,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/07/2026",
     "poblacion": null,
     "volumen": 1980,
+    "km": 0.55,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8532,6 +9031,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 869,
     "volumen": 3822,
+    "km": 0.39,
     "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
@@ -8549,6 +9049,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/08/2026",
     "poblacion": 165,
     "volumen": 1468.5,
+    "km": 0.083,
     "enlace": null
   },
   {
@@ -8566,6 +9067,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/08/2026",
     "poblacion": 267,
     "volumen": 1837.96,
+    "km": 0.173,
     "enlace": null
   },
   {
@@ -8582,7 +9084,8 @@ const mapaIntervenciones = {
     "fechaInicio": "11/09/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 165,
-    "volumen": 0,
+    "volumen": 345,
+    "km": 0.07,
     "enlace": null
   }
 ],
@@ -8602,6 +9105,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/09/2025",
     "poblacion": 135,
     "volumen": 735,
+    "km": 2.727,
     "enlace": null
   },
   {
@@ -8619,6 +9123,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/02/2026",
     "poblacion": 5000,
     "volumen": 660,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1-ve2ArkZ4UY4uLNXEb3xx9zq9B2f7rn_/view?usp=drive_link"
   },
   {
@@ -8636,6 +9141,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/03/2026",
     "poblacion": 415,
     "volumen": 11550,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/17JBQ7M-tD0qm_Ko4EJSIQy0jOppDK3Sj/view?usp=drive_link"
   },
   {
@@ -8653,6 +9159,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/01/2026",
     "poblacion": 1800,
     "volumen": 486,
+    "km": 0.18,
     "enlace": "https://drive.google.com/file/d/1s1GaSteUMPzSOhwopOuGKfb1O7ml5cXf/view?usp=drive_link"
   },
   {
@@ -8670,6 +9177,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 2568,
     "volumen": 835,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1-D311UXuJ9OOfL6lAS0JcKIqu4s75zuD/view?usp=drive_link"
   },
   {
@@ -8687,6 +9195,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 387,
     "volumen": 4470,
+    "km": 6,
     "enlace": "https://drive.google.com/file/d/1VZ0KOT4zj0v1IhFW6ek5oTimNt2B39-p/view?usp=drive_link"
   },
   {
@@ -8704,6 +9213,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/03/2026",
     "poblacion": 371,
     "volumen": 9100,
+    "km": 5.324,
     "enlace": "https://drive.google.com/file/d/1gMrdcFFFlyl5ssvesKBYzGD-bGlzWuUt/view?usp=drive_link"
   },
   {
@@ -8721,6 +9231,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 1000,
     "volumen": 11120,
+    "km": 0.6,
     "enlace": "https://drive.google.com/file/d/1BNvyhPlFFQB8H8v8q6OiPlYLonCynwrW/view?usp=drive_link"
   },
   {
@@ -8738,6 +9249,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/02/2026",
     "poblacion": 260,
     "volumen": 413.4,
+    "km": 0.065,
     "enlace": "https://drive.google.com/file/d/1v3uuH6ZQiJe1JQdvKGAlElNIV8wD6uK4/view?usp=drive_link"
   },
   {
@@ -8755,6 +9267,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/03/2026",
     "poblacion": 2240,
     "volumen": 2902,
+    "km": 5.5,
     "enlace": null
   },
   {
@@ -8772,6 +9285,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/06/2026",
     "poblacion": 475,
     "volumen": 9450,
+    "km": 3.435,
     "enlace": null
   },
   {
@@ -8789,6 +9303,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 500,
     "volumen": 450.3,
+    "km": 0.49,
     "enlace": "https://drive.google.com/file/d/1eixQ48wqlJEQ92olQTN9czKfNgB9E0rR/view?usp=drive_link"
   },
   {
@@ -8806,6 +9321,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 233,
     "volumen": 11500,
+    "km": 5.275,
     "enlace": "https://drive.google.com/file/d/1OzUrBENwmV3r_aUOxDCVjKhxLn39ALBL/view?usp=drive_linkhttps://drive.google.com/file/d/1OzUrBENwmV3r_aUOxDCVjKhxLn39ALBL/view?usp=drive_link"
   },
   {
@@ -8823,6 +9339,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 270,
     "volumen": 5170,
+    "km": 0.88,
     "enlace": "https://drive.google.com/file/d/12_Xiq_cI8-zV7uVUOl6LW5AiLleUHcQ1/view?usp=drive_link"
   },
   {
@@ -8840,6 +9357,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 265,
     "volumen": 255,
+    "km": 0.05,
     "enlace": null
   },
   {
@@ -8857,6 +9375,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 1700,
     "volumen": 2850.5,
+    "km": 9.1,
     "enlace": null
   },
   {
@@ -8874,6 +9393,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/03/2026",
     "poblacion": 80,
     "volumen": 4500,
+    "km": 0.5,
     "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
   },
   {
@@ -8891,6 +9411,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/04/2026",
     "poblacion": 356,
     "volumen": 3060.09,
+    "km": 4.335,
     "enlace": "https://drive.google.com/file/d/1sOAvHum0eYdzeRaC8TogHt5xczZ10DOJ/view?usp=drive_link"
   },
   {
@@ -8908,6 +9429,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/03/2026",
     "poblacion": 600,
     "volumen": 14080,
+    "km": 0.8,
     "enlace": null
   },
   {
@@ -8925,6 +9447,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/03/2026",
     "poblacion": 256,
     "volumen": 2475,
+    "km": 1,
     "enlace": "https://drive.google.com/file/d/1oHGpCZ1a8Um2kKweX1NI41a05ELIA15q/view?usp=drive_link"
   },
   {
@@ -8942,6 +9465,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 813,
     "volumen": 4650,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1Le_7RIHr7ItaeTz3DCtuK3JsX3Ai4dsa/view?usp=drive_link"
   },
   {
@@ -8959,6 +9483,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/04/2026",
     "poblacion": 498,
     "volumen": 1995,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1X6XuvJKPzFMyL-7NHxZyTPTHOV_pIDvL/view?usp=drive_link"
   },
   {
@@ -8976,6 +9501,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/05/2026",
     "poblacion": 187,
     "volumen": 3855,
+    "km": 4.53,
     "enlace": "https://drive.google.com/file/d/18-4_m7lxR7BLEQBqMkBn6Kz6tydOKLkk/view?usp=drive_link"
   },
   {
@@ -8993,6 +9519,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 525,
     "volumen": 5904,
+    "km": 0.53,
     "enlace": null
   },
   {
@@ -9010,6 +9537,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/05/2026",
     "poblacion": 375,
     "volumen": 660,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/19HdTrLW2jBs2XgZ5Jxy8UYBrhNxsv-mB/view?usp=drive_link"
   },
   {
@@ -9027,6 +9555,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 280,
     "volumen": 2170,
+    "km": 2,
     "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
   },
   {
@@ -9044,6 +9573,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 495,
     "volumen": 4300,
+    "km": 3,
     "enlace": "https://drive.google.com/file/d/1XobCE6yzxMPNNxyuAN95hTRtHn3CrA5w/view?usp=drive_link"
   },
   {
@@ -9061,6 +9591,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/04/2026",
     "poblacion": 371,
     "volumen": 4650,
+    "km": 2.615,
     "enlace": "https://drive.google.com/file/d/14ZpjpW27QHsAR2EbyqNII9yehTJSEXiU/view?usp=drive_link"
   },
   {
@@ -9078,6 +9609,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 550,
     "volumen": 3528,
+    "km": 9.4,
     "enlace": null
   },
   {
@@ -9095,6 +9627,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/05/2026",
     "poblacion": 750,
     "volumen": 3415,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1meR-gpNBM_U7ULPXy5hNQSKn2S5t7FLA/view?usp=drive_link"
   },
   {
@@ -9112,6 +9645,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/04/2026",
     "poblacion": 350,
     "volumen": 10395,
+    "km": 0.77,
     "enlace": "https://drive.google.com/file/d/1xwozuGxMjgxJZM9iAT7m1e-03B4qGGvw/view?usp=drive_link"
   },
   {
@@ -9129,6 +9663,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/05/2026",
     "poblacion": 455,
     "volumen": 7725,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1r_T9J7oneMfayiJSty0UtKS_M8c1VTyu/view?usp=drive_link"
   },
   {
@@ -9146,6 +9681,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/04/2026",
     "poblacion": 233,
     "volumen": 840,
+    "km": 0.05,
     "enlace": null
   },
   {
@@ -9163,6 +9699,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/04/2026",
     "poblacion": 250,
     "volumen": 8100,
+    "km": 1.128,
     "enlace": "https://drive.google.com/file/d/1rtTXD4-oLlxh3rNnoRCBh8KUbl6CY_ye/view?usp=drive_link"
   },
   {
@@ -9180,6 +9717,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/06/2026",
     "poblacion": 294,
     "volumen": 11650,
+    "km": 3.222,
     "enlace": null
   },
   {
@@ -9197,6 +9735,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/05/2026",
     "poblacion": 350,
     "volumen": 11040,
+    "km": 0.69,
     "enlace": "https://drive.google.com/file/d/1_zqWezW22HZ1hsla8SiDrYxqnUQyy0gP/view?usp=drive_link"
   },
   {
@@ -9214,6 +9753,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/04/2026",
     "poblacion": 250,
     "volumen": 2528.75,
+    "km": 0.19,
     "enlace": "https://drive.google.com/file/d/1mQv26IaHcDXKoZVC1ltXor-Ol3LodQ_n/view?usp=drive_link"
   },
   {
@@ -9231,6 +9771,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/05/2026",
     "poblacion": 120,
     "volumen": 2247,
+    "km": 0.21,
     "enlace": null
   },
   {
@@ -9248,6 +9789,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/05/2026",
     "poblacion": 583,
     "volumen": 1941.8,
+    "km": 11.6,
     "enlace": "https://drive.google.com/file/d/1tPMOotgICMrTWGUZe3LSK1nrdqCb1eyr/view?usp=drive_link"
   },
   {
@@ -9265,6 +9807,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/05/2026",
     "poblacion": 251,
     "volumen": 2205,
+    "km": 1.2,
     "enlace": "https://drive.google.com/file/d/1Z0zzWU0G3a1FEOHBOu7jl40P_5cOFpoQ/view?usp=drive_link"
   },
   {
@@ -9282,6 +9825,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/05/2026",
     "poblacion": 2804,
     "volumen": 5500,
+    "km": 5.5,
     "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
   },
   {
@@ -9299,6 +9843,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/06/2026",
     "poblacion": 9361,
     "volumen": 6310,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -9316,6 +9861,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/06/2026",
     "poblacion": 209,
     "volumen": 4500,
+    "km": 1.85,
     "enlace": null
   },
   {
@@ -9333,6 +9879,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 5000,
     "volumen": 660,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9350,6 +9897,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/06/2026",
     "poblacion": 270,
     "volumen": 16000,
+    "km": 0.94,
     "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
@@ -9367,6 +9915,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/06/2026",
     "poblacion": 255,
     "volumen": 5005,
+    "km": 5.484,
     "enlace": null
   },
   {
@@ -9384,6 +9933,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/08/2026",
     "poblacion": 415,
     "volumen": 12675,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9401,6 +9951,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/06/2026",
     "poblacion": 300,
     "volumen": 4400,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9418,6 +9969,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/06/2026",
     "poblacion": 216,
     "volumen": 4139,
+    "km": 8.5,
     "enlace": "https://drive.google.com/file/d/1axqYn3h3StgkhjGrAbstLaZQdAY7HL5e/view?usp=drive_link"
   },
   {
@@ -9435,6 +9987,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/07/2026",
     "poblacion": 100,
     "volumen": 15760,
+    "km": 1.2,
     "enlace": null
   },
   {
@@ -9452,6 +10005,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/07/2026",
     "poblacion": 356,
     "volumen": 870,
+    "km": 0.87,
     "enlace": null
   },
   {
@@ -9469,6 +10023,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/09/2026",
     "poblacion": 438,
     "volumen": 4025,
+    "km": 3.35,
     "enlace": null
   },
   {
@@ -9486,6 +10041,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/07/2026",
     "poblacion": 5000,
     "volumen": 660,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9503,6 +10059,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/06/2026",
     "poblacion": 4228,
     "volumen": 5220,
+    "km": 7.25,
     "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
   },
   {
@@ -9520,6 +10077,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/06/2026",
     "poblacion": 50,
     "volumen": 2485.92,
+    "km": 6.38,
     "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
@@ -9537,6 +10095,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/07/2026",
     "poblacion": 310,
     "volumen": 5460,
+    "km": 0.14,
     "enlace": null
   },
   {
@@ -9554,6 +10113,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/08/2026",
     "poblacion": 475,
     "volumen": 11005,
+    "km": 5.045,
     "enlace": null
   },
   {
@@ -9571,6 +10131,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/09/2026",
     "poblacion": 274,
     "volumen": 2550,
+    "km": 2.55,
     "enlace": null
   },
   {
@@ -9588,6 +10149,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/08/2026",
     "poblacion": 458,
     "volumen": 4330,
+    "km": 3.375,
     "enlace": null
   },
   {
@@ -9605,6 +10167,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/08/2026",
     "poblacion": 4800,
     "volumen": 8000,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -9622,6 +10185,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/08/2026",
     "poblacion": 700,
     "volumen": 1428,
+    "km": 0.07,
     "enlace": null
   },
   {
@@ -9639,6 +10203,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/08/2026",
     "poblacion": 1267,
     "volumen": 5515,
+    "km": 2.64,
     "enlace": null
   },
   {
@@ -9656,6 +10221,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/07/2026",
     "poblacion": 70,
     "volumen": 4403.5,
+    "km": 0.17,
     "enlace": null
   },
   {
@@ -9673,6 +10239,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/08/2026",
     "poblacion": 280,
     "volumen": 465,
+    "km": 1.275,
     "enlace": null
   },
   {
@@ -9690,6 +10257,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/09/2026",
     "poblacion": 625,
     "volumen": 2410,
+    "km": 0.71,
     "enlace": null
   },
   {
@@ -9707,6 +10275,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 5000,
     "volumen": 660,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9724,6 +10293,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 165,
     "volumen": 1950,
+    "km": 1.707,
     "enlace": null
   },
   {
@@ -9741,6 +10311,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/09/2026",
     "poblacion": 400,
     "volumen": 16380,
+    "km": 0.42,
     "enlace": null
   },
   {
@@ -9758,6 +10329,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/09/2026",
     "poblacion": 750,
     "volumen": 3960,
+    "km": 0.4,
     "enlace": null
   },
   {
@@ -9775,6 +10347,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/09/2026",
     "poblacion": 500,
     "volumen": 585,
+    "km": 0.585,
     "enlace": null
   },
   {
@@ -9792,6 +10365,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/09/2026",
     "poblacion": 500,
     "volumen": 3480,
+    "km": 15,
     "enlace": null
   },
   {
@@ -9809,6 +10383,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/09/2026",
     "poblacion": 170,
     "volumen": 1005,
+    "km": 1.005,
     "enlace": null
   },
   {
@@ -9826,6 +10401,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/10/2026",
     "poblacion": 553,
     "volumen": 4446.23,
+    "km": 6.587,
     "enlace": null
   },
   {
@@ -9843,6 +10419,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/09/2026",
     "poblacion": 550,
     "volumen": 800,
+    "km": 0.02,
     "enlace": null
   }
 ],
@@ -9864,6 +10441,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/01/2026",
     "poblacion": 204,
     "volumen": 735,
+    "km": 0.037,
     "enlace": null
   },
   {
@@ -9881,6 +10459,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/01/2026",
     "poblacion": 198,
     "volumen": 14985,
+    "km": 0.759,
     "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
   },
   {
@@ -9898,6 +10477,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/02/2026",
     "poblacion": 541,
     "volumen": 1321,
+    "km": 0.132,
     "enlace": null
   },
   {
@@ -9915,6 +10495,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 210,
     "volumen": 3603,
+    "km": 5.331,
     "enlace": null
   },
   {
@@ -9932,6 +10513,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 120,
     "volumen": 9153,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -9949,6 +10531,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/03/2026",
     "poblacion": 345,
     "volumen": 4394,
+    "km": 0.228,
     "enlace": null
   },
   {
@@ -9966,6 +10549,7 @@ const mapaIntervenciones = {
     "fechaFin": "15/03/2026",
     "poblacion": 100,
     "volumen": 2051,
+    "km": 0.075,
     "enlace": "https://drive.google.com/drive/u/0/folders/1ZtuYR8U9GZkWZT_Yg_Tcy3iJ3KQceL0I"
   },
   {
@@ -9983,6 +10567,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/03/2026",
     "poblacion": 120,
     "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
@@ -10000,6 +10585,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/04/2026",
     "poblacion": 345,
     "volumen": 14830,
+    "km": 0.413,
     "enlace": null
   },
   {
@@ -10017,6 +10603,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/04/2026",
     "poblacion": 210,
     "volumen": 2096,
+    "km": 1.505,
     "enlace": null
   },
   {
@@ -10034,6 +10621,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/04/2026",
     "poblacion": 200,
     "volumen": 2099,
+    "km": 1.883,
     "enlace": null
   },
   {
@@ -10051,6 +10639,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/05/2026",
     "poblacion": 85,
     "volumen": 5143,
+    "km": 0.18,
     "enlace": null
   },
   {
@@ -10068,6 +10657,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/05/2026",
     "poblacion": 800,
     "volumen": 353,
+    "km": 0.04,
     "enlace": null
   },
   {
@@ -10085,6 +10675,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/06/2026",
     "poblacion": 115,
     "volumen": 16357,
+    "km": 0.491,
     "enlace": null
   },
   {
@@ -10102,6 +10693,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/06/2026",
     "poblacion": 540,
     "volumen": 22379,
+    "km": 0.458,
     "enlace": null
   },
   {
@@ -10119,6 +10711,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/06/2026",
     "poblacion": 125,
     "volumen": 28040,
+    "km": 0.504,
     "enlace": null
   },
   {
@@ -10136,6 +10729,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/07/2026",
     "poblacion": 198,
     "volumen": 12210,
+    "km": 0.469,
     "enlace": null
   },
   {
@@ -10153,6 +10747,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/08/2026",
     "poblacion": 2300,
     "volumen": 5780,
+    "km": 0.428,
     "enlace": null
   },
   {
@@ -10170,6 +10765,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/07/2026",
     "poblacion": 140,
     "volumen": 9410,
+    "km": 0.653,
     "enlace": null
   },
   {
@@ -10187,6 +10783,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/08/2026",
     "poblacion": 198,
     "volumen": 6250,
+    "km": 0.362,
     "enlace": null
   },
   {
@@ -10204,6 +10801,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/08/2026",
     "poblacion": 510,
     "volumen": 14115,
+    "km": 0.823,
     "enlace": null
   },
   {
@@ -10221,6 +10819,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 350,
     "volumen": 16970,
+    "km": 0.321,
     "enlace": null
   },
   {
@@ -10238,6 +10837,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/09/2026",
     "poblacion": 245,
     "volumen": 4085,
+    "km": 1.18,
     "enlace": null
   },
   {
@@ -10255,6 +10855,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/09/2026",
     "poblacion": 134,
     "volumen": 1960,
+    "km": 0.044,
     "enlace": null
   },
   {
@@ -10272,6 +10873,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/09/2026",
     "poblacion": 280,
     "volumen": 3554,
+    "km": 0.906,
     "enlace": null
   }
 ],
@@ -10291,6 +10893,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/02/2026",
     "poblacion": 9120,
     "volumen": 3504,
+    "km": 0.35,
     "enlace": "https://drive.google.com/file/d/1fDHu8qLQuCyi49r8ZxJdF7y1Nkwb40O7/view?usp=drive_link"
   },
   {
@@ -10308,6 +10911,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/02/2026",
     "poblacion": 9120,
     "volumen": 3375,
+    "km": 1.588,
     "enlace": "https://drive.google.com/file/d/1lSs9X3ok8qEwsqCHPf3XZv53Qu5P5TC-/view?usp=drive_link"
   }
 ],
@@ -10327,6 +10931,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/01/2026",
     "poblacion": 750,
     "volumen": 3740,
+    "km": 0.475,
     "enlace": "https://drive.google.com/drive/folders/16t8TJ2aJ0wP09eoDwOP3Vf-AaK09VeJ4"
   },
   {
@@ -10344,6 +10949,7 @@ const mapaIntervenciones = {
     "fechaFin": "02/03/2026",
     "poblacion": 1200,
     "volumen": 2150,
+    "km": 1.125,
     "enlace": "https://drive.google.com/drive/folders/1CJuk4twVcCKvRfS-VfmFtA-alFNMk_n0"
   },
   {
@@ -10361,6 +10967,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/03/2026",
     "poblacion": 240,
     "volumen": 3290,
+    "km": 0.364,
     "enlace": null
   },
   {
@@ -10378,6 +10985,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/04/2026",
     "poblacion": 330,
     "volumen": 18550,
+    "km": 0.553,
     "enlace": "https://drive.google.com/drive/folders/1ki4t4jFuDoQ2k8BzaKaDn1qGrNPzKArD"
   },
   {
@@ -10395,6 +11003,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 4200,
     "volumen": 11110,
+    "km": 0.216,
     "enlace": null
   },
   {
@@ -10412,6 +11021,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 300,
     "volumen": 3340,
+    "km": 0.956,
     "enlace": null
   },
   {
@@ -10429,6 +11039,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/03/2026",
     "poblacion": 930,
     "volumen": 2100,
+    "km": 0.44,
     "enlace": "https://drive.google.com/drive/folders/1Emtecd5hAnLI--cEJAGz3UcIVFzgDuV6"
   },
   {
@@ -10446,6 +11057,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/04/2026",
     "poblacion": 1050,
     "volumen": 7974,
+    "km": 1.098,
     "enlace": "https://drive.google.com/drive/folders/1tOpuQmDAeQzAjKp7ydVH6HDB3Bwy30B8"
   },
   {
@@ -10463,6 +11075,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/03/2026",
     "poblacion": 120,
     "volumen": 2350,
+    "km": 0.24,
     "enlace": "https://drive.google.com/drive/folders/194kl-TQLzNBtu1PW-ZeK9OaIKDFXRc_z"
   },
   {
@@ -10480,6 +11093,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/03/2026",
     "poblacion": 300,
     "volumen": 1020,
+    "km": 0.425,
     "enlace": "https://drive.google.com/drive/folders/1v5YNjSYutBPWJs7rd28gtj91SA0XznmV"
   },
   {
@@ -10497,6 +11111,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/05/2026",
     "poblacion": 380,
     "volumen": 9965,
+    "km": 0.62,
     "enlace": "https://drive.google.com/drive/folders/1PzXXNKtzJZv9v_FMgmJE1Wvwe1DxVIKg"
   },
   {
@@ -10514,6 +11129,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/05/2026",
     "poblacion": 138,
     "volumen": 3907,
+    "km": 0.25,
     "enlace": "https://drive.google.com/drive/folders/1yKHIhERbuzm2PDsLgrWGHSWrRCcuOYci"
   },
   {
@@ -10531,6 +11147,7 @@ const mapaIntervenciones = {
     "fechaFin": "16/06/2026",
     "poblacion": 1280,
     "volumen": 1670,
+    "km": 0.13,
     "enlace": null
   },
   {
@@ -10548,6 +11165,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/07/2026",
     "poblacion": 420,
     "volumen": 3120.4,
+    "km": 0.32,
     "enlace": null
   },
   {
@@ -10565,6 +11183,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/08/2026",
     "poblacion": 3000,
     "volumen": 1320,
+    "km": 0.127,
     "enlace": null
   },
   {
@@ -10582,6 +11201,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/08/2026",
     "poblacion": 270,
     "volumen": 5475,
+    "km": 0.73,
     "enlace": null
   },
   {
@@ -10599,6 +11219,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/08/2026",
     "poblacion": 300,
     "volumen": 3220,
+    "km": 0.92,
     "enlace": null
   },
   {
@@ -10616,6 +11237,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/09/2026",
     "poblacion": 3000,
     "volumen": 4005,
+    "km": 0.185,
     "enlace": null
   },
   {
@@ -10633,6 +11255,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/09/2026",
     "poblacion": 672,
     "volumen": 4815,
+    "km": 0.55,
     "enlace": null
   }
 ],
@@ -10652,6 +11275,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/02/2026",
     "poblacion": 1500,
     "volumen": 4315,
+    "km": 0.432,
     "enlace": "https://drive.google.com/file/d/1WSdYVL5InRoKb5juhjtwMlGgMC1CO9Nq/view?usp=drive_link"
   },
   {
@@ -10669,6 +11293,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/02/2026",
     "poblacion": 21000,
     "volumen": 4280,
+    "km": 0.428,
     "enlace": "https://drive.google.com/file/d/1aNkQL35SVQSB3SLN_YvfDnkyPfljOzzA/view?usp=drive_link"
   },
   {
@@ -10686,6 +11311,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/02/2026",
     "poblacion": 1080,
     "volumen": 14032,
+    "km": 1.102,
     "enlace": "https://drive.google.com/file/d/1326k9DyODhV38veJzyG5RPGKKVweoWux/view?usp=drive_link"
   },
   {
@@ -10703,6 +11329,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/02/2026",
     "poblacion": 21000,
     "volumen": 4950,
+    "km": 0.213,
     "enlace": "https://drive.google.com/file/d/16pNaSmQPaL1ws3qZ486ncGRLYJYWtFy_/view?usp=drive_link"
   },
   {
@@ -10720,6 +11347,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/03/2026",
     "poblacion": 25200,
     "volumen": 23250,
+    "km": 0.776,
     "enlace": "https://drive.google.com/file/d/13gPnDYP3A0bAvmW_-5i8ECZDoWGf1WPz/view?usp=drive_link"
   },
   {
@@ -10737,6 +11365,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/03/2026",
     "poblacion": 21000,
     "volumen": 14540,
+    "km": 2.4,
     "enlace": "https://drive.google.com/file/d/1Bqtdm1egWu5fbSuA5gtwBXDFiTVJj1eH/view?usp=drive_link"
   },
   {
@@ -10754,6 +11383,7 @@ const mapaIntervenciones = {
     "fechaFin": "24/03/2026",
     "poblacion": 1080,
     "volumen": 7175,
+    "km": 0.463,
     "enlace": "https://drive.google.com/file/d/1uCfTqFPXCpTKiN19upbnjWKN3ath3EWa/view?usp=drive_link"
   },
   {
@@ -10771,6 +11401,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/03/2026",
     "poblacion": 21000,
     "volumen": 3340,
+    "km": 0.537,
     "enlace": "https://drive.google.com/file/d/1fmuOH_hqOHlBQ8BMsMjSqwLbs9F4s2ge/view?usp=drive_link"
   },
   {
@@ -10788,6 +11419,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/05/2026",
     "poblacion": 6960,
     "volumen": 6240,
+    "km": 0.482,
     "enlace": "https://drive.google.com/file/d/1xhT9f-_69KIB9dDnqNdyryF4L6c-U_76/view?usp=drive_link"
   },
   {
@@ -10805,6 +11437,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 25200,
     "volumen": 9810,
+    "km": 0.759,
     "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
   },
   {
@@ -10822,6 +11455,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/04/2026",
     "poblacion": 60102,
     "volumen": 8710,
+    "km": 1.311,
     "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
   },
   {
@@ -10839,6 +11473,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/04/2026",
     "poblacion": 1080,
     "volumen": 10540,
+    "km": 2.174,
     "enlace": "https://drive.google.com/file/d/1tdHgD7ZR8dSKOkUX26YSufEFGfdi2aSa/view?usp=drive_link"
   },
   {
@@ -10856,6 +11491,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/04/2026",
     "poblacion": 139200,
     "volumen": 1233,
+    "km": 0.169,
     "enlace": "https://drive.google.com/file/d/1T63weDT46ikQvzU0pHEBk0RgKwe1H3Zg/view?usp=drive_link"
   },
   {
@@ -10873,6 +11509,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/04/2026",
     "poblacion": 21000,
     "volumen": 6850,
+    "km": 1.328,
     "enlace": "https://drive.google.com/file/d/1RiN9Lw6N2MsKkwWeh1Nty2OEjpyMTDji/view?usp=drive_link"
   },
   {
@@ -10890,6 +11527,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/04/2026",
     "poblacion": 21000,
     "volumen": 1375,
+    "km": 0.194,
     "enlace": "https://drive.google.com/file/d/1qt1PT2UHMfpqR7qEykyOd2LGSpcricQx/view?usp=drive_link"
   },
   {
@@ -10907,6 +11545,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/04/2026",
     "poblacion": 25200,
     "volumen": 11610,
+    "km": 0.498,
     "enlace": "https://drive.google.com/file/d/15_MbHQehERzP-dWv7-Y8Zns5kp7CL9SH/view?usp=drive_link"
   },
   {
@@ -10924,6 +11563,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/06/2026",
     "poblacion": 60102,
     "volumen": 18340,
+    "km": 1.782,
     "enlace": "https://drive.google.com/file/d/18lP8qAjXWEuM8BBpYWFBPzprtPfEwELl/view?usp=drive_link"
   },
   {
@@ -10941,6 +11581,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/05/2026",
     "poblacion": 25200,
     "volumen": 13990,
+    "km": 0.648,
     "enlace": "https://drive.google.com/file/d/1Oa8Bf8tl6yL03PnhXkFlyTMfR1um57WF/view?usp=drive_link"
   },
   {
@@ -10958,6 +11599,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/05/2026",
     "poblacion": 1500,
     "volumen": 6165,
+    "km": 0.387,
     "enlace": "https://drive.google.com/file/d/1hxSls4WpW9gPYf1sWkwRAoflj3cNEG87/view?usp=drive_link"
   },
   {
@@ -10975,6 +11617,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/05/2026",
     "poblacion": 1080,
     "volumen": 2000,
+    "km": 0.15,
     "enlace": "https://drive.google.com/file/d/11pzh7pUvA_nsg2qQVCeZWEJ9RlXAcj3d/view?usp=drive_link"
   },
   {
@@ -10992,6 +11635,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/06/2026",
     "poblacion": 12000,
     "volumen": 4640,
+    "km": 1.163,
     "enlace": null
   },
   {
@@ -11009,6 +11653,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/06/2026",
     "poblacion": 2000,
     "volumen": 2500,
+    "km": 0.473,
     "enlace": "https://drive.google.com/file/d/1vVW8iaw0DUiDu2rb7Jvhpen9xe4ThzIR/view?usp=drive_link"
   },
   {
@@ -11026,6 +11671,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/07/2026",
     "poblacion": 2000,
     "volumen": 2610,
+    "km": 0.36,
     "enlace": null
   },
   {
@@ -11043,6 +11689,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/07/2026",
     "poblacion": 15000,
     "volumen": 1925,
+    "km": 0.44,
     "enlace": null
   },
   {
@@ -11060,6 +11707,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/07/2026",
     "poblacion": 21,
     "volumen": 1795,
+    "km": 0.1,
     "enlace": "https://drive.google.com/file/d/165jOAMK4854m6tdhfCMU6g7rIrdQn5J7/view?usp=drive_link"
   },
   {
@@ -11077,6 +11725,7 @@ const mapaIntervenciones = {
     "fechaFin": "04/08/2026",
     "poblacion": 1250,
     "volumen": 3395,
+    "km": 0.565,
     "enlace": null
   },
   {
@@ -11094,6 +11743,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/07/2026",
     "poblacion": 89,
     "volumen": 14895,
+    "km": 0.16,
     "enlace": null
   },
   {
@@ -11111,6 +11761,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/07/2026",
     "poblacion": 25,
     "volumen": 2250,
+    "km": 0.134,
     "enlace": null
   },
   {
@@ -11128,6 +11779,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/07/2026",
     "poblacion": 63,
     "volumen": 3100,
+    "km": 0.16,
     "enlace": "https://drive.google.com/file/d/1VvxnQx-Q4BNe1SsiDRWwAdczCfakyO-3/view?usp=drive_link"
   },
   {
@@ -11145,6 +11797,7 @@ const mapaIntervenciones = {
     "fechaFin": "17/08/2026",
     "poblacion": 113,
     "volumen": 21894,
+    "km": 0.23,
     "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
   },
   {
@@ -11162,6 +11815,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 210,
     "volumen": 11865,
+    "km": 0.011,
     "enlace": null
   },
   {
@@ -11179,6 +11833,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 175,
     "volumen": 10215,
+    "km": 1.094,
     "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
   },
   {
@@ -11196,6 +11851,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/08/2026",
     "poblacion": 1580,
     "volumen": 120,
+    "km": 0.331,
     "enlace": null
   },
   {
@@ -11213,6 +11869,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/08/2026",
     "poblacion": 402,
     "volumen": 13630,
+    "km": 0.306,
     "enlace": null
   },
   {
@@ -11230,6 +11887,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/10/2026",
     "poblacion": 360,
     "volumen": 4970,
+    "km": 2.56,
     "enlace": null
   },
   {
@@ -11247,6 +11905,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/10/2026",
     "poblacion": 336,
     "volumen": 3860,
+    "km": 1.39,
     "enlace": null
   },
   {
@@ -11264,6 +11923,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/10/2026",
     "poblacion": 595,
     "volumen": 3630,
+    "km": 1.74,
     "enlace": null
   }
 ],
@@ -11283,6 +11943,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/02/2026",
     "poblacion": 1000,
     "volumen": 1100,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1_OfOtDNQKL8j5WE2lqgrFkGY_PGPHewp"
   },
   {
@@ -11300,6 +11961,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/02/2026",
     "poblacion": 1053,
     "volumen": 960,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1E98X_E6zUFmTC682L5Aw7l4sfrTzdwmd"
   },
   {
@@ -11317,6 +11979,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/03/2026",
     "poblacion": 4200,
     "volumen": 3045,
+    "km": 1.8,
     "enlace": "https://drive.google.com/drive/folders/1fOzg_ufsizBV3PBgClzN37Rex-OhqEcY"
   },
   {
@@ -11334,6 +11997,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/03/2026",
     "poblacion": 4300,
     "volumen": 4560,
+    "km": 3.8,
     "enlace": "https://drive.google.com/drive/folders/1uoVhICUX8bqYS3GZSGKAdl4l-LHm1-7m"
   },
   {
@@ -11351,6 +12015,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/03/2026",
     "poblacion": 3500,
     "volumen": 2660,
+    "km": 1.05,
     "enlace": "https://drive.google.com/drive/folders/1J0-vT2-V8L7fd62UHi_aWchs9ztKN_60"
   },
   {
@@ -11368,6 +12033,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/04/2026",
     "poblacion": 1000,
     "volumen": 810,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/17NdT5pjzj3QisSdZWBKFKWgB8ww9NJPw"
   },
   {
@@ -11385,6 +12051,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 3900,
     "volumen": 3960,
+    "km": 3.3,
     "enlace": "https://drive.google.com/drive/folders/11jsVbHXNcpvx-ghx72t1e05f3c_v5YFi"
   },
   {
@@ -11402,6 +12069,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 4000,
     "volumen": 2870,
+    "km": 1.75,
     "enlace": "https://drive.google.com/drive/folders/1Ns7kK9KdlvhvTRdNK5VEBiqCioG_tFA9"
   },
   {
@@ -11419,6 +12087,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/05/2026",
     "poblacion": 3500,
     "volumen": 2680,
+    "km": 1.4,
     "enlace": "https://drive.google.com/drive/folders/1Edb3G0yhOrrFsyyOyerBOyzOQnSB1xVA"
   },
   {
@@ -11436,6 +12105,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/07/2026",
     "poblacion": 1000,
     "volumen": 1720,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1R7x6xQHL2P33W2u8bErq5S4EwCNRpUeT"
   },
   {
@@ -11453,6 +12123,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/07/2026",
     "poblacion": 1154,
     "volumen": 810,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1ncQzD2FFQpMunPYnYZzlf1NyUSiGeAKE"
   },
   {
@@ -11470,6 +12141,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/06/2026",
     "poblacion": 3000,
     "volumen": 2380,
+    "km": 1.35,
     "enlace": "https://drive.google.com/drive/folders/102BeR10zt90NDKfzSW6huMoK47m9rQrL"
   },
   {
@@ -11487,6 +12159,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/06/2026",
     "poblacion": 3700,
     "volumen": 2450,
+    "km": 1.6,
     "enlace": "https://drive.google.com/drive/folders/1RFq-tNtO0d17M_FowsxIX_7aqbZfmqPZ"
   },
   {
@@ -11504,6 +12177,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/07/2026",
     "poblacion": 2000,
     "volumen": 2310,
+    "km": 1.65,
     "enlace": "https://drive.google.com/drive/folders/1rTxNNQGUToBR041e1R3Zcz4FbzA1sMA5"
   },
   {
@@ -11521,6 +12195,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/07/2026",
     "poblacion": 2000,
     "volumen": 3720,
+    "km": 3.1,
     "enlace": "https://drive.google.com/drive/folders/1Gl8stDR-OogjCxUjGYcy5TGD9nNCsJrA"
   },
   {
@@ -11538,6 +12213,7 @@ const mapaIntervenciones = {
     "fechaFin": "07/08/2026",
     "poblacion": 1000,
     "volumen": 720,
+    "km": 0,
     "enlace": "https://drive.google.com/drive/folders/1vcucoYO--gWABDWW3juLLWTa18sJ0ElG"
   },
   {
@@ -11555,6 +12231,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 5100,
     "volumen": 2380,
+    "km": 1.7,
     "enlace": "https://drive.google.com/drive/folders/16mtLma89wtokn8AUZo6sYwOBgsg4NhE1"
   },
   {
@@ -11572,6 +12249,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 4000,
     "volumen": 4320,
+    "km": 3.6,
     "enlace": null
   },
   {
@@ -11589,6 +12267,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/08/2026",
     "poblacion": 4000,
     "volumen": 2380,
+    "km": 1.7,
     "enlace": null
   },
   {
@@ -11606,6 +12285,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
     "volumen": 740,
+    "km": 0,
     "enlace": null
   },
   {
@@ -11623,6 +12303,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/09/2026",
     "poblacion": 3800,
     "volumen": 2800,
+    "km": 2,
     "enlace": null
   }
 ],
@@ -11646,6 +12327,7 @@ const mapaIntervenciones = {
     "fechaFin": "06/02/2026",
     "poblacion": 1080,
     "volumen": 2490,
+    "km": 0.249,
     "enlace": "https://drive.google.com/file/d/1shpfSUL_O3PG0E6XDwJB0erfU7c39yM8/view?usp=drive_link"
   },
   {
@@ -11663,6 +12345,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/04/2026",
     "poblacion": 1800,
     "volumen": 7985,
+    "km": 1.488,
     "enlace": "https://drive.google.com/file/d/10u2ZspJ4cfLY1k1aY8cdO_cJyXB3OQOK/view?usp=drive_link"
   },
   {
@@ -11680,6 +12363,7 @@ const mapaIntervenciones = {
     "fechaFin": "09/05/2026",
     "poblacion": 1800,
     "volumen": 9955,
+    "km": 1.448,
     "enlace": "https://drive.google.com/file/d/1MVgaJWGSq0hkHmQCBgZ_XSroKAFpv49T/view?usp=drive_link"
   }
 ],
@@ -11699,6 +12383,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/02/2026",
     "poblacion": 1125,
     "volumen": 1170,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1p640U1G25G9k02bsyEfP9NpXNasv94Hg/view?usp=sharing"
   },
   {
@@ -11716,6 +12401,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/02/2026",
     "poblacion": 300,
     "volumen": 6402,
+    "km": 3.31,
     "enlace": "https://drive.google.com/file/d/1n83xqEb7mmkzLd_AvCbj4k2pgir7qUYt/view?usp=sharing"
   },
   {
@@ -11733,6 +12419,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/02/2026",
     "poblacion": 500,
     "volumen": 3605,
+    "km": 5.15,
     "enlace": "https://drive.google.com/file/d/1PI4yZD5IaY6wg5kwRhJna1efxXFgklPe/view?usp=sharing"
   },
   {
@@ -11750,6 +12437,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/04/2026",
     "poblacion": 1125,
     "volumen": 1170,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1eELhu7LoIYdZeRWyeyma9fdfCHm4-AAE/view?usp=sharing"
   },
   {
@@ -11767,6 +12455,7 @@ const mapaIntervenciones = {
     "fechaFin": "05/03/2026",
     "poblacion": 400,
     "volumen": 2417.15,
+    "km": 0.845,
     "enlace": "https://drive.google.com/file/d/1IZI7XzurNHaNoxVXafIKSXZ4CUAF2_lw/view?usp=sharing"
   },
   {
@@ -11784,6 +12473,7 @@ const mapaIntervenciones = {
     "fechaFin": "13/04/2026",
     "poblacion": 400,
     "volumen": 2540,
+    "km": 1.16,
     "enlace": "https://drive.google.com/file/d/1xnGWkPeUjmnE06kPGjzvKkWCgJZddbkc/view?usp=sharing"
   },
   {
@@ -11801,6 +12491,7 @@ const mapaIntervenciones = {
     "fechaFin": "22/03/2026",
     "poblacion": 500,
     "volumen": 2460,
+    "km": 3.515,
     "enlace": "https://drive.google.com/file/d/1meyrbTHuzWQOA4mSYm6kmK_T6Ik6fTFv/view?usp=sharing"
   },
   {
@@ -11818,6 +12509,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/05/2026",
     "poblacion": 350,
     "volumen": 2660,
+    "km": 3.8,
     "enlace": "https://drive.google.com/file/d/1uq6cx7thkhRcU6dr8c6iQkpFBcyAlkzE/view?usp=sharing"
   },
   {
@@ -11835,6 +12527,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/04/2026",
     "poblacion": 1125,
     "volumen": 705,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1JF-yxYQ-R5PmM1E4t7_aIAQBzkVoHbq7/view?usp=sharing"
   },
   {
@@ -11852,6 +12545,7 @@ const mapaIntervenciones = {
     "fechaFin": "28/05/2026",
     "poblacion": 450,
     "volumen": 2105,
+    "km": 3.76,
     "enlace": "https://drive.google.com/file/d/1ovkDk4TRKgaBOFJJ0FianBxp6mzofe_k/view?usp=sharing"
   },
   {
@@ -11869,6 +12563,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/06/2026",
     "poblacion": 1125,
     "volumen": 1170,
+    "km": 0,
     "enlace": "https://drive.google.com/file/d/1T96-daSntyIqx2wsVttgG5V9zSut_UbE/view?usp=sharing"
   },
   {
@@ -11886,6 +12581,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/06/2026",
     "poblacion": 300,
     "volumen": 2780,
+    "km": 1.85,
     "enlace": "https://drive.google.com/file/d/1n0VgEU83JSPQ3idbcoicvkUigDtVsaDG/view?usp=sharing"
   },
   {
@@ -11903,6 +12599,7 @@ const mapaIntervenciones = {
     "fechaFin": "31/07/2026",
     "poblacion": 1125,
     "volumen": 1170,
+    "km": 0,
     "enlace": null
   },
   {
@@ -11920,6 +12617,7 @@ const mapaIntervenciones = {
     "fechaFin": "01/07/2026",
     "poblacion": 300,
     "volumen": 1890,
+    "km": 2.7,
     "enlace": "https://drive.google.com/file/d/1ZSy_UhaIWVt_E-__MKEQccysM4N0NqLL/view?usp=sharing"
   },
   {
@@ -11937,6 +12635,7 @@ const mapaIntervenciones = {
     "fechaFin": "25/09/2026",
     "poblacion": null,
     "volumen": 630,
+    "km": 1.28,
     "enlace": null
   },
   {
@@ -11954,6 +12653,7 @@ const mapaIntervenciones = {
     "fechaFin": "10/09/2026",
     "poblacion": 1125,
     "volumen": 1170,
+    "km": 0,
     "enlace": null
   },
   {
@@ -11971,6 +12671,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/08/2026",
     "poblacion": 750,
     "volumen": 3400,
+    "km": 0.226,
     "enlace": null
   },
   {
@@ -11988,6 +12689,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/09/2026",
     "poblacion": 300,
     "volumen": 1320,
+    "km": 1.9,
     "enlace": null
   },
   {
@@ -12005,6 +12707,7 @@ const mapaIntervenciones = {
     "fechaFin": "21/09/2026",
     "poblacion": null,
     "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
