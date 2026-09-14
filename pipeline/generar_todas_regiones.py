@@ -38,6 +38,11 @@ que no cuadraban entre sí para el mismo instante). Si en el Programador de tare
 Windows todavía existe la tarea vieja "Actualizar Reporte Diario PNC", hay que
 DESHABILITARLA -- ver LEEME_REPORTE_DIARIO.md.
 
+14/09/2026 -- esta corrida TAMBIÉN genera src/data/alertasFechas.json: intervenciones cuyo ESTADO
+en el MAIN quedó desactualizado frente a la fecha real (PROGRAMADA con fecha_inicio vencida, o EN
+EJECUCIÓN con fecha_fin vencida, sin margen de días). Ver el comentario grande junto a
+consultar_alertas_fechas_vencidas() más abajo.
+
 Uso típico (en tu laptop, conectado a la VPN de VIVIENDA):
 
     python generar_todas_regiones.py --repo "C:\\ruta\\a\\pnc-tumbes"
@@ -863,6 +868,106 @@ def escribir_reporte_diario(repo, periodo, rows):
 
 
 # ---------------------------------------------------------------------------
+# ALERTAS DE FECHAS VENCIDAS -- agregado 14/09/2026 a pedido de Franco: el ESTADO de una
+# intervención en el MAIN se cambia a mano (PROGRAMADA -> EN EJECUCIÓN -> EJECUTADA), así que
+# cuando a alguien se le pasa actualizarlo, el sitio sigue narrando "programada" o "en ejecución"
+# aunque en la realidad ya debería estar en la siguiente etapa. Caso que reportó: una actividad
+# programada desde el 08/09 que para el 14/09 seguía sin marcarse como iniciada, y otras "en
+# ejecución" que ya habían terminado en campo pero seguían así en el MAIN.
+#
+# Esto NO corrige el estado solo -- decidido a propósito: cambiarlo automáticamente sería inventar
+# un hecho de campo (¿de verdad se inició/terminó, o el MAIN simplemente no se actualizó?) que
+# esta base no puede confirmar. En vez de eso, se detecta y se avisa (mismo criterio que el resto
+# del pipeline con avisar()/INCIDENCIAS): una intervención PROGRAMADA cuya fecha_inicio ya pasó, o
+# EN EJECUCIÓN cuya fecha_fin ya pasó, sin margen de días -- se marca desde el día siguiente a la
+# fecha vencida (CURRENT_DATE > fecha), a pedido explícito de Franco ("Sin margen (día siguiente)",
+# 14/09/2026, respuesta a la pregunta de cuántos días de margen dar antes de marcar un atraso).
+#
+# Además del aviso en el log del pipeline, esto se muestra como un widget en el sitio (decisión de
+# Franco, misma fecha) -- pero solo para uso interno: el 14/09/2026 pidió explícitamente que ese
+# detalle no quede visible para cualquiera, así que en el sitio (AlertasFechasModal.jsx) queda
+# detrás de un usuario/clave. OJO: como el sitio se compila como un solo archivo HTML con todo el
+# JS y los datos ya incluidos ahí, ese candado es un candado de navegador (evita que alguien se
+# tope con el detalle sin querer), NO seguridad real -- alguien que revise el código fuente de la
+# página igual podría llegar al archivo alertasFechas.json. Franco lo aceptó así explícitamente
+# ("Candado simple (rápido)") porque el único que necesita entrar es él mismo, como administrador.
+def consultar_alertas_fechas_vencidas(cur, periodo):
+    """Devuelve, a nivel nacional (todos los departamentos, sin filtrar), las intervenciones cuyo
+    ESTADO en el MAIN quedó desactualizado frente a la fecha real: PROGRAMADA con fecha_inicio ya
+    vencida, o EN EJECUCIÓN con fecha_fin ya vencida. Incluye días de atraso (CURRENT_DATE - la
+    fecha vencida, calculado en la propia base) para poder ordenar por urgencia."""
+    cur.execute("""
+        SELECT inte.id_intervencion, 'PROGRAMADA_ATRASADA' AS tipo_alerta,
+               inte.departamento, inte.provincia, inte.distrito, inte.sector,
+               inte.ficha_tec, inte.descripcion, inte.marco_legal,
+               TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
+               TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
+               (CURRENT_DATE - inte.fecha_inicio) AS dias_atraso
+        FROM pnc.tb_em_intervencion inte
+        WHERE inte.estado ILIKE 'PROGRAMADA%%' AND inte.periodo = %s
+          AND inte.fecha_inicio IS NOT NULL AND inte.fecha_inicio < CURRENT_DATE
+
+        UNION ALL
+
+        SELECT inte.id_intervencion, 'EN_EJECUCION_ATRASADA' AS tipo_alerta,
+               inte.departamento, inte.provincia, inte.distrito, inte.sector,
+               inte.ficha_tec, inte.descripcion, inte.marco_legal,
+               TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
+               TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
+               (CURRENT_DATE - inte.fecha_fin) AS dias_atraso
+        FROM pnc.tb_em_intervencion inte
+        WHERE inte.estado = 'EN EJECUCIÓN' AND inte.periodo = %s
+          AND inte.fecha_fin IS NOT NULL AND inte.fecha_fin < CURRENT_DATE
+
+        ORDER BY dias_atraso DESC;
+    """, (periodo, periodo))
+    filas = cur.fetchall()
+
+    rows = []
+    for i, r in enumerate(filas, start=1):
+        depto_raw = clean_text(r['departamento']).upper()
+        rows.append({
+            'n': i,
+            'idIntervencion': clean_text(r.get('id_intervencion')),
+            'tipoAlerta': r['tipo_alerta'],
+            'departamento': depto_raw,
+            'deptoLabel': titlecase_es(depto_raw),
+            'regionId': DEPTO_TO_REGION.get(depto_raw),
+            'provincia': titlecase_es(clean_text(r.get('provincia'))),
+            'distrito': titlecase_es(clean_text(r.get('distrito'))),
+            'sector': titlecase_es(clean_text(r.get('sector'))),
+            'ficha': clean_text(r.get('ficha_tec')),
+            'descripcion': clean_text(r.get('descripcion')),
+            'marcoLegal': clean_text(r.get('marco_legal')),
+            'fechaInicio': r.get('fecha_inicio') or '',
+            'fechaFin': r.get('fecha_fin') or '',
+            'diasAtraso': entero(r.get('dias_atraso'), 0),
+        })
+    return rows
+
+
+def escribir_alertas_fechas(repo, periodo, rows):
+    """Escribe src/data/alertasFechas.json -- ver el comentario grande arriba de
+    consultar_alertas_fechas_vencidas() para el porqué. Uso interno (AlertasFechasModal.jsx pide
+    usuario/clave antes de mostrar el detalle)."""
+    destino = os.path.join(repo, "src", "data", "alertasFechas.json")
+    ahora = datetime.now()
+    out = {
+        'meta': {
+            'fuente': f'Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo {periodo}',
+            'fechaCorte': ahora.strftime('%d/%m/%Y'),
+            'horaCorte': ahora.strftime('%H:%M'),
+            'generadoDesc': 'PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días.',
+        },
+        'items': rows,
+    }
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"OK -- {len(rows)} alerta(s) de fechas vencidas -> {destino}")
+    return destino
+
+
+# ---------------------------------------------------------------------------
 # 2) FORMATEO: traduce/agrupa/preserva notas. Separado de la consulta para
 #    poder probarlo con datos de ejemplo sin conexión a la base (ver
 #    `--self-test` más abajo).
@@ -1485,6 +1590,18 @@ def main():
         ruta_reporte_diario = escribir_reporte_diario(repo, args.periodo, filas_reporte)
         archivos_escritos.append(ruta_reporte_diario)
         print()
+
+    # 14/09/2026 -- Alertas de fechas vencidas (nacional), misma conexión/corrida que todo lo
+    # demás -- ver el comentario grande junto a consultar_alertas_fechas_vencidas().
+    print("--- Alertas de fechas vencidas (nacional) ---")
+    filas_alertas = consultar_alertas_fechas_vencidas(cur, args.periodo)
+    ruta_alertas = escribir_alertas_fechas(repo, args.periodo, filas_alertas)
+    archivos_escritos.append(ruta_alertas)
+    if filas_alertas:
+        avisar(f"{len(filas_alertas)} intervención(es) con estado desactualizado frente a la fecha "
+               f"real (PROGRAMADA con inicio vencido o EN EJECUCIÓN con fin vencido) -- revisar en "
+               f"el sitio, sección Alertas.")
+    print()
 
     for slug in slugs:
         departamento = DEPARTAMENTOS[slug]
