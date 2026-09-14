@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 14, m3: 76779.0, km: 7.24, poblacion: 16330, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 84024.0, km: 8.06, poblacion: 17002, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 18, m3: 88306.4, m3AguaPotable: 0.0, km: 9.17, poblacion: 18208 },
+  ejecutadasTotal: { cantidad: 19, m3: 95551.4, m3AguaPotable: 0.0, km: 10.0, poblacion: 18880 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL RIO AUCAYACU, SECTOR 27 DE MAYO ENTRE EL KM 00+000 Y KM 00+625 KM , DISTRITO DE JOSE CRESPO Y CASTILLO, PROVINCIA DE LEONCIO PRADO, DEPARTAMENTO HUANUCO"         ', inicio: '19/08/2026', fin: '10/09/2026', volAcum: 4815.0, kmAcum: 0.55, poblacion: 672 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

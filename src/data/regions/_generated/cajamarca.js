@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 20, m3: 128860.95, km: 8.99, poblacion: 12770, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 21, m3: 131270.95, km: 9.7, poblacion: 13395, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 42, m3: 179192.31, km: 130.27, poblacion: 55468, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 66, m3: 337603.26, m3AguaPotable: 3300.0, km: 141.11, poblacion: 70130 },
+  ejecutadasTotal: { cantidad: 67, m3: 340013.26, m3AguaPotable: 3300.0, km: 141.82, poblacion: 70755 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Cutervo', distrito: 'Callayuc', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA".      ', inicio: '15/06/2026', fin: '12/09/2026', volAcum: 4025.0, kmAcum: 3.35, poblacion: 438 },
     { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ', inicio: '25/06/2026', fin: '12/09/2026', volAcum: 2550.0, kmAcum: 2.55, poblacion: 274 },
-    { provincia: 'Cajamarca', distrito: 'Jesus', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00             ', inicio: '05/08/2026', fin: '13/09/2026', volAcum: 2410.0, kmAcum: 0.71, poblacion: 625 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ', inicio: '28/08/2026', fin: '28/09/2026', volAcum: 585.0, kmAcum: 0.58, poblacion: 500 },
     { provincia: 'Contumaza', distrito: 'Tantarica', tipo: 'Urgente atención', descripcion: '“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '02/09/2026', fin: '16/09/2026', volAcum: 3480.0, kmAcum: 15.0, poblacion: 500 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”  ', inicio: '02/09/2026', fin: '16/09/2026', volAcum: 1005.0, kmAcum: 1.0, poblacion: 170 },
