@@ -5297,24 +5297,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1MX76ji6IGOo-NlIK39XfS3i83mWfX0Ys/view?usp=drive_link"
   },
   {
-    "id": 10305,
-    "lat": -14.820949,
-    "lng": -74.945974,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Nasca",
-    "distrito": "Nasca",
-    "sector": "San Mauricio",
-    "descripcion": "DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO III, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA     ",
-    "ficha": "FT I N°039-2026-LDP- ICA",
-    "fechaInicio": "07/07/2026",
-    "fechaFin": "21/07/2026",
-    "poblacion": 470,
-    "volumen": 7182,
-    "km": 0.26,
-    "enlace": "https://drive.google.com/file/d/1DQb9uGaVGiZHm6XLJJ5tLZhi9H2Qir3b/view?usp=drive_link"
-  },
-  {
     "id": 10346,
     "lat": -14.520537,
     "lng": -75.201961,
@@ -5331,6 +5313,24 @@ const mapaIntervenciones = {
     "volumen": 690,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1AFhdc-s61Wkdj8gPEDN6pQ0E0cPm5nfh/view?usp=drive_link"
+  },
+  {
+    "id": 10305,
+    "lat": -14.820949,
+    "lng": -74.945974,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Nasca",
+    "distrito": "Nasca",
+    "sector": "San Mauricio",
+    "descripcion": "DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO III, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA     ",
+    "ficha": "FT I N°039-2026-LDP- ICA",
+    "fechaInicio": "07/07/2026",
+    "fechaFin": "21/07/2026",
+    "poblacion": 470,
+    "volumen": 7182,
+    "km": 0.26,
+    "enlace": "https://drive.google.com/file/d/1DQb9uGaVGiZHm6XLJJ5tLZhi9H2Qir3b/view?usp=drive_link"
   },
   {
     "id": 10395,
@@ -5384,6 +5384,24 @@ const mapaIntervenciones = {
     "poblacion": 1800,
     "volumen": 7900,
     "km": 0.114,
+    "enlace": null
+  },
+  {
+    "id": 10304,
+    "lat": -14.82084,
+    "lng": -74.943567,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Nasca",
+    "distrito": "Nasca",
+    "sector": "San Mauricio",
+    "descripcion": " DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA    ",
+    "ficha": "FT I N°038-2026-LDP- ICA",
+    "fechaInicio": "15/09/2026",
+    "fechaFin": "29/09/2026",
+    "poblacion": 470,
+    "volumen": 7020,
+    "km": 0.26,
     "enlace": null
   }
 ],
@@ -9151,7 +9169,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchacchuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                 ",
     "ficha": "03-2026-LD-PI-AYAC",
     "fechaInicio": "11/09/2026",
     "fechaFin": "19/09/2026",

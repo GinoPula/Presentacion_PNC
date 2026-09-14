@@ -18,19 +18,19 @@ export default {
 
   enEjecucion: [
     { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 270.0, kmAcum: 0.0, poblacion: 750 },
+    { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA    ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 470 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 5, metaVol: 40610.0, metaKm: 1.55, poblacion: 5140 },
+    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 4, metaVol: 33590.0, metaKm: 1.29, poblacion: 4670 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', cantidad: 3, metaVol: 27852.0, metaKm: 0.98, poblacion: 870 },
     { provincia: 'Palpa', distrito: 'Llipata', cantidad: 1, metaVol: 13300.0, metaKm: 0.38, poblacion: 90 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 11, metaVol: 86038.0, metaKm: 4.08, poblacion: 7240 },
+  programadasTotal: { cantidad: 10, metaVol: 79018.0, metaKm: 3.82, poblacion: 6770 },
 
   programadasDetalle: [
-    { provincia: 'Nasca', distrito: 'Nasca', sector: 'San Mauricio', ficha: 'FT I N°038-2026-LDP- ICA', descripcion: ' DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA   ', fechaInicio: '15/09/2026', fechaFin: '29/09/2026', metaVol: 7020.0, metaKm: 0.26, poblacion: 470 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00              ', fechaInicio: '28/09/2026', fechaFin: '04/10/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
     { provincia: 'Nasca', distrito: 'Nasca', sector: 'San Mauricio', ficha: 'FT I N°037-2026-LDP- ICA', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA     ', fechaInicio: '30/09/2026', fechaFin: '14/10/2026', metaVol: 7290.0, metaKm: 0.27, poblacion: 470 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°004-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA ,REGION ICA-00      ', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 12852.0, metaKm: 0.48, poblacion: 90 },
