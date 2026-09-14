@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "14/09/2026",
-    "horaCorte": "19:16",
+    "horaCorte": "19:47",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -84,9 +84,9 @@
       "fechaInicio": "17/08/2026",
       "fechaFin": "15/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-803)",
         "REMOLCADOR ( EGV-851)",
-        "EXCAVADORA HIDRAULICA ( 85423)"
+        "EXCAVADORA HIDRAULICA ( 85423)",
+        "VOLQUETE ( EGV-803)"
       ]
     },
     {
@@ -161,13 +161,13 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "19/09/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81372)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "REMOLCADOR ( EGM-982)",
-        "VOLQUETE ( EGM-805)",
+        "CAMIONETA ( EGM-015)",
+        "TRACTOR SOBRE ORUGA ( 81372)",
         "EXCAVADORA HIDRAULICA ( D523227)",
-        "VOLQUETE ( EGM-798)",
-        "CAMIONETA ( EGM-015)"
+        "VOLQUETE ( EGM-805)",
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGM-798)"
       ]
     },
     {
@@ -227,10 +227,10 @@
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
-        "TRACTOR SOBRE ORUGA ( J8B05104)",
         "CAMIONETA ( EGL-971)",
-        "REMOLCADOR ( EGO-046)"
+        "REMOLCADOR ( EGO-046)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
+        "TRACTOR SOBRE ORUGA ( J8B05104)"
       ]
     },
     {
@@ -271,9 +271,9 @@
       "fechaInicio": "15/06/2026",
       "fechaFin": "12/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-882)",
         "EXCAVADORA HIDRAULICA ( 85464)",
-        "VOLQUETE ( EGV-785)"
+        "VOLQUETE ( EGV-785)",
+        "VOLQUETE ( EGM-882)"
       ]
     },
     {
@@ -585,8 +585,8 @@
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
       "maquinaria": [
-        "RETROEXCAVADORA ( 286748)",
-        "VOLQUETE ( EGV-821)"
+        "VOLQUETE ( EGV-821)",
+        "RETROEXCAVADORA ( 286748)"
       ]
     },
     {
@@ -744,6 +744,26 @@
     },
     {
       "n": 38,
+      "idIntervencion": "9682",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Catacaos",
+      "sector": "Simbila",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº034-2026",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN PLUVIAL SIMBILA (1+050 HASTA 1+ 600) KM DEL DISTRITO CATACAOS - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA",
+      "fechaInicio": "14/09/2026",
+      "fechaFin": "21/09/2026",
+      "maquinaria": [
+        "RETROEXCAVADORA ( C429243)",
+        "MINI CARGADOR ( G278937)",
+        "VOLQUETE ( EAJ-455)"
+      ]
+    },
+    {
+      "n": 39,
       "idIntervencion": "10501",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -770,7 +790,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "10435",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -792,7 +812,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -806,15 +826,15 @@
       "fechaInicio": "03/09/2026",
       "fechaFin": "18/09/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762467)",
         "VOLQUETE ( EGN-589)",
-        "VOLQUETE ( EGR-389)",
         "CARGADOR FRONTAL ( 70J12945)",
-        "VOLQUETE ( EGN-496)"
+        "VOLQUETE ( EGN-496)",
+        "RODILLO COMPACTADOR ( H1762467)",
+        "VOLQUETE ( EGR-389)"
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -835,7 +855,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -853,7 +873,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -871,7 +891,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -889,7 +909,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -908,7 +928,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
