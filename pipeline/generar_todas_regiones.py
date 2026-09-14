@@ -1299,6 +1299,15 @@ def punto_mapa_js(p):
         f'"fechaFin": {jstr(p["fechaFin"])}',
         f'"poblacion": {poblacion}',
         f'"volumen": {jcoord(p["volumen"])}',
+        # 14/09/2026 -- BUG encontrado a partir del reporte de Franco ("no esta jalando
+        # ACUMULADO_KM ... salen vacíos esos campos"): formatear_puntos_mapa() SÍ calculaba
+        # p["km"] correctamente desde el 09/09/2026 (ver su comentario), pero esta función --
+        # la que realmente escribe cada punto a mapaIntervenciones.js -- nunca lo agregó a la
+        # lista de campos. El dato se calculaba bien y se perdía acá, así que el archivo nunca
+        # tuvo el campo "km" (undefined, no 0) en NINGÚN punto de NINGUNA región -- por eso
+        # ACUMULADO KM salía "—" siempre, tanto en ejecutadas como en ejecución, no solo en La
+        # Libertad. Se agrega la línea que faltaba.
+        f'"km": {jcoord(p["km"])}',
         f'"enlace": {enlace}',
     ]
     cuerpo = ",\n".join(f"    {c}" for c in campos)
