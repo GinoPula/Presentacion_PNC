@@ -538,6 +538,11 @@ function seccionAntecedentes(data, regionLabel, numAntecedentes, numActividades)
       run({ text: `${fmtNum(conveniosCountGlobal)} Convenios de Colaboración Interinstitucional`, bold: true }),
       ' vigentes con entidades de los tres niveles de gobierno a nivel nacional.',
     ]),
+    // 14/09/2026 -- a pedido de Franco ("moverlo a la primera seccion de antecedentes... como un
+    // cuadrito para que se vea mas presentable"): el detalle de convenios POR REGIÓN va acá, justo
+    // después del párrafo del total NACIONAL de arriba (conveniosCountGlobal), como una tabla en
+    // vez de la lista con viñetas que tenía antes (ver seccionConveniosVigentes()).
+    ...seccionConveniosVigentes(data, regionLabel),
     titulo2(`${p1(numActividades)}PRINCIPALES ACTIVIDADES`),
     bullet('Limpieza y descolmatación de drenes, quebradas, canales y ríos y conformación de diques de protección, hasta garantizar la escorrentía y desfogue de las aguas.'),
     bullet('Limpieza de escombros por desastres y nivelación de terrenos para damnificados.'),
@@ -1981,7 +1986,6 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
           }),
         ]
       : notaEjecutadasNoFiltrable(data, regionLabel)),
-    ...seccionConveniosVigentes(data, regionLabel),
     ...tablaProgramadas(filasProgramadas, regionLabel, { mostrarVacio: true }),
     ...(data.puntosCriticos && data.puntosCriticos.length ? tablaPuntosCriticos(filasPuntosCriticos, { mostrarVacio: true }) : []),
     ...(data.flota && data.flota.length
@@ -2155,7 +2159,13 @@ function bulletEnEjecucion(filasEjecutadas, regionLabel) {
 // (data.conveniosCount/conveniosVigentes, ver generar_todas_regiones.py y src/data/global.js) pero
 // hasta ahora solo se usaba para el TOTAL nacional (conveniosCountGlobal) en Antecedentes -- nunca
 // por región, dentro del cuerpo del documento. conveniosVigentes trae [{ entidad, detail }], donde
-// 'detail' ya viene como texto listo ("hasta DD/MM/YYYY"), así que se usa tal cual.
+// 'detail' ya viene como texto listo ("hasta DD/MM/YYYY", o con aviso "vence DD/MM/YYYY (a un mes
+// de caducar)" cuando está por vencer), así que se usa tal cual.
+//
+// 14/09/2026 (mismo día, segundo pedido) -- Franco probó la primera versión (párrafo + viñetas,
+// puesta después del cuadro de EN EJECUCIÓN) y pidió moverla a Antecedentes, justo debajo del
+// párrafo del total NACIONAL de convenios, y como TABLA en vez de viñetas ("para que se vea mas
+// presentable"). Se llama ahora desde seccionAntecedentes() -- ver ahí.
 function seccionConveniosVigentes(data, regionLabel) {
   const convenios = data.conveniosVigentes || []
   if (!convenios.length) return []
@@ -2165,7 +2175,13 @@ function seccionConveniosVigentes(data, regionLabel) {
       run({ text: regionLabel, bold: true }),
       ` se cuenta con ${fmtNum(data.conveniosCount ?? convenios.length)} Convenios de Colaboración Interinstitucional vigentes:`,
     ]),
-    ...convenios.map((c) => bullet(`${c.entidad}${c.detail ? `, vigente ${c.detail}` : ''}.`)),
+    tabla(
+      [
+        { clave: 'entidad', titulo: 'ENTIDAD', peso: 0.62 },
+        { clave: 'vigencia', titulo: 'VIGENCIA', peso: 0.38 },
+      ],
+      convenios.map((c) => ({ entidad: c.entidad, vigencia: c.detail || '—' }))
+    ),
   ]
 }
 
