@@ -18,8 +18,8 @@ export default {
 
   enEjecucion: [
     { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ', inicio: '07/09/2026', fin: '21/09/2026', volAcum: 9900.0, kmAcum: 0.37, poblacion: 5000 },
-    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ', inicio: '10/09/2026', fin: '24/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 209 },
+    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 350.0, kmAcum: 0.7, poblacion: null },
+    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ', inicio: '10/09/2026', fin: '24/09/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
