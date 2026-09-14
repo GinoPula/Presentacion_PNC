@@ -7,8 +7,11 @@ import {
   HiOutlineLockClosed,
   HiOutlineKey,
   HiOutlineLogout,
+  HiOutlineDownload,
+  HiOutlineDocumentText,
 } from 'react-icons/hi'
 import { getAlertasFechas, tipoAlertaLabel, tipoAlertaTone } from '../lib/alertasFechas'
+import { exportarAlertasFechasExcel, exportarAlertasFechasPdf } from '../lib/exportAlertasFechas'
 import { Badge } from './UI'
 
 // ---------------------------------------------------------------------------
@@ -142,30 +145,150 @@ function AdminLogin({ onSuccess }) {
   )
 }
 
+// Mismos 3 tipos de intervención que ya usa el resto del sitio (ver buscadorIntervenciones.js /
+// ReporteDiarioModal.jsx) -- se muestran como chip solo si realmente aparecen en los atrasos.
+const TIPOS_ORDEN = ['PREVENCIÓN', 'URGENTE ATENCIÓN', 'EMERGENCIA']
+const TIPO_BADGE = {
+  'PREVENCIÓN': 'border-series-1/30 bg-series-1/10 text-series-1',
+  'URGENTE ATENCIÓN': 'border-amber/30 bg-amber/10 text-amber',
+  EMERGENCIA: 'border-brand/30 bg-brand/10 text-brand-soft',
+}
+const ESTADO_BADGE = {
+  'EN EJECUCIÓN': 'border-critical/40 bg-critical/10 text-[#ff8080]',
+  PROGRAMADA: 'border-amber/30 bg-amber/10 text-amber',
+}
+
+function Chip({ active, onClick, tone, children }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`rounded-full border px-3 py-1.5 text-[12px] font-semibold uppercase tracking-wide transition-colors ${
+        active
+          ? tone || 'border-brand/40 bg-brand/15 text-brand-soft'
+          : 'border-white/10 bg-white/[0.03] text-ink-mute hover:bg-white/[0.06] hover:text-ink-dim'
+      }`}
+    >
+      {children}
+    </button>
+  )
+}
+
+// "DD/MM/YYYY" (formato que ya usa todo el pipeline) -> timestamp, para poder compararla contra
+// los <input type="date"> del filtro de fecha (que entregan "YYYY-MM-DD").
+function parseFechaDMY(s) {
+  if (!s) return null
+  const [d, m, y] = s.split('/').map(Number)
+  if (!d || !m || !y) return null
+  return new Date(y, m - 1, d).getTime()
+}
+
+function fechaVencidaDe(it) {
+  return it.tipoAlerta === 'PROGRAMADA_ATRASADA' ? it.fechaInicio : it.fechaFin
+}
+
 function AlertasContenido({ regionId, regionLabel, onClose, onLogout }) {
   const [q, setQ] = useState('')
+  const [uboSel, setUboSel] = useState('')
+  const [tiposSel, setTiposSel] = useState([])
+  const [estadosSel, setEstadosSel] = useState([])
+  const [fechaDesde, setFechaDesde] = useState('')
+  const [fechaHasta, setFechaHasta] = useState('')
+  const [descargandoExcel, setDescargandoExcel] = useState(false)
   const scopeLabel = regionId ? regionLabel : null
 
-  const reporte = useMemo(() => getAlertasFechas(regionId), [regionId])
+  // Universo ya escalado a la región activa (o nacional) -- las opciones de los filtros salen de
+  // acá, sin recortar por los OTROS filtros, para que las listas no se acorten solas mientras se
+  // filtra (mismo criterio que un buscador normal).
+  const base = useMemo(() => getAlertasFechas(regionId), [regionId])
 
+  const ubos = useMemo(() => [...new Set(base.items.map((it) => it.deptoLabel))].sort((a, b) => a.localeCompare(b)), [base.items])
+  const tiposDisponibles = useMemo(() => TIPOS_ORDEN.filter((t) => base.items.some((it) => it.tipo === t)), [base.items])
+  const estadosDisponibles = useMemo(
+    () => [...new Set(base.items.map((it) => it.estado))].filter(Boolean).sort((a, b) => a.localeCompare(b)),
+    [base.items],
+  )
+
+  const desdeMs = fechaDesde ? new Date(`${fechaDesde}T00:00:00`).getTime() : null
+  const hastaMs = fechaHasta ? new Date(`${fechaHasta}T23:59:59`).getTime() : null
   const qNorm = q.trim().toLowerCase()
-  const items = qNorm
-    ? reporte.items.filter((it) =>
-        [it.deptoLabel, it.provincia, it.distrito, it.sector, it.ficha, it.descripcion]
-          .filter(Boolean)
-          .join(' ')
-          .toLowerCase()
-          .includes(qNorm),
-      )
-    : reporte.items
+
+  const filtrado = base.items.filter((it) => {
+    if (uboSel && it.deptoLabel !== uboSel) return false
+    if (tiposSel.length > 0 && !tiposSel.includes(it.tipo)) return false
+    if (estadosSel.length > 0 && !estadosSel.includes(it.estado)) return false
+    if (desdeMs || hastaMs) {
+      const vencidaMs = parseFechaDMY(fechaVencidaDe(it))
+      if (vencidaMs === null) return false
+      if (desdeMs && vencidaMs < desdeMs) return false
+      if (hastaMs && vencidaMs > hastaMs) return false
+    }
+    if (qNorm) {
+      const haystack = [it.deptoLabel, it.provincia, it.distrito, it.sector, it.ficha, it.descripcion, it.tipo]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase()
+      if (!haystack.includes(qNorm)) return false
+    }
+    return true
+  })
+
+  // Renumerado + KPIs sobre el resultado YA filtrado -- lo que se ve en pantalla es lo mismo que
+  // cuentan las tarjetas y lo que se exporta a Excel/PDF.
+  const items = filtrado.map((it, i) => ({ ...it, n: i + 1 }))
+  const programadas = items.filter((it) => it.tipoAlerta === 'PROGRAMADA_ATRASADA').length
+  const enEjecucion = items.filter((it) => it.tipoAlerta === 'EN_EJECUCION_ATRASADA').length
+  const mayorAtraso = items.reduce((max, it) => Math.max(max, it.diasAtraso || 0), 0)
+  const reporteFiltrado = { items, total: items.length, programadas, enEjecucion, mayorAtraso, meta: base.meta }
+
+  const hayFiltrosActivos = Boolean(uboSel || tiposSel.length || estadosSel.length || fechaDesde || fechaHasta || q.trim())
+
+  function limpiarFiltros() {
+    setQ('')
+    setUboSel('')
+    setTiposSel([])
+    setEstadosSel([])
+    setFechaDesde('')
+    setFechaHasta('')
+  }
+
+  function toggleTipo(tipo) {
+    setTiposSel((prev) => (prev.includes(tipo) ? prev.filter((t) => t !== tipo) : [...prev, tipo]))
+  }
+
+  function toggleEstado(estado) {
+    setEstadosSel((prev) => (prev.includes(estado) ? prev.filter((e) => e !== estado) : [...prev, estado]))
+  }
+
+  async function handleExcel() {
+    setDescargandoExcel(true)
+    try {
+      await exportarAlertasFechasExcel(reporteFiltrado, scopeLabel)
+    } catch (err) {
+      console.error('No se pudo exportar el Excel de Alertas:', err)
+      window.alert('No se pudo generar el Excel. Revisa la consola para más detalle.')
+    } finally {
+      setDescargandoExcel(false)
+    }
+  }
+
+  function handlePdf() {
+    try {
+      exportarAlertasFechasPdf(reporteFiltrado, scopeLabel)
+    } catch (err) {
+      console.error('No se pudo exportar el PDF de Alertas:', err)
+      window.alert('No se pudo generar el PDF. Revisa la consola para más detalle.')
+    }
+  }
 
   const mostrarFicha = items.some((it) => it.ficha)
+  const mostrarTipo = tiposDisponibles.length > 0
 
   const kpis = [
-    { value: reporte.total, label: 'Total de atrasos', color: 'text-ink' },
-    { value: reporte.programadas, label: 'Programadas sin iniciar', color: 'text-amber' },
-    { value: reporte.enEjecucion, label: 'En ejecución sin cerrar', color: 'text-[#ff8080]' },
-    { value: reporte.mayorAtraso ? `${reporte.mayorAtraso} d.` : '—', label: 'Mayor atraso', color: 'text-ink' },
+    { value: reporteFiltrado.total, label: 'Total de atrasos', color: 'text-ink' },
+    { value: programadas, label: 'Programadas sin iniciar', color: 'text-amber' },
+    { value: enEjecucion, label: 'En ejecución sin cerrar', color: 'text-[#ff8080]' },
+    { value: mayorAtraso ? `${mayorAtraso} d.` : '—', label: 'Mayor atraso', color: 'text-ink' },
   ]
 
   return (
@@ -189,10 +312,10 @@ function AlertasContenido({ regionId, regionLabel, onClose, onLogout }) {
           <div className="flex items-center gap-3">
             <div className="text-right text-xs text-ink-mute">
               <div>
-                Corte: <span className="font-tabular font-medium text-ink-dim">{reporte.meta?.fechaCorte || '—'}</span>
+                Corte: <span className="font-tabular font-medium text-ink-dim">{base.meta?.fechaCorte || '—'}</span>
               </div>
               <div>
-                <span className="font-tabular font-medium text-ink-dim">{reporte.meta?.horaCorte ? `${reporte.meta.horaCorte} hrs` : ''}</span>
+                <span className="font-tabular font-medium text-ink-dim">{base.meta?.horaCorte ? `${base.meta.horaCorte} hrs` : ''}</span>
               </div>
             </div>
             <button
@@ -210,15 +333,88 @@ function AlertasContenido({ regionId, regionLabel, onClose, onLogout }) {
           cambia el estado en el MAIN -- solo avisa para que se revise y corrija a mano.
         </p>
 
-        {/* Buscador */}
-        <div className="mt-5 flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2">
-          <HiOutlineSearch className="shrink-0 text-ink-mute" size={16} />
-          <input
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="Buscar por departamento, distrito, sector o ficha…"
-            className="w-full bg-transparent text-sm text-ink placeholder:text-ink-mute focus:outline-none"
-          />
+        {/* Buscador + filtros */}
+        <div className="mt-5 flex flex-col gap-3 rounded-xl border border-white/[0.06] bg-surface-2/60 p-4">
+          <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2">
+            <HiOutlineSearch className="shrink-0 text-ink-mute" size={16} />
+            <input
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Buscar por departamento, distrito, sector o ficha…"
+              className="w-full bg-transparent text-sm text-ink placeholder:text-ink-mute focus:outline-none"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-end gap-3">
+            <div>
+              <label className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-ink-mute">UBO</label>
+              <select
+                value={uboSel}
+                onChange={(e) => setUboSel(e.target.value)}
+                className="rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[13px] text-ink outline-none focus:border-brand/50"
+              >
+                <option value="">Todas</option>
+                {ubos.map((u) => (
+                  <option key={u} value={u}>
+                    {u}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-ink-mute">Desde</label>
+              <input
+                type="date"
+                value={fechaDesde}
+                onChange={(e) => setFechaDesde(e.target.value)}
+                className="rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[13px] text-ink outline-none focus:border-brand/50"
+              />
+            </div>
+            <div>
+              <label className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-ink-mute">Hasta</label>
+              <input
+                type="date"
+                value={fechaHasta}
+                onChange={(e) => setFechaHasta(e.target.value)}
+                className="rounded-lg border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[13px] text-ink outline-none focus:border-brand/50"
+              />
+            </div>
+
+            {hayFiltrosActivos && (
+              <button
+                onClick={limpiarFiltros}
+                className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[12px] font-medium text-ink-mute hover:bg-white/[0.06] hover:text-ink-dim"
+              >
+                Limpiar filtros
+              </button>
+            )}
+          </div>
+
+          {(estadosDisponibles.length > 0 || tiposDisponibles.length > 0) && (
+            <div className="flex flex-wrap items-center gap-2">
+              {estadosDisponibles.length > 0 && (
+                <>
+                  <span className="mr-1 text-[11px] font-semibold uppercase tracking-wide text-ink-mute">Estado:</span>
+                  {estadosDisponibles.map((estado) => (
+                    <Chip key={estado} active={estadosSel.includes(estado)} tone={ESTADO_BADGE[estado]} onClick={() => toggleEstado(estado)}>
+                      {estado}
+                    </Chip>
+                  ))}
+                </>
+              )}
+              {tiposDisponibles.length > 0 && (
+                <>
+                  <span className="ml-3 mr-1 text-[11px] font-semibold uppercase tracking-wide text-ink-mute">Tipo:</span>
+                  {tiposDisponibles.map((tipo) => (
+                    <Chip key={tipo} active={tiposSel.includes(tipo)} tone={TIPO_BADGE[tipo]} onClick={() => toggleTipo(tipo)}>
+                      {tipo}
+                    </Chip>
+                  ))}
+                </>
+              )}
+            </div>
+          )}
         </div>
 
         {/* KPI cards */}
@@ -230,6 +426,26 @@ function AlertasContenido({ regionId, regionLabel, onClose, onLogout }) {
             </div>
           ))}
         </div>
+
+        {/* Export buttons */}
+        <div className="mt-5 flex flex-wrap gap-2.5">
+          <button
+            onClick={handleExcel}
+            disabled={descargandoExcel || items.length === 0}
+            className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.08] hover:text-ink disabled:opacity-50"
+          >
+            <HiOutlineDownload size={15} />
+            {descargandoExcel ? 'Generando…' : 'Descargar Excel'}
+          </button>
+          <button
+            onClick={handlePdf}
+            disabled={items.length === 0}
+            className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-2 text-[13px] font-medium text-ink-dim transition-colors hover:bg-white/[0.08] hover:text-ink disabled:opacity-50"
+          >
+            <HiOutlineDocumentText size={15} />
+            Descargar PDF
+          </button>
+        </div>
       </div>
 
       {/* Tabla */}
@@ -238,44 +454,69 @@ function AlertasContenido({ regionId, regionLabel, onClose, onLogout }) {
           <div className="flex flex-col items-center gap-2 px-6 py-16 text-center">
             <HiOutlineExclamationCircle size={28} className="text-ink-mute" />
             <p className="text-sm text-ink-dim">
-              {reporte.total === 0
+              {base.total === 0
                 ? `Sin atrasos${scopeLabel ? ` en ${scopeLabel}` : ''} -- todo coincide con la fecha real.`
-                : 'No se encontraron resultados con ese filtro.'}
+                : 'No se encontraron resultados con esos filtros.'}
             </p>
           </div>
         ) : (
-          <table className="w-full min-w-[900px] border-collapse text-left text-xs sm:text-sm">
+          <table className="w-full min-w-[1050px] border-collapse text-left text-xs sm:text-sm">
             <thead className="sticky top-0 z-10 bg-surface-1">
               <tr className="border-b border-white/10 text-[11px] font-semibold uppercase tracking-wide text-ink-mute">
                 <th className="px-2.5 py-2 sm:px-3 sm:py-3">N°</th>
                 <th className="px-2.5 py-2 sm:px-3 sm:py-3">Alerta</th>
-                <th className="px-2.5 py-2 sm:px-3 sm:py-3">Departamento</th>
+                <th className="px-2.5 py-2 sm:px-3 sm:py-3">UBO</th>
                 <th className="px-2.5 py-2 sm:px-3 sm:py-3">Provincia / Distrito</th>
+                {mostrarTipo && <th className="px-2.5 py-2 sm:px-3 sm:py-3">Tipo</th>}
                 {mostrarFicha && <th className="px-2.5 py-2 sm:px-3 sm:py-3">Ficha</th>}
                 <th className="px-2.5 py-2 sm:px-3 sm:py-3">Descripción</th>
-                <th className="px-2.5 py-2 sm:px-3 sm:py-3">Fecha vencida</th>
+                <th className="px-2.5 py-2 sm:px-3 sm:py-3">Fecha inicio</th>
+                <th className="px-2.5 py-2 sm:px-3 sm:py-3">Fecha término</th>
                 <th className="px-2.5 py-2 text-right sm:px-3 sm:py-3">Días de atraso</th>
               </tr>
             </thead>
             <tbody>
-              {items.map((it) => (
-                <tr key={`${it.tipoAlerta}-${it.idIntervencion}`} className="border-b border-white/[0.05] align-top odd:bg-white/[0.015]">
-                  <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-tabular text-ink-mute">{it.n}</td>
-                  <td className="px-2.5 py-2 sm:px-3 sm:py-3">
-                    <Badge tone={tipoAlertaTone(it.tipoAlerta)}>{tipoAlertaLabel(it.tipoAlerta)}</Badge>
-                  </td>
-                  <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-medium text-ink">{it.deptoLabel}</td>
-                  <td className="px-2.5 py-2 sm:px-3 sm:py-3 text-ink-dim">
-                    {it.provincia} / {it.distrito}
-                  </td>
-                  {mostrarFicha && <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-tabular text-xs text-ink-mute">{it.ficha || '—'}</td>}
-                  <td className="max-w-[340px] px-2.5 py-2 sm:px-3 sm:py-3 text-ink-dim">{it.descripcion}</td>
-                  <td className="px-2.5 py-2 font-tabular text-xs text-ink-mute sm:px-3 sm:py-3">
-                    {it.tipoAlerta === 'PROGRAMADA_ATRASADA' ? it.fechaInicio : it.fechaFin || '—'}
-                  </td>
-                  <td className="px-2.5 py-2 text-right font-tabular font-semibold text-[#ff8080] sm:px-3 sm:py-3">{it.diasAtraso}</td>
-                </tr>
-              ))}
+              {items.map((it) => {
+                const inicioEsVencida = it.tipoAlerta === 'PROGRAMADA_ATRASADA'
+                return (
+                  <tr key={`${it.tipoAlerta}-${it.idIntervencion}`} className="border-b border-white/[0.05] align-top odd:bg-white/[0.015]">
+                    <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-tabular text-ink-mute">{it.n}</td>
+                    <td className="px-2.5 py-2 sm:px-3 sm:py-3">
+                      <Badge tone={tipoAlertaTone(it.tipoAlerta)}>{tipoAlertaLabel(it.tipoAlerta)}</Badge>
+                    </td>
+                    <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-medium text-ink">{it.deptoLabel}</td>
+                    <td className="px-2.5 py-2 sm:px-3 sm:py-3 text-ink-dim">
+                      {it.provincia} / {it.distrito}
+                    </td>
+                    {mostrarTipo && (
+                      <td className="px-2.5 py-2 sm:px-3 sm:py-3">
+                        {it.tipo ? (
+                          <span
+                            className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide ${TIPO_BADGE[it.tipo] || 'border-white/10 bg-white/[0.06] text-ink-dim'}`}
+                          >
+                            {it.tipo}
+                          </span>
+                        ) : (
+                          <span className="text-ink-mute">—</span>
+                        )}
+                      </td>
+                    )}
+                    {mostrarFicha && <td className="px-2.5 py-2 sm:px-3 sm:py-3 font-tabular text-xs text-ink-mute">{it.ficha || '—'}</td>}
+                    <td className="max-w-[300px] px-2.5 py-2 sm:px-3 sm:py-3 text-ink-dim">{it.descripcion}</td>
+                    <td
+                      className={`px-2.5 py-2 font-tabular text-xs sm:px-3 sm:py-3 ${inicioEsVencida ? 'font-semibold text-amber' : 'text-ink-mute'}`}
+                    >
+                      {it.fechaInicio || '—'}
+                    </td>
+                    <td
+                      className={`px-2.5 py-2 font-tabular text-xs sm:px-3 sm:py-3 ${!inicioEsVencida ? 'font-semibold text-[#ff8080]' : 'text-ink-mute'}`}
+                    >
+                      {it.fechaFin || '—'}
+                    </td>
+                    <td className="px-2.5 py-2 text-right font-tabular font-semibold text-[#ff8080] sm:px-3 sm:py-3">{it.diasAtraso}</td>
+                  </tr>
+                )
+              })}
             </tbody>
           </table>
         )}
