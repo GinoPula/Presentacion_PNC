@@ -56,14 +56,15 @@ export default {
   flota: [
     { tipo: 'Camión cisterna de agua', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-013'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-939'], estado: 'operativo' },
+    { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGL-967'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Toyota', codigos: ['EAJ-734'], estado: 'inoperativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'John Deere', codigos: ['D001595'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D523572'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85404'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAJ-545'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EAJ-543'], estado: 'operativo' },
-    { tipo: 'Tractor sobre oruga', cantidad: 3, marca: 'Komatsu', codigos: ['82542', '81436', '81386'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 3, marca: 'Scania', codigos: ['EGM-823', 'EGM-925', 'EGM-829'], estado: 'operativo' },
+    { tipo: 'Tractor sobre oruga', cantidad: 3, marca: 'Komatsu', codigos: ['82542', '81386', '81436'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 3, marca: 'Scania', codigos: ['EGM-925', 'EGM-829', 'EGM-823'], estado: 'operativo' },
   ],
-  flotaTotal: 14,
+  flotaTotal: 15,
 }
