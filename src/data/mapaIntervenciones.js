@@ -12817,6 +12817,24 @@ const mapaIntervenciones = {
     "volumen": 0,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 9439,
+    "lat": -5.738582,
+    "lng": -77.505692,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Rioja",
+    "distrito": "Pardo Miguel",
+    "sector": "Centro, Los Angeles Y Miraflores",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN      ",
+    "ficha": "007-2026-AA-U-SAM",
+    "fechaInicio": "15/09/2026",
+    "fechaFin": "14/10/2026",
+    "poblacion": 1125,
+    "volumen": 1170,
+    "km": 0,
+    "enlace": null
   }
 ],
   ucayali: [
