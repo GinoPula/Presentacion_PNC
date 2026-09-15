@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "15/09/2026",
-    "horaCorte": "04:57",
+    "horaCorte": "05:28",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº093-2023-ADENDA 02",
       "fechaInicio": "01/09/2026",
       "fechaFin": "30/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "30/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "15/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "15/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "30/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "03/09/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "26/08/2026",
       "fechaFin": "09/09/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "09/09/2026",
       "fechaFin": "22/09/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
       "fechaInicio": "10/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 15,
@@ -289,7 +289,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 16,
@@ -308,7 +308,7 @@
       "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
       "fechaInicio": "10/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 17,
@@ -327,7 +327,45 @@
       "marcoLegal": "ADENDA N°02 AL CONVENIO N° 12-2024-VIVIENDAVMVU/PNC",
       "fechaInicio": "12/09/2026",
       "fechaFin": "06/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10372",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Los Olivos",
+      "sector": "Puente Milton A Bocatoma Chuquitanta Tramoi",
+      "ficha": "117-2026-LDP-LIM",
+      "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, SECTOR PUENTE MILTON A BOCATOMA CHUQUITANTA TRAMO I, DISTRITO DE LOS OLIVOS, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "CONVENIO N° 10-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "14/09/2026",
+      "fechaFin": "21/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10428",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Recuay",
+      "distrito": "Recuay",
+      "sector": "Uchipampa",
+      "ficha": "102-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RIO SANTA SECTOR PUENTE UCHIPAMPA, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "fechaInicio": "31/08/2026",
+      "fechaFin": "14/09/2026",
+      "diasAtraso": 1
     }
   ]
 }
