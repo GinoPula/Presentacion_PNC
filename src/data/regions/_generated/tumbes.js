@@ -18,6 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'La Cruz', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES', inicio: '15/09/2026', fin: '19/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 325 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
