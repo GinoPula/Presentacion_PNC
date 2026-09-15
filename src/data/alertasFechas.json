@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "15/09/2026",
-    "horaCorte": "14:35",
+    "horaCorte": "15:05",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -331,25 +331,6 @@
     },
     {
       "n": 18,
-      "idIntervencion": "10372",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Los Olivos",
-      "sector": "Puente Milton A Bocatoma Chuquitanta Tramoi",
-      "ficha": "117-2026-LDP-LIM",
-      "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, SECTOR PUENTE MILTON A BOCATOMA CHUQUITANTA TRAMO I, DISTRITO DE LOS OLIVOS, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
-      "marcoLegal": "CONVENIO N° 10-2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "14/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 19,
       "idIntervencion": "10428",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
