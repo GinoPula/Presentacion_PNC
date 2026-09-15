@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "15/09/2026",
-    "horaCorte": "19:39",
+    "horaCorte": "20:10",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -201,7 +201,7 @@
       "regionId": "ayacucho",
       "provincia": "Huamanga",
       "distrito": "Vinchos",
-      "sector": "Anchacchuasi",
+      "sector": "Anchachuasi",
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO N°039-2026-VIVIENDA/VMVU/PNC",
       "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00",
