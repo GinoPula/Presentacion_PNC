@@ -53,7 +53,7 @@ export default {
   conveniosCount: 5,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/09/2027' },
-    { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'hasta 15/10/2026' },
+    { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'vence 15/10/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Ascope', detail: 'hasta 20/11/2026' },
     { entidad: 'Municipalidad Provincial Pacasmayo', detail: 'hasta 27/04/2027' },
     { entidad: 'Municipalidad Distrital Quiruvilca', detail: 'vence 07/10/2026 (a un mes de caducar)' },
