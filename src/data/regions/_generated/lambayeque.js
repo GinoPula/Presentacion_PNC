@@ -17,8 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
-    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ', inicio: '12/08/2026', fin: '10/10/2026', volAcum: 209.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”  ', inicio: '02/09/2026', fin: '22/09/2026', volAcum: 4550.0, kmAcum: 0.13, poblacion: 4408 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ', inicio: '12/08/2026', fin: '10/10/2026', volAcum: 264.0, kmAcum: 0.0, poblacion: 3350 },
+    { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”  ', inicio: '02/09/2026', fin: '22/09/2026', volAcum: 9000.0, kmAcum: 0.42, poblacion: 4408 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
