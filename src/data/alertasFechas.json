@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "16/09/2026",
-    "horaCorte": "15:00",
+    "horaCorte": "15:30",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -179,25 +179,6 @@
     },
     {
       "n": 10,
-      "idIntervencion": "9662",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Jesus",
-      "sector": "La Huaraclla (urbano)",
-      "ficha": "FTI N° 018-2026-LD-PI-CAJ",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
-      "fechaInicio": "05/08/2026",
-      "fechaFin": "12/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 11,
       "idIntervencion": "8077",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10428",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -233,6 +214,25 @@
       "fechaInicio": "31/08/2026",
       "fechaFin": "14/09/2026",
       "diasAtraso": 2
+    },
+    {
+      "n": 12,
+      "idIntervencion": "10262",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 104-2025",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "01/10/2026",
+      "diasAtraso": 1
     },
     {
       "n": 13,
@@ -346,25 +346,6 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04 / PLIA",
       "fechaInicio": "15/09/2026",
       "fechaFin": "27/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 19,
-      "idIntervencion": "10262",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Andahuaylas",
-      "distrito": "Andarapa",
-      "sector": "C.p. Huampica/drenes",
-      "ficha": "FTI N° 042-2026-LDP-APU",
-      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
-      "marcoLegal": "CONVENIO N° 104-2025",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "01/10/2026",
       "diasAtraso": 1
     }
   ]

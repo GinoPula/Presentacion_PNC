@@ -10372,18 +10372,18 @@ const mapaIntervenciones = {
     "id": 9662,
     "lat": -7.236923,
     "lng": -78.412845,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Cajamarca",
     "distrito": "Jesus",
     "sector": "La Huaraclla (Urbano)",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
     "ficha": "FTI N° 018-2026-LD-PI-CAJ",
     "fechaInicio": "05/08/2026",
     "fechaFin": "12/09/2026",
     "poblacion": 625,
-    "volumen": 2410,
-    "km": 0.71,
+    "volumen": 2845.5,
+    "km": 0.8,
     "enlace": null
   },
   {
@@ -12048,8 +12048,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 7540,
-    "km": 3.51,
+    "volumen": 8180,
+    "km": 3.66,
     "enlace": null
   },
   {
@@ -12066,8 +12066,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 6085,
-    "km": 1.947,
+    "volumen": 6685,
+    "km": 2.147,
     "enlace": null
   },
   {
@@ -12084,8 +12084,8 @@ const mapaIntervenciones = {
     "fechaInicio": "04/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 595,
-    "volumen": 5860,
-    "km": 2.76,
+    "volumen": 6620,
+    "km": 3.12,
     "enlace": null
   }
 ],
