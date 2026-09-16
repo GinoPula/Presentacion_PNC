@@ -13,19 +13,18 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
+    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION DE LA QUEBRADA TITICACA DESDE LA PROGRESIVA 0+000 K.M A LA PROGRESIVA 0+600 K.M, DEL DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA, REGION AMAZONAS” ', inicio: '15/09/2026', fin: '25/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 45 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Bongara', distrito: 'San Carlos', cantidad: 1, metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
-    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', cantidad: 1, metaVol: 8300.0, metaKm: 0.6, poblacion: 45 },
     { provincia: 'Utcubamba', distrito: 'Bagua Grande', cantidad: 1, metaVol: 19890.81, metaKm: 1.98, poblacion: 416 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 39134.81, metaKm: 4.1, poblacion: 950 },
+  programadasTotal: { cantidad: 2, metaVol: 30834.81, metaKm: 3.5, poblacion: 905 },
 
   programadasDetalle: [
-    { provincia: 'Bongara', distrito: 'San Carlos', sector: 'Mancomunidad San Carlos', ficha: ' N° 004-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y ELIMINACION DEL TRAMO I DE LA QUEBRADA DON HUAYCO DESDE LA PROGRESIVA 0+000.00 A LA PROGRESIVA 1+520.00, EN EL MANCOMUNIDAD SAN CARLOS, DISTRITO DE SAN CARLOS, PROVINCIA BONGARA, REGIÓN AMAZONAS”-00                      ', fechaInicio: '12/09/2026', fechaFin: '06/10/2026', metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
-    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', sector: '', ficha: 'N°069-2026-LDE-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACION DE LA QUEBRADA TITICACA DESDE LA PROGRESIVA 0+000 K.M A LA PROGRESIVA 0+600 K.M, DEL DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA, REGION AMAZONAS”', fechaInicio: '15/09/2026', fechaFin: '25/09/2026', metaVol: 8300.0, metaKm: 0.6, poblacion: 45 },
+    { provincia: 'Bongara', distrito: 'San Carlos', sector: 'Mancomunidad San Carlos', ficha: ' N° 004-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y ELIMINACION DEL TRAMO I DE LA QUEBRADA DON HUAYCO DESDE LA PROGRESIVA 0+000.00 A LA PROGRESIVA 1+520.00, EN EL MANCOMUNIDAD SAN CARLOS, DISTRITO DE SAN CARLOS, PROVINCIA BONGARA, REGIÓN AMAZONAS”-00                       ', fechaInicio: '12/11/2026', fechaFin: '06/12/2026', metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
     { provincia: 'Utcubamba', distrito: 'Bagua Grande', sector: 'C.P. Goncha', ficha: '002-2026-LDP-AMZ', descripcion: ' “DESCOLMATACION Y ENCAUZAMIENTO CON MATERIAL PROPIO DE LA QUEBRADA GONCHA DESDE LA PROGRESIVA 0+000 HASTA LA PROGRESIVA\n1+891 – DEL CENTRO POBLADO DE GONCHA, DISTRITO DE BAGUA GRANDE, PROVINCIA DE UTCUBAMBA, REGIÓN AMAZONAS”-00                                     ', fechaInicio: '20/12/2026', fechaFin: '18/01/2027', metaVol: 19890.81, metaKm: 1.98, poblacion: 416 },
   ],
 
