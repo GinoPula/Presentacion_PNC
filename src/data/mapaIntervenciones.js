@@ -8753,13 +8753,13 @@ const mapaIntervenciones = {
     "provincia": "Abancay",
     "distrito": "Abancay",
     "sector": "Lucmapampa",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.     ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.      ",
     "ficha": "FTI N° 043-2026-LDP-APU",
     "fechaInicio": "17/08/2026",
-    "fechaFin": "15/09/2026",
+    "fechaFin": "19/09/2026",
     "poblacion": 500,
-    "volumen": 5150,
-    "km": 0.79,
+    "volumen": 5300,
+    "km": 0.82,
     "enlace": null
   },
   {

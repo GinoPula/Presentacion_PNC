@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "16/09/2026",
-    "horaCorte": "12:27",
+    "horaCorte": "12:57",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -82,7 +82,7 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.",
       "fechaInicio": "17/08/2026",
-      "fechaFin": "15/09/2026",
+      "fechaFin": "19/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-803)",
         "EXCAVADORA HIDRAULICA ( 85423)",
