@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "21:58",
+    "horaCorte": "22:28",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -669,6 +669,22 @@
     },
     {
       "n": 34,
+      "idIntervencion": "10201",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Huarochiri",
+      "distrito": "San Antonio",
+      "sector": "Huertos Del Valle Sagrado",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N.° 02 AL CONVENIO N.° 010-2024-VIVIENDA/MVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUERTOS DEL VALLE, SECTOR LOS HUERTOS – VALLE SAGRADO - DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”",
+      "fechaInicio": "17/09/2026",
+      "fechaFin": "28/09/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 35,
       "idIntervencion": "10381",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -688,7 +704,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "idIntervencion": "10504",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -706,7 +722,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -728,7 +744,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -746,7 +762,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "10503",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -765,7 +781,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "10502",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -786,7 +802,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "9682",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -806,7 +822,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "10500",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -822,7 +838,7 @@
       "maquinaria": []
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -844,7 +860,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -865,7 +881,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "9439",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -883,7 +899,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -901,7 +917,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -916,24 +932,6 @@
       "fechaFin": "16/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-975)"
-      ]
-    },
-    {
-      "n": 47,
-      "idIntervencion": "10307",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Sama",
-      "sector": "Sama Y Anexos Iv Etapa",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO Nª 047-2026-CM-MDS",
-      "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "10/08/2026",
-      "fechaFin": "08/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGO-007)"
       ]
     },
     {
@@ -957,6 +955,24 @@
     },
     {
       "n": 49,
+      "idIntervencion": "10307",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Sama",
+      "sector": "Sama Y Anexos Iv Etapa",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO Nª 047-2026-CM-MDS",
+      "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "10/08/2026",
+      "fechaFin": "08/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-007)"
+      ]
+    },
+    {
+      "n": 50,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -975,7 +991,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 51,
       "idIntervencion": "10522",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
