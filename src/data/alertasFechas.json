@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "13:19",
+    "horaCorte": "13:50",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -84,25 +84,6 @@
     },
     {
       "n": 5,
-      "idIntervencion": "10448",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Satipo",
-      "distrito": "Rio Tambo",
-      "sector": "Zona Urbana",
-      "ficha": "067-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "26/08/2026",
-      "fechaFin": "09/09/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 6,
       "idIntervencion": "9852",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -118,6 +99,25 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 6,
+      "idIntervencion": "10448",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Satipo",
+      "distrito": "Rio Tambo",
+      "sector": "Zona Urbana",
+      "ficha": "067-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "26/08/2026",
+      "fechaFin": "09/09/2026",
       "diasAtraso": 8
     },
     {
@@ -160,25 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "10262",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Andahuaylas",
-      "distrito": "Andarapa",
-      "sector": "C.p. Huampica/drenes",
-      "ficha": "FTI N° 042-2026-LDP-APU",
-      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
-      "marcoLegal": "CONVENIO N° 104-2025",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "01/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 10,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9773",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -213,6 +194,25 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04 / PLIA",
       "fechaInicio": "15/09/2026",
       "fechaFin": "27/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10262",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 104-2025",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "01/10/2026",
       "diasAtraso": 2
     },
     {
@@ -236,25 +236,6 @@
     },
     {
       "n": 13,
-      "idIntervencion": "10518",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "LAMBAYEQUE",
-      "deptoLabel": "Lambayeque",
-      "regionId": "lambayeque",
-      "provincia": "Chiclayo",
-      "distrito": "Lagunas",
-      "sector": "",
-      "ficha": "065-2026 -AA-U-LAM",
-      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.",
-      "marcoLegal": "ACUERDO MUNICIPAL N° 003-2026 - MDL/A",
-      "fechaInicio": "16/09/2026",
-      "fechaFin": "14/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
       "idIntervencion": "10519",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,26 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
-      "idIntervencion": "10471",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Contumaza",
-      "distrito": "Tantarica",
-      "sector": "El Sapo - Catan",
-      "ficha": "FTI N° 057-2026-MTV-U-CAJ",
-      "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 030-2026-MDT/A",
-      "fechaInicio": "02/09/2026",
-      "fechaFin": "16/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 17,
+      "n": 15,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -330,7 +292,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 16,
       "idIntervencion": "10492",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

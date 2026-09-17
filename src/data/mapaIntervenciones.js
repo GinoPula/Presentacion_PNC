@@ -5005,6 +5005,24 @@ const mapaIntervenciones = {
     "volumen": 9000,
     "km": 0.42,
     "enlace": null
+  },
+  {
+    "id": 10518,
+    "lat": -7.014776,
+    "lng": -79.606405,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Chiclayo",
+    "distrito": "Lagunas",
+    "sector": "Centros Poblados: Nuevo Mocupe, Tupac Amaru, Agropecuario, Peroles, La Libertad, Cerro La Guitarra, San Juan De Miraflores, La Molina, 11 De Mayo",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ",
+    "ficha": "065-2026 -AA-U-LAM",
+    "fechaInicio": "17/09/2026",
+    "fechaFin": "15/11/2026",
+    "poblacion": 1100,
+    "volumen": 2310,
+    "km": 0,
+    "enlace": null
   }
 ],
   ica: [
@@ -10539,10 +10557,10 @@ const mapaIntervenciones = {
     "provincia": "Contumaza",
     "distrito": "Tantarica",
     "sector": "El Sapo - Catan",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.   ",
     "ficha": "FTI N° 057-2026-MTV-U-CAJ",
     "fechaInicio": "02/09/2026",
-    "fechaFin": "16/09/2026",
+    "fechaFin": "18/09/2026",
     "poblacion": 500,
     "volumen": 4180,
     "km": 20.5,

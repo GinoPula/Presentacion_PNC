@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "13:19",
+    "horaCorte": "13:50",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -263,7 +263,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 030-2026-MDT/A",
       "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
       "fechaInicio": "02/09/2026",
-      "fechaFin": "16/09/2026",
+      "fechaFin": "18/09/2026",
       "maquinaria": [
         "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "CARGADOR FRONTAL ( JLX00213)",
@@ -608,6 +608,22 @@
     },
     {
       "n": 31,
+      "idIntervencion": "10518",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Lagunas",
+      "sector": "Centros Poblados: Nuevo Mocupe, Tupac Amaru, Agropecuario, Peroles, La Libertad, Cerro La Guitarra, San Juan De Miraflores, La Molina, 11 De Mayo",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO MUNICIPAL N° 003-2026 - MDL/A",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.",
+      "fechaInicio": "17/09/2026",
+      "fechaFin": "15/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 32,
       "idIntervencion": "10468",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -629,7 +645,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "idIntervencion": "10417",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -647,7 +663,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "idIntervencion": "10381",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -666,7 +682,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 35,
       "idIntervencion": "10504",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -684,7 +700,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -706,7 +722,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -724,7 +740,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "10503",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -743,7 +759,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "10502",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -764,7 +780,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "9682",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -784,7 +800,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "10500",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -800,7 +816,7 @@
       "maquinaria": []
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -822,7 +838,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -843,7 +859,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "9439",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -861,7 +877,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -879,7 +895,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -897,7 +913,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -915,7 +931,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "10466",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -934,7 +950,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -953,7 +969,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "idIntervencion": "10522",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
