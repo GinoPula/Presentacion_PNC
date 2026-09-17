@@ -12097,10 +12097,10 @@ const mapaIntervenciones = {
     "provincia": "Satipo",
     "distrito": "Rio Tambo",
     "sector": "Zona Urbana",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.      ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.       ",
     "ficha": "067-2026-LD-P-JUN",
     "fechaInicio": "26/08/2026",
-    "fechaFin": "09/09/2026",
+    "fechaFin": "24/09/2026",
     "poblacion": 1330,
     "volumen": 4700,
     "km": 2.175,
@@ -12120,8 +12120,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 8180,
-    "km": 3.66,
+    "volumen": 9590,
+    "km": 4.01,
     "enlace": null
   },
   {
@@ -12156,8 +12156,8 @@ const mapaIntervenciones = {
     "fechaInicio": "04/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 595,
-    "volumen": 6620,
-    "km": 3.12,
+    "volumen": 7290,
+    "km": 3.32,
     "enlace": null
   }
 ],
