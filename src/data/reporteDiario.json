@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "03:09",
+    "horaCorte": "03:39",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -1004,7 +1004,7 @@
       "marcoLegal": "CONVENIO Nº029-2026",
       "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
       "fechaInicio": "15/09/2026",
-      "fechaFin": "19/09/2026",
+      "fechaFin": "18/09/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-839)",
         "VOLQUETE ( EGV-820)",

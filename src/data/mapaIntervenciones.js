@@ -847,10 +847,10 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "La Cruz",
     "sector": "Las Gardenias",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ",
     "ficha": "075-2026-LD-PI-TUM",
     "fechaInicio": "15/09/2026",
-    "fechaFin": "19/09/2026",
+    "fechaFin": "18/09/2026",
     "poblacion": 325,
     "volumen": 1260,
     "km": 0.24,
@@ -5418,7 +5418,7 @@ const mapaIntervenciones = {
     "fechaInicio": "24/08/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 750,
-    "volumen": 300,
+    "volumen": 330,
     "km": 0,
     "enlace": null
   },
@@ -5454,8 +5454,8 @@ const mapaIntervenciones = {
     "fechaInicio": "15/09/2026",
     "fechaFin": "29/09/2026",
     "poblacion": 470,
-    "volumen": 1600,
-    "km": 0.055,
+    "volumen": 3100,
+    "km": 0.115,
     "enlace": null
   }
 ],
