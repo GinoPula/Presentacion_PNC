@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "12:18",
+    "horaCorte": "12:49",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -906,7 +906,7 @@
       "distrito": "Sama",
       "sector": "Sama Y Anexos Iv Etapa",
       "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO Nª 002-2026-CM-MDS",
+      "marcoLegal": "ACUERDO DE CONCEJO Nª 047-2026-CM-MDS",
       "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA",
       "fechaInicio": "10/08/2026",
       "fechaFin": "08/10/2026",
