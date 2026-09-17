@@ -2134,7 +2134,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/10/2026",
     "poblacion": 550,
-    "volumen": 285,
+    "volumen": 300,
     "km": 0,
     "enlace": null
   },
@@ -2170,8 +2170,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "21/09/2026",
     "poblacion": 500,
-    "volumen": 3600,
-    "km": 0.41,
+    "volumen": 4100,
+    "km": 0.46,
     "enlace": null
   }
 ],
@@ -7266,18 +7266,18 @@ const mapaIntervenciones = {
     "id": 10213,
     "lat": -11.913612,
     "lng": -76.932558,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Huarochiri",
     "distrito": "San Antonio",
     "sector": "Sector La Rinconada – Con Referencia R-28",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”                 ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA RINCONADA TRAMO I , EN EL SECTOR LA RINCONADA CON REFERENCIA R-28 DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”                  ",
     "ficha": "098-2026-LDE-LIM",
     "fechaInicio": "31/07/2026",
-    "fechaFin": "17/09/2026",
+    "fechaFin": "16/09/2026",
     "poblacion": 1500,
-    "volumen": 2115.44,
-    "km": 0.083,
+    "volumen": 2347.94,
+    "km": 0.09,
     "enlace": null
   },
   {
@@ -7420,8 +7420,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "21/09/2026",
     "poblacion": 2500000,
-    "volumen": 6879.3,
-    "km": 0.037,
+    "volumen": 8019.3,
+    "km": 0.045,
     "enlace": null
   },
   {
@@ -7438,8 +7438,8 @@ const mapaIntervenciones = {
     "fechaInicio": "10/09/2026",
     "fechaFin": "24/09/2026",
     "poblacion": 1050,
-    "volumen": 980,
-    "km": 0.049,
+    "volumen": 1680,
+    "km": 0.084,
     "enlace": null
   },
   {
