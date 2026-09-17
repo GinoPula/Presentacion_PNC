@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "10:17",
+    "horaCorte": "10:47",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -274,25 +274,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10430",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Camana",
-      "distrito": "Mariano Nicolas Valcarcel",
-      "sector": "Varios Anexos",
-      "ficha": "74-2026-AA-U-ARE",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 002-2026-MDMNV-CM",
-      "fechaInicio": "18/08/2026",
-      "fechaFin": "16/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 16,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10471",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -330,7 +311,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -349,7 +330,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10492",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
