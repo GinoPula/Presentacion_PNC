@@ -9265,7 +9265,7 @@ const mapaIntervenciones = {
     "fechaFin": "19/09/2026",
     "poblacion": 165,
     "volumen": 1445,
-    "km": 0.205,
+    "km": 0.29,
     "enlace": null
   }
 ],
@@ -12917,13 +12917,13 @@ const mapaIntervenciones = {
     "provincia": "Bellavista",
     "distrito": "San Pablo",
     "sector": "Dos De Mayo Y Nuevo Flores",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                   ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                    ",
     "ficha": "015-2026-MTV-U-SAM ",
     "fechaInicio": "03/09/2026",
-    "fechaFin": "18/09/2026",
+    "fechaFin": "19/09/2026",
     "poblacion": 300,
-    "volumen": 1320,
-    "km": 1.9,
+    "volumen": 1470,
+    "km": 2.1,
     "enlace": null
   },
   {
@@ -12935,11 +12935,11 @@ const mapaIntervenciones = {
     "provincia": "Picota",
     "distrito": "San Hilarion",
     "sector": "San Hilarión",
-    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN             ",
+    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN               ",
     "ficha": "038-2026-LD-PI-SAM",
     "fechaInicio": "08/09/2026",
-    "fechaFin": "21/09/2026",
-    "poblacion": null,
+    "fechaFin": "24/09/2026",
+    "poblacion": 500,
     "volumen": 180,
     "km": 0.02,
     "enlace": null
