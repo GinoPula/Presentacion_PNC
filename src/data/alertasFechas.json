@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "04:40",
+    "horaCorte": "05:11",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 15
+      "diasAtraso": 16
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "26/08/2026",
       "fechaFin": "09/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 8,
@@ -156,29 +156,10 @@
       "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
       "fechaInicio": "10/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 9,
-      "idIntervencion": "9773",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Recuay",
-      "distrito": "Catac",
-      "sector": "Parco",
-      "ficha": "029-2026-LDP-ANC",
-      "descripcion": "DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN DERECHO DEL CAUCE DEL RIO SANTA DEL SECTOR DE PARCO, TRAMO II, DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00",
-      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04 / PLIA",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "27/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 10,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -194,29 +175,10 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 11,
-      "idIntervencion": "10382",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Abancay",
-      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
-      "ficha": "FTI N° 046-2026-LDP-APU.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
-      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "14/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 12,
+      "n": 10,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -232,6 +194,177 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 11,
+      "idIntervencion": "9773",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Recuay",
+      "distrito": "Catac",
+      "sector": "Parco",
+      "ficha": "029-2026-LDP-ANC",
+      "descripcion": "DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN DERECHO DEL CAUCE DEL RIO SANTA DEL SECTOR DE PARCO, TRAMO II, DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04 / PLIA",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "27/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 12,
+      "idIntervencion": "10382",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
+      "ficha": "FTI N° 046-2026-LDP-APU.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "14/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10518",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Lagunas",
+      "sector": "",
+      "ficha": "065-2026 -AA-U-LAM",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.",
+      "marcoLegal": "ACUERDO MUNICIPAL N° 003-2026 - MDL/A",
+      "fechaInicio": "16/09/2026",
+      "fechaFin": "14/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10519",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Sullana",
+      "distrito": "Sullana",
+      "sector": "Dren Cieneguillo",
+      "ficha": "FTI N° 141-2026-LD-P-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA",
+      "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
+      "fechaInicio": "16/09/2026",
+      "fechaFin": "07/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10430",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Camana",
+      "distrito": "Mariano Nicolas Valcarcel",
+      "sector": "Varios Anexos",
+      "ficha": "74-2026-AA-U-ARE",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 002-2026-MDMNV-CM",
+      "fechaInicio": "18/08/2026",
+      "fechaFin": "16/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10482",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Santiago De Chuco",
+      "distrito": "Quiruvilca",
+      "sector": "Pajillas",
+      "ficha": "070-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
+      "fechaInicio": "16/09/2026",
+      "fechaFin": "30/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10471",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Contumaza",
+      "distrito": "Tantarica",
+      "sector": "El Sapo - Catan",
+      "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+      "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 030-2026-MDT/A",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "16/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10477",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio La Union – Sector El Filo",
+      "ficha": "N°067-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "16/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10492",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Yungay",
+      "distrito": "Shupluy",
+      "sector": "Choccha",
+      "ficha": "098-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY",
+      "marcoLegal": "CONVENIO Nº035-2026",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "16/09/2026",
       "diasAtraso": 1
     }
   ]
