@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "17/09/2026",
-    "horaCorte": "22:28",
+    "horaCorte": "22:59",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "9848",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "El Collao",
-      "distrito": "Pilcuyo",
-      "sector": "Plas Ponco",
-      "ficha": "FTI N° 034-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
-      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 7,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -140,7 +121,45 @@
       "diasAtraso": 7
     },
     {
+      "n": 7,
+      "idIntervencion": "9848",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "El Collao",
+      "distrito": "Pilcuyo",
+      "sector": "Plas Ponco",
+      "ficha": "FTI N° 034-2026-LDP-PUN",
+      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
+      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "21/09/2026",
+      "diasAtraso": 7
+    },
+    {
       "n": 8,
+      "idIntervencion": "10382",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
+      "ficha": "FTI N° 046-2026-LDP-APU.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "14/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 9,
       "idIntervencion": "9773",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -159,7 +178,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -178,7 +197,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -194,25 +213,6 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 11,
-      "idIntervencion": "10382",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Abancay",
-      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
-      "ficha": "FTI N° 046-2026-LDP-APU.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
-      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "14/10/2026",
       "diasAtraso": 2
     },
     {
@@ -250,25 +250,6 @@
       "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "02/09/2026",
-      "fechaFin": "16/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
-      "idIntervencion": "10492",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Yungay",
-      "distrito": "Shupluy",
-      "sector": "Choccha",
-      "ficha": "098-2026-LDP-ANC",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY",
-      "marcoLegal": "CONVENIO Nº035-2026",
-      "fechaInicio": "07/09/2026",
       "fechaFin": "16/09/2026",
       "diasAtraso": 1
     }
