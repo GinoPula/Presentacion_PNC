@@ -4997,7 +4997,7 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Illimo",
     "sector": "",
-    "descripcion": " “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”  ",
+    "descripcion": " “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”   ",
     "ficha": "064-2026 -LD-E-LAM",
     "fechaInicio": "02/09/2026",
     "fechaFin": "22/09/2026",
@@ -11070,8 +11070,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "26/09/2026",
     "poblacion": 134,
-    "volumen": 5430,
-    "km": 0.121,
+    "volumen": 6250,
+    "km": 0.139,
     "enlace": null
   },
   {
@@ -11088,8 +11088,8 @@ const mapaIntervenciones = {
     "fechaInicio": "11/09/2026",
     "fechaFin": "24/09/2026",
     "poblacion": 280,
-    "volumen": 950,
-    "km": 0.242,
+    "volumen": 1330,
+    "km": 0.339,
     "enlace": null
   }
 ],
