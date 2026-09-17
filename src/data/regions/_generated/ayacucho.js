@@ -16,21 +16,21 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                  ', inicio: '11/09/2026', fin: '19/09/2026', volAcum: 1445.0, kmAcum: 0.29, poblacion: 165 },
+    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                  ', inicio: '11/09/2026', fin: '19/09/2026', volAcum: 2085.0, kmAcum: 0.41, poblacion: 165 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Huamanga', distrito: 'Ayacucho', cantidad: 1, metaVol: 600.0, metaKm: 0.18, poblacion: 1000 },
+    { provincia: 'Huamanga', distrito: 'Ayacucho', cantidad: 2, metaVol: 1440.0, metaKm: 0.46, poblacion: 1320 },
     { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 1, metaVol: 1704.0, metaKm: 0.35, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 1, metaVol: 5250.0, metaKm: 0.32, poblacion: 40 },
-    { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 4, metaVol: 32109.0, metaKm: 3.5, poblacion: 764 },
+    { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 4, metaVol: 32109.0, metaKm: 3.51, poblacion: 764 },
     { provincia: 'Huanta', distrito: 'Sivia', cantidad: 2, metaVol: 7500.0, metaKm: 1.0, poblacion: 413 },
     { provincia: 'La Mar', distrito: 'Santa Rosa', cantidad: 2, metaVol: 6090.0, metaKm: 0.41, poblacion: 450 },
     { provincia: 'Victor Fajardo', distrito: 'Vilcanchos', cantidad: 1, metaVol: 6624.0, metaKm: 0.92, poblacion: 600 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 62373.0, metaKm: 6.94, poblacion: 3625 },
+  programadasTotal: { cantidad: 14, metaVol: 63213.0, metaKm: 7.22, poblacion: 3945 },
 
   programadasDetalle: [
     { provincia: 'Huamanga', distrito: 'Vinchos', sector: 'Arizona', ficha: '42-2025-LD-PI-AYAC', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.  ', fechaInicio: '21/09/2026', fechaFin: '05/10/2026', metaVol: 5625.0, metaKm: 0.6, poblacion: 130 },
@@ -41,6 +41,7 @@ export default {
     { provincia: 'Huamanga', distrito: 'Vinchos', sector: 'Pacclarumi', ficha: '05-2026-LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO III EN EL SECTOR PACCLARUMI, UBICADO EN ANEXO SAN LUIS DE PICHA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00         ', fechaInicio: '02/11/2026', fechaFin: '13/11/2026', metaVol: 7644.0, metaKm: 0.24, poblacion: 144 },
     { provincia: 'La Mar', distrito: 'Santa Rosa', sector: 'Puente', ficha: '13-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO SANTA ROSA EN EL TRAMO III DEL SECTOR PUENTE DEL DISTRITO DE SANTA ROSA, PROVINCIA DE LA MAR, REGIÓN AYACUCHO-00                  ', fechaInicio: '04/11/2026', fechaFin: '09/11/2026', metaVol: 2415.0, metaKm: 0.16, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Jesus Nazareno', sector: 'San Carlos', ficha: '08-2026-LD-PI-AYAC  ', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA SAN CARLOS TRAMO I, EN EL SECTOR HUICHCCANA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO-00        ', fechaInicio: '05/11/2026', fechaFin: '11/11/2026', metaVol: 1704.0, metaKm: 0.35, poblacion: 200 },
+    { provincia: 'Huamanga', distrito: 'Ayacucho', sector: 'Wari Accopampa', ficha: '44-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO   ', fechaInicio: '10/11/2026', fechaFin: '20/11/2026', metaVol: 840.0, metaKm: 0.28, poblacion: 320 },
     { provincia: 'Huanta', distrito: 'Sivia', sector: 'Zoológico', ficha: '18-2026- LD-PI-AYAC ', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO Y ELIMINACIÓN DE MATERIAL DESCOLMATADO EN EL RIO QUIPIASARI, EN EL SECTOR ZOOLÓGICO DEL DISTRITO DE SIVIA, PROVINCIA DE HUANTA, REGIÓN AYACUCHO-00        ', fechaInicio: '12/12/2026', fechaFin: '23/12/2026', metaVol: 4620.0, metaKm: 0.55, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Vinchos', sector: '', ficha: '06-2026-LD-P-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO IV, UBICADO EN EL CENTRO POBLADO ANCHAC HUASI, EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.      ', fechaInicio: '14/12/2026', fechaFin: '29/12/2026', metaVol: 10200.0, metaKm: 1.7, poblacion: 245 },
     { provincia: 'Huamanga', distrito: 'Vinchos', sector: 'Anchacchuasi', ficha: '04-2026-LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO II, UBICADO EN EL CENTRO POBLADO ANCHAC HUASI, EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                    ', fechaInicio: '15/12/2026', fechaFin: '28/12/2026', metaVol: 8640.0, metaKm: 0.96, poblacion: 245 },
