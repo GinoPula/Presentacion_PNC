@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "18/09/2026",
-    "horaCorte": "04:33",
+    "horaCorte": "05:03",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 16
+      "diasAtraso": 17
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 14
+      "diasAtraso": 15
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
     },
     {
       "n": 5,
@@ -99,29 +99,10 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 6,
-      "idIntervencion": "9848",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "El Collao",
-      "distrito": "Pilcuyo",
-      "sector": "Plas Ponco",
-      "ficha": "FTI N° 034-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
-      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 7,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -137,7 +118,26 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
+    },
+    {
+      "n": 7,
+      "idIntervencion": "9848",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "El Collao",
+      "distrito": "Pilcuyo",
+      "sector": "Plas Ponco",
+      "ficha": "FTI N° 034-2026-LDP-PUN",
+      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
+      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "21/09/2026",
+      "diasAtraso": 8
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "15/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "16/09/2026",
       "fechaFin": "07/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 12,
@@ -232,6 +232,44 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "02/09/2026",
       "fechaFin": "16/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10294",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "Callayuc",
+      "sector": "San Francisco - C.p El Cumbe – La Union",
+      "ficha": "N°051-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
+      "fechaInicio": "15/06/2026",
+      "fechaFin": "17/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10326",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Namballe",
+      "sector": "C.p. San Pedro",
+      "ficha": "N°056-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
+      "fechaInicio": "25/06/2026",
+      "fechaFin": "17/09/2026",
       "diasAtraso": 1
     }
   ]
