@@ -7535,24 +7535,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1mi4NyqH9k6urtx-3EjWapkuG70lyjkJ9/view?usp=drive_link"
   },
   {
-    "id": 9380,
-    "lat": -16.40237,
-    "lng": -71.48035,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Arequipa",
-    "distrito": "Mariano Melgar",
-    "sector": "San Jeronimo",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR SAN JERONIMO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
-    "ficha": "03-2026-LDP-ARE",
-    "fechaInicio": "16/01/2026",
-    "fechaFin": "30/01/2026",
-    "poblacion": 300,
-    "volumen": 9655.96,
-    "km": 0.55,
-    "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
-  },
-  {
     "id": 9377,
     "lat": -16.404841,
     "lng": -71.49134,
@@ -7569,6 +7551,24 @@ const mapaIntervenciones = {
     "volumen": 4692.69,
     "km": 0.39,
     "enlace": "https://drive.google.com/file/d/1vs1khE2yqU7BZ0sXjrNSabl2RWxPUWSJ/view?usp=drive_link"
+  },
+  {
+    "id": 9380,
+    "lat": -16.40237,
+    "lng": -71.48035,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Arequipa",
+    "distrito": "Mariano Melgar",
+    "sector": "San Jeronimo",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR SAN JERONIMO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
+    "ficha": "03-2026-LDP-ARE",
+    "fechaInicio": "16/01/2026",
+    "fechaFin": "30/01/2026",
+    "poblacion": 300,
+    "volumen": 9655.96,
+    "km": 0.55,
+    "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
   },
   {
     "id": 9825,
@@ -7661,24 +7661,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1yrL194C81ISFljyNU60ylo1G9GFWykR1/view?usp=drive_link"
   },
   {
-    "id": 9894,
-    "lat": -15.782423,
-    "lng": -73.071424,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Condesuyos",
-    "distrito": "Yanaquihua",
-    "sector": "Varios Anexos",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE LA BARRERA, YAUSE, CONCEBIDA, CHANANA, SAN JOSÉ Y CHORUNGA ALTA, DEL DISTRITO DE YANAQUIHUA, PROVINCIA DE CONDESUYOS, DEPARTAMENTO AREQUIPA”.    ",
-    "ficha": "31-2026-AA-U-ARE",
-    "fechaInicio": "11/02/2026",
-    "fechaFin": "12/03/2026",
-    "poblacion": 545,
-    "volumen": 750,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1zb37E1VP6kdD8EkC8SfGTIHYTdU7wJ9A/view?usp=drive_link"
-  },
-  {
     "id": 9856,
     "lat": -15.776943,
     "lng": -73.375736,
@@ -7695,6 +7677,24 @@ const mapaIntervenciones = {
     "volumen": 750,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1qQfDm2t-AQy95oDKkkHeDbwdGd37zZaw/view?usp=drive_link"
+  },
+  {
+    "id": 9894,
+    "lat": -15.782423,
+    "lng": -73.071424,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Condesuyos",
+    "distrito": "Yanaquihua",
+    "sector": "Varios Anexos",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE LA BARRERA, YAUSE, CONCEBIDA, CHANANA, SAN JOSÉ Y CHORUNGA ALTA, DEL DISTRITO DE YANAQUIHUA, PROVINCIA DE CONDESUYOS, DEPARTAMENTO AREQUIPA”.    ",
+    "ficha": "31-2026-AA-U-ARE",
+    "fechaInicio": "11/02/2026",
+    "fechaFin": "12/03/2026",
+    "poblacion": 545,
+    "volumen": 750,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1zb37E1VP6kdD8EkC8SfGTIHYTdU7wJ9A/view?usp=drive_link"
   },
   {
     "id": 9930,
@@ -7841,24 +7841,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/17cYZ8heSbe4iItXxhClXpzet0boScftB/view?usp=drive_link"
   },
   {
-    "id": 9998,
-    "lat": -16.315993,
-    "lng": -71.539862,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Arequipa",
-    "distrito": "Cayma",
-    "sector": "Varios Sectores",
-    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. CASA BLANCA, A.H. TRANSOCEÁNICA II, A.H. CABRERÍAS I, A.H. MUJERES CON ESPERANZA, A.H. PALPATA ZONA B, A.H. SEÑOR DE LOS MILAGROS, A.H. ONCE DE MAYO ZONA C, A.H. EL SOLAR, A.H. PRIMERO DE JUNIO ZONA B, A.H. EL TRIUNFO, A.H. DEAN VALDIVIA, A.H. 19 DE ENERO Y SANTUARIO VIRGEN DE CHAPI, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”           ",
-    "ficha": "41-2026-LETV-E-ARE",
-    "fechaInicio": "17/03/2026",
-    "fechaFin": "15/04/2026",
-    "poblacion": 4250,
-    "volumen": 20363.53,
-    "km": 5.24,
-    "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
-  },
-  {
     "id": 10005,
     "lat": -16.397732,
     "lng": -71.41165,
@@ -7875,6 +7857,24 @@ const mapaIntervenciones = {
     "volumen": 320,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
+  },
+  {
+    "id": 9998,
+    "lat": -16.315993,
+    "lng": -71.539862,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Arequipa",
+    "distrito": "Cayma",
+    "sector": "Varios Sectores",
+    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. CASA BLANCA, A.H. TRANSOCEÁNICA II, A.H. CABRERÍAS I, A.H. MUJERES CON ESPERANZA, A.H. PALPATA ZONA B, A.H. SEÑOR DE LOS MILAGROS, A.H. ONCE DE MAYO ZONA C, A.H. EL SOLAR, A.H. PRIMERO DE JUNIO ZONA B, A.H. EL TRIUNFO, A.H. DEAN VALDIVIA, A.H. 19 DE ENERO Y SANTUARIO VIRGEN DE CHAPI, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”           ",
+    "ficha": "41-2026-LETV-E-ARE",
+    "fechaInicio": "17/03/2026",
+    "fechaFin": "15/04/2026",
+    "poblacion": 4250,
+    "volumen": 20363.53,
+    "km": 5.24,
+    "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
   },
   {
     "id": 10041,
@@ -8057,24 +8057,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1RteRTpOqsXGHB3AwkBx4S4qMI-4hO55e/view?usp=drive_link"
   },
   {
-    "id": 9925,
-    "lat": -16.213245,
-    "lng": -73.152313,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Camana",
-    "distrito": "Mariano Nicolas Valcarcel",
-    "sector": "Varios Anexos",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.          ",
-    "ficha": "37-2026-AA-U-ARE",
-    "fechaInicio": "18/05/2026",
-    "fechaFin": "16/06/2026",
-    "poblacion": 504,
-    "volumen": 720,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1110h9xlnq5XZCEr3N3uCChU63PZT_pVO/view?usp=drive_link"
-  },
-  {
     "id": 10145,
     "lat": -15.331766,
     "lng": -73.03579,
@@ -8091,6 +8073,24 @@ const mapaIntervenciones = {
     "volumen": 7567,
     "km": 3.29,
     "enlace": "https://drive.google.com/file/d/1dvjYQXurtDgWg_fUwQHBh-zjiDnBYqV9/view?usp=drive_link"
+  },
+  {
+    "id": 9925,
+    "lat": -16.213245,
+    "lng": -73.152313,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Camana",
+    "distrito": "Mariano Nicolas Valcarcel",
+    "sector": "Varios Anexos",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.          ",
+    "ficha": "37-2026-AA-U-ARE",
+    "fechaInicio": "18/05/2026",
+    "fechaFin": "16/06/2026",
+    "poblacion": 504,
+    "volumen": 720,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1110h9xlnq5XZCEr3N3uCChU63PZT_pVO/view?usp=drive_link"
   },
   {
     "id": 10146,
@@ -8327,24 +8327,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10085,
-    "lat": -15.777643,
-    "lng": -73.36777,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Caraveli",
-    "distrito": "Caraveli",
-    "sector": "La Yesera I Tramo Ii",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                ",
-    "ficha": "49-2026-LDP-ARE",
-    "fechaInicio": "11/08/2026",
-    "fechaFin": "09/09/2026",
-    "poblacion": 1500,
-    "volumen": 17878.76,
-    "km": 2.33,
-    "enlace": null
-  },
-  {
     "id": 10418,
     "lat": -15.776943,
     "lng": -73.375736,
@@ -8360,6 +8342,24 @@ const mapaIntervenciones = {
     "poblacion": 640,
     "volumen": 720,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10085,
+    "lat": -15.777643,
+    "lng": -73.36777,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "La Yesera I Tramo Ii",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                ",
+    "ficha": "49-2026-LDP-ARE",
+    "fechaInicio": "11/08/2026",
+    "fechaFin": "09/09/2026",
+    "poblacion": 1500,
+    "volumen": 17878.76,
+    "km": 2.33,
     "enlace": null
   },
   {
@@ -8467,6 +8467,24 @@ const mapaIntervenciones = {
     "fechaFin": "10/10/2026",
     "poblacion": 640,
     "volumen": 180,
+    "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10525,
+    "lat": -16.213245,
+    "lng": -73.152313,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Camana",
+    "distrito": "Mariano Nicolas Valcarcel",
+    "sector": "Varios Anexos",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ",
+    "ficha": "81-2026-AA-U-ARE",
+    "fechaInicio": "18/09/2026",
+    "fechaFin": "17/10/2026",
+    "poblacion": 504,
+    "volumen": 720,
     "km": 0,
     "enlace": null
   }

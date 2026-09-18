@@ -21,6 +21,7 @@ export default {
     { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 7200.0, kmAcum: 0.72, poblacion: 1300 },
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '03/09/2026', fin: '02/10/2026', volAcum: 315.0, kmAcum: 0.0, poblacion: 525 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.\n\n  ', inicio: '11/09/2026', fin: '10/10/2026', volAcum: 180.0, kmAcum: 0.0, poblacion: 640 },
+    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 504 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,14 +29,12 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 4, metaVol: 83372.38, metaKm: 22.64, poblacion: 22145 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 34099.79, metaKm: 2.66, poblacion: 2700 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 4, metaVol: 17916.56, metaKm: 1.63, poblacion: 2200 },
-    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', cantidad: 1, metaVol: 720.0, metaKm: 0.0, poblacion: 504 },
     { provincia: 'Caraveli', distrito: 'Caraveli', cantidad: 1, metaVol: 15945.2, metaKm: 0.64, poblacion: 500 },
     { provincia: 'Caraveli', distrito: 'Quicacha', cantidad: 1, metaVol: 13000.0, metaKm: 0.4, poblacion: 1300 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 165053.93, metaKm: 27.97, poblacion: 29349 },
+  programadasTotal: { cantidad: 12, metaVol: 164333.93, metaKm: 27.97, poblacion: 28845 },
 
   programadasDetalle: [
-    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', sector: 'Varios Anexos', ficha: '81-2026-AA-U-ARE', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.', fechaInicio: '18/09/2026', fechaFin: '17/10/2026', metaVol: 720.0, metaKm: 0.0, poblacion: 504 },
     { provincia: 'Caraveli', distrito: 'Caraveli', sector: 'Tiñeria', ficha: '78-2026-LDP-ARE', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".    ', fechaInicio: '21/09/2026', fechaFin: '20/10/2026', metaVol: 15945.2, metaKm: 0.64, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Characato', sector: 'Juárez', ficha: '50-2026-LDP-ARE', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00     ', fechaInicio: '22/09/2026', fechaFin: '21/10/2026', metaVol: 13599.79, metaKm: 0.56, poblacion: 700 },
     { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Azufral - Villa Continental', ficha: '15-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR AZUFRAL - VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".        \n                  ', fechaInicio: '25/09/2026', fechaFin: '29/10/2026', metaVol: 25876.38, metaKm: 6.14, poblacion: 8000 },
