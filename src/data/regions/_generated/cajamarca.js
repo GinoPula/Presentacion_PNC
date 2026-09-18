@@ -35,15 +35,17 @@ export default {
     { provincia: 'Cajamarca', distrito: 'Jesus', cantidad: 1, metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 1, metaVol: 6000.0, metaKm: 0.3, poblacion: 2000 },
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 2, metaVol: 6460.0, metaKm: 3.12, poblacion: 300 },
+    { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', cantidad: 1, metaVol: 4481.6, metaKm: 6.78, poblacion: 87 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
     { provincia: 'Jaen', distrito: 'Jaen', cantidad: 2, metaVol: 7441.31, metaKm: 1.17, poblacion: 900 },
     { provincia: 'San Marcos', distrito: 'Eduardo Villanueva', cantidad: 1, metaVol: 1200.0, metaKm: 0.38, poblacion: 250 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', cantidad: 2, metaVol: 7500.0, metaKm: 0.42, poblacion: 900 },
     { provincia: 'San Miguel', distrito: 'Tongod', cantidad: 1, metaVol: 600.0, metaKm: 0.43, poblacion: 150 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 54520.68, metaKm: 10.15, poblacion: 6090 },
+  programadasTotal: { cantidad: 14, metaVol: 59002.28, metaKm: 16.93, poblacion: 6177 },
 
   programadasDetalle: [
+    { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', sector: 'C.P. Chorro Blanco Y Cp. El Paraiso', ficha: 'N°070-2026-MTVU-AMZ', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”', fechaInicio: '18/09/2026', fechaFin: '08/10/2026', metaVol: 4481.6, metaKm: 6.78, poblacion: 87 },
     { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Sector Tulpuna Y Mollepampa', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. \n(FALTA DE CONVENIO CON LA M.P. DE CAJAMARCA - SE EJECUTARÁ A SOLICITUD DEL GORE)  ', fechaInicio: '23/09/2026', fechaFin: '07/10/2026', metaVol: 5598.0, metaKm: 1.55, poblacion: 150 },
     { provincia: 'Cajamarca', distrito: 'Namora', sector: 'Sector Jigón', ficha: 'FTI N° 030-2026-LD-PI-CAJ', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUILMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 0+615, EN EL SECTOR JIGÓN, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00              ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 2460.0, metaKm: 0.61, poblacion: null },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).   ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
