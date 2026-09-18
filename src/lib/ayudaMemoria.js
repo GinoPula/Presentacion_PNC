@@ -2028,19 +2028,90 @@ export async function construirAyudaMemoriaFiltrada(data, regionId, seleccion, r
 // de los mismos puntos ya filtrados por ámbito que usan las tablas de detalle (filasEjecutadas /
 // filasProgramadas) -- ver construirAyudaMemoriaFiltrada().
 //
-// OJO -- "actividad" (limpieza y descolmatación / transitabilidad / agua potable) se infiere acá
-// por palabras clave en la descripción, mismo patrón que ya usa RE_AGUA_POTABLE más abajo para el
-// desglose de agua potable en la narrativa del documento completo. No es un campo real del punto
-// (mapaIntervenciones.js/programadasDetalle no traen "actividad"), así que es una aproximación --
-// "limpieza y descolmatación" es la actividad por defecto cuando no calza con ninguna palabra
-// clave más específica (es, con enorme diferencia, la actividad más frecuente en las 25 regiones).
+// 17-18/09/2026 -- a pedido de Franco: la Ayuda Memoria de Piura contaba 33 intervenciones de
+// "limpieza y descolmatación" cuando el MAIN (ver pipeline/validar_piura_limpieza.py) confirma 32.
+// Un primer intento (17/09) siguió infiriendo la actividad por PALABRAS CLAVE de la descripción
+// (igual que antes, solo que separando un caso "escombros"). Ese mismo día, revisando el MAIN a
+// fondo con Franco, se confirmó que SÍ existe un campo real: COD_ACTIVIDAD, codificado dentro de
+// FICHA_TEC ("099-2026-LETV-E-PIU" -> LETV-E), no como texto libre -- así que se reemplaza el
+// heurístico de texto por este código, que es la fuente real del sistema. Confirmado corriendo
+// pipeline/piura_por_cod_actividad.py contra las 56 EJECUTADA de Piura 2026 (18/09/2026): agrupando
+// por código, LD-E(4)+LD-P(3)+LD-PI(16)+LDOA-PI(9) = 32 (justo el número confirmado por el MAIN),
+// LETV-E(13) + 2 fichas con el código tipeado al revés "LEVT-E" (fichas 098 y 105 -- mismo código,
+// error de tipeo en el MAIN, NO un código distinto) = 15, MTV-U = 7, AA-U = 2 -- total 56, cuadra
+// exacto con el total de filas. Es decir: la ficha 099 SÍ tenía código LETV-E desde un inicio (no
+// hacía falta adivinarlo por texto), y además había otras 14 fichas de Piura con el mismo código
+// que el heurístico de texto anterior metía sueltas en "mejoramiento de la transitabilidad" (por
+// traer la palabra "transitabilidad" en la descripción) o en "limpieza y descolmatación" (la que no
+// la traía, como la 099) -- ninguna de las dos cosas es correcta, LETV es una actividad aparte.
+//
+// Significado de cada código, confirmado por Franco (18/09/2026) contra el catálogo real del MAIN:
+//   AA    = Abastecimiento y Distribución de Agua
+//   LD    = Limpieza y Descolmatación (de cauce/quebrada/dren)
+//   LDOA  = Limpieza y Descolmatación de Obras de Arte (badenes/cunetas en carretera) -- mismo
+//           concepto que LD, se agrupa junto con LD
+//   LETV  = Limpieza de Escombros para Transitabilidad Vial y Peatonal -- Franco: "TODO LO QUE
+//           EMPIECE CON ESCOMBROS, REMOCION DE ESCOMBROS SE REFIERE A ESTE CODIGO"
+//   LEVT  = variante de LETV con las letras EV/TV invertidas -- error de tipeo confirmado en el
+//           MAIN (ver fichas 098 y 105 de Piura), se trata igual que LETV
+//   MTV   = Mejoramiento de la Transitabilidad Vial
+//   CTMP  = Carguío y Traslado de Material de Préstamo
+//   RLE-U = TODAVÍA SIN CONFIRMAR con Franco -- no aparece en los datos de Piura. Mientras tanto
+//           cae en el heurístico de texto de respaldo (más abajo), igual que cualquier código
+//           nuevo que aparezca y no esté en este mapa.
+//
+// El código es la fuente PRINCIPAL de clasificación; el heurístico de texto (agua potable /
+// transitabilidad / "empieza con escombros o remoción de escombros" -> LETV, regla textual de
+// Franco / default limpieza y descolmatación) queda solo como RESPALDO, para filas cuyo FICHA_TEC
+// no trae ninguno de los códigos conocidos (o trae uno todavía sin mapear, como RLE).
+const FAMILIAS_COD_ACTIVIDAD = [
+  // [base del código tal como aparece en FICHA_TEC, actividad a la que se agrupa -- null = aún sin
+  // confirmar con Franco, usa el heurístico de texto de respaldo]
+  ['LDOA', 'limpieza y descolmatación'],
+  ['LETV', 'limpieza de escombros para la transitabilidad vial y peatonal'],
+  ['LEVT', 'limpieza de escombros para la transitabilidad vial y peatonal'], // typo confirmado de LETV
+  ['LD', 'limpieza y descolmatación'],
+  ['MTV', 'mejoramiento de la transitabilidad'],
+  ['AA', 'abastecimiento y distribución de agua potable'],
+  ['CTMP', 'carguío y traslado de material de préstamo'],
+  ['RLE', null], // pendiente de confirmar con Franco
+]
+
+// Extrae la base del código de actividad (p.ej. "LD", "LDOA", "LETV") desde el FICHA_TEC, tolerando
+// las variantes reales que aparecen en producción (con o sin el "FTI N°" al inicio, con o sin
+// espacio antes del código de región al final -- ver codigoActividadDe()/codigoActividadCompleto()
+// más abajo para el mismo patrón aplicado solo a la familia "LD-"). Se prueban las familias de
+// nombre más largo primero (LDOA antes que LD) para que "LDOA-PI" no matchee accidentalmente como
+// "LD".
+function codigoActividadBaseDe(ficha) {
+  const t = (ficha || '').toUpperCase()
+  for (const [base] of FAMILIAS_COD_ACTIVIDAD) {
+    const patron = new RegExp(`(?:^|-)${base}(?:-|$)`)
+    if (patron.test(t)) return base
+  }
+  return null
+}
+
 const RE_TRANSITABILIDAD_ACTIVIDAD = /transitabilidad|calles|v[ií]as? de acceso/i
 const RE_AGUA_POTABLE_ACTIVIDAD = /agua potable|abastecimiento.*agua|distribuci[oó]n.*agua/i
-function actividadDe(descripcion) {
+// Regla textual explícita de Franco (18/09/2026): "TODO LO QUE EMPIECE CON ESCOMBROS, REMOCION DE
+// ESCOMBROS SE REFIERE A ESTE CODIGO [LETV]" -- se usa tal cual como respaldo cuando no hay código
+// reconocible en la ficha.
+const RE_ESCOMBROS_LETV = /^\s*["“]?\s*(escombros|remoci[oó]n de escombros)/i
+
+function actividadDePorTexto(descripcion) {
   const d = descripcion || ''
   if (RE_AGUA_POTABLE_ACTIVIDAD.test(d)) return 'abastecimiento y distribución de agua potable'
   if (RE_TRANSITABILIDAD_ACTIVIDAD.test(d)) return 'mejoramiento de la transitabilidad'
+  if (RE_ESCOMBROS_LETV.test(d)) return 'limpieza de escombros para la transitabilidad vial y peatonal'
   return 'limpieza y descolmatación'
+}
+
+function actividadDe(ficha, descripcion) {
+  const base = codigoActividadBaseDe(ficha)
+  const entrada = FAMILIAS_COD_ACTIVIDAD.find(([b]) => b === base)
+  if (entrada && entrada[1]) return entrada[1]
+  return actividadDePorTexto(descripcion)
 }
 
 // 09/09/2026 -- la longitud (km) ya viene en vivo desde mapaIntervenciones.js (ver
@@ -2079,7 +2150,7 @@ function fraseVolumen(actividad) {
 function agruparPorActividad(filas) {
   const grupos = new Map()
   filas.forEach((p) => {
-    const act = actividadDe(p.descripcion)
+    const act = actividadDe(p.ficha, p.descripcion)
     if (!grupos.has(act)) grupos.set(act, { cantidad: 0, provincias: new Set(), m3: 0, km: 0, kmConocido: true, poblacion: 0 })
     const g = grupos.get(act)
     g.cantidad += 1
@@ -2121,7 +2192,7 @@ function seccionTemasPendientes(filasProgramadas, regionLabel) {
   const anio = new Date().getFullYear()
   const grupos = new Map()
   filasProgramadas.forEach((p) => {
-    const act = actividadDe(p.descripcion)
+    const act = actividadDe(p.ficha, p.descripcion)
     if (!grupos.has(act)) grupos.set(act, { cantidad: 0, provincias: new Set(), vol: 0, km: 0, poblacion: 0 })
     const g = grupos.get(act)
     g.cantidad += 1
