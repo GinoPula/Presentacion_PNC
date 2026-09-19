@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "19/09/2026",
-    "horaCorte": "04:53",
+    "horaCorte": "05:24",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 17
+      "diasAtraso": 18
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 15
+      "diasAtraso": 16
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 7,
@@ -137,29 +137,10 @@
       "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
       "fechaInicio": "10/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 8,
-      "idIntervencion": "9663",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Chanchamayo",
-      "distrito": "Chanchamayo",
-      "sector": "Zona Urbana",
-      "ficha": "002-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "29/09/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 9,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -175,7 +156,26 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
+    },
+    {
+      "n": 9,
+      "idIntervencion": "9663",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Chanchamayo",
+      "distrito": "Chanchamayo",
+      "sector": "Zona Urbana",
+      "ficha": "002-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "29/09/2026",
+      "diasAtraso": 4
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "15/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "16/09/2026",
       "fechaFin": "07/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "02/09/2026",
       "fechaFin": "16/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 14,
@@ -270,6 +270,139 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
       "fechaInicio": "25/06/2026",
       "fechaFin": "17/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10522",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "La Cruz",
+      "sector": "Las Gardenias",
+      "ficha": "075-2026-LD-PI-TUM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "18/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10471",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Contumaza",
+      "distrito": "Tantarica",
+      "sector": "El Sapo - Catan",
+      "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+      "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 030-2026-MDT/A",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "18/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "9851",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Muñani",
+      "sector": "Muñani Chico",
+      "ficha": "FTI N° 037-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº069-2025",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "28/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "9456",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Tarma",
+      "distrito": "Tarma",
+      "sector": "Zona Urbana",
+      "ficha": "011-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN\"-00",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "04/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10492",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Yungay",
+      "distrito": "Shupluy",
+      "sector": "Choccha",
+      "ficha": "098-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY",
+      "marcoLegal": "CONVENIO Nº035-2026",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "18/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 20,
+      "idIntervencion": "10524",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Melgar",
+      "distrito": "Umachiri",
+      "sector": "Centro Paylla Y C.p. De Sora",
+      "ficha": "FTI N° 079-2026-MTVU-PUN",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10529",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "San Andres De Cutervo",
+      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
+      "ficha": "N°070-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "08/10/2026",
       "diasAtraso": 1
     }
   ]
