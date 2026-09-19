@@ -64,7 +64,7 @@ export default {
   conveniosCount: 6,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'vence 10/10/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Provincial Jaen', detail: 'vence 18/09/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Provincial Jaen', detail: 'hasta 18/09/2026' },
     { entidad: 'Municipalidad Distrital Callayuc', detail: 'hasta 11/11/2026' },
     { entidad: 'Municipalidad Distrital San Juan', detail: 'hasta 17/11/2026' },
     { entidad: 'Municipalidad Distrital Calquis', detail: 'hasta 12/12/2026' },
