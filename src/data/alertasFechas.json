@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "20/09/2026",
-    "horaCorte": "14:25",
+    "horaCorte": "14:55",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -198,25 +198,6 @@
     },
     {
       "n": 11,
-      "idIntervencion": "10477",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio La Union – Sector El Filo",
-      "ficha": "N°067-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "fechaInicio": "02/09/2026",
-      "fechaFin": "16/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 12,
       "idIntervencion": "10519",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -232,6 +213,25 @@
       "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "16/09/2026",
       "fechaFin": "07/10/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 12,
+      "idIntervencion": "10477",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio La Union – Sector El Filo",
+      "ficha": "N°067-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "16/09/2026",
       "diasAtraso": 4
     },
     {
@@ -274,25 +274,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10522",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "La Cruz",
-      "sector": "Las Gardenias",
-      "ficha": "075-2026-LD-PI-TUM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "marcoLegal": "CONVENIO Nº029-2026",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "18/09/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 16,
       "idIntervencion": "10492",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -311,7 +292,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,26 +311,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 18,
-      "idIntervencion": "10529",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "San Andres De Cutervo",
-      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
-      "ficha": "N°070-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "08/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 19,
+      "n": 17,
       "idIntervencion": "10471",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -368,7 +330,26 @@
       "diasAtraso": 2
     },
     {
-      "n": 20,
+      "n": 18,
+      "idIntervencion": "10522",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "La Cruz",
+      "sector": "Las Gardenias",
+      "ficha": "075-2026-LD-PI-TUM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "18/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 19,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10524",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -403,6 +384,25 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
       "fechaInicio": "18/09/2026",
       "fechaFin": "02/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10529",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "San Andres De Cutervo",
+      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
+      "ficha": "N°070-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "08/10/2026",
       "diasAtraso": 2
     },
     {
@@ -445,25 +445,6 @@
     },
     {
       "n": 24,
-      "idIntervencion": "7689",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AYACUCHO",
-      "deptoLabel": "Ayacucho",
-      "regionId": "ayacucho",
-      "provincia": "Huamanga",
-      "distrito": "Vinchos",
-      "sector": "Anchachuasi",
-      "ficha": "03-2026-LD-PI-AYAC",
-      "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00",
-      "marcoLegal": "CONVENIO N°039-2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "19/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 25,
       "idIntervencion": "10266",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
