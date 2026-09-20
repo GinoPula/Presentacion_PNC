@@ -4930,7 +4930,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 264,
+    "volumen": 279,
     "km": 0,
     "enlace": null
   },
@@ -5056,7 +5056,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/09/2026",
     "fechaFin": "15/11/2026",
     "poblacion": 1100,
-    "volumen": 2310,
+    "volumen": 60,
     "km": 0,
     "enlace": null
   }
@@ -8420,12 +8420,12 @@ const mapaIntervenciones = {
     "id": 10194,
     "lat": -15.804816,
     "lng": -73.969055,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Caraveli",
     "distrito": "Chaparra",
     "sector": "La Chimba",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                 ",
     "ficha": "58-2026-LDP-ARE",
     "fechaInicio": "28/08/2026",
     "fechaFin": "19/09/2026",
@@ -8448,8 +8448,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
     "poblacion": 1300,
-    "volumen": 7200,
-    "km": 0.72,
+    "volumen": 8100,
+    "km": 0.795,
     "enlace": null
   },
   {
@@ -8466,7 +8466,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 525,
-    "volumen": 315,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -8484,7 +8484,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/09/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 640,
-    "volumen": 180,
+    "volumen": 225,
     "km": 0,
     "enlace": null
   },
@@ -8502,8 +8502,26 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 504,
-    "volumen": 720,
+    "volumen": 0,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10505,
+    "lat": -15.762003,
+    "lng": -73.36713,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "Tiñeria",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".     ",
+    "ficha": "78-2026-LDP-ARE",
+    "fechaInicio": "21/09/2026",
+    "fechaFin": "20/10/2026",
+    "poblacion": 500,
+    "volumen": 15945.2,
+    "km": 0.64,
     "enlace": null
   }
 ],

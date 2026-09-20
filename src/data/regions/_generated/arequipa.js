@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 159319.93, km: 52.93, poblacion: 24550, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
-    { tipo: 'Prevención', cantidad: 10, m3: 140532.74, km: 8.21, poblacion: 7700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Prevención', cantidad: 11, m3: 152375.94, km: 8.51, poblacion: 8400, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 25, m3: 15770.0, km: 0.15, poblacion: 14845, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 49, m3: 315622.67, m3AguaPotable: 15380.0, km: 61.29, poblacion: 47095 },
+  ejecutadasTotal: { cantidad: 50, m3: 327465.87, m3AguaPotable: 15380.0, km: 61.59, poblacion: 47795 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,11 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, m3AguaPotable: 18540.0, km: 42.88, poblacion: 52610 },
 
   enEjecucion: [
-    { provincia: 'Caraveli', distrito: 'Chaparra', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN DEL CAUCE Y REFORZAMIENTO DE LA MARGEN IZQUIERDA DEL RÍO CHAPARRA EN EL SECTOR LA CHIMBA, ANEXO ACHANIZO, DISTRITO DE CHAPARRA, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".                ', inicio: '28/08/2026', fin: '19/09/2026', volAcum: 11843.2, kmAcum: 0.3, poblacion: 700 },
-    { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 7200.0, kmAcum: 0.72, poblacion: 1300 },
-    { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '03/09/2026', fin: '02/10/2026', volAcum: 315.0, kmAcum: 0.0, poblacion: 525 },
-    { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.\n\n  ', inicio: '11/09/2026', fin: '10/10/2026', volAcum: 180.0, kmAcum: 0.0, poblacion: 640 },
+    { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 8100.0, kmAcum: 0.8, poblacion: 1300 },
+    { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '03/09/2026', fin: '02/10/2026', volAcum: 360.0, kmAcum: 0.0, poblacion: 525 },
+    { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.\n\n  ', inicio: '11/09/2026', fin: '10/10/2026', volAcum: 225.0, kmAcum: 0.0, poblacion: 640 },
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 504 },
+    { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".     ', inicio: '21/09/2026', fin: '20/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -29,13 +29,11 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 4, metaVol: 83372.38, metaKm: 22.64, poblacion: 22145 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 34099.79, metaKm: 2.66, poblacion: 2700 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 4, metaVol: 17916.56, metaKm: 1.63, poblacion: 2200 },
-    { provincia: 'Caraveli', distrito: 'Caraveli', cantidad: 1, metaVol: 15945.2, metaKm: 0.64, poblacion: 500 },
     { provincia: 'Caraveli', distrito: 'Quicacha', cantidad: 1, metaVol: 13000.0, metaKm: 0.4, poblacion: 1300 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 164333.93, metaKm: 27.97, poblacion: 28845 },
+  programadasTotal: { cantidad: 11, metaVol: 148388.73, metaKm: 27.33, poblacion: 28345 },
 
   programadasDetalle: [
-    { provincia: 'Caraveli', distrito: 'Caraveli', sector: 'Tiñeria', ficha: '78-2026-LDP-ARE', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".    ', fechaInicio: '21/09/2026', fechaFin: '20/10/2026', metaVol: 15945.2, metaKm: 0.64, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Azufral - Villa Continental', ficha: '15-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR AZUFRAL - VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".        \n                  ', fechaInicio: '25/09/2026', fechaFin: '29/10/2026', metaVol: 25876.38, metaKm: 6.14, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Calle Olímpica Canal Estadio La Rinconada', ficha: '79-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”. ', fechaInicio: '29/09/2026', fechaFin: '08/10/2026', metaVol: 2407.01, metaKm: 0.24, poblacion: 600 },
     { provincia: 'Arequipa', distrito: 'Characato', sector: 'Juárez', ficha: '50-2026-LDP-ARE', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00      ', fechaInicio: '01/10/2026', fechaFin: '30/10/2026', metaVol: 13599.79, metaKm: 0.56, poblacion: 700 },
