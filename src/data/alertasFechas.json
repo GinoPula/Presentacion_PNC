@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "21:54",
+    "horaCorte": "22:25",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -217,25 +217,6 @@
     },
     {
       "n": 12,
-      "idIntervencion": "10470",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Cieneguilla",
-      "sector": "Tinajas",
-      "ficha": "123-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "marcoLegal": "II. ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "03/09/2026",
-      "fechaFin": "17/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 13,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +235,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10326",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +273,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10524",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10529",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +311,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -349,7 +330,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "9446",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -366,6 +347,25 @@
       "fechaInicio": "03/09/2026",
       "fechaFin": "19/09/2026",
       "diasAtraso": 2
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10474",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Villa Rene/quebrada Marcahuasi.",
+      "ficha": "FTI N° 047-2026-LDP-APU.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MARCAHUASI, DE LA PROGRESIVA KM 0+000 AL KM 0+975, EN EL SECTOR VILLA RENE, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC\".",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "fechaInicio": "20/09/2026",
+      "fechaFin": "19/10/2026",
+      "diasAtraso": 1
     },
     {
       "n": 20,
@@ -388,25 +388,6 @@
     },
     {
       "n": 21,
-      "idIntervencion": "10474",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Abancay",
-      "sector": "Villa Rene/quebrada Marcahuasi.",
-      "ficha": "FTI N° 047-2026-LDP-APU.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MARCAHUASI, DE LA PROGRESIVA KM 0+000 AL KM 0+975, EN EL SECTOR VILLA RENE, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC\".",
-      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
-      "fechaInicio": "20/09/2026",
-      "fechaFin": "19/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 22,
       "idIntervencion": "10528",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "9631",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
