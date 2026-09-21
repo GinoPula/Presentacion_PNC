@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
     { tipo: 'Prevención', cantidad: 21, m3: 131706.45, km: 9.79, poblacion: 13395, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 42, m3: 179192.31, km: 130.27, poblacion: 55468, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Urgente atención', cantidad: 43, m3: 182099.51, km: 153.47, poblacion: 55968, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 67, m3: 340448.76, m3AguaPotable: 3300.0, km: 141.91, poblacion: 70755 },
+  ejecutadasTotal: { cantidad: 68, m3: 343355.96, m3AguaPotable: 3300.0, km: 165.11, poblacion: 71255 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -21,10 +21,9 @@ export default {
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”   ', inicio: '23/06/2026', fin: '20/09/2026', volAcum: 2500.0, kmAcum: 0.42, poblacion: null },
     { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”     ', inicio: '25/06/2026', fin: '17/09/2026', volAcum: 2550.0, kmAcum: 2.55, poblacion: 274 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ', inicio: '28/08/2026', fin: '28/09/2026', volAcum: 585.0, kmAcum: 0.58, poblacion: 500 },
-    { provincia: 'Contumaza', distrito: 'Tantarica', tipo: 'Urgente atención', descripcion: '“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.   ', inicio: '02/09/2026', fin: '18/09/2026', volAcum: 2907.2, kmAcum: 23.2, poblacion: 500 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”  ', inicio: '02/09/2026', fin: '16/09/2026', volAcum: 1005.0, kmAcum: 1.0, poblacion: 170 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '09/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
-    { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO II, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 5200.0, kmAcum: 0.13, poblacion: 550 },
+    { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO II, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 9800.0, kmAcum: 0.24, poblacion: 550 },
     { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”.', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 90.0, kmAcum: 0.01, poblacion: 125 },
   ],
 

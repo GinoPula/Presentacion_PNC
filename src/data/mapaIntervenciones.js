@@ -10639,24 +10639,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10471,
-    "lat": -7.224478,
-    "lng": -78.905478,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "Tantarica",
-    "sector": "El Sapo - Catan",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.   ",
-    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
-    "fechaInicio": "02/09/2026",
-    "fechaFin": "18/09/2026",
-    "poblacion": 500,
-    "volumen": 2907.2,
-    "km": 23.2,
-    "enlace": null
-  },
-  {
     "id": 10477,
     "lat": -5.274787,
     "lng": -78.892452,
@@ -10675,6 +10657,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10471,
+    "lat": -7.224478,
+    "lng": -78.905478,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "Tantarica",
+    "sector": "El Sapo - Catan",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.    ",
+    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "18/09/2026",
+    "poblacion": 500,
+    "volumen": 2907.2,
+    "km": 23.2,
+    "enlace": null
+  },
+  {
     "id": 10289,
     "lat": -7.469077,
     "lng": -78.155547,
@@ -10688,8 +10688,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/09/2026",
     "fechaFin": "23/09/2026",
     "poblacion": 550,
-    "volumen": 5200,
-    "km": 0.13,
+    "volumen": 9800,
+    "km": 0.24,
     "enlace": null
   },
   {
