@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '10/08/2026', fin: '08/10/2026', volAcum: 395.0, kmAcum: 0.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 315.0, kmAcum: 0.0, poblacion: 550 },
+    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 330.0, kmAcum: 0.0, poblacion: 550 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,7 +34,7 @@ export default {
   programadasTotal: { cantidad: 12, metaVol: 62640.6, metaKm: 9.8, poblacion: 24096 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Sama', sector: 'Junta Vecinal Buena Vista - I Etapa', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE ACCESO PARA LA DISTRIBUCION DE AGUA PARA CONSUMO SECTOR JUNTA VECINAL BUENA VISTA I ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA         ', fechaInicio: '23/09/2026', fechaFin: '12/10/2026', metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
+    { provincia: 'Tacna', distrito: 'Sama', sector: 'Junta Vecinal Buena Vista - I Etapa', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE ACCESO PARA LA DISTRIBUCION DE AGUA PARA CONSUMO SECTOR JUNTA VECINAL BUENA VISTA I ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA          ', fechaInicio: '28/09/2026', fechaFin: '17/10/2026', metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Bocatoma Catambu Y La Banda', ficha: '013-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMTACION EN EL CAUCE DEL RIO SAMA, SECTOR BOCATOMA CATAMBU Y LA BANDA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA-00                     ', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 5000.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos V Etapa', ficha: '048-2026-AA-U-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '12/10/2026', fechaFin: '10/12/2026', metaVol: 600.6, metaKm: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                  ', fechaInicio: '16/10/2026', fechaFin: '25/10/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
