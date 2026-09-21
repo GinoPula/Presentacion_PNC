@@ -43,9 +43,9 @@ export default {
   programadasTotal: { cantidad: 45, metaVol: 280055.33, metaKm: 41.87, poblacion: 164125 },
 
   programadasDetalle: [
-    { provincia: 'Sullana', distrito: 'Sullana', sector: 'Dren Cieneguillo', ficha: 'FTI N° 141-2026-LD-P-PIU', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA', fechaInicio: '16/09/2026', fechaFin: '07/10/2026', metaVol: 12000.0, metaKm: 2.0, poblacion: 9200 },
     { provincia: 'Piura', distrito: 'Tambo Grande', sector: 'Dren Froilan Alama', ficha: 'FTI N° 007-2026-LD-PI-PIU', descripcion: '   "LIMPIEZA Y DESCOLMATACION DEL DREN FROILAN ALAMA, DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA"  -00                                    ', fechaInicio: '21/09/2026', fechaFin: '04/10/2026', metaVol: 2403.43, metaKm: 1.3, poblacion: 5500 },
     { provincia: 'Piura', distrito: 'Tambo Grande', sector: 'Dren Panamericano', ficha: 'FTI Nº 006-2026-LD-PI-PIU', descripcion: ' “LIMPIEZA Y DESCOLMATACION DEL DREN PANAMERICANO DEL DISTRITO DE TAMBOGRANDE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA”-00                 ', fechaInicio: '21/09/2026', fechaFin: '05/10/2026', metaVol: 1039.16, metaKm: 1.28, poblacion: 5000 },
+    { provincia: 'Sullana', distrito: 'Sullana', sector: 'Dren Cieneguillo', ficha: 'FTI N° 141-2026-LD-P-PIU', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA ', fechaInicio: '26/09/2026', fechaFin: '17/10/2026', metaVol: 12000.0, metaKm: 2.0, poblacion: 9200 },
     { provincia: 'Piura', distrito: 'Tambo Grande', sector: 'Dren Jorge Chavez', ficha: 'FTI Nº 004-2026-LD-PI-PIU', descripcion: '"LIMPIEZA Y DESCOLMATACION DEL DREN JORGE CHAVEZ (0+000 - 0+590.25) DEL DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA”  -00            ', fechaInicio: '28/09/2026', fechaFin: '05/10/2026', metaVol: 1355.0, metaKm: 0.59, poblacion: 3750 },
     { provincia: 'Piura', distrito: 'Catacaos', sector: 'Monte Castillo', ficha: 'FTI Nº 002-2026-LD-PI-PIU', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DEL DREN FELIX REBOLLEDO (PROG. KM. 0+000 – PROG.KM. 1+754) , DISTRITO CATACAOS - PROVINCIA PIURA - DEPARTAMENTO PIURA”-00                                    ', fechaInicio: '28/09/2026', fechaFin: '09/10/2026', metaVol: 1800.0, metaKm: 1.5, poblacion: 2000 },
     { provincia: 'Piura', distrito: 'Veintiseis De Octubre', sector: 'Dren Victor Maldonado', ficha: 'FTI Nº 014-2026-LD-P-PIU', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN VICTOR MALDONADO DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA- DEPARTAMENTO DE PIURA" -00       ', fechaInicio: '28/09/2026', fechaFin: '15/10/2026', metaVol: 31000.0, metaKm: 4.75, poblacion: 15680 },
@@ -105,8 +105,10 @@ export default {
     { tipo: 'Camión grúa', cantidad: 1, marca: 'Iveco', codigos: ['EGQ-995'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'Caterpillar', codigos: ['JLX00828', 'JLX00829'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 3, marca: 'John Deere', codigos: ['D001580', 'D001578', 'D001587'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10107', 'TJT10095'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 4, marca: 'John Deere', codigos: ['810139', '810371', 'D810495', '810396'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10107'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10095'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'John Deere', codigos: ['810139', 'D810495'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'John Deere', codigos: ['810371', '810396'], estado: 'inoperativo' },
     { tipo: 'Mini cargador', cantidad: 3, marca: 'John Deere', codigos: ['G278945', 'G278937', 'G261847'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03374'], estado: 'operativo' },
     { tipo: 'Plataforma', cantidad: 1, marca: 'ACS', codigos: ['EGR-068'], estado: 'operativo' },

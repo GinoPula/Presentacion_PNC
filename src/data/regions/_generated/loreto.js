@@ -14,7 +14,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '08/08/2026', fin: '06/10/2026', volAcum: 830.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '08/08/2026', fin: '06/10/2026', volAcum: 860.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

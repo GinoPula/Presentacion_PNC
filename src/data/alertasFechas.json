@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "19:23",
+    "horaCorte": "19:53",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -141,21 +141,21 @@
     },
     {
       "n": 8,
-      "idIntervencion": "10382",
+      "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
       "tipo": "PREVENCIÓN",
       "departamento": "APURIMAC",
       "deptoLabel": "Apurimac",
       "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Abancay",
-      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
-      "ficha": "FTI N° 046-2026-LDP-APU.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
-      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
-      "fechaFin": "14/10/2026",
+      "fechaFin": "01/10/2026",
       "diasAtraso": 6
     },
     {
@@ -179,21 +179,21 @@
     },
     {
       "n": 10,
-      "idIntervencion": "10262",
+      "idIntervencion": "10382",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
       "tipo": "PREVENCIÓN",
       "departamento": "APURIMAC",
       "deptoLabel": "Apurimac",
       "regionId": "apurimac",
-      "provincia": "Andahuaylas",
-      "distrito": "Andarapa",
-      "sector": "C.p. Huampica/drenes",
-      "ficha": "FTI N° 042-2026-LDP-APU",
-      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
-      "marcoLegal": "CONVENIO N° 104-2025",
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Sector Puente El Arco Al Puente Chinchichaca/quebrada Chinchichaca",
+      "ficha": "FTI N° 046-2026-LDP-APU.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CHINCHICHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+860, EN EL SECTOR PUENTE EL ARCO AL PUENTE CHINCHICHACA, DEL DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "15/09/2026",
-      "fechaFin": "01/10/2026",
+      "fechaFin": "14/10/2026",
       "diasAtraso": 6
     },
     {
@@ -217,25 +217,6 @@
     },
     {
       "n": 12,
-      "idIntervencion": "10519",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Sullana",
-      "distrito": "Sullana",
-      "sector": "Dren Cieneguillo",
-      "ficha": "FTI N° 141-2026-LD-P-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA",
-      "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
-      "fechaInicio": "16/09/2026",
-      "fechaFin": "07/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 13,
       "idIntervencion": "10470",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +235,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10326",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10524",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +311,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10529",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -349,7 +330,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -368,7 +349,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "9446",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -387,7 +368,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10319",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10474",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -422,6 +403,25 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "20/09/2026",
       "fechaFin": "19/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 22,
+      "idIntervencion": "10528",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Huaraz",
+      "distrito": "Huaraz",
+      "sector": "San Nicolas - Chiwipampa",
+      "ficha": "120-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
+      "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "20/09/2026",
       "diasAtraso": 1
     },
     {
@@ -441,25 +441,6 @@
       "marcoLegal": "CONVENIO Nº015-2024-ADENDA 01",
       "fechaInicio": "20/09/2026",
       "fechaFin": "10/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 24,
-      "idIntervencion": "10528",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Huaraz",
-      "distrito": "Huaraz",
-      "sector": "San Nicolas - Chiwipampa",
-      "ficha": "120-2026-LDP-ANC",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
-      "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "20/09/2026",
       "diasAtraso": 1
     }
   ]
