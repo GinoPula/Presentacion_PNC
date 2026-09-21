@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "15:19",
+    "horaCorte": "15:49",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -274,22 +274,22 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10492",
+      "idIntervencion": "10470",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
       "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Yungay",
-      "distrito": "Shupluy",
-      "sector": "Choccha",
-      "ficha": "098-2026-LDP-ANC",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY",
-      "marcoLegal": "CONVENIO Nº035-2026",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "18/09/2026",
-      "diasAtraso": 3
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Cieneguilla",
+      "sector": "Tinajas",
+      "ficha": "123-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
+      "marcoLegal": "II. ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "03/09/2026",
+      "fechaFin": "17/09/2026",
+      "diasAtraso": 4
     },
     {
       "n": 16,

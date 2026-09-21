@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
-    { tipo: 'Prevención', cantidad: 45, m3: 148865.0, km: 17.04, poblacion: 48453, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 46, m3: 152219.0, km: 17.47, poblacion: 48613, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 57, m3: 168063.0, m3AguaPotable: 570.0, km: 24.19, poblacion: 71108 },
+  ejecutadasTotal: { cantidad: 58, m3: 171417.0, m3AguaPotable: 570.0, km: 24.62, poblacion: 71268 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CHOCCHA, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY  ', inicio: '07/09/2026', fin: '18/09/2026', volAcum: 2652.0, kmAcum: 0.34, poblacion: 160 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH  ', inicio: '16/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
     { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 340 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '18/09/2026', fin: '20/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 183 },
