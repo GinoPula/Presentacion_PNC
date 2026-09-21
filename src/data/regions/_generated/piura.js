@@ -17,9 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 1950.0, kmAcum: 1.63, poblacion: 212 },
-    { provincia: 'Piura', distrito: 'Catacaos', tipo: 'Prevención', descripcion: '  "LIMPIEZA Y DESCOLMATACION DEL DREN PLUVIAL SIMBILA (1+050 HASTA 1+ 600) KM DEL DISTRITO CATACAOS - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA"             ', inicio: '14/09/2026', fin: '21/09/2026', volAcum: 1250.0, kmAcum: 0.26, poblacion: 1380 },
-    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA   ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 480.0, kmAcum: 0.51, poblacion: 347 },
+    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 2470.0, kmAcum: 2.06, poblacion: 212 },
+    { provincia: 'Piura', distrito: 'Catacaos', tipo: 'Prevención', descripcion: '  "LIMPIEZA Y DESCOLMATACION DEL DREN PLUVIAL SIMBILA (1+050 HASTA 1+ 600) KM DEL DISTRITO CATACAOS - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA"             ', inicio: '14/09/2026', fin: '21/09/2026', volAcum: 1950.0, kmAcum: 0.46, poblacion: 1380 },
+    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA   ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 680.0, kmAcum: 0.68, poblacion: 347 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
