@@ -23,6 +23,7 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
+    { provincia: 'Jorge Basadre', distrito: 'Ite', cantidad: 1, metaVol: 500.0, metaKm: 0.0, poblacion: 500 },
     { provincia: 'Jorge Basadre', distrito: 'Locumba', cantidad: 1, metaVol: 6000.0, metaKm: 0.4, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Calana', cantidad: 1, metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 2, metaVol: 8605.0, metaKm: 0.2, poblacion: 750 },
@@ -31,10 +32,11 @@ export default {
     { provincia: 'Tacna', distrito: 'Sama', cantidad: 3, metaVol: 8540.6, metaKm: 6.4, poblacion: 970 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 62640.6, metaKm: 9.8, poblacion: 24096 },
+  programadasTotal: { cantidad: 13, metaVol: 63140.6, metaKm: 9.8, poblacion: 24596 },
 
   programadasDetalle: [
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Junta Vecinal Buena Vista - I Etapa', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE ACCESO PARA LA DISTRIBUCION DE AGUA PARA CONSUMO SECTOR JUNTA VECINAL BUENA VISTA I ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA          ', fechaInicio: '28/09/2026', fechaFin: '17/10/2026', metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
+    { provincia: 'Jorge Basadre', distrito: 'Ite', sector: 'Ite Y Anexos', ficha: '049-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA', fechaInicio: '28/09/2026', fechaFin: '26/11/2026', metaVol: 500.0, metaKm: 0.0, poblacion: 500 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Bocatoma Catambu Y La Banda', ficha: '013-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMTACION EN EL CAUCE DEL RIO SAMA, SECTOR BOCATOMA CATAMBU Y LA BANDA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA-00                     ', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 5000.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos V Etapa', ficha: '048-2026-AA-U-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '12/10/2026', fechaFin: '10/12/2026', metaVol: 600.6, metaKm: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                  ', fechaInicio: '16/10/2026', fechaFin: '25/10/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
@@ -44,8 +46,8 @@ export default {
     { provincia: 'Tacna', distrito: 'Calana', sector: 'Recodo', ficha: '007-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR RECODO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00        ', fechaInicio: '07/11/2026', fechaFin: '21/11/2026', metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Palca', sector: 'Ataspaca', ficha: '014-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO ATASPACA, SECTOR ATASPACA, DISTRITO DE PALCA, PROVINCIA DE TACNA, REGION DE TACNA-00      ', fechaInicio: '16/11/2026', fechaFin: '30/11/2026', metaVol: 4000.0, metaKm: 0.5, poblacion: 76 },
     { provincia: 'Tacna', distrito: 'Palca', sector: 'Causuri - Palca', ficha: '015-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO PALCA, SECTOR CAUSURI, DISTRITO DE PALCA, PROVINCIA DE TACNA-00       ', fechaInicio: '01/12/2026', fechaFin: '10/12/2026', metaVol: 4000.0, metaKm: 1.1, poblacion: 100 },
-    { provincia: 'Tacna', distrito: 'Inclan', sector: 'Puente Colgante', ficha: '035-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SAMA, SECTOR PUENTE COLGANTE, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA        ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 8000.0, metaKm: 0.2, poblacion: 200 },
     { provincia: 'Jorge Basadre', distrito: 'Locumba', sector: 'Chaucalana', ficha: '016-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO LOCUMBA, SECTOR CHAUCALANA, DISTRITO DE LOCUMBA, PROVINCIA DE JORGE BASADRE, REGION DE TACNA-00              ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 6000.0, metaKm: 0.4, poblacion: 200 },
+    { provincia: 'Tacna', distrito: 'Inclan', sector: 'Puente Colgante', ficha: '035-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO SAMA, SECTOR PUENTE COLGANTE, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA        ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 8000.0, metaKm: 0.2, poblacion: 200 },
   ],
 
   conveniosCount: 2,
