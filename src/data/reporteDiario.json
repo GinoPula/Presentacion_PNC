@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "13:18",
+    "horaCorte": "13:48",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -148,25 +148,6 @@
     },
     {
       "n": 8,
-      "idIntervencion": "10507",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "A.h. Isidoro Berrocal",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "10/10/2026",
-      "maquinaria": [
-        "CAMIONETA ( EGM-015)",
-        "CAMION CISTERNA DE AGUA ( EGN-980)"
-      ]
-    },
-    {
-      "n": 9,
       "idIntervencion": "10505",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -185,6 +166,25 @@
         "VOLQUETE ( EGM-774)",
         "REMOLCADOR ( EGM-982)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)"
+      ]
+    },
+    {
+      "n": 9,
+      "idIntervencion": "10507",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "A.h. Isidoro Berrocal",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/09/2026",
+      "fechaFin": "10/10/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-980)"
       ]
     },
     {
@@ -212,6 +212,24 @@
     },
     {
       "n": 11,
+      "idIntervencion": "7690",
+      "departamento": "AYACUCHO",
+      "deptoLabel": "Ayacucho",
+      "regionId": "ayacucho",
+      "provincia": "Huamanga",
+      "distrito": "Vinchos",
+      "sector": "Anchacchuasi",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N°036-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00",
+      "fechaInicio": "21/09/2026",
+      "fechaFin": "25/09/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10125)"
+      ]
+    },
+    {
+      "n": 12,
       "idIntervencion": "10289",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -232,7 +250,7 @@
       ]
     },
     {
-      "n": 12,
+      "n": 13,
       "idIntervencion": "10472",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -255,7 +273,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 14,
       "idIntervencion": "10294",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -270,12 +288,12 @@
       "fechaFin": "17/09/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( 85464)",
-        "VOLQUETE ( EGM-882)",
-        "VOLQUETE ( EGV-785)"
+        "VOLQUETE ( EGV-785)",
+        "VOLQUETE ( EGM-882)"
       ]
     },
     {
-      "n": 14,
+      "n": 15,
       "idIntervencion": "10499",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -293,24 +311,6 @@
         "VOLQUETE ( EGV-810)",
         "MOTONIVELADORA ( SZL03379)",
         "CARGADOR FRONTAL ( M5K00334)"
-      ]
-    },
-    {
-      "n": 15,
-      "idIntervencion": "10319",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "23/06/2026",
-      "fechaFin": "20/09/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
       ]
     },
     {
@@ -337,6 +337,24 @@
     },
     {
       "n": 17,
+      "idIntervencion": "10319",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "23/06/2026",
+      "fechaFin": "20/09/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
+      ]
+    },
+    {
+      "n": 18,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -355,7 +373,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "idIntervencion": "10326",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -374,7 +392,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "10443",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -393,7 +411,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "idIntervencion": "10511",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -415,7 +433,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 22,
       "idIntervencion": "10304",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -434,7 +452,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 23,
       "idIntervencion": "10431",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -452,7 +470,7 @@
       ]
     },
     {
-      "n": 23,
+      "n": 24,
       "idIntervencion": "10450",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -473,7 +491,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 25,
       "idIntervencion": "10447",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -494,7 +512,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 26,
       "idIntervencion": "10446",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -515,7 +533,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 27,
       "idIntervencion": "10448",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -536,7 +554,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 28,
       "idIntervencion": "10491",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -556,7 +574,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 29,
       "idIntervencion": "10483",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -576,7 +594,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 30,
       "idIntervencion": "10481",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -594,7 +612,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 31,
       "idIntervencion": "10518",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -610,7 +628,7 @@
       "maquinaria": []
     },
     {
-      "n": 31,
+      "n": 32,
       "idIntervencion": "10468",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -622,7 +640,7 @@
       "marcoLegal": "DECRETO SUPREMO Nº 097-2026-PCM",
       "descripcion": "“DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”",
       "fechaInicio": "02/09/2026",
-      "fechaFin": "22/09/2026",
+      "fechaFin": "31/10/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10108)",
         "TRACTOR SOBRE ORUGA ( AE800570)",
@@ -632,7 +650,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 33,
       "idIntervencion": "10417",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -650,7 +668,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 34,
       "idIntervencion": "10201",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -666,7 +684,7 @@
       "maquinaria": []
     },
     {
-      "n": 34,
+      "n": 35,
       "idIntervencion": "10381",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -686,7 +704,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 36,
       "idIntervencion": "10372",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -704,7 +722,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10365",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -726,7 +744,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "9403",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -744,7 +762,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "10503",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -763,7 +781,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "10502",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -784,7 +802,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "9682",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -804,7 +822,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "10500",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -820,7 +838,7 @@
       "maquinaria": []
     },
     {
-      "n": 42,
+      "n": 43,
       "idIntervencion": "9446",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -842,7 +860,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 44,
       "idIntervencion": "10445",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -863,7 +881,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 45,
       "idIntervencion": "9439",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -881,7 +899,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10348",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -899,7 +917,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -917,7 +935,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "10307",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -935,7 +953,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -954,7 +972,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 50,
       "idIntervencion": "10493",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -970,7 +988,7 @@
       "maquinaria": []
     },
     {
-      "n": 50,
+      "n": 51,
       "idIntervencion": "10522",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
