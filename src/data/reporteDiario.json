@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "22:55",
+    "horaCorte": "23:26",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -704,6 +704,28 @@
     },
     {
       "n": 36,
+      "idIntervencion": "10365",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "La Bocatoma De La Ptap Huachipa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "06/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 82541)",
+        "VOLQUETE ( EGV-840)",
+        "CARGADOR FRONTAL ( JLX00293)",
+        "VOLQUETE ( EGV-825)",
+        "EXCAVADORA HIDRAULICA ( TJT10116)"
+      ]
+    },
+    {
+      "n": 37,
       "idIntervencion": "10498",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -719,28 +741,6 @@
       "maquinaria": [
         "VOLQUETE ( EGN-520)",
         "EXCAVADORA HIDRAULICA ( A10875)"
-      ]
-    },
-    {
-      "n": 37,
-      "idIntervencion": "10365",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "La Bocatoma De La Ptap Huachipa",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
-      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "21/09/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 82541)",
-        "VOLQUETE ( EGV-840)",
-        "CARGADOR FRONTAL ( JLX00293)",
-        "VOLQUETE ( EGV-825)",
-        "EXCAVADORA HIDRAULICA ( TJT10116)"
       ]
     },
     {
