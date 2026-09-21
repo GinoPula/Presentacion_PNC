@@ -20,6 +20,7 @@ export default {
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ', inicio: '07/09/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 75.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'La Cruz', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '15/09/2026', fin: '18/09/2026', volAcum: 235.0, kmAcum: 0.07, poblacion: 325 },
+    { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5016 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -30,13 +31,12 @@ export default {
     { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 2, metaVol: 6486.0, metaKm: 1.06, poblacion: 1405 },
     { provincia: 'Tumbes', distrito: 'La Cruz', cantidad: 2, metaVol: 3054.0, metaKm: 0.46, poblacion: 1775 },
     { provincia: 'Tumbes', distrito: 'San Jacinto', cantidad: 1, metaVol: 4200.0, metaKm: 0.3, poblacion: 269 },
-    { provincia: 'Tumbes', distrito: 'Tumbes', cantidad: 4, metaVol: 29732.7, metaKm: 3.16, poblacion: 12604 },
+    { provincia: 'Tumbes', distrito: 'Tumbes', cantidad: 3, metaVol: 17743.8, metaKm: 2.12, poblacion: 7588 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 79454.7, metaKm: 7.59, poblacion: 22000 },
+  programadasTotal: { cantidad: 12, metaVol: 67465.8, metaKm: 6.55, poblacion: 16984 },
 
   programadasDetalle: [
-    { provincia: 'Tumbes', distrito: 'Tumbes', sector: '', ficha: '021-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00    ', fechaInicio: '19/09/2026', fechaFin: '03/10/2026', metaVol: 11988.9, metaKm: 1.04, poblacion: 5016 },
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Malval', ficha: '073-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t ', fechaInicio: '25/09/2026', fechaFin: '09/10/2026', metaVol: 3375.0, metaKm: 0.45, poblacion: 527 },
     { provincia: 'Tumbes', distrito: 'Tumbes', sector: 'José Lishner Tudela Y Alipio Rosales', ficha: '020-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00    ', fechaInicio: '04/10/2026', fechaFin: '18/10/2026', metaVol: 11414.2, metaKm: 1.05, poblacion: 6005 },
     { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'Vista Hermosa', ficha: '074-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ', fechaInicio: '10/10/2026', fechaFin: '24/10/2026', metaVol: 4200.0, metaKm: 0.3, poblacion: 269 },
