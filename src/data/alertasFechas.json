@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/09/2026",
-    "horaCorte": "18:52",
+    "horaCorte": "19:23",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -350,25 +350,6 @@
     },
     {
       "n": 19,
-      "idIntervencion": "10522",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "La Cruz",
-      "sector": "Las Gardenias",
-      "ficha": "075-2026-LD-PI-TUM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "marcoLegal": "CONVENIO Nº029-2026",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "18/09/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 20,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "9446",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -404,6 +385,25 @@
       "fechaInicio": "03/09/2026",
       "fechaFin": "19/09/2026",
       "diasAtraso": 2
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10319",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
+      "ficha": "N°054-2026-RLEU-AMZ",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
+      "fechaInicio": "23/06/2026",
+      "fechaFin": "20/09/2026",
+      "diasAtraso": 1
     },
     {
       "n": 22,
@@ -459,25 +459,6 @@
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
       "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
       "fechaInicio": "18/09/2026",
-      "fechaFin": "20/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 25,
-      "idIntervencion": "10319",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
-      "ficha": "N°054-2026-RLEU-AMZ",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
-      "fechaInicio": "23/06/2026",
       "fechaFin": "20/09/2026",
       "diasAtraso": 1
     }

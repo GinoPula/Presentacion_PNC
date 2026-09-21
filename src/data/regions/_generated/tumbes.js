@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 32995.25, km: 6.97, poblacion: 8931, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
-    { tipo: 'Prevención', cantidad: 23, m3: 75793.85, km: 11.05, poblacion: 19682, provincias: ['Contralmirante Villar', 'Tumbes'] },
+    { tipo: 'Prevención', cantidad: 24, m3: 77053.85, km: 11.29, poblacion: 20007, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 13, m3: 7815.0, km: null, poblacion: 17744, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 45, m3: 116604.1, m3AguaPotable: 7815.0, km: 18.02, poblacion: 46357 },
+  ejecutadasTotal: { cantidad: 46, m3: 117864.1, m3AguaPotable: 7815.0, km: 18.26, poblacion: 46682 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,10 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 195402.73, m3AguaPotable: 8490.0, km: 43.25, poblacion: 93958 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ', inicio: '07/09/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ', inicio: '07/09/2026', fin: '04/11/2026', volAcum: 45.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 75.0, kmAcum: 0.0, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'La Cruz', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LOS AGURTO, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '15/09/2026', fin: '18/09/2026', volAcum: 235.0, kmAcum: 0.07, poblacion: 325 },
-    { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5016 },
+    { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 700.0, kmAcum: 0.03, poblacion: 5016 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
