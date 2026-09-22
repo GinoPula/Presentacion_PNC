@@ -22,12 +22,12 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 3, metaVol: 26300.0, metaKm: 1.02, poblacion: 4200 },
+    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 2, metaVol: 19500.0, metaKm: 0.72, poblacion: 1200 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', cantidad: 3, metaVol: 27852.0, metaKm: 0.98, poblacion: 870 },
     { provincia: 'Palpa', distrito: 'Llipata', cantidad: 1, metaVol: 13300.0, metaKm: 0.38, poblacion: 90 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 9, metaVol: 71728.0, metaKm: 3.55, poblacion: 6300 },
+  programadasTotal: { cantidad: 8, metaVol: 64928.0, metaKm: 3.25, poblacion: 3300 },
 
   programadasDetalle: [
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00              ', fechaInicio: '28/09/2026', fechaFin: '04/10/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
@@ -37,7 +37,6 @@ export default {
     { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°002-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                 ', fechaInicio: '01/11/2026', fechaFin: '12/11/2026', metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00         ', fechaInicio: '11/11/2026', fechaFin: '13/11/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560 },
     { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°015-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO II, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00     ', fechaInicio: '15/11/2026', fechaFin: '26/11/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 600 },
-    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Cantayo', ficha: 'FT I N°003-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO TIERRAS BLANCAS SECTOR CANTAYO TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                   ', fechaInicio: '11/12/2026', fechaFin: '20/12/2026', metaVol: 6800.0, metaKm: 0.3, poblacion: 3000 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°007-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO I, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00      ', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 380 },
   ],
 
