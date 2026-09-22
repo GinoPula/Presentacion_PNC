@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 19, m3: 116451.33, km: 27.81, poblacion: 30318, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
-    { tipo: 'Prevención', cantidad: 28, m3: 158793.12, km: 50.9, poblacion: 114557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
+    { tipo: 'Prevención', cantidad: 29, m3: 161103.12, km: 51.45, poblacion: 115937, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 34667.5, km: 28.15, poblacion: 14258, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 56, m3: 309911.95, m3AguaPotable: 255.0, km: 106.86, poblacion: 159133 },
+  ejecutadasTotal: { cantidad: 57, m3: 312221.95, m3AguaPotable: 255.0, km: 107.41, poblacion: 160513 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 2750.0, kmAcum: 2.26, poblacion: 212 },
-    { provincia: 'Piura', distrito: 'Catacaos', tipo: 'Prevención', descripcion: '  "LIMPIEZA Y DESCOLMATACION DEL DREN PLUVIAL SIMBILA (1+050 HASTA 1+ 600) KM DEL DISTRITO CATACAOS - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA"              ', inicio: '14/09/2026', fin: '22/09/2026', volAcum: 1950.0, kmAcum: 0.46, poblacion: 1380 },
     { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA   ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 680.0, kmAcum: 0.68, poblacion: 347 },
   ],
 
