@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 31332.0, km: 1.19, poblacion: 16650, provincias: ['Ica', 'Nasca'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 93606.58, km: 4.29, poblacion: 13100, provincias: ['Ica', 'Nasca'] },
-    { tipo: 'Urgente atención', cantidad: 5, m3: 3720.0, km: null, poblacion: 3750, provincias: ['Palpa'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 100626.58, km: 4.55, poblacion: 13570, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Urgente atención', cantidad: 6, m3: 4110.0, km: null, poblacion: 4500, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 23, m3: 128658.58, m3AguaPotable: 3720.0, km: 5.48, poblacion: 33500 },
+  ejecutadasTotal: { cantidad: 25, m3: 136068.58, m3AguaPotable: 4110.0, km: 5.74, poblacion: 34720 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,21 +17,19 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 390.0, kmAcum: 0.0, poblacion: 750 },
-    { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA    ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 7020.0, kmAcum: 0.26, poblacion: 470 },
+    { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA       ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 470 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 4, metaVol: 33590.0, metaKm: 1.29, poblacion: 4670 },
+    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 3, metaVol: 26300.0, metaKm: 1.02, poblacion: 4200 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', cantidad: 3, metaVol: 27852.0, metaKm: 0.98, poblacion: 870 },
     { provincia: 'Palpa', distrito: 'Llipata', cantidad: 1, metaVol: 13300.0, metaKm: 0.38, poblacion: 90 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 79018.0, metaKm: 3.82, poblacion: 6770 },
+  programadasTotal: { cantidad: 9, metaVol: 71728.0, metaKm: 3.55, poblacion: 6300 },
 
   programadasDetalle: [
-    { provincia: 'Nasca', distrito: 'Nasca', sector: 'San Mauricio', ficha: 'FT I N°037-2026-LDP- ICA', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA      ', fechaInicio: '23/09/2026', fechaFin: '07/10/2026', metaVol: 7290.0, metaKm: 0.27, poblacion: 470 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00              ', fechaInicio: '28/09/2026', fechaFin: '04/10/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°004-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA ,REGION ICA-00      ', fechaInicio: '01/10/2026', fechaFin: '15/10/2026', metaVol: 12852.0, metaKm: 0.48, poblacion: 90 },
     { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°006-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO II, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00     ', fechaInicio: '02/10/2026', fechaFin: '08/10/2026', metaVol: 4500.0, metaKm: 0.15, poblacion: 400 },
