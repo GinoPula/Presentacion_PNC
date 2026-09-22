@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE\nINTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNI    ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 10740.0, kmAcum: 4.36, poblacion: 360 },
-    { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 8895.0, kmAcum: 2.93, poblacion: 336 },
+    { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 9725.0, kmAcum: 3.08, poblacion: 336 },
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN   ', inicio: '04/09/2026', fin: '03/10/2026', volAcum: 8630.0, kmAcum: 3.72, poblacion: 595 },
   ],
 
