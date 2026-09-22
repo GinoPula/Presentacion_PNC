@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 330.0, kmAcum: 0.0, poblacion: 750 },
+    { provincia: 'Palpa', distrito: 'Rio Grande', tipo: 'Urgente atención', descripcion: ' DISTRIBUCIÓN DE AGUA PARA CONSUMO HUMANO POR PERSISTENCIA DE NECESIDAD EN CENTROS POBLADOS DEL DISTRITO DE RIO GRANDE, PROVINCIA PALPA, DEPARTAMENTO ICA.    ', inicio: '24/08/2026', fin: '22/09/2026', volAcum: 360.0, kmAcum: 0.0, poblacion: 750 },
     { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO II, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA    ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 5800.0, kmAcum: 0.21, poblacion: 470 },
   ],
 
