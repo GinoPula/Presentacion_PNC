@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
-    { tipo: 'Urgente atención', cantidad: 12, m3: 22675.0, km: 19.15, poblacion: 9600, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja'] },
+    { tipo: 'Urgente atención', cantidad: 13, m3: 24654.6, km: 21.98, poblacion: 9900, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja'] },
   ],
-  ejecutadasTotal: { cantidad: 16, m3: 36814.15, m3AguaPotable: 6555.0, km: 26.32, poblacion: 11000 },
+  ejecutadasTotal: { cantidad: 17, m3: 38793.75, m3AguaPotable: 6555.0, km: 29.14, poblacion: 11300 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN       ', inicio: '31/07/2026', fin: '25/09/2026', volAcum: 780.0, kmAcum: 1.56, poblacion: 550 },
-    { provincia: 'Bellavista', distrito: 'San Pablo', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LAS LOCALIDADES DE DOS DE MAYO Y NUEVO FLORES, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN                    ', inicio: '03/09/2026', fin: '19/09/2026', volAcum: 1830.0, kmAcum: 2.61, poblacion: 300 },
     { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN               ', inicio: '08/09/2026', fin: '24/09/2026', volAcum: 540.0, kmAcum: 0.05, poblacion: 500 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN      ', inicio: '15/09/2026', fin: '14/10/2026', volAcum: 150.0, kmAcum: 0.0, poblacion: 1125 },
   ],
