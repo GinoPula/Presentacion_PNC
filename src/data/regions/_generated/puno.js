@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 130454.69, km: 33.13, poblacion: 8113, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
+    { tipo: 'Prevención', cantidad: 16, m3: 140054.69, km: 37.93, poblacion: 8591, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 35983.78, km: 109.39, poblacion: 21085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 37, m3: 285427.42, m3AguaPotable: 8612.02, km: 158.97, poblacion: 47229 },
+  ejecutadasTotal: { cantidad: 38, m3: 295027.42, m3AguaPotable: 8612.02, km: 163.77, poblacion: 47707 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,8 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO  ', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 5368.45, kmAcum: 20970.5, poblacion: 1000 },
-    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO   ', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 2340.0, kmAcum: 9.55, poblacion: 560 },
-    { provincia: 'Puno', distrito: 'Capachica', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO MUSINGA EN LA LOCALIDAD DE HUAREJÓN DEL DISTRITO DE CAPACHICA, PROVINCIA Y DEPARTAMENTO DE PUNO  ', inicio: '14/09/2026', fin: '23/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 478 },
+    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO   ', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 4680.0, kmAcum: 19.1, poblacion: 560 },
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
