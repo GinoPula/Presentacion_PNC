@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
     { tipo: 'Prevención', cantidad: 16, m3: 140054.69, km: 37.93, poblacion: 8591, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
-    { tipo: 'Urgente atención', cantidad: 9, m3: 35983.78, km: 109.39, poblacion: 21085, provincias: ['Azangaro', 'El Collao', 'Lampa', 'San Roman'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 53644.42, km: 21128.8, poblacion: 22645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 38, m3: 295027.42, m3AguaPotable: 8612.02, km: 163.77, poblacion: 47707 },
+  ejecutadasTotal: { cantidad: 40, m3: 312688.06, m3AguaPotable: 8612.02, km: 21183.18, poblacion: 49267 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR PACCOCHUMA Y C.P. DE HUAMANRURO DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO  ', inicio: '14/08/2026', fin: '28/08/2026', volAcum: 5368.45, kmAcum: 20970.5, poblacion: 1000 },
-    { provincia: 'Azangaro', distrito: 'Tirapata', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VIAS, EN LAS COMUNIDADES DE PURINA PATACOLLANA, SAN PEDRO DE PUCARANI Y PUYUTIRA DEL DISTRITO TIRAPATA, PROVINCIA DE AZÁNGARO, DEPARTAMENTO DE PUNO   ', inicio: '03/09/2026', fin: '12/09/2026', volAcum: 4680.0, kmAcum: 19.1, poblacion: 560 },
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
