@@ -9457,11 +9457,11 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchacchuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                       ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                        ",
     "ficha": "04-2026-LD-PI-AYAC",
     "fechaInicio": "21/09/2026",
     "fechaFin": "25/09/2026",
-    "poblacion": 150,
+    "poblacion": 78,
     "volumen": 370,
     "km": 0.08,
     "enlace": null
