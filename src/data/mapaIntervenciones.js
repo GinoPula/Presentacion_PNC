@@ -4388,8 +4388,8 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "18/10/2026",
     "poblacion": 340,
-    "volumen": 644,
-    "km": 0.02,
+    "volumen": 1127,
+    "km": 0.05,
     "enlace": null
   },
   {
@@ -7546,8 +7546,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 2500000,
-    "volumen": 10270.8,
-    "km": 0.074,
+    "volumen": 11040.3,
+    "km": 0.083,
     "enlace": null
   },
   {
@@ -7582,8 +7582,8 @@ const mapaIntervenciones = {
     "fechaInicio": "10/09/2026",
     "fechaFin": "24/09/2026",
     "poblacion": 1050,
-    "volumen": 2160,
-    "km": 0.108,
+    "volumen": 2480,
+    "km": 0.124,
     "enlace": null
   },
   {
@@ -7618,8 +7618,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/09/2026",
     "fechaFin": "23/09/2026",
     "poblacion": 5386,
-    "volumen": 581.4,
-    "km": 0.051,
+    "volumen": 1755.6,
+    "km": 0.154,
     "enlace": null
   },
   {
@@ -13158,6 +13158,24 @@ const mapaIntervenciones = {
     "poblacion": 1125,
     "volumen": 210,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 7309,
+    "lat": -6.411787,
+    "lng": -76.595026,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lamas",
+    "distrito": "Shanao",
+    "sector": "Shanao",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL ALUVIÓNICO DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+300 KM EN LA QUEBRADA SHANAO, DISTRITO DE SHANAO, PROVINCIA DE LAMAS, REGIÓN SAN MARTÍN\"                                    ",
+    "ficha": "024-2026-LD-PI-SAM",
+    "fechaInicio": "21/09/2026",
+    "fechaFin": "01/10/2026",
+    "poblacion": 600,
+    "volumen": 5500,
+    "km": 0.3,
     "enlace": null
   }
 ],
