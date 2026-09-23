@@ -23,10 +23,11 @@ export default {
   programadasDetalle: [
   ],
 
-  conveniosCount: 2,
+  conveniosCount: 3,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 21/08/2027' },
     { entidad: 'Municipalidad Distrital El Carmen', detail: 'hasta 12/02/2027' },
+    { entidad: 'Municipalidad Distrital San Antonio De Antaparco', detail: 'hasta 22/09/2027' },
   ],
 
   flota: [

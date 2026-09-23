@@ -46,11 +46,11 @@ export default {
     { provincia: 'Huanta', distrito: 'Sivia', sector: 'C.P. San Juan De Matucana', ficha: '21-2026- LD-PI-AYAC ', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO, CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN LA QUEBRADA PISHCCANA, EN EL CENTRO POBLADO DE SAN JUAN DE MATUCANA DEL DISTRITO DE SIVIA PROVINCIA DE HUANTA, REGIÓN AYACUCHO-00       ', fechaInicio: '15/12/2026', fechaFin: '29/12/2026', metaVol: 2880.0, metaKm: 0.45, poblacion: 213 },
   ],
 
-  conveniosCount: 16,
+  conveniosCount: 17,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '1 convenio vigente' },
-    { entidad: 'Municipalidad Distrital', detail: '14 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '15 convenios vigentes' },
   ],
 
   flota: [
