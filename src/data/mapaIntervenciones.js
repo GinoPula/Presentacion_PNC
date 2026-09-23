@@ -1580,20 +1580,20 @@ const mapaIntervenciones = {
   },
   {
     "id": 9852,
-    "lat": -14.77975,
-    "lng": -69.923623,
-    "estado": "En ejecución",
+    "lat": -14.725064,
+    "lng": -70.051037,
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Azangaro",
     "distrito": "Muñani",
-    "sector": "Choquechambi Sector Balsapata - Muñani Chico",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO      ",
+    "sector": "Mor",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHEJOLLANI EN LA COMUNIDAD DE MORORCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO DEPARTAMENTO PUNO     ",
     "ficha": "FTI N° 038-2026-LDP-PUN",
     "fechaInicio": "29/08/2026",
     "fechaFin": "05/09/2026",
     "poblacion": 540,
-    "volumen": 10224.9,
-    "km": 4.869,
+    "volumen": 7492.8,
+    "km": 3.122,
     "enlace": null
   },
   {
@@ -11927,24 +11927,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1xhT9f-_69KIB9dDnqNdyryF4L6c-U_76/view?usp=drive_link"
   },
   {
-    "id": 9982,
-    "lat": -11.05829,
-    "lng": -75.341915,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Chanchamayo",
-    "distrito": "Chanchamayo",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, TRAMO N°01 PROG. 0+000 A LA PROG.0+502.24 KM, TRAMO N°02 PROG. 0+000 A LA PROG. 0+257.21 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN       ",
-    "ficha": "039-2026-LD-E-JUN",
-    "fechaInicio": "24/03/2026",
-    "fechaFin": "08/04/2026",
-    "poblacion": 25200,
-    "volumen": 9810,
-    "km": 0.759,
-    "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
-  },
-  {
     "id": 10032,
     "lat": -12.096045,
     "lng": -74.015652,
@@ -11961,6 +11943,24 @@ const mapaIntervenciones = {
     "volumen": 8710,
     "km": 1.311,
     "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
+  },
+  {
+    "id": 9982,
+    "lat": -11.05829,
+    "lng": -75.341915,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Chanchamayo",
+    "distrito": "Chanchamayo",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, TRAMO N°01 PROG. 0+000 A LA PROG.0+502.24 KM, TRAMO N°02 PROG. 0+000 A LA PROG. 0+257.21 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN       ",
+    "ficha": "039-2026-LD-E-JUN",
+    "fechaInicio": "24/03/2026",
+    "fechaFin": "08/04/2026",
+    "poblacion": 25200,
+    "volumen": 9810,
+    "km": 0.759,
+    "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
   },
   {
     "id": 10056,
@@ -12269,6 +12269,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10389,
+    "lat": -12.152072,
+    "lng": -75.228102,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Viques",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN       ",
+    "ficha": "061-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "08/08/2026",
+    "poblacion": 175,
+    "volumen": 10215,
+    "km": 1.094,
+    "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
+  },
+  {
     "id": 10393,
     "lat": -12.157963,
     "lng": -75.264487,
@@ -12285,24 +12303,6 @@ const mapaIntervenciones = {
     "volumen": 3100,
     "km": 0.16,
     "enlace": "https://drive.google.com/file/d/1VvxnQx-Q4BNe1SsiDRWwAdczCfakyO-3/view?usp=drive_link"
-  },
-  {
-    "id": 10385,
-    "lat": -12.157955,
-    "lng": -75.264889,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Chupaca",
-    "distrito": "Chongos Bajo",
-    "sector": "Anexo De Pumpunya",
-    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                 ",
-    "ficha": "056-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "17/08/2026",
-    "poblacion": 113,
-    "volumen": 21894,
-    "km": 0.23,
-    "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
   },
   {
     "id": 10390,
@@ -12323,22 +12323,22 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10389,
-    "lat": -12.152072,
-    "lng": -75.228102,
+    "id": 10385,
+    "lat": -12.157955,
+    "lng": -75.264889,
     "estado": "Ejecutada",
     "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Viques",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN       ",
-    "ficha": "061-2026-LETV-E-JUN ",
+    "provincia": "Chupaca",
+    "distrito": "Chongos Bajo",
+    "sector": "Anexo De Pumpunya",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL TERREMOTO GRADO 5.1 DEL 19 DE JULIO DEL 2026 EN LA ZONA ALTA DEL ANEXO DE PUMPUYA, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN                 ",
+    "ficha": "056-2026-LETV-E-JUN ",
     "fechaInicio": "25/07/2026",
-    "fechaFin": "08/08/2026",
-    "poblacion": 175,
-    "volumen": 10215,
-    "km": 1.094,
-    "enlace": "https://drive.google.com/file/d/1qFscsl5yh9peePYrZM3yxhHr-Ayb90To/view?usp=drive_link"
+    "fechaFin": "17/08/2026",
+    "poblacion": 113,
+    "volumen": 21894,
+    "km": 0.23,
+    "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
   },
   {
     "id": 10402,
@@ -12377,6 +12377,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10448,
+    "lat": -11.97951,
+    "lng": -74.012631,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Satipo",
+    "distrito": "Rio Tambo",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.         ",
+    "ficha": "067-2026-LD-P-JUN",
+    "fechaInicio": "26/08/2026",
+    "fechaFin": "24/09/2026",
+    "poblacion": 1330,
+    "volumen": 4850,
+    "km": 2.375,
+    "enlace": null
+  },
+  {
     "id": 10447,
     "lat": -12.187495,
     "lng": -75.238474,
@@ -12390,8 +12408,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 11480,
-    "km": 4.56,
+    "volumen": 12240,
+    "km": 4.66,
     "enlace": null
   },
   {
@@ -12408,8 +12426,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 9725,
-    "km": 3.08,
+    "volumen": 10465,
+    "km": 3.28,
     "enlace": null
   },
   {
@@ -12426,8 +12444,8 @@ const mapaIntervenciones = {
     "fechaInicio": "04/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 595,
-    "volumen": 9430,
-    "km": 3.92,
+    "volumen": 10220,
+    "km": 4.29,
     "enlace": null
   }
 ],

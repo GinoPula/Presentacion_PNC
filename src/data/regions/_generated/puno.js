@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
-    { tipo: 'Prevención', cantidad: 16, m3: 140054.69, km: 37.93, poblacion: 8591, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 147547.49, km: 41.06, poblacion: 9131, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
     { tipo: 'Urgente atención', cantidad: 11, m3: 53644.42, km: 21128.8, poblacion: 22645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 40, m3: 312688.06, m3AguaPotable: 8612.02, km: 21183.18, poblacion: 49267 },
+  ejecutadasTotal: { cantidad: 41, m3: 320180.86, m3AguaPotable: 8612.02, km: 21186.3, poblacion: 49807 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Azangaro', distrito: 'Muñani', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO      ', inicio: '29/08/2026', fin: '05/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 540 },
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 1456.74, kmAcum: 5.69, poblacion: 1000 },
   ],
 
