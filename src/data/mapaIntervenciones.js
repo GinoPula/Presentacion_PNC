@@ -2170,7 +2170,7 @@ const mapaIntervenciones = {
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
-    "volumen": 425,
+    "volumen": 440,
     "km": 0,
     "enlace": null
   },
@@ -2206,7 +2206,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/10/2026",
     "poblacion": 550,
-    "volumen": 360,
+    "volumen": 375,
     "km": 0,
     "enlace": null
   },
@@ -3270,8 +3270,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/09/2026",
     "fechaFin": "26/09/2026",
     "poblacion": 212,
-    "volumen": 2750,
-    "km": 2.26,
+    "volumen": 2850,
+    "km": 2.38,
     "enlace": null
   },
   {
@@ -3306,8 +3306,8 @@ const mapaIntervenciones = {
     "fechaInicio": "15/09/2026",
     "fechaFin": "29/09/2026",
     "poblacion": 347,
-    "volumen": 680,
-    "km": 0.68,
+    "volumen": 1230,
+    "km": 1.18,
     "enlace": null
   },
   {
@@ -4383,10 +4383,10 @@ const mapaIntervenciones = {
     "provincia": "Huarmey",
     "distrito": "Huarmey",
     "sector": "Panamericana Norte",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH  ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH   ",
     "ficha": "091-2026-LDP-ANC",
     "fechaInicio": "16/09/2026",
-    "fechaFin": "23/09/2026",
+    "fechaFin": "30/09/2026",
     "poblacion": 300,
     "volumen": 870,
     "km": 0.06,
