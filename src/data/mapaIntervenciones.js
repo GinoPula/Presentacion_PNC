@@ -4966,7 +4966,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 297,
+    "volumen": 308,
     "km": 0,
     "enlace": null
   },
@@ -5074,8 +5074,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "31/10/2026",
     "poblacion": 4408,
-    "volumen": 13080,
-    "km": 0.64,
+    "volumen": 13880,
+    "km": 0.136,
     "enlace": null
   },
   {
@@ -5092,7 +5092,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/09/2026",
     "fechaFin": "15/11/2026",
     "poblacion": 1100,
-    "volumen": 60,
+    "volumen": 105,
     "km": 0,
     "enlace": null
   }
@@ -8546,12 +8546,12 @@ const mapaIntervenciones = {
     "id": 10413,
     "lat": -15.142497,
     "lng": -72.762259,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "La Union",
     "distrito": "Alca",
     "sector": "Quebrada Chococo",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.     ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.      ",
     "ficha": "72-2026-LDP-ARE",
     "fechaInicio": "01/09/2026",
     "fechaFin": "22/09/2026",
@@ -8610,7 +8610,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 504,
-    "volumen": 30,
+    "volumen": 75,
     "km": 0,
     "enlace": null
   },

@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/09/2026",
-    "horaCorte": "11:03",
+    "horaCorte": "11:33",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -464,25 +464,6 @@
     },
     {
       "n": 25,
-      "idIntervencion": "10413",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "La Union",
-      "distrito": "Alca",
-      "sector": "Quebrada Chococo",
-      "ficha": "72-2026-LDP-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "ADENDA N° 1 AL CONVENIO N° 055-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "01/09/2026",
-      "fechaFin": "22/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 26,
       "idIntervencion": "10491",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 159319.93, km: 52.93, poblacion: 24550, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
-    { tipo: 'Prevención', cantidad: 11, m3: 152375.94, km: 8.51, poblacion: 8400, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 9.34, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 25, m3: 15770.0, km: 0.15, poblacion: 14845, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 50, m3: 327465.87, m3AguaPotable: 15380.0, km: 61.59, poblacion: 47795 },
+  ejecutadasTotal: { cantidad: 51, m3: 336132.93, m3AguaPotable: 15380.0, km: 62.42, poblacion: 49095 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,10 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, m3AguaPotable: 18540.0, km: 42.88, poblacion: 52610 },
 
   enEjecucion: [
-    { provincia: 'La Union', distrito: 'Alca', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.\n    ', inicio: '01/09/2026', fin: '22/09/2026', volAcum: 8667.06, kmAcum: 0.83, poblacion: 1300 },
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '03/09/2026', fin: '02/10/2026', volAcum: 420.0, kmAcum: 0.0, poblacion: 525 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.\n\n  ', inicio: '11/09/2026', fin: '10/10/2026', volAcum: 300.0, kmAcum: 0.0, poblacion: 640 },
-    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 30.0, kmAcum: 0.0, poblacion: 504 },
+    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 75.0, kmAcum: 0.0, poblacion: 504 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".     ', inicio: '21/09/2026', fin: '20/10/2026', volAcum: 420.0, kmAcum: 0.01, poblacion: 500 },
   ],
 
