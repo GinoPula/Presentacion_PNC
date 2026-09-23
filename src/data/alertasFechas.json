@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/09/2026",
-    "horaCorte": "15:35",
+    "horaCorte": "16:05",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -160,6 +160,25 @@
     },
     {
       "n": 9,
+      "idIntervencion": "10547",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Picota",
+      "distrito": "San Hilarion",
+      "sector": "San Hilarión",
+      "ficha": "041-2026-LD-PI-SAM",
+      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "26/09/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 10,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -178,7 +197,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -194,25 +213,6 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "15/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 11,
-      "idIntervencion": "10547",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Picota",
-      "distrito": "San Hilarion",
-      "sector": "San Hilarión",
-      "ficha": "041-2026-LD-PI-SAM",
-      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
-      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "26/09/2026",
       "diasAtraso": 8
     },
     {
@@ -236,25 +236,6 @@
     },
     {
       "n": 13,
-      "idIntervencion": "10529",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "San Andres De Cutervo",
-      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
-      "ficha": "N°070-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "08/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 14,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -270,6 +251,25 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
+      "diasAtraso": 5
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10529",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "San Andres De Cutervo",
+      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
+      "ficha": "N°070-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "08/10/2026",
       "diasAtraso": 5
     },
     {
@@ -293,25 +293,6 @@
     },
     {
       "n": 16,
-      "idIntervencion": "10474",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Abancay",
-      "sector": "Villa Rene/quebrada Marcahuasi.",
-      "ficha": "FTI N° 047-2026-LDP-APU.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MARCAHUASI, DE LA PROGRESIVA KM 0+000 AL KM 0+975, EN EL SECTOR VILLA RENE, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC\".",
-      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
-      "fechaInicio": "20/09/2026",
-      "fechaFin": "19/10/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 17,
       "idIntervencion": "9631",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -327,6 +308,25 @@
       "marcoLegal": "CONVENIO Nº015-2024-ADENDA 01",
       "fechaInicio": "20/09/2026",
       "fechaFin": "10/10/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10474",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Abancay",
+      "distrito": "Abancay",
+      "sector": "Villa Rene/quebrada Marcahuasi.",
+      "ficha": "FTI N° 047-2026-LDP-APU.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA MARCAHUASI, DE LA PROGRESIVA KM 0+000 AL KM 0+975, EN EL SECTOR VILLA RENE, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGION APURIMAC\".",
+      "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
+      "fechaInicio": "20/09/2026",
+      "fechaFin": "19/10/2026",
       "diasAtraso": 3
     },
     {
@@ -407,25 +407,6 @@
     },
     {
       "n": 22,
-      "idIntervencion": "10536",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Recuay",
-      "distrito": "Recuay",
-      "sector": "Uchipampa - Aconan",
-      "ficha": "122-2026-LDP-ANC",
-      "descripcion": "DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
-      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "06/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 23,
       "idIntervencion": "10366",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "10491",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

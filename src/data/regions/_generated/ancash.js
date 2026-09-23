@@ -20,6 +20,7 @@ export default {
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH  ', inicio: '16/09/2026', fin: '23/09/2026', volAcum: 870.0, kmAcum: 0.06, poblacion: 300 },
     { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 1803.0, kmAcum: 0.08, poblacion: 340 },
     { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CUSHAP, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY', inicio: '19/09/2026', fin: '25/09/2026', volAcum: 957.0, kmAcum: 0.11, poblacion: 240 },
+    { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH  ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 250 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -32,17 +33,16 @@ export default {
     { provincia: 'Huarmey', distrito: 'Culebras', cantidad: 2, metaVol: 3087.5, metaKm: 0.35, poblacion: 46 },
     { provincia: 'Huaylas', distrito: 'Pueblo Libre', cantidad: 4, metaVol: 30542.15, metaKm: 2.38, poblacion: 1024 },
     { provincia: 'Recuay', distrito: 'Catac', cantidad: 6, metaVol: 32020.0, metaKm: 3.54, poblacion: 14597 },
-    { provincia: 'Recuay', distrito: 'Recuay', cantidad: 2, metaVol: 12475.0, metaKm: 0.75, poblacion: 4750 },
+    { provincia: 'Recuay', distrito: 'Recuay', cantidad: 1, metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
     { provincia: 'Recuay', distrito: 'Ticapampa', cantidad: 1, metaVol: 597.55, metaKm: 0.17, poblacion: 50 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', cantidad: 1, metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Santa', distrito: 'Samanco', cantidad: 1, metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Santa', distrito: 'Santa', cantidad: 1, metaVol: 4725.0, metaKm: 0.15, poblacion: 300 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 25, metaVol: 143906.91, metaKm: 15.89, poblacion: 26595 },
+  programadasTotal: { cantidad: 24, metaVol: 135931.91, metaKm: 15.34, poblacion: 26345 },
 
   programadasDetalle: [
-    { provincia: 'Recuay', distrito: 'Recuay', sector: 'Uchipampa - Aconan', ficha: '122-2026-LDP-ANC', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH', fechaInicio: '22/09/2026', fechaFin: '06/10/2026', metaVol: 7975.0, metaKm: 0.55, poblacion: 250 },
     { provincia: 'Casma', distrito: 'Casma', sector: 'Cuncan', ficha: '112-2026-LDP-ANC ', descripcion: ' ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH', fechaInicio: '28/09/2026', fechaFin: '27/10/2026', metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Samanco', sector: 'Chimus', ficha: '070-2026-LDP-ANC', descripcion: ' LIMPIEZA DESCOLMATACIÓN Y EN LA MARGEN DERECHA DEL RIO NEPEÑA DEL SECTOR LOS CHIMUS, DISTRITO DE SAMANCO, PROVINCIA DE SANTA, DEPARTAMENTO DE ANCASH.   ', fechaInicio: '28/09/2026', fechaFin: '12/10/2026', metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Recuay', distrito: 'Recuay', sector: 'Uchipampa', ficha: '019-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO SANTA EN EL SECTOR UCHIPAMPA TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH-00 ', fechaInicio: '01/10/2026', fechaFin: '08/10/2026', metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
