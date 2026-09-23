@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
+    { provincia: 'Azangaro', distrito: 'Muñani', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO      ', inicio: '29/08/2026', fin: '05/09/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 540 },
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 1456.74, kmAcum: 5.69, poblacion: 1000 },
   ],
 
@@ -24,7 +25,7 @@ export default {
   programadas: [
     { provincia: 'Azangaro', distrito: 'Azangaro', cantidad: 1, metaVol: 68000.0, metaKm: 2.8, poblacion: 1500 },
     { provincia: 'Azangaro', distrito: 'Chupa', cantidad: 1, metaVol: 15053.5, metaKm: 3.22, poblacion: 85 },
-    { provincia: 'Azangaro', distrito: 'Muñani', cantidad: 2, metaVol: 17507.7, metaKm: 8.34, poblacion: 785 },
+    { provincia: 'Azangaro', distrito: 'Muñani', cantidad: 1, metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },
     { provincia: 'Carabaya', distrito: 'Usicayos', cantidad: 1, metaVol: 9957.6, metaKm: 1.2, poblacion: 430 },
     { provincia: 'El Collao', distrito: 'Pilcuyo', cantidad: 1, metaVol: 4125.0, metaKm: 1.1, poblacion: 120 },
     { provincia: 'Huancane', distrito: 'Huancane', cantidad: 1, metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
@@ -40,12 +41,11 @@ export default {
     { provincia: 'San Roman', distrito: 'Cabanillas', cantidad: 1, metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'Yunguyo', distrito: 'Unicachi', cantidad: 1, metaVol: 11400.0, metaKm: 1.9, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 21, metaVol: 428856.6, metaKm: 48.2, poblacion: 8185 },
+  programadasTotal: { cantidad: 20, metaVol: 418631.7, metaKm: 43.34, poblacion: 7645 },
 
   programadasDetalle: [
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Tiracoma', ficha: 'FTI N° 017-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LAVADERO Y AFLUENTE, EN EL SECTOR TIRACOMA, DISTRITO DE CABANA, PROVINCIA DE SAN ROMAN, DEPARTAMENTO DE PUNO   ', fechaInicio: '03/09/2026', fechaFin: '26/09/2026', metaVol: 26419.2, metaKm: 1.03, poblacion: 250 },
     { provincia: 'Huancane', distrito: 'Huancane', sector: 'Quishuarani Y Machacmarca', ficha: 'FTI N° 040-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO       ', fechaInicio: '07/09/2026', fechaFin: '21/09/2026', metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
-    { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Choquechambi Sector Balsapata - Muñani Chico', ficha: 'FTI N° 038-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO     ', fechaInicio: '09/09/2026', fechaFin: '23/09/2026', metaVol: 10224.9, metaKm: 4.87, poblacion: 540 },
     { provincia: 'Melgar', distrito: 'Llalli', sector: 'Kahuasiri Bajo', ficha: 'FTI N°004-2026-LDP-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO', fechaInicio: '10/09/2026', fechaFin: '24/09/2026', metaVol: 22500.0, metaKm: 0.63, poblacion: 300 },
     { provincia: 'El Collao', distrito: 'Pilcuyo', sector: 'Plas Ponco', ficha: 'FTI N° 034-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00    ', fechaInicio: '10/09/2026', fechaFin: '21/09/2026', metaVol: 4125.0, metaKm: 1.1, poblacion: 120 },
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Muñani Chico', ficha: 'FTI N° 037-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO       ', fechaInicio: '18/09/2026', fechaFin: '28/09/2026', metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },

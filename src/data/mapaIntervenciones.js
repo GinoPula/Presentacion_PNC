@@ -1579,6 +1579,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 9852,
+    "lat": -14.77975,
+    "lng": -69.923623,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Azangaro",
+    "distrito": "Muñani",
+    "sector": "Choquechambi Sector Balsapata - Muñani Chico",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CHOQUECHAMBI EN LA COMUNIDAD DE CHO-QUECHAMBI SECTOR BALSAPATA - MUÑANI CHICO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPARTAMENTO PUNO      ",
+    "ficha": "FTI N° 038-2026-LDP-PUN",
+    "fechaInicio": "29/08/2026",
+    "fechaFin": "05/09/2026",
+    "poblacion": 540,
+    "volumen": 10224.9,
+    "km": 4.869,
+    "enlace": null
+  },
+  {
     "id": 10501,
     "lat": -14.873536,
     "lng": -70.413228,
@@ -2188,7 +2206,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/10/2026",
     "poblacion": 550,
-    "volumen": 345,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -7510,8 +7528,8 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "28/09/2026",
     "poblacion": 1500,
-    "volumen": 3624,
-    "km": 0.151,
+    "volumen": 4344,
+    "km": 0.181,
     "enlace": null
   },
   {
@@ -7546,8 +7564,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 2500000,
-    "volumen": 11040.3,
-    "km": 0.083,
+    "volumen": 11809.8,
+    "km": 0.092,
     "enlace": null
   },
   {
@@ -7582,8 +7600,8 @@ const mapaIntervenciones = {
     "fechaInicio": "10/09/2026",
     "fechaFin": "24/09/2026",
     "poblacion": 1050,
-    "volumen": 2480,
-    "km": 0.124,
+    "volumen": 2800,
+    "km": 0.14,
     "enlace": null
   },
   {
@@ -7618,8 +7636,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/09/2026",
     "fechaFin": "23/09/2026",
     "poblacion": 5386,
-    "volumen": 1755.6,
-    "km": 0.154,
+    "volumen": 2929.8,
+    "km": 0.257,
     "enlace": null
   },
   {
