@@ -4966,7 +4966,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/08/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 3350,
-    "volumen": 308,
+    "volumen": 319,
     "km": 0,
     "enlace": null
   },
@@ -5074,8 +5074,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "31/10/2026",
     "poblacion": 4408,
-    "volumen": 13880,
-    "km": 0.136,
+    "volumen": 14480,
+    "km": 0.176,
     "enlace": null
   },
   {
