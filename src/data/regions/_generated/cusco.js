@@ -10,10 +10,10 @@ export default {
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
     { tipo: 'Emergencia', cantidad: 15, m3: 148654.0, km: 8.43, poblacion: 6380, provincias: ['Calca', 'Canchis', 'Chumbivilcas', 'La Convencion', 'Quispicanchi', 'Urubamba'] },
-    { tipo: 'Prevención', cantidad: 24, m3: 171352.0, km: 8.54, poblacion: 5246, provincias: ['Acomayo', 'Anta', 'Calca', 'Canchis', 'Quispicanchi', 'Urubamba'] },
+    { tipo: 'Prevención', cantidad: 24, m3: 174033.0, km: 8.54, poblacion: 5246, provincias: ['Acomayo', 'Anta', 'Calca', 'Canchis', 'Quispicanchi', 'Urubamba'] },
     { tipo: 'Urgente atención', cantidad: 3, m3: 4555.0, km: 0.98, poblacion: 2520, provincias: ['Canchis', 'Paucartambo', 'Quispicanchi'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 324561.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
+  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 327242.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
     { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 9750.0, kmAcum: 0.22, poblacion: 134 },
