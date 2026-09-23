@@ -10931,24 +10931,6 @@ const mapaIntervenciones = {
 ],
   cusco: [
   {
-    "id": 9765,
-    "lat": -12.852621,
-    "lng": -72.127013,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Calca",
-    "distrito": "Yanatile",
-    "sector": "Osccobamba",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO OSCCOBAMBA, EN EL SECTOR OSCCOBAMBA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+035 KM, DISTRITO DE YANATILE, PROVINCIA DE CALCA, REGIÓN CUSCO   ",
-    "ficha": "054-2025-LDP-CUS",
-    "fechaInicio": "31/12/2025",
-    "fechaFin": "09/01/2026",
-    "poblacion": 204,
-    "volumen": 735,
-    "km": 0.037,
-    "enlace": null
-  },
-  {
     "id": 9022,
     "lat": null,
     "lng": null,
@@ -10965,6 +10947,24 @@ const mapaIntervenciones = {
     "volumen": 14985,
     "km": 0.759,
     "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
+  },
+  {
+    "id": 9765,
+    "lat": -12.852621,
+    "lng": -72.127013,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Calca",
+    "distrito": "Yanatile",
+    "sector": "Osccobamba",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO OSCCOBAMBA, EN EL SECTOR OSCCOBAMBA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+035 KM, DISTRITO DE YANATILE, PROVINCIA DE CALCA, REGIÓN CUSCO   ",
+    "ficha": "054-2025-LDP-CUS",
+    "fechaInicio": "31/12/2025",
+    "fechaFin": "09/01/2026",
+    "poblacion": 204,
+    "volumen": 735,
+    "km": 0.037,
+    "enlace": null
   },
   {
     "id": 9832,
@@ -10985,24 +10985,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9878,
-    "lat": -13.450459,
-    "lng": -72.184074,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Anta",
-    "distrito": "Anta",
-    "sector": "Tres Reyes Cc Markju",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL CANAL PLUVIAL LADO DERECHO E IZQUIERDO DE VIA, DENTRO DEL SECTOR TRES REYES - COMUNIDAD CAMPESINA MARKJU, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 5+300 KM, DISTRITO DE ANTA, PROVINCIA DE ANTA, REGIÓN CUSCO     ",
-    "ficha": "008-2026-LD-E-CUS",
-    "fechaInicio": "11/02/2026",
-    "fechaFin": "02/03/2026",
-    "poblacion": 210,
-    "volumen": 3603,
-    "km": 5.331,
-    "enlace": null
-  },
-  {
     "id": 9873,
     "lat": -13.561884,
     "lng": -71.445749,
@@ -11018,6 +11000,24 @@ const mapaIntervenciones = {
     "poblacion": 120,
     "volumen": 9153,
     "km": 0.15,
+    "enlace": null
+  },
+  {
+    "id": 9878,
+    "lat": -13.450459,
+    "lng": -72.184074,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Anta",
+    "distrito": "Anta",
+    "sector": "Tres Reyes Cc Markju",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL CANAL PLUVIAL LADO DERECHO E IZQUIERDO DE VIA, DENTRO DEL SECTOR TRES REYES - COMUNIDAD CAMPESINA MARKJU, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 5+300 KM, DISTRITO DE ANTA, PROVINCIA DE ANTA, REGIÓN CUSCO     ",
+    "ficha": "008-2026-LD-E-CUS",
+    "fechaInicio": "11/02/2026",
+    "fechaFin": "02/03/2026",
+    "poblacion": 210,
+    "volumen": 3603,
+    "km": 5.331,
     "enlace": null
   },
   {
@@ -11137,7 +11137,7 @@ const mapaIntervenciones = {
     "provincia": "Canchis",
     "distrito": "Marangani",
     "sector": "Mamuera Licsapampa",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR MAMUERA LICSAPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+180 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO  ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR MAMUERA LICSAPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+180 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO   ",
     "ficha": "012-2026-LD-E-CUS",
     "fechaInicio": "28/04/2026",
     "fechaFin": "07/05/2026",
