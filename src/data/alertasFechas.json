@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/09/2026",
-    "horaCorte": "04:57",
+    "horaCorte": "05:27",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 79
+      "diasAtraso": 80
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 21
+      "diasAtraso": 22
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 19
+      "diasAtraso": 20
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 17
+      "diasAtraso": 18
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 15
+      "diasAtraso": 16
     },
     {
       "n": 6,
@@ -118,29 +118,10 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 7,
-      "idIntervencion": "9848",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "El Collao",
-      "distrito": "Pilcuyo",
-      "sector": "Plas Ponco",
-      "ficha": "FTI N° 034-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
-      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 12
-    },
-    {
-      "n": 8,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -156,7 +137,26 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
+    },
+    {
+      "n": 8,
+      "idIntervencion": "9848",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "El Collao",
+      "distrito": "Pilcuyo",
+      "sector": "Plas Ponco",
+      "ficha": "FTI N° 034-2026-LDP-PUN",
+      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
+      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "21/09/2026",
+      "diasAtraso": 13
     },
     {
       "n": 9,
@@ -175,29 +175,10 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "15/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 10,
-      "idIntervencion": "10262",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Andahuaylas",
-      "distrito": "Andarapa",
-      "sector": "C.p. Huampica/drenes",
-      "ficha": "FTI N° 042-2026-LDP-APU",
-      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
-      "marcoLegal": "CONVENIO N° 104-2025",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "01/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 11,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -213,7 +194,26 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10262",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 104-2025",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "01/10/2026",
+      "diasAtraso": 8
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
       "fechaInicio": "15/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 13,
@@ -251,29 +251,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 14,
-      "idIntervencion": "9851",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Azangaro",
-      "distrito": "Muñani",
-      "sector": "Muñani Chico",
-      "ficha": "FTI N° 037-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº069-2025",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "28/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 15,
       "idIntervencion": "10529",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -289,10 +270,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
       "fechaInicio": "18/09/2026",
       "fechaFin": "08/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -308,7 +289,26 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
+    },
+    {
+      "n": 16,
+      "idIntervencion": "9851",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Muñani",
+      "sector": "Muñani Chico",
+      "ficha": "FTI N° 037-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº069-2025",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "28/09/2026",
+      "diasAtraso": 5
     },
     {
       "n": 17,
@@ -327,7 +327,7 @@
       "marcoLegal": "CONVENIO Nº068-2024-ADENDA 01",
       "fechaInicio": "20/09/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 18,
@@ -346,48 +346,10 @@
       "marcoLegal": "CONVENIO Nº015-2024-ADENDA 01",
       "fechaInicio": "20/09/2026",
       "fechaFin": "10/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 19,
-      "idIntervencion": "10482",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Santiago De Chuco",
-      "distrito": "Quiruvilca",
-      "sector": "Pajillas",
-      "ficha": "070-2026-MTV-U-LIB",
-      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
-      "fechaInicio": "21/09/2026",
-      "fechaFin": "05/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 20,
-      "idIntervencion": "9582",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Tambo Grande",
-      "sector": "Dren Panamericano",
-      "ficha": "FTI Nº 006-2026-LD-PI-PIU",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACION DEL DREN PANAMERICANO DEL DISTRITO DE TAMBOGRANDE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA”-00",
-      "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
-      "fechaInicio": "21/09/2026",
-      "fechaFin": "05/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 21,
       "idIntervencion": "10434",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -403,10 +365,10 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 22,
+      "n": 20,
       "idIntervencion": "9583",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -422,6 +384,120 @@
       "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 21,
+      "idIntervencion": "9582",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Tambo Grande",
+      "sector": "Dren Panamericano",
+      "ficha": "FTI Nº 006-2026-LD-PI-PIU",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACION DEL DREN PANAMERICANO DEL DISTRITO DE TAMBOGRANDE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA”-00",
+      "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
+      "fechaInicio": "21/09/2026",
+      "fechaFin": "05/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 22,
+      "idIntervencion": "10482",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Santiago De Chuco",
+      "distrito": "Quiruvilca",
+      "sector": "Pajillas",
+      "ficha": "070-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
+      "fechaInicio": "21/09/2026",
+      "fechaFin": "05/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 23,
+      "idIntervencion": "10536",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Recuay",
+      "distrito": "Recuay",
+      "sector": "Uchipampa - Aconan",
+      "ficha": "122-2026-LDP-ANC",
+      "descripcion": "DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "06/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 24,
+      "idIntervencion": "10366",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "La Bocatoma De La Ptap Huachipa",
+      "ficha": "112-2026-LDP-LIM",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+650 KM AL 1+00 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "06/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 25,
+      "idIntervencion": "10413",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "La Union",
+      "distrito": "Alca",
+      "sector": "Quebrada Chococo",
+      "ficha": "72-2026-LDP-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHOCOCO, SECTOR CHOCOCO, DISTRITO DE ALCA, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.",
+      "marcoLegal": "ADENDA N° 1 AL CONVENIO N° 055-2025-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "01/09/2026",
+      "fechaFin": "22/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 26,
+      "idIntervencion": "10491",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pacasmayo",
+      "distrito": "San Pedro De Lloc",
+      "sector": "Puente San Jose",
+      "ficha": "073-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº027-2026",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "22/09/2026",
       "diasAtraso": 1
     }
   ]
