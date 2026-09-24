@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA  ', inicio: '09/09/2026', fin: '26/09/2026', volAcum: 2850.0, kmAcum: 2.38, poblacion: 212 },
     { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA   ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 1230.0, kmAcum: 1.18, poblacion: 347 },
-    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA   ', inicio: '23/09/2026', fin: '14/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 9200 },
+    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA   ', inicio: '23/09/2026', fin: '14/10/2026', volAcum: 400.0, kmAcum: 0.08, poblacion: 9200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
