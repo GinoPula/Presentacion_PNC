@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "04:46",
+    "horaCorte": "05:16",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 80
+      "diasAtraso": 81
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 22
+      "diasAtraso": 23
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "03/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 20
+      "diasAtraso": 21
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 18
+      "diasAtraso": 19
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "07/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 16
+      "diasAtraso": 17
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "10/09/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
       "fechaInicio": "10/09/2026",
       "fechaFin": "21/09/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
       "fechaInicio": "15/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
       "fechaInicio": "18/09/2026",
       "fechaFin": "08/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "18/09/2026",
       "fechaFin": "28/09/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 15,
@@ -289,7 +289,7 @@
       "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 16,
@@ -308,7 +308,7 @@
       "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
       "fechaInicio": "21/09/2026",
       "fechaFin": "05/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 17,
@@ -327,7 +327,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
       "fechaInicio": "21/09/2026",
       "fechaFin": "05/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 18,
@@ -346,6 +346,82 @@
       "marcoLegal": "CONVENIO Nº027-2026",
       "fechaInicio": "07/09/2026",
       "fechaFin": "22/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10289",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajabamba",
+      "distrito": "Cachachi",
+      "sector": "C.p. Cholocal",
+      "ficha": "FTI N° 055-2026-LD-PI-CAJ",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO II, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
+      "fechaInicio": "09/09/2026",
+      "fechaFin": "23/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 20,
+      "idIntervencion": "10372",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Los Olivos",
+      "sector": "Puente Milton A Bocatoma Chuquitanta Tramoi",
+      "ficha": "117-2026-LDP-LIM",
+      "descripcion": "“ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, SECTOR PUENTE MILTON A BOCATOMA CHUQUITANTA TRAMO I, DISTRITO DE LOS OLIVOS, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "CONVENIO N° 10-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "19/09/2026",
+      "fechaFin": "23/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10477",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio La Union – Sector El Filo",
+      "ficha": "N°067-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "23/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 22,
+      "idIntervencion": "10481",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Uchuy",
+      "ficha": "071-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
+      "fechaInicio": "09/09/2026",
+      "fechaFin": "23/09/2026",
       "diasAtraso": 1
     }
   ]
