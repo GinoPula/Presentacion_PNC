@@ -335,24 +335,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
-    "id": 10067,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "San Isidro",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "041-2026-AA-U-TUM",
-    "fechaInicio": "27/03/2026",
-    "fechaFin": "25/04/2026",
-    "poblacion": 1356,
-    "volumen": 630,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
-  },
-  {
     "id": 10066,
     "lat": -3.683657,
     "lng": -80.674445,
@@ -369,6 +351,24 @@ const mapaIntervenciones = {
     "volumen": 7650,
     "km": 1,
     "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
+  },
+  {
+    "id": 10067,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "San Isidro",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "041-2026-AA-U-TUM",
+    "fechaInicio": "27/03/2026",
+    "fechaFin": "25/04/2026",
+    "poblacion": 1356,
+    "volumen": 630,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
     "id": 10094,
@@ -515,24 +515,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1gGyVfuKtB5pCngInAqqnBtSuFh49ERm_/view?usp=drive_link"
   },
   {
-    "id": 10198,
-    "lat": -3.740645,
-    "lng": -80.768011,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Acapulco",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”      ",
-    "ficha": "053-2026-LD-PI-TUM",
-    "fechaInicio": "29/04/2026",
-    "fechaFin": "06/05/2026",
-    "poblacion": 1374,
-    "volumen": 600,
-    "km": 0.03,
-    "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
-  },
-  {
     "id": 10199,
     "lat": -3.649246,
     "lng": -80.614783,
@@ -549,6 +531,24 @@ const mapaIntervenciones = {
     "volumen": 180,
     "km": 0.02,
     "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
+  },
+  {
+    "id": 10198,
+    "lat": -3.740645,
+    "lng": -80.768011,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Acapulco",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”      ",
+    "ficha": "053-2026-LD-PI-TUM",
+    "fechaInicio": "29/04/2026",
+    "fechaFin": "06/05/2026",
+    "poblacion": 1374,
+    "volumen": 600,
+    "km": 0.03,
+    "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
   },
   {
     "id": 10210,
@@ -587,24 +587,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
-    "id": 10241,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
-    "ficha": "056-2026-AA-U-TUM",
-    "fechaInicio": "21/05/2026",
-    "fechaFin": "19/06/2026",
-    "poblacion": 1356,
-    "volumen": 555,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10028,
     "lat": -3.642346,
     "lng": -80.580154,
@@ -621,6 +603,24 @@ const mapaIntervenciones = {
     "volumen": 7840,
     "km": 1.4,
     "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
+  },
+  {
+    "id": 10241,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
+    "ficha": "056-2026-AA-U-TUM",
+    "fechaInicio": "21/05/2026",
+    "fechaFin": "19/06/2026",
+    "poblacion": 1356,
+    "volumen": 555,
+    "km": 0,
+    "enlace": null
   },
   {
     "id": 10169,
@@ -890,6 +890,24 @@ const mapaIntervenciones = {
     "poblacion": 5016,
     "volumen": 700,
     "km": 0.025,
+    "enlace": null
+  },
+  {
+    "id": 10521,
+    "lat": -3.80289,
+    "lng": -80.498518,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "San Jacinto",
+    "sector": "Vista Hermosa",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180 ",
+    "ficha": "074-2026-LD-E-TUM",
+    "fechaInicio": "24/09/2026",
+    "fechaFin": "08/10/2026",
+    "poblacion": 269,
+    "volumen": 4200,
+    "km": 0.3,
     "enlace": null
   }
 ],
