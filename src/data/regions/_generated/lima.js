@@ -105,7 +105,8 @@ export default {
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81474', '82541'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 9, marca: 'Mercedes Benz', codigos: ['EGV-768', 'EGV-825', 'EGV-811', 'EGV-843', 'EGV-775', 'EGV-832', 'EGV-815', 'EGV-840', 'EGV-794'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-784'], estado: 'inoperativo' },
-    { tipo: 'Volquete', cantidad: 9, marca: 'Scania', codigos: ['EGN-567', 'EGM-923', 'EGM-810', 'EGM-834', 'EGN-031', 'EGN-505', 'EGN-497', 'EGN-516', 'EGN-520'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 8, marca: 'Scania', codigos: ['EGN-567', 'EGM-923', 'EGM-834', 'EGN-031', 'EGN-505', 'EGN-497', 'EGN-516', 'EGN-520'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-810'], estado: 'inoperativo' },
   ],
   flotaTotal: 59,
 }
