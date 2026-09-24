@@ -5025,24 +5025,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1EH-QcBibHz5TCgR19T-UMy8fQuJiD2ca/view?usp=drive_link"
   },
   {
-    "id": 10417,
-    "lat": -5.920688,
-    "lng": -80.045951,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Lambayeque",
-    "distrito": "Olmos",
-    "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
-    "descripcion": " ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE ",
-    "ficha": "058-2026 -AA-U-LAM",
-    "fechaInicio": "12/08/2026",
-    "fechaFin": "10/10/2026",
-    "poblacion": 3350,
-    "volumen": 319,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 9148,
     "lat": -6.995732,
     "lng": -79.621993,
@@ -5058,6 +5040,24 @@ const mapaIntervenciones = {
     "poblacion": 950,
     "volumen": 9600,
     "km": 3,
+    "enlace": null
+  },
+  {
+    "id": 10417,
+    "lat": -5.920688,
+    "lng": -80.045951,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Lambayeque",
+    "distrito": "Olmos",
+    "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
+    "descripcion": " ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE  ",
+    "ficha": "058-2026 -AA-U-LAM",
+    "fechaInicio": "13/08/2026",
+    "fechaFin": "11/10/2026",
+    "poblacion": 3350,
+    "volumen": 319,
+    "km": 0,
     "enlace": null
   },
   {

@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "17:30",
+    "horaCorte": "18:00",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -642,8 +642,8 @@
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "ACUERDO DE CONCEJO N° 060-2026-MDO/CM",
       "descripcion": "ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE",
-      "fechaInicio": "12/08/2026",
-      "fechaFin": "10/10/2026",
+      "fechaInicio": "13/08/2026",
+      "fechaFin": "11/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EAA-171)"
       ]
