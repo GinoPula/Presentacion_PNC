@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "21:01",
+    "horaCorte": "21:32",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -680,7 +680,7 @@
       "marcoLegal": "ADENDA N°2 CONVENIO Nº 008-2024-VIVIENDA/VMVU/PNC",
       "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO II, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
       "fechaInicio": "10/09/2026",
-      "fechaFin": "30/09/2026",
+      "fechaFin": "02/10/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( A10912)",
         "VOLQUETE ( EGV-811)",

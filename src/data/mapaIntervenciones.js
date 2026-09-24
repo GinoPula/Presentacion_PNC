@@ -7667,10 +7667,10 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Chaclacayo",
     "sector": "Cusipata",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO II, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.     ",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO II, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.      ",
     "ficha": "118-2026-LDP-LIM",
     "fechaInicio": "10/09/2026",
-    "fechaFin": "30/09/2026",
+    "fechaFin": "02/10/2026",
     "poblacion": 1050,
     "volumen": 3120,
     "km": 0.156,
@@ -12462,8 +12462,8 @@ const mapaIntervenciones = {
     "fechaInicio": "26/08/2026",
     "fechaFin": "24/09/2026",
     "poblacion": 1330,
-    "volumen": 4975,
-    "km": 2.436,
+    "volumen": 5050,
+    "km": 2.536,
     "enlace": null
   },
   {
@@ -12480,8 +12480,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 360,
-    "volumen": 12240,
-    "km": 4.66,
+    "volumen": 12720,
+    "km": 4.76,
     "enlace": null
   },
   {
@@ -12498,8 +12498,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "01/10/2026",
     "poblacion": 336,
-    "volumen": 10465,
-    "km": 3.28,
+    "volumen": 11395,
+    "km": 3.46,
     "enlace": null
   },
   {
@@ -12516,8 +12516,8 @@ const mapaIntervenciones = {
     "fechaInicio": "04/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 595,
-    "volumen": 10220,
-    "km": 4.29,
+    "volumen": 10980,
+    "km": 4.69,
     "enlace": null
   }
 ],

@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "21:01",
+    "horaCorte": "21:32",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -46,25 +46,6 @@
     },
     {
       "n": 3,
-      "idIntervencion": "7640",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "San Roman",
-      "distrito": "Cabana",
-      "sector": "Tiracoma",
-      "ficha": "FTI N° 017-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LAVADERO Y AFLUENTE, EN EL SECTOR TIRACOMA, DISTRITO DE CABANA, PROVINCIA DE SAN ROMAN, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
-      "fechaInicio": "03/09/2026",
-      "fechaFin": "26/09/2026",
-      "diasAtraso": 21
-    },
-    {
-      "n": 4,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -83,83 +64,7 @@
       "diasAtraso": 19
     },
     {
-      "n": 5,
-      "idIntervencion": "9854",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Huancane",
-      "distrito": "Huancane",
-      "sector": "Quishuarani Y Machacmarca",
-      "ficha": "FTI N° 040-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 17
-    },
-    {
-      "n": 6,
-      "idIntervencion": "9553",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Melgar",
-      "distrito": "Llalli",
-      "sector": "Kahuasiri Bajo",
-      "ficha": "FTI N°004-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº004-2026",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "24/09/2026",
-      "diasAtraso": 14
-    },
-    {
-      "n": 7,
-      "idIntervencion": "9848",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "El Collao",
-      "distrito": "Pilcuyo",
-      "sector": "Plas Ponco",
-      "ficha": "FTI N° 034-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD EN EL MARGEN DERECHO DEL CAUCE DEL RIO ILAVE, SECTOR PLAS PONCO, DISTRITO DE PILCUYO, PROVINCIA EL COLLAO, REGION PUNO-00",
-      "marcoLegal": "CONVENIO Nº029-2025-ADENDA 01",
-      "fechaInicio": "10/09/2026",
-      "fechaFin": "21/09/2026",
-      "diasAtraso": 14
-    },
-    {
-      "n": 8,
-      "idIntervencion": "9663",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Chanchamayo",
-      "distrito": "Chanchamayo",
-      "sector": "Zona Urbana",
-      "ficha": "002-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "15/09/2026",
-      "fechaFin": "29/09/2026",
-      "diasAtraso": 9
-    },
-    {
-      "n": 9,
+      "n": 4,
       "idIntervencion": "10547",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -178,7 +83,26 @@
       "diasAtraso": 9
     },
     {
-      "n": 10,
+      "n": 5,
+      "idIntervencion": "9663",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Chanchamayo",
+      "distrito": "Chanchamayo",
+      "sector": "Zona Urbana",
+      "ficha": "002-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "29/09/2026",
+      "diasAtraso": 9
+    },
+    {
+      "n": 6,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +121,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 11,
+      "n": 7,
       "idIntervencion": "10529",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +140,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 12,
+      "n": 8,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,26 +159,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 13,
-      "idIntervencion": "9851",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Azangaro",
-      "distrito": "Muñani",
-      "sector": "Muñani Chico",
-      "ficha": "FTI N° 037-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº069-2025",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "28/09/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 14,
+      "n": 9,
       "idIntervencion": "10434",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 15,
+      "n": 10,
       "idIntervencion": "9583",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 16,
+      "n": 11,
       "idIntervencion": "9582",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +216,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 17,
+      "n": 12,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +235,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 18,
+      "n": 13,
       "idIntervencion": "10491",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -349,7 +254,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 19,
+      "n": 14,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -368,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 15,
       "idIntervencion": "10481",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
