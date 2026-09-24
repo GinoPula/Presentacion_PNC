@@ -3288,8 +3288,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/09/2026",
     "fechaFin": "26/09/2026",
     "poblacion": 212,
-    "volumen": 2850,
-    "km": 2.38,
+    "volumen": 3250,
+    "km": 2.68,
     "enlace": null
   },
   {
@@ -3324,8 +3324,8 @@ const mapaIntervenciones = {
     "fechaInicio": "15/09/2026",
     "fechaFin": "29/09/2026",
     "poblacion": 347,
-    "volumen": 1230,
-    "km": 1.18,
+    "volumen": 1480,
+    "km": 1.53,
     "enlace": null
   },
   {
@@ -7569,6 +7569,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10460,
+    "lat": -12.026761,
+    "lng": -76.800876,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Ate",
+    "sector": "Asoc. Los Jardines",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”       ",
+    "ficha": "122-2026-LDP-LIM",
+    "fechaInicio": "31/08/2026",
+    "fechaFin": "14/09/2026",
+    "poblacion": 2600,
+    "volumen": 2070,
+    "km": 0.138,
+    "enlace": null
+  },
+  {
     "id": 10470,
     "lat": -12.143081,
     "lng": -76.818925,
@@ -7708,8 +7726,8 @@ const mapaIntervenciones = {
     "fechaInicio": "21/09/2026",
     "fechaFin": "05/10/2026",
     "poblacion": 98,
-    "volumen": 0,
-    "km": 0,
+    "volumen": 1483.5,
+    "km": 0.023,
     "enlace": null
   }
 ],
@@ -9542,15 +9560,15 @@ const mapaIntervenciones = {
     "id": 7690,
     "lat": -13.298987,
     "lng": -74.338736,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchacchuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                         ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                           ",
     "ficha": "04-2026-LD-PI-AYAC",
     "fechaInicio": "21/09/2026",
-    "fechaFin": "25/09/2026",
+    "fechaFin": "23/09/2026",
     "poblacion": 78,
     "volumen": 1170,
     "km": 0.195,

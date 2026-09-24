@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 59152.0, km: 2.5, poblacion: 6828, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 35414.44, km: 4.66, poblacion: 10016, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
+    { tipo: 'Prevención', cantidad: 16, m3: 36584.44, km: 4.85, poblacion: 10094, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
-  ejecutadasTotal: { cantidad: 23, m3: 94566.44, m3AguaPotable: 0.0, km: 7.16, poblacion: 16844 },
+  ejecutadasTotal: { cantidad: 24, m3: 95736.44, m3AguaPotable: 0.0, km: 7.35, poblacion: 16922 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                         ', inicio: '21/09/2026', fin: '25/09/2026', volAcum: 1170.0, kmAcum: 0.2, poblacion: 78 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
