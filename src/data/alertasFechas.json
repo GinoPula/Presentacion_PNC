@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "22:33",
+    "horaCorte": "23:04",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -122,25 +122,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10529",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "San Andres De Cutervo",
-      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
-      "ficha": "N°070-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
-      "fechaInicio": "18/09/2026",
-      "fechaFin": "08/10/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 8,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -159,7 +140,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "10434",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -178,7 +159,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "9583",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9582",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,7 +216,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10491",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +235,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10481",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

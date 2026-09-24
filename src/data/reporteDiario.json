@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/09/2026",
-    "horaCorte": "22:33",
+    "horaCorte": "23:04",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -84,10 +84,10 @@
       "fechaInicio": "22/09/2026",
       "fechaFin": "06/10/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10879)",
+        "REMOLCADOR ( EGN-071)",
         "CAMIONETA ( EAJ-733)",
         "PLATAFORMA (CAMA BAJA) ( EGO-601)",
-        "REMOLCADOR ( EGN-071)"
+        "EXCAVADORA HIDRAULICA ( A10879)"
       ]
     },
     {
@@ -105,9 +105,9 @@
       "fechaInicio": "19/09/2026",
       "fechaFin": "25/09/2026",
       "maquinaria": [
-        "REMOLCADOR ( EAJ-560)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
         "EXCAVADORA HIDRAULICA ( D523228)",
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)"
+        "REMOLCADOR ( EAJ-560)"
       ]
     },
     {
@@ -125,8 +125,8 @@
       "fechaInicio": "18/09/2026",
       "fechaFin": "17/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EGM-015)",
-        "CAMION CISTERNA DE AGUA ( EGN-005)"
+        "CAMION CISTERNA DE AGUA ( EGN-005)",
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -163,8 +163,8 @@
       "fechaInicio": "11/09/2026",
       "fechaFin": "10/10/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
-        "CAMIONETA ( EGM-015)"
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-980)"
       ]
     },
     {
@@ -182,11 +182,11 @@
       "fechaInicio": "21/09/2026",
       "fechaFin": "20/10/2026",
       "maquinaria": [
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGM-774)",
         "CAMIONETA ( EGM-015)",
         "EXCAVADORA HIDRAULICA ( A10856)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "REMOLCADOR ( EGM-982)",
-        "VOLQUETE ( EGM-774)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
       ]
     },
     {
@@ -268,28 +268,28 @@
       "fechaInicio": "09/09/2026",
       "fechaFin": "06/10/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( M5K00334)",
         "MOTONIVELADORA ( SZL03379)",
-        "VOLQUETE ( EGM-788)",
         "VOLQUETE ( EGV-810)",
-        "CARGADOR FRONTAL ( M5K00334)"
+        "VOLQUETE ( EGM-788)"
       ]
     },
     {
       "n": 14,
-      "idIntervencion": "10319",
+      "idIntervencion": "10529",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
       "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
+      "provincia": "Cutervo",
+      "distrito": "San Andres De Cutervo",
+      "sector": "C.p. Chorro Blanco Y Cp. El Paraiso",
       "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "23/06/2026",
-      "fechaFin": "25/09/2026",
+      "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”",
+      "fechaInicio": "18/09/2026",
+      "fechaFin": "08/10/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
+        "MOTONIVELADORA ( SZL03378)"
       ]
     },
     {
@@ -307,15 +307,33 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "23/09/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-774)",
         "RODILLO COMPACTADOR ( H1762462)",
         "CARGADOR FRONTAL ( JLX00219)",
         "VOLQUETE ( EGV-848)",
-        "VOLQUETE ( EGV-835)",
-        "VOLQUETE ( EGV-774)"
+        "VOLQUETE ( EGV-835)"
       ]
     },
     {
       "n": 16,
+      "idIntervencion": "10319",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "23/06/2026",
+      "fechaFin": "25/09/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
+      ]
+    },
+    {
+      "n": 17,
       "idIntervencion": "10554",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -333,7 +351,7 @@
       ]
     },
     {
-      "n": 17,
+      "n": 18,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -352,7 +370,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 19,
       "idIntervencion": "10326",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -371,7 +389,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "10443",
       "departamento": "CUSCO",
       "deptoLabel": "Cusco",
@@ -390,28 +408,6 @@
       ]
     },
     {
-      "n": 20,
-      "idIntervencion": "10511",
-      "departamento": "CUSCO",
-      "deptoLabel": "Cusco",
-      "regionId": "cusco",
-      "provincia": "Canas",
-      "distrito": "Pampamarca",
-      "sector": "Ornoccacca - Laguna",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº056-2025-ADENDA 01",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "24/09/2026",
-      "maquinaria": [
-        "VOLQUETE ( EGM-821)",
-        "CAMIONETA ( EGM-019)",
-        "REMOLCADOR ( EGN-096)",
-        "CARGADOR FRONTAL ( JLX00268)",
-        "RETROEXCAVADORA ( 286605)"
-      ]
-    },
-    {
       "n": 21,
       "idIntervencion": "10553",
       "departamento": "HUANUCO",
@@ -426,8 +422,8 @@
       "fechaInicio": "21/09/2026",
       "fechaFin": "05/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-984)",
-        "VOLQUETE ( EGM-820)"
+        "VOLQUETE ( EGM-820)",
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
@@ -547,9 +543,9 @@
       "fechaInicio": "07/09/2026",
       "fechaFin": "22/09/2026",
       "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( AE800573)",
         "REMOLCADOR ( EAJ-379)",
-        "EXCAVADORA HIDRAULICA ( TJT10075)",
-        "TRACTOR SOBRE ORUGA ( AE800573)"
+        "EXCAVADORA HIDRAULICA ( TJT10075)"
       ]
     },
     {
@@ -761,8 +757,8 @@
       "fechaInicio": "08/09/2026",
       "fechaFin": "30/09/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-520)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-520)"
       ]
     },
     {
@@ -816,8 +812,8 @@
       "fechaInicio": "09/09/2026",
       "fechaFin": "26/09/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00828)",
-        "VOLQUETE ( EGV-770)"
+        "VOLQUETE ( EGV-770)",
+        "CARGADOR FRONTAL ( JLX00828)"
       ]
     },
     {
@@ -835,10 +831,10 @@
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
       "maquinaria": [
-        "MOTONIVELADORA ( SZL03374)",
         "VOLQUETE ( EGV-807)",
-        "VOLQUETE ( EGV-809)",
-        "CARGADOR FRONTAL ( D001578)"
+        "MOTONIVELADORA ( SZL03374)",
+        "CARGADOR FRONTAL ( D001578)",
+        "VOLQUETE ( EGV-809)"
       ]
     },
     {
@@ -856,10 +852,10 @@
       "fechaInicio": "23/09/2026",
       "fechaFin": "14/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-822)",
-        "EXCAVADORA HIDRAULICA ( TJT10095)",
         "CARGADOR FRONTAL ( JLX00829)",
-        "VOLQUETE ( EGV-769)"
+        "EXCAVADORA HIDRAULICA ( TJT10095)",
+        "VOLQUETE ( EGV-769)",
+        "VOLQUETE ( EGV-822)"
       ]
     },
     {
@@ -877,11 +873,11 @@
       "fechaInicio": "19/09/2026",
       "fechaFin": "03/10/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762473)",
+        "MOTONIVELADORA ( SZL03375)",
         "VOLQUETE ( EGM-791)",
+        "RODILLO COMPACTADOR ( H1762473)",
         "REMOLCADOR ( EGO-032)",
-        "CAMIONETA ( EGO-047)",
-        "MOTONIVELADORA ( SZL03375)"
+        "CAMIONETA ( EGO-047)"
       ]
     },
     {
@@ -979,25 +975,6 @@
     },
     {
       "n": 50,
-      "idIntervencion": "10493",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "04/11/2026",
-      "maquinaria": [
-        "CAMIONETA ( EGM-052)",
-        "CAMION CISTERNA DE AGUA ( EGM-976)"
-      ]
-    },
-    {
-      "n": 51,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1016,6 +993,25 @@
       ]
     },
     {
+      "n": 51,
+      "idIntervencion": "10493",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "04/11/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-052)",
+        "CAMION CISTERNA DE AGUA ( EGM-976)"
+      ]
+    },
+    {
       "n": 52,
       "idIntervencion": "10521",
       "departamento": "TUMBES",
@@ -1030,9 +1026,9 @@
       "fechaInicio": "24/09/2026",
       "fechaFin": "08/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-779)",
-        "CAMIONETA ( EGM-052)",
         "REMOLCADOR ( EAJ-355)",
+        "CAMIONETA ( EGM-052)",
+        "VOLQUETE ( EGV-779)",
         "VOLQUETE ( EGV-838)",
         "VOLQUETE ( EGV-839)",
         "EXCAVADORA HIDRAULICA ( TJT10112)",
