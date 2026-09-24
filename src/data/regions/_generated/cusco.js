@@ -16,8 +16,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 327242.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 9750.0, kmAcum: 0.22, poblacion: 134 },
-    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ', inicio: '11/09/2026', fin: '24/09/2026', volAcum: 2975.0, kmAcum: 0.76, poblacion: 280 },
+    { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 10460.0, kmAcum: 0.23, poblacion: 134 },
+    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO ', inicio: '11/09/2026', fin: '24/09/2026', volAcum: 3385.0, kmAcum: 0.86, poblacion: 280 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
