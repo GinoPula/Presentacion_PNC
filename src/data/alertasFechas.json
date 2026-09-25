@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/09/2026",
-    "horaCorte": "21:23",
+    "horaCorte": "21:53",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -160,44 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "9583",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Tambo Grande",
-      "sector": "Dren Froilan Alama",
-      "ficha": "FTI N° 007-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN FROILAN ALAMA, DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA\" -00",
-      "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
-      "fechaInicio": "21/09/2026",
-      "fechaFin": "04/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 10,
-      "idIntervencion": "9582",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Tambo Grande",
-      "sector": "Dren Panamericano",
-      "ficha": "FTI Nº 006-2026-LD-PI-PIU",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACION DEL DREN PANAMERICANO DEL DISTRITO DE TAMBOGRANDE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA”-00",
-      "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
-      "fechaInicio": "21/09/2026",
-      "fechaFin": "05/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 11,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +178,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 12,
+      "n": 10,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,26 +197,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 13,
-      "idIntervencion": "10432",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "LAMBAYEQUE",
-      "deptoLabel": "Lambayeque",
-      "regionId": "lambayeque",
-      "provincia": "Chiclayo",
-      "distrito": "Chongoyape",
-      "sector": "Cuculi",
-      "ficha": "060-2026 -LD-E-LAM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \" DS180",
-      "marcoLegal": "DECRETO SUPREMO N° 124-2026 - PCM",
-      "fechaInicio": "24/09/2026",
-      "fechaFin": "14/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
+      "n": 11,
       "idIntervencion": "10448",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -270,6 +213,25 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "26/08/2026",
       "fechaFin": "24/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 12,
+      "idIntervencion": "10432",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Chongoyape",
+      "sector": "Cuculi",
+      "ficha": "060-2026 -LD-E-LAM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \" DS180",
+      "marcoLegal": "DECRETO SUPREMO N° 124-2026 - PCM",
+      "fechaInicio": "24/09/2026",
+      "fechaFin": "14/10/2026",
       "diasAtraso": 1
     }
   ]
