@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 327242.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 10460.0, kmAcum: 0.23, poblacion: 134 },
+    { provincia: 'Calca', distrito: 'Calca', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ', inicio: '07/09/2026', fin: '26/09/2026', volAcum: 11280.0, kmAcum: 0.25, poblacion: 134 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
