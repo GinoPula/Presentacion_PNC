@@ -2,12 +2,31 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/09/2026",
-    "horaCorte": "14:45",
+    "horaCorte": "15:15",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
+      "idIntervencion": "10561",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Canta",
+      "distrito": "Santa Rosa De Quives",
+      "sector": "Macas – Quebrada Socos",
+      "ficha": "133-2026-LDP-LIM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA SOCOS, SECTOR MACAS-TRAMO I, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA",
+      "marcoLegal": "CONVENIO N°04-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "29/09/2025",
+      "fechaFin": "13/10/2025",
+      "diasAtraso": 361
+    },
+    {
+      "n": 2,
       "idIntervencion": "9828",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -26,7 +45,7 @@
       "diasAtraso": 82
     },
     {
-      "n": 2,
+      "n": 3,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -45,7 +64,7 @@
       "diasAtraso": 24
     },
     {
-      "n": 3,
+      "n": 4,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -64,7 +83,7 @@
       "diasAtraso": 20
     },
     {
-      "n": 4,
+      "n": 5,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -83,7 +102,7 @@
       "diasAtraso": 10
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +121,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 6,
+      "n": 7,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -121,7 +140,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 7,
+      "n": 8,
       "idIntervencion": "10434",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -140,7 +159,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 8,
+      "n": 9,
       "idIntervencion": "9583",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -159,7 +178,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "9582",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -178,7 +197,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -197,7 +216,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 11,
+      "n": 12,
       "idIntervencion": "10477",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +235,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 12,
+      "n": 13,
       "idIntervencion": "10432",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 14,
       "idIntervencion": "10448",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
