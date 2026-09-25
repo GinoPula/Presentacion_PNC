@@ -20,7 +20,7 @@ export default {
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ', inicio: '07/09/2026', fin: '04/11/2026', volAcum: 210.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 300.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 3700.0, kmAcum: 0.29, poblacion: 5016 },
-    { provincia: 'Tumbes', distrito: 'San Jacinto', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180 ', inicio: '24/09/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 269 },
+    { provincia: 'Tumbes', distrito: 'San Jacinto', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180  ', inicio: '25/09/2026', fin: '09/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 269 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
