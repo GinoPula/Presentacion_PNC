@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/09/2026",
-    "horaCorte": "04:36",
+    "horaCorte": "05:07",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 81
+      "diasAtraso": 82
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 23
+      "diasAtraso": 24
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 19
+      "diasAtraso": 20
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
       "fechaInicio": "15/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "21/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
       "fechaInicio": "21/09/2026",
       "fechaFin": "05/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
       "fechaInicio": "21/09/2026",
       "fechaFin": "05/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 12,
@@ -232,29 +232,10 @@
       "marcoLegal": "CONVENIO Nº027-2026",
       "fechaInicio": "07/09/2026",
       "fechaFin": "22/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 13,
-      "idIntervencion": "10477",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio La Union – Sector El Filo",
-      "ficha": "N°067-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "fechaInicio": "02/09/2026",
-      "fechaFin": "23/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
       "idIntervencion": "10481",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -270,6 +251,120 @@
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
       "fechaInicio": "09/09/2026",
       "fechaFin": "23/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10477",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio La Union – Sector El Filo",
+      "ficha": "N°067-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "02/09/2026",
+      "fechaFin": "23/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10448",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Satipo",
+      "distrito": "Rio Tambo",
+      "sector": "Zona Urbana",
+      "ficha": "067-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "26/08/2026",
+      "fechaFin": "24/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10532",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Bello Horizonte",
+      "ficha": "134-2026-LDE-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".",
+      "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
+      "fechaInicio": "24/09/2026",
+      "fechaFin": "15/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10483",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "Pishauli",
+      "ficha": "072-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "24/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10432",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Chongoyape",
+      "sector": "Cuculi",
+      "ficha": "060-2026 -LD-E-LAM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \" DS180",
+      "marcoLegal": "DECRETO SUPREMO N° 124-2026 - PCM",
+      "fechaInicio": "24/09/2026",
+      "fechaFin": "14/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10445",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Picota",
+      "distrito": "San Hilarion",
+      "sector": "San Hilarión",
+      "ficha": "038-2026-LD-PI-SAM",
+      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "CONVENIO N° 20-2025-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "08/09/2026",
+      "fechaFin": "24/09/2026",
       "diasAtraso": 1
     }
   ]
