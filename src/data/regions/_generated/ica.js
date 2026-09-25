@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA       ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 2700.0, kmAcum: 0.1, poblacion: 470 },
+    { provincia: 'Nasca', distrito: 'Nasca', tipo: 'Prevención', descripcion: 'DESCOLMATACION Y ENCAUZAMIENTO DEL CAUCE DEL RIO AJA SECTOR SAN MAURICIO TRAMO I, DISTRITO DE NASCA, PROVINCIA DE NASCA – REGION ICA       ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 4300.0, kmAcum: 0.16, poblacion: 470 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
