@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/09/2026",
-    "horaCorte": "16:47",
+    "horaCorte": "17:18",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -226,8 +226,8 @@
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO N°039 -2026-VIVIENDA/VMVU/PNC",
       "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.",
-      "fechaInicio": "26/09/2026",
-      "fechaFin": "10/10/2026",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "09/10/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10125)"
       ]
