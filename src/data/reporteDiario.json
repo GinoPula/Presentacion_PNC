@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/09/2026",
-    "horaCorte": "18:50",
+    "horaCorte": "19:20",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -150,8 +150,8 @@
       "fechaInicio": "18/09/2026",
       "fechaFin": "17/10/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-005)",
-        "CAMIONETA ( EGM-015)"
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-005)"
       ]
     },
     {
@@ -889,9 +889,9 @@
       "fechaInicio": "23/09/2026",
       "fechaFin": "14/10/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-769)",
         "EXCAVADORA HIDRAULICA ( TJT10095)",
         "CARGADOR FRONTAL ( JLX00829)",
-        "VOLQUETE ( EGV-769)",
         "VOLQUETE ( EGV-822)"
       ]
     },
@@ -912,9 +912,9 @@
       "maquinaria": [
         "MOTONIVELADORA ( SZL03375)",
         "REMOLCADOR ( EGO-032)",
+        "CAMIONETA ( EGO-047)",
         "VOLQUETE ( EGM-791)",
-        "RODILLO COMPACTADOR ( H1762473)",
-        "CAMIONETA ( EGO-047)"
+        "RODILLO COMPACTADOR ( H1762473)"
       ]
     },
     {
@@ -1063,13 +1063,14 @@
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( D001613)",
         "EXCAVADORA HIDRAULICA ( TJT10112)",
         "VOLQUETE ( EGV-839)",
         "VOLQUETE ( EGV-838)",
         "VOLQUETE ( EGV-779)",
+        "RETROEXCAVADORA ( 285283)",
         "REMOLCADOR ( EAJ-355)",
-        "CAMIONETA ( EGM-052)",
-        "CARGADOR FRONTAL ( D001613)"
+        "CAMIONETA ( EGM-052)"
       ]
     },
     {

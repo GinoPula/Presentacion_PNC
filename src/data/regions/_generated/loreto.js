@@ -41,7 +41,7 @@ export default {
     { tipo: 'Camión cisterna de agua', cantidad: 2, marca: 'Hino', codigos: ['EGQ-789', 'EGO-773'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGL-968'], estado: 'inoperativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00249'], estado: 'operativo' },
-    { tipo: 'Mini cargador', cantidad: 1, marca: 'Caterpillar', codigos: ['LMST05745'], estado: 'operativo' },
+    { tipo: 'Mini cargador', cantidad: 1, marca: 'Caterpillar', codigos: ['LMST05745'], estado: 'inoperativo' },
     { tipo: 'Plataforma', cantidad: 1, marca: 'ACS', codigos: ['EGR-069'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['284005'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Hino', codigos: ['EGP-009'], estado: 'operativo' },
