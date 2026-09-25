@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Huanuco', distrito: 'Pillco Marca', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA LINDERO, DE LA PROG. 0+000 A LA PROG. 1+130, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO". ', inicio: '21/09/2026', fin: '05/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 250 },
+    { provincia: 'Huanuco', distrito: 'Pillco Marca', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA LINDERO, DE LA PROG. 0+000 A LA PROG. 1+130, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO". ', inicio: '21/09/2026', fin: '05/10/2026', volAcum: 1525.0, kmAcum: 0.51, poblacion: 250 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

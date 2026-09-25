@@ -16,26 +16,26 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN       ', inicio: '31/07/2026', fin: '25/09/2026', volAcum: 885.0, kmAcum: 1.77, poblacion: 550 },
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN               ', inicio: '08/09/2026', fin: '24/09/2026', volAcum: 1810.0, kmAcum: 0.18, poblacion: 500 },
+    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN        ', inicio: '31/07/2026', fin: '30/09/2026', volAcum: 1035.0, kmAcum: 1.84, poblacion: 550 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                ', inicio: '08/09/2026', fin: '30/09/2026', volAcum: 1810.0, kmAcum: 0.18, poblacion: 500 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN      ', inicio: '15/09/2026', fin: '14/10/2026', volAcum: 375.0, kmAcum: 0.0, poblacion: 1125 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Bellavista', distrito: 'San Pablo', cantidad: 1, metaVol: 2800.0, metaKm: 1.9, poblacion: 650 },
-    { provincia: 'Picota', distrito: 'San Hilarion', cantidad: 2, metaVol: 5300.0, metaKm: 0.48, poblacion: 800 },
+    { provincia: 'Picota', distrito: 'San Hilarion', cantidad: 2, metaVol: 5300.0, metaKm: 0.5, poblacion: 800 },
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', cantidad: 2, metaVol: 12100.0, metaKm: 0.55, poblacion: 2050 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', cantidad: 3, metaVol: 3510.0, metaKm: 0.0, poblacion: 3375 },
     { provincia: 'Rioja', distrito: 'Yuracyacu', cantidad: 1, metaVol: 8700.0, metaKm: 0.7, poblacion: 750 },
   ],
-  programadasTotal: { cantidad: 9, metaVol: 32410.0, metaKm: 3.63, poblacion: 7625 },
+  programadasTotal: { cantidad: 9, metaVol: 32410.0, metaKm: 3.65, poblacion: 7625 },
 
   programadasDetalle: [
-    { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '041-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN ', fechaInicio: '15/09/2026', fechaFin: '26/09/2026', metaVol: 2500.0, metaKm: 0.23, poblacion: 400 },
     { provincia: 'Bellavista', distrito: 'San Pablo', sector: 'Fausa Lamista', ficha: '039-2026-MTV-U-SAM', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE FAUSA LAMISTA, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN', fechaInicio: '30/09/2026', fechaFin: '14/10/2026', metaVol: 2800.0, metaKm: 1.9, poblacion: 650 },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '008-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN   ', fechaInicio: '09/10/2026', fechaFin: '07/11/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },
+    { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '041-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN  ', fechaInicio: '05/10/2026', fechaFin: '18/10/2026', metaVol: 2500.0, metaKm: 0.25, poblacion: 400 },
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', sector: 'Nueva Cajamarca', ficha: '020-2026-LD-PI-SAM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE MATERIAL ALUVIONICO, DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+200 KM RIO YURACYACU TRAMO I, DISTRITO DE NUEVA CAJAMARCA, PROVINCIA DE RIOJA, REGION SAN MARTÍN               ', fechaInicio: '14/10/2026', fechaFin: '28/10/2026', metaVol: 5800.0, metaKm: 0.2, poblacion: 850 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '008-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN    ', fechaInicio: '19/10/2026', fechaFin: '17/11/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },
     { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '042-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO III, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN', fechaInicio: '09/11/2026', fechaFin: '20/11/2026', metaVol: 2800.0, metaKm: 0.25, poblacion: 400 },
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', sector: 'Nueva Cajamarca', ficha: '027-2026-LD-PI-SAM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL ALUVIÓNICO DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+350 KM RÍO YURACYACU TRAMO II, DISTRITO DE NUEVA CAJAMARCA, PROVINCIA DE RIOJA,  REGIÓN SAN MARTÍN        ', fechaInicio: '16/11/2026', fechaFin: '29/11/2026', metaVol: 6300.0, metaKm: 0.35, poblacion: 1200 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '009-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN', fechaInicio: '16/11/2026', fechaFin: '15/12/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },

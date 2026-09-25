@@ -10994,8 +10994,8 @@ const mapaIntervenciones = {
     "fechaInicio": "15/09/2026",
     "fechaFin": "29/09/2026",
     "poblacion": 125,
-    "volumen": 3590,
-    "km": 0.29,
+    "volumen": 4190,
+    "km": 0.35,
     "enlace": null
   },
   {
@@ -11884,8 +11884,8 @@ const mapaIntervenciones = {
     "fechaInicio": "21/09/2026",
     "fechaFin": "05/10/2026",
     "poblacion": 250,
-    "volumen": 3436.77,
-    "km": 1.133,
+    "volumen": 1525,
+    "km": 0.51,
     "enlace": null
   }
 ],
@@ -13277,13 +13277,13 @@ const mapaIntervenciones = {
     "provincia": "San Martin",
     "distrito": "El Porvenir",
     "sector": "Pelejo",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN       ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN        ",
     "ficha": "036-2026-MTV-U-SAM ",
     "fechaInicio": "31/07/2026",
-    "fechaFin": "25/09/2026",
+    "fechaFin": "30/09/2026",
     "poblacion": 550,
-    "volumen": 885,
-    "km": 1.77,
+    "volumen": 1035,
+    "km": 1.845,
     "enlace": null
   },
   {
@@ -13349,10 +13349,10 @@ const mapaIntervenciones = {
     "provincia": "Picota",
     "distrito": "San Hilarion",
     "sector": "San Hilarión",
-    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN               ",
+    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                ",
     "ficha": "038-2026-LD-PI-SAM",
     "fechaInicio": "08/09/2026",
-    "fechaFin": "24/09/2026",
+    "fechaFin": "30/09/2026",
     "poblacion": 500,
     "volumen": 1810,
     "km": 0.181,
