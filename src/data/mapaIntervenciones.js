@@ -9341,24 +9341,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
-    "id": 9705,
-    "lat": -13.188399,
-    "lng": -74.21163,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huamanga",
-    "distrito": "San Juan Bautista",
-    "sector": "Chaquihuaycco",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUIHUAYCCO(TRAMO II) EN EL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE HUAMANGA, REGION AYACUCHO                 ",
-    "ficha": "15-2026- LD-PI-AYAC",
-    "fechaInicio": "11/03/2026",
-    "fechaFin": "20/03/2026",
-    "poblacion": 1200,
-    "volumen": 2232,
-    "km": 0.62,
-    "enlace": "https://drive.usercontent.google.com/download?id=1nBnvjtDabrEN-X0EbGr130KdH-NonKGQ&authuser=0&acrobatPromotionSource=gdrive_chrome-list"
-  },
-  {
     "id": 10007,
     "lat": -12.625635,
     "lng": -73.78998,
@@ -9375,6 +9357,24 @@ const mapaIntervenciones = {
     "volumen": 12710,
     "km": 0.29,
     "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB "
+  },
+  {
+    "id": 9705,
+    "lat": -13.188399,
+    "lng": -74.21163,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huamanga",
+    "distrito": "San Juan Bautista",
+    "sector": "Chaquihuaycco",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUIHUAYCCO(TRAMO II) EN EL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE HUAMANGA, REGION AYACUCHO                 ",
+    "ficha": "15-2026- LD-PI-AYAC",
+    "fechaInicio": "11/03/2026",
+    "fechaFin": "20/03/2026",
+    "poblacion": 1200,
+    "volumen": 2232,
+    "km": 0.62,
+    "enlace": "https://drive.usercontent.google.com/download?id=1nBnvjtDabrEN-X0EbGr130KdH-NonKGQ&authuser=0&acrobatPromotionSource=gdrive_chrome-list"
   },
   {
     "id": 10040,
@@ -9626,24 +9626,6 @@ const mapaIntervenciones = {
     "poblacion": 78,
     "volumen": 1170,
     "km": 0.195,
-    "enlace": null
-  },
-  {
-    "id": 10461,
-    "lat": -13.318922,
-    "lng": -74.341322,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Huamanga",
-    "distrito": "Vinchos",
-    "sector": "Arizona",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.     ",
-    "ficha": "42-2025-LD-PI-AYAC",
-    "fechaInicio": "25/09/2026",
-    "fechaFin": "09/10/2026",
-    "poblacion": 130,
-    "volumen": 5625,
-    "km": 0.6,
     "enlace": null
   }
 ],
