@@ -15,18 +15,18 @@ export default {
 
   enEjecucion: [
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '08/08/2026', fin: '06/10/2026', volAcum: 940.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '25/09/2026', fin: '24/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 835 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Maynas', distrito: 'Iquitos', cantidad: 1, metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
     { provincia: 'Maynas', distrito: 'Punchana', cantidad: 1, metaVol: 680.0, metaKm: 0.0, poblacion: 780 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', cantidad: 2, metaVol: 3200.0, metaKm: 1.8, poblacion: 4835 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 7280.0, metaKm: 3.9, poblacion: 9115 },
+  programadasTotal: { cantidad: 3, metaVol: 6880.0, metaKm: 3.9, poblacion: 8280 },
 
   programadasDetalle: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Punchana', ficha: '020-2026-AA-U-LOR', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ', fechaInicio: '29/09/2026', fechaFin: '28/10/2026', metaVol: 400.0, metaKm: 0.0, poblacion: 835 },
     { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.               ', fechaInicio: '10/10/2026', fechaFin: '03/11/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
     { provincia: 'Maynas', distrito: 'Punchana', sector: 'Punchana', ficha: '024-2026-AA-U-LOR', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.         ', fechaInicio: '02/11/2026', fechaFin: '01/12/2026', metaVol: 680.0, metaKm: 0.0, poblacion: 780 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Rumococha', ficha: '025-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN EL AA.HH. RUMOCOCHA, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.        ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
