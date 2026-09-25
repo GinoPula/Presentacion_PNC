@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Prevención', cantidad: 17, m3: 143764.0, km: 10.88, poblacion: 21209, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
-    { tipo: 'Urgente atención', cantidad: 10, m3: 24907.7, km: 49.95, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 26114.7, km: 52.63, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 35, m3: 205333.7, m3AguaPotable: 0.0, km: 62.75, poblacion: 32264 },
+  ejecutadasTotal: { cantidad: 36, m3: 206540.7, m3AguaPotable: 0.0, km: 65.43, poblacion: 32264 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO EL ROLLO - UCHUY, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '09/09/2026', fin: '23/09/2026', volAcum: 350.0, kmAcum: 0.7, poblacion: null },
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD  ', inicio: '10/09/2026', fin: '24/09/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
+    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '10/09/2026', fin: '02/10/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', inicio: '23/09/2026', fin: '07/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
