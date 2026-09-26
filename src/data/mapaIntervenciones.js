@@ -8623,7 +8623,7 @@ const mapaIntervenciones = {
     "provincia": "Caraveli",
     "distrito": "Caraveli",
     "sector": "La Yesera I Tramo Ii",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                 ",
     "ficha": "49-2026-LDP-ARE",
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
