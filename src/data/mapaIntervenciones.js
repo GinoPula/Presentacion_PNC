@@ -4827,24 +4827,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1HZYb2jvq6DlOgpuxs9QEi9AM7Mu8aSh5/view?usp=drive_link"
   },
   {
-    "id": 9149,
-    "lat": -7.051677,
-    "lng": -79.711619,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Chiclayo",
-    "distrito": "Lagunas",
-    "sector": "",
-    "descripcion": "  LIMPIEZA Y DESCOLMATACION DEL DREN “VICHAYAL” ENTRE LOS DE LOS CENTRO POBLADOS “MONTECRUZ” Y “SAN PEDRO” DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00                  ",
-    "ficha": "001-2026 -LD-P-LAM",
-    "fechaInicio": "03/06/2026",
-    "fechaFin": "16/06/2026",
-    "poblacion": 1400,
-    "volumen": 10500,
-    "km": 3.383,
-    "enlace": "https://drive.google.com/file/d/1CDo8wjGEmi8puvPvawtBZNMB1oCZoC5i/view?usp=drive_link"
-  },
-  {
     "id": 10261,
     "lat": -5.920688,
     "lng": -80.045951,
@@ -4861,6 +4843,24 @@ const mapaIntervenciones = {
     "volumen": 495,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 9149,
+    "lat": -7.051677,
+    "lng": -79.711619,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Chiclayo",
+    "distrito": "Lagunas",
+    "sector": "",
+    "descripcion": "  LIMPIEZA Y DESCOLMATACION DEL DREN “VICHAYAL” ENTRE LOS DE LOS CENTRO POBLADOS “MONTECRUZ” Y “SAN PEDRO” DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE-00                  ",
+    "ficha": "001-2026 -LD-P-LAM",
+    "fechaInicio": "03/06/2026",
+    "fechaFin": "16/06/2026",
+    "poblacion": 1400,
+    "volumen": 10500,
+    "km": 3.383,
+    "enlace": "https://drive.google.com/file/d/1CDo8wjGEmi8puvPvawtBZNMB1oCZoC5i/view?usp=drive_link"
   },
   {
     "id": 9175,
@@ -5166,6 +5166,24 @@ const mapaIntervenciones = {
     "poblacion": 1100,
     "volumen": 195,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10432,
+    "lat": -6.690948,
+    "lng": -79.480451,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Chiclayo",
+    "distrito": "Chongoyape",
+    "sector": "Cuculi",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \"   DS180   ",
+    "ficha": "060-2026 -LD-E-LAM",
+    "fechaInicio": "25/09/2026",
+    "fechaFin": "15/10/2026",
+    "poblacion": 1422,
+    "volumen": 13725,
+    "km": 1.83,
     "enlace": null
   }
 ],

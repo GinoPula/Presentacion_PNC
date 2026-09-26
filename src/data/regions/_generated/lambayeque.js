@@ -20,13 +20,13 @@ export default {
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE  ', inicio: '13/08/2026', fin: '11/10/2026', volAcum: 341.0, kmAcum: 0.0, poblacion: 3350 },
     { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”     ', inicio: '02/09/2026', fin: '31/10/2026', volAcum: 16300.0, kmAcum: 0.19, poblacion: 4408 },
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ', inicio: '17/09/2026', fin: '15/11/2026', volAcum: 195.0, kmAcum: 0.0, poblacion: 1100 },
+    { provincia: 'Chiclayo', distrito: 'Chongoyape', tipo: 'Emergencia', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE "   DS180   ', inicio: '25/09/2026', fin: '15/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1422 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Chiclayo', distrito: 'Cayalti', cantidad: 1, metaVol: 34800.0, metaKm: 0.48, poblacion: 150 },
     { provincia: 'Chiclayo', distrito: 'Chiclayo', cantidad: 1, metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
-    { provincia: 'Chiclayo', distrito: 'Chongoyape', cantidad: 1, metaVol: 13725.0, metaKm: 1.83, poblacion: 1422 },
     { provincia: 'Chiclayo', distrito: 'La Victoria', cantidad: 1, metaVol: 2620.75, metaKm: 3.22, poblacion: 7500 },
     { provincia: 'Chiclayo', distrito: 'Patapo', cantidad: 1, metaVol: 10100.0, metaKm: 0.29, poblacion: 2886 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', cantidad: 1, metaVol: 2078.45, metaKm: 7.2, poblacion: 0 },
@@ -36,11 +36,10 @@ export default {
     { provincia: 'Lambayeque', distrito: 'Motupe', cantidad: 2, metaVol: 32700.0, metaKm: 0.75, poblacion: 1123 },
     { provincia: 'Lambayeque', distrito: 'Olmos', cantidad: 2, metaVol: 22500.0, metaKm: 1.25, poblacion: 2800 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 161924.2, metaKm: 24.07, poblacion: 34466 },
+  programadasTotal: { cantidad: 12, metaVol: 148199.2, metaKm: 22.24, poblacion: 33044 },
 
   programadasDetalle: [
     { provincia: 'Chiclayo', distrito: 'Chiclayo', sector: 'Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol', ficha: '030-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00     ', fechaInicio: '29/09/2026', fechaFin: '08/10/2026', metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
-    { provincia: 'Chiclayo', distrito: 'Chongoyape', sector: 'Cuculi', ficha: '060-2026 -LD-E-LAM', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE "   DS180  ', fechaInicio: '29/09/2026', fechaFin: '19/10/2026', metaVol: 13725.0, metaKm: 1.83, poblacion: 1422 },
     { provincia: 'Chiclayo', distrito: 'Cayalti', sector: '', ficha: '062-2026 -LD-P-LAM', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA “RIO SECO” EN EL SECTOR DEL CENTRO POBLADO “LA CURVA” DEL DISTRITO DE CAYALTI, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE   ', fechaInicio: '01/10/2026', fechaFin: '14/10/2026', metaVol: 34800.0, metaKm: 0.48, poblacion: 150 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', sector: '', ficha: '063-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL  "ESCUTE” ENTRE LOS SECTORES PP. JJ. AMPLIACIÓN VICTOR RAÚL HAYA DE LA TORRE, URB. SANTA MARGARITA, CONDOMINIO VILLA CLUB PALMERAS, CONDOMINO NUESTRA SEÑORA DE LA PAZ, CONDOMINIO VILLA LOS SAUCES, URBANIZACIÓN EL SANTUARIO, URB. LOS TREBOLES, URB. LAS LOMAS DE PIMENTEL, LA GARITA I Y II, CONDOMINO LA JOYITA, LA JOYITA I Y II, CONDOMINIO ALAMEDA, CONDOMINO REAL, RESIDENCIAL LOMAS DE SAN AGUSTIN, URB. SOL DE PIMENTEL, EN EL DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”  ', fechaInicio: '01/10/2026', fechaFin: '30/10/2026', metaVol: 2078.45, metaKm: 7.2, poblacion: null },
     { provincia: 'Lambayeque', distrito: 'Motupe', sector: 'Sector Tres Tomas', ficha: '013-2026 -LD-P-LAM', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n        ', fechaInicio: '15/10/2026', fechaFin: '28/10/2026', metaVol: 15700.0, metaKm: 0.35, poblacion: 530 },
