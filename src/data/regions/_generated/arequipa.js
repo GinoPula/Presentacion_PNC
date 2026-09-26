@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 159319.93, km: 52.93, poblacion: 24550, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
-    { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 8.13, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 7.81, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 25, m3: 15770.0, km: 0.15, poblacion: 14845, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 51, m3: 336132.93, m3AguaPotable: 15380.0, km: 61.22, poblacion: 49095 },
+  ejecutadasTotal: { cantidad: 51, m3: 336132.93, m3AguaPotable: 15380.0, km: 60.89, poblacion: 49095 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
