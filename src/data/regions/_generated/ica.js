@@ -40,9 +40,8 @@ export default {
     { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°007-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO I, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00      ', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 380 },
   ],
 
-  conveniosCount: 6,
+  conveniosCount: 5,
   conveniosVigentes: [
-    { entidad: 'Gobierno Regional', detail: 'hasta 26/09/2026' },
     { entidad: 'Municipalidad Provincial Nasca', detail: 'vence 27/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
