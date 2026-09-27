@@ -42,7 +42,7 @@ export default {
 
   conveniosCount: 6,
   conveniosVigentes: [
-    { entidad: 'Gobierno Regional', detail: 'vence 26/09/2026 (a un mes de caducar)' },
+    { entidad: 'Gobierno Regional', detail: 'hasta 26/09/2026' },
     { entidad: 'Municipalidad Provincial Nasca', detail: 'vence 27/09/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
