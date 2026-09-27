@@ -5177,7 +5177,7 @@ const mapaIntervenciones = {
     "provincia": "Chiclayo",
     "distrito": "Chongoyape",
     "sector": "Cuculi",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \"   DS180   ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE \"   DS180    ",
     "ficha": "060-2026 -LD-E-LAM",
     "fechaInicio": "25/09/2026",
     "fechaFin": "15/10/2026",
