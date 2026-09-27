@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
-    { tipo: 'Prevención', cantidad: 46, m3: 152219.0, km: 17.47, poblacion: 48613, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 47, m3: 154829.0, km: 17.77, poblacion: 48853, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 58, m3: 171417.0, m3AguaPotable: 570.0, km: 24.62, poblacion: 71268 },
+  ejecutadasTotal: { cantidad: 59, m3: 174027.0, m3AguaPotable: 570.0, km: 24.92, poblacion: 71508 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH   ', inicio: '16/09/2026', fin: '30/09/2026', volAcum: 1245.0, kmAcum: 0.06, poblacion: 300 },
     { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 2367.0, kmAcum: 0.1, poblacion: 340 },
-    { provincia: 'Yungay', distrito: 'Shupluy', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO SANTA, SECTOR CUSHAP, DISTRITO DE SHUPLUY, PROVINCIA DE YUNGAY', inicio: '19/09/2026', fin: '25/09/2026', volAcum: 2001.0, kmAcum: 0.23, poblacion: 240 },
     { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH  ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 434.0, kmAcum: 0.03, poblacion: 250 },
   ],
 
