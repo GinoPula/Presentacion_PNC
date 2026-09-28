@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "28/09/2026",
-    "horaCorte": "19:24",
+    "horaCorte": "19:55",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -160,44 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "10511",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CUSCO",
-      "deptoLabel": "Cusco",
-      "regionId": "cusco",
-      "provincia": "Canas",
-      "distrito": "Pampamarca",
-      "sector": "Ornoccacca - Laguna",
-      "ficha": "024-2026-LD-P-CUS",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO",
-      "marcoLegal": "CONVENIO Nº056-2025-ADENDA 01",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "24/09/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 10,
-      "idIntervencion": "10319",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
-      "ficha": "N°054-2026-RLEU-AMZ",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
-      "fechaInicio": "23/06/2026",
-      "fechaFin": "25/09/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 11,
       "idIntervencion": "10517",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 12,
+      "n": 10,
       "idIntervencion": "9635",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 13,
+      "n": 11,
       "idIntervencion": "9642",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -254,7 +216,26 @@
       "diasAtraso": 3
     },
     {
-      "n": 14,
+      "n": 12,
+      "idIntervencion": "10319",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Santa Rosa – Sector Santa Rosa Bajo",
+      "ficha": "N°054-2026-RLEU-AMZ",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO SANTA ROSA – SECTOR SANTA ROSA BAJO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
+      "fechaInicio": "23/06/2026",
+      "fechaFin": "25/09/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 13,
       "idIntervencion": "10289",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10326",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
