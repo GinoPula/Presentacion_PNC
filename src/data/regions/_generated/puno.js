@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 2716.74, kmAcum: 10.61, poblacion: 1000 },
+    { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 4336.74, kmAcum: 16.93, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

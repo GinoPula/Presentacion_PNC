@@ -1664,8 +1664,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 1000,
-    "volumen": 2716.74,
-    "km": 10.61,
+    "volumen": 4336.74,
+    "km": 16.93,
     "enlace": null
   }
 ],
@@ -5123,7 +5123,7 @@ const mapaIntervenciones = {
     "provincia": "Chiclayo",
     "distrito": "Pimentel",
     "sector": "Sector La Pradera",
-    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.                   ",
+    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DE 1.36KM DEL CANAL “ROSARIO” EN EL SECTOR “LA PRADERA”, DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”.                    ",
     "ficha": "014-2026 -LD-P-LAM",
     "fechaInicio": "01/09/2026",
     "fechaFin": "14/09/2026",
@@ -9511,14 +9511,14 @@ const mapaIntervenciones = {
     "provincia": "La Mar",
     "distrito": "Ayna",
     "sector": "Yumpari",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DEL CAUCE DEL RÍO SANKIRHUATO TRAMO II SECTOR YUMPARI, DISTRITO DE AYNA SAN FRANCISCO, PROVINCIA DE LA MAR, DEPARTAMENTO DE AYACUCHO            ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DEL CAUCE DEL RÍO SANKIRHUATO TRAMO II SECTOR YUMPARI, DISTRITO DE AYNA SAN FRANCISCO, PROVINCIA DE LA MAR, DEPARTAMENTO DE AYACUCHO             ",
     "ficha": "39-2026- LD-E-AYAC",
     "fechaInicio": "23/06/2026",
     "fechaFin": "16/07/2026",
     "poblacion": 500,
     "volumen": 4480,
     "km": 0.2,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1E-2a2BArVIBLWbAAHlTWwlYHYUeZjDJB"
   },
   {
     "id": 10265,
@@ -9583,14 +9583,14 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Ayacucho",
     "sector": "Wari Accopampa",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO                  ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO                   ",
     "ficha": "12-2026- LD-PI-AYAC",
     "fechaInicio": "10/08/2026",
     "fechaFin": "18/08/2026",
     "poblacion": 165,
     "volumen": 1468.5,
     "km": 0.083,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 9702,
