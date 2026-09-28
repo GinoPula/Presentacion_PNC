@@ -42,7 +42,7 @@ export default {
 
   conveniosCount: 5,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Provincial Nasca', detail: 'vence 27/09/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Provincial Nasca', detail: 'hasta 27/09/2026' },
     { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
     { entidad: 'Municipalidad Distrital San Jose De Los Molinos', detail: 'hasta 01/02/2027' },
