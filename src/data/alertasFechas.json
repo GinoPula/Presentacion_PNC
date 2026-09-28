@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "28/09/2026",
-    "horaCorte": "04:40",
+    "horaCorte": "05:10",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO N°04-2026-VIVIENDA/VMVU/PNC",
       "fechaInicio": "29/09/2025",
       "fechaFin": "13/10/2025",
-      "diasAtraso": 363
+      "diasAtraso": 364
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 84
+      "diasAtraso": 85
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/09/2026",
       "fechaFin": "14/09/2026",
-      "diasAtraso": 26
+      "diasAtraso": 27
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "05/09/2026",
       "fechaFin": "18/09/2026",
-      "diasAtraso": 22
+      "diasAtraso": 23
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "15/09/2026",
       "fechaFin": "29/09/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "17/09/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "02/09/2026",
       "fechaFin": "23/09/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "26/08/2026",
       "fechaFin": "24/09/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "DECRETO SUPREMO Nº 124-2026-PCM",
       "fechaInicio": "15/09/2026",
       "fechaFin": "25/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "CONVENIO N°039 -2026-VIVIENDA/VMVU/PNC",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°022-2026-MDCH",
       "fechaInicio": "23/06/2026",
       "fechaFin": "25/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 15,
@@ -289,29 +289,10 @@
       "marcoLegal": "CONVENIO Nº005-2023-ADENDA 03",
       "fechaInicio": "07/09/2026",
       "fechaFin": "26/09/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 16,
-      "idIntervencion": "10503",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Ayabaca",
-      "distrito": "Ayabaca",
-      "sector": "Aul",
-      "ficha": "FTI N°135-2026-LETV-E-PIU",
-      "descripcion": "LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "09/09/2026",
-      "fechaFin": "26/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 17,
       "idIntervencion": "10289",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -327,6 +308,63 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)",
       "fechaInicio": "09/09/2026",
       "fechaFin": "26/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10503",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Ayabaca",
+      "distrito": "Ayabaca",
+      "sector": "Aul",
+      "ficha": "FTI N°135-2026-LETV-E-PIU",
+      "descripcion": "LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "09/09/2026",
+      "fechaFin": "26/09/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10326",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Namballe",
+      "sector": "C.p. San Pedro",
+      "ficha": "N°056-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS EL CENTRO POBLADO SAN PEDRO – DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°018-2026-MDN/CM",
+      "fechaInicio": "25/06/2026",
+      "fechaFin": "27/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10482",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Santiago De Chuco",
+      "distrito": "Quiruvilca",
+      "sector": "Pajillas",
+      "ficha": "070-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
+      "fechaInicio": "27/09/2026",
+      "fechaFin": "11/10/2026",
       "diasAtraso": 1
     }
   ]
