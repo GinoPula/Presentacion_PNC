@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 11, m3: 101649.0, km: 5.96, poblacion: 2949, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 10, m3: 98084.0, km: 5.05, poblacion: 2669, provincias: ['Anta', 'Calca', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 25, m3: 212234.0, m3AguaPotable: 0.0, km: 17.61, poblacion: 8613 },
+  ejecutadasTotal: { cantidad: 24, m3: 208669.0, m3AguaPotable: 0.0, km: 16.7, poblacion: 8333 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,6 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 327242.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
+    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL, Y LIMPIEZA DE ESCOMBROS EN EL SECTOR ORNOCCACCA - LAGUNA, PARA LA COMUNIDAD DE PAMPAMARCA URINSAYA, TRAMO 1 DE 0+000 KM A 0+906 KM DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO   ', inicio: '11/09/2026', fin: '24/09/2026', volAcum: 3565.0, kmAcum: 0.91, poblacion: 280 },
     { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO  ', inicio: '01/10/2026', fin: '14/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 90 },
   ],
 
