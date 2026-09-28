@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 11, m3: 101679.0, km: 5.96, poblacion: 2949, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 11, m3: 101684.0, km: 5.96, poblacion: 2949, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 25, m3: 212264.0, m3AguaPotable: 0.0, km: 17.61, poblacion: 8613 },
+  ejecutadasTotal: { cantidad: 25, m3: 212269.0, m3AguaPotable: 0.0, km: 17.61, poblacion: 8613 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
