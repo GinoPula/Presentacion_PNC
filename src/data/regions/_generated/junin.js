@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 19, m3: 177464.0, km: 12.29, poblacion: 269942, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
-    { tipo: 'Prevención', cantidad: 14, m3: 89995.0, km: 9.14, poblacion: 263890, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
+    { tipo: 'Emergencia', cantidad: 21, m3: 203349.0, km: 20.9, poblacion: 270638, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 95095.0, km: 11.71, poblacion: 265220, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 34, m3: 267579.0, m3AguaPotable: 120.0, km: 21.76, poblacion: 535412 },
+  ejecutadasTotal: { cantidad: 37, m3: 298564.0, m3AguaPotable: 120.0, km: 32.94, poblacion: 537438 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,9 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES EN EL RIO ENE EN LAS PROGRESIVA 0+000 AL 4+825.30 MARGEN DERECHA DE LA COMUNIDAD NATIVA QUEMPIRI, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.         ', inicio: '26/08/2026', fin: '24/09/2026', volAcum: 5100.0, kmAcum: 2.57, poblacion: 1330 },
-    { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN   ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 13520.0, kmAcum: 5.02, poblacion: 360 },
-    { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN     ', inicio: '02/09/2026', fin: '01/10/2026', volAcum: 12365.0, kmAcum: 3.59, poblacion: 336 },
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN   ', inicio: '04/09/2026', fin: '03/10/2026', volAcum: 11685.0, kmAcum: 5.19, poblacion: 595 },
   ],
 
