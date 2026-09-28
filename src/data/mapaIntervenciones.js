@@ -8533,14 +8533,14 @@ const mapaIntervenciones = {
     "provincia": "La Union",
     "distrito": "Alca",
     "sector": "Pueblo Tradicional",
-    "descripcion": "“LIMPIEZA Y REFORZAMIENTO DE DIQUE DE LA MARGEN IZQUIERDA DEL RÍO COTAHUASI, EN EL SECTOR PUEBLO TRADICIONAL, DISTRITO ALCA, PROVINCIA LA UNIÓN, DEPARTAMENTO AREQUIPA”.         ",
+    "descripcion": "“LIMPIEZA Y REFORZAMIENTO DE DIQUE DE LA MARGEN IZQUIERDA DEL RÍO COTAHUASI, EN EL SECTOR PUEBLO TRADICIONAL, DISTRITO ALCA, PROVINCIA LA UNIÓN, DEPARTAMENTO AREQUIPA”.          ",
     "ficha": "67-2026-LDP-ARE",
     "fechaInicio": "06/07/2026",
     "fechaFin": "04/08/2026",
     "poblacion": 1300,
     "volumen": 10803.48,
     "km": 0.48,
-    "enlace": "https://drive.google.com/file/d/1TrnI_9O94gWePkk3paoLUGXbWlHmjurt/view?usp=drive_link"
+    "enlace": "https://drive.google.com/file/d/1rdAdgud-02s6DW--2JAz9zKYgSYoRJa0/view?usp=drive_link"
   },
   {
     "id": 10345,
