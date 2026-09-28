@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 19, m3: 116451.33, km: 27.81, poblacion: 30318, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Emergencia', cantidad: 20, m3: 121372.53, km: 31.91, poblacion: 30530, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 29, m3: 161103.12, km: 51.45, poblacion: 115937, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 34667.5, km: 28.15, poblacion: 14258, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 57, m3: 312221.95, m3AguaPotable: 255.0, km: 107.41, poblacion: 160513 },
+  ejecutadasTotal: { cantidad: 58, m3: 317143.15, m3AguaPotable: 255.0, km: 111.51, poblacion: 160725 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,9 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Ayabaca', distrito: 'Ayabaca', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN VÍA DE LAS LOCALIDAD DE AUL, EN EL DISTRITO DE AYABACA, PROVINCIA DE AYABA.CA, DEPARTAMENTO DE PIURA  ', inicio: '09/09/2026', fin: '26/09/2026', volAcum: 4250.0, kmAcum: 3.63, poblacion: 212 },
     { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA   ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 1780.0, kmAcum: 1.98, poblacion: 347 },
-    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA   ', inicio: '23/09/2026', fin: '14/10/2026', volAcum: 1700.0, kmAcum: 0.33, poblacion: 9200 },
+    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 1700.0, kmAcum: 0.33, poblacion: 9200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -122,8 +121,8 @@ export default {
     { tipo: 'Retroexcavadora', cantidad: 2, marca: 'John Deere', codigos: ['C429243', '285270'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Caterpillar', codigos: ['J8B05113', 'AE800572'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81437'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 9, marca: 'Mercedes Benz', codigos: ['EGV-769', 'EAJ-455', 'EAJ-400', 'EGV-809', 'EAJ-390', 'EGV-822', 'EGV-783', 'EGV-807', 'EGV-770'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGV-802', 'EGV-804'], estado: 'inoperativo', nota: 'EGV-802: falla en la transmisión. EGV-804: reparación de alternador y aire acondicionado' },
+    { tipo: 'Volquete', cantidad: 10, marca: 'Mercedes Benz', codigos: ['EGV-769', 'EAJ-455', 'EAJ-400', 'EGV-809', 'EAJ-390', 'EGV-822', 'EGV-783', 'EGV-804', 'EGV-807', 'EGV-770'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-802'], estado: 'inoperativo', nota: 'EGV-802: falla en la transmisión. EGV-804: reparación de alternador y aire acondicionado' },
   ],
   flotaTotal: 46,
 }
