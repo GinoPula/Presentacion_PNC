@@ -8497,14 +8497,14 @@ const mapaIntervenciones = {
     "provincia": "Arequipa",
     "distrito": "Cayma",
     "sector": "Varios Anexos",
-    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. SOL DE LOS ANDES, A.H. EMBAJADA JAPÓN ZONA B, A.H. AVIDCA, A.H. LOS JAZMINES, A.H. LOS PIONEROS ZONAS A, B, Y C, Y SANTUARIO CHAPI CHICO, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.      ",
+    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. SOL DE LOS ANDES, A.H. EMBAJADA JAPÓN ZONA B, A.H. AVIDCA, A.H. LOS JAZMINES, A.H. LOS PIONEROS ZONAS A, B, Y C, Y SANTUARIO CHAPI CHICO, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.       ",
     "ficha": "63-2026-LETV-E-ARE",
     "fechaInicio": "23/06/2026",
     "fechaFin": "27/07/2026",
     "poblacion": 6500,
     "volumen": 15913.14,
     "km": 10.61,
-    "enlace": "https://drive.google.com/file/d/1nUZSnP8fzMMLWIpehTLwjLRONZtU_Lpd/view?usp=drive_link"
+    "enlace": "https://drive.google.com/file/d/1mpZQXMlTwdAy7nfQcBPDNt8bduGqlI8v/view?usp=drive_link"
   },
   {
     "id": 10258,
