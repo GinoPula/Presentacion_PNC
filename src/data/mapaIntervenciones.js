@@ -7636,8 +7636,8 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "28/09/2026",
     "poblacion": 1500,
-    "volumen": 5064,
-    "km": 0.211,
+    "volumen": 6504,
+    "km": 0.271,
     "enlace": null
   },
   {
@@ -7672,8 +7672,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 2500000,
-    "volumen": 12579.3,
-    "km": 0.101,
+    "volumen": 14887.8,
+    "km": 0.128,
     "enlace": null
   },
   {
@@ -7690,8 +7690,8 @@ const mapaIntervenciones = {
     "fechaInicio": "08/09/2026",
     "fechaFin": "30/09/2026",
     "poblacion": 1000,
-    "volumen": 3384,
-    "km": 0.09,
+    "volumen": 4284,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -7708,8 +7708,8 @@ const mapaIntervenciones = {
     "fechaInicio": "10/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 1050,
-    "volumen": 3120,
-    "km": 0.156,
+    "volumen": 3760,
+    "km": 0.188,
     "enlace": null
   },
   {
@@ -7780,8 +7780,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 1253,
-    "volumen": 13823.93,
-    "km": 0.595,
+    "volumen": 1600,
+    "km": 0.02,
     "enlace": null
   }
 ],
@@ -11057,24 +11057,6 @@ const mapaIntervenciones = {
 ],
   cusco: [
   {
-    "id": 9765,
-    "lat": -12.852621,
-    "lng": -72.127013,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Calca",
-    "distrito": "Yanatile",
-    "sector": "Osccobamba",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO OSCCOBAMBA, EN EL SECTOR OSCCOBAMBA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+035 KM, DISTRITO DE YANATILE, PROVINCIA DE CALCA, REGIÓN CUSCO   ",
-    "ficha": "054-2025-LDP-CUS",
-    "fechaInicio": "31/12/2025",
-    "fechaFin": "09/01/2026",
-    "poblacion": 204,
-    "volumen": 735,
-    "km": 0.037,
-    "enlace": null
-  },
-  {
     "id": 9022,
     "lat": null,
     "lng": null,
@@ -11091,6 +11073,24 @@ const mapaIntervenciones = {
     "volumen": 14985,
     "km": 0.759,
     "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
+  },
+  {
+    "id": 9765,
+    "lat": -12.852621,
+    "lng": -72.127013,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Calca",
+    "distrito": "Yanatile",
+    "sector": "Osccobamba",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO OSCCOBAMBA, EN EL SECTOR OSCCOBAMBA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+035 KM, DISTRITO DE YANATILE, PROVINCIA DE CALCA, REGIÓN CUSCO   ",
+    "ficha": "054-2025-LDP-CUS",
+    "fechaInicio": "31/12/2025",
+    "fechaFin": "09/01/2026",
+    "poblacion": 204,
+    "volumen": 735,
+    "km": 0.037,
+    "enlace": null
   },
   {
     "id": 9832,
@@ -11111,24 +11111,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9878,
-    "lat": -13.450459,
-    "lng": -72.184074,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Anta",
-    "distrito": "Anta",
-    "sector": "Tres Reyes Cc Markju",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL CANAL PLUVIAL LADO DERECHO E IZQUIERDO DE VIA, DENTRO DEL SECTOR TRES REYES - COMUNIDAD CAMPESINA MARKJU, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 5+300 KM, DISTRITO DE ANTA, PROVINCIA DE ANTA, REGIÓN CUSCO     ",
-    "ficha": "008-2026-LD-E-CUS",
-    "fechaInicio": "11/02/2026",
-    "fechaFin": "02/03/2026",
-    "poblacion": 210,
-    "volumen": 3603,
-    "km": 5.331,
-    "enlace": null
-  },
-  {
     "id": 9873,
     "lat": -13.561884,
     "lng": -71.445749,
@@ -11144,6 +11126,24 @@ const mapaIntervenciones = {
     "poblacion": 120,
     "volumen": 9153,
     "km": 0.15,
+    "enlace": null
+  },
+  {
+    "id": 9878,
+    "lat": -13.450459,
+    "lng": -72.184074,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Anta",
+    "distrito": "Anta",
+    "sector": "Tres Reyes Cc Markju",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL CANAL PLUVIAL LADO DERECHO E IZQUIERDO DE VIA, DENTRO DEL SECTOR TRES REYES - COMUNIDAD CAMPESINA MARKJU, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 5+300 KM, DISTRITO DE ANTA, PROVINCIA DE ANTA, REGIÓN CUSCO     ",
+    "ficha": "008-2026-LD-E-CUS",
+    "fechaInicio": "11/02/2026",
+    "fechaFin": "02/03/2026",
+    "poblacion": 210,
+    "volumen": 3603,
+    "km": 5.331,
     "enlace": null
   },
   {
@@ -11474,18 +11474,18 @@ const mapaIntervenciones = {
     "id": 10443,
     "lat": -13.337044,
     "lng": -71.956384,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Calca",
     "distrito": "Calca",
     "sector": "Caytupampa",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR CAYTUPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+275 KM, DISTRITO DE CALCA, PROVINCIA DE CALCA, REGION CUSCO  ",
     "ficha": "002-2026-LD-P-CUS",
     "fechaInicio": "07/09/2026",
     "fechaFin": "26/09/2026",
     "poblacion": 134,
-    "volumen": 11280,
-    "km": 0.251,
+    "volumen": 12310,
+    "km": 0.275,
     "enlace": null
   },
   {
@@ -11504,6 +11504,24 @@ const mapaIntervenciones = {
     "poblacion": 280,
     "volumen": 3565,
     "km": 0.91,
+    "enlace": null
+  },
+  {
+    "id": 10512,
+    "lat": -14.106492,
+    "lng": -71.430545,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Canas",
+    "distrito": "Pampamarca",
+    "sector": "Tintaqmarca (Cc Pamparqui)",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO  ",
+    "ficha": "023-2026-LD-P-CUS",
+    "fechaInicio": "01/10/2026",
+    "fechaFin": "14/10/2026",
+    "poblacion": 90,
+    "volumen": 1547.62,
+    "km": 0.637,
     "enlace": null
   }
 ],
