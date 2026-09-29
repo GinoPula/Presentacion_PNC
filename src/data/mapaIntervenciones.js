@@ -6163,6 +6163,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10347,
+    "lat": -7.64818,
+    "lng": -77.841125,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Chugay",
+    "sector": "El Convento",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD   ",
+    "ficha": "062-2026-LD-P-LIB",
+    "fechaInicio": "14/07/2026",
+    "fechaFin": "28/07/2026",
+    "poblacion": 144,
+    "volumen": 17700,
+    "km": 0.9,
+    "enlace": null
+  },
+  {
     "id": 9569,
     "lat": -7.798396,
     "lng": -77.912636,
@@ -13004,7 +13022,7 @@ const mapaIntervenciones = {
     "fechaInicio": "08/08/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 1000,
-    "volumen": 980,
+    "volumen": 1010,
     "km": 0,
     "enlace": null
   },
