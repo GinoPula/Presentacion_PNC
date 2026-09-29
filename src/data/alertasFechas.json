@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "11:08",
+    "horaCorte": "11:39",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -46,6 +46,25 @@
     },
     {
       "n": 3,
+      "idIntervencion": "10347",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "El Convento",
+      "ficha": "062-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
+      "fechaInicio": "14/07/2026",
+      "fechaFin": "28/07/2026",
+      "diasAtraso": 63
+    },
+    {
+      "n": 4,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -64,7 +83,7 @@
       "diasAtraso": 28
     },
     {
-      "n": 4,
+      "n": 5,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -83,7 +102,7 @@
       "diasAtraso": 24
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -102,7 +121,7 @@
       "diasAtraso": 14
     },
     {
-      "n": 6,
+      "n": 7,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -119,25 +138,6 @@
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
       "diasAtraso": 11
-    },
-    {
-      "n": 7,
-      "idIntervencion": "9642",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Río Huallaga",
-      "ficha": "N° 017-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "09/10/2026",
-      "diasAtraso": 4
     },
     {
       "n": 8,
@@ -160,6 +160,25 @@
     },
     {
       "n": 9,
+      "idIntervencion": "9642",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Río Huallaga",
+      "ficha": "N° 017-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "09/10/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 10,
       "idIntervencion": "10289",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -178,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -197,7 +216,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 11,
+      "n": 12,
       "idIntervencion": "10470",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 13,
       "idIntervencion": "9485",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 14,
       "idIntervencion": "9656",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -254,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 15,
       "idIntervencion": "9654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +292,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 16,
       "idIntervencion": "9655",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +311,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 17,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +330,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 18,
       "idIntervencion": "9685",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +349,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 19,
       "idIntervencion": "10537",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -349,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "10538",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -368,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 21,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
