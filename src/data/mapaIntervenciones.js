@@ -6091,6 +6091,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10222,
+    "lat": -7.812963,
+    "lng": -77.913335,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "sector": "Yanasara",
+    "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CURGOS, SECTOR YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD    ",
+    "ficha": "037-2026-LD-P-LIB",
+    "fechaInicio": "01/06/2026",
+    "fechaFin": "16/06/2026",
+    "poblacion": 407,
+    "volumen": 7708,
+    "km": 0.521,
+    "enlace": null
+  },
+  {
     "id": 10269,
     "lat": -8.093303,
     "lng": -78.291556,
@@ -6163,24 +6181,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10347,
-    "lat": -7.64818,
-    "lng": -77.841125,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Sanchez Carrion",
-    "distrito": "Chugay",
-    "sector": "El Convento",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD   ",
-    "ficha": "062-2026-LD-P-LIB",
-    "fechaInicio": "14/07/2026",
-    "fechaFin": "28/07/2026",
-    "poblacion": 144,
-    "volumen": 17700,
-    "km": 0.9,
-    "enlace": null
-  },
-  {
     "id": 9569,
     "lat": -7.798396,
     "lng": -77.912636,
@@ -6196,6 +6196,24 @@ const mapaIntervenciones = {
     "poblacion": 750,
     "volumen": 18000,
     "km": 0.5,
+    "enlace": null
+  },
+  {
+    "id": 10347,
+    "lat": -7.64818,
+    "lng": -77.841125,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Chugay",
+    "sector": "El Convento",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD    ",
+    "ficha": "062-2026-LD-P-LIB",
+    "fechaInicio": "14/07/2026",
+    "fechaFin": "28/07/2026",
+    "poblacion": 144,
+    "volumen": 6480,
+    "km": 0.33,
     "enlace": null
   },
   {
@@ -6253,24 +6271,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10449,
-    "lat": -7.992669,
-    "lng": -78.16461,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Santiago De Chuco",
-    "distrito": "Quiruvilca",
-    "sector": "El Derrumbe - Inchaca",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO DE INCHACA EN SECTOR EL DERRUMBE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD ",
-    "ficha": "066-2026-MTV-U-LIB",
-    "fechaInicio": "13/08/2026",
-    "fechaFin": "22/08/2026",
-    "poblacion": 82,
-    "volumen": 1936,
-    "km": 3.8,
-    "enlace": null
-  },
-  {
     "id": 10441,
     "lat": -7.676894,
     "lng": -77.821317,
@@ -6286,6 +6286,24 @@ const mapaIntervenciones = {
     "poblacion": 346,
     "volumen": 1656,
     "km": 3.31,
+    "enlace": null
+  },
+  {
+    "id": 10449,
+    "lat": -7.992669,
+    "lng": -78.16461,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Santiago De Chuco",
+    "distrito": "Quiruvilca",
+    "sector": "El Derrumbe - Inchaca",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL CENTRO POBLADO DE INCHACA EN SECTOR EL DERRUMBE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD ",
+    "ficha": "066-2026-MTV-U-LIB",
+    "fechaInicio": "13/08/2026",
+    "fechaFin": "22/08/2026",
+    "poblacion": 82,
+    "volumen": 1936,
+    "km": 3.8,
     "enlace": null
   },
   {

@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "11:39",
+    "horaCorte": "12:09",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,6 +27,25 @@
     },
     {
       "n": 2,
+      "idIntervencion": "10222",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Yanasara",
+      "ficha": "037-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CURGOS, SECTOR YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
+      "fechaInicio": "01/06/2026",
+      "fechaFin": "16/06/2026",
+      "diasAtraso": 105
+    },
+    {
+      "n": 3,
       "idIntervencion": "9828",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -43,25 +62,6 @@
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
       "diasAtraso": 86
-    },
-    {
-      "n": 3,
-      "idIntervencion": "10347",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Chugay",
-      "sector": "El Convento",
-      "ficha": "062-2026-LD-P-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
-      "fechaInicio": "14/07/2026",
-      "fechaFin": "28/07/2026",
-      "diasAtraso": 63
     },
     {
       "n": 4,

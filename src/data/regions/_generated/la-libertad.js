@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
-    { tipo: 'Prevención', cantidad: 17, m3: 143764.0, km: 10.88, poblacion: 21209, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
+    { tipo: 'Prevención', cantidad: 18, m3: 150244.0, km: 11.21, poblacion: 21353, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 11, m3: 26114.7, km: 52.63, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 206540.7, m3AguaPotable: 0.0, km: 65.43, poblacion: 32264 },
+  ejecutadasTotal: { cantidad: 37, m3: 213020.7, m3AguaPotable: 0.0, km: 65.76, poblacion: 32408 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD   ', inicio: '14/07/2026', fin: '28/07/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 144 },
+    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CURGOS, SECTOR YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD    ', inicio: '01/06/2026', fin: '16/06/2026', volAcum: 7708.0, kmAcum: 0.52, poblacion: 407 },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '10/09/2026', fin: '02/10/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
     { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', inicio: '23/09/2026', fin: '07/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
   ],

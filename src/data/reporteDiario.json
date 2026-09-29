@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "11:39",
+    "horaCorte": "12:09",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -209,9 +209,9 @@
       "fechaInicio": "09/09/2026",
       "fechaFin": "26/09/2026",
       "maquinaria": [
+        "REMOLCADOR ( EGO-046)",
         "CAMIONETA ( EGL-971)",
         "TRACTOR SOBRE ORUGA ( J8B05104)",
-        "REMOLCADOR ( EGO-046)",
         "PLATAFORMA (CAMA BAJA) ( EGO-137)"
       ]
     },
@@ -254,8 +254,8 @@
       "fechaFin": "02/10/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-785)",
-        "EXCAVADORA HIDRAULICA ( 85464)",
-        "VOLQUETE ( EGM-882)"
+        "VOLQUETE ( EGM-882)",
+        "EXCAVADORA HIDRAULICA ( 85464)"
       ]
     },
     {
@@ -299,6 +299,24 @@
     },
     {
       "n": 15,
+      "idIntervencion": "10554",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "C.p. San Francisco",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "01/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81371)"
+      ]
+    },
+    {
+      "n": 16,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -314,24 +332,6 @@
       "maquinaria": [
         "VOLQUETE ( EGN-591)",
         "VOLQUETE ( EGV-826)"
-      ]
-    },
-    {
-      "n": 16,
-      "idIntervencion": "10554",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "01/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81371)"
       ]
     },
     {
@@ -407,9 +407,9 @@
       "fechaInicio": "04/09/2026",
       "fechaFin": "03/10/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-004)",
-        "VOLQUETE ( EGV-812)",
         "CARGADOR FRONTAL ( D001609)",
+        "VOLQUETE ( EGV-812)",
+        "REMOLCADOR ( EGN-004)",
         "CAMIONETA ( EGO-049)"
       ]
     },
@@ -431,26 +431,6 @@
     },
     {
       "n": 22,
-      "idIntervencion": "10347",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Chugay",
-      "sector": "El Convento",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
-      "fechaInicio": "14/07/2026",
-      "fechaFin": "28/07/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81370)",
-        "EXCAVADORA HIDRAULICA ( 810409)",
-        "REMOLCADOR ( EAJ-379)"
-      ]
-    },
-    {
-      "n": 23,
       "idIntervencion": "10483",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -466,6 +446,27 @@
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05109)",
         "VOLQUETE ( EGV-853)",
+        "VOLQUETE ( EGV-795)"
+      ]
+    },
+    {
+      "n": 23,
+      "idIntervencion": "10222",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Yanasara",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CURGOS, SECTOR YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
+      "fechaInicio": "01/06/2026",
+      "fechaFin": "16/06/2026",
+      "maquinaria": [
+        "VOLQUETE ( EGV-853)",
+        "REMOLCADOR ( EAJ-379)",
+        "EXCAVADORA HIDRAULICA ( 810409)",
         "VOLQUETE ( EGV-795)"
       ]
     },
@@ -639,11 +640,11 @@
       "fechaInicio": "07/09/2026",
       "fechaFin": "06/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-825)",
+        "TRACTOR SOBRE ORUGA ( 82541)",
         "EXCAVADORA HIDRAULICA ( TJT10116)",
         "VOLQUETE ( EGV-840)",
-        "TRACTOR SOBRE ORUGA ( 82541)",
-        "CARGADOR FRONTAL ( JLX00293)"
+        "CARGADOR FRONTAL ( JLX00293)",
+        "VOLQUETE ( EGV-825)"
       ]
     },
     {
@@ -972,11 +973,11 @@
       "fechaInicio": "19/09/2026",
       "fechaFin": "03/10/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( D001613)",
         "VOLQUETE ( EAJ-395)",
-        "REMOLCADOR ( EAJ-355)",
         "VOLQUETE ( EAJ-392)",
+        "CARGADOR FRONTAL ( D001613)",
         "VOLQUETE ( EAJ-394)",
+        "REMOLCADOR ( EAJ-355)",
         "EXCAVADORA HIDRAULICA ( TJT10094)",
         "CAMIONETA ( EGM-052)"
       ]
