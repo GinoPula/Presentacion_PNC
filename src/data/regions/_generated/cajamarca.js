@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 21, m3: 131706.45, km: 9.79, poblacion: 13395, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 22, m3: 148842.45, km: 10.22, poblacion: 13945, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 46, m3: 198539.51, km: 160.99, poblacion: 56412, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 71, m3: 359795.96, m3AguaPotable: 3300.0, km: 172.64, poblacion: 71699 },
+  ejecutadasTotal: { cantidad: 72, m3: 376931.96, m3AguaPotable: 3300.0, km: 173.06, poblacion: 72249 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -20,8 +20,7 @@ export default {
     { provincia: 'Cutervo', distrito: 'Callayuc', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA".        ', inicio: '15/06/2026', fin: '02/10/2026', volAcum: 4430.0, kmAcum: 3.42, poblacion: 438 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ', inicio: '28/08/2026', fin: '06/10/2026', volAcum: 1305.0, kmAcum: 1.3, poblacion: 500 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '09/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
-    { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO CAJAMARQUINO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+420, SECTOR CARRETAS OLIVO - TRAMO II, EN EL CENTRO POBLADO DE CHOLOCAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '09/09/2026', fin: '26/09/2026', volAcum: 15136.0, kmAcum: 0.37, poblacion: 550 },
-    { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”.', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 4190.0, kmAcum: 0.35, poblacion: 125 },
+    { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”. ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 4690.0, kmAcum: 0.39, poblacion: 125 },
     { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”  ', inicio: '18/09/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 87 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”', inicio: '22/09/2026', fin: '01/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 415 },
   ],
