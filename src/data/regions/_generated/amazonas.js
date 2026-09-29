@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 2, m3: 15900.0, km: 0.38, poblacion: 616, provincias: ['Chachapoyas', 'Rodriguez De Mendoza'] },
+    { tipo: 'Emergencia', cantidad: 3, m3: 20800.0, km: 0.98, poblacion: 661, provincias: ['Chachapoyas', 'Rodriguez De Mendoza'] },
   ],
-  ejecutadasTotal: { cantidad: 2, m3: 15900.0, m3AguaPotable: 0.0, km: 0.38, poblacion: 616 },
+  ejecutadasTotal: { cantidad: 3, m3: 20800.0, m3AguaPotable: 0.0, km: 0.98, poblacion: 661 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +13,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
-    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION DE LA QUEBRADA TITICACA DESDE LA PROGRESIVA 0+000 K.M A LA PROGRESIVA 0+600 K.M, DEL DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA, REGION AMAZONAS”  ', inicio: '15/09/2026', fin: '25/09/2026', volAcum: 2600.0, kmAcum: 0.17, poblacion: 45 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
