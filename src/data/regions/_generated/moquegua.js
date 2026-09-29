@@ -17,12 +17,10 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'General Sanchez Cerro', distrito: 'Ubinas', cantidad: 1, metaVol: 24300.0, metaKm: 0.45, poblacion: 400 },
   ],
-  programadasTotal: { cantidad: 1, metaVol: 24300.0, metaKm: 0.45, poblacion: 400 },
+  programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
 
   programadasDetalle: [
-    { provincia: 'General Sanchez Cerro', distrito: 'Ubinas', sector: 'Torata', ficha: '17-2026-LDP-ARE', descripcion: ' LIMPIEZA Y DESCOLMATACIONDE LAQUEBRADA TORATA-TRAMO I, EN EL ANEXO DE TORATA, DISTRITO DE UBINAS, PROVINCIA GENERAL SANCHEZ CERRO, REGION MOQUEGUA-00                                                    ', fechaInicio: '12/11/2026', fechaFin: '11/12/2026', metaVol: 24300.0, metaKm: 0.45, poblacion: 400 },
   ],
 
   conveniosCount: 3,
