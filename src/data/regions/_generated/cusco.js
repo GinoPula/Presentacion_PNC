@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 327242.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO  ', inicio: '01/10/2026', fin: '14/10/2026', volAcum: 155.0, kmAcum: 0.06, poblacion: 90 },
+    { provincia: 'Canas', distrito: 'Pampamarca', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCE DE CANAL DE RIEGO, Y LIMPIEZA DE ESCOMBROS SOBRE EL CANAL, EN EL SECTOR TINTAQMARCA (CC PAMPARQUI) DE LA PROGRESIVA KM 0+000 A LA PROGRESIVA KM 0+637 DEL DISTRITO DE PAMPAMARCA, PROVINCIA DE CANAS, REGIÓN CUSCO  ', inicio: '01/10/2026', fin: '14/10/2026', volAcum: 305.0, kmAcum: 0.13, poblacion: 90 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
