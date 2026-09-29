@@ -28,13 +28,13 @@ export default {
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', cantidad: 2, metaVol: 12100.0, metaKm: 0.55, poblacion: 2050 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', cantidad: 3, metaVol: 3510.0, metaKm: 0.0, poblacion: 3375 },
     { provincia: 'Rioja', distrito: 'Yuracyacu', cantidad: 1, metaVol: 8700.0, metaKm: 0.7, poblacion: 750 },
-    { provincia: 'San Martin', distrito: 'El Porvenir', cantidad: 1, metaVol: 1080.38, metaKm: 1.53, poblacion: 350 },
+    { provincia: 'San Martin', distrito: 'El Porvenir', cantidad: 1, metaVol: 1080.38, metaKm: 1.53, poblacion: 300 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 33240.38, metaKm: 5.18, poblacion: 7975 },
+  programadasTotal: { cantidad: 10, metaVol: 33240.38, metaKm: 5.18, poblacion: 7925 },
 
   programadasDetalle: [
     { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '041-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN   ', fechaInicio: '05/10/2026', fechaFin: '14/10/2026', metaVol: 2250.0, metaKm: 0.25, poblacion: 400 },
-    { provincia: 'San Martin', distrito: 'El Porvenir', sector: 'Pelejo', ficha: '043-2026-MTV-U-SAM ', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN', fechaInicio: '06/10/2026', fechaFin: '16/10/2026', metaVol: 1080.38, metaKm: 1.53, poblacion: 350 },
+    { provincia: 'San Martin', distrito: 'El Porvenir', sector: 'Pelejo', ficha: '043-2026-MTV-U-SAM ', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN  ', fechaInicio: '06/10/2026', fechaFin: '16/10/2026', metaVol: 1080.38, metaKm: 1.53, poblacion: 300 },
     { provincia: 'Bellavista', distrito: 'San Pablo', sector: 'Fausa Lamista', ficha: '039-2026-MTV-U-SAM', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE FAUSA LAMISTA, DISTRITO DE SAN PABLO, PROVINCIA BELLAVISTA, REGIÓN SAN MARTIN ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 2800.0, metaKm: 1.9, poblacion: 650 },
     { provincia: 'Rioja', distrito: 'Nueva Cajamarca', sector: 'Nueva Cajamarca', ficha: '020-2026-LD-PI-SAM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE MATERIAL ALUVIONICO, DESDE LA PROG. 0+000 KM A LA PROGRESIVA 0+200 KM RIO YURACYACU TRAMO I, DISTRITO DE NUEVA CAJAMARCA, PROVINCIA DE RIOJA, REGION SAN MARTÍN               ', fechaInicio: '14/10/2026', fechaFin: '28/10/2026', metaVol: 5800.0, metaKm: 0.2, poblacion: 850 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '008-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN    ', fechaInicio: '19/10/2026', fechaFin: '17/11/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125 },
