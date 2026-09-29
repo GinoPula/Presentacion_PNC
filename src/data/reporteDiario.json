@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "21:49",
+    "horaCorte": "22:19",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -83,7 +83,7 @@
       "sector": "Bello Horizonte",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180",
       "fechaInicio": "24/09/2026",
       "fechaFin": "15/10/2026",
       "maquinaria": [
