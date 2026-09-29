@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "07:05",
+    "horaCorte": "07:35",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -141,25 +141,6 @@
     },
     {
       "n": 8,
-      "idIntervencion": "10477",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio La Union – Sector El Filo",
-      "ficha": "N°067-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "fechaInicio": "02/09/2026",
-      "fechaFin": "23/09/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 9,
       "idIntervencion": "10517",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -178,7 +159,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "9635",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9642",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10289",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,7 +216,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10470",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "9485",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "9656",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "9654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +311,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "9655",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -349,7 +330,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -368,7 +349,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "9685",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10537",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10538",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10464",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
