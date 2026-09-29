@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/09/2026",
-    "horaCorte": "12:09",
+    "horaCorte": "12:40",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10222",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Huamachuco",
-      "sector": "Yanasara",
-      "ficha": "037-2026-LD-P-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RIO CURGOS, SECTOR YANASARA, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02",
-      "fechaInicio": "01/06/2026",
-      "fechaFin": "16/06/2026",
-      "diasAtraso": 105
-    },
-    {
-      "n": 3,
       "idIntervencion": "9828",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -64,7 +45,7 @@
       "diasAtraso": 86
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -83,7 +64,7 @@
       "diasAtraso": 28
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -102,7 +83,7 @@
       "diasAtraso": 24
     },
     {
-      "n": 6,
+      "n": 5,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -121,7 +102,7 @@
       "diasAtraso": 14
     },
     {
-      "n": 7,
+      "n": 6,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -138,6 +119,25 @@
       "fechaInicio": "18/09/2026",
       "fechaFin": "04/10/2026",
       "diasAtraso": 11
+    },
+    {
+      "n": 7,
+      "idIntervencion": "9642",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Río Huallaga",
+      "ficha": "N° 017-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "09/10/2026",
+      "diasAtraso": 4
     },
     {
       "n": 8,
@@ -160,25 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "9642",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Río Huallaga",
-      "ficha": "N° 017-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "09/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 10,
       "idIntervencion": "10289",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,64 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 11,
-      "idIntervencion": "10482",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Santiago De Chuco",
-      "distrito": "Quiruvilca",
-      "sector": "Pajillas",
-      "ficha": "070-2026-MTV-U-LIB",
-      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
-      "fechaInicio": "27/09/2026",
-      "fechaFin": "11/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 12,
-      "idIntervencion": "10470",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Cieneguilla",
-      "sector": "Tinajas",
-      "ficha": "123-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "marcoLegal": "II. ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "03/09/2026",
-      "fechaFin": "28/09/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 13,
-      "idIntervencion": "9485",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ICA",
-      "deptoLabel": "Ica",
-      "regionId": "ica",
-      "provincia": "Pisco",
-      "distrito": "Pisco",
-      "sector": "Pachinga",
-      "ficha": "FT I N°008-2026-LDP- ICA",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00",
-      "marcoLegal": "CONVENIO Nº034-2022-ADENDA 03 / PLIA",
-      "fechaInicio": "28/09/2026",
-      "fechaFin": "04/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
+      "n": 10,
       "idIntervencion": "9656",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 11,
       "idIntervencion": "9654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 12,
       "idIntervencion": "9655",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 13,
       "idIntervencion": "10262",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -330,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 14,
       "idIntervencion": "9685",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -349,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 15,
       "idIntervencion": "10537",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -368,26 +292,26 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
-      "idIntervencion": "10538",
+      "n": 16,
+      "idIntervencion": "9485",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Ascope",
-      "distrito": "Chicama",
-      "sector": "Huabalito",
-      "ficha": "075-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
-      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ICA",
+      "deptoLabel": "Ica",
+      "regionId": "ica",
+      "provincia": "Pisco",
+      "distrito": "Pisco",
+      "sector": "Pachinga",
+      "ficha": "FT I N°008-2026-LDP- ICA",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00",
+      "marcoLegal": "CONVENIO Nº034-2022-ADENDA 03 / PLIA",
       "fechaInicio": "28/09/2026",
-      "fechaFin": "27/10/2026",
+      "fechaFin": "04/10/2026",
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 17,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
