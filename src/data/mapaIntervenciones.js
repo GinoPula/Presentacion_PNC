@@ -901,13 +901,13 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "San Jacinto",
     "sector": "Vista Hermosa",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180   ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180    ",
     "ficha": "074-2026-LD-E-TUM",
     "fechaInicio": "25/09/2026",
     "fechaFin": "09/10/2026",
     "poblacion": 269,
-    "volumen": 835,
-    "km": 0.06,
+    "volumen": 1215,
+    "km": 0.09,
     "enlace": null
   }
 ],
@@ -2188,7 +2188,7 @@ const mapaIntervenciones = {
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
-    "volumen": 485,
+    "volumen": 500,
     "km": 0,
     "enlace": null
   },
