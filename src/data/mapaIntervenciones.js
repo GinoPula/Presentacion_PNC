@@ -4481,6 +4481,24 @@ const mapaIntervenciones = {
     "volumen": 2610,
     "km": 0.3,
     "enlace": null
+  },
+  {
+    "id": 10536,
+    "lat": -9.733453,
+    "lng": -77.449402,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Uchipampa - Aconan",
+    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ",
+    "ficha": "122-2026-LDP-ANC",
+    "fechaInicio": "22/09/2026",
+    "fechaFin": "06/10/2026",
+    "poblacion": 250,
+    "volumen": 434,
+    "km": 0.03,
+    "enlace": null
   }
 ],
   lambayeque: [
