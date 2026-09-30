@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 9939.0, kmAcum: 1.15, poblacion: 7456 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH   ', inicio: '16/09/2026', fin: '30/09/2026', volAcum: 2385.0, kmAcum: 0.16, poblacion: 300 },
-    { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 4695.0, kmAcum: 0.23, poblacion: 340 },
+    { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 6795.0, kmAcum: 0.32, poblacion: 340 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
