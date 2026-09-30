@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 20, m3: 191484.0, km: 21.8, poblacion: 270428, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
+    { tipo: 'Emergencia', cantidad: 21, m3: 202014.0, km: 23.72, poblacion: 270638, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
     { tipo: 'Prevención', cantidad: 15, m3: 95095.0, km: 11.71, poblacion: 265220, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 286699.0, m3AguaPotable: 120.0, km: 33.84, poblacion: 537228 },
+  ejecutadasTotal: { cantidad: 37, m3: 297229.0, m3AguaPotable: 120.0, km: 35.76, poblacion: 537438 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN       ', inicio: '25/07/2026', fin: '08/08/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 210 },
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN   ', inicio: '04/09/2026', fin: '03/10/2026', volAcum: 11685.0, kmAcum: 5.19, poblacion: 595 },
   ],
 
