@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN        ', inicio: '25/07/2026', fin: '08/08/2026', volAcum: 13675.0, kmAcum: 1.69, poblacion: 175 },
+    { provincia: 'Huancayo', distrito: 'Viques', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN        ', inicio: '25/07/2026', fin: '08/08/2026', volAcum: 9505.0, kmAcum: 1.9, poblacion: 175 },
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN   ', inicio: '04/09/2026', fin: '03/10/2026', volAcum: 11685.0, kmAcum: 5.19, poblacion: 595 },
   ],
 

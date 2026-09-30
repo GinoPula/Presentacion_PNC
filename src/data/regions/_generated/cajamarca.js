@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 22, m3: 148842.45, km: 10.22, poblacion: 13945, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 23, m3: 153978.05, km: 10.66, poblacion: 14070, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 46, m3: 198539.51, km: 160.99, poblacion: 56412, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 72, m3: 376931.96, m3AguaPotable: 3300.0, km: 173.06, poblacion: 72249 },
+  ejecutadasTotal: { cantidad: 73, m3: 382067.56, m3AguaPotable: 3300.0, km: 173.5, poblacion: 72374 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -20,9 +20,9 @@ export default {
     { provincia: 'Cutervo', distrito: 'Callayuc', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA".        ', inicio: '15/06/2026', fin: '02/10/2026', volAcum: 4430.0, kmAcum: 3.42, poblacion: 438 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ', inicio: '28/08/2026', fin: '06/10/2026', volAcum: 1305.0, kmAcum: 1.3, poblacion: 500 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '09/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
-    { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN EN LA QUEBRADA LA SALADA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+440, EN EL CENTRO POBLADO TABACAL, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ Y DEPARTAMENTO DE CAJAMARCA”. ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 5090.0, kmAcum: 0.43, poblacion: 125 },
     { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”  ', inicio: '18/09/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 87 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”', inicio: '22/09/2026', fin: '01/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 415 },
+    { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUERTAS, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+400, EN EL SECTOR LOS PINOS, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '30/09/2026', fin: '14/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 235 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -32,7 +32,6 @@ export default {
     { provincia: 'Cajamarca', distrito: 'Jesus', cantidad: 1, metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 1, metaVol: 6000.0, metaKm: 0.3, poblacion: 2000 },
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 2, metaVol: 6460.0, metaKm: 3.12, poblacion: 300 },
-    { provincia: 'Contumaza', distrito: 'Contumaza', cantidad: 1, metaVol: 5600.0, metaKm: 0.4, poblacion: 235 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
     { provincia: 'Jaen', distrito: 'Jaen', cantidad: 2, metaVol: 7441.31, metaKm: 1.17, poblacion: 900 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', cantidad: 2, metaVol: 10182.0, metaKm: 3.86, poblacion: 412 },
@@ -41,12 +40,11 @@ export default {
     { provincia: 'San Miguel', distrito: 'El Prado', cantidad: 1, metaVol: 3500.0, metaKm: 0.5, poblacion: 300 },
     { provincia: 'San Miguel', distrito: 'Tongod', cantidad: 1, metaVol: 600.0, metaKm: 0.43, poblacion: 150 },
   ],
-  programadasTotal: { cantidad: 17, metaVol: 73802.68, metaKm: 14.91, poblacion: 7037 },
+  programadasTotal: { cantidad: 16, metaVol: 68202.68, metaKm: 14.51, poblacion: 6802 },
 
   programadasDetalle: [
     { provincia: 'San Ignacio', distrito: 'Chirinos', sector: 'Caserio El Limon Y Sector El Laurel.', ficha: 'N°072-2026-RLEU-AMZ', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”\n\n', fechaInicio: '29/09/2026', fechaFin: '18/10/2026', metaVol: 8130.0, metaKm: 2.15, poblacion: 247 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', sector: 'Vista Hermosa - Caserio La Union', ficha: 'N°073-2026-MTVU-AMZ', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: SECTOR VISTA HERMOSA – CASERIO LA UNION, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”', fechaInicio: '30/09/2026', fechaFin: '09/10/2026', metaVol: 2052.0, metaKm: 1.71, poblacion: 165 },
-    { provincia: 'Contumaza', distrito: 'Contumaza', sector: 'Los Pinos', ficha: 'FTI N° 059-2026-LD-PI-CAJ', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUERTAS, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+400, EN EL SECTOR LOS PINOS, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.', fechaInicio: '30/09/2026', fechaFin: '14/10/2026', metaVol: 5600.0, metaKm: 0.4, poblacion: 235 },
     { provincia: 'Cajamarca', distrito: 'Namora', sector: 'Sector Jigón', ficha: 'FTI N° 030-2026-LD-PI-CAJ', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUILMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 0+615, EN EL SECTOR JIGÓN, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00               ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 2460.0, metaKm: 0.61, poblacion: null },
     { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Sector Tulpuna Y Mollepampa', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. \n(FALTA DE CONVENIO CON LA M.P. DE CAJAMARCA - SE EJECUTARÁ A SOLICITUD DEL GORE)    ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 5598.0, metaKm: 1.55, poblacion: 150 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).    ', fechaInicio: '19/10/2026', fechaFin: '02/11/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
