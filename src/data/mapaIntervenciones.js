@@ -4481,24 +4481,6 @@ const mapaIntervenciones = {
     "volumen": 2610,
     "km": 0.3,
     "enlace": null
-  },
-  {
-    "id": 10536,
-    "lat": -9.733453,
-    "lng": -77.449402,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Uchipampa - Aconan",
-    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH  ",
-    "ficha": "122-2026-LDP-ANC",
-    "fechaInicio": "22/09/2026",
-    "fechaFin": "06/10/2026",
-    "poblacion": 250,
-    "volumen": 434,
-    "km": 0.03,
-    "enlace": null
   }
 ],
   lambayeque: [
@@ -7757,10 +7739,10 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Lurigancho",
     "sector": "La Bocatoma De La Ptap Huachipa",
-    "descripcion": " DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM  AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA       ",
+    "descripcion": " DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM  AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA        ",
     "ficha": "111-2026-LDP-LIM",
     "fechaInicio": "07/09/2026",
-    "fechaFin": "06/10/2026",
+    "fechaFin": "02/10/2026",
     "poblacion": 2500000,
     "volumen": 19443.05,
     "km": 0.134,
@@ -11628,8 +11610,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 90,
-    "volumen": 305,
-    "km": 0.126,
+    "volumen": 485,
+    "km": 0.2,
     "enlace": null
   }
 ],
