@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "30/09/2026",
-    "horaCorte": "18:35",
+    "horaCorte": "19:05",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -141,63 +141,6 @@
     },
     {
       "n": 8,
-      "idIntervencion": "10262",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Andahuaylas",
-      "distrito": "Andarapa",
-      "sector": "C.p. Huampica/drenes",
-      "ficha": "FTI N° 042-2026-LDP-APU",
-      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
-      "marcoLegal": "CONVENIO N° 104-2025",
-      "fechaInicio": "28/09/2026",
-      "fechaFin": "14/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 9,
-      "idIntervencion": "9485",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ICA",
-      "deptoLabel": "Ica",
-      "regionId": "ica",
-      "provincia": "Pisco",
-      "distrito": "Pisco",
-      "sector": "Pachinga",
-      "ficha": "FT I N°008-2026-LDP- ICA",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00",
-      "marcoLegal": "CONVENIO Nº034-2022-ADENDA 03 / PLIA",
-      "fechaInicio": "28/09/2026",
-      "fechaFin": "04/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 10,
-      "idIntervencion": "9656",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Veintiseis De Octubre",
-      "sector": "Marcavelica",
-      "ficha": "FTI Nº013-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAJA HIDRAULICA DEL DREN MARCAVELICA DESDE LA PROGRESIVA 0+000 HASTA 0+388 KM EN EL SECTOR NUEVO HORIZONTE Y TUPAC AMARU DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00",
-      "marcoLegal": "CONVENIO N° 019-2025-VIVIENDA/VMVU/PNC-PLIA",
-      "fechaInicio": "28/09/2026",
-      "fechaFin": "02/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 11,
       "idIntervencion": "9553",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -216,7 +159,45 @@
       "diasAtraso": 2
     },
     {
-      "n": 12,
+      "n": 9,
+      "idIntervencion": "9656",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Veintiseis De Octubre",
+      "sector": "Marcavelica",
+      "ficha": "FTI Nº013-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAJA HIDRAULICA DEL DREN MARCAVELICA DESDE LA PROGRESIVA 0+000 HASTA 0+388 KM EN EL SECTOR NUEVO HORIZONTE Y TUPAC AMARU DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA\" -00",
+      "marcoLegal": "CONVENIO N° 019-2025-VIVIENDA/VMVU/PNC-PLIA",
+      "fechaInicio": "28/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 10,
+      "idIntervencion": "10262",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 104-2025",
+      "fechaInicio": "28/09/2026",
+      "fechaFin": "14/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 11,
       "idIntervencion": "10537",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -235,7 +216,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10574",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10576",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10555",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "9587",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10196",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
