@@ -22,17 +22,20 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 2, metaVol: 42420.0, metaKm: 0.75, poblacion: 3321 },
-    { provincia: 'Nasca', distrito: 'Vista Alegre', cantidad: 1, metaVol: 10500.0, metaKm: 0.35, poblacion: 380 },
+    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 2, metaVol: 19500.0, metaKm: 0.72, poblacion: 1200 },
+    { provincia: 'Pisco', distrito: 'Huancano', cantidad: 1, metaVol: 4500.0, metaKm: 0.75, poblacion: 200 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 57196.0, metaKm: 2.27, poblacion: 4841 },
+  programadasTotal: { cantidad: 7, metaVol: 70696.0, metaKm: 3.39, poblacion: 5861 },
 
   programadasDetalle: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°044-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA', fechaInicio: '05/10/2026', fechaFin: '10/10/2026', metaVol: 3240.0, metaKm: 0.07, poblacion: 1243 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada La Yesera', ficha: 'FT I N°043-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.', fechaInicio: '12/10/2026', fechaFin: '25/11/2026', metaVol: 39180.0, metaKm: 0.68, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00         ', fechaInicio: '11/11/2026', fechaFin: '13/11/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560 },
+    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huancano', ficha: 'FT I N°047-2026-LDE- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA', fechaInicio: '12/10/2026', fechaFin: '21/10/2026', metaVol: 4500.0, metaKm: 0.75, poblacion: 200 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°002-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                   ', fechaInicio: '01/11/2026', fechaFin: '12/11/2026', metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
+    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°015-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO II, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00       ', fechaInicio: '15/11/2026', fechaFin: '26/11/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 600 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00               ', fechaInicio: '01/12/2026', fechaFin: '07/12/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
-    { provincia: 'Nasca', distrito: 'Vista Alegre', sector: 'Copara La Joya', ficha: 'FT I N°007-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO LAS TRANCAS, SECTOR COPARA LA JOYA TRAMO I, DISTRITO DE VISTA ALEGRE, PROVINCIA NASCA, REGION ICA-00      ', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10500.0, metaKm: 0.35, poblacion: 380 },
+    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00          ', fechaInicio: '11/12/2026', fechaFin: '13/12/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560 },
   ],
 
   conveniosCount: 4,

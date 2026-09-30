@@ -23,7 +23,7 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Jorge Basadre', distrito: 'Ite', cantidad: 1, metaVol: 500.0, metaKm: 0.0, poblacion: 500 },
+    { provincia: 'Jorge Basadre', distrito: 'Ite', cantidad: 1, metaVol: 935.0, metaKm: 0.0, poblacion: 850 },
     { provincia: 'Jorge Basadre', distrito: 'Locumba', cantidad: 1, metaVol: 6000.0, metaKm: 0.4, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Calana', cantidad: 1, metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 1, metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
@@ -32,10 +32,10 @@ export default {
     { provincia: 'Tacna', distrito: 'Sama', cantidad: 3, metaVol: 8540.6, metaKm: 6.4, poblacion: 970 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 11, metaVol: 51140.6, metaKm: 9.1, poblacion: 24320 },
+  programadasTotal: { cantidad: 11, metaVol: 51575.6, metaKm: 9.1, poblacion: 24670 },
 
   programadasDetalle: [
-    { provincia: 'Jorge Basadre', distrito: 'Ite', sector: 'Ite Y Anexos', ficha: '049-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA  ', fechaInicio: '05/10/2026', fechaFin: '03/12/2026', metaVol: 500.0, metaKm: 0.0, poblacion: 500 },
+    { provincia: 'Jorge Basadre', distrito: 'Ite', sector: 'Ite Y Anexos', ficha: '049-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA   ', fechaInicio: '05/10/2026', fechaFin: '03/12/2026', metaVol: 935.0, metaKm: 0.0, poblacion: 850 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA          ', fechaInicio: '12/10/2026', fechaFin: '31/10/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos V Etapa', ficha: '048-2026-AA-U-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '12/10/2026', fechaFin: '10/12/2026', metaVol: 600.6, metaKm: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos Iv Etapa', ficha: '047-2026-AA-U-TAC', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '20/10/2026', fechaFin: '18/12/2026', metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
