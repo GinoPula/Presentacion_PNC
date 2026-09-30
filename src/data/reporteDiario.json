@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "30/09/2026",
-    "horaCorte": "17:35",
+    "horaCorte": "18:05",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -45,10 +45,10 @@
       "fechaInicio": "18/09/2026",
       "fechaFin": "18/10/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "TRACTOR SOBRE ORUGA ( 82454)",
         "CAMIONETA ( EAJ-733)",
-        "REMOLCADOR ( EAJ-560)"
+        "REMOLCADOR ( EAJ-560)",
+        "TRACTOR SOBRE ORUGA ( 82454)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)"
       ]
     },
     {
@@ -226,8 +226,8 @@
       "fechaFin": "02/10/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-785)",
-        "VOLQUETE ( EGM-882)",
-        "EXCAVADORA HIDRAULICA ( 85464)"
+        "EXCAVADORA HIDRAULICA ( 85464)",
+        "VOLQUETE ( EGM-882)"
       ]
     },
     {
@@ -387,22 +387,22 @@
     },
     {
       "n": 20,
-      "idIntervencion": "10389",
+      "idIntervencion": "10390",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
       "regionId": "junin",
       "provincia": "Huancayo",
-      "distrito": "Viques",
+      "distrito": "Chupuro",
       "sector": "Zona Urbana",
       "tipo": "EMERGENCIA",
       "marcoLegal": "D.S. N° 106-2026-PCM",
-      "descripcion": "LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN",
+      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN",
       "fechaInicio": "25/07/2026",
       "fechaFin": "08/08/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-871)",
-        "CARGADOR FRONTAL ( JLX00220)",
-        "REMOLCADOR ( EGN-004)"
+        "CARGADOR FRONTAL ( JLX00221)",
+        "REMOLCADOR ( EGN-004)",
+        "VOLQUETE ( EGV-812)"
       ]
     },
     {
@@ -482,8 +482,8 @@
       "maquinaria": [
         "CARGADOR FRONTAL ( D001614)",
         "VOLQUETE ( EGV-833)",
-        "REMOLCADOR ( EAJ-387)",
-        "PLATAFORMA (CAMA BAJA) ( EAK-067)"
+        "PLATAFORMA (CAMA BAJA) ( EAK-067)",
+        "REMOLCADOR ( EAJ-387)"
       ]
     },
     {
@@ -578,9 +578,9 @@
       "fechaInicio": "10/09/2026",
       "fechaFin": "02/10/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10912)",
+        "CARGADOR FRONTAL ( D001610)",
         "VOLQUETE ( EGV-811)",
-        "CARGADOR FRONTAL ( D001610)"
+        "EXCAVADORA HIDRAULICA ( A10912)"
       ]
     },
     {
@@ -654,10 +654,10 @@
       "fechaInicio": "07/09/2026",
       "fechaFin": "02/10/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00293)",
+        "VOLQUETE ( EGV-825)",
         "EXCAVADORA HIDRAULICA ( TJT10116)",
         "TRACTOR SOBRE ORUGA ( 82541)",
-        "VOLQUETE ( EGV-825)",
+        "CARGADOR FRONTAL ( JLX00293)",
         "VOLQUETE ( EGV-840)"
       ]
     },
@@ -967,12 +967,12 @@
       "fechaFin": "03/10/2026",
       "maquinaria": [
         "REMOLCADOR ( EAJ-355)",
+        "VOLQUETE ( EAJ-395)",
         "VOLQUETE ( EAJ-392)",
-        "CAMIONETA ( EGM-052)",
-        "CARGADOR FRONTAL ( D001613)",
-        "EXCAVADORA HIDRAULICA ( TJT10094)",
         "VOLQUETE ( EAJ-394)",
-        "VOLQUETE ( EAJ-395)"
+        "CARGADOR FRONTAL ( D001613)",
+        "CAMIONETA ( EGM-052)",
+        "EXCAVADORA HIDRAULICA ( TJT10094)"
       ]
     }
   ]

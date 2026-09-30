@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "30/09/2026",
-    "horaCorte": "17:35",
+    "horaCorte": "18:05",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -46,7 +46,7 @@
     },
     {
       "n": 3,
-      "idIntervencion": "10389",
+      "idIntervencion": "10390",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
       "tipo": "EMERGENCIA",
@@ -54,10 +54,10 @@
       "deptoLabel": "Junin",
       "regionId": "junin",
       "provincia": "Huancayo",
-      "distrito": "Viques",
+      "distrito": "Chupuro",
       "sector": "Zona Urbana",
-      "ficha": "061-2026-LETV-E-JUN",
-      "descripcion": "LIMPIEZA Y REMOCIÓN DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN",
+      "ficha": "062-2026-LETV-E-JUN",
+      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN",
       "marcoLegal": "D.S. N° 106-2026-PCM",
       "fechaInicio": "25/07/2026",
       "fechaFin": "08/08/2026",
