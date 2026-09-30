@@ -7865,11 +7865,11 @@ const mapaIntervenciones = {
     "provincia": "Yauyos",
     "distrito": "Yauyos",
     "sector": "Sector Critico N° 03-Puente Auco",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+480 HASTA LA PROGRESIVA 0+640) KM, EN EL SECTOR CRÍTICO N°04: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA  ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+480 HASTA LA PROGRESIVA 0+640) KM, EN EL SECTOR CRÍTICO N°04: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA   ",
     "ficha": "127-2026-LDP-LIM",
     "fechaInicio": "29/09/2026",
     "fechaFin": "13/10/2026",
-    "poblacion": null,
+    "poblacion": 98,
     "volumen": 10656.9,
     "km": 0.16,
     "enlace": null
@@ -8880,8 +8880,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 720,
-    "volumen": 2250,
-    "km": 0.45,
+    "volumen": 2550,
+    "km": 0.51,
     "enlace": null
   }
 ],

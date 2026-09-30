@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "30/09/2026",
-    "horaCorte": "21:07",
+    "horaCorte": "21:38",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -663,24 +663,6 @@
     },
     {
       "n": 34,
-      "idIntervencion": "9403",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "San Juan Bautista",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "08/08/2026",
-      "fechaFin": "06/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGO-773)"
-      ]
-    },
-    {
-      "n": 35,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -695,6 +677,24 @@
       "fechaFin": "24/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGQ-789)"
+      ]
+    },
+    {
+      "n": 35,
+      "idIntervencion": "9403",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "San Juan Bautista",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "08/08/2026",
+      "fechaFin": "06/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-773)"
       ]
     },
     {
