@@ -4375,6 +4375,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10462,
+    "lat": -9.135491,
+    "lng": -78.558785,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "sector": "Villa María – 3 De Octubre",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ",
+    "ficha": "111-2026-LDP-ANC-ANIN",
+    "fechaInicio": "28/08/2026",
+    "fechaFin": "08/10/2026",
+    "poblacion": 7456,
+    "volumen": 9939,
+    "km": 1.154,
+    "enlace": null
+  },
+  {
     "id": 10428,
     "lat": -9.736122,
     "lng": -77.44779,
