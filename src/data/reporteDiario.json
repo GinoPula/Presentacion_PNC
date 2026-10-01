@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "01/10/2026",
-    "horaCorte": "19:57",
+    "horaCorte": "20:27",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -158,6 +158,25 @@
     },
     {
       "n": 8,
+      "idIntervencion": "10507",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Caraveli",
+      "distrito": "Caraveli",
+      "sector": "A.h. Isidoro Berrocal",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/09/2026",
+      "fechaFin": "10/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-980)",
+        "CAMIONETA ( EGM-015)"
+      ]
+    },
+    {
+      "n": 9,
       "idIntervencion": "10505",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -176,25 +195,6 @@
         "CAMIONETA ( EGM-015)",
         "EXCAVADORA HIDRAULICA ( A10856)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)"
-      ]
-    },
-    {
-      "n": 9,
-      "idIntervencion": "10507",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "A.h. Isidoro Berrocal",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "10/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
-        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -292,24 +292,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10574",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio El Limon Y Sector El Laurel.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
-      ]
-    },
-    {
-      "n": 16,
       "idIntervencion": "10580",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -331,7 +313,43 @@
       ]
     },
     {
+      "n": 16,
+      "idIntervencion": "10574",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Limon Y Sector El Laurel.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
+      ]
+    },
+    {
       "n": 17,
+      "idIntervencion": "10554",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "C.p. San Francisco",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "01/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81371)"
+      ]
+    },
+    {
+      "n": 18,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -347,24 +365,6 @@
       "maquinaria": [
         "VOLQUETE ( EGV-826)",
         "VOLQUETE ( EGN-591)"
-      ]
-    },
-    {
-      "n": 18,
-      "idIntervencion": "10554",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "01/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81371)"
       ]
     },
     {
@@ -479,7 +479,7 @@
       "sector": "",
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA “RIO SECO” EN EL SECTOR DEL CENTRO POBLADO “LA CURVA” DEL DISTRITO DE CAYALTI, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE 1.50 KM DEL CAUCE DE LA QUEBRADA “RIO SECO” – TRAMO I EN LOS SECTORES DE LOS CENTROS POBLADOS “GUAYAQUIL”, “LA CURVA” Y “SAUCE” DEL DISTRITO DE CAYALTI, PROVINCIA CHICLAYO, REGION LAMBAYEQUE",
       "fechaInicio": "30/09/2026",
       "fechaFin": "12/10/2026",
       "maquinaria": [
@@ -724,24 +724,6 @@
     },
     {
       "n": 37,
-      "idIntervencion": "9403",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "San Juan Bautista",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "08/08/2026",
-      "fechaFin": "03/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGO-773)"
-      ]
-    },
-    {
-      "n": 38,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -756,6 +738,24 @@
       "fechaFin": "24/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGQ-789)"
+      ]
+    },
+    {
+      "n": 38,
+      "idIntervencion": "9403",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "San Juan Bautista",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "08/08/2026",
+      "fechaFin": "03/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-773)"
       ]
     },
     {
@@ -914,25 +914,6 @@
     },
     {
       "n": 47,
-      "idIntervencion": "10493",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "15/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGM-976)",
-        "CAMIONETA ( EGM-052)"
-      ]
-    },
-    {
-      "n": 48,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -947,6 +928,25 @@
       "fechaFin": "13/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-007)",
+        "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
+      "n": 48,
+      "idIntervencion": "10493",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "15/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGM-976)",
         "CAMIONETA ( EGM-052)"
       ]
     },
