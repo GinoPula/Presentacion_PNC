@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "01/10/2026",
-    "horaCorte": "04:45",
+    "horaCorte": "05:16",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO N°04-2026-VIVIENDA/VMVU/PNC",
       "fechaInicio": "30/09/2025",
       "fechaFin": "14/10/2025",
-      "diasAtraso": 351
+      "diasAtraso": 352
     },
     {
       "n": 2,
@@ -42,29 +42,10 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 87
+      "diasAtraso": 88
     },
     {
       "n": 3,
-      "idIntervencion": "10348",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "San Martin",
-      "distrito": "El Porvenir",
-      "sector": "Pelejo",
-      "ficha": "036-2026-MTV-U-SAM",
-      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°014-2026-MDP-P/A.",
-      "fechaInicio": "31/07/2026",
-      "fechaFin": "02/09/2026",
-      "diasAtraso": 28
-    },
-    {
-      "n": 4,
       "idIntervencion": "10445",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -80,7 +61,26 @@
       "marcoLegal": "CONVENIO N° 20-2025-VIVIENDA/VMVU/PNC",
       "fechaInicio": "08/09/2026",
       "fechaFin": "02/09/2026",
-      "diasAtraso": 28
+      "diasAtraso": 29
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10348",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "San Martin",
+      "distrito": "El Porvenir",
+      "sector": "Pelejo",
+      "ficha": "036-2026-MTV-U-SAM",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°014-2026-MDP-P/A.",
+      "fechaInicio": "31/07/2026",
+      "fechaFin": "02/09/2026",
+      "diasAtraso": 29
     },
     {
       "n": 5,
@@ -99,29 +99,10 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "06/09/2026",
       "fechaFin": "20/09/2026",
-      "diasAtraso": 24
+      "diasAtraso": 25
     },
     {
       "n": 6,
-      "idIntervencion": "9642",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Río Huallaga",
-      "ficha": "N° 017-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "09/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 7,
       "idIntervencion": "9635",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -137,7 +118,26 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
+    },
+    {
+      "n": 7,
+      "idIntervencion": "9642",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Río Huallaga",
+      "ficha": "N° 017-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO\"-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "09/10/2026",
+      "diasAtraso": 6
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "28/09/2026",
       "fechaFin": "12/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO N° 019-2025-VIVIENDA/VMVU/PNC-PLIA",
       "fechaInicio": "28/09/2026",
       "fechaFin": "02/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "28/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "28/09/2026",
       "fechaFin": "23/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 12,
@@ -232,48 +232,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "29/09/2026",
       "fechaFin": "18/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 13,
-      "idIntervencion": "10576",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Talara",
-      "distrito": "Los Organos",
-      "sector": "Los Organos Y El Ñuro",
-      "ficha": "FTI N°077-2026-AA-U-PIU",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA",
-      "marcoLegal": "ACUERDO DE CONSEJO N°024-2026/CM",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "28/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
-      "idIntervencion": "10555",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
-      "ficha": "116-2026-LDE-ANC- FEN ANA",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 15,
       "idIntervencion": "9587",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -289,7 +251,45 @@
       "marcoLegal": "ADENDA Nº 02-2025 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC",
       "fechaInicio": "29/09/2026",
       "fechaFin": "12/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10576",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Talara",
+      "distrito": "Los Organos",
+      "sector": "Los Organos Y El Ñuro",
+      "ficha": "FTI N°077-2026-AA-U-PIU",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA",
+      "marcoLegal": "ACUERDO DE CONSEJO N°024-2026/CM",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10555",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Cascajal Bajo – La Cuadra",
+      "ficha": "116-2026-LDE-ANC- FEN ANA",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "diasAtraso": 2
     },
     {
       "n": 16,
@@ -308,6 +308,101 @@
       "marcoLegal": "CONVENIO Nº070-2025",
       "fechaInicio": "29/09/2026",
       "fechaFin": "12/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10538",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Ascope",
+      "distrito": "Chicama",
+      "sector": "Huabalito",
+      "ficha": "075-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
+      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "29/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10580",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Vista Hermosa - Caserio La Union",
+      "ficha": "N°073-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: SECTOR VISTA HERMOSA – CASERIO LA UNION, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "09/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10482",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Santiago De Chuco",
+      "distrito": "Quiruvilca",
+      "sector": "Pajillas",
+      "ficha": "070-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "14/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 20,
+      "idIntervencion": "10502",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "El Carmen De La Frontera",
+      "sector": "Sapun Bajo",
+      "ficha": "FTI N°130-2026-MTV-U-PIU",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA",
+      "marcoLegal": "ACUERDO DE CONCEJO N°012-2026-MDCF/CM-SE N°012-2026-MDCF/CM",
+      "fechaInicio": "15/09/2026",
+      "fechaFin": "30/09/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10498",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "ficha": "129-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
+      "fechaInicio": "08/09/2026",
+      "fechaFin": "30/09/2026",
       "diasAtraso": 1
     }
   ]
