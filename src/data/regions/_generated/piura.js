@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 20, m3: 121372.53, km: 31.91, poblacion: 30530, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 29, m3: 161103.12, km: 51.45, poblacion: 115937, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
-    { tipo: 'Urgente atención', cantidad: 9, m3: 34667.5, km: 28.15, poblacion: 14258, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Urgente atención', cantidad: 10, m3: 37117.5, km: 30.95, poblacion: 14605, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 58, m3: 317143.15, m3AguaPotable: 255.0, km: 111.51, poblacion: 160725 },
+  ejecutadasTotal: { cantidad: 59, m3: 319593.15, m3AguaPotable: 255.0, km: 114.31, poblacion: 161072 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,9 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA      ', inicio: '15/09/2026', fin: '29/09/2026', volAcum: 2450.0, kmAcum: 2.8, poblacion: 347 },
-    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 1700.0, kmAcum: 0.33, poblacion: 9200 },
-    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '28/09/2026', fin: '10/10/2026', volAcum: 72.0, kmAcum: 0.2, poblacion: 60 },
+    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 3650.0, kmAcum: 0.68, poblacion: 9200 },
+    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '28/09/2026', fin: '10/10/2026', volAcum: 282.0, kmAcum: 0.75, poblacion: 60 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
