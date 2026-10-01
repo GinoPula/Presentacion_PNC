@@ -9727,7 +9727,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchachuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                   ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                    ",
     "ficha": "03-2026-LD-PI-AYAC",
     "fechaInicio": "11/09/2026",
     "fechaFin": "19/09/2026",
@@ -9763,7 +9763,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Arizona",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.         ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.          ",
     "ficha": "42-2025-LD-PI-AYAC",
     "fechaInicio": "28/09/2026",
     "fechaFin": "12/10/2026",
@@ -11700,8 +11700,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 90,
-    "volumen": 485,
-    "km": 0.2,
+    "volumen": 675,
+    "km": 0.278,
     "enlace": null
   }
 ],
