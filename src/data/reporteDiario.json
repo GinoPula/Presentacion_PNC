@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "01/10/2026",
-    "horaCorte": "14:53",
+    "horaCorte": "15:24",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -292,6 +292,24 @@
     },
     {
       "n": 15,
+      "idIntervencion": "10554",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "C.p. San Francisco",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "01/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81371)"
+      ]
+    },
+    {
+      "n": 16,
       "idIntervencion": "10464",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -307,24 +325,6 @@
       "maquinaria": [
         "VOLQUETE ( EGN-591)",
         "VOLQUETE ( EGV-826)"
-      ]
-    },
-    {
-      "n": 16,
-      "idIntervencion": "10554",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "01/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81371)"
       ]
     },
     {
@@ -749,7 +749,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°012-2026-MDCF/CM-SE N°012-2026-MDCF/CM",
       "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO SAPUN BAJO - YUMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN PIURA",
       "fechaInicio": "15/09/2026",
-      "fechaFin": "01/10/2026",
+      "fechaFin": "29/09/2026",
       "maquinaria": [
         "MOTONIVELADORA ( SZL03374)",
         "VOLQUETE ( EGV-807)",
