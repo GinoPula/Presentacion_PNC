@@ -4388,8 +4388,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
-    "volumen": 11057,
-    "km": 1.284,
+    "volumen": 11659,
+    "km": 1.354,
     "enlace": null
   },
   {
@@ -9275,7 +9275,7 @@ const mapaIntervenciones = {
     "provincia": "Andahuaylas",
     "distrito": "Talavera",
     "sector": "Puente Santa Rosa – Puente Orcconmayo/Rio Chumbao.",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 2+100 AL KM 0+000 (PUENTE SANTA ROSA – PUENTE ORCCONMAYO) EN EL DISTRITO DE TALAVERA, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC”-00       ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 2+100 AL KM 0+000 (PUENTE SANTA ROSA – PUENTE ORCCONMAYO) EN EL DISTRITO DE TALAVERA, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC”-00        ",
     "ficha": "FTI N°39-2026-LD-P-APU",
     "fechaInicio": "30/07/2026",
     "fechaFin": "20/08/2026",
@@ -9293,7 +9293,7 @@ const mapaIntervenciones = {
     "provincia": "Abancay",
     "distrito": "Abancay",
     "sector": "Lucmapampa",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.           ",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CHINCHICHACA DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR LUCMAPAMPA, DISTRITO ABANCAY, PROVINCIA DE ABANCAY, REGIÓN  APURÍMAC”.            ",
     "ficha": "FTI N° 043-2026-LDP-APU",
     "fechaInicio": "17/08/2026",
     "fechaFin": "19/09/2026",
