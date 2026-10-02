@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
-    { tipo: 'Urgente atención', cantidad: 13, m3: 24654.6, km: 21.98, poblacion: 9900, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja'] },
+    { tipo: 'Urgente atención', cantidad: 14, m3: 26079.6, km: 24.83, poblacion: 10450, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja', 'San Martin'] },
   ],
-  ejecutadasTotal: { cantidad: 17, m3: 38793.75, m3AguaPotable: 6555.0, km: 29.14, poblacion: 11300 },
+  ejecutadasTotal: { cantidad: 18, m3: 40218.75, m3AguaPotable: 6555.0, km: 31.99, poblacion: 11850 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,8 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DE LA LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN         ', inicio: '31/07/2026', fin: '02/09/2026', volAcum: 1335.0, kmAcum: 2.67, poblacion: 550 },
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                 ', inicio: '08/09/2026', fin: '02/09/2026', volAcum: 2405.0, kmAcum: 0.24, poblacion: 500 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                  ', inicio: '08/09/2026', fin: '06/10/2026', volAcum: 2405.0, kmAcum: 0.24, poblacion: 500 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN      ', inicio: '15/09/2026', fin: '14/10/2026', volAcum: 690.0, kmAcum: 0.0, poblacion: 1125 },
   ],
 
