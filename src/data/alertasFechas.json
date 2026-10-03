@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/10/2026",
-    "horaCorte": "11:30",
+    "horaCorte": "12:00",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -540,25 +540,6 @@
     },
     {
       "n": 29,
-      "idIntervencion": "10469",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Camana",
-      "distrito": "Ocoña",
-      "sector": "Varios Anexos",
-      "ficha": "75-2026-AA-U-ARE",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 01-2026-MDO",
-      "fechaInicio": "03/09/2026",
-      "fechaFin": "02/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 30,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -577,7 +558,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 31,
+      "n": 30,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -596,7 +577,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 32,
+      "n": 31,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -615,7 +596,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 33,
+      "n": 32,
       "idIntervencion": "10365",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
