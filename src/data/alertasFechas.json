@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/10/2026",
-    "horaCorte": "04:55",
+    "horaCorte": "05:26",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO N°04-2026-VIVIENDA/VMVU/PNC",
       "fechaInicio": "30/09/2025",
       "fechaFin": "14/10/2025",
-      "diasAtraso": 353
+      "diasAtraso": 354
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "05/07/2026",
       "fechaFin": "24/07/2026",
-      "diasAtraso": 89
+      "diasAtraso": 90
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "06/09/2026",
       "fechaFin": "20/09/2026",
-      "diasAtraso": 26
+      "diasAtraso": 27
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "25/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "28/09/2026",
       "fechaFin": "12/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO N° 019-2025-VIVIENDA/VMVU/PNC-PLIA",
       "fechaInicio": "28/09/2026",
       "fechaFin": "02/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 8,
@@ -156,48 +156,10 @@
       "marcoLegal": "CONVENIO N° 104-2025",
       "fechaInicio": "28/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 9,
-      "idIntervencion": "10555",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
-      "ficha": "116-2026-LDE-ANC- FEN ANA",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 10,
-      "idIntervencion": "10576",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Talara",
-      "distrito": "Los Organos",
-      "sector": "Los Organos Y El Ñuro",
-      "ficha": "FTI N°077-2026-AA-U-PIU",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA",
-      "marcoLegal": "ACUERDO DE CONSEJO N°024-2026/CM",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "28/10/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 11,
       "idIntervencion": "9587",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -213,29 +175,48 @@
       "marcoLegal": "ADENDA Nº 02-2025 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC",
       "fechaInicio": "29/09/2026",
       "fechaFin": "12/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
-      "n": 12,
-      "idIntervencion": "10538",
+      "n": 10,
+      "idIntervencion": "10555",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
       "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Ascope",
-      "distrito": "Chicama",
-      "sector": "Huabalito",
-      "ficha": "075-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
-      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
-      "fechaInicio": "30/09/2026",
-      "fechaFin": "29/10/2026",
-      "diasAtraso": 2
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Cascajal Bajo – La Cuadra",
+      "ficha": "116-2026-LDE-ANC- FEN ANA",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "diasAtraso": 4
     },
     {
-      "n": 13,
+      "n": 11,
+      "idIntervencion": "10576",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Talara",
+      "distrito": "Los Organos",
+      "sector": "Los Organos Y El Ñuro",
+      "ficha": "FTI N°077-2026-AA-U-PIU",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA",
+      "marcoLegal": "ACUERDO DE CONSEJO N°024-2026/CM",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 12,
       "idIntervencion": "10498",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -251,10 +232,10 @@
       "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
       "fechaInicio": "08/09/2026",
       "fechaFin": "30/09/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -270,7 +251,26 @@
       "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
       "fechaInicio": "30/09/2026",
       "fechaFin": "14/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10538",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Ascope",
+      "distrito": "Chicama",
+      "sector": "Huabalito",
+      "ficha": "075-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
+      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "29/10/2026",
+      "diasAtraso": 3
     },
     {
       "n": 15,
@@ -289,7 +289,7 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "01/10/2026",
       "fechaFin": "10/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 16,
@@ -308,7 +308,7 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "01/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 17,
@@ -327,48 +327,10 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "01/10/2026",
       "fechaFin": "15/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 18,
-      "idIntervencion": "9625",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Abancay",
-      "distrito": "Curahuasi",
-      "sector": "Lucmos/rio Lucmos",
-      "ficha": "FTI N°011-2026-LD-P-APU",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LUCMOS, EN EL SECTOR CHECCEMAYO, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 1+220 KM, DISTRITO DE CURAHUASI, PROVINCIA DE ABANCAY, REGION APURIMAC”-00",
-      "marcoLegal": "CONVENIO Nº033-2025",
-      "fechaInicio": "01/10/2026",
-      "fechaFin": "24/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 19,
-      "idIntervencion": "9355",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Amarilis",
-      "sector": "Quebrada Jancao",
-      "ficha": "N° 003-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA JANCAO, AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+000, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO”-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "01/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 20,
       "idIntervencion": "9352",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -384,10 +346,10 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "01/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 21,
+      "n": 19,
       "idIntervencion": "10554",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -403,10 +365,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
       "fechaInicio": "22/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 22,
+      "n": 20,
       "idIntervencion": "9605",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -422,10 +384,10 @@
       "marcoLegal": "CONVENIO Nº093-2023-ADENDA 02",
       "fechaInicio": "01/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 23,
+      "n": 21,
       "idIntervencion": "9643",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -441,10 +403,10 @@
       "marcoLegal": "CONVENIO Nº093-2023-ADENDA 02",
       "fechaInicio": "01/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 24,
+      "n": 22,
       "idIntervencion": "9640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -460,10 +422,10 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "01/10/2026",
       "fechaFin": "15/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 25,
+      "n": 23,
       "idIntervencion": "9354",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -479,6 +441,196 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "01/10/2026",
       "fechaFin": "30/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 24,
+      "idIntervencion": "9625",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Abancay",
+      "distrito": "Curahuasi",
+      "sector": "Lucmos/rio Lucmos",
+      "ficha": "FTI N°011-2026-LD-P-APU",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LUCMOS, EN EL SECTOR CHECCEMAYO, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 1+220 KM, DISTRITO DE CURAHUASI, PROVINCIA DE ABANCAY, REGION APURIMAC”-00",
+      "marcoLegal": "CONVENIO Nº033-2025",
+      "fechaInicio": "01/10/2026",
+      "fechaFin": "24/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 25,
+      "idIntervencion": "9355",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Amarilis",
+      "sector": "Quebrada Jancao",
+      "ficha": "N° 003-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA JANCAO, AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+000, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO”-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "01/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 26,
+      "idIntervencion": "10381",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Chaclacayo",
+      "sector": "Cusipata",
+      "ficha": "118-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y RFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO II, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
+      "marcoLegal": "ADENDA N°2 CONVENIO Nº 008-2024-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 27,
+      "idIntervencion": "10459",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Huarmey",
+      "distrito": "Huarmey",
+      "sector": "Panamericana Norte",
+      "ficha": "091-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "fechaInicio": "16/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 28,
+      "idIntervencion": "10460",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Ate",
+      "sector": "Asoc. Los Jardines",
+      "ficha": "122-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA S, SECTOR LOS JARDINES ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "31/08/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 29,
+      "idIntervencion": "10469",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Camana",
+      "distrito": "Ocoña",
+      "sector": "Varios Anexos",
+      "ficha": "75-2026-AA-U-ARE",
+      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N° 01-2026-MDO",
+      "fechaInicio": "03/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 30,
+      "idIntervencion": "10483",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "Pishauli",
+      "ficha": "072-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
+      "fechaInicio": "10/09/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 31,
+      "idIntervencion": "9589",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "Km 50",
+      "ficha": "FTI N° 055-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA KM 50, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA -00",
+      "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
+      "fechaInicio": "02/10/2026",
+      "fechaFin": "10/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 32,
+      "idIntervencion": "10294",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "Callayuc",
+      "sector": "San Francisco - C.p El Cumbe – La Union",
+      "ficha": "N°051-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
+      "fechaInicio": "15/06/2026",
+      "fechaFin": "02/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 33,
+      "idIntervencion": "10365",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "La Bocatoma De La Ptap Huachipa",
+      "ficha": "111-2026-LDP-LIM",
+      "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+300 KM AL 0+650 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA",
+      "marcoLegal": "CONVENIO N° 105-2025 VIVIENDA/VMVU/PNC",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "02/10/2026",
       "diasAtraso": 1
     }
   ]
