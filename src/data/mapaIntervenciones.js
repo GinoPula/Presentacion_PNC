@@ -5218,8 +5218,8 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 1422,
-    "volumen": 3840,
-    "km": 0.49,
+    "volumen": 4852.5,
+    "km": 0.61,
     "enlace": null
   },
   {
