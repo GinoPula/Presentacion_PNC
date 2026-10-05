@@ -713,24 +713,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
-    "id": 10340,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "",
-    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
-    "ficha": "061-2026-AA-U-TUM",
-    "fechaInicio": "08/07/2026",
-    "fechaFin": "05/08/2026",
-    "poblacion": 1356,
-    "volumen": 585,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10354,
     "lat": -3.642479,
     "lng": -80.592653,
@@ -747,6 +729,24 @@ const mapaIntervenciones = {
     "volumen": 900,
     "km": 0.5,
     "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
+  },
+  {
+    "id": 10340,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "",
+    "descripcion": "\"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”   ",
+    "ficha": "061-2026-AA-U-TUM",
+    "fechaInicio": "08/07/2026",
+    "fechaFin": "05/08/2026",
+    "poblacion": 1356,
+    "volumen": 585,
+    "km": 0,
+    "enlace": null
   },
   {
     "id": 10373,
@@ -908,6 +908,24 @@ const mapaIntervenciones = {
     "poblacion": 269,
     "volumen": 3555,
     "km": 0.24,
+    "enlace": null
+  },
+  {
+    "id": 9524,
+    "lat": -3.562355,
+    "lng": -80.428884,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "Tumbes",
+    "sector": "José Lishner Tudela Y Alipio Rosales",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ",
+    "ficha": "020-2026-LD-PI-TUM",
+    "fechaInicio": "04/10/2026",
+    "fechaFin": "18/10/2026",
+    "poblacion": 6005,
+    "volumen": 11414.2,
+    "km": 1.052,
     "enlace": null
   }
 ],
@@ -7798,8 +7816,8 @@ const mapaIntervenciones = {
     "fechaInicio": "08/09/2026",
     "fechaFin": "30/09/2026",
     "poblacion": 1000,
-    "volumen": 4188,
-    "km": 0.155,
+    "volumen": 5124,
+    "km": 0.185,
     "enlace": null
   },
   {
@@ -7816,8 +7834,8 @@ const mapaIntervenciones = {
     "fechaInicio": "10/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 1050,
-    "volumen": 4170,
-    "km": 0.191,
+    "volumen": 5490,
+    "km": 0.235,
     "enlace": null
   },
   {

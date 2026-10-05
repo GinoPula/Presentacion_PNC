@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/10/2026",
-    "horaCorte": "03:05",
+    "horaCorte": "03:35",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -278,6 +278,24 @@
     },
     {
       "n": 14,
+      "idIntervencion": "10574",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Limon Y Sector El Laurel.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
+      ]
+    },
+    {
+      "n": 15,
       "idIntervencion": "10580",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -296,24 +314,6 @@
         "VOLQUETE ( EGV-848)",
         "RODILLO COMPACTADOR ( H1762462)",
         "VOLQUETE ( EGV-774)"
-      ]
-    },
-    {
-      "n": 15,
-      "idIntervencion": "10574",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio El Limon Y Sector El Laurel.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
       ]
     },
     {
@@ -883,25 +883,6 @@
     },
     {
       "n": 45,
-      "idIntervencion": "10493",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "15/10/2026",
-      "maquinaria": [
-        "CAMIONETA ( EGM-052)",
-        "CAMION CISTERNA DE AGUA ( EGM-976)"
-      ]
-    },
-    {
-      "n": 46,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -917,6 +898,25 @@
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-007)",
         "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
+      "n": 46,
+      "idIntervencion": "10493",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "15/10/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-052)",
+        "CAMION CISTERNA DE AGUA ( EGM-976)"
       ]
     },
     {
@@ -946,6 +946,22 @@
     },
     {
       "n": 48,
+      "idIntervencion": "9524",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Tumbes",
+      "sector": "José Lishner Tudela Y Alipio Rosales",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 033-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00",
+      "fechaInicio": "04/10/2026",
+      "fechaFin": "18/10/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 49,
       "idIntervencion": "9525",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
