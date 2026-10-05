@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Urgente atención', cantidad: 20, m3: 48845.0, km: 29.95, poblacion: 57207, provincias: ['Maynas'] },
+    { tipo: 'Urgente atención', cantidad: 21, m3: 50205.0, km: 29.95, poblacion: 58207, provincias: ['Maynas'] },
   ],
-  ejecutadasTotal: { cantidad: 20, m3: 48845.0, m3AguaPotable: 6120.0, km: 29.95, poblacion: 57207 },
+  ejecutadasTotal: { cantidad: 21, m3: 50205.0, m3AguaPotable: 7480.0, km: 29.95, poblacion: 58207 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,22 +14,20 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.    ', inicio: '08/08/2026', fin: '03/10/2026', volAcum: 1360.0, kmAcum: 0.0, poblacion: 1000 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '25/09/2026', fin: '24/10/2026', volAcum: 100.0, kmAcum: 0.0, poblacion: 835 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.', inicio: '05/10/2026', fin: '03/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Maynas', distrito: 'Iquitos', cantidad: 1, metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
-    { provincia: 'Maynas', distrito: 'Punchana', cantidad: 1, metaVol: 680.0, metaKm: 0.0, poblacion: 780 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 6880.0, metaKm: 3.9, poblacion: 8280 },
+  programadasTotal: { cantidad: 2, metaVol: 6200.0, metaKm: 3.9, poblacion: 7500 },
 
   programadasDetalle: [
-    { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.               ', fechaInicio: '10/10/2026', fechaFin: '03/11/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
-    { provincia: 'Maynas', distrito: 'Punchana', sector: 'Punchana', ficha: '024-2026-AA-U-LOR', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.         ', fechaInicio: '02/11/2026', fechaFin: '01/12/2026', metaVol: 680.0, metaKm: 0.0, poblacion: 780 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Rumococha', ficha: '025-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN EL AA.HH. RUMOCOCHA, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.        ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
+    { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', fechaInicio: '26/10/2026', fechaFin: '19/11/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Rumococha', ficha: '024-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN EL AA.HH. RUMOCOCHA, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.         ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
   ],
 
   conveniosCount: 1,

@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 4750.0, kmAcum: 0.86, poblacion: 9200 },
-    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '28/09/2026', fin: '10/10/2026', volAcum: 282.0, kmAcum: 0.75, poblacion: 60 },
+    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '28/09/2026', fin: '10/10/2026', volAcum: 422.0, kmAcum: 1.15, poblacion: 60 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180  ', inicio: '05/10/2026', fin: '01/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 108 },
   ],
 
