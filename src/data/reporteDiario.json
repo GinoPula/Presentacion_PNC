@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/10/2026",
-    "horaCorte": "19:50",
+    "horaCorte": "20:20",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -562,8 +562,8 @@
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO N°04-2026-VIVIENDA/VMVU/PNC",
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA SOCOS, SECTOR MACAS-TRAMO I, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA",
-      "fechaInicio": "30/09/2025",
-      "fechaFin": "14/10/2025",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "14/10/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-832)",
         "EXCAVADORA HIDRAULICA ( D810454)",
