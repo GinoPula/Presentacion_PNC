@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 32995.25, km: 6.97, poblacion: 8931, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
-    { tipo: 'Prevención', cantidad: 24, m3: 77053.85, km: 11.29, poblacion: 20007, provincias: ['Contralmirante Villar', 'Tumbes'] },
+    { tipo: 'Prevención', cantidad: 25, m3: 89042.75, km: 12.33, poblacion: 25023, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 13, m3: 7815.0, km: null, poblacion: 17744, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 46, m3: 117864.1, m3AguaPotable: 7815.0, km: 18.26, poblacion: 46682 },
+  ejecutadasTotal: { cantidad: 47, m3: 129853.0, m3AguaPotable: 7815.0, km: 19.3, poblacion: 51698 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,9 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 194862.73, m3AguaPotable: 8550.0, km: 43.19, poblacion: 93958 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES   ', inicio: '07/09/2026', fin: '15/10/2026', volAcum: 360.0, kmAcum: 0.0, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 480.0, kmAcum: 0.0, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 9600.0, kmAcum: 0.82, poblacion: 5016 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES   ', inicio: '07/09/2026', fin: '15/10/2026', volAcum: 450.0, kmAcum: 0.0, poblacion: 1356 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 570.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'San Jacinto', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180    ', inicio: '25/09/2026', fin: '09/10/2026', volAcum: 3555.0, kmAcum: 0.24, poblacion: 269 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '04/10/2026', fin: '18/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 6005 },
   ],

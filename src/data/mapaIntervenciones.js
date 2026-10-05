@@ -834,7 +834,7 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 1356,
-    "volumen": 360,
+    "volumen": 450,
     "km": 0,
     "enlace": null
   },
@@ -852,7 +852,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/09/2026",
     "fechaFin": "13/10/2026",
     "poblacion": 1356,
-    "volumen": 480,
+    "volumen": 570,
     "km": 0,
     "enlace": null
   },
@@ -878,18 +878,18 @@ const mapaIntervenciones = {
     "id": 9525,
     "lat": -3.545665,
     "lng": -80.430956,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Tumbes",
     "distrito": "Tumbes",
     "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00      ",
     "ficha": "021-2026-LD-PI-TUM",
     "fechaInicio": "19/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 5016,
-    "volumen": 9600,
-    "km": 0.82,
+    "volumen": 11988.9,
+    "km": 1.038,
     "enlace": null
   },
   {
@@ -924,8 +924,8 @@ const mapaIntervenciones = {
     "fechaInicio": "04/10/2026",
     "fechaFin": "18/10/2026",
     "poblacion": 6005,
-    "volumen": 11414.2,
-    "km": 1.052,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
@@ -4450,12 +4450,12 @@ const mapaIntervenciones = {
     "id": 10459,
     "lat": -10.072842,
     "lng": -78.155207,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Huarmey",
     "distrito": "Huarmey",
     "sector": "Panamericana Norte",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH    ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH     ",
     "ficha": "091-2026-LDP-ANC",
     "fechaInicio": "16/09/2026",
     "fechaFin": "02/10/2026",
@@ -4468,18 +4468,18 @@ const mapaIntervenciones = {
     "id": 10429,
     "lat": -10.640974,
     "lng": -77.525245,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Ocros",
     "distrito": "Cochas",
     "sector": "Cochas",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH      ",
     "ficha": "103-2026-LDP-ANC",
     "fechaInicio": "18/09/2026",
-    "fechaFin": "18/10/2026",
+    "fechaFin": "03/10/2026",
     "poblacion": 340,
-    "volumen": 9995,
-    "km": 0.51,
+    "volumen": 11595,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -7780,8 +7780,8 @@ const mapaIntervenciones = {
     "fechaInicio": "03/09/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 1500,
-    "volumen": 7304,
-    "km": 0.297,
+    "volumen": 10120,
+    "km": 0.385,
     "enlace": null
   },
   {
@@ -7798,8 +7798,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/09/2026",
     "fechaFin": "02/10/2026",
     "poblacion": 2500000,
-    "volumen": 19443.05,
-    "km": 0.134,
+    "volumen": 24829.55,
+    "km": 0.197,
     "enlace": null
   },
   {
@@ -7816,8 +7816,8 @@ const mapaIntervenciones = {
     "fechaInicio": "08/09/2026",
     "fechaFin": "30/09/2026",
     "poblacion": 1000,
-    "volumen": 5124,
-    "km": 0.185,
+    "volumen": 5244,
+    "km": 0.195,
     "enlace": null
   },
   {
@@ -7888,8 +7888,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 1253,
-    "volumen": 2400,
-    "km": 0.03,
+    "volumen": 7730,
+    "km": 0.44,
     "enlace": null
   },
   {
@@ -11718,8 +11718,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 90,
-    "volumen": 875,
-    "km": 0.36,
+    "volumen": 1095,
+    "km": 0.451,
     "enlace": null
   }
 ],

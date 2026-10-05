@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
-    { tipo: 'Prevención', cantidad: 47, m3: 154829.0, km: 17.77, poblacion: 48853, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 49, m3: 169184.0, km: 18.57, poblacion: 49493, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 59, m3: 174027.0, m3AguaPotable: 570.0, km: 24.92, poblacion: 71508 },
+  ejecutadasTotal: { cantidad: 61, m3: 188382.0, m3AguaPotable: 570.0, km: 25.72, poblacion: 72148 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,8 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 11659.0, kmAcum: 1.35, poblacion: 7456 },
-    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO HUARMEY EN EL SECTOR PUENTE PANAMERICANA AGUAS ABAJO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO DE ANCASH    ', inicio: '16/09/2026', fin: '02/10/2026', volAcum: 2760.0, kmAcum: 0.2, poblacion: 300 },
-    { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH    ', inicio: '18/09/2026', fin: '18/10/2026', volAcum: 9995.0, kmAcum: 0.51, poblacion: 340 },
     { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 753.0, kmAcum: 0.05, poblacion: 250 },
   ],
 
