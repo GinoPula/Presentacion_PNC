@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 11659.0, kmAcum: 1.35, poblacion: 7456 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 12347.0, kmAcum: 1.43, poblacion: 7456 },
     { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 724.0, kmAcum: 0.05, poblacion: 250 },
   ],
 
