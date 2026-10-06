@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "06/10/2026",
-    "horaCorte": "14:05",
+    "horaCorte": "14:35",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "10555",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
-      "ficha": "116-2026-LDE-ANC- FEN ANA",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 2,
       "idIntervencion": "10538",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -45,7 +26,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 3,
+      "n": 2,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -64,7 +45,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10554",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +64,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +83,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 6,
+      "n": 5,
       "idIntervencion": "10294",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -121,7 +102,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 7,
+      "n": 6,
       "idIntervencion": "10524",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -140,7 +121,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10450",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -157,6 +138,25 @@
       "fechaInicio": "04/09/2026",
       "fechaFin": "03/10/2026",
       "diasAtraso": 3
+    },
+    {
+      "n": 8,
+      "idIntervencion": "10575",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Trujillo",
+      "distrito": "Huanchaco",
+      "sector": "Canal Norte",
+      "ficha": "074-2026-LD-P-LIB",
+      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "18/11/2026",
+      "diasAtraso": 1
     },
     {
       "n": 9,
@@ -327,25 +327,6 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 18,
-      "idIntervencion": "10575",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Trujillo",
-      "distrito": "Huanchaco",
-      "sector": "Canal Norte",
-      "ficha": "074-2026-LD-P-LIB",
-      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "18/11/2026",
       "diasAtraso": 1
     }
   ]
