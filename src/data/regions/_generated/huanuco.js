@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 84024.0, km: 8.06, poblacion: 17002, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 16, m3: 88090.0, km: 9.41, poblacion: 17252, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 19, m3: 95551.4, m3AguaPotable: 0.0, km: 10.0, poblacion: 18880 },
+  ejecutadasTotal: { cantidad: 20, m3: 99617.4, m3AguaPotable: 0.0, km: 11.35, poblacion: 19130 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Huanuco', distrito: 'Pillco Marca', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA LINDERO, DE LA PROG. 0+000 A LA PROG. 1+130, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO". ', inicio: '21/09/2026', fin: '05/10/2026', volAcum: 3136.0, kmAcum: 1.04, poblacion: 250 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
