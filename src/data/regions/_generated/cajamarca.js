@@ -36,15 +36,17 @@ export default {
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 2, metaVol: 6460.0, metaKm: 3.12, poblacion: 300 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
     { provincia: 'Jaen', distrito: 'Jaen', cantidad: 2, metaVol: 7441.31, metaKm: 1.17, poblacion: 900 },
+    { provincia: 'San Ignacio', distrito: 'Namballe', cantidad: 1, metaVol: 9651.6, metaKm: 8.04, poblacion: 257 },
     { provincia: 'San Marcos', distrito: 'Eduardo Villanueva', cantidad: 1, metaVol: 1200.0, metaKm: 0.38, poblacion: 250 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', cantidad: 2, metaVol: 7500.0, metaKm: 0.42, poblacion: 900 },
     { provincia: 'San Miguel', distrito: 'El Prado', cantidad: 1, metaVol: 3500.0, metaKm: 0.5, poblacion: 300 },
     { provincia: 'San Miguel', distrito: 'Tongod', cantidad: 1, metaVol: 600.0, metaKm: 0.43, poblacion: 150 },
   ],
-  programadasTotal: { cantidad: 14, metaVol: 58020.68, metaKm: 10.65, poblacion: 6390 },
+  programadasTotal: { cantidad: 15, metaVol: 67672.28, metaKm: 18.7, poblacion: 6647 },
 
   programadasDetalle: [
     { provincia: 'Cajamarca', distrito: 'Namora', sector: 'Sector Jigón', ficha: 'FTI N° 030-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUILMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 0+070, EN EL SECTOR CHILACAT, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 2460.0, metaKm: 0.61, poblacion: null },
+    { provincia: 'San Ignacio', distrito: 'Namballe', sector: 'De Corazon De La Naranja – Miami', ficha: 'N°074-2026-MTVU-AMZ', descripcion: ' “MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LAS LOCALIDADES DE CORAZON DE LA NARANJA – MIAMI DEL DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”', fechaInicio: '06/10/2026', fechaFin: '02/11/2026', metaVol: 9651.6, metaKm: 8.04, poblacion: 257 },
     { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Sector Tulpuna Y Mollepampa', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. \n(FALTA DE CONVENIO CON LA M.P. DE CAJAMARCA - SE EJECUTARÁ A SOLICITUD DEL GORE)    ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 5598.0, metaKm: 1.55, poblacion: 150 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).    ', fechaInicio: '19/10/2026', fechaFin: '02/11/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Jaen', distrito: 'Jaen', sector: 'C.P. San Miguel De Las Naranjas', ficha: 'N°018-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA  0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO  DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA"\n                           ', fechaInicio: '20/10/2026', fechaFin: '30/10/2026', metaVol: 4291.31, metaKm: 0.42, poblacion: 500 },
