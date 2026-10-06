@@ -56,7 +56,7 @@ export default {
   conveniosCount: 3,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/04/2027' },
-    { entidad: 'Municipalidad Distrital Cochas', detail: 'hasta 05/11/2026' },
+    { entidad: 'Municipalidad Distrital Cochas', detail: 'vence 05/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Rio Tambo', detail: 'hasta 27/02/2027' },
   ],
 
