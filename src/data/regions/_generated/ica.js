@@ -17,19 +17,19 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA ', inicio: '05/10/2026', fin: '10/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1243 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 4, metaVol: 49818.0, metaKm: 1.4, poblacion: 4571 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 3, metaVol: 46578.0, metaKm: 1.33, poblacion: 3328 },
     { provincia: 'Nasca', distrito: 'Nasca', cantidad: 2, metaVol: 19500.0, metaKm: 0.72, poblacion: 1200 },
     { provincia: 'Pisco', distrito: 'Huancano', cantidad: 2, metaVol: 44100.0, metaKm: 1.85, poblacion: 223 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 117694.0, metaKm: 5.14, poblacion: 7134 },
+  programadasTotal: { cantidad: 9, metaVol: 114454.0, metaKm: 5.07, poblacion: 5891 },
 
   programadasDetalle: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°044-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA', fechaInicio: '05/10/2026', fechaFin: '10/10/2026', metaVol: 3240.0, metaKm: 0.07, poblacion: 1243 },
     { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huancano', ficha: 'FT I N°047-2026-LDE- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA', fechaInicio: '12/10/2026', fechaFin: '21/10/2026', metaVol: 4500.0, metaKm: 0.75, poblacion: 200 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada La Yesera', ficha: 'FT I N°043-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.', fechaInicio: '12/10/2026', fechaFin: '25/11/2026', metaVol: 39180.0, metaKm: 0.68, poblacion: 2078 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°045-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.', fechaInicio: '20/10/2026', fechaFin: '27/10/2026', metaVol: 5382.0, metaKm: 0.09, poblacion: 950 },
