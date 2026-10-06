@@ -5164,7 +5164,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/08/2026",
     "fechaFin": "11/10/2026",
     "poblacion": 3350,
-    "volumen": 429,
+    "volumen": 440,
     "km": 0,
     "enlace": null
   },
@@ -5254,8 +5254,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "31/10/2026",
     "poblacion": 4408,
-    "volumen": 17450,
-    "km": 0.252,
+    "volumen": 16950,
+    "km": 0.422,
     "enlace": null
   },
   {
@@ -5272,7 +5272,7 @@ const mapaIntervenciones = {
     "fechaInicio": "17/09/2026",
     "fechaFin": "15/11/2026",
     "poblacion": 1100,
-    "volumen": 525,
+    "volumen": 540,
     "km": 0,
     "enlace": null
   },
@@ -5290,8 +5290,8 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 1422,
-    "volumen": 6037.5,
-    "km": 0.74,
+    "volumen": 6892.5,
+    "km": 0.82,
     "enlace": null
   },
   {
@@ -5308,8 +5308,8 @@ const mapaIntervenciones = {
     "fechaInicio": "30/09/2026",
     "fechaFin": "12/10/2026",
     "poblacion": 150,
-    "volumen": 400,
-    "km": 0.05,
+    "volumen": 3370,
+    "km": 0.65,
     "enlace": null
   }
 ],
@@ -8831,24 +8831,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10418,
-    "lat": -15.776943,
-    "lng": -73.375736,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Caraveli",
-    "distrito": "Caraveli",
-    "sector": "A.H. Isidoro Berrocal",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.  ",
-    "ficha": "73-2026-AA-U-ARE",
-    "fechaInicio": "11/08/2026",
-    "fechaFin": "09/09/2026",
-    "poblacion": 640,
-    "volumen": 720,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10085,
     "lat": -15.777643,
     "lng": -73.36777,
@@ -8864,6 +8846,24 @@ const mapaIntervenciones = {
     "poblacion": 1500,
     "volumen": 17878.76,
     "km": 0.8,
+    "enlace": null
+  },
+  {
+    "id": 10418,
+    "lat": -15.776943,
+    "lng": -73.375736,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "A.H. Isidoro Berrocal",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.  ",
+    "ficha": "73-2026-AA-U-ARE",
+    "fechaInicio": "11/08/2026",
+    "fechaFin": "09/09/2026",
+    "poblacion": 640,
+    "volumen": 720,
+    "km": 0,
     "enlace": null
   },
   {
@@ -9026,6 +9026,24 @@ const mapaIntervenciones = {
     "poblacion": 720,
     "volumen": 5470,
     "km": 1.1,
+    "enlace": null
+  },
+  {
+    "id": 10590,
+    "lat": -16.3063,
+    "lng": -73.132641,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Camana",
+    "distrito": "Ocoña",
+    "sector": "Varios Anexos",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ",
+    "ficha": "88-2026-AA-U-ARE",
+    "fechaInicio": "06/10/2026",
+    "fechaFin": "04/11/2026",
+    "poblacion": 525,
+    "volumen": 720,
+    "km": 0,
     "enlace": null
   }
 ],
@@ -13750,7 +13768,7 @@ const mapaIntervenciones = {
     "fechaInicio": "15/09/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 1125,
-    "volumen": 750,
+    "volumen": 810,
     "km": 0,
     "enlace": null
   },

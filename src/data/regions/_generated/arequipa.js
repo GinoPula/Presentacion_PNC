@@ -21,6 +21,7 @@ export default {
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 390.0, kmAcum: 0.0, poblacion: 504 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA".     ', inicio: '21/09/2026', fin: '20/10/2026', volAcum: 4920.0, kmAcum: 0.19, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180', inicio: '24/09/2026', fin: '15/10/2026', volAcum: 5470.0, kmAcum: 1.1, poblacion: 720 },
+    { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 525 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,12 +29,10 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 3, metaVol: 13448.75, metaKm: 2.56, poblacion: 24000 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 3, metaVol: 32802.03, metaKm: 1.01, poblacion: 1780 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 8, metaVol: 42810.49, metaKm: 3.83, poblacion: 4700 },
-    { provincia: 'Camana', distrito: 'Ocoña', cantidad: 1, metaVol: 720.0, metaKm: 0.0, poblacion: 525 },
   ],
-  programadasTotal: { cantidad: 15, metaVol: 89781.27, metaKm: 7.4, poblacion: 31005 },
+  programadasTotal: { cantidad: 14, metaVol: 89061.27, metaKm: 7.4, poblacion: 30480 },
 
   programadasDetalle: [
-    { provincia: 'Camana', distrito: 'Ocoña', sector: 'Varios Anexos', ficha: '88-2026-AA-U-ARE', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', fechaInicio: '06/10/2026', fechaFin: '04/11/2026', metaVol: 720.0, metaKm: 0.0, poblacion: 525 },
     { provincia: 'Arequipa', distrito: 'Characato', sector: 'Juárez', ficha: '50-2026-LDP-ARE', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00         ', fechaInicio: '07/10/2026', fechaFin: '05/11/2026', metaVol: 13599.79, metaKm: 0.56, poblacion: 700 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Calle Olímpica Canal Estadio La Rinconada', ficha: '79-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.     ', fechaInicio: '09/10/2026', fechaFin: '18/10/2026', metaVol: 2407.01, metaKm: 0.24, poblacion: 600 },
     { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Los Ángeles', ficha: '124-2026-LDE-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180    ', fechaInicio: '16/10/2026', fechaFin: '04/11/2026', metaVol: 6527.09, metaKm: 1.52, poblacion: 8000 },
