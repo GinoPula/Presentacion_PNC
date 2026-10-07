@@ -4087,24 +4087,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1ARRVrnyY79pY48wEAIYja-SHtkopxRfv/view?usp=drive_link"
   },
   {
-    "id": 10272,
-    "lat": -10.184097,
-    "lng": -77.551269,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Llacllin",
-    "sector": "Chaucayan",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL DIQUE DEL RIO FORTALEZA EN EL CENTRO POBLADO DE CHAUCAYAN TRAMO II, DISTRITO DE LLACLLIN, PROVINCIA DE RECUAY, DEPARTAMENTO DE ANCASH    ",
-    "ficha": "084-2026-LDP-ANC",
-    "fechaInicio": "08/06/2026",
-    "fechaFin": "16/06/2026",
-    "poblacion": 167,
-    "volumen": 4593,
-    "km": 0.45,
-    "enlace": null
-  },
-  {
     "id": 10279,
     "lat": -9.501518,
     "lng": -77.510887,
@@ -4120,6 +4102,24 @@ const mapaIntervenciones = {
     "poblacion": 750,
     "volumen": 30,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10272,
+    "lat": -10.184097,
+    "lng": -77.551269,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Llacllin",
+    "sector": "Chaucayan",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL DIQUE DEL RIO FORTALEZA EN EL CENTRO POBLADO DE CHAUCAYAN TRAMO II, DISTRITO DE LLACLLIN, PROVINCIA DE RECUAY, DEPARTAMENTO DE ANCASH    ",
+    "ficha": "084-2026-LDP-ANC",
+    "fechaInicio": "08/06/2026",
+    "fechaFin": "16/06/2026",
+    "poblacion": 167,
+    "volumen": 4593,
+    "km": 0.45,
     "enlace": null
   },
   {
@@ -4231,24 +4231,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10351,
-    "lat": -9.70299,
-    "lng": -77.458306,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Urpay",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA URPAY, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
-    "ficha": "087-2026-LDP-ANC",
-    "fechaInicio": "15/07/2026",
-    "fechaFin": "18/07/2026",
-    "poblacion": 160,
-    "volumen": 2426,
-    "km": 0.211,
-    "enlace": null
-  },
-  {
     "id": 10312,
     "lat": -9.560179,
     "lng": -77.54003,
@@ -4264,6 +4246,24 @@ const mapaIntervenciones = {
     "poblacion": 125,
     "volumen": 3357,
     "km": 0.201,
+    "enlace": null
+  },
+  {
+    "id": 10351,
+    "lat": -9.70299,
+    "lng": -77.458306,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Urpay",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA URPAY, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
+    "ficha": "087-2026-LDP-ANC",
+    "fechaInicio": "15/07/2026",
+    "fechaFin": "18/07/2026",
+    "poblacion": 160,
+    "volumen": 2426,
+    "km": 0.211,
     "enlace": null
   },
   {
@@ -4303,24 +4303,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10398,
-    "lat": -9.632828,
-    "lng": -77.497163,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huaraz",
-    "distrito": "Huaraz",
-    "sector": "Huantumey",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RÍO SANTA, SECTOR HUANTUMEY, CENTRO POBLADO DE HUAMARIN, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH       ",
-    "ficha": "089-2026-LDP-ANC",
-    "fechaInicio": "03/08/2026",
-    "fechaFin": "20/08/2026",
-    "poblacion": 127,
-    "volumen": 7300,
-    "km": 0.365,
-    "enlace": null
-  },
-  {
     "id": 10376,
     "lat": -9.084684,
     "lng": -77.776273,
@@ -4336,6 +4318,24 @@ const mapaIntervenciones = {
     "poblacion": 2305,
     "volumen": 1920,
     "km": 0.48,
+    "enlace": null
+  },
+  {
+    "id": 10398,
+    "lat": -9.632828,
+    "lng": -77.497163,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Huaraz",
+    "sector": "Huantumey",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RÍO SANTA, SECTOR HUANTUMEY, CENTRO POBLADO DE HUAMARIN, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH       ",
+    "ficha": "089-2026-LDP-ANC",
+    "fechaInicio": "03/08/2026",
+    "fechaFin": "20/08/2026",
+    "poblacion": 127,
+    "volumen": 7300,
+    "km": 0.365,
     "enlace": null
   },
   {
@@ -4424,8 +4424,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
-    "volumen": 12519,
-    "km": 1.454,
+    "volumen": 13035,
+    "km": 1.514,
     "enlace": null
   },
   {
@@ -4532,8 +4532,8 @@ const mapaIntervenciones = {
     "fechaInicio": "22/09/2026",
     "fechaFin": "06/10/2026",
     "poblacion": 250,
-    "volumen": 1086,
-    "km": 0.075,
+    "volumen": 1608,
+    "km": 0.111,
     "enlace": null
   },
   {
@@ -4550,8 +4550,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 300,
-    "volumen": 0,
-    "km": 0,
+    "volumen": 135,
+    "km": 0.02,
     "enlace": null
   },
   {
@@ -4570,6 +4570,24 @@ const mapaIntervenciones = {
     "poblacion": 111,
     "volumen": 0,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10555,
+    "lat": -8.903402,
+    "lng": -78.520729,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "sector": "Cascajal Bajo – La Cuadra",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH    ",
+    "ficha": "116-2026-LDE-ANC- FEN ANA",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "26/10/2026",
+    "poblacion": 250,
+    "volumen": 12825,
+    "km": 3.8,
     "enlace": null
   }
 ],

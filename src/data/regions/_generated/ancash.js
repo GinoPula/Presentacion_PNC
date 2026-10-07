@@ -17,10 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 12519.0, kmAcum: 1.45, poblacion: 7456 },
-    { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 1086.0, kmAcum: 0.07, poblacion: 250 },
-    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '05/10/2026', fin: '14/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH   ', inicio: '28/08/2026', fin: '08/10/2026', volAcum: 13035.0, kmAcum: 1.51, poblacion: 7456 },
+    { provincia: 'Recuay', distrito: 'Recuay', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH    ', inicio: '22/09/2026', fin: '06/10/2026', volAcum: 1608.0, kmAcum: 0.11, poblacion: 250 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '05/10/2026', fin: '14/10/2026', volAcum: 135.0, kmAcum: 0.02, poblacion: 300 },
     { provincia: 'Ocros', distrito: 'Cochas', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN EL RÍO PATIVILCA MARGEN IZQUIERDO EN LA CONDUCCION DEL SISTEMA DE AGUA POTABLE PARA EL CENTRO POBLADO DE LAS VIRGENES, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH', inicio: '05/10/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 111 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH    ', inicio: '07/10/2026', fin: '26/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 250 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -35,16 +36,15 @@ export default {
     { provincia: 'Recuay', distrito: 'Catac', cantidad: 6, metaVol: 32020.0, metaKm: 3.54, poblacion: 14597 },
     { provincia: 'Recuay', distrito: 'Recuay', cantidad: 1, metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
     { provincia: 'Recuay', distrito: 'Ticapampa', cantidad: 1, metaVol: 597.55, metaKm: 0.17, poblacion: 50 },
-    { provincia: 'Santa', distrito: 'Chimbote', cantidad: 3, metaVol: 128922.5, metaKm: 10.3, poblacion: 720 },
+    { provincia: 'Santa', distrito: 'Chimbote', cantidad: 2, metaVol: 116097.5, metaKm: 6.5, poblacion: 470 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', cantidad: 1, metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Santa', distrito: 'Samanco', cantidad: 1, metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Santa', distrito: 'Santa', cantidad: 1, metaVol: 4725.0, metaKm: 0.15, poblacion: 300 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 27, metaVol: 264854.41, metaKm: 25.64, poblacion: 27065 },
+  programadasTotal: { cantidad: 26, metaVol: 252029.41, metaKm: 21.84, poblacion: 26815 },
 
   programadasDetalle: [
-    { provincia: 'Santa', distrito: 'Chimbote', sector: 'Cascajal Bajo – La Cuadra', ficha: '116-2026-LDE-ANC- FEN ANA', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH   ', fechaInicio: '07/10/2026', fechaFin: '26/10/2026', metaVol: 12825.0, metaKm: 3.8, poblacion: 250 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH ', fechaInicio: '09/10/2026', fechaFin: '25/10/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Utcuyacu', ficha: '026-2026-LDP-ANC', descripcion: 'DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL CAUCE DEL RIO SANTA DEL SECTOR DE UTCUYACU DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH-00        ', fechaInicio: '12/10/2026', fechaFin: '25/10/2026', metaVol: 6300.0, metaKm: 0.6, poblacion: 3603 },
     { provincia: 'Casma', distrito: 'Casma', sector: 'Cuncan', ficha: '112-2026-LDP-ANC ', descripcion: ' ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH  ', fechaInicio: '15/10/2026', fechaFin: '13/11/2026', metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
