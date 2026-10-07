@@ -4953,24 +4953,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1HZYb2jvq6DlOgpuxs9QEi9AM7Mu8aSh5/view?usp=drive_link"
   },
   {
-    "id": 10261,
-    "lat": -5.920688,
-    "lng": -80.045951,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Lambayeque",
-    "distrito": "Olmos",
-    "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
-    "descripcion": " ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE    ",
-    "ficha": "056-2026 -AA-U-LAM",
-    "fechaInicio": "03/06/2026",
-    "fechaFin": "01/08/2026",
-    "poblacion": 3350,
-    "volumen": 495,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 9149,
     "lat": -7.051677,
     "lng": -79.711619,
@@ -4987,6 +4969,24 @@ const mapaIntervenciones = {
     "volumen": 10500,
     "km": 3.383,
     "enlace": "https://drive.google.com/file/d/1CDo8wjGEmi8puvPvawtBZNMB1oCZoC5i/view?usp=drive_link"
+  },
+  {
+    "id": 10261,
+    "lat": -5.920688,
+    "lng": -80.045951,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Lambayeque",
+    "distrito": "Olmos",
+    "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
+    "descripcion": " ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE    ",
+    "ficha": "056-2026 -AA-U-LAM",
+    "fechaInicio": "03/06/2026",
+    "fechaFin": "01/08/2026",
+    "poblacion": 3350,
+    "volumen": 495,
+    "km": 0,
+    "enlace": null
   },
   {
     "id": 9175,
@@ -5151,24 +5151,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1EH-QcBibHz5TCgR19T-UMy8fQuJiD2ca/view?usp=drive_link"
   },
   {
-    "id": 9148,
-    "lat": -6.995732,
-    "lng": -79.621993,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Chiclayo",
-    "distrito": "Lagunas",
-    "sector": "Sector",
-    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DE 3.0 KM DEL DREN GUADALUPE EN EL SECTOR \"VIRGEN DEL CARMEN\" DE LA LOCALIDAD DE MOCUPE DEL DISTRITO DE LAGUNAS MOCUPE, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”-00             ",
-    "ficha": "015-2026 -LD-P-LAM",
-    "fechaInicio": "13/08/2026",
-    "fechaFin": "26/08/2026",
-    "poblacion": 950,
-    "volumen": 9600,
-    "km": 3,
-    "enlace": null
-  },
-  {
     "id": 10417,
     "lat": -5.920688,
     "lng": -80.045951,
@@ -5187,6 +5169,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 9148,
+    "lat": -6.995732,
+    "lng": -79.621993,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Chiclayo",
+    "distrito": "Lagunas",
+    "sector": "Sector",
+    "descripcion": "  “LIMPIEZA Y DESCOLMATACIÓN DE 3.0 KM DEL DREN GUADALUPE EN EL SECTOR \"VIRGEN DEL CARMEN\" DE LA LOCALIDAD DE MOCUPE DEL DISTRITO DE LAGUNAS MOCUPE, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”-00             ",
+    "ficha": "015-2026 -LD-P-LAM",
+    "fechaInicio": "13/08/2026",
+    "fechaFin": "26/08/2026",
+    "poblacion": 950,
+    "volumen": 9600,
+    "km": 3,
+    "enlace": null
+  },
+  {
     "id": 9171,
     "lat": -6.164103,
     "lng": -79.645961,
@@ -5195,8 +5195,8 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Chochope",
     "sector": "",
-    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE 1.20 KM. DE LA QUEBRADA “TINEO” EN EL SECTOR “CHICLAYITO” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE\"   ",
-    "ficha": "034-2026 -LD-P-LAM",
+    "descripcion": "\"LIMPIEZA Y DESCOLMATACIÓN DE 1.20 KM. DE LA QUEBRADA “TINEO” EN EL SECTOR “CHICLAYITO” DEL DISTRITO DE CHOCHOPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE\"    ",
+    "ficha": "034-2026 -LD-PI-LAM",
     "fechaInicio": "17/08/2026",
     "fechaFin": "21/08/2026",
     "poblacion": 1200,
@@ -5308,8 +5308,8 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 1422,
-    "volumen": 7792.5,
-    "km": 0.94,
+    "volumen": 8771.25,
+    "km": 1.02,
     "enlace": null
   },
   {
@@ -5327,7 +5327,7 @@ const mapaIntervenciones = {
     "fechaFin": "12/10/2026",
     "poblacion": 150,
     "volumen": 3370,
-    "km": 0.65,
+    "km": 0.8,
     "enlace": null
   }
 ],
