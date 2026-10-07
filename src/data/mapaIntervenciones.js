@@ -3399,6 +3399,24 @@ const mapaIntervenciones = {
     "volumen": 7500,
     "km": 0.25,
     "enlace": null
+  },
+  {
+    "id": 10576,
+    "lat": -4.175819,
+    "lng": -81.123228,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Talara",
+    "distrito": "Los Organos",
+    "sector": "Los Organos Y El Ñuro",
+    "descripcion": " ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ",
+    "ficha": "FTI N°077-2026-AA-U-PIU",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "05/11/2026",
+    "poblacion": 1200,
+    "volumen": 360,
+    "km": 0,
+    "enlace": null
   }
 ],
   ancash: [
