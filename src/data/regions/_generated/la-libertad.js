@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Prevención', cantidad: 19, m3: 160013.0, km: 11.89, poblacion: 21760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
-    { tipo: 'Urgente atención', cantidad: 11, m3: 26114.7, km: 52.63, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
+    { tipo: 'Urgente atención', cantidad: 12, m3: 26794.7, km: 53.43, poblacion: 3552, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 38, m3: 222789.7, m3AguaPotable: 0.0, km: 66.44, poblacion: 32815 },
+  ejecutadasTotal: { cantidad: 39, m3: 223469.7, m3AguaPotable: 0.0, km: 67.24, poblacion: 33024 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,13 +17,13 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD   ', inicio: '10/09/2026', fin: '02/10/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
     { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', inicio: '23/09/2026', fin: '07/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
+    { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180   ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 144 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Ascope', distrito: 'Chicama', cantidad: 2, metaVol: 78108.0, metaKm: 2.75, poblacion: 1894 },
+    { provincia: 'Ascope', distrito: 'Chicama', cantidad: 1, metaVol: 8850.0, metaKm: 1.1, poblacion: 1750 },
     { provincia: 'Ascope', distrito: 'Santiago De Cao', cantidad: 3, metaVol: 950.0, metaKm: 1.75, poblacion: 3888 },
     { provincia: 'Gran Chimu', distrito: 'Cascas', cantidad: 1, metaVol: 8550.0, metaKm: 0.5, poblacion: 121 },
     { provincia: 'Gran Chimu', distrito: 'Marmot', cantidad: 1, metaVol: 9500.0, metaKm: 0.5, poblacion: 204 },
@@ -37,11 +37,10 @@ export default {
     { provincia: 'Trujillo', distrito: 'Simbal', cantidad: 1, metaVol: 16140.0, metaKm: 0.75, poblacion: 1200 },
     { provincia: 'Viru', distrito: 'Chao', cantidad: 2, metaVol: 29700.0, metaKm: 1.8, poblacion: 296 },
   ],
-  programadasTotal: { cantidad: 19, metaVol: 209114.0, metaKm: 442.67, poblacion: 55666 },
+  programadasTotal: { cantidad: 18, metaVol: 139856.0, metaKm: 441.02, poblacion: 55522 },
 
   programadasDetalle: [
     { provincia: 'Santiago De Chuco', distrito: 'Quiruvilca', sector: 'Pajillas', ficha: '070-2026-MTV-U-LIB', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DE LOS CENTROS POBLADOS DE PAJILLAS Y KAUNAPE, DISTRITO QUIRUVILCA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD      ', fechaInicio: '30/09/2026', fechaFin: '14/10/2026', metaVol: 5310.0, metaKm: 11.8, poblacion: 399 },
-    { provincia: 'Ascope', distrito: 'Chicama', sector: 'Huabalito', ficha: '075-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180 ', fechaInicio: '30/09/2026', fechaFin: '29/10/2026', metaVol: 69258.0, metaKm: 1.65, poblacion: 144 },
     { provincia: 'Trujillo', distrito: 'Huanchaco', sector: 'Canal Norte', ficha: '074-2026-LD-P-LIB', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD', fechaInicio: '05/10/2026', fechaFin: '18/11/2026', metaVol: 22736.0, metaKm: 0.43, poblacion: 45024 },
     { provincia: 'Viru', distrito: 'Chao', sector: 'Tizal', ficha: '060-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL RIO CHOROBAL, SECTOR EL TIZAL, DISTRITO DE CHAO, PROVINCIA DE VIRU, DEPARTAMENTO DE LA LIBERTAD     ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 16500.0, metaKm: 0.9, poblacion: 148 },
     { provincia: 'Santiago De Chuco', distrito: 'Sitabamba', sector: 'Chagabara', ficha: '081-2026-LD-E-LIB', descripcion: ' LIMPIEZA Y DESCOLMATACION PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA CHAGAVARA CHICA, SECTOR CHAGABARA, DISTRITO DE SITABAMBA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD DS180 ', fechaInicio: '05/10/2026', fechaFin: '19/10/2026', metaVol: 1144.0, metaKm: 0.29, poblacion: 80 },
