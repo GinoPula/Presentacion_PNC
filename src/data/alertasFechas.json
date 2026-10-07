@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "07/10/2026",
-    "horaCorte": "18:29",
+    "horaCorte": "18:59",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "10538",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA SETIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Ascope",
-      "distrito": "Chicama",
-      "sector": "Huabalito",
-      "ficha": "075-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
-      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
-      "fechaInicio": "30/09/2026",
-      "fechaFin": "29/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 2,
       "idIntervencion": "10482",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA SETIEMBRE",
@@ -42,6 +23,25 @@
       "marcoLegal": "ACUERDO DE CONCEJO Nº 031-2026-MDQ",
       "fechaInicio": "30/09/2026",
       "fechaFin": "14/10/2026",
+      "diasAtraso": 7
+    },
+    {
+      "n": 2,
+      "idIntervencion": "10538",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA SETIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Ascope",
+      "distrito": "Chicama",
+      "sector": "Huabalito",
+      "ficha": "075-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180",
+      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
+      "fechaInicio": "30/09/2026",
+      "fechaFin": "29/10/2026",
       "diasAtraso": 7
     },
     {
@@ -122,25 +122,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10450",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Chupaca",
-      "distrito": "Chongos Bajo",
-      "sector": "Zona Urbana",
-      "ficha": "071-2026-LETV-E-JUN",
-      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN",
-      "marcoLegal": "D.S. N° 106-2026-PCM",
-      "fechaInicio": "04/09/2026",
-      "fechaFin": "03/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 8,
       "idIntervencion": "10335",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -159,7 +140,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "10546",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -178,7 +159,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10541",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10539",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10543",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -235,7 +216,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10575",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10536",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -269,6 +250,25 @@
       "descripcion": "DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "fechaInicio": "22/09/2026",
+      "fechaFin": "06/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10499",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "La Ramada",
+      "sector": "C.p. Las Iglesias – C.p. La Cubillina",
+      "ficha": "N°068-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
+      "fechaInicio": "09/09/2026",
       "fechaFin": "06/10/2026",
       "diasAtraso": 1
     },
@@ -293,44 +293,6 @@
     },
     {
       "n": 16,
-      "idIntervencion": "10499",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "La Ramada",
-      "sector": "C.p. Las Iglesias – C.p. La Cubillina",
-      "ficha": "N°068-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
-      "fechaInicio": "09/09/2026",
-      "fechaFin": "06/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 17,
-      "idIntervencion": "10498",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "ficha": "129-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO I, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "marcoLegal": "ADENDA N° 02 AL CONVENIO N° 081-2023/VMVU/PNC.",
-      "fechaInicio": "08/09/2026",
-      "fechaFin": "06/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 18,
       "idIntervencion": "10597",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -346,25 +308,6 @@
       "marcoLegal": "ACUERDO DE CONCEJO N °039-2026-MDN/CM",
       "fechaInicio": "06/10/2026",
       "fechaFin": "02/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 19,
-      "idIntervencion": "10581",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "San Martin De Porres",
-      "sector": "Puente El Sol",
-      "ficha": "137-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE EL SOL, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "marcoLegal": "ADENDA N° 01 AL CONVENIO Nº 52-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "06/10/2026",
-      "fechaFin": "13/10/2026",
       "diasAtraso": 1
     }
   ]
