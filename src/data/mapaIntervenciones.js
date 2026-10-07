@@ -8183,24 +8183,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1yrL194C81ISFljyNU60ylo1G9GFWykR1/view?usp=drive_link"
   },
   {
-    "id": 9856,
-    "lat": -15.776943,
-    "lng": -73.375736,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Caraveli",
-    "distrito": "Caraveli",
-    "sector": "A.H. Isidoro Berrocal",
-    "descripcion": " “ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.         ",
-    "ficha": "28-2026-AA-U-ARE",
-    "fechaInicio": "11/02/2026",
-    "fechaFin": "12/03/2026",
-    "poblacion": 640,
-    "volumen": 750,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1qQfDm2t-AQy95oDKkkHeDbwdGd37zZaw/view?usp=drive_link"
-  },
-  {
     "id": 9894,
     "lat": -15.782423,
     "lng": -73.071424,
@@ -8217,6 +8199,24 @@ const mapaIntervenciones = {
     "volumen": 750,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1zb37E1VP6kdD8EkC8SfGTIHYTdU7wJ9A/view?usp=drive_link"
+  },
+  {
+    "id": 9856,
+    "lat": -15.776943,
+    "lng": -73.375736,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "A.H. Isidoro Berrocal",
+    "descripcion": " “ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.         ",
+    "ficha": "28-2026-AA-U-ARE",
+    "fechaInicio": "11/02/2026",
+    "fechaFin": "12/03/2026",
+    "poblacion": 640,
+    "volumen": 750,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1qQfDm2t-AQy95oDKkkHeDbwdGd37zZaw/view?usp=drive_link"
   },
   {
     "id": 9930,
@@ -8363,24 +8363,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/17cYZ8heSbe4iItXxhClXpzet0boScftB/view?usp=drive_link"
   },
   {
-    "id": 10005,
-    "lat": -16.397732,
-    "lng": -71.41165,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Arequipa",
-    "distrito": "Chiguata",
-    "sector": "Sectores De Cangallo Y Cacayaco",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE CANGALLO Y CACAYACO, DEL DISTRITO DE CHIGUATA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ",
-    "ficha": "42-2026-AA-U-ARE",
-    "fechaInicio": "17/03/2026",
-    "fechaFin": "15/04/2026",
-    "poblacion": 200,
-    "volumen": 320,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
-  },
-  {
     "id": 9998,
     "lat": -16.315993,
     "lng": -71.539862,
@@ -8397,6 +8379,24 @@ const mapaIntervenciones = {
     "volumen": 20363.53,
     "km": 5.24,
     "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
+  },
+  {
+    "id": 10005,
+    "lat": -16.397732,
+    "lng": -71.41165,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Arequipa",
+    "distrito": "Chiguata",
+    "sector": "Sectores De Cangallo Y Cacayaco",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE CANGALLO Y CACAYACO, DEL DISTRITO DE CHIGUATA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ",
+    "ficha": "42-2026-AA-U-ARE",
+    "fechaInicio": "17/03/2026",
+    "fechaFin": "15/04/2026",
+    "poblacion": 200,
+    "volumen": 320,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
   },
   {
     "id": 10041,
@@ -8543,24 +8543,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1iehGO8sh_p_0K4Vzf6A8Bk_XMBWQt2HK/view?usp=drive_link"
   },
   {
-    "id": 10084,
-    "lat": -15.771427,
-    "lng": -73.38012,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Caraveli",
-    "distrito": "Caraveli",
-    "sector": "La Yesera I",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO I, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".            ",
-    "ficha": "48-2026-LDP-ARE",
-    "fechaInicio": "29/04/2026",
-    "fechaFin": "28/05/2026",
-    "poblacion": 1500,
-    "volumen": 18866.94,
-    "km": 1.54,
-    "enlace": "https://drive.google.com/file/d/1bQjhUlC136UbIeyT9BPTFJ-R05vy3ZsU/view?usp=drive_link"
-  },
-  {
     "id": 10052,
     "lat": -15.150963,
     "lng": -72.781499,
@@ -8577,6 +8559,24 @@ const mapaIntervenciones = {
     "volumen": 15765.94,
     "km": 0.914,
     "enlace": "https://drive.google.com/file/d/1RteRTpOqsXGHB3AwkBx4S4qMI-4hO55e/view?usp=drive_link"
+  },
+  {
+    "id": 10084,
+    "lat": -15.771427,
+    "lng": -73.38012,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "La Yesera I",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO I, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".            ",
+    "ficha": "48-2026-LDP-ARE",
+    "fechaInicio": "29/04/2026",
+    "fechaFin": "28/05/2026",
+    "poblacion": 1500,
+    "volumen": 18866.94,
+    "km": 1.54,
+    "enlace": "https://drive.google.com/file/d/1bQjhUlC136UbIeyT9BPTFJ-R05vy3ZsU/view?usp=drive_link"
   },
   {
     "id": 10145,
@@ -8988,7 +8988,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/09/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 640,
-    "volumen": 585,
+    "volumen": 570,
     "km": 0,
     "enlace": null
   },
@@ -9006,7 +9006,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 504,
-    "volumen": 390,
+    "volumen": 420,
     "km": 0,
     "enlace": null
   },
@@ -9042,8 +9042,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 720,
-    "volumen": 5470,
-    "km": 1.1,
+    "volumen": 6080,
+    "km": 1.23,
     "enlace": null
   },
   {
@@ -9060,8 +9060,26 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 720,
+    "volumen": 45,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10092,
+    "lat": -16.484107,
+    "lng": -71.467486,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Arequipa",
+    "distrito": "Characato",
+    "sector": "Juárez",
+    "descripcion": "\"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\"-00          ",
+    "ficha": "50-2026-LDP-ARE",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "05/11/2026",
+    "poblacion": 700,
+    "volumen": 13599.79,
+    "km": 0.56,
     "enlace": null
   }
 ],
