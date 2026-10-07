@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Prevención', cantidad: 19, m3: 160013.0, km: 11.89, poblacion: 21760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
-    { tipo: 'Urgente atención', cantidad: 12, m3: 26794.7, km: 53.43, poblacion: 3552, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 26114.7, km: 52.63, poblacion: 3343, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 39, m3: 223469.7, m3AguaPotable: 0.0, km: 67.24, poblacion: 33024 },
+  ejecutadasTotal: { cantidad: 38, m3: 222789.7, m3AguaPotable: 0.0, km: 66.44, poblacion: 32815 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
+    { provincia: 'Sanchez Carrion', distrito: 'Chugay', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR LAS PARVAS - PISHAULI, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD     ', inicio: '10/09/2026', fin: '08/10/2026', volAcum: 680.0, kmAcum: 0.8, poblacion: 209 },
     { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', inicio: '23/09/2026', fin: '07/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180   ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 144 },
   ],
