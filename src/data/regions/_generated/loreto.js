@@ -14,8 +14,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '25/09/2026', fin: '24/10/2026', volAcum: 160.0, kmAcum: 0.0, poblacion: 835 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.', inicio: '05/10/2026', fin: '03/11/2026', volAcum: 50.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '25/09/2026', fin: '24/10/2026', volAcum: 180.0, kmAcum: 0.0, poblacion: 835 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.', inicio: '05/10/2026', fin: '03/11/2026', volAcum: 80.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
