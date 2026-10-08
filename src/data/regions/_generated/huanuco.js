@@ -53,10 +53,9 @@ export default {
     { provincia: 'Huanuco', distrito: 'Amarilis', sector: 'Quebrada Jancao', ficha: 'N° 003-2026-LD-P-HCO.', descripcion: ' "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA JANCAO, AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+000, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO”-00         ', fechaInicio: '10/12/2026', fechaFin: '08/01/2027', metaVol: 15000.0, metaKm: 1.0, poblacion: 600 },
   ],
 
-  conveniosCount: 8,
+  conveniosCount: 7,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 24/02/2027' },
-    { entidad: 'Municipalidad Provincial Ambo', detail: 'hasta 07/10/2026' },
     { entidad: 'Municipalidad Provincial Huanuco', detail: 'hasta 19/08/2027' },
     { entidad: 'Municipalidad Distrital Luyando', detail: 'vence 07/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Codo Del Pozuzo', detail: 'hasta 13/11/2026' },

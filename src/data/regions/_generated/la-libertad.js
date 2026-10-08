@@ -59,13 +59,12 @@ export default {
     { provincia: 'Trujillo', distrito: 'Laredo', sector: 'Catuay', ficha: '009-2026-LD-P-LIB', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO MOCHE SECTOR CATUAY, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD.-00  ', fechaInicio: '10/12/2026', fechaFin: '24/12/2026', metaVol: 12500.0, metaKm: 0.5, poblacion: 1500 },
   ],
 
-  conveniosCount: 5,
+  conveniosCount: 4,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/09/2027' },
     { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'vence 15/10/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Ascope', detail: 'hasta 20/11/2026' },
     { entidad: 'Municipalidad Provincial Pacasmayo', detail: 'hasta 27/04/2027' },
-    { entidad: 'Municipalidad Distrital Quiruvilca', detail: 'hasta 07/10/2026' },
   ],
 
   flota: [

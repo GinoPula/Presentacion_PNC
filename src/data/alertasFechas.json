@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "08/10/2026",
-    "horaCorte": "04:38",
+    "horaCorte": "05:08",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
       "fechaInicio": "22/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "02/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 3,
@@ -61,10 +61,29 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
       "fechaInicio": "19/09/2026",
       "fechaFin": "03/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 4,
+      "idIntervencion": "10539",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pataz",
+      "distrito": "Pataz",
+      "sector": "Calquiche",
+      "ficha": "077-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE BORDOS CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CALQUICHE, DISTRITO DE PATAZ, PROVINCIA DE PATAZ, DEPARTAMENTO DE LA LIBERTAD DS180",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "19/10/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 5,
       "idIntervencion": "10541",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -80,10 +99,10 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "10543",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -99,26 +118,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 6,
-      "idIntervencion": "10575",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Trujillo",
-      "distrito": "Huanchaco",
-      "sector": "Canal Norte",
-      "ficha": "074-2026-LD-P-LIB",
-      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "18/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 7,
@@ -137,10 +137,29 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 8,
+      "idIntervencion": "10575",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Trujillo",
+      "distrito": "Huanchaco",
+      "sector": "Canal Norte",
+      "ficha": "074-2026-LD-P-LIB",
+      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "18/11/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 9,
       "idIntervencion": "10546",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -156,48 +175,10 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 9,
-      "idIntervencion": "10539",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Pataz",
-      "distrito": "Pataz",
-      "sector": "Calquiche",
-      "ficha": "077-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE BORDOS CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CALQUICHE, DISTRITO DE PATAZ, PROVINCIA DE PATAZ, DEPARTAMENTO DE LA LIBERTAD DS180",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "19/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 10,
-      "idIntervencion": "10536",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Recuay",
-      "distrito": "Recuay",
-      "sector": "Uchipampa - Aconan",
-      "ficha": "122-2026-LDP-ANC",
-      "descripcion": "DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
-      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "06/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 11,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -213,7 +194,26 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "06/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10536",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Recuay",
+      "distrito": "Recuay",
+      "sector": "Uchipampa - Aconan",
+      "ficha": "122-2026-LDP-ANC",
+      "descripcion": "DESCOLMATACION Y CONFORMACION DE DIQUE EN EL RIO SANTA SECTOR UCHIPAMPA - ACONAN, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "06/10/2026",
+      "diasAtraso": 2
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO 035 -2026 - MDLC-CM",
       "fechaInicio": "28/08/2026",
       "fechaFin": "06/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 13,
@@ -251,6 +251,120 @@
       "marcoLegal": "ACUERDO DE CONCEJO N °039-2026-MDN/CM",
       "fechaInicio": "06/10/2026",
       "fechaFin": "02/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10560",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pacasmayo",
+      "distrito": "San Pedro De Lloc",
+      "sector": "Tramo Ii Del Puente San Jose",
+      "ficha": "076-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº027-2026",
+      "fechaInicio": "23/09/2026",
+      "fechaFin": "07/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 15,
+      "idIntervencion": "9452",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Chanchamayo",
+      "distrito": "Chanchamayo",
+      "sector": "Zona Urbana",
+      "ficha": "020-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO REITHER, DE LA PROG. 0+000 A LA PROG. 1+000 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN\"-00",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "20/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10262",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Andahuaylas",
+      "distrito": "Andarapa",
+      "sector": "C.p. Huampica/drenes",
+      "ficha": "FTI N° 042-2026-LDP-APU",
+      "descripcion": "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC",
+      "marcoLegal": "CONVENIO N° 051-2026",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "23/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10333",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Ascope",
+      "distrito": "Santiago De Cao",
+      "sector": "Sumanique",
+      "ficha": "023-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN SUMANIQUE, SECTOR CARTAVIO, DISTRITO DE SANTIAGO DE CAO, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº072-2024-ADENDA 01",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "15/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10549",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Canchaque",
+      "ficha": "FTI N° 151-2026-LD-E-PIU",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "10/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "9635",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Quebrada Tingo Ragra",
+      "ficha": "N° 011-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "21/10/2026",
       "diasAtraso": 1
     }
   ]
