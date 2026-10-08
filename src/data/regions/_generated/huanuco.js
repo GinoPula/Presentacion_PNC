@@ -56,9 +56,9 @@ export default {
   conveniosCount: 8,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 24/02/2027' },
-    { entidad: 'Municipalidad Provincial Ambo', detail: 'vence 07/10/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Provincial Ambo', detail: 'hasta 07/10/2026' },
     { entidad: 'Municipalidad Provincial Huanuco', detail: 'hasta 19/08/2027' },
-    { entidad: 'Municipalidad Distrital Luyando', detail: 'hasta 07/11/2026' },
+    { entidad: 'Municipalidad Distrital Luyando', detail: 'vence 07/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Codo Del Pozuzo', detail: 'hasta 13/11/2026' },
     { entidad: 'Municipalidad Distrital Amarilis', detail: 'hasta 14/11/2026' },
     { entidad: 'Municipalidad Distrital Jose Crespo Y Castillo', detail: 'hasta 25/11/2026' },
