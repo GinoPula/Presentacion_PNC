@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 37110.0, km: 2.08, poblacion: 4864, provincias: ['Tacna'] },
     { tipo: 'Prevención', cantidad: 15, m3: 81695.0, km: 4.25, poblacion: 22464, provincias: ['Tacna'] },
-    { tipo: 'Urgente atención', cantidad: 9, m3: 12513.2, km: 14.56, poblacion: 4858, provincias: ['Tacna'] },
+    { tipo: 'Urgente atención', cantidad: 10, m3: 13113.8, km: 14.56, poblacion: 5278, provincias: ['Tacna'] },
   ],
-  ejecutadasTotal: { cantidad: 31, m3: 131318.2, m3AguaPotable: 3356.2, km: 20.89, poblacion: 32186 },
+  ejecutadasTotal: { cantidad: 32, m3: 131918.8, m3AguaPotable: 3956.8, km: 20.89, poblacion: 32606 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA    ', inicio: '10/08/2026', fin: '09/10/2026', volAcum: 585.0, kmAcum: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 540.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Jorge Basadre', distrito: 'Ite', tipo: 'Emergencia', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA      ', inicio: '09/10/2026', fin: '07/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 850 },
   ],
