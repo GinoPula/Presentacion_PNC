@@ -2201,10 +2201,10 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Sama",
     "sector": "Sama Y Anexos Iv Etapa",
-    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA   ",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA    ",
     "ficha": "044-2026-AA-U-TAC",
     "fechaInicio": "10/08/2026",
-    "fechaFin": "08/10/2026",
+    "fechaFin": "09/10/2026",
     "poblacion": 420,
     "volumen": 585,
     "km": 0,
@@ -4461,7 +4461,7 @@ const mapaIntervenciones = {
     "fechaFin": "08/10/2026",
     "poblacion": 7456,
     "volumen": 13035,
-    "km": 1.564,
+    "km": 1.624,
     "enlace": null
   },
   {
@@ -9588,6 +9588,24 @@ const mapaIntervenciones = {
     "poblacion": 900,
     "volumen": 4500,
     "km": 0.3,
+    "enlace": null
+  },
+  {
+    "id": 10262,
+    "lat": -13.508547,
+    "lng": -73.443711,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Andahuaylas",
+    "distrito": "Andarapa",
+    "sector": "C.P. Huampica/Drenes",
+    "descripcion": " \"LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC\"                ",
+    "ficha": "FTI N° 042-2026-LDP-APU",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "23/10/2026",
+    "poblacion": 500,
+    "volumen": 3525,
+    "km": 3.042,
     "enlace": null
   }
 ],
