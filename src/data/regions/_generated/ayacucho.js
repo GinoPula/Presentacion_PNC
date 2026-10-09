@@ -59,8 +59,7 @@ export default {
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-411'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-983'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81395', '81439'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 5, marca: 'Scania', codigos: ['EGN-501', 'EGM-836', 'EGM-790', 'EGM-796', 'EGM-835'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-795'], estado: 'inoperativo' },
+    { tipo: 'Volquete', cantidad: 6, marca: 'Scania', codigos: ['EGN-501', 'EGM-836', 'EGM-790', 'EGM-796', 'EGM-835', 'EGM-795'], estado: 'operativo' },
   ],
   flotaTotal: 16,
 }
