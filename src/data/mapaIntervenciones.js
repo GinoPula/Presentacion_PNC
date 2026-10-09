@@ -5845,13 +5845,13 @@ const mapaIntervenciones = {
     "provincia": "Ica",
     "distrito": "San Jose De Los Molinos",
     "sector": "Quebrada Yesera",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA  ",
     "ficha": "FT I N°044-2026-LDE- ICA",
     "fechaInicio": "05/10/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 1243,
-    "volumen": 900,
-    "km": 0.016,
+    "volumen": 3285,
+    "km": 0.048,
     "enlace": null
   }
 ],

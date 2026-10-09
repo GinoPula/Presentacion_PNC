@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/10/2026",
-    "horaCorte": "04:57",
+    "horaCorte": "05:28",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -338,24 +338,6 @@
     },
     {
       "n": 17,
-      "idIntervencion": "10574",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio El Limon Y Sector El Laurel.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
-      ]
-    },
-    {
-      "n": 18,
       "idIntervencion": "10580",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -374,6 +356,24 @@
         "CARGADOR FRONTAL ( JLX00219)",
         "VOLQUETE ( EGV-835)",
         "VOLQUETE ( EGV-848)"
+      ]
+    },
+    {
+      "n": 18,
+      "idIntervencion": "10574",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Limon Y Sector El Laurel.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
       ]
     },
     {
