@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                   ', inicio: '08/09/2026', fin: '09/10/2026', volAcum: 2835.0, kmAcum: 0.28, poblacion: 500 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                   ', inicio: '08/09/2026', fin: '09/10/2026', volAcum: 2885.0, kmAcum: 0.29, poblacion: 500 },
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DEL SECTOR BRISAS DEL HUALLAGA, LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN ', inicio: '05/10/2026', fin: '15/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
   ],
 

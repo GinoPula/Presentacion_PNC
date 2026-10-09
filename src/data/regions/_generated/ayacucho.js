@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.           ', inicio: '28/09/2026', fin: '12/10/2026', volAcum: 4224.0, kmAcum: 0.45, poblacion: 130 },
+    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.           ', inicio: '28/09/2026', fin: '12/10/2026', volAcum: 4524.0, kmAcum: 0.48, poblacion: 130 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -54,7 +54,8 @@ export default {
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-017'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00253'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10119', 'TJT10125'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['85467', 'A10889'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85467'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10889'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-411'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-983'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81395', '81439'], estado: 'operativo' },
