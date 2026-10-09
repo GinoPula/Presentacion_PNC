@@ -2281,6 +2281,24 @@ const mapaIntervenciones = {
     "volumen": 4865,
     "km": 0.5,
     "enlace": null
+  },
+  {
+    "id": 10531,
+    "lat": -17.859474,
+    "lng": -70.964306,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Jorge Basadre",
+    "distrito": "Ite",
+    "sector": "Ite Y Anexos",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA      ",
+    "ficha": "049-2026-DA-E-TAC",
+    "fechaInicio": "09/10/2026",
+    "fechaFin": "07/12/2026",
+    "poblacion": 850,
+    "volumen": 935,
+    "km": 0,
+    "enlace": null
   }
 ],
   piura: [
@@ -4605,7 +4623,7 @@ const mapaIntervenciones = {
     "fechaFin": "26/10/2026",
     "poblacion": 250,
     "volumen": 867.75,
-    "km": 0.807,
+    "km": 0.267,
     "enlace": null
   }
 ],
