@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
-    { tipo: 'Prevención', cantidad: 49, m3: 169184.0, km: 18.57, poblacion: 49493, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 50, m3: 169184.0, km: 18.57, poblacion: 49676, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 61, m3: 188382.0, m3AguaPotable: 570.0, km: 25.72, poblacion: 72148 },
+  ejecutadasTotal: { cantidad: 62, m3: 188382.0, m3AguaPotable: 570.0, km: 25.72, poblacion: 72331 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [

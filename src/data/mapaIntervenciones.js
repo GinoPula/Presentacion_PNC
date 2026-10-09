@@ -4555,6 +4555,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10528,
+    "lat": -9.598056,
+    "lng": -77.51205,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Huaraz",
+    "sector": "San Nicolas - Chiwipampa",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH   ",
+    "ficha": "120-2026-LDP-ANC",
+    "fechaInicio": "18/09/2026",
+    "fechaFin": "20/09/2026",
+    "poblacion": 183,
+    "volumen": 0,
+    "km": 0,
+    "enlace": null
+  },
+  {
     "id": 10530,
     "lat": -9.223835,
     "lng": -77.690333,
