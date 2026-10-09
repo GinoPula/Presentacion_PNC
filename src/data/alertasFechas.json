@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/10/2026",
-    "horaCorte": "16:38",
+    "horaCorte": "17:08",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -255,25 +255,6 @@
     },
     {
       "n": 14,
-      "idIntervencion": "9635",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Quebrada Tingo Ragra",
-      "ficha": "N° 011-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "21/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 15,
       "idIntervencion": "10333",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -292,7 +273,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "9452",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10560",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -330,26 +311,26 @@
       "diasAtraso": 2
     },
     {
-      "n": 18,
-      "idIntervencion": "10549",
+      "n": 17,
+      "idIntervencion": "9635",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Canchaque",
-      "ficha": "FTI N° 151-2026-LD-E-PIU",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Quebrada Tingo Ragra",
+      "ficha": "N° 011-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "07/10/2026",
-      "fechaFin": "10/11/2026",
+      "fechaFin": "21/10/2026",
       "diasAtraso": 2
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10593",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -368,7 +349,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "9657",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10595",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10596",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10462",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -463,7 +444,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 25,
+      "n": 24,
       "idIntervencion": "10529",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -482,7 +463,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 26,
+      "n": 25,
       "idIntervencion": "7640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
