@@ -21,6 +21,7 @@ export default {
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 690.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'San Jacinto', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180    ', inicio: '25/09/2026', fin: '09/10/2026', volAcum: 4200.0, kmAcum: 0.25, poblacion: 269 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '04/10/2026', fin: '18/10/2026', volAcum: 3500.0, kmAcum: 0.32, poblacion: 6005 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ', inicio: '10/10/2026', fin: '24/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 527 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,15 +29,14 @@ export default {
     { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', cantidad: 1, metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },
     { provincia: 'Contralmirante Villar', distrito: 'Casitas', cantidad: 1, metaVol: 4830.0, metaKm: 0.6, poblacion: 910 },
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', cantidad: 1, metaVol: 28852.0, metaKm: 1.15, poblacion: 2800 },
-    { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 2, metaVol: 6486.0, metaKm: 1.06, poblacion: 1405 },
+    { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 1, metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
     { provincia: 'Tumbes', distrito: 'La Cruz', cantidad: 2, metaVol: 3054.0, metaKm: 0.46, poblacion: 1775 },
     { provincia: 'Tumbes', distrito: 'Tumbes', cantidad: 2, metaVol: 6329.6, metaKm: 1.07, poblacion: 1583 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 51851.6, metaKm: 5.2, poblacion: 10710 },
+  programadasTotal: { cantidad: 9, metaVol: 48476.6, metaKm: 4.75, poblacion: 10183 },
 
   programadasDetalle: [
-    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Malval', ficha: '073-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     ', fechaInicio: '10/10/2026', fechaFin: '24/10/2026', metaVol: 3375.0, metaKm: 0.45, poblacion: 527 },
     { provincia: 'Tumbes', distrito: 'Tumbes', sector: '', ficha: '042-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00         ', fechaInicio: '19/10/2026', fechaFin: '28/10/2026', metaVol: 4760.0, metaKm: 0.85, poblacion: 1413 },
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'San Isidro', ficha: '063-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL NIÑO, LOCALIDAD SAN ISIDRO, DISTRITO CORRALES, PROVINCIA TUMBES, DEPARTAMENTO TUMBES   ', fechaInicio: '29/10/2026', fechaFin: '01/11/2026', metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
     { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', sector: 'La Bombonera', ficha: '013-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA BOMBONERA, EN EL SECTOR DE LA BOMBONERA DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES” -00      ', fechaInicio: '02/11/2026', fechaFin: '08/11/2026', metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },

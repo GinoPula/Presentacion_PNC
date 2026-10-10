@@ -425,24 +425,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1YVgHXIHhZng42McGgseGOgAtDajHsxM4/view?usp=drive_link"
   },
   {
-    "id": 10112,
-    "lat": -3.691489,
-    "lng": -80.692821,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL ANGELITO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
-    "ficha": "047-2026-LD-PI-TUM",
-    "fechaInicio": "11/04/2026",
-    "fechaFin": "18/04/2026",
-    "poblacion": 516,
-    "volumen": 4600,
-    "km": 0.3,
-    "enlace": "https://drive.google.com/file/d/1d5kKBMAE9n-8xvjwFdUyvTui-5KpzqhI/view?usp=drive_link"
-  },
-  {
     "id": 10111,
     "lat": -3.689706,
     "lng": -80.433892,
@@ -459,6 +441,24 @@ const mapaIntervenciones = {
     "volumen": 556.5,
     "km": 0.53,
     "enlace": "https://drive.google.com/file/d/1Qzpi2d6qKG_9Kl17PUCEcZtz6EyowY7I/view?usp=drive_link"
+  },
+  {
+    "id": 10112,
+    "lat": -3.691489,
+    "lng": -80.692821,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL ANGELITO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
+    "ficha": "047-2026-LD-PI-TUM",
+    "fechaInicio": "11/04/2026",
+    "fechaFin": "18/04/2026",
+    "poblacion": 516,
+    "volumen": 4600,
+    "km": 0.3,
+    "enlace": "https://drive.google.com/file/d/1d5kKBMAE9n-8xvjwFdUyvTui-5KpzqhI/view?usp=drive_link"
   },
   {
     "id": 10139,
@@ -713,24 +713,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bPd-gPqlNknweyb3QMUjUsjnNgDzt-Re/view?usp=drive_link"
   },
   {
-    "id": 10354,
-    "lat": -3.642479,
-    "lng": -80.592653,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "Las Gardenias",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
-    "ficha": "066-2026-LD-E-TUM",
-    "fechaInicio": "08/07/2026",
-    "fechaFin": "16/07/2026",
-    "poblacion": 325,
-    "volumen": 900,
-    "km": 0.5,
-    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
-  },
-  {
     "id": 10340,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -747,6 +729,24 @@ const mapaIntervenciones = {
     "volumen": 585,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10354,
+    "lat": -3.642479,
+    "lng": -80.592653,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "Las Gardenias",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LAS GARDENIAS, EN EL SECTOR LAS GARDENIAS DEL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
+    "ficha": "066-2026-LD-E-TUM",
+    "fechaInicio": "08/07/2026",
+    "fechaFin": "16/07/2026",
+    "poblacion": 325,
+    "volumen": 900,
+    "km": 0.5,
+    "enlace": "https://drive.google.com/file/d/1zfG9l9gGAJRHz4NMtjX8WcyelJgyHSIN/view?usp=drive_link"
   },
   {
     "id": 10373,
@@ -926,6 +926,24 @@ const mapaIntervenciones = {
     "poblacion": 6005,
     "volumen": 3500,
     "km": 0.32,
+    "enlace": null
+  },
+  {
+    "id": 10520,
+    "lat": -3.623553,
+    "lng": -80.470886,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "Malval",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES	DS180																				      ",
+    "ficha": "073-2026-LD-E-TUM",
+    "fechaInicio": "10/10/2026",
+    "fechaFin": "24/10/2026",
+    "poblacion": 527,
+    "volumen": 3375,
+    "km": 0.45,
     "enlace": null
   }
 ],
@@ -4622,8 +4640,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 300,
-    "volumen": 472,
-    "km": 0.07,
+    "volumen": 877,
+    "km": 0.1,
     "enlace": null
   },
   {
