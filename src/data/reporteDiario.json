@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "11/10/2026",
-    "horaCorte": "02:07",
+    "horaCorte": "02:38",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -50,27 +50,6 @@
     },
     {
       "n": 3,
-      "idIntervencion": "10555",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "26/10/2026",
-      "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "CAMIONETA ( EAJ-733)",
-        "REMOLCADOR ( EAJ-560)",
-        "EXCAVADORA HIDRAULICA ( D523228)"
-      ]
-    },
-    {
-      "n": 4,
       "idIntervencion": "10462",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -88,6 +67,27 @@
         "EXCAVADORA HIDRAULICA ( TJT10129)",
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
         "REMOLCADOR ( EAJ-560)"
+      ]
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10555",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Cascajal Bajo – La Cuadra",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "26/10/2026",
+      "maquinaria": [
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "CAMIONETA ( EAJ-733)",
+        "REMOLCADOR ( EAJ-560)",
+        "EXCAVADORA HIDRAULICA ( D523228)"
       ]
     },
     {
@@ -263,7 +263,7 @@
       "regionId": "cajamarca",
       "provincia": "Cajamarca",
       "distrito": "Namora",
-      "sector": "Sector Jigón",
+      "sector": "Chilacat",
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
       "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUILMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 0+070, EN EL SECTOR CHILACAT, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00",
