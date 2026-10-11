@@ -2,10 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
+    { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.16, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
+    { tipo: 'Prevención', cantidad: 1, m3: 3000.0, km: 0.3, poblacion: 500, provincias: ['Picota'] },
     { tipo: 'Urgente atención', cantidad: 15, m3: 26949.6, km: 24.83, poblacion: 11575, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja', 'San Martin'] },
   ],
-  ejecutadasTotal: { cantidad: 19, m3: 41088.75, m3AguaPotable: 7425.0, km: 31.99, poblacion: 12975 },
+  ejecutadasTotal: { cantidad: 20, m3: 44088.75, m3AguaPotable: 7425.0, km: 32.29, poblacion: 13475 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO I, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN                   ', inicio: '08/09/2026', fin: '09/10/2026', volAcum: 2885.0, kmAcum: 0.29, poblacion: 500 },
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DEL SECTOR BRISAS DEL HUALLAGA, LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN ', inicio: '05/10/2026', fin: '15/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
   ],
 
