@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "11/10/2026",
-    "horaCorte": "00:35",
+    "horaCorte": "01:06",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -122,6 +122,25 @@
     },
     {
       "n": 7,
+      "idIntervencion": "10543",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Los Pajaritos",
+      "ficha": "080-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "19/10/2026",
+      "diasAtraso": 5
+    },
+    {
+      "n": 8,
       "idIntervencion": "10541",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -140,7 +159,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 8,
+      "n": 9,
       "idIntervencion": "10510",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -156,25 +175,6 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 9,
-      "idIntervencion": "10543",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Huamachuco",
-      "sector": "Los Pajaritos",
-      "ficha": "080-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "19/10/2026",
       "diasAtraso": 5
     },
     {
@@ -388,25 +388,6 @@
     },
     {
       "n": 21,
-      "idIntervencion": "10462",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Villa María – 3 De Octubre",
-      "ficha": "111-2026-LDP-ANC-ANIN",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH",
-      "marcoLegal": "CONVENIO Nº029-2026",
-      "fechaInicio": "28/08/2026",
-      "fechaFin": "08/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 22,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +406,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10529",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -444,7 +425,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "7640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -463,7 +444,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 25,
+      "n": 24,
       "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -482,7 +463,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 26,
+      "n": 25,
       "idIntervencion": "10580",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -501,7 +482,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "10460",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
