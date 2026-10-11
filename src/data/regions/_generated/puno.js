@@ -18,6 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 4336.74, kmAcum: 16.93, poblacion: 1000 },
+    { provincia: 'Melgar', distrito: 'Llalli', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO   ', inicio: '09/10/2026', fin: '23/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -30,7 +31,7 @@ export default {
     { provincia: 'Huancane', distrito: 'Huancane', cantidad: 1, metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
     { provincia: 'Lampa', distrito: 'Ocuviri', cantidad: 1, metaVol: 18970.0, metaKm: 1.35, poblacion: 350 },
     { provincia: 'Melgar', distrito: 'Cupi', cantidad: 1, metaVol: 50800.0, metaKm: 1.03, poblacion: 320 },
-    { provincia: 'Melgar', distrito: 'Llalli', cantidad: 2, metaVol: 43300.0, metaKm: 1.65, poblacion: 450 },
+    { provincia: 'Melgar', distrito: 'Llalli', cantidad: 1, metaVol: 20800.0, metaKm: 1.02, poblacion: 150 },
     { provincia: 'Melgar', distrito: 'Santa Rosa', cantidad: 1, metaVol: 14500.0, metaKm: 1.16, poblacion: 600 },
     { provincia: 'Melgar', distrito: 'Umachiri', cantidad: 1, metaVol: 18650.0, metaKm: 0.75, poblacion: 0 },
     { provincia: 'Puno', distrito: 'Paucarcolla', cantidad: 2, metaVol: 26064.0, metaKm: 4.43, poblacion: 150 },
@@ -40,11 +41,10 @@ export default {
     { provincia: 'San Roman', distrito: 'Cabanillas', cantidad: 1, metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'Yunguyo', distrito: 'Unicachi', cantidad: 1, metaVol: 11400.0, metaKm: 1.9, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 20, metaVol: 418631.7, metaKm: 43.34, poblacion: 7645 },
+  programadasTotal: { cantidad: 19, metaVol: 396131.7, metaKm: 42.71, poblacion: 7345 },
 
   programadasDetalle: [
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Tiracoma', ficha: 'FTI N° 017-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO LAVADERO Y AFLUENTE, EN EL SECTOR TIRACOMA, DISTRITO DE CABANA, PROVINCIA DE SAN ROMAN, DEPARTAMENTO DE PUNO      ', fechaInicio: '08/10/2026', fechaFin: '31/10/2026', metaVol: 26419.2, metaKm: 1.03, poblacion: 250 },
-    { provincia: 'Melgar', distrito: 'Llalli', sector: 'Kahuasiri Bajo', ficha: 'FTI N°004-2026-LDP-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO  ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 22500.0, metaKm: 0.63, poblacion: 300 },
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Muñani Chico', ficha: 'FTI N° 037-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO          ', fechaInicio: '19/10/2026', fechaFin: '29/10/2026', metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },
     { provincia: 'Huancane', distrito: 'Huancane', sector: 'Quishuarani Y Machacmarca', ficha: 'FTI N° 040-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO         ', fechaInicio: '20/10/2026', fechaFin: '03/11/2026', metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
     { provincia: 'San Antonio De Putina', distrito: 'Putina', sector: 'Putina', ficha: 'FTI N°018-2026-LDP-PUN', descripcion: ' LIMPIEZA, DESCOLMATACION DEL RIO PUTINA DEL DISTRITO DE PUTINA, PROVINCIA DE SAN ANTONIO DE PUTINA, DEPARTAMENTO DE PUNO-00         ', fechaInicio: '28/10/2026', fechaFin: '26/11/2026', metaVol: 36960.0, metaKm: 2.42, poblacion: 2500 },
