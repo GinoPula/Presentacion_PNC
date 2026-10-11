@@ -48,7 +48,7 @@ export default {
 
   conveniosCount: 2,
   conveniosVigentes: [
-    { entidad: 'Gobierno Regional', detail: 'hasta 10/11/2026' },
+    { entidad: 'Gobierno Regional', detail: 'vence 10/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Tacna', detail: 'hasta 19/02/2027' },
   ],
 
