@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "12/10/2026",
-    "horaCorte": "00:26",
+    "horaCorte": "00:56",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -483,25 +483,6 @@
     },
     {
       "n": 26,
-      "idIntervencion": "10507",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Caraveli",
-      "distrito": "Caraveli",
-      "sector": "A.h. Isidoro Berrocal",
-      "ficha": "77-2026-AA-U-ARE",
-      "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 001-2026-MPC",
-      "fechaInicio": "11/09/2026",
-      "fechaFin": "10/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 27,
       "idIntervencion": "10598",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -520,7 +501,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 28,
+      "n": 27,
       "idIntervencion": "9642",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -539,7 +520,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -558,7 +539,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 30,
+      "n": 29,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -577,7 +558,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 31,
+      "n": 30,
       "idIntervencion": "10573",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -596,7 +577,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 32,
+      "n": 31,
       "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
