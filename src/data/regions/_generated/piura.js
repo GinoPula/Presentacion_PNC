@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 20, m3: 121372.53, km: 31.91, poblacion: 30530, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
-    { tipo: 'Prevención', cantidad: 29, m3: 161103.12, km: 51.45, poblacion: 119557, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
+    { tipo: 'Prevención', cantidad: 30, m3: 161822.4, km: 53.45, poblacion: 119617, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 10, m3: 37117.5, km: 30.95, poblacion: 14605, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 59, m3: 319593.15, m3AguaPotable: 255.0, km: 114.31, poblacion: 164692 },
+  ejecutadasTotal: { cantidad: 60, m3: 320312.43, m3AguaPotable: 255.0, km: 116.31, poblacion: 164752 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 7150.0, kmAcum: 1.25, poblacion: 9200 },
-    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '28/09/2026', fin: '10/10/2026', volAcum: 719.28, kmAcum: 2.0, poblacion: 60 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180  ', inicio: '05/10/2026', fin: '01/11/2026', volAcum: 1450.0, kmAcum: 0.06, poblacion: 108 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180   ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 900 },
     { provincia: 'Talara', distrito: 'Los Organos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1200 },

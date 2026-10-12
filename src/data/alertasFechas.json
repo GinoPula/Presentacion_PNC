@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "12/10/2026",
-    "horaCorte": "16:41",
+    "horaCorte": "17:12",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -464,25 +464,6 @@
     },
     {
       "n": 25,
-      "idIntervencion": "10573",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Ayabaca",
-      "distrito": "Paimas",
-      "sector": "Jambur Alto",
-      "ficha": "FTI N°127-2026-LDOA-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA DE JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA",
-      "marcoLegal": "CONVENIO N° 037-2024-VIVIENDA/VMVU/PNC – ADENDA N°2",
-      "fechaInicio": "28/09/2026",
-      "fechaFin": "10/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 26,
       "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -501,7 +482,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "10417",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
