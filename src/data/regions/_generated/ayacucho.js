@@ -43,11 +43,11 @@ export default {
     { provincia: 'Huamanga', distrito: 'Vinchos', sector: '', ficha: '06-2026-LD-P-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO IV, UBICADO EN EL CENTRO POBLADO ANCHAC HUASI, EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.      ', fechaInicio: '14/12/2026', fechaFin: '29/12/2026', metaVol: 10200.0, metaKm: 1.7, poblacion: 245 },
   ],
 
-  conveniosCount: 17,
+  conveniosCount: 16,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '1 convenio vigente' },
-    { entidad: 'Municipalidad Distrital', detail: '15 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '14 convenios vigentes' },
   ],
 
   flota: [

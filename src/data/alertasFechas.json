@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "12/10/2026",
-    "horaCorte": "04:29",
+    "horaCorte": "05:00",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
       "fechaInicio": "22/09/2026",
       "fechaFin": "01/10/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 036-2026-MDC/CM",
       "fechaInicio": "15/06/2026",
       "fechaFin": "02/10/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
       "fechaInicio": "19/09/2026",
       "fechaFin": "03/10/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
       "fechaInicio": "05/10/2026",
       "fechaFin": "18/11/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N °039-2026-MDN/CM",
       "fechaInicio": "06/10/2026",
       "fechaFin": "02/11/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "06/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO 035 -2026 - MDLC-CM",
       "fechaInicio": "28/08/2026",
       "fechaFin": "06/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "CONVENIO Nº072-2024-ADENDA 01",
       "fechaInicio": "07/10/2026",
       "fechaFin": "15/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "CONVENIO Nº027-2026",
       "fechaInicio": "23/09/2026",
       "fechaFin": "07/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 15,
@@ -289,7 +289,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "07/10/2026",
       "fechaFin": "21/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 16,
@@ -308,7 +308,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "07/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 17,
@@ -327,7 +327,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "08/10/2026",
       "fechaFin": "31/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 18,
@@ -346,7 +346,7 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02-2025-PLIA",
       "fechaInicio": "08/10/2026",
       "fechaFin": "17/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 19,
@@ -365,7 +365,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "08/10/2026",
       "fechaFin": "22/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 20,
@@ -384,7 +384,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "08/10/2026",
       "fechaFin": "22/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 21,
@@ -403,7 +403,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
       "fechaInicio": "10/09/2026",
       "fechaFin": "08/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 22,
@@ -422,7 +422,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°009-2026-MDSAC/CM",
       "fechaInicio": "18/09/2026",
       "fechaFin": "08/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 23,
@@ -441,29 +441,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
       "fechaInicio": "30/09/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 24,
-      "idIntervencion": "10463",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Nuevo Chimbote",
-      "sector": "3 De Octubre",
-      "ficha": "110-2026-LDP-ANC-ANIN",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH",
-      "marcoLegal": "CONVENIO Nº029-2026",
-      "fechaInicio": "09/10/2026",
-      "fechaFin": "25/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 25,
       "idIntervencion": "10460",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -479,26 +460,45 @@
       "marcoLegal": "CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC",
       "fechaInicio": "31/08/2026",
       "fechaFin": "09/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 25,
+      "idIntervencion": "10463",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Nuevo Chimbote",
+      "sector": "3 De Octubre",
+      "ficha": "110-2026-LDP-ANC-ANIN",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "fechaInicio": "09/10/2026",
+      "fechaFin": "25/10/2026",
+      "diasAtraso": 3
     },
     {
       "n": 26,
-      "idIntervencion": "10598",
+      "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Huancayo",
-      "distrito": "Chongos Alto",
-      "sector": "Zona Urbana",
-      "ficha": "072-2026-LETV-E-JUN",
-      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN",
-      "marcoLegal": "D.S. N° 037-2020-PCM",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Morropon",
+      "sector": "Sector Lopez Albujar",
+      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
       "fechaInicio": "10/10/2026",
-      "fechaFin": "18/10/2026",
-      "diasAtraso": 1
+      "fechaFin": "15/10/2026",
+      "diasAtraso": 2
     },
     {
       "n": 27,
@@ -517,7 +517,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 28,
@@ -536,7 +536,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "23/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 29,
@@ -555,10 +555,29 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
       "fechaInicio": "10/10/2026",
       "fechaFin": "18/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 30,
+      "idIntervencion": "10598",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Huancayo",
+      "distrito": "Chongos Alto",
+      "sector": "Zona Urbana",
+      "ficha": "072-2026-LETV-E-JUN",
+      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN",
+      "marcoLegal": "D.S. N° 037-2020-PCM",
+      "fechaInicio": "10/10/2026",
+      "fechaFin": "18/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 31,
       "idIntervencion": "10573",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -574,25 +593,25 @@
       "marcoLegal": "CONVENIO N° 037-2024-VIVIENDA/VMVU/PNC – ADENDA N°2",
       "fechaInicio": "28/09/2026",
       "fechaFin": "10/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
-      "n": 31,
-      "idIntervencion": "9684",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Sector Lopez Albujar",
-      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
-      "fechaInicio": "10/10/2026",
-      "fechaFin": "15/10/2026",
+      "n": 32,
+      "idIntervencion": "10417",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Lambayeque",
+      "distrito": "Olmos",
+      "sector": "Ancol Chico, Ancol Grande, Pasaje Norte, Vinguar Chico, Vinguar Grande, Oberasal, Piedra Mora, San Cristobal Chico, Sequion, Cholope, Laucha Chica, Pasabar Los Mayanga, Ficuar, Garbanzal, Hualtacal Corazón De Jesús, Yausaque, La Orchilla Baja, Calera Santa Isabel, Laguna Larga, Pinabar",
+      "ficha": "058-2026 -AA-U-LAM",
+      "descripcion": "ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 060-2026-MDO/CM",
+      "fechaInicio": "13/08/2026",
+      "fechaFin": "11/10/2026",
       "diasAtraso": 1
     }
   ]
