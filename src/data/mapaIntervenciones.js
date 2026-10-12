@@ -4527,10 +4527,10 @@ const mapaIntervenciones = {
     "provincia": "Santa",
     "distrito": "Chimbote",
     "sector": "Villa María – 3 De Octubre",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH    ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH     ",
     "ficha": "111-2026-LDP-ANC-ANIN",
     "fechaInicio": "28/08/2026",
-    "fechaFin": "13/10/2026",
+    "fechaFin": "20/10/2026",
     "poblacion": 7456,
     "volumen": 14927,
     "km": 1.734,
@@ -4591,24 +4591,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10528,
-    "lat": -9.598056,
-    "lng": -77.51205,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huaraz",
-    "distrito": "Huaraz",
-    "sector": "San Nicolas - Chiwipampa",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH   ",
-    "ficha": "120-2026-LDP-ANC",
-    "fechaInicio": "18/09/2026",
-    "fechaFin": "20/09/2026",
-    "poblacion": 183,
-    "volumen": 0,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10429,
     "lat": -10.640974,
     "lng": -77.525245,
@@ -4624,6 +4606,24 @@ const mapaIntervenciones = {
     "poblacion": 340,
     "volumen": 11595,
     "km": 0.6,
+    "enlace": null
+  },
+  {
+    "id": 10528,
+    "lat": -9.598056,
+    "lng": -77.51205,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Huaraz",
+    "sector": "San Nicolas - Chiwipampa",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD CON MATERIAL PROPIO DEL RÍO SANTA, TRAMO I, SECTOR CHIWIPAMPA, CENTRO POBLADO SAN NICOLAS, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH   ",
+    "ficha": "120-2026-LDP-ANC",
+    "fechaInicio": "18/09/2026",
+    "fechaFin": "20/09/2026",
+    "poblacion": 183,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
@@ -4712,8 +4712,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "26/10/2026",
     "poblacion": 250,
-    "volumen": 1784.25,
-    "km": 0.549,
+    "volumen": 2281.5,
+    "km": 0.702,
     "enlace": null
   }
 ],
@@ -11089,6 +11089,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10294,
+    "lat": -6.23918,
+    "lng": -78.897973,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "Callayuc",
+    "sector": "San Francisco - C.P El Cumbe – La Union",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".         ",
+    "ficha": "N°051-2026-MTVU-AMZ",
+    "fechaInicio": "15/06/2026",
+    "fechaFin": "25/09/2026",
+    "poblacion": 438,
+    "volumen": 5090,
+    "km": 3.75,
+    "enlace": null
+  },
+  {
     "id": 10293,
     "lat": -5.691199,
     "lng": -78.774925,
@@ -11104,24 +11122,6 @@ const mapaIntervenciones = {
     "poblacion": 5000,
     "volumen": 660,
     "km": 0,
-    "enlace": null
-  },
-  {
-    "id": 10294,
-    "lat": -6.23918,
-    "lng": -78.897973,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "Callayuc",
-    "sector": "San Francisco - C.P El Cumbe – La Union",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".        ",
-    "ficha": "N°051-2026-MTVU-AMZ",
-    "fechaInicio": "15/06/2026",
-    "fechaFin": "02/10/2026",
-    "poblacion": 438,
-    "volumen": 4430,
-    "km": 3.425,
     "enlace": null
   },
   {

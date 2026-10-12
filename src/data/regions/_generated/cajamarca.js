@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
     { tipo: 'Prevención', cantidad: 23, m3: 153978.05, km: 10.66, poblacion: 14070, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 46, m3: 198539.51, km: 160.99, poblacion: 56412, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Urgente atención', cantidad: 47, m3: 203629.51, km: 164.74, poblacion: 56850, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 73, m3: 382067.56, m3AguaPotable: 3300.0, km: 173.5, poblacion: 72374 },
+  ejecutadasTotal: { cantidad: 74, m3: 387157.56, m3AguaPotable: 3300.0, km: 177.25, poblacion: 72812 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 83, m3: 534701.29, m3AguaPotable: 1830.0, km: 217.87, poblacion: 100929 },
 
   enEjecucion: [
-    { provincia: 'Cutervo', distrito: 'Callayuc', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA".        ', inicio: '15/06/2026', fin: '02/10/2026', volAcum: 4430.0, kmAcum: 3.42, poblacion: 438 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ', inicio: '28/08/2026', fin: '06/10/2026', volAcum: 1305.0, kmAcum: 1.3, poblacion: 500 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA” ', inicio: '09/09/2026', fin: '06/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
     { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”  ', inicio: '18/09/2026', fin: '08/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 87 },
