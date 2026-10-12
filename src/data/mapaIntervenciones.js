@@ -12665,24 +12665,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1xhT9f-_69KIB9dDnqNdyryF4L6c-U_76/view?usp=drive_link"
   },
   {
-    "id": 10032,
-    "lat": -12.096045,
-    "lng": -74.015652,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Satipo",
-    "distrito": "Rio Tambo",
-    "sector": "Zona Urbana",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN     ",
-    "ficha": "042-2026-LD-E-JUN",
-    "fechaInicio": "24/03/2026",
-    "fechaFin": "17/04/2026",
-    "poblacion": 60102,
-    "volumen": 8710,
-    "km": 1.311,
-    "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
-  },
-  {
     "id": 9982,
     "lat": -11.05829,
     "lng": -75.341915,
@@ -12699,6 +12681,24 @@ const mapaIntervenciones = {
     "volumen": 9810,
     "km": 0.759,
     "enlace": "https://drive.google.com/file/d/1qU4EL09ZptlU6J3QOJ36ho3D5nNfA_0S/view?usp=drive_link"
+  },
+  {
+    "id": 10032,
+    "lat": -12.096045,
+    "lng": -74.015652,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Satipo",
+    "distrito": "Rio Tambo",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE DRENES EN DIVERSOS TRAMOS DE LA PROGRESIVA 0+000 AL 000+886.46, 0+982.61, 0+228.83, 0+673.77 DEL C.P DE SOL NACIENTE, DEL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNIN     ",
+    "ficha": "042-2026-LD-E-JUN",
+    "fechaInicio": "24/03/2026",
+    "fechaFin": "17/04/2026",
+    "poblacion": 60102,
+    "volumen": 8710,
+    "km": 1.311,
+    "enlace": "https://drive.google.com/file/d/15dWIHpWKXnoZiS1SEhZ6AKTnQIa4NOmO/view?usp=drive_link"
   },
   {
     "id": 10056,
@@ -12863,24 +12863,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/11pzh7pUvA_nsg2qQVCeZWEJ9RlXAcj3d/view?usp=drive_link"
   },
   {
-    "id": 9450,
-    "lat": -12.092061,
-    "lng": -75.217538,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huancayo",
-    "distrito": "Chilca",
-    "sector": "Canal",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION Y ELIMINACION DE MATERIAL DESCOLMATADO DEL CAUCE DEL CANAL COMPRENDIDO EN LA  PROG. 0+000 A LA PROG. 1+1162.53, EN LA ZONA URBANA DEL DISTRITO DE CHILCA, PROVINCIA HUANCAYO, REGION JUNIN      ",
-    "ficha": "019-2026-LD-P-JUN",
-    "fechaInicio": "09/06/2026",
-    "fechaFin": "27/06/2026",
-    "poblacion": 12000,
-    "volumen": 4640,
-    "km": 1.163,
-    "enlace": null
-  },
-  {
     "id": 10275,
     "lat": -12.072864,
     "lng": -74.058155,
@@ -12897,6 +12879,24 @@ const mapaIntervenciones = {
     "volumen": 2500,
     "km": 0.473,
     "enlace": "https://drive.google.com/file/d/1vVW8iaw0DUiDu2rb7Jvhpen9xe4ThzIR/view?usp=drive_link"
+  },
+  {
+    "id": 9450,
+    "lat": -12.092061,
+    "lng": -75.217538,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huancayo",
+    "distrito": "Chilca",
+    "sector": "Canal",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION Y ELIMINACION DE MATERIAL DESCOLMATADO DEL CAUCE DEL CANAL COMPRENDIDO EN LA  PROG. 0+000 A LA PROG. 1+1162.53, EN LA ZONA URBANA DEL DISTRITO DE CHILCA, PROVINCIA HUANCAYO, REGION JUNIN      ",
+    "ficha": "019-2026-LD-P-JUN",
+    "fechaInicio": "09/06/2026",
+    "fechaFin": "27/06/2026",
+    "poblacion": 12000,
+    "volumen": 4640,
+    "km": 1.163,
+    "enlace": null
   },
   {
     "id": 10362,
@@ -13007,24 +13007,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10390,
-    "lat": -12.153571,
-    "lng": -75.24533,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Chupuro",
-    "sector": "Zona Urbana",
-    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN        ",
-    "ficha": "062-2026-LETV-E-JUN ",
-    "fechaInicio": "25/07/2026",
-    "fechaFin": "08/08/2026",
-    "poblacion": 210,
-    "volumen": 10530,
-    "km": 1.921,
-    "enlace": null
-  },
-  {
     "id": 10385,
     "lat": -12.157955,
     "lng": -75.264889,
@@ -13041,6 +13023,24 @@ const mapaIntervenciones = {
     "volumen": 21894,
     "km": 0.23,
     "enlace": "https://drive.google.com/file/d/1pYuHqXCKpdRO2auWtwTxBwP8SiEyGUZm/view?usp=drive_link"
+  },
+  {
+    "id": 10390,
+    "lat": -12.153571,
+    "lng": -75.24533,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Chupuro",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 EN EL DISTRITO DE CHUPURO, PROVINCIA DE HUANCAYO, REGION JUNIN        ",
+    "ficha": "062-2026-LETV-E-JUN ",
+    "fechaInicio": "25/07/2026",
+    "fechaFin": "08/08/2026",
+    "poblacion": 210,
+    "volumen": 10530,
+    "km": 1.921,
+    "enlace": null
   },
   {
     "id": 10389,
@@ -13184,6 +13184,24 @@ const mapaIntervenciones = {
     "poblacion": 595,
     "volumen": 16255,
     "km": 7.49,
+    "enlace": null
+  },
+  {
+    "id": 10598,
+    "lat": -12.315375,
+    "lng": -75.293053,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Chongos Alto",
+    "sector": "Zona Urbana",
+    "descripcion": " LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ",
+    "ficha": "072-2026-LETV-E-JUN ",
+    "fechaInicio": "12/10/2026",
+    "fechaFin": "20/10/2026",
+    "poblacion": 70,
+    "volumen": 2100,
+    "km": 7.266,
     "enlace": null
   }
 ],
