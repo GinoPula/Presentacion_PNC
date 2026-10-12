@@ -5912,12 +5912,12 @@ const mapaIntervenciones = {
     "id": 10584,
     "lat": -13.932662,
     "lng": -75.63645,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Ica",
     "distrito": "San Jose De Los Molinos",
     "sector": "Quebrada Yesera",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA   ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA    ",
     "ficha": "FT I N°044-2026-LDE- ICA",
     "fechaInicio": "05/10/2026",
     "fechaFin": "10/10/2026",
@@ -9150,7 +9150,7 @@ const mapaIntervenciones = {
     "fechaInicio": "11/09/2026",
     "fechaFin": "10/10/2026",
     "poblacion": 640,
-    "volumen": 600,
+    "volumen": 630,
     "km": 0,
     "enlace": null
   },
@@ -9168,7 +9168,7 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 504,
-    "volumen": 465,
+    "volumen": 510,
     "km": 0,
     "enlace": null
   },
@@ -9186,8 +9186,8 @@ const mapaIntervenciones = {
     "fechaInicio": "21/09/2026",
     "fechaFin": "20/10/2026",
     "poblacion": 500,
-    "volumen": 5820,
-    "km": 0.225,
+    "volumen": 6720,
+    "km": 0.26,
     "enlace": null
   },
   {
@@ -9204,8 +9204,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 720,
-    "volumen": 6800,
-    "km": 1.36,
+    "volumen": 7450,
+    "km": 1.49,
     "enlace": null
   },
   {
@@ -9222,7 +9222,7 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 75,
+    "volumen": 135,
     "km": 0,
     "enlace": null
   },
@@ -9240,8 +9240,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 0,
-    "km": 0,
+    "volumen": 660,
+    "km": 0.03,
     "enlace": null
   }
 ],
@@ -14021,6 +14021,24 @@ const mapaIntervenciones = {
     "fechaFin": "15/10/2026",
     "poblacion": 300,
     "volumen": 0,
+    "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 9440,
+    "lat": -5.738582,
+    "lng": -77.505692,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Rioja",
+    "distrito": "Pardo Miguel",
+    "sector": "Centro, Los Angeles Y Miraflores",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN       ",
+    "ficha": "008-2026-AA-U-SAM",
+    "fechaInicio": "12/10/2026",
+    "fechaFin": "10/11/2026",
+    "poblacion": 1125,
+    "volumen": 1170,
     "km": 0,
     "enlace": null
   }

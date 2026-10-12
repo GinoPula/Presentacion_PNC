@@ -64,7 +64,7 @@ export default {
 
   conveniosCount: 4,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Distrital Callayuc', detail: 'hasta 11/11/2026' },
+    { entidad: 'Municipalidad Distrital Callayuc', detail: 'vence 11/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital San Juan', detail: 'hasta 17/11/2026' },
     { entidad: 'Municipalidad Distrital Calquis', detail: 'hasta 12/12/2026' },
     { entidad: 'Municipalidad Distrital Chirinos', detail: 'hasta 31/12/2026' },
