@@ -2335,6 +2335,24 @@ const mapaIntervenciones = {
     "volumen": 0,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10476,
+    "lat": -17.862902,
+    "lng": -70.560014,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Tacna",
+    "distrito": "Sama",
+    "sector": "Sama Y Anexos V Etapa",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ",
+    "ficha": "048-2026-AA-U-TAC",
+    "fechaInicio": "13/10/2026",
+    "fechaFin": "11/12/2026",
+    "poblacion": 420,
+    "volumen": 600.6,
+    "km": 0,
+    "enlace": null
   }
 ],
   piura: [

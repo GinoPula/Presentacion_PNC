@@ -19,6 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '18/08/2026', fin: '16/10/2026', volAcum: 540.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Jorge Basadre', distrito: 'Ite', tipo: 'Emergencia', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE ITE Y ANEXOS - I ETAPA, DISTRITO DE ITE, PROVINCIA DE JORGE BASADRE, REGION DE TACNA      ', inicio: '09/10/2026', fin: '07/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 850 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 420 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,13 +29,12 @@ export default {
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 1, metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 19175.0, metaKm: 0.6, poblacion: 11000 },
     { provincia: 'Tacna', distrito: 'Palca', cantidad: 1, metaVol: 4000.0, metaKm: 1.1, poblacion: 100 },
-    { provincia: 'Tacna', distrito: 'Sama', cantidad: 3, metaVol: 8540.6, metaKm: 6.4, poblacion: 970 },
+    { provincia: 'Tacna', distrito: 'Sama', cantidad: 2, metaVol: 7940.0, metaKm: 6.4, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 50640.6, metaKm: 9.1, poblacion: 23820 },
+  programadasTotal: { cantidad: 9, metaVol: 50040.0, metaKm: 9.1, poblacion: 23400 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos V Etapa', ficha: '048-2026-AA-U-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA         ', fechaInicio: '13/10/2026', fechaFin: '11/12/2026', metaVol: 600.6, metaKm: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA               ', fechaInicio: '19/10/2026', fechaFin: '07/11/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos Iv Etapa', ficha: '047-2026-AA-U-TAC', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '20/10/2026', fechaFin: '18/12/2026', metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                    ', fechaInicio: '27/10/2026', fechaFin: '05/11/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
