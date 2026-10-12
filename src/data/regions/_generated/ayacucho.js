@@ -22,16 +22,17 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Huamanga', distrito: 'Ayacucho', cantidad: 1, metaVol: 840.0, metaKm: 0.28, poblacion: 320 },
-    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 1, metaVol: 2700.0, metaKm: 0.18, poblacion: 200 },
+    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 2, metaVol: 4140.0, metaKm: 0.38, poblacion: 240 },
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 2, metaVol: 9650.0, metaKm: 0.72, poblacion: 70 },
     { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 2, metaVol: 17844.0, metaKm: 1.94, poblacion: 389 },
     { provincia: 'La Mar', distrito: 'Santa Rosa', cantidad: 2, metaVol: 6090.0, metaKm: 0.41, poblacion: 450 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 40160.0, metaKm: 3.89, poblacion: 2087 },
+  programadasTotal: { cantidad: 11, metaVol: 41600.0, metaKm: 4.09, poblacion: 2127 },
 
   programadasDetalle: [
+    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', sector: 'Viña Chiquita', ficha: '48-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO', fechaInicio: '13/10/2026', fechaFin: '17/10/2026', metaVol: 1440.0, metaKm: 0.2, poblacion: 40 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Anyana', ficha: '43-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III, ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO         ', fechaInicio: '16/10/2026', fechaFin: '30/10/2026', metaVol: 5250.0, metaKm: 0.32, poblacion: 40 },
     { provincia: 'Huamanga', distrito: 'Ayacucho', sector: 'Wari Accopampa', ficha: '44-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO     ', fechaInicio: '02/11/2026', fechaFin: '12/11/2026', metaVol: 840.0, metaKm: 0.28, poblacion: 320 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Astobamba', ficha: '47-2026-LD-PI-AYAC', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO. ', fechaInicio: '03/11/2026', fechaFin: '12/11/2026', metaVol: 4400.0, metaKm: 0.4, poblacion: 30 },
@@ -60,7 +61,8 @@ export default {
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-411'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-983'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81395', '81439'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 6, marca: 'Scania', codigos: ['EGN-501', 'EGM-836', 'EGM-790', 'EGM-796', 'EGM-835', 'EGM-795'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 5, marca: 'Scania', codigos: ['EGN-501', 'EGM-836', 'EGM-790', 'EGM-796', 'EGM-835'], estado: 'operativo' },
+    { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-795'], estado: 'inoperativo' },
   ],
   flotaTotal: 16,
 }
