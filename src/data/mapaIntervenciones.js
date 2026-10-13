@@ -5979,6 +5979,24 @@ const mapaIntervenciones = {
     "volumen": 39180,
     "km": 0.68,
     "enlace": null
+  },
+  {
+    "id": 10585,
+    "lat": -13.601243,
+    "lng": -75.616975,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Pisco",
+    "distrito": "Huancano",
+    "sector": "Quebrada Huancano",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  ",
+    "ficha": "FT I N°047-2026-LDE- ICA",
+    "fechaInicio": "13/10/2026",
+    "fechaFin": "22/10/2026",
+    "poblacion": 200,
+    "volumen": 4500,
+    "km": 0.75,
+    "enlace": null
   }
 ],
   "la-libertad": [

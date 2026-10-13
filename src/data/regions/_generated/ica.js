@@ -18,19 +18,19 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2078 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 2, metaVol: 7398.0, metaKm: 0.65, poblacion: 1250 },
     { provincia: 'Nasca', distrito: 'Nasca', cantidad: 2, metaVol: 19500.0, metaKm: 0.72, poblacion: 1200 },
-    { provincia: 'Pisco', distrito: 'Huancano', cantidad: 2, metaVol: 44100.0, metaKm: 1.85, poblacion: 223 },
+    { provincia: 'Pisco', distrito: 'Huancano', cantidad: 1, metaVol: 39600.0, metaKm: 1.1, poblacion: 23 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 8, metaVol: 75274.0, metaKm: 4.39, poblacion: 3813 },
+  programadasTotal: { cantidad: 7, metaVol: 70774.0, metaKm: 3.64, poblacion: 3613 },
 
   programadasDetalle: [
-    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huancano', ficha: 'FT I N°047-2026-LDE- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA ', fechaInicio: '13/10/2026', fechaFin: '22/10/2026', metaVol: 4500.0, metaKm: 0.75, poblacion: 200 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°045-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.', fechaInicio: '20/10/2026', fechaFin: '27/10/2026', metaVol: 5382.0, metaKm: 0.09, poblacion: 950 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', ficha: 'FT I N°046-2026-LDE- ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA', fechaInicio: '23/10/2026', fechaFin: '29/10/2026', metaVol: 2016.0, metaKm: 0.56, poblacion: 300 },
     { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huayanto', ficha: 'FT I N°049-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA', fechaInicio: '25/10/2026', fechaFin: '26/11/2026', metaVol: 39600.0, metaKm: 1.1, poblacion: 23 },
