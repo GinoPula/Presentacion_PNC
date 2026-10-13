@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 43762.0, km: 6.69, poblacion: 9430, provincias: ['Chiclayo', 'Lambayeque'] },
-    { tipo: 'Prevención', cantidad: 25, m3: 139726.35, km: 55.98, poblacion: 64660, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
+    { tipo: 'Prevención', cantidad: 26, m3: 153226.35, km: 57.48, poblacion: 64810, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 5, m3: 4648.0, km: null, poblacion: 9381, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 36, m3: 188136.35, m3AguaPotable: 4648.0, km: 62.67, poblacion: 83471 },
+  ejecutadasTotal: { cantidad: 37, m3: 201636.35, m3AguaPotable: 4648.0, km: 64.17, poblacion: 83621 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -21,7 +21,6 @@ export default {
     { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”     ', inicio: '02/09/2026', fin: '31/10/2026', volAcum: 17497.0, kmAcum: 0.38, poblacion: 4408 },
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ', inicio: '17/09/2026', fin: '15/11/2026', volAcum: 705.0, kmAcum: 0.0, poblacion: 1100 },
     { provincia: 'Chiclayo', distrito: 'Chongoyape', tipo: 'Emergencia', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE "   DS180    ', inicio: '25/09/2026', fin: '15/10/2026', volAcum: 14338.75, kmAcum: 1.4, poblacion: 1422 },
-    { provincia: 'Chiclayo', distrito: 'Cayalti', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE 1.50 KM DEL CAUCE DE LA QUEBRADA “RIO SECO” – TRAMO I EN LOS SECTORES DE LOS CENTROS POBLADOS “GUAYAQUIL”, “LA CURVA” Y “SAUCE” DEL DISTRITO DE CAYALTI, PROVINCIA CHICLAYO, REGION LAMBAYEQUE   ', inicio: '30/09/2026', fin: '12/10/2026', volAcum: 13500.0, kmAcum: 1.5, poblacion: 150 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

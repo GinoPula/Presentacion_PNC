@@ -16,22 +16,22 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
+    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO ', inicio: '13/10/2026', fin: '17/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 40 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Huamanga', distrito: 'Ayacucho', cantidad: 1, metaVol: 840.0, metaKm: 0.28, poblacion: 320 },
-    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 2, metaVol: 4140.0, metaKm: 0.38, poblacion: 240 },
+    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 1, metaVol: 2700.0, metaKm: 0.18, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 2, metaVol: 9650.0, metaKm: 0.72, poblacion: 70 },
     { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 2, metaVol: 17844.0, metaKm: 1.94, poblacion: 389 },
     { provincia: 'La Mar', distrito: 'Santa Rosa', cantidad: 2, metaVol: 6090.0, metaKm: 0.41, poblacion: 450 },
   ],
-  programadasTotal: { cantidad: 11, metaVol: 41600.0, metaKm: 4.09, poblacion: 2127 },
+  programadasTotal: { cantidad: 10, metaVol: 40160.0, metaKm: 3.89, poblacion: 2087 },
 
   programadasDetalle: [
-    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', sector: 'Viña Chiquita', ficha: '48-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO', fechaInicio: '13/10/2026', fechaFin: '17/10/2026', metaVol: 1440.0, metaKm: 0.2, poblacion: 40 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Anyana', ficha: '43-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III, ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO         ', fechaInicio: '16/10/2026', fechaFin: '30/10/2026', metaVol: 5250.0, metaKm: 0.32, poblacion: 40 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Astobamba', ficha: '47-2026-LD-PI-AYAC', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO. ', fechaInicio: '03/11/2026', fechaFin: '12/11/2026', metaVol: 4400.0, metaKm: 0.4, poblacion: 30 },
     { provincia: 'Huamanga', distrito: 'Quinua', sector: 'Chacco', ficha: '07-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACION Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RIO YUCAES DEL SECTOR CHACCO DEL DISTRITO DE QUINUA, PROVINCIA DE HUAMANGA, REGION AYACUCHO-00                 ', fechaInicio: '10/11/2026', fechaFin: '24/11/2026', metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
