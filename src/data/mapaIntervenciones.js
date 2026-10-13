@@ -10195,14 +10195,14 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchacchuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                             ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO III-IV; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                              ",
     "ficha": "04-2026-LD-PI-AYAC",
     "fechaInicio": "21/09/2026",
     "fechaFin": "23/09/2026",
     "poblacion": 78,
     "volumen": 1170,
     "km": 0.195,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 10461,
@@ -11349,7 +11349,7 @@ const mapaIntervenciones = {
     "provincia": "Cajamarca",
     "distrito": "Los Baños Del Inca",
     "sector": "Huayrapongo Chico",
-    "descripcion": "“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+070, EN EL SECTOR HUAYRAPONGO CHICO - BAÑOS DEL INCA, DISTRITO DE LOS BAÑOS DEL INCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00          ",
+    "descripcion": "“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+070, EN EL SECTOR HUAYRAPONGO CHICO - BAÑOS DEL INCA, DISTRITO DE LOS BAÑOS DEL INCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00           ",
     "ficha": "FTI N° 048-2026-LD-P-CAJ",
     "fechaInicio": "03/07/2026",
     "fechaFin": "13/08/2026",
