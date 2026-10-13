@@ -27,14 +27,15 @@ export default {
     { provincia: 'Jorge Basadre', distrito: 'Locumba', cantidad: 1, metaVol: 6000.0, metaKm: 0.4, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Calana', cantidad: 1, metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 1, metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
-    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 19175.0, metaKm: 0.6, poblacion: 11000 },
+    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 3, metaVol: 23175.0, metaKm: 0.8, poblacion: 11250 },
     { provincia: 'Tacna', distrito: 'Palca', cantidad: 1, metaVol: 4000.0, metaKm: 1.1, poblacion: 100 },
     { provincia: 'Tacna', distrito: 'Sama', cantidad: 2, metaVol: 7940.0, metaKm: 6.4, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 9, metaVol: 50040.0, metaKm: 9.1, poblacion: 23400 },
+  programadasTotal: { cantidad: 10, metaVol: 54040.0, metaKm: 9.3, poblacion: 23650 },
 
   programadasDetalle: [
+    { provincia: 'Tacna', distrito: 'Pachia', sector: 'Reservorio De Agua', ficha: '050-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA CHUCHUCO, SECTOR RESERVORIO DE AGUA PARA LA POBLACION DE CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA.', fechaInicio: '19/10/2026', fechaFin: '27/10/2026', metaVol: 4000.0, metaKm: 0.2, poblacion: 250 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA               ', fechaInicio: '19/10/2026', fechaFin: '07/11/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos Iv Etapa', ficha: '047-2026-AA-U-TAC', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '20/10/2026', fechaFin: '18/12/2026', metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                    ', fechaInicio: '27/10/2026', fechaFin: '05/11/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
