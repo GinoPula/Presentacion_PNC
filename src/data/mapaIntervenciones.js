@@ -4676,8 +4676,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "14/10/2026",
     "poblacion": 300,
-    "volumen": 1282,
-    "km": 0.13,
+    "volumen": 1957,
+    "km": 0.18,
     "enlace": null
   },
   {
@@ -9617,7 +9617,7 @@ const mapaIntervenciones = {
     "provincia": "Aymaraes",
     "distrito": "Tapairihua",
     "sector": "Umalo/Rio Antabamba",
-    "descripcion": "  “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL RIO ANTABAMBA, TRAMO KM 0+000 AL KM 0+530, SECTOR UMALO, DISTRITO DE TAPAIRIHUA, PROVINCIA DE AYMARAES, REGIÓN APURÍMAC.”            ",
+    "descripcion": "  “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL RIO ANTABAMBA, TRAMO KM 0+000 AL KM 0+530, SECTOR UMALO, DISTRITO DE TAPAIRIHUA, PROVINCIA DE AYMARAES, REGIÓN APURÍMAC.”             ",
     "ficha": "FTI-N°09-2026-LD-P-APU",
     "fechaInicio": "05/06/2026",
     "fechaFin": "12/07/2026",

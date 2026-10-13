@@ -30,10 +30,12 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 3, metaVol: 13448.75, metaKm: 2.56, poblacion: 24000 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 19202.24, metaKm: 0.45, poblacion: 1080 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 7, metaVol: 40403.48, metaKm: 3.59, poblacion: 4100 },
+    { provincia: 'Caraveli', distrito: 'Caraveli', cantidad: 1, metaVol: 720.0, metaKm: 0.0, poblacion: 640 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 73054.47, metaKm: 6.6, poblacion: 29180 },
+  programadasTotal: { cantidad: 13, metaVol: 73774.47, metaKm: 6.6, poblacion: 29820 },
 
   programadasDetalle: [
+    { provincia: 'Caraveli', distrito: 'Caraveli', sector: 'A.H. Isidoro Berrocal', ficha: '89-2026-AA-U-ARE', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”.', fechaInicio: '14/10/2026', fechaFin: '12/11/2026', metaVol: 720.0, metaKm: 0.0, poblacion: 640 },
     { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Los Ángeles', ficha: '124-2026-LDE-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180    ', fechaInicio: '16/10/2026', fechaFin: '04/11/2026', metaVol: 6527.09, metaKm: 1.52, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Villa Alto Cenepa', ficha: '84-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR  VILLA ALTO CENEPA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.  ', fechaInicio: '20/10/2026', fechaFin: '29/10/2026', metaVol: 2503.93, metaKm: 0.2, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Puente Sepúlveda Hasta Puente Santa Rita De Casia', ficha: '76-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ', fechaInicio: '22/10/2026', fechaFin: '10/11/2026', metaVol: 6000.47, metaKm: 0.6, poblacion: 800 },
