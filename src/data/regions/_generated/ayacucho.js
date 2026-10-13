@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 59152.0, km: 2.5, poblacion: 10076, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
-    { tipo: 'Prevención', cantidad: 16, m3: 36584.44, km: 4.85, poblacion: 10119, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 42209.44, km: 5.45, poblacion: 10249, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
-  ejecutadasTotal: { cantidad: 24, m3: 95736.44, m3AguaPotable: 0.0, km: 7.35, poblacion: 20195 },
+  ejecutadasTotal: { cantidad: 25, m3: 101361.44, m3AguaPotable: 0.0, km: 7.95, poblacion: 20325 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.           ', inicio: '28/09/2026', fin: '12/10/2026', volAcum: 5625.0, kmAcum: 0.6, poblacion: 130 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
