@@ -5961,6 +5961,24 @@ const mapaIntervenciones = {
     "volumen": 3240,
     "km": 0.072,
     "enlace": null
+  },
+  {
+    "id": 10583,
+    "lat": -13.931789,
+    "lng": -75.613611,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Ica",
+    "distrito": "San Jose De Los Molinos",
+    "sector": "Quebrada La Yesera",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  ",
+    "ficha": "FT I N°043-2026-LDE- ICA",
+    "fechaInicio": "12/10/2026",
+    "fechaFin": "25/11/2026",
+    "poblacion": 2078,
+    "volumen": 39180,
+    "km": 0.68,
+    "enlace": null
   }
 ],
   "la-libertad": [
