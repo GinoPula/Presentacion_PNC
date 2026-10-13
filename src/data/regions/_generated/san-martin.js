@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'San Martin', distrito: 'El Porvenir', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LAS CALLES Y VÍAS DE ACCESO DEL SECTOR BRISAS DEL HUALLAGA, LOCALIDAD DE PELEJO, DISTRITO DE EL PORVENIR, PROVINCIA SAN MARTÍN, REGIÓN SAN MARTIN ', inicio: '05/10/2026', fin: '15/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN       ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1125 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN       ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 60.0, kmAcum: 0.0, poblacion: 1125 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
