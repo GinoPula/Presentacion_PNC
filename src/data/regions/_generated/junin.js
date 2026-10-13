@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN    ', inicio: '04/09/2026', fin: '15/10/2026', volAcum: 17035.0, kmAcum: 7.74, poblacion: 595 },
-    { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 70 },
+    { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 240.0, kmAcum: 0.11, poblacion: 70 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
