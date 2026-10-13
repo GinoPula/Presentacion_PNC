@@ -4689,10 +4689,10 @@ const mapaIntervenciones = {
     "provincia": "Ocros",
     "distrito": "Cochas",
     "sector": "Las Virgebes",
-    "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN EL RÍO PATIVILCA MARGEN IZQUIERDO EN LA CONDUCCION DEL SISTEMA DE AGUA POTABLE PARA EL CENTRO POBLADO DE LAS VIRGENES, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH ",
+    "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN EL RÍO PATIVILCA MARGEN IZQUIERDO EN LA CONDUCCION DEL SISTEMA DE AGUA POTABLE PARA EL CENTRO POBLADO DE LAS VIRGENES, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH  ",
     "ficha": "136-2026-LDP-ANC",
     "fechaInicio": "05/10/2026",
-    "fechaFin": "12/10/2026",
+    "fechaFin": "13/10/2026",
     "poblacion": 111,
     "volumen": 2790,
     "km": 0.465,
@@ -4730,8 +4730,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "26/10/2026",
     "poblacion": 342,
-    "volumen": 4800,
-    "km": 0.3,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],

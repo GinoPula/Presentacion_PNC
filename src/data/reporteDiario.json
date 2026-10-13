@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "13/10/2026",
-    "horaCorte": "17:31",
+    "horaCorte": "18:01",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -20,7 +20,12 @@
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS - QUECHCAP, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
       "fechaInicio": "12/10/2026",
       "fechaFin": "26/10/2026",
-      "maquinaria": []
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10879)",
+        "REMOLCADOR ( EAJ-560)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "CAMIONETA ( EAJ-733)"
+      ]
     },
     {
       "n": 2,
@@ -38,9 +43,9 @@
       "fechaFin": "14/10/2026",
       "maquinaria": [
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "REMOLCADOR ( EAJ-560)",
         "EXCAVADORA HIDRAULICA ( TJT10127)",
-        "CAMIONETA ( EAJ-733)",
-        "REMOLCADOR ( EAJ-560)"
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -56,12 +61,12 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "descripcion": "DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN EL RÍO PATIVILCA MARGEN IZQUIERDO EN LA CONDUCCION DEL SISTEMA DE AGUA POTABLE PARA EL CENTRO POBLADO DE LAS VIRGENES, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH",
       "fechaInicio": "05/10/2026",
-      "fechaFin": "12/10/2026",
+      "fechaFin": "13/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EAJ-733)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-601)",
+        "TRACTOR SOBRE ORUGA ( 82454)",
         "REMOLCADOR ( EGN-071)",
-        "TRACTOR SOBRE ORUGA ( 82454)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-601)",
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -101,8 +106,8 @@
       "fechaFin": "26/10/2026",
       "maquinaria": [
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( D523228)",
+        "CAMIONETA ( EAJ-733)",
         "REMOLCADOR ( EAJ-560)"
       ]
     },
@@ -141,12 +146,12 @@
       "fechaInicio": "24/09/2026",
       "fechaFin": "15/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-823)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "RETROEXCAVADORA ( 286752)",
         "MINI CARGADOR ( 273673)",
         "VOLQUETE ( EGV-786)",
+        "VOLQUETE ( EGV-823)",
         "REMOLCADOR ( EGM-982)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "CAMIONETA ( EGM-015)",
         "CARGADOR FRONTAL ( M5K00377)"
       ]
@@ -232,8 +237,8 @@
       "fechaInicio": "06/10/2026",
       "fechaFin": "04/11/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-983)",
-        "CAMIONETA ( EGM-015)"
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-983)"
       ]
     },
     {
@@ -314,9 +319,9 @@
       "fechaFin": "14/10/2026",
       "maquinaria": [
         "CAMIONETA ( EGL-971)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "EXCAVADORA HIDRAULICA ( 85462)",
-        "REMOLCADOR ( EGO-046)"
+        "REMOLCADOR ( EGO-046)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
       ]
     },
     {
@@ -391,11 +396,11 @@
       "fechaInicio": "30/09/2026",
       "fechaFin": "09/10/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00219)",
         "VOLQUETE ( EGV-848)",
-        "RODILLO COMPACTADOR ( H1762462)",
+        "VOLQUETE ( EGV-835)",
         "VOLQUETE ( EGV-774)",
-        "VOLQUETE ( EGV-835)"
+        "CARGADOR FRONTAL ( JLX00219)",
+        "RODILLO COMPACTADOR ( H1762462)"
       ]
     },
     {
@@ -494,8 +499,8 @@
       "fechaInicio": "13/10/2026",
       "fechaFin": "22/10/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 85404)",
-        "REMOLCADOR ( EAJ-543)"
+        "REMOLCADOR ( EAJ-543)",
+        "EXCAVADORA HIDRAULICA ( 85404)"
       ]
     },
     {
@@ -535,8 +540,8 @@
       "fechaFin": "20/10/2026",
       "maquinaria": [
         "REMOLCADOR ( EGN-004)",
-        "VOLQUETE ( EGM-871)",
         "CARGADOR FRONTAL ( JLX00221)",
+        "VOLQUETE ( EGM-871)",
         "CAMIONETA ( EGO-049)"
       ]
     },
@@ -571,8 +576,8 @@
       "fechaInicio": "23/09/2026",
       "fechaFin": "07/10/2026",
       "maquinaria": [
-        "REMOLCADOR ( EAJ-379)",
         "TRACTOR SOBRE ORUGA ( AE800573)",
+        "REMOLCADOR ( EAJ-379)",
         "EXCAVADORA HIDRAULICA ( TJT10075)"
       ]
     },
@@ -693,8 +698,8 @@
       "fechaFin": "14/10/2026",
       "maquinaria": [
         "CARGADOR FRONTAL ( JLX00206)",
-        "EXCAVADORA HIDRAULICA ( D810454)",
-        "VOLQUETE ( EGV-832)"
+        "VOLQUETE ( EGV-832)",
+        "EXCAVADORA HIDRAULICA ( D810454)"
       ]
     },
     {
@@ -732,9 +737,9 @@
       "fechaInicio": "05/10/2026",
       "fechaFin": "19/10/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( D001610)",
         "VOLQUETE ( EGV-811)",
-        "EXCAVADORA HIDRAULICA ( A10912)",
-        "CARGADOR FRONTAL ( D001610)"
+        "EXCAVADORA HIDRAULICA ( A10912)"
       ]
     },
     {
@@ -902,8 +907,8 @@
       "fechaInicio": "07/10/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10095)",
-        "TRACTOR SOBRE ORUGA ( J8B05113)"
+        "TRACTOR SOBRE ORUGA ( J8B05113)",
+        "EXCAVADORA HIDRAULICA ( TJT10095)"
       ]
     },
     {
@@ -999,10 +1004,10 @@
       "fechaFin": "22/10/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( D810312)",
-        "RETROEXCAVADORA ( 286603)",
         "VOLQUETE ( EGN-511)",
-        "EXCAVADORA HIDRAULICA ( 85469)",
-        "VOLQUETE ( EGV-867)"
+        "VOLQUETE ( EGV-867)",
+        "RETROEXCAVADORA ( 286603)",
+        "EXCAVADORA HIDRAULICA ( 85469)"
       ]
     },
     {
