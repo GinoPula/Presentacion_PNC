@@ -12607,6 +12607,24 @@ const mapaIntervenciones = {
     "volumen": 4066,
     "km": 1.35,
     "enlace": null
+  },
+  {
+    "id": 10596,
+    "lat": -10.175456,
+    "lng": -76.188405,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Ambo",
+    "distrito": "Ambo",
+    "sector": "Urbano",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACIÓN, COMFORMACION DE DIQUE, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175, MARGEN IZQUIERA, SECTOR HUARACALLA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO   ",
+    "ficha": "N° 048-2026-LD-P-HCO",
+    "fechaInicio": "14/10/2026",
+    "fechaFin": "25/10/2026",
+    "poblacion": 80,
+    "volumen": 4462.5,
+    "km": 0.175,
+    "enlace": null
   }
 ],
   junin: [

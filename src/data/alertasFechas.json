@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "14/10/2026",
-    "horaCorte": "16:50",
+    "horaCorte": "17:20",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -255,25 +255,6 @@
     },
     {
       "n": 14,
-      "idIntervencion": "10596",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Ambo",
-      "distrito": "Ambo",
-      "sector": "Urbano",
-      "ficha": "N° 048-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, COMFORMACION DE DIQUE, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175, MARGEN IZQUIERA, SECTOR HUARACALLA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "08/10/2026",
-      "fechaFin": "22/10/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 15,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10529",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -311,7 +292,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -330,7 +311,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10580",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -349,7 +330,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10460",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -368,7 +349,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "9454",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "9642",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10417",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +406,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "9770",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -444,7 +425,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "10589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -463,7 +444,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 25,
+      "n": 24,
       "idIntervencion": "9775",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -482,7 +463,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 26,
+      "n": 25,
       "idIntervencion": "9448",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -501,7 +482,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -520,7 +501,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 28,
+      "n": 27,
       "idIntervencion": "10591",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -539,7 +520,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "10495",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -558,7 +539,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 30,
+      "n": 29,
       "idIntervencion": "10506",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
