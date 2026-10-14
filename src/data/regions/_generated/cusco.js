@@ -24,12 +24,14 @@ export default {
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
     { provincia: 'Canchis', distrito: 'Marangani', cantidad: 1, metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', cantidad: 1, metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
+    { provincia: 'Quispicanchi', distrito: 'Oropesa', cantidad: 1, metaVol: 8519.55, metaKm: 0.51, poblacion: 480 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', cantidad: 1, metaVol: 8032.5, metaKm: 0.23, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 50330.95, metaKm: 1.71, poblacion: 345 },
+  programadasTotal: { cantidad: 5, metaVol: 58850.5, metaKm: 2.22, poblacion: 825 },
 
   programadasDetalle: [
     { provincia: 'Canchis', distrito: 'Marangani', sector: 'Huiscachani Central', ficha: '026-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO        ', fechaInicio: '14/10/2026', fechaFin: '12/11/2026', metaVol: 15893.45, metaKm: 0.48, poblacion: 120 },
+    { provincia: 'Quispicanchi', distrito: 'Oropesa', sector: 'Quebrada Nueva Oropesa', ficha: '032-2026-LD-P-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO', fechaInicio: '15/10/2026', fechaFin: '28/10/2026', metaVol: 8519.55, metaKm: 0.51, poblacion: 480 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Mollebamba Alto', ficha: '033-2026-LD-P-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.', fechaInicio: '02/11/2026', fechaFin: '15/11/2026', metaVol: 8032.5, metaKm: 0.23, poblacion: null },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', sector: 'Saucepampa', ficha: '030-2026-LD-P-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO  ', fechaInicio: '15/11/2026', fechaFin: '14/12/2026', metaVol: 19305.0, metaKm: 0.5, poblacion: 175 },
     { provincia: 'Anta', distrito: 'Limatambo', sector: 'Challabamba', ficha: '025-2026-LDP-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIôN DEL CAUCE DEL RìO CHALLABAMBA,  EN EL SECTOR CHALLABAMBA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE LIMATAMBO, PROVINCIA ANTA, REGIôN CUSCO-00  ', fechaInicio: '03/12/2026', fechaFin: '15/12/2026', metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
