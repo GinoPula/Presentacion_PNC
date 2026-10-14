@@ -3507,6 +3507,24 @@ const mapaIntervenciones = {
     "volumen": 30,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10601,
+    "lat": -4.60092,
+    "lng": -79.910782,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Ayabaca",
+    "distrito": "Paimas",
+    "sector": "Jambur Alto Ii",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA TRAMO II JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ",
+    "ficha": "FTI N°128-2026-LDOA-PI-PIU",
+    "fechaInicio": "13/10/2026",
+    "fechaFin": "25/10/2026",
+    "poblacion": 280,
+    "volumen": 532.8,
+    "km": 1.776,
+    "enlace": null
   }
 ],
   ancash: [
