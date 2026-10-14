@@ -9091,14 +9091,14 @@ const mapaIntervenciones = {
     "provincia": "La Union",
     "distrito": "Toro",
     "sector": "Huachuy A Llallihua",
-    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE HUACHUY A LLALLIHUA, DEL DISTRITO DE TORO, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.       ",
+    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE HUACHUY A LLALLIHUA, DEL DISTRITO DE TORO, PROVINCIA DE LA UNIÓN, DEPARTAMENTO AREQUIPA”.        ",
     "ficha": "68-2026-LETV-E-ARE",
     "fechaInicio": "22/07/2026",
     "fechaFin": "12/08/2026",
     "poblacion": 200,
     "volumen": 6720,
     "km": 3,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1q1qU5sV93AoI0mXoSDsVhkYY2YWXiSAx/view?usp=drive_link"
   },
   {
     "id": 10397,
@@ -9109,14 +9109,14 @@ const mapaIntervenciones = {
     "provincia": "Camana",
     "distrito": "Ocoña",
     "sector": "Varios Anexos",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.     ",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.      ",
     "ficha": "71-2026-AA-U-ARE",
     "fechaInicio": "04/08/2026",
     "fechaFin": "02/09/2026",
     "poblacion": 525,
     "volumen": 720,
     "km": 0,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1wvmnKRU0JRztERPfOQqKo0UlffgPVKyh/view?usp=drive_link"
   },
   {
     "id": 10085,
@@ -9127,14 +9127,14 @@ const mapaIntervenciones = {
     "provincia": "Caraveli",
     "distrito": "Caraveli",
     "sector": "La Yesera I Tramo Ii",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                 ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA YESERA I TRAMO II, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".                  ",
     "ficha": "49-2026-LDP-ARE",
     "fechaInicio": "11/08/2026",
     "fechaFin": "09/09/2026",
     "poblacion": 1500,
     "volumen": 17878.76,
     "km": 0.8,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1cAENRsy5HmLKkDJZJRs_weKo4a4jIC1W/view?usp=drive_link"
   },
   {
     "id": 10418,
