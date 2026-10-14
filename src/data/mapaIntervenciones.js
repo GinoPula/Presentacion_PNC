@@ -5470,8 +5470,8 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 1422,
-    "volumen": 15643.75,
-    "km": 1.501,
+    "volumen": 16395.25,
+    "km": 1.55,
     "enlace": null
   },
   {
@@ -9073,14 +9073,14 @@ const mapaIntervenciones = {
     "provincia": "Camana",
     "distrito": "Mariano Nicolas Valcarcel",
     "sector": "Varios Anexos",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.   ",
     "ficha": "70-2026-AA-U-ARE",
     "fechaInicio": "17/07/2026",
     "fechaFin": "14/08/2026",
     "poblacion": 504,
     "volumen": 720,
     "km": 0,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/12oHmJ2zN471mDgF51fOr8tY3LWu_F2jP/view?usp=drive_link"
   },
   {
     "id": 10349,
