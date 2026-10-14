@@ -10195,14 +10195,14 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Anchachuasi",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                    ",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN IZQUIERDO, TRAMO I; EN EL CENTRO POBLADO DE ANCHACHUASI EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00                                     ",
     "ficha": "03-2026-LD-PI-AYAC",
     "fechaInicio": "11/09/2026",
     "fechaFin": "19/09/2026",
     "poblacion": 165,
     "volumen": 3120,
     "km": 0.6,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 7690,
@@ -10981,24 +10981,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Z0zzWU0G3a1FEOHBOu7jl40P_5cOFpoQ/view?usp=drive_link"
   },
   {
-    "id": 10215,
-    "lat": -5.38814,
-    "lng": -78.90893,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "La Coipa",
-    "sector": "La Copia - C.P. Rumipite",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
-    "ficha": "N°043-2026-MTVU-AMZ",
-    "fechaInicio": "07/05/2026",
-    "fechaFin": "29/05/2026",
-    "poblacion": 2804,
-    "volumen": 5500,
-    "km": 5.5,
-    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
-  },
-  {
     "id": 10216,
     "lat": -6.118035,
     "lng": -78.887405,
@@ -11015,6 +10997,24 @@ const mapaIntervenciones = {
     "volumen": 6310,
     "km": 0.2,
     "enlace": null
+  },
+  {
+    "id": 10215,
+    "lat": -5.38814,
+    "lng": -78.90893,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "La Coipa",
+    "sector": "La Copia - C.P. Rumipite",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
+    "ficha": "N°043-2026-MTVU-AMZ",
+    "fechaInicio": "07/05/2026",
+    "fechaFin": "29/05/2026",
+    "poblacion": 2804,
+    "volumen": 5500,
+    "km": 5.5,
+    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
   },
   {
     "id": 10234,
@@ -11215,24 +11215,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10285,
-    "lat": -7.476362,
-    "lng": -78.956451,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "San Benito",
-    "sector": "Colbot",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
-    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "26/06/2026",
-    "poblacion": 50,
-    "volumen": 2485.92,
-    "km": 6.38,
-    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
-  },
-  {
     "id": 10295,
     "lat": -6.29319,
     "lng": -78.602977,
@@ -11249,6 +11231,24 @@ const mapaIntervenciones = {
     "volumen": 5220,
     "km": 7.25,
     "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
+  },
+  {
+    "id": 10285,
+    "lat": -7.476362,
+    "lng": -78.956451,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "San Benito",
+    "sector": "Colbot",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "26/06/2026",
+    "poblacion": 50,
+    "volumen": 2485.92,
+    "km": 6.38,
+    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -11413,24 +11413,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9662,
-    "lat": -7.236923,
-    "lng": -78.412845,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "La Huaraclla (Urbano)",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
-    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
-    "fechaInicio": "05/08/2026",
-    "fechaFin": "12/09/2026",
-    "poblacion": 625,
-    "volumen": 2845.5,
-    "km": 0.8,
-    "enlace": null
-  },
-  {
     "id": 10410,
     "lat": null,
     "lng": null,
@@ -11446,6 +11428,24 @@ const mapaIntervenciones = {
     "poblacion": 280,
     "volumen": 465,
     "km": 1.275,
+    "enlace": null
+  },
+  {
+    "id": 9662,
+    "lat": -7.236923,
+    "lng": -78.412845,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "La Huaraclla (Urbano)",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
+    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
+    "fechaInicio": "05/08/2026",
+    "fechaFin": "12/09/2026",
+    "poblacion": 625,
+    "volumen": 2845.5,
+    "km": 0.8,
     "enlace": null
   },
   {
@@ -11539,24 +11539,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10471,
-    "lat": -7.224478,
-    "lng": -78.905478,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "Tantarica",
-    "sector": "El Sapo - Catan",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.     ",
-    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
-    "fechaInicio": "02/09/2026",
-    "fechaFin": "18/09/2026",
-    "poblacion": 500,
-    "volumen": 2907.2,
-    "km": 23.2,
-    "enlace": null
-  },
-  {
     "id": 10477,
     "lat": -5.274787,
     "lng": -78.892452,
@@ -11572,6 +11554,24 @@ const mapaIntervenciones = {
     "poblacion": 170,
     "volumen": 3380,
     "km": 2.11,
+    "enlace": null
+  },
+  {
+    "id": 10471,
+    "lat": -7.224478,
+    "lng": -78.905478,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "Tantarica",
+    "sector": "El Sapo - Catan",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO EL SAPO HASTA LA LOCALIDAD DE CATAN (CAPITAL DE DISTRITO), DISTRITO DE TANTARICA, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.     ",
+    "ficha": "FTI N° 057-2026-MTV-U-CAJ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "18/09/2026",
+    "poblacion": 500,
+    "volumen": 2907.2,
+    "km": 23.2,
     "enlace": null
   },
   {
@@ -11716,6 +11716,24 @@ const mapaIntervenciones = {
     "poblacion": 235,
     "volumen": 3700,
     "km": 0.26,
+    "enlace": null
+  },
+  {
+    "id": 10597,
+    "lat": -5.06914,
+    "lng": -79.161183,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Namballe",
+    "sector": "De Corazon De La Naranja – Miami",
+    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LAS LOCALIDADES DE CORAZON DE LA NARANJA – MIAMI DEL DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ",
+    "ficha": "N°074-2026-MTVU-AMZ",
+    "fechaInicio": "06/10/2026",
+    "fechaFin": "02/11/2026",
+    "poblacion": 257,
+    "volumen": 9651.6,
+    "km": 8.043,
     "enlace": null
   },
   {
