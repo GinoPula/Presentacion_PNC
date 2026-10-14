@@ -8327,24 +8327,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1mi4NyqH9k6urtx-3EjWapkuG70lyjkJ9/view?usp=drive_link"
   },
   {
-    "id": 9377,
-    "lat": -16.404841,
-    "lng": -71.49134,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Arequipa",
-    "distrito": "Mariano Melgar",
-    "sector": "Puente 8 De Octubre",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TUPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
-    "ficha": "06-2026-LDP-ARE",
-    "fechaInicio": "16/01/2026",
-    "fechaFin": "30/01/2026",
-    "poblacion": 400,
-    "volumen": 4692.69,
-    "km": 0.39,
-    "enlace": "https://drive.google.com/file/d/1vs1khE2yqU7BZ0sXjrNSabl2RWxPUWSJ/view?usp=drive_link"
-  },
-  {
     "id": 9380,
     "lat": -16.40237,
     "lng": -71.48035,
@@ -8361,6 +8343,24 @@ const mapaIntervenciones = {
     "volumen": 9655.96,
     "km": 0.55,
     "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
+  },
+  {
+    "id": 9377,
+    "lat": -16.404841,
+    "lng": -71.49134,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Arequipa",
+    "distrito": "Mariano Melgar",
+    "sector": "Puente 8 De Octubre",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TUPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
+    "ficha": "06-2026-LDP-ARE",
+    "fechaInicio": "16/01/2026",
+    "fechaFin": "30/01/2026",
+    "poblacion": 400,
+    "volumen": 4692.69,
+    "km": 0.39,
+    "enlace": "https://drive.google.com/file/d/1vs1khE2yqU7BZ0sXjrNSabl2RWxPUWSJ/view?usp=drive_link"
   },
   {
     "id": 9825,
@@ -8633,24 +8633,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/17cYZ8heSbe4iItXxhClXpzet0boScftB/view?usp=drive_link"
   },
   {
-    "id": 9998,
-    "lat": -16.315993,
-    "lng": -71.539862,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Arequipa",
-    "distrito": "Cayma",
-    "sector": "Varios Sectores",
-    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. CASA BLANCA, A.H. TRANSOCEÁNICA II, A.H. CABRERÍAS I, A.H. MUJERES CON ESPERANZA, A.H. PALPATA ZONA B, A.H. SEÑOR DE LOS MILAGROS, A.H. ONCE DE MAYO ZONA C, A.H. EL SOLAR, A.H. PRIMERO DE JUNIO ZONA B, A.H. EL TRIUNFO, A.H. DEAN VALDIVIA, A.H. 19 DE ENERO Y SANTUARIO VIRGEN DE CHAPI, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”           ",
-    "ficha": "41-2026-LETV-E-ARE",
-    "fechaInicio": "17/03/2026",
-    "fechaFin": "15/04/2026",
-    "poblacion": 4250,
-    "volumen": 20363.53,
-    "km": 5.24,
-    "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
-  },
-  {
     "id": 10005,
     "lat": -16.397732,
     "lng": -71.41165,
@@ -8667,6 +8649,24 @@ const mapaIntervenciones = {
     "volumen": 320,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
+  },
+  {
+    "id": 9998,
+    "lat": -16.315993,
+    "lng": -71.539862,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Arequipa",
+    "distrito": "Cayma",
+    "sector": "Varios Sectores",
+    "descripcion": "“LIMPIEZA DE ESCOMBROS PARA TRANSITABILIDAD VIAL Y PEATONAL, EN EL ACCESO A LOS SECTORES DE A.H. CASA BLANCA, A.H. TRANSOCEÁNICA II, A.H. CABRERÍAS I, A.H. MUJERES CON ESPERANZA, A.H. PALPATA ZONA B, A.H. SEÑOR DE LOS MILAGROS, A.H. ONCE DE MAYO ZONA C, A.H. EL SOLAR, A.H. PRIMERO DE JUNIO ZONA B, A.H. EL TRIUNFO, A.H. DEAN VALDIVIA, A.H. 19 DE ENERO Y SANTUARIO VIRGEN DE CHAPI, DEL DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”           ",
+    "ficha": "41-2026-LETV-E-ARE",
+    "fechaInicio": "17/03/2026",
+    "fechaFin": "15/04/2026",
+    "poblacion": 4250,
+    "volumen": 20363.53,
+    "km": 5.24,
+    "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
   },
   {
     "id": 10041,
@@ -9368,6 +9368,24 @@ const mapaIntervenciones = {
     "poblacion": 600,
     "volumen": 360,
     "km": 0.035,
+    "enlace": null
+  },
+  {
+    "id": 10603,
+    "lat": -15.776943,
+    "lng": -73.375736,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Caraveli",
+    "distrito": "Caraveli",
+    "sector": "A.H. Isidoro Berrocal",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ",
+    "ficha": "89-2026-AA-U-ARE",
+    "fechaInicio": "14/10/2026",
+    "fechaFin": "12/11/2026",
+    "poblacion": 640,
+    "volumen": 720,
+    "km": 0,
     "enlace": null
   }
 ],
@@ -10272,8 +10290,8 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 40,
-    "volumen": 450,
-    "km": 0.04,
+    "volumen": 950,
+    "km": 0.13,
     "enlace": null
   }
 ],

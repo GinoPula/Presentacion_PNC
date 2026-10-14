@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO ', inicio: '13/10/2026', fin: '17/10/2026', volAcum: 450.0, kmAcum: 0.04, poblacion: 40 },
+    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO ', inicio: '13/10/2026', fin: '17/10/2026', volAcum: 950.0, kmAcum: 0.13, poblacion: 40 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
