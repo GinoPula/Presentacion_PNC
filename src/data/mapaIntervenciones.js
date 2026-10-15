@@ -4689,10 +4689,10 @@ const mapaIntervenciones = {
     "provincia": "Huarmey",
     "distrito": "Huarmey",
     "sector": "Huiña",
-    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH",
+    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
     "ficha": "135-2026-LDP-ANC",
     "fechaInicio": "05/10/2026",
-    "fechaFin": "14/10/2026",
+    "fechaFin": "04/11/2026",
     "poblacion": 300,
     "volumen": 2632,
     "km": 0.23,
@@ -4730,8 +4730,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "26/10/2026",
     "poblacion": 250,
-    "volumen": 3493.75,
-    "km": 1.075,
+    "volumen": 3968.25,
+    "km": 1.221,
     "enlace": null
   },
   {
@@ -4750,6 +4750,24 @@ const mapaIntervenciones = {
     "poblacion": 342,
     "volumen": 480,
     "km": 0.03,
+    "enlace": null
+  },
+  {
+    "id": 10614,
+    "lat": -9.627144,
+    "lng": -77.510917,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Huaraz",
+    "distrito": "Huaraz",
+    "sector": "Santa Catalina",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH",
+    "ficha": "086-2026-MTVU-ANC",
+    "fechaInicio": "13/10/2026",
+    "fechaFin": "01/11/2026",
+    "poblacion": 1476,
+    "volumen": 6878,
+    "km": 0.19,
     "enlace": null
   }
 ],

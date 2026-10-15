@@ -18,9 +18,10 @@ export default {
 
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH     ', inicio: '28/08/2026', fin: '20/10/2026', volAcum: 15787.0, kmAcum: 1.88, poblacion: 7456 },
-    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '05/10/2026', fin: '14/10/2026', volAcum: 2632.0, kmAcum: 0.23, poblacion: 300 },
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH    ', inicio: '07/10/2026', fin: '26/10/2026', volAcum: 3493.75, kmAcum: 1.07, poblacion: 250 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ', inicio: '05/10/2026', fin: '04/11/2026', volAcum: 2632.0, kmAcum: 0.23, poblacion: 300 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH    ', inicio: '07/10/2026', fin: '26/10/2026', volAcum: 3968.25, kmAcum: 1.22, poblacion: 250 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS - QUECHCAP, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', inicio: '12/10/2026', fin: '26/10/2026', volAcum: 480.0, kmAcum: 0.03, poblacion: 342 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH', inicio: '13/10/2026', fin: '01/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1476 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
