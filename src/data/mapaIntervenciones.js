@@ -9815,8 +9815,8 @@ const mapaIntervenciones = {
     "provincia": "Antabamba",
     "distrito": "Juan Espinoza Medrano",
     "sector": "Mollebamba/Rio Mollebamba",
-    "descripcion": "\" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".            ",
-    "ficha": "FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP (FTI N° 027-2026-LDP-APU)",
+    "descripcion": "\" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".              ",
+    "ficha": "FTI N° 027-2026-LDP-APU (FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP )",
     "fechaInicio": "15/10/2026",
     "fechaFin": "13/11/2026",
     "poblacion": 50,
@@ -11750,8 +11750,8 @@ const mapaIntervenciones = {
     "fechaInicio": "30/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 235,
-    "volumen": 4300,
-    "km": 0.3,
+    "volumen": 5400,
+    "km": 0.38,
     "enlace": null
   },
   {
