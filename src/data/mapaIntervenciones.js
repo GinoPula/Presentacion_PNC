@@ -11745,13 +11745,13 @@ const mapaIntervenciones = {
     "provincia": "Contumaza",
     "distrito": "Contumaza",
     "sector": "Los Pinos",
-    "descripcion": "“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUERTAS, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+400, EN EL SECTOR LOS PINOS, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.  ",
+    "descripcion": "“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUERTAS, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+400, EN EL SECTOR LOS PINOS, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.   ",
     "ficha": "FTI N° 059-2026-LD-PI-CAJ",
     "fechaInicio": "30/09/2026",
-    "fechaFin": "14/10/2026",
+    "fechaFin": "15/10/2026",
     "poblacion": 235,
-    "volumen": 3700,
-    "km": 0.26,
+    "volumen": 4300,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -14254,7 +14254,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 1125,
-    "volumen": 120,
+    "volumen": 180,
     "km": 0,
     "enlace": null
   },
