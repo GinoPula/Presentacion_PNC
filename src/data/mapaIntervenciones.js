@@ -4551,7 +4551,7 @@ const mapaIntervenciones = {
     "fechaFin": "20/10/2026",
     "poblacion": 7456,
     "volumen": 16217,
-    "km": 1.884,
+    "km": 1.934,
     "enlace": null
   },
   {
@@ -10585,24 +10585,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9665,
-    "lat": -7.229149,
-    "lng": -78.423568,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "Yanamanguito",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
-    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
-    "fechaInicio": "06/03/2026",
-    "fechaFin": "16/03/2026",
-    "poblacion": 80,
-    "volumen": 4500,
-    "km": 0.5,
-    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
-  },
-  {
     "id": 9968,
     "lat": -6.505026,
     "lng": -78.292252,
@@ -10619,6 +10601,24 @@ const mapaIntervenciones = {
     "volumen": 2850.5,
     "km": 9.1,
     "enlace": null
+  },
+  {
+    "id": 9665,
+    "lat": -7.229149,
+    "lng": -78.423568,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "Yanamanguito",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
+    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
+    "fechaInicio": "06/03/2026",
+    "fechaFin": "16/03/2026",
+    "poblacion": 80,
+    "volumen": 4500,
+    "km": 0.5,
+    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
   },
   {
     "id": 9967,
@@ -10747,24 +10747,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10033,
-    "lat": -7.343699,
-    "lng": -78.470842,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cajamarca",
-    "distrito": "Asuncion",
-    "sector": "Congacruz-Sanjapampa",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO CONGACRUZ HASTA EL ANEXO SANJAPAMPA, DISTRITO DE ASUNCIÓN, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ",
-    "ficha": "FTI N° 036-2026-MTV-U-CAJ",
-    "fechaInicio": "19/03/2026",
-    "fechaFin": "01/04/2026",
-    "poblacion": 280,
-    "volumen": 2170,
-    "km": 2,
-    "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
-  },
-  {
     "id": 8859,
     "lat": -5.691199,
     "lng": -78.774925,
@@ -10781,6 +10763,24 @@ const mapaIntervenciones = {
     "volumen": 660,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/19HdTrLW2jBs2XgZ5Jxy8UYBrhNxsv-mB/view?usp=drive_link"
+  },
+  {
+    "id": 10033,
+    "lat": -7.343699,
+    "lng": -78.470842,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cajamarca",
+    "distrito": "Asuncion",
+    "sector": "Congacruz-Sanjapampa",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO CONGACRUZ HASTA EL ANEXO SANJAPAMPA, DISTRITO DE ASUNCIÓN, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ",
+    "ficha": "FTI N° 036-2026-MTV-U-CAJ",
+    "fechaInicio": "19/03/2026",
+    "fechaFin": "01/04/2026",
+    "poblacion": 280,
+    "volumen": 2170,
+    "km": 2,
+    "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
   },
   {
     "id": 10039,
@@ -10819,24 +10819,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/14ZpjpW27QHsAR2EbyqNII9yehTJSEXiU/view?usp=drive_link"
   },
   {
-    "id": 10078,
-    "lat": -6.512039,
-    "lng": -78.329601,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Celendin",
-    "distrito": "Cortegana",
-    "sector": "Cortegana - Andamachay",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
-    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
-    "fechaInicio": "31/03/2026",
-    "fechaFin": "17/04/2026",
-    "poblacion": 550,
-    "volumen": 3528,
-    "km": 9.4,
-    "enlace": null
-  },
-  {
     "id": 10080,
     "lat": -6.033709,
     "lng": -78.861511,
@@ -10853,6 +10835,24 @@ const mapaIntervenciones = {
     "volumen": 3415,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1meR-gpNBM_U7ULPXy5hNQSKn2S5t7FLA/view?usp=drive_link"
+  },
+  {
+    "id": 10078,
+    "lat": -6.512039,
+    "lng": -78.329601,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Celendin",
+    "distrito": "Cortegana",
+    "sector": "Cortegana - Andamachay",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
+    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
+    "fechaInicio": "31/03/2026",
+    "fechaFin": "17/04/2026",
+    "poblacion": 550,
+    "volumen": 3528,
+    "km": 9.4,
+    "enlace": null
   },
   {
     "id": 10073,
@@ -10891,24 +10891,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1r_T9J7oneMfayiJSty0UtKS_M8c1VTyu/view?usp=drive_link"
   },
   {
-    "id": 10148,
-    "lat": -5.082918,
-    "lng": -79.151475,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "Namballe",
-    "sector": "Caserio Nueva York",
-    "descripcion": " “LIMPIEZA DE ESCOMBROS Y MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LA LOCALIDAD DE NUEVA YORK– DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ",
-    "ficha": "N°041-2026-RLEU-AMZ",
-    "fechaInicio": "09/04/2026",
-    "fechaFin": "30/04/2026",
-    "poblacion": 250,
-    "volumen": 8100,
-    "km": 1.128,
-    "enlace": "https://drive.google.com/file/d/1rtTXD4-oLlxh3rNnoRCBh8KUbl6CY_ye/view?usp=drive_link"
-  },
-  {
     "id": 10107,
     "lat": -4.976744,
     "lng": -79.205304,
@@ -10925,6 +10907,24 @@ const mapaIntervenciones = {
     "volumen": 840,
     "km": 0.05,
     "enlace": null
+  },
+  {
+    "id": 10148,
+    "lat": -5.082918,
+    "lng": -79.151475,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Namballe",
+    "sector": "Caserio Nueva York",
+    "descripcion": " “LIMPIEZA DE ESCOMBROS Y MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LA LOCALIDAD DE NUEVA YORK– DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”  ",
+    "ficha": "N°041-2026-RLEU-AMZ",
+    "fechaInicio": "09/04/2026",
+    "fechaFin": "30/04/2026",
+    "poblacion": 250,
+    "volumen": 8100,
+    "km": 1.128,
+    "enlace": "https://drive.google.com/file/d/1rtTXD4-oLlxh3rNnoRCBh8KUbl6CY_ye/view?usp=drive_link"
   },
   {
     "id": 10108,
@@ -11035,24 +11035,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Z0zzWU0G3a1FEOHBOu7jl40P_5cOFpoQ/view?usp=drive_link"
   },
   {
-    "id": 10216,
-    "lat": -6.118035,
-    "lng": -78.887405,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "Callayuc",
-    "sector": "C.P. Las Juntas -C.P. Huertillas",
-    "descripcion": " “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE IRRUMPEN LA TRANSITABILIDAD DE LA VÍA DE ACCESO: LAS JUNTAS - HUERTILLAS, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.  ",
-    "ficha": "N°044-2026-MTVU-AMZ",
-    "fechaInicio": "07/05/2026",
-    "fechaFin": "02/06/2026",
-    "poblacion": 9361,
-    "volumen": 6310,
-    "km": 0.2,
-    "enlace": null
-  },
-  {
     "id": 10215,
     "lat": -5.38814,
     "lng": -78.90893,
@@ -11069,6 +11051,24 @@ const mapaIntervenciones = {
     "volumen": 5500,
     "km": 5.5,
     "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
+  },
+  {
+    "id": 10216,
+    "lat": -6.118035,
+    "lng": -78.887405,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "Callayuc",
+    "sector": "C.P. Las Juntas -C.P. Huertillas",
+    "descripcion": " “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE IRRUMPEN LA TRANSITABILIDAD DE LA VÍA DE ACCESO: LAS JUNTAS - HUERTILLAS, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.  ",
+    "ficha": "N°044-2026-MTVU-AMZ",
+    "fechaInicio": "07/05/2026",
+    "fechaFin": "02/06/2026",
+    "poblacion": 9361,
+    "volumen": 6310,
+    "km": 0.2,
+    "enlace": null
   },
   {
     "id": 10234,
@@ -11806,6 +11806,42 @@ const mapaIntervenciones = {
     "poblacion": null,
     "volumen": 0,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10612,
+    "lat": -6.246204,
+    "lng": -78.576294,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "",
+    "descripcion": " “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA” ",
+    "ficha": "N°077-2026-LDU-AMZ",
+    "fechaInicio": "15/10/2026",
+    "fechaFin": "31/10/2026",
+    "poblacion": 928,
+    "volumen": 6240,
+    "km": 0.32,
+    "enlace": null
+  },
+  {
+    "id": 10611,
+    "lat": -5.250496,
+    "lng": -78.971721,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Chirinos",
+    "sector": "Caserio El Corazon – Sector Alto Corazon",
+    "descripcion": "  “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO EL CORAZON – SECTOR ALTO CORAZON, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”  ",
+    "ficha": "N°076-2026-MTVU-AMZ",
+    "fechaInicio": "15/10/2026",
+    "fechaFin": "02/11/2026",
+    "poblacion": 536,
+    "volumen": 3261.6,
+    "km": 2.718,
     "enlace": null
   }
 ],
