@@ -8327,24 +8327,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1mi4NyqH9k6urtx-3EjWapkuG70lyjkJ9/view?usp=drive_link"
   },
   {
-    "id": 9380,
-    "lat": -16.40237,
-    "lng": -71.48035,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Arequipa",
-    "distrito": "Mariano Melgar",
-    "sector": "San Jeronimo",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR SAN JERONIMO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
-    "ficha": "03-2026-LDP-ARE",
-    "fechaInicio": "16/01/2026",
-    "fechaFin": "30/01/2026",
-    "poblacion": 300,
-    "volumen": 9655.96,
-    "km": 0.55,
-    "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
-  },
-  {
     "id": 9377,
     "lat": -16.404841,
     "lng": -71.49134,
@@ -8361,6 +8343,24 @@ const mapaIntervenciones = {
     "volumen": 4692.69,
     "km": 0.39,
     "enlace": "https://drive.google.com/file/d/1vs1khE2yqU7BZ0sXjrNSabl2RWxPUWSJ/view?usp=drive_link"
+  },
+  {
+    "id": 9380,
+    "lat": -16.40237,
+    "lng": -71.48035,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Arequipa",
+    "distrito": "Mariano Melgar",
+    "sector": "San Jeronimo",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL  SECTOR SAN JERONIMO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, REGIÓN AREQUIPA”.              ",
+    "ficha": "03-2026-LDP-ARE",
+    "fechaInicio": "16/01/2026",
+    "fechaFin": "30/01/2026",
+    "poblacion": 300,
+    "volumen": 9655.96,
+    "km": 0.55,
+    "enlace": "https://drive.google.com/file/d/1XXd_O2MnxaAN3dWqNBrgveRoQ5l-7YpR/view?usp=drive_link"
   },
   {
     "id": 9825,
@@ -8633,24 +8633,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/17cYZ8heSbe4iItXxhClXpzet0boScftB/view?usp=drive_link"
   },
   {
-    "id": 10005,
-    "lat": -16.397732,
-    "lng": -71.41165,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Arequipa",
-    "distrito": "Chiguata",
-    "sector": "Sectores De Cangallo Y Cacayaco",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE CANGALLO Y CACAYACO, DEL DISTRITO DE CHIGUATA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ",
-    "ficha": "42-2026-AA-U-ARE",
-    "fechaInicio": "17/03/2026",
-    "fechaFin": "15/04/2026",
-    "poblacion": 200,
-    "volumen": 320,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
-  },
-  {
     "id": 9998,
     "lat": -16.315993,
     "lng": -71.539862,
@@ -8667,6 +8649,24 @@ const mapaIntervenciones = {
     "volumen": 20363.53,
     "km": 5.24,
     "enlace": "https://drive.google.com/file/d/1Z4ZVYKbaHsEDuoML7mUtX5zKrVkJ9g7R/view?usp=drive_link"
+  },
+  {
+    "id": 10005,
+    "lat": -16.397732,
+    "lng": -71.41165,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Arequipa",
+    "distrito": "Chiguata",
+    "sector": "Sectores De Cangallo Y Cacayaco",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE CANGALLO Y CACAYACO, DEL DISTRITO DE CHIGUATA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ",
+    "ficha": "42-2026-AA-U-ARE",
+    "fechaInicio": "17/03/2026",
+    "fechaFin": "15/04/2026",
+    "poblacion": 200,
+    "volumen": 320,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1sPxyBSOsUj7zwPaFk1ld0Gc_LVzUA6xo/view?usp=drive_link"
   },
   {
     "id": 10041,
@@ -9276,26 +9276,8 @@ const mapaIntervenciones = {
     "fechaInicio": "18/09/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 504,
-    "volumen": 570,
+    "volumen": 585,
     "km": 0,
-    "enlace": null
-  },
-  {
-    "id": 10505,
-    "lat": -15.762003,
-    "lng": -73.36713,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Caraveli",
-    "distrito": "Caraveli",
-    "sector": "Tiñeria",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO DEL RÍO CARAVELÍ, SECTOR TIÑERIA, DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA\".     ",
-    "ficha": "78-2026-LDP-ARE",
-    "fechaInicio": "21/09/2026",
-    "fechaFin": "20/10/2026",
-    "poblacion": 500,
-    "volumen": 8520,
-    "km": 0.32,
     "enlace": null
   },
   {
@@ -9312,8 +9294,8 @@ const mapaIntervenciones = {
     "fechaInicio": "24/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 720,
-    "volumen": 9050,
-    "km": 1.82,
+    "volumen": 9700,
+    "km": 1.95,
     "enlace": null
   },
   {
@@ -9330,7 +9312,7 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 195,
+    "volumen": 240,
     "km": 0,
     "enlace": null
   },
@@ -9348,8 +9330,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 2400,
-    "km": 0.115,
+    "volumen": 2640,
+    "km": 0.125,
     "enlace": null
   },
   {
@@ -9366,8 +9348,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "21/10/2026",
     "poblacion": 600,
-    "volumen": 360,
-    "km": 0.035,
+    "volumen": 840,
+    "km": 0.075,
     "enlace": null
   },
   {
