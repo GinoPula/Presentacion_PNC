@@ -10285,7 +10285,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Jesus Nazareno",
     "sector": "Viña Chiquita",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO  ",
     "ficha": "48-2026- LD-PI-AYAC ",
     "fechaInicio": "13/10/2026",
     "fechaFin": "17/10/2026",
