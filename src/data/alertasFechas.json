@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "15/10/2026",
-    "horaCorte": "12:41",
+    "horaCorte": "13:12",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10575",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Trujillo",
-      "distrito": "Huanchaco",
-      "sector": "Canal Norte",
-      "ficha": "074-2026-LD-P-LIB",
-      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "18/11/2026",
-      "diasAtraso": 10
-    },
-    {
-      "n": 3,
       "idIntervencion": "10510",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -64,45 +45,26 @@
       "diasAtraso": 10
     },
     {
-      "n": 4,
-      "idIntervencion": "9635",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Quebrada Tingo Ragra",
-      "ficha": "N° 011-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "21/10/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 5,
-      "idIntervencion": "10333",
+      "n": 3,
+      "idIntervencion": "10575",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
       "regionId": "la-libertad",
-      "provincia": "Ascope",
-      "distrito": "Santiago De Cao",
-      "sector": "Sumanique",
-      "ficha": "023-2026-LD-P-LIB",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN SUMANIQUE, SECTOR CARTAVIO, DISTRITO DE SANTIAGO DE CAO, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO Nº072-2024-ADENDA 01",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "15/10/2026",
-      "diasAtraso": 8
+      "provincia": "Trujillo",
+      "distrito": "Huanchaco",
+      "sector": "Canal Norte",
+      "ficha": "074-2026-LD-P-LIB",
+      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "18/11/2026",
+      "diasAtraso": 10
     },
     {
-      "n": 6,
+      "n": 4,
       "idIntervencion": "9452",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -121,7 +83,26 @@
       "diasAtraso": 8
     },
     {
-      "n": 7,
+      "n": 5,
+      "idIntervencion": "9635",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Quebrada Tingo Ragra",
+      "ficha": "N° 011-2026-LD-P-HCO.",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "21/10/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 6,
       "idIntervencion": "10560",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -140,7 +121,45 @@
       "diasAtraso": 8
     },
     {
+      "n": 7,
+      "idIntervencion": "10333",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Ascope",
+      "distrito": "Santiago De Cao",
+      "sector": "Sumanique",
+      "ficha": "023-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN SUMANIQUE, SECTOR CARTAVIO, DISTRITO DE SANTIAGO DE CAO, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº072-2024-ADENDA 01",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "15/10/2026",
+      "diasAtraso": 8
+    },
+    {
       "n": 8,
+      "idIntervencion": "10595",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Dos De Mayo",
+      "distrito": "La Union",
+      "sector": "Urbano",
+      "ficha": "N° 046-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "08/10/2026",
+      "fechaFin": "22/10/2026",
+      "diasAtraso": 7
+    },
+    {
+      "n": 9,
       "idIntervencion": "7640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -159,7 +178,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "10483",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -175,25 +194,6 @@
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
       "fechaInicio": "10/09/2026",
       "fechaFin": "08/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 10,
-      "idIntervencion": "10595",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Dos De Mayo",
-      "distrito": "La Union",
-      "sector": "Urbano",
-      "ficha": "N° 046-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "08/10/2026",
-      "fechaFin": "22/10/2026",
       "diasAtraso": 7
     },
     {
@@ -236,25 +236,6 @@
     },
     {
       "n": 13,
-      "idIntervencion": "9454",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Jauja",
-      "distrito": "Julcan",
-      "sector": "Río Yacus",
-      "ficha": "021-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS DE LA PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "10/10/2026",
-      "fechaFin": "23/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 14,
       "idIntervencion": "9642",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -270,6 +251,25 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
+      "diasAtraso": 5
+    },
+    {
+      "n": 14,
+      "idIntervencion": "9454",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Jauja",
+      "distrito": "Julcan",
+      "sector": "Río Yacus",
+      "ficha": "021-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS DE LA PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "10/10/2026",
+      "fechaFin": "23/10/2026",
       "diasAtraso": 5
     },
     {
@@ -331,25 +331,6 @@
     },
     {
       "n": 18,
-      "idIntervencion": "9775",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "APURIMAC",
-      "deptoLabel": "Apurimac",
-      "regionId": "apurimac",
-      "provincia": "Antabamba",
-      "distrito": "Juan Espinoza Medrano",
-      "sector": "Mollebamba/rio Mollebamba",
-      "ficha": "FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP (FTI N° 027-2026-LDP-APU)",
-      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".",
-      "marcoLegal": "CONVENIO Nº08-2026/ANA",
-      "fechaInicio": "12/10/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 19,
       "idIntervencion": "9457",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -368,7 +349,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "10589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10506",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -406,7 +387,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10470",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10255",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "10561",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -463,7 +444,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 25,
+      "n": 24,
       "idIntervencion": "10581",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -482,7 +463,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 26,
+      "n": 25,
       "idIntervencion": "10592",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -501,7 +482,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "10512",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -520,7 +501,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 28,
+      "n": 27,
       "idIntervencion": "10558",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
