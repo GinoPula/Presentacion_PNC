@@ -5994,8 +5994,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "25/11/2026",
     "poblacion": 2078,
-    "volumen": 1050,
-    "km": 0.007,
+    "volumen": 2900,
+    "km": 0.019,
     "enlace": null
   },
   {
@@ -13380,8 +13380,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "20/10/2026",
     "poblacion": 70,
-    "volumen": 240,
-    "km": 0.11,
+    "volumen": 1430,
+    "km": 4.23,
     "enlace": null
   },
   {
@@ -13393,13 +13393,13 @@ const mapaIntervenciones = {
     "provincia": "Concepcion",
     "distrito": "Matahuasi",
     "sector": "Zona Urbana",
-    "descripcion": " \"LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN\"-00                      ",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN\"-00                       ",
     "ficha": "003-2026-LD-P-JUN",
-    "fechaInicio": "14/10/2026",
-    "fechaFin": "27/10/2026",
+    "fechaInicio": "12/10/2026",
+    "fechaFin": "25/10/2026",
     "poblacion": 2495,
-    "volumen": 9533.21,
-    "km": 2.341,
+    "volumen": 650,
+    "km": 0.16,
     "enlace": null
   }
 ],

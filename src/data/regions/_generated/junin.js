@@ -17,8 +17,8 @@ export default {
 
   enEjecucion: [
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN     ', inicio: '04/09/2026', fin: '19/10/2026', volAcum: 18165.0, kmAcum: 8.19, poblacion: 595 },
-    { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 240.0, kmAcum: 0.11, poblacion: 70 },
-    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN"-00                      ', inicio: '14/10/2026', fin: '27/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2495 },
+    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN"-00                       ', inicio: '12/10/2026', fin: '25/10/2026', volAcum: 650.0, kmAcum: 0.16, poblacion: 2495 },
+    { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 1430.0, kmAcum: 4.23, poblacion: 70 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
