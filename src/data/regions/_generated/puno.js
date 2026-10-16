@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
     { tipo: 'Prevención', cantidad: 17, m3: 147547.49, km: 41.06, poblacion: 9131, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
-    { tipo: 'Urgente atención', cantidad: 11, m3: 53644.42, km: 179.27, poblacion: 22645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 48812.82, km: 160.4, poblacion: 22645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 41, m3: 320180.86, m3AguaPotable: 8612.02, km: 236.78, poblacion: 49807 },
+  ejecutadasTotal: { cantidad: 41, m3: 315349.26, m3AguaPotable: 8612.02, km: 217.9, poblacion: 49807 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [

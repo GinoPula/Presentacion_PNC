@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”     ', inicio: '02/09/2026', fin: '31/10/2026', volAcum: 18095.0, kmAcum: 0.39, poblacion: 4408 },
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ', inicio: '17/09/2026', fin: '15/11/2026', volAcum: 870.0, kmAcum: 0.0, poblacion: 1100 },
-    { provincia: 'Chiclayo', distrito: 'Chongoyape', tipo: 'Emergencia', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE "   DS180    ', inicio: '25/09/2026', fin: '15/10/2026', volAcum: 16395.25, kmAcum: 1.55, poblacion: 1422 },
+    { provincia: 'Chiclayo', distrito: 'Chongoyape', tipo: 'Emergencia', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA “CHUMILLAN”, EN EL CENTRO POBLADO “CUCULI” DEL DISTRITO DE CHONGOYAPE, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE "   DS180    ', inicio: '25/09/2026', fin: '15/10/2026', volAcum: 18485.25, kmAcum: 1.76, poblacion: 1422 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
