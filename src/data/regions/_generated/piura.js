@@ -17,11 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 8100.0, kmAcum: 1.39, poblacion: 9200 },
+    { provincia: 'Sullana', distrito: 'Sullana', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE CAJA HIDRÁULICA DEL DREN PLUVIAL CIENEGUILLO DESDE LA PROGRESIVA 0+000 KM HASTA LA PROGRESIVA 2+000 KM; DISTRITO DE SULLANA - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA    ', inicio: '23/09/2026', fin: '22/10/2026', volAcum: 9300.0, kmAcum: 1.56, poblacion: 9200 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180  ', inicio: '05/10/2026', fin: '01/11/2026', volAcum: 2650.0, kmAcum: 0.1, poblacion: 108 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180   ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 2600.0, kmAcum: 0.06, poblacion: 900 },
     { provincia: 'Talara', distrito: 'Los Organos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 30.0, kmAcum: 0.0, poblacion: 1200 },
-    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA TRAMO II JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '13/10/2026', fin: '25/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 280 },
+    { provincia: 'Ayabaca', distrito: 'Paimas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA TRAMO II JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA ', inicio: '13/10/2026', fin: '25/10/2026', volAcum: 80.0, kmAcum: 0.25, poblacion: 280 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
