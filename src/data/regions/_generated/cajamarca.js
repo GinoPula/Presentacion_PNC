@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 23, m3: 153978.05, km: 10.66, poblacion: 14070, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 25, m3: 159378.05, km: 11.04, poblacion: 14305, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 48, m3: 209664.51, km: 166.45, poblacion: 57015, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 75, m3: 393192.56, m3AguaPotable: 3300.0, km: 178.96, poblacion: 72977 },
+  ejecutadasTotal: { cantidad: 77, m3: 398592.56, m3AguaPotable: 3300.0, km: 179.34, poblacion: 73212 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -22,11 +22,10 @@ export default {
     { provincia: 'Cutervo', distrito: 'San Andres De Cutervo', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS Y ACCESO DE LOS C.P. CHORRO BLANCO Y CP. EL PARAISO, DEL DISTRITO DE SAN ANDRES PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMRCA”   ', inicio: '18/09/2026', fin: '15/10/2026', volAcum: 1080.0, kmAcum: 1.54, poblacion: 87 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '22/09/2026', fin: '16/10/2026', volAcum: 4725.0, kmAcum: 4.72, poblacion: 415 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”\n\n ', inicio: '29/09/2026', fin: '18/10/2026', volAcum: 3950.0, kmAcum: 1.85, poblacion: 247 },
-    { provincia: 'Contumaza', distrito: 'Contumaza', tipo: 'Prevención', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUERTAS, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+400, EN EL SECTOR LOS PINOS, DISTRITO DE CONTUMAZÁ, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.   ', inicio: '30/09/2026', fin: '15/10/2026', volAcum: 5400.0, kmAcum: 0.38, poblacion: 235 },
     { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LAS LOCALIDADES DE CORAZON DE LA NARANJA – MIAMI DEL DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ', inicio: '06/10/2026', fin: '02/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 257 },
-    { provincia: 'Cajamarca', distrito: 'Namora', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CHAQUILMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 0+070, EN EL SECTOR CHILACAT, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00    ', inicio: '09/10/2026', fin: '15/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA” ', inicio: '15/10/2026', fin: '31/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 928 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' \n“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO EL CORAZON – SECTOR ALTO CORAZON, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”\n ', inicio: '15/10/2026', fin: '02/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 536 },
+    { provincia: 'San Miguel', distrito: 'San Miguel', tipo: 'Prevención', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO JEQUETEPEQUE, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR MONTE ALEGRE, DISTRITO DE SAN MIGUEL, PROVINCIA DE SAN MIGUEL, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 100 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -40,12 +39,10 @@ export default {
     { provincia: 'Jaen', distrito: 'Jaen', cantidad: 2, metaVol: 7441.31, metaKm: 1.17, poblacion: 900 },
     { provincia: 'San Marcos', distrito: 'Eduardo Villanueva', cantidad: 1, metaVol: 1200.0, metaKm: 0.38, poblacion: 250 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', cantidad: 2, metaVol: 7500.0, metaKm: 0.42, poblacion: 900 },
-    { provincia: 'San Miguel', distrito: 'San Miguel', cantidad: 1, metaVol: 12000.0, metaKm: 0.5, poblacion: 100 },
   ],
-  programadasTotal: { cantidad: 13, metaVol: 66062.68, metaKm: 8.47, poblacion: 6850 },
+  programadasTotal: { cantidad: 12, metaVol: 54062.68, metaKm: 7.97, poblacion: 6750 },
 
   programadasDetalle: [
-    { provincia: 'San Miguel', distrito: 'San Miguel', sector: 'Monte Alegre', ficha: 'FTI N° 060-2026-LD-PI-CAJ', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO JEQUETEPEQUE, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR MONTE ALEGRE, DISTRITO DE SAN MIGUEL, PROVINCIA DE SAN MIGUEL, DEPARTAMENTO DE CAJAMARCA”. ', fechaInicio: '15/10/2026', fechaFin: '29/10/2026', metaVol: 12000.0, metaKm: 0.5, poblacion: 100 },
     { provincia: 'Cajamarca', distrito: 'Namora', sector: 'Adacucho', ficha: 'FTI N° 008-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA SARINMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 02+500, EN EL SECTOR ADACUCHO, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00        \n(SE INTERVINO EN EL 2025/NO HAY PERMISOS PARA EL INGRESO DE MAQUINARIA )      ', fechaInicio: '16/10/2026', fechaFin: '22/10/2026', metaVol: 4000.0, metaKm: 2.5, poblacion: 300 },
     { provincia: 'Jaen', distrito: 'Jaen', sector: 'C.P. San Miguel De Las Naranjas', ficha: 'N°018-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA  0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO  DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA"\n                           ', fechaInicio: '20/10/2026', fechaFin: '30/10/2026', metaVol: 4291.31, metaKm: 0.42, poblacion: 500 },
     { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Nuevo Cajamarca', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. \n(FALTA DE CONVENIO CON LA M.P. DE CAJAMARCA - SE EJECUTARÁ A SOLICITUD DEL GORE)        ', fechaInicio: '23/10/2026', fechaFin: '06/11/2026', metaVol: 1200.0, metaKm: 0.3, poblacion: 500 },
