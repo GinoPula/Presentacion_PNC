@@ -48,7 +48,7 @@ export default {
     { provincia: 'Arequipa', distrito: 'Characato', sector: 'Cancha De Toros, Tres Postes, Colegio Inicial Y Avenida Characato', ficha: '83-2026-LDP-ARE', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES CON MATERIAL PROPIO DE LA QUEBRADA LA HUAYLLA, EN LOS SECTORES DE CANCHA DE TOROS, TRES POSTES, COLEGIO INICIAL Y AVENIDA CHARACATO, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   ', fechaInicio: '02/12/2026', fechaFin: '21/12/2026', metaVol: 10677.92, metaKm: 0.24, poblacion: 700 },
   ],
 
-  conveniosCount: 7,
+  conveniosCount: 8,
   conveniosVigentes: [
     { entidad: 'Municipalidad Distrital Maca', detail: 'hasta 27/11/2026' },
     { entidad: 'Municipalidad Distrital Chiguata', detail: 'hasta 26/01/2027' },
@@ -57,6 +57,7 @@ export default {
     { entidad: 'Municipalidad Distrital Alca', detail: 'hasta 08/07/2027' },
     { entidad: 'Municipalidad Distrital Cayma', detail: 'hasta 20/07/2027' },
     { entidad: 'Municipalidad Distrital Huanuhuanu', detail: 'hasta 03/09/2027' },
+    { entidad: 'Municipalidad Distrital Lari', detail: 'hasta 28/09/2027' },
   ],
 
   flota: [
