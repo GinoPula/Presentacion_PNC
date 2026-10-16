@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 14, m3: 159319.93, km: 52.93, poblacion: 24550, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Emergencia', cantidad: 15, m3: 169669.93, km: 55.01, poblacion: 25270, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 7.81, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 27, m3: 17210.0, km: 0.15, poblacion: 16010, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 53, m3: 337572.93, m3AguaPotable: 16820.0, km: 60.89, poblacion: 50260 },
+  ejecutadasTotal: { cantidad: 54, m3: 347922.93, m3AguaPotable: 16820.0, km: 62.97, poblacion: 50980 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,23 +18,22 @@ export default {
 
   enEjecucion: [
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 630.0, kmAcum: 0.0, poblacion: 504 },
-    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180', inicio: '24/09/2026', fin: '15/10/2026', volAcum: 10350.0, kmAcum: 2.08, poblacion: 720 },
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 285.0, kmAcum: 0.0, poblacion: 525 },
     { provincia: 'Arequipa', distrito: 'Characato', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00          ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 3360.0, kmAcum: 0.17, poblacion: 700 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.       ', inicio: '12/10/2026', fin: '21/10/2026', volAcum: 1320.0, kmAcum: 0.12, poblacion: 600 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ', inicio: '14/10/2026', fin: '12/11/2026', volAcum: 75.0, kmAcum: 0.0, poblacion: 640 },
+    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180     ', inicio: '16/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 8000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 3, metaVol: 13448.75, metaKm: 2.56, poblacion: 24000 },
+    { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 2, metaVol: 6921.66, metaKm: 1.04, poblacion: 16000 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 19202.24, metaKm: 0.45, poblacion: 1080 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 7, metaVol: 40403.48, metaKm: 3.59, poblacion: 4100 },
   ],
-  programadasTotal: { cantidad: 12, metaVol: 73054.47, metaKm: 6.6, poblacion: 29180 },
+  programadasTotal: { cantidad: 11, metaVol: 66527.38, metaKm: 5.08, poblacion: 21180 },
 
   programadasDetalle: [
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Los Ángeles', ficha: '124-2026-LDE-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180    ', fechaInicio: '16/10/2026', fechaFin: '04/11/2026', metaVol: 6527.09, metaKm: 1.52, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Villa Alto Cenepa', ficha: '84-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR  VILLA ALTO CENEPA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.  ', fechaInicio: '20/10/2026', fechaFin: '29/10/2026', metaVol: 2503.93, metaKm: 0.2, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Puente Sepúlveda Hasta Puente Santa Rita De Casia', ficha: '76-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ', fechaInicio: '22/10/2026', fechaFin: '10/11/2026', metaVol: 6000.47, metaKm: 0.6, poblacion: 800 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'La Rinconada-Villa Maria Del Triunfo', ficha: '85-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR LA RINCONADA-VILLA MARIA DEL TRIUNFO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.     ', fechaInicio: '30/10/2026', fechaFin: '03/11/2026', metaVol: 1502.73, metaKm: 0.12, poblacion: 300 },
