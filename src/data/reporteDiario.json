@@ -2,12 +2,28 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "16/10/2026",
-    "horaCorte": "11:08",
+    "horaCorte": "11:38",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
     {
       "n": 1,
+      "idIntervencion": "10614",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Huaraz",
+      "distrito": "Huaraz",
+      "sector": "Santa Catalina",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 00088-2026-MPHZ",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH",
+      "fechaInicio": "13/10/2026",
+      "fechaFin": "01/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 2,
       "idIntervencion": "10602",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -26,22 +42,6 @@
         "REMOLCADOR ( EAJ-560)",
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)"
       ]
-    },
-    {
-      "n": 2,
-      "idIntervencion": "10614",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Huaraz",
-      "distrito": "Huaraz",
-      "sector": "Santa Catalina",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 00088-2026-MPHZ",
-      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH",
-      "fechaInicio": "13/10/2026",
-      "fechaFin": "01/11/2026",
-      "maquinaria": []
     },
     {
       "n": 3,
@@ -66,27 +66,6 @@
     },
     {
       "n": 4,
-      "idIntervencion": "10555",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "26/10/2026",
-      "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "EXCAVADORA HIDRAULICA ( D523228)",
-        "REMOLCADOR ( EAJ-560)",
-        "CAMIONETA ( EAJ-733)"
-      ]
-    },
-    {
-      "n": 5,
       "idIntervencion": "10462",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -104,6 +83,27 @@
         "EXCAVADORA HIDRAULICA ( TJT10129)",
         "CAMIONETA ( EAJ-733)",
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)"
+      ]
+    },
+    {
+      "n": 5,
+      "idIntervencion": "10555",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Cascajal Bajo – La Cuadra",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "26/10/2026",
+      "maquinaria": [
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "EXCAVADORA HIDRAULICA ( D523228)",
+        "REMOLCADOR ( EAJ-560)",
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -397,24 +397,6 @@
     },
     {
       "n": 20,
-      "idIntervencion": "10574",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio El Limon Y Sector El Laurel.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "29/09/2026",
-      "fechaFin": "18/10/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
-      ]
-    },
-    {
-      "n": 21,
       "idIntervencion": "10611",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -433,6 +415,24 @@
         "RODILLO COMPACTADOR ( H1762462)",
         "CARGADOR FRONTAL ( JLX00219)",
         "VOLQUETE ( EGV-835)"
+      ]
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10574",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Limon Y Sector El Laurel.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "29/09/2026",
+      "fechaFin": "18/10/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
       ]
     },
     {
@@ -690,6 +690,22 @@
     },
     {
       "n": 35,
+      "idIntervencion": "10575",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Trujillo",
+      "distrito": "Huanchaco",
+      "sector": "Canal Norte",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
+      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
+      "fechaInicio": "09/11/2026",
+      "fechaFin": "23/12/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 36,
       "idIntervencion": "10432",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -712,7 +728,7 @@
       ]
     },
     {
-      "n": 36,
+      "n": 37,
       "idIntervencion": "10518",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -730,7 +746,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 38,
       "idIntervencion": "10468",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -752,7 +768,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 39,
       "idIntervencion": "10561",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -772,7 +788,7 @@
       ]
     },
     {
-      "n": 39,
+      "n": 40,
       "idIntervencion": "10460",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -792,7 +808,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 41,
       "idIntervencion": "10582",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -812,7 +828,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 42,
       "idIntervencion": "10470",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -828,25 +844,6 @@
       "maquinaria": [
         "VOLQUETE ( EGN-505)",
         "EXCAVADORA HIDRAULICA ( A10891)"
-      ]
-    },
-    {
-      "n": 42,
-      "idIntervencion": "10594",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "20/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)",
-        "VOLQUETE ( EGN-520)"
       ]
     },
     {
@@ -873,6 +870,25 @@
     },
     {
       "n": 44,
+      "idIntervencion": "10594",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "20/10/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-520)"
+      ]
+    },
+    {
+      "n": 45,
       "idIntervencion": "10581",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -890,7 +906,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 46,
       "idIntervencion": "10480",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -908,7 +924,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 47,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -926,7 +942,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 48,
       "idIntervencion": "9410",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -944,7 +960,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "10601",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -959,25 +975,6 @@
       "fechaFin": "25/10/2026",
       "maquinaria": [
         "RETROEXCAVADORA ( C429243)"
-      ]
-    },
-    {
-      "n": 49,
-      "idIntervencion": "10549",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Canchaque",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "10/11/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( J8B05113)",
-        "EXCAVADORA HIDRAULICA ( TJT10095)"
       ]
     },
     {
@@ -1000,6 +997,25 @@
     },
     {
       "n": 51,
+      "idIntervencion": "10549",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Canchaque",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "10/11/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( J8B05113)",
+        "EXCAVADORA HIDRAULICA ( TJT10095)"
+      ]
+    },
+    {
+      "n": 52,
       "idIntervencion": "10519",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1020,7 +1036,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 53,
       "idIntervencion": "10576",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1038,7 +1054,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 54,
       "idIntervencion": "9553",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1054,7 +1070,7 @@
       "maquinaria": []
     },
     {
-      "n": 54,
+      "n": 55,
       "idIntervencion": "10524",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1076,7 +1092,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 56,
       "idIntervencion": "10547",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1098,7 +1114,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 57,
       "idIntervencion": "9440",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1116,7 +1132,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 58,
       "idIntervencion": "10531",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1134,7 +1150,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 59,
       "idIntervencion": "10306",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1152,7 +1168,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 60,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1170,7 +1186,26 @@
       ]
     },
     {
-      "n": 60,
+      "n": 61,
+      "idIntervencion": "10493",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "07/09/2026",
+      "fechaFin": "15/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGM-976)",
+        "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
+      "n": 62,
       "idIntervencion": "10506",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1189,7 +1224,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 63,
       "idIntervencion": "10520",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1213,26 +1248,7 @@
       ]
     },
     {
-      "n": 62,
-      "idIntervencion": "10493",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°034-2025-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "07/09/2026",
-      "fechaFin": "15/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGM-976)",
-        "CAMIONETA ( EGM-052)"
-      ]
-    },
-    {
-      "n": 63,
+      "n": 64,
       "idIntervencion": "9524",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
