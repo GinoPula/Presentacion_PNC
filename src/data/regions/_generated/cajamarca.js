@@ -60,13 +60,14 @@ export default {
     { provincia: 'Jaen', distrito: 'Bellavista', sector: 'C.P. Ortigas', ficha: 'N°015-2026-LDP-AMZ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SECA ORTIGAS, DESDE LA PROGRESIVA 0+000 K.M. A LA  PROGRESIVA 0+347.83 K.M., DEL SECTOR ORTIGAS, DISTRITO DE BELLAVISTA, PROVINCIA DE JAÉN, REGION CAJAMARCA".-00\n                                                               ', fechaInicio: '13/12/2026', fechaFin: '29/12/2026', metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
   ],
 
-  conveniosCount: 5,
+  conveniosCount: 6,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 10/10/2027' },
     { entidad: 'Municipalidad Distrital Callayuc', detail: 'vence 11/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital San Juan', detail: 'hasta 17/11/2026' },
     { entidad: 'Municipalidad Distrital Calquis', detail: 'hasta 12/12/2026' },
     { entidad: 'Municipalidad Distrital Chirinos', detail: 'hasta 31/12/2026' },
+    { entidad: 'Municipalidad Distrital Querocotillo', detail: 'hasta 13/10/2027' },
   ],
 
   flota: [
