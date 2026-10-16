@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "16/10/2026",
-    "horaCorte": "16:43",
+    "horaCorte": "17:13",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -350,25 +350,6 @@
     },
     {
       "n": 19,
-      "idIntervencion": "9155",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LAMBAYEQUE",
-      "deptoLabel": "Lambayeque",
-      "regionId": "lambayeque",
-      "provincia": "Lambayeque",
-      "distrito": "Motupe",
-      "sector": "Sector Tres Tomas",
-      "ficha": "013-2026 -LD-P-LAM",
-      "descripcion": "“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”",
-      "marcoLegal": "ADENDA 03-CONVENIO Nº036-2022- /PLIA",
-      "fechaInicio": "15/10/2026",
-      "fechaFin": "28/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 20,
       "idIntervencion": "10578",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10606",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10432",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10493",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "10529",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
