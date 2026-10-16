@@ -1569,7 +1569,7 @@ const mapaIntervenciones = {
     "provincia": "San Roman",
     "distrito": "San Miguel",
     "sector": "Chingora, Santa Maria, Mucra Y San Hilarión",
-    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN VÍAS URBANAS EN LOS SECTORES DE CHINGORA, SANTA MARIA, MUCRA Y SAN HILARIÓN DEL DISTRITO DE SAN MIGUEL PROVINCIA DE SAN ROMAN REGION PUNO  ",
+    "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD EN VÍAS URBANAS EN LOS SECTORES DE CHINGORA, SANTA MARIA, MUCRA Y SAN HILARIÓN DEL DISTRITO DE SAN MIGUEL PROVINCIA DE SAN ROMAN REGION PUNO   ",
     "ficha": "FTI N° 073-2026-MTVU-PUN",
     "fechaInicio": "22/07/2026",
     "fechaFin": "12/08/2026",
@@ -10344,8 +10344,8 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "17/10/2026",
     "poblacion": 40,
-    "volumen": 950,
-    "km": 0.13,
+    "volumen": 1440,
+    "km": 0.2,
     "enlace": null
   }
 ],
