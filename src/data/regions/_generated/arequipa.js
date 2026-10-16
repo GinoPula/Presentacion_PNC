@@ -30,10 +30,12 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 2, metaVol: 6921.66, metaKm: 1.04, poblacion: 16000 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 19202.24, metaKm: 0.45, poblacion: 1080 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 7, metaVol: 40403.48, metaKm: 3.59, poblacion: 4100 },
+    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', cantidad: 1, metaVol: 720.0, metaKm: 0.0, poblacion: 504 },
   ],
-  programadasTotal: { cantidad: 11, metaVol: 66527.38, metaKm: 5.08, poblacion: 21180 },
+  programadasTotal: { cantidad: 12, metaVol: 67247.38, metaKm: 5.08, poblacion: 21684 },
 
   programadasDetalle: [
+    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', sector: 'Varios Anexos', ficha: '90-2026-AA-U-ARE', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.', fechaInicio: '19/10/2026', fechaFin: '17/11/2026', metaVol: 720.0, metaKm: 0.0, poblacion: 504 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Villa Alto Cenepa', ficha: '84-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR  VILLA ALTO CENEPA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.  ', fechaInicio: '20/10/2026', fechaFin: '29/10/2026', metaVol: 2503.93, metaKm: 0.2, poblacion: 500 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Puente Sepúlveda Hasta Puente Santa Rita De Casia', ficha: '76-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.        ', fechaInicio: '22/10/2026', fechaFin: '10/11/2026', metaVol: 6000.47, metaKm: 0.6, poblacion: 800 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'La Rinconada-Villa Maria Del Triunfo', ficha: '85-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR LA RINCONADA-VILLA MARIA DEL TRIUNFO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.     ', fechaInicio: '30/10/2026', fechaFin: '03/11/2026', metaVol: 1502.73, metaKm: 0.12, poblacion: 300 },
