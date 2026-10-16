@@ -34,10 +34,10 @@ export default {
   programadasTotal: { cantidad: 9, metaVol: 54440.0, metaKm: 8.25, poblacion: 25739 },
 
   programadasDetalle: [
+    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Aguas Abajo De Balneario Calientes', ficha: '052-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '19/10/2026', fechaFin: '02/11/2026', metaVol: 7600.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos Iv Etapa', ficha: '047-2026-DA-E-TAC', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA        ', fechaInicio: '19/10/2026', fechaFin: '17/12/2026', metaVol: 605.0, metaKm: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Aguas Abajo De Bocatoma Challata', ficha: '051-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '28/10/2026', fechaFin: '11/11/2026', metaVol: 6800.0, metaKm: 0.25, poblacion: 2389 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                ', fechaInicio: '02/11/2026', fechaFin: '21/11/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
-    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Aguas Abajo De Balneario Calientes', ficha: '052-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '02/11/2026', fechaFin: '16/11/2026', metaVol: 7600.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                     ', fechaInicio: '16/11/2026', fechaFin: '25/11/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '22/11/2026', fechaFin: '11/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Sama', sector: 'Bocatoma Catambu Y La Banda', ficha: '013-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMTACION EN EL CAUCE DEL RIO SAMA, SECTOR BOCATOMA CATAMBU Y LA BANDA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA-00                        ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 5000.0, metaKm: 0.4, poblacion: 250 },
@@ -57,8 +57,7 @@ export default {
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-008'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00222'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810311'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85422'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10893'], estado: 'inoperativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['85422', 'A10893'], estado: 'inoperativo' },
     { tipo: 'Mini cargador', cantidad: 2, marca: 'John Deere', codigos: ['G275475', '282134'], estado: 'operativo' },
     { tipo: 'Motoniveladora', cantidad: 1, marca: 'Caterpillar', codigos: ['SZL03377'], estado: 'operativo' },
     { tipo: 'Plataforma', cantidad: 3, marca: 'ACS', codigos: ['EGR-071', 'EGR-072', 'EGR-070'], estado: 'operativo' },

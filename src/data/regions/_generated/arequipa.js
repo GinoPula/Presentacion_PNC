@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 15, m3: 169669.93, km: 55.01, poblacion: 25270, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Emergencia', cantidad: 15, m3: 169355.67, km: 54.95, poblacion: 25270, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 7.81, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 27, m3: 17210.0, km: 0.15, poblacion: 16010, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 54, m3: 347922.93, m3AguaPotable: 16820.0, km: 62.97, poblacion: 50980 },
+  ejecutadasTotal: { cantidad: 54, m3: 347608.67, m3AguaPotable: 16820.0, km: 62.91, poblacion: 50980 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [

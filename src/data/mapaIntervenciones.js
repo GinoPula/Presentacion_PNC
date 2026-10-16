@@ -3504,8 +3504,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 900,
-    "volumen": 2075,
-    "km": 0.04,
+    "volumen": 2600,
+    "km": 0.055,
     "enlace": null
   },
   {
@@ -9397,13 +9397,13 @@ const mapaIntervenciones = {
     "provincia": "Arequipa",
     "distrito": "Cayma",
     "sector": "Bello Horizonte",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180 ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR BELLO HORIZONTE, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180  ",
     "ficha": "134-2026-LDE-ARE",
     "fechaInicio": "24/09/2026",
     "fechaFin": "15/10/2026",
     "poblacion": 720,
-    "volumen": 10350,
-    "km": 2.08,
+    "volumen": 10035.74,
+    "km": 2.02,
     "enlace": null
   },
   {
