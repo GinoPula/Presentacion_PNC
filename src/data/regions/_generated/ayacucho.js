@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 59152.0, km: 2.5, poblacion: 10076, provincias: ['Huamanga', 'Huanta', 'La Mar'] },
-    { tipo: 'Prevención', cantidad: 17, m3: 42209.44, km: 5.45, poblacion: 10249, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
+    { tipo: 'Prevención', cantidad: 18, m3: 43649.44, km: 5.65, poblacion: 10289, provincias: ['Huamanga', 'Huanta', 'Vilcas Huaman'] },
   ],
-  ejecutadasTotal: { cantidad: 25, m3: 101361.44, m3AguaPotable: 0.0, km: 7.95, poblacion: 20325 },
+  ejecutadasTotal: { cantidad: 26, m3: 102801.44, m3AguaPotable: 0.0, km: 8.15, poblacion: 20365 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Jesus Nazareno', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO  ', inicio: '13/10/2026', fin: '17/10/2026', volAcum: 1440.0, kmAcum: 0.2, poblacion: 40 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
