@@ -3763,24 +3763,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9814,
-    "lat": -9.503439,
-    "lng": -77.535269,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huaraz",
-    "distrito": "Independencia",
-    "sector": "Palmira Baja",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CASCA EN EL SECTOR PALMIRA BAJA, DEL DISTRITO DE INDEPENDENCIA, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ANCASH              ",
-    "ficha": "030-2026-LDP-ANC",
-    "fechaInicio": "03/03/2026",
-    "fechaFin": "07/03/2026",
-    "poblacion": 70,
-    "volumen": 730,
-    "km": 0.05,
-    "enlace": null
-  },
-  {
     "id": 9962,
     "lat": -9.74271,
     "lng": -77.448977,
@@ -3797,6 +3779,24 @@ const mapaIntervenciones = {
     "volumen": 1200,
     "km": 0.05,
     "enlace": "https://drive.google.com/file/d/1iwQDojATLeqvnwjbVvTcrstmd3mi10Bv/view?usp=drive_link"
+  },
+  {
+    "id": 9814,
+    "lat": -9.503439,
+    "lng": -77.535269,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Independencia",
+    "sector": "Palmira Baja",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL RÍO CASCA EN EL SECTOR PALMIRA BAJA, DEL DISTRITO DE INDEPENDENCIA, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ANCASH              ",
+    "ficha": "030-2026-LDP-ANC",
+    "fechaInicio": "03/03/2026",
+    "fechaFin": "07/03/2026",
+    "poblacion": 70,
+    "volumen": 730,
+    "km": 0.05,
+    "enlace": null
   },
   {
     "id": 9974,
@@ -4195,24 +4195,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10259,
-    "lat": -9.726266,
-    "lng": -77.451125,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Velasco",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO SANTA SECTOR VELASCO TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
-    "ficha": "063-2026-LDP-ANC",
-    "fechaInicio": "01/06/2026",
-    "fechaFin": "11/06/2026",
-    "poblacion": 4500,
-    "volumen": 6712,
-    "km": 0.4,
-    "enlace": null
-  },
-  {
     "id": 9258,
     "lat": -10.07008,
     "lng": -77.141564,
@@ -4229,6 +4211,24 @@ const mapaIntervenciones = {
     "volumen": 3902,
     "km": 0.918,
     "enlace": "https://drive.google.com/file/d/1ARRVrnyY79pY48wEAIYja-SHtkopxRfv/view?usp=drive_link"
+  },
+  {
+    "id": 10259,
+    "lat": -9.726266,
+    "lng": -77.451125,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Velasco",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO SANTA SECTOR VELASCO TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
+    "ficha": "063-2026-LDP-ANC",
+    "fechaInicio": "01/06/2026",
+    "fechaFin": "11/06/2026",
+    "poblacion": 4500,
+    "volumen": 6712,
+    "km": 0.4,
+    "enlace": null
   },
   {
     "id": 10279,
@@ -4447,6 +4447,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10376,
+    "lat": -9.084684,
+    "lng": -77.776273,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Yungay",
+    "distrito": "Yungay",
+    "sector": "Cayasbamba",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CAYASBAMBA, CASERÍO DE CAYASBAMBA, DISTRITO Y PROVINCIA DE YUNGAY       ",
+    "ficha": "093-2026-LDP-ANC",
+    "fechaInicio": "03/08/2026",
+    "fechaFin": "12/08/2026",
+    "poblacion": 2305,
+    "volumen": 1920,
+    "km": 0.48,
+    "enlace": null
+  },
+  {
     "id": 10398,
     "lat": -9.632828,
     "lng": -77.497163,
@@ -4480,24 +4498,6 @@ const mapaIntervenciones = {
     "poblacion": 45,
     "volumen": 3145,
     "km": 0.55,
-    "enlace": null
-  },
-  {
-    "id": 10376,
-    "lat": -9.084684,
-    "lng": -77.776273,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Yungay",
-    "distrito": "Yungay",
-    "sector": "Cayasbamba",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CAYASBAMBA, CASERÍO DE CAYASBAMBA, DISTRITO Y PROVINCIA DE YUNGAY       ",
-    "ficha": "093-2026-LDP-ANC",
-    "fechaInicio": "03/08/2026",
-    "fechaFin": "12/08/2026",
-    "poblacion": 2305,
-    "volumen": 1920,
-    "km": 0.48,
     "enlace": null
   },
   {
@@ -4699,24 +4699,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10592,
-    "lat": -9.962572,
-    "lng": -77.85443,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Huarmey",
-    "distrito": "Huarmey",
-    "sector": "Huiña",
-    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
-    "ficha": "135-2026-LDP-ANC",
-    "fechaInicio": "05/10/2026",
-    "fechaFin": "04/11/2026",
-    "poblacion": 300,
-    "volumen": 3240,
-    "km": 0.24,
-    "enlace": null
-  },
-  {
     "id": 10593,
     "lat": -10.647989,
     "lng": -77.542669,
@@ -4732,6 +4714,24 @@ const mapaIntervenciones = {
     "poblacion": 111,
     "volumen": 2790,
     "km": 0.465,
+    "enlace": null
+  },
+  {
+    "id": 10592,
+    "lat": -9.962572,
+    "lng": -77.85443,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huarmey",
+    "distrito": "Huarmey",
+    "sector": "Huiña",
+    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
+    "ficha": "135-2026-LDP-ANC",
+    "fechaInicio": "05/10/2026",
+    "fechaFin": "04/11/2026",
+    "poblacion": 300,
+    "volumen": 3240,
+    "km": 0.24,
     "enlace": null
   },
   {
@@ -4786,6 +4786,24 @@ const mapaIntervenciones = {
     "poblacion": 1476,
     "volumen": 724,
     "km": 0.02,
+    "enlace": null
+  },
+  {
+    "id": 10621,
+    "lat": -10.30836,
+    "lng": -77.611244,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Bolognesi",
+    "distrito": "Colquioc",
+    "sector": "Chasquitambo",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH",
+    "ficha": "123-2026-LDP-ANC",
+    "fechaInicio": "16/10/2026",
+    "fechaFin": "27/10/2026",
+    "poblacion": 1661,
+    "volumen": 8280,
+    "km": 0.4,
     "enlace": null
   }
 ],
