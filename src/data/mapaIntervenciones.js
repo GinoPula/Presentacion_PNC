@@ -2309,7 +2309,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Sama",
     "sector": "Morro Sama Y Puente Fondopes",
-    "descripcion": " LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA        ",
+    "descripcion": " LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA MORRO SAMA, SECTOR MORRO SAMA Y PUENTE FONDEPES, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA         ",
     "ficha": "046-2026-LD-P-TAC",
     "fechaInicio": "07/09/2026",
     "fechaFin": "18/09/2026",
@@ -9856,8 +9856,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "23/10/2026",
     "poblacion": 500,
-    "volumen": 950,
-    "km": 0.65,
+    "volumen": 1750,
+    "km": 1.25,
     "enlace": null
   },
   {
