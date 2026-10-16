@@ -2350,8 +2350,26 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "11/12/2026",
     "poblacion": 420,
-    "volumen": 30,
+    "volumen": 45,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10605,
+    "lat": -17.845872,
+    "lng": -70.11834,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Pachia",
+    "sector": "Reservorio De Agua",
+    "descripcion": " LIMPIEZA Y ENCAUZAMIENTO EN LA QUEBRADA CHUCHUCO, SECTOR RESERVORIO DE AGUA PARA LA POBLACION DE CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA.      ",
+    "ficha": "050-2026-LD-P-TAC",
+    "fechaInicio": "16/10/2026",
+    "fechaFin": "24/10/2026",
+    "poblacion": 250,
+    "volumen": 4000,
+    "km": 0.2,
     "enlace": null
   }
 ],
