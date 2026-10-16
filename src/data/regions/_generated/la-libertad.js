@@ -62,7 +62,7 @@ export default {
   conveniosCount: 4,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/09/2027' },
-    { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'vence 15/10/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'hasta 15/10/2026' },
     { entidad: 'Municipalidad Provincial Ascope', detail: 'hasta 20/11/2026' },
     { entidad: 'Municipalidad Provincial Pacasmayo', detail: 'hasta 27/04/2027' },
   ],
