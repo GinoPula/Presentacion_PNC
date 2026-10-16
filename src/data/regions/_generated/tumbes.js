@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 10, m3: 37195.25, km: 7.22, poblacion: 9200, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
     { tipo: 'Prevención', cantidad: 25, m3: 89042.75, km: 12.33, poblacion: 25023, provincias: ['Contralmirante Villar', 'Tumbes'] },
-    { tipo: 'Urgente atención', cantidad: 13, m3: 7815.0, km: null, poblacion: 17744, provincias: ['Tumbes'] },
+    { tipo: 'Urgente atención', cantidad: 15, m3: 9315.0, km: null, poblacion: 20456, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 48, m3: 134053.0, m3AguaPotable: 7815.0, km: 19.55, poblacion: 51967 },
+  ejecutadasTotal: { cantidad: 50, m3: 135553.0, m3AguaPotable: 9315.0, km: 19.55, poblacion: 54679 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 194862.73, m3AguaPotable: 8550.0, km: 43.19, poblacion: 93958 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES   ', inicio: '07/09/2026', fin: '15/10/2026', volAcum: 570.0, kmAcum: 0.0, poblacion: 1356 },
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: '"ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” ', inicio: '14/09/2026', fin: '13/10/2026', volAcum: 750.0, kmAcum: 0.0, poblacion: 1356 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '04/10/2026', fin: '18/10/2026', volAcum: 4250.0, kmAcum: 0.38, poblacion: 6005 },
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ', inicio: '10/10/2026', fin: '24/10/2026', volAcum: 1275.0, kmAcum: 0.18, poblacion: 527 },
   ],
