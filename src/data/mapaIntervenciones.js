@@ -2371,6 +2371,24 @@ const mapaIntervenciones = {
     "volumen": 500,
     "km": 0.03,
     "enlace": null
+  },
+  {
+    "id": 10608,
+    "lat": -17.86128,
+    "lng": -70.12324,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Tacna",
+    "sector": "Aguas Abajo De Balneario Calientes",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA      ",
+    "ficha": "052-2026-LD-P-TAC",
+    "fechaInicio": "19/10/2026",
+    "fechaFin": "02/11/2026",
+    "poblacion": 250,
+    "volumen": 7600,
+    "km": 0.4,
+    "enlace": null
   }
 ],
   piura: [
