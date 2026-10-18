@@ -62,7 +62,7 @@ export default {
     { entidad: 'Gobierno Regional', detail: 'hasta 10/10/2027' },
     { entidad: 'Municipalidad Provincial Jaen', detail: 'hasta 18/09/2027' },
     { entidad: 'Municipalidad Distrital Callayuc', detail: 'vence 11/11/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Distrital San Juan', detail: 'hasta 17/11/2026' },
+    { entidad: 'Municipalidad Distrital San Juan', detail: 'vence 17/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Calquis', detail: 'hasta 12/12/2026' },
     { entidad: 'Municipalidad Distrital Chirinos', detail: 'hasta 31/12/2026' },
     { entidad: 'Municipalidad Distrital Querocotillo', detail: 'hasta 13/10/2027' },

@@ -26,7 +26,7 @@ export default {
   conveniosCount: 3,
   conveniosVigentes: [
     { entidad: 'Municipalidad Distrital Ubinas', detail: 'vence 11/11/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Distrital Chojata', detail: 'hasta 17/11/2026' },
+    { entidad: 'Municipalidad Distrital Chojata', detail: 'vence 17/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Matalaque', detail: 'hasta 27/11/2026' },
   ],
 
