@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 15, m3: 169355.67, km: 54.95, poblacion: 25270, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Prevención', cantidad: 12, m3: 161043.0, km: 7.81, poblacion: 9700, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
-    { tipo: 'Urgente atención', cantidad: 27, m3: 17210.0, km: 0.15, poblacion: 16010, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
+    { tipo: 'Urgente atención', cantidad: 28, m3: 17930.0, km: 0.15, poblacion: 16514, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 54, m3: 347608.67, m3AguaPotable: 16820.0, km: 62.91, poblacion: 50980 },
+  ejecutadasTotal: { cantidad: 55, m3: 348328.67, m3AguaPotable: 17540.0, km: 62.91, poblacion: 51484 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,12 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, m3AguaPotable: 18540.0, km: 42.88, poblacion: 52610 },
 
   enEjecucion: [
-    { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”. ', inicio: '18/09/2026', fin: '17/10/2026', volAcum: 675.0, kmAcum: 0.0, poblacion: 504 },
     { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 315.0, kmAcum: 0.0, poblacion: 525 },
     { provincia: 'Arequipa', distrito: 'Characato', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00          ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 3570.0, kmAcum: 0.17, poblacion: 700 },
-    { provincia: 'Arequipa', distrito: 'Mariano Melgar', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.       ', inicio: '12/10/2026', fin: '21/10/2026', volAcum: 1680.0, kmAcum: 0.15, poblacion: 600 },
+    { provincia: 'Arequipa', distrito: 'Mariano Melgar', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.       ', inicio: '12/10/2026', fin: '21/10/2026', volAcum: 1440.0, kmAcum: 0.14, poblacion: 600 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ', inicio: '14/10/2026', fin: '12/11/2026', volAcum: 105.0, kmAcum: 0.0, poblacion: 640 },
-    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180     ', inicio: '16/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 8000 },
+    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180     ', inicio: '16/10/2026', fin: '04/11/2026', volAcum: 660.0, kmAcum: 0.15, poblacion: 8000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
