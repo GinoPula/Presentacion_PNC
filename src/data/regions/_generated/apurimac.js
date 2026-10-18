@@ -17,7 +17,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Andahuaylas', distrito: 'Andarapa', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC"                ', inicio: '07/10/2026', fin: '23/10/2026', volAcum: 1750.0, kmAcum: 1.25, poblacion: 500 },
-    { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".              ', inicio: '15/10/2026', fin: '13/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 50 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

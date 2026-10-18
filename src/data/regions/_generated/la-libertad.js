@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
-    { tipo: 'Prevención', cantidad: 20, m3: 179038.0, km: 12.89, poblacion: 26760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
+    { tipo: 'Prevención', cantidad: 19, m3: 160013.0, km: 11.89, poblacion: 21760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 26794.7, km: 53.43, poblacion: 3758, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 40, m3: 242494.7, m3AguaPotable: 0.0, km: 68.24, poblacion: 38230 },
+  ejecutadasTotal: { cantidad: 39, m3: 223469.7, m3AguaPotable: 0.0, km: 67.24, poblacion: 33230 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO II DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD  ', inicio: '23/09/2026', fin: '07/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180   ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 3770.0, kmAcum: 0.09, poblacion: 144 },
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD  ', inicio: '09/11/2026', fin: '23/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 45024 },
   ],
