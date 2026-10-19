@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "19/10/2026",
-    "horaCorte": "16:06",
+    "horaCorte": "16:36",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -152,7 +152,7 @@
       "distrito": "Chanchamayo",
       "sector": "Rio Toro",
       "ficha": "001-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORODESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO, REGION JUNIN",
+      "descripcion": "LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORO DESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO, REGION JUNIN",
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "12/10/2026",
       "fechaFin": "26/10/2026",
@@ -274,25 +274,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10615",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Pacasmayo",
-      "distrito": "San Pedro De Lloc",
-      "sector": "Puente San Jose",
-      "ficha": "083-2026-LD-P-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO Nº027-2026",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "27/10/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 16,
       "idIntervencion": "9352",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -311,7 +292,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -330,7 +311,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10554",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -349,26 +330,26 @@
       "diasAtraso": 3
     },
     {
-      "n": 19,
-      "idIntervencion": "10526",
+      "n": 18,
+      "idIntervencion": "10615",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "AYACUCHO",
-      "deptoLabel": "Ayacucho",
-      "regionId": "ayacucho",
-      "provincia": "Huamanga",
-      "distrito": "Santiago De Pischa",
-      "sector": "Anyana",
-      "ficha": "43-2026- LD-PI-AYAC",
-      "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO",
-      "marcoLegal": "CONVENIO N°039 -2026-VIVIENDA/VMVU/PNC",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pacasmayo",
+      "distrito": "San Pedro De Lloc",
+      "sector": "Puente San Jose",
+      "ficha": "083-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº027-2026",
       "fechaInicio": "16/10/2026",
-      "fechaFin": "30/10/2026",
+      "fechaFin": "27/10/2026",
       "diasAtraso": 3
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "10574",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "9640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10367",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "9524",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -444,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
