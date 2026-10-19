@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Andahuaylas', distrito: 'Andarapa', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC"                ', inicio: '07/10/2026', fin: '23/10/2026', volAcum: 1750.0, kmAcum: 1.25, poblacion: 500 },
+    { provincia: 'Andahuaylas', distrito: 'Andarapa', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC"                ', inicio: '07/10/2026', fin: '23/10/2026', volAcum: 2100.0, kmAcum: 1.5, poblacion: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
