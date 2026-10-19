@@ -19,6 +19,7 @@ export default {
     { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN     ', inicio: '04/09/2026', fin: '19/10/2026', volAcum: 19385.0, kmAcum: 8.21, poblacion: 595 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN"-00                       ', inicio: '12/10/2026', fin: '25/10/2026', volAcum: 2870.0, kmAcum: 0.71, poblacion: 2495 },
     { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 3050.0, kmAcum: 9.53, poblacion: 70 },
+    { provincia: 'Jauja', distrito: 'Julcan', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00                 ', inicio: '14/10/2026', fin: '27/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 480 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -28,16 +29,14 @@ export default {
     { provincia: 'Huancayo', distrito: 'Pucara', cantidad: 1, metaVol: 16702.3, metaKm: 3.16, poblacion: 770 },
     { provincia: 'Huancayo', distrito: 'Quichuay', cantidad: 1, metaVol: 13601.81, metaKm: 1.99, poblacion: 300 },
     { provincia: 'Jauja', distrito: 'Jauja', cantidad: 1, metaVol: 5820.02, metaKm: 1.0, poblacion: 5160 },
-    { provincia: 'Jauja', distrito: 'Julcan', cantidad: 1, metaVol: 8400.0, metaKm: 0.54, poblacion: 480 },
     { provincia: 'Jauja', distrito: 'Masma', cantidad: 2, metaVol: 14000.0, metaKm: 3.0, poblacion: 1200 },
     { provincia: 'Satipo', distrito: 'Rio Tambo', cantidad: 1, metaVol: 2840.13, metaKm: 0.93, poblacion: 1330 },
     { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
   ],
-  programadasTotal: { cantidad: 15, metaVol: 129051.5, metaKm: 17.63, poblacion: 22420 },
+  programadasTotal: { cantidad: 14, metaVol: 120651.5, metaKm: 17.09, poblacion: 21940 },
 
   programadasDetalle: [
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '020-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO REITHER,  DE LA  PROG. 0+000 A LA PROG. 1+000 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                    ', fechaInicio: '07/10/2026', fechaFin: '20/10/2026', metaVol: 8750.0, metaKm: 1.09, poblacion: 900 },
-    { provincia: 'Jauja', distrito: 'Julcan', sector: 'Río Yacus', ficha: '021-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00                ', fechaInicio: '10/10/2026', fechaFin: '23/10/2026', metaVol: 8400.0, metaKm: 0.54, poblacion: 480 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Toro', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORODESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE\nCHANCHAMAYO, REGION JUNIN', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500 },
     { provincia: 'Satipo', distrito: 'Rio Tambo', sector: 'C.N Yoyato', ficha: '069-2026-LD-P-JUN', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES DE LA QUEBRADA YOYATO EN LAS PROGRESIVA 0+000 AL 0+931.92 EN AMBAS MARGENES DE LA COMUNIDAD NATIVA YOYATO, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN  ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 2840.13, metaKm: 0.93, poblacion: 1330 },
     { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                      ', fechaInicio: '18/10/2026', fechaFin: '03/11/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
