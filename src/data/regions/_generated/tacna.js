@@ -28,19 +28,18 @@ export default {
   programadas: [
     { provincia: 'Tacna', distrito: 'Calana', cantidad: 1, metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 3, metaVol: 25975.0, metaKm: 0.85, poblacion: 13389 },
-    { provincia: 'Tacna', distrito: 'Sama', cantidad: 2, metaVol: 7940.0, metaKm: 6.4, poblacion: 550 },
+    { provincia: 'Tacna', distrito: 'Sama', cantidad: 1, metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 46235.0, metaKm: 7.85, poblacion: 24939 },
+  programadasTotal: { cantidad: 6, metaVol: 41235.0, metaKm: 7.45, poblacion: 24689 },
 
   programadasDetalle: [
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Aguas Abajo De Bocatoma Challata', ficha: '051-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '28/10/2026', fechaFin: '11/11/2026', metaVol: 6800.0, metaKm: 0.25, poblacion: 2389 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Chuschuco Ii Etapa', ficha: '033-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                ', fechaInicio: '02/11/2026', fechaFin: '21/11/2026', metaVol: 11175.0, metaKm: 0.3, poblacion: 10000 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                     ', fechaInicio: '16/11/2026', fechaFin: '25/11/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '22/11/2026', fechaFin: '11/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000 },
-    { provincia: 'Tacna', distrito: 'Sama', sector: 'Junta Vecinal Buena Vista - I Etapa', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE ACCESO PARA LA DISTRIBUCION DE AGUA PARA CONSUMO SECTOR JUNTA VECINAL BUENA VISTA I ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA              ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
     { provincia: 'Tacna', distrito: 'Calana', sector: 'Recodo', ficha: '007-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR RECODO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00         ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 8000.0, metaKm: 0.4, poblacion: 10000 },
-    { provincia: 'Tacna', distrito: 'Sama', sector: 'Bocatoma Catambu Y La Banda', ficha: '013-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMTACION EN EL CAUCE DEL RIO SAMA, SECTOR BOCATOMA CATAMBU Y LA BANDA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA-00                        ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 5000.0, metaKm: 0.4, poblacion: 250 },
+    { provincia: 'Tacna', distrito: 'Sama', sector: 'Junta Vecinal Buena Vista - I Etapa', ficha: '045-2026-MTV-U-TAC', descripcion: ' MEJORAMIENTO DE LA TRANSTIBALIDAD DE LAS VIAS DE ACCESO PARA LA DISTRIBUCION DE AGUA PARA CONSUMO SECTOR JUNTA VECINAL BUENA VISTA I ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA. REGION DE TECNA              ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 2940.0, metaKm: 6.0, poblacion: 300 },
   ],
 
   conveniosCount: 2,
