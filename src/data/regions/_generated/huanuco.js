@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Ambo', distrito: 'Ambo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN, COMFORMACION DE DIQUE, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175, MARGEN IZQUIERA, SECTOR HUARACALLA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO    ', inicio: '13/10/2026', fin: '24/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 80 },
+    { provincia: 'Ambo', distrito: 'Ambo', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN, COMFORMACION DE DIQUE, DEL RIO HUALLAGA, DE LA PROG. 0+000 A LA PROG. 0+175, MARGEN IZQUIERA, SECTOR HUARACALLA, EN LA ZONA URBANA DEL DISTRITO DE AMBO, PROVINCIA AMBO, REGIÓN HUÁNUCO    ', inicio: '13/10/2026', fin: '24/10/2026', volAcum: 294.0, kmAcum: 0.01, poblacion: 80 },
     { provincia: 'Huanuco', distrito: 'Huanuco', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00              ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 380 },
     { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM  00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO   ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500 },
   ],
