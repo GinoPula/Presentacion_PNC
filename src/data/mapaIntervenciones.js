@@ -2273,7 +2273,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Inclan",
     "sector": "Inclan Y Anexos Iii Etapa",
-    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA    ",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS III ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA     ",
     "ficha": "043-2026-AA-U-TAC",
     "fechaInicio": "18/08/2026",
     "fechaFin": "16/10/2026",
@@ -2381,7 +2381,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Tacna",
     "sector": "Aguas Abajo De Balneario Calientes",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA      ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA       ",
     "ficha": "052-2026-LD-P-TAC",
     "fechaInicio": "19/10/2026",
     "fechaFin": "02/11/2026",
@@ -13000,8 +13000,8 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "30/10/2026",
     "poblacion": 500,
-    "volumen": 295,
-    "km": 0.03,
+    "volumen": 715,
+    "km": 0.08,
     "enlace": null
   }
 ],

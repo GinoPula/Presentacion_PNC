@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "19/10/2026",
-    "horaCorte": "19:40",
+    "horaCorte": "20:10",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -859,25 +859,6 @@
     },
     {
       "n": 43,
-      "idIntervencion": "10594",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "20/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)",
-        "VOLQUETE ( EGN-520)"
-      ]
-    },
-    {
-      "n": 44,
       "idIntervencion": "10366",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -896,6 +877,25 @@
         "EXCAVADORA HIDRAULICA ( TJT10116)",
         "VOLQUETE ( EGV-840)",
         "VOLQUETE ( EGV-825)"
+      ]
+    },
+    {
+      "n": 44,
+      "idIntervencion": "10594",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "20/10/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-520)"
       ]
     },
     {
@@ -1009,6 +1009,24 @@
     },
     {
       "n": 51,
+      "idIntervencion": "10545",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Cashupampa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "01/11/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
+      ]
+    },
+    {
+      "n": 52,
       "idIntervencion": "10549",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1024,24 +1042,6 @@
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05113)",
         "EXCAVADORA HIDRAULICA ( TJT10095)"
-      ]
-    },
-    {
-      "n": 52,
-      "idIntervencion": "10545",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Cashupampa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "01/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
