@@ -63,7 +63,7 @@ export default {
   flota: [
     { tipo: 'Camión cisterna de agua', cantidad: 4, marca: 'Mercedes Benz', codigos: ['EGN-065', 'EGN-005', 'EGN-980', 'EGN-983'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-107'], estado: 'operativo' },
-    { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-015'], estado: 'operativo' },
+    { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-015'], estado: 'inoperativo' },
     { tipo: 'Camión grúa', cantidad: 1, marca: 'Iveco', codigos: ['EGQ-993'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 4, marca: 'Caterpillar', codigos: ['JLX00260', 'JLX00261', 'M5K00378', 'M5K00377'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D523227'], estado: 'operativo' },

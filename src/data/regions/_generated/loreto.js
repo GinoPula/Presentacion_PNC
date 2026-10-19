@@ -16,18 +16,16 @@ export default {
   enEjecucion: [
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ', inicio: '25/09/2026', fin: '24/10/2026', volAcum: 340.0, kmAcum: 0.0, poblacion: 835 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.', inicio: '05/10/2026', fin: '03/11/2026', volAcum: 300.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'Iquitos', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.             ', inicio: '19/10/2026', fin: '07/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO  ', inicio: '19/10/2026', fin: '12/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Maynas', distrito: 'Iquitos', cantidad: 1, metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
   ],
-  programadasTotal: { cantidad: 2, metaVol: 6200.0, metaKm: 3.9, poblacion: 7500 },
+  programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
 
   programadasDetalle: [
-    { provincia: 'Maynas', distrito: 'Iquitos', sector: 'Aa. Hh. Los Algarrobos', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CANALES EN EL AA.HH. LOS ALGARROBOS, DISTRITO DE IQUITOS, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', fechaInicio: '26/10/2026', fechaFin: '19/11/2026', metaVol: 3400.0, metaKm: 2.1, poblacion: 3500 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Rumococha', ficha: '024-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN EL AA.HH. RUMOCOCHA, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.         ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 2800.0, metaKm: 1.8, poblacion: 4000 },
   ],
 
   conveniosCount: 1,
