@@ -3,7 +3,7 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 34572.0, km: 1.26, poblacion: 17893, provincias: ['Ica', 'Nasca'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.81, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.82, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 4110.0, km: null, poblacion: 4500, provincias: ['Palpa'] },
   ],
   ejecutadasTotal: { cantidad: 27, m3: 146598.58, m3AguaPotable: 4110.0, km: 6.08, poblacion: 36433 },
@@ -17,8 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 5185.0, kmAcum: 0.04, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 2120.0, kmAcum: 0.34, poblacion: 200 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 5185.0, kmAcum: 0.04, poblacion: 2078 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA    DS180', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 2120.0, kmAcum: 0.34, poblacion: 200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
