@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "19/10/2026",
-    "horaCorte": "13:33",
+    "horaCorte": "14:03",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -296,10 +296,10 @@
       "fechaInicio": "09/09/2026",
       "fechaFin": "16/10/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( M5K00334)",
         "MOTONIVELADORA ( SZL03379)",
         "VOLQUETE ( EGV-810)",
-        "VOLQUETE ( EGM-788)"
+        "VOLQUETE ( EGM-788)",
+        "CARGADOR FRONTAL ( M5K00334)"
       ]
     },
     {
@@ -375,8 +375,8 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "21/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-591)",
-        "VOLQUETE ( EGV-826)"
+        "VOLQUETE ( EGV-826)",
+        "VOLQUETE ( EGN-591)"
       ]
     },
     {
@@ -735,10 +735,10 @@
       "fechaInicio": "19/10/2026",
       "fechaFin": "05/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10111)",
-        "CAMIONETA ( EGL-972)",
         "REMOLCADOR ( EAJ-387)",
-        "PLATAFORMA (CAMA BAJA) ( EAK-067)"
+        "PLATAFORMA (CAMA BAJA) ( EAK-067)",
+        "CAMIONETA ( EGL-972)",
+        "EXCAVADORA HIDRAULICA ( TJT10111)"
       ]
     },
     {
@@ -756,11 +756,11 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "31/10/2026",
       "maquinaria": [
+        "CAMIONETA ( EGL-972)",
         "PLATAFORMA (CAMA BAJA) ( EGW-174)",
         "REMOLCADOR ( EGV-721)",
         "EXCAVADORA HIDRAULICA ( TJT10108)",
-        "TRACTOR SOBRE ORUGA ( AE800570)",
-        "CAMIONETA ( EGL-972)"
+        "TRACTOR SOBRE ORUGA ( AE800570)"
       ]
     },
     {
@@ -882,24 +882,6 @@
     },
     {
       "n": 44,
-      "idIntervencion": "9408",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Punchana",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "24/10/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGQ-789)"
-      ]
-    },
-    {
-      "n": 45,
       "idIntervencion": "9410",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -914,6 +896,24 @@
       "fechaFin": "03/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGO-773)"
+      ]
+    },
+    {
+      "n": 45,
+      "idIntervencion": "9408",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Punchana",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "24/10/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGQ-789)"
       ]
     },
     {
@@ -936,6 +936,24 @@
     },
     {
       "n": 47,
+      "idIntervencion": "10545",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Cashupampa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "01/11/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
+      ]
+    },
+    {
+      "n": 48,
       "idIntervencion": "10549",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -951,24 +969,6 @@
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10095)",
         "TRACTOR SOBRE ORUGA ( J8B05113)"
-      ]
-    },
-    {
-      "n": 48,
-      "idIntervencion": "10545",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Cashupampa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "01/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
@@ -1108,6 +1108,24 @@
     },
     {
       "n": 56,
+      "idIntervencion": "10475",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Inclan",
+      "sector": "Inclan Y Anexos Iv Etapa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°140-2026-PCM",
+      "descripcion": "DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "18/12/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-975)"
+      ]
+    },
+    {
+      "n": 57,
       "idIntervencion": "10605",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1126,7 +1144,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 58,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1144,7 +1162,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 59,
       "idIntervencion": "10608",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1163,7 +1181,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 60,
       "idIntervencion": "10520",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1187,7 +1205,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 61,
       "idIntervencion": "9524",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
