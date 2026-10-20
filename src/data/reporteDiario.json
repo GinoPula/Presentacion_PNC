@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "20/10/2026",
-    "horaCorte": "15:57",
+    "horaCorte": "16:28",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -914,25 +914,6 @@
     },
     {
       "n": 46,
-      "idIntervencion": "10594",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Lurigancho",
-      "sector": "Asecur",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "26/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10875)",
-        "VOLQUETE ( EGN-520)"
-      ]
-    },
-    {
-      "n": 47,
       "idIntervencion": "10366",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -951,6 +932,25 @@
         "EXCAVADORA HIDRAULICA ( TJT10116)",
         "CARGADOR FRONTAL ( JLX00207)",
         "TRACTOR SOBRE ORUGA ( 82541)"
+      ]
+    },
+    {
+      "n": 47,
+      "idIntervencion": "10594",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "26/10/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-520)"
       ]
     },
     {
@@ -991,24 +991,6 @@
     },
     {
       "n": 50,
-      "idIntervencion": "9410",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Nueva Ciudad De Belen - Varillalito",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "03/11/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGO-773)"
-      ]
-    },
-    {
-      "n": 51,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -1027,7 +1009,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -1042,6 +1024,24 @@
       "fechaFin": "24/10/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGQ-789)"
+      ]
+    },
+    {
+      "n": 52,
+      "idIntervencion": "9410",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Nueva Ciudad De Belen - Varillalito",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "03/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-773)"
       ]
     },
     {
@@ -1064,6 +1064,24 @@
     },
     {
       "n": 54,
+      "idIntervencion": "10545",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Cashupampa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "01/11/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
+      ]
+    },
+    {
+      "n": 55,
       "idIntervencion": "10549",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1079,24 +1097,6 @@
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10095)",
         "TRACTOR SOBRE ORUGA ( J8B05113)"
-      ]
-    },
-    {
-      "n": 55,
-      "idIntervencion": "10545",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Cashupampa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "01/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
