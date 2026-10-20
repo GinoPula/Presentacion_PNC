@@ -9492,7 +9492,7 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 315,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -9510,8 +9510,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 3570,
-    "km": 0.175,
+    "volumen": 4170,
+    "km": 0.195,
     "enlace": null
   },
   {
@@ -9528,8 +9528,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "21/10/2026",
     "poblacion": 600,
-    "volumen": 1440,
-    "km": 0.14,
+    "volumen": 1800,
+    "km": 0.175,
     "enlace": null
   },
   {
@@ -9546,7 +9546,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/10/2026",
     "fechaFin": "12/11/2026",
     "poblacion": 640,
-    "volumen": 105,
+    "volumen": 135,
     "km": 0,
     "enlace": null
   },
@@ -9564,8 +9564,26 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 8000,
-    "volumen": 660,
-    "km": 0.15,
+    "volumen": 990,
+    "km": 0.25,
+    "enlace": null
+  },
+  {
+    "id": 10622,
+    "lat": -16.213245,
+    "lng": -73.152313,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Camana",
+    "distrito": "Mariano Nicolas Valcarcel",
+    "sector": "Varios Anexos",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ",
+    "ficha": "90-2026-AA-U-ARE",
+    "fechaInicio": "20/10/2026",
+    "fechaFin": "18/11/2026",
+    "poblacion": 504,
+    "volumen": 720,
+    "km": 0,
     "enlace": null
   }
 ],
