@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN LOS SECTORES DE JOSÉ LISHNER TUDELA Y ALIPIO ROSALES DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00     ', inicio: '04/10/2026', fin: '18/10/2026', volAcum: 4250.0, kmAcum: 0.38, poblacion: 6005 },
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ', inicio: '10/10/2026', fin: '24/10/2026', volAcum: 1835.0, kmAcum: 0.26, poblacion: 527 },
+    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ', inicio: '10/10/2026', fin: '24/10/2026', volAcum: 2135.0, kmAcum: 0.3, poblacion: 527 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00           ', inicio: '20/10/2026', fin: '29/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1413 },
   ],
 
