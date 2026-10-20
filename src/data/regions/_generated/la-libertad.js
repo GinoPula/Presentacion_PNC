@@ -18,6 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180    ', inicio: '08/10/2026', fin: '06/11/2026', volAcum: 8300.0, kmAcum: 0.18, poblacion: 144 },
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ', inicio: '16/10/2026', fin: '27/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD  ', inicio: '09/11/2026', fin: '23/12/2026', volAcum: 1640.0, kmAcum: 0.04, poblacion: 45024 },
   ],
 
@@ -27,7 +28,6 @@ export default {
     { provincia: 'Ascope', distrito: 'Santiago De Cao', cantidad: 3, metaVol: 950.0, metaKm: 1.75, poblacion: 3888 },
     { provincia: 'Gran Chimu', distrito: 'Cascas', cantidad: 1, metaVol: 8550.0, metaKm: 0.5, poblacion: 121 },
     { provincia: 'Gran Chimu', distrito: 'Marmot', cantidad: 1, metaVol: 9500.0, metaKm: 0.5, poblacion: 204 },
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', cantidad: 1, metaVol: 11415.0, metaKm: 0.6, poblacion: 5000 },
     { provincia: 'Pataz', distrito: 'Pataz', cantidad: 2, metaVol: 7038.0, metaKm: 0.52, poblacion: 120 },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', cantidad: 1, metaVol: 3016.8, metaKm: 3352.0, poblacion: 209 },
     { provincia: 'Sanchez Carrion', distrito: 'Cochorco', cantidad: 1, metaVol: 1214.0, metaKm: 0.23, poblacion: 120 },
@@ -37,10 +37,9 @@ export default {
     { provincia: 'Trujillo', distrito: 'Simbal', cantidad: 1, metaVol: 16140.0, metaKm: 0.75, poblacion: 1200 },
     { provincia: 'Viru', distrito: 'Chao', cantidad: 2, metaVol: 29700.0, metaKm: 1.8, poblacion: 296 },
   ],
-  programadasTotal: { cantidad: 18, metaVol: 126241.8, metaKm: 3361.81, poblacion: 15308 },
+  programadasTotal: { cantidad: 17, metaVol: 114826.8, metaKm: 3361.21, poblacion: 10308 },
 
   programadasDetalle: [
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', sector: 'Puente San Jose', ficha: '083-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', fechaInicio: '16/10/2026', fechaFin: '27/10/2026', metaVol: 11415.0, metaKm: 0.6, poblacion: 5000 },
     { provincia: 'Sanchez Carrion', distrito: 'Chugay', sector: 'La Gringa', ficha: '084-2026-MTV-U-LIB', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR PISHAULI – LA GRINGA, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD', fechaInicio: '19/10/2026', fechaFin: '02/11/2026', metaVol: 3016.8, metaKm: 3352.0, poblacion: 209 },
     { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', sector: 'Los Pajaritos', ficha: '080-2026-LD-E-LIB', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180 ', fechaInicio: '20/10/2026', fechaFin: '27/10/2026', metaVol: 1024.0, metaKm: 0.27, poblacion: 320 },
     { provincia: 'Pataz', distrito: 'Pataz', sector: 'Calquiche', ficha: '077-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE BORDOS CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CALQUICHE, DISTRITO DE PATAZ, PROVINCIA DE PATAZ, DEPARTAMENTO DE LA LIBERTAD DS180  ', fechaInicio: '20/10/2026', fechaFin: '03/11/2026', metaVol: 6048.0, metaKm: 0.42, poblacion: 20 },

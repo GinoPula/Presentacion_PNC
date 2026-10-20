@@ -4802,8 +4802,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "26/10/2026",
     "poblacion": 250,
-    "volumen": 5154.5,
-    "km": 1.586,
+    "volumen": 6100.25,
+    "km": 1.877,
     "enlace": null
   },
   {
@@ -6667,24 +6667,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10347,
-    "lat": -7.64818,
-    "lng": -77.841125,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Sanchez Carrion",
-    "distrito": "Chugay",
-    "sector": "El Convento",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD    ",
-    "ficha": "062-2026-LD-P-LIB",
-    "fechaInicio": "14/07/2026",
-    "fechaFin": "28/07/2026",
-    "poblacion": 144,
-    "volumen": 6480,
-    "km": 0.33,
-    "enlace": null
-  },
-  {
     "id": 9569,
     "lat": -7.798396,
     "lng": -77.912636,
@@ -6700,6 +6682,24 @@ const mapaIntervenciones = {
     "poblacion": 750,
     "volumen": 18000,
     "km": 0.5,
+    "enlace": null
+  },
+  {
+    "id": 10347,
+    "lat": -7.64818,
+    "lng": -77.841125,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Chugay",
+    "sector": "El Convento",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE ENROCADO CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RÍO CHUSGON, CASERIO EL CONVENTO, DISTRITO CHUGAY, PROVINCIA SÁNCHEZ CARRIÓN, DEPARTAMENTO DE LA LIBERTAD    ",
+    "ficha": "062-2026-LD-P-LIB",
+    "fechaInicio": "14/07/2026",
+    "fechaFin": "28/07/2026",
+    "poblacion": 144,
+    "volumen": 6480,
+    "km": 0.33,
     "enlace": null
   },
   {
@@ -6898,6 +6898,24 @@ const mapaIntervenciones = {
     "poblacion": 144,
     "volumen": 8300,
     "km": 0.18,
+    "enlace": null
+  },
+  {
+    "id": 10615,
+    "lat": -7.492441,
+    "lng": -79.43415,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Pacasmayo",
+    "distrito": "San Pedro De Lloc",
+    "sector": "Puente San Jose",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD ",
+    "ficha": "083-2026-LD-P-LIB",
+    "fechaInicio": "16/10/2026",
+    "fechaFin": "27/10/2026",
+    "poblacion": 5000,
+    "volumen": 11415,
+    "km": 0.6,
     "enlace": null
   },
   {
