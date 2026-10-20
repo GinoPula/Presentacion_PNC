@@ -515,24 +515,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1gGyVfuKtB5pCngInAqqnBtSuFh49ERm_/view?usp=drive_link"
   },
   {
-    "id": 10199,
-    "lat": -3.649246,
-    "lng": -80.614783,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Nueva Esperanza",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AMOTAPE (AGUAS ABAJO), EN EL SECTOR NUEVA ESPERANZA DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "054-2026-LD-PI-TUM",
-    "fechaInicio": "29/04/2026",
-    "fechaFin": "06/05/2026",
-    "poblacion": 1546,
-    "volumen": 180,
-    "km": 0.02,
-    "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
-  },
-  {
     "id": 10198,
     "lat": -3.740645,
     "lng": -80.768011,
@@ -549,6 +531,24 @@ const mapaIntervenciones = {
     "volumen": 600,
     "km": 0.03,
     "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
+  },
+  {
+    "id": 10199,
+    "lat": -3.649246,
+    "lng": -80.614783,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Nueva Esperanza",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AMOTAPE (AGUAS ABAJO), EN EL SECTOR NUEVA ESPERANZA DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "054-2026-LD-PI-TUM",
+    "fechaInicio": "29/04/2026",
+    "fechaFin": "06/05/2026",
+    "poblacion": 1546,
+    "volumen": 180,
+    "km": 0.02,
+    "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
   },
   {
     "id": 10210,
@@ -587,24 +587,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1bC_tBw17ivhpc6AsJlMqEL02_KWNWIeD/view?usp=drive_link"
   },
   {
-    "id": 10028,
-    "lat": -3.642346,
-    "lng": -80.580154,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Tumbes",
-    "distrito": "La Cruz",
-    "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA COLOMA TRAMO II, EN EL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  -00    ",
-    "ficha": "036-2026-LD-PI-TUM",
-    "fechaInicio": "21/05/2026",
-    "fechaFin": "11/06/2026",
-    "poblacion": 1024,
-    "volumen": 7840,
-    "km": 1.4,
-    "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
-  },
-  {
     "id": 10241,
     "lat": -3.60504,
     "lng": -80.480279,
@@ -621,6 +603,24 @@ const mapaIntervenciones = {
     "volumen": 555,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10028,
+    "lat": -3.642346,
+    "lng": -80.580154,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "La Cruz",
+    "sector": "",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA COLOMA TRAMO II, EN EL DISTRITO DE LA CRUZ, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\"  -00    ",
+    "ficha": "036-2026-LD-PI-TUM",
+    "fechaInicio": "21/05/2026",
+    "fechaFin": "11/06/2026",
+    "poblacion": 1024,
+    "volumen": 7840,
+    "km": 1.4,
+    "enlace": "https://drive.google.com/file/d/1881nLk2T405d0FY6GC5BwiQ-k6wSsPXB/view?usp=drive_link"
   },
   {
     "id": 10169,
@@ -944,6 +944,24 @@ const mapaIntervenciones = {
     "poblacion": 527,
     "volumen": 1835,
     "km": 0.26,
+    "enlace": null
+  },
+  {
+    "id": 10091,
+    "lat": -3.585361,
+    "lng": -80.4163,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "Tumbes",
+    "sector": "",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00           ",
+    "ficha": "042-2026-LD-PI-TUM",
+    "fechaInicio": "20/10/2026",
+    "fechaFin": "29/10/2026",
+    "poblacion": 1413,
+    "volumen": 4760,
+    "km": 0.85,
     "enlace": null
   }
 ],
@@ -2237,7 +2255,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Sama",
     "sector": "Sama Y Anexos Iv Etapa",
-    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA       ",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA         ",
     "ficha": "044-2026-AA-U-TAC",
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
