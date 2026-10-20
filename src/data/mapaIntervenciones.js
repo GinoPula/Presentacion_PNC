@@ -2386,8 +2386,8 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "24/10/2026",
     "poblacion": 250,
-    "volumen": 1100,
-    "km": 0.07,
+    "volumen": 1400,
+    "km": 0.1,
     "enlace": null
   },
   {
@@ -2422,7 +2422,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/12/2026",
     "poblacion": 550,
-    "volumen": 605,
+    "volumen": 15,
     "km": 0,
     "enlace": null
   }
@@ -7281,24 +7281,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9920,
-    "lat": -11.975806,
-    "lng": -76.831707,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Lurigancho",
-    "sector": "Colinas Ñaña",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO PROGRESIVA 0+000 A 0+102, QUEBRADA COLINAS ÑAÑA TRAMO 3, DISTRITO DE LURIGANCHO -PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA           ",
-    "ficha": "047-2026-LDP-LIM",
-    "fechaInicio": "02/03/2026",
-    "fechaFin": "11/03/2026",
-    "poblacion": 230,
-    "volumen": 918,
-    "km": 0.102,
-    "enlace": null
-  },
-  {
     "id": 9734,
     "lat": -12.000766,
     "lng": -76.841786,
@@ -7314,6 +7296,24 @@ const mapaIntervenciones = {
     "poblacion": 432,
     "volumen": 10929,
     "km": 0.29,
+    "enlace": null
+  },
+  {
+    "id": 9920,
+    "lat": -11.975806,
+    "lng": -76.831707,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Lurigancho",
+    "sector": "Colinas Ñaña",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO PROGRESIVA 0+000 A 0+102, QUEBRADA COLINAS ÑAÑA TRAMO 3, DISTRITO DE LURIGANCHO -PROVINCIA DE LIMA - DEPARTAMENTO DE LIMA           ",
+    "ficha": "047-2026-LDP-LIM",
+    "fechaInicio": "02/03/2026",
+    "fechaFin": "11/03/2026",
+    "poblacion": 230,
+    "volumen": 918,
+    "km": 0.102,
     "enlace": null
   },
   {
@@ -7389,24 +7389,6 @@ const mapaIntervenciones = {
     "enlace": "FALTA INFORME MONITOR"
   },
   {
-    "id": 9994,
-    "lat": -11.992413,
-    "lng": -76.779622,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Chaclacayo",
-    "sector": "Huascaran",
-    "descripcion": " “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES EN EL CAUCE DE LA QUEBRADA HUASCARAN TRAMO I , DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”         ",
-    "ficha": "065-2026-LDP-LIM",
-    "fechaInicio": "10/03/2026",
-    "fechaFin": "10/04/2026",
-    "poblacion": 900,
-    "volumen": 4804.92,
-    "km": 0.352,
-    "enlace": null
-  },
-  {
     "id": 9890,
     "lat": -11.734018,
     "lng": -76.971308,
@@ -7440,6 +7422,24 @@ const mapaIntervenciones = {
     "poblacion": 7000,
     "volumen": 9343.75,
     "km": 0.065,
+    "enlace": null
+  },
+  {
+    "id": 9994,
+    "lat": -11.992413,
+    "lng": -76.779622,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Chaclacayo",
+    "sector": "Huascaran",
+    "descripcion": " “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES EN EL CAUCE DE LA QUEBRADA HUASCARAN TRAMO I , DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”         ",
+    "ficha": "065-2026-LDP-LIM",
+    "fechaInicio": "10/03/2026",
+    "fechaFin": "10/04/2026",
+    "poblacion": 900,
+    "volumen": 4804.92,
+    "km": 0.352,
     "enlace": null
   },
   {
@@ -7569,24 +7569,6 @@ const mapaIntervenciones = {
     "enlace": "FALTA INFORME MONITOR"
   },
   {
-    "id": 10063,
-    "lat": -12.772534,
-    "lng": -76.051667,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Yauyos",
-    "distrito": "Allauca",
-    "sector": "Picamaran Ii",
-    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD EN EL ANEXO DE PICAMARAN II, DISTRITO DE ALLAUCA, PROVINCIA DE YAUYOS, DEPARTAMENTO DE LIMA”.               ",
-    "ficha": "071-2026-MTV-U-LIM",
-    "fechaInicio": "30/03/2026",
-    "fechaFin": "07/04/2026",
-    "poblacion": 200,
-    "volumen": 2900,
-    "km": 2.85,
-    "enlace": "FALTA INFORME MONITOR"
-  },
-  {
     "id": 10054,
     "lat": -12.525897,
     "lng": -76.56783,
@@ -7603,6 +7585,24 @@ const mapaIntervenciones = {
     "volumen": 14956.2,
     "km": 0.5,
     "enlace": null
+  },
+  {
+    "id": 10063,
+    "lat": -12.772534,
+    "lng": -76.051667,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Yauyos",
+    "distrito": "Allauca",
+    "sector": "Picamaran Ii",
+    "descripcion": " “MEJORAMIENTO DE LA TRANSITABILIDAD EN EL ANEXO DE PICAMARAN II, DISTRITO DE ALLAUCA, PROVINCIA DE YAUYOS, DEPARTAMENTO DE LIMA”.               ",
+    "ficha": "071-2026-MTV-U-LIM",
+    "fechaInicio": "30/03/2026",
+    "fechaFin": "07/04/2026",
+    "poblacion": 200,
+    "volumen": 2900,
+    "km": 2.85,
+    "enlace": "FALTA INFORME MONITOR"
   },
   {
     "id": 10076,
@@ -7695,24 +7695,6 @@ const mapaIntervenciones = {
     "enlace": "FALTA INFORME MONITOR"
   },
   {
-    "id": 10181,
-    "lat": -11.990545,
-    "lng": -76.778948,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Chaclacayo",
-    "sector": "Huascaran",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA HUASCARÁN, TRAMO III, DISTRITO DE CHACLACAYO, DEPARTAMENTO DE LIMA, PROVINCIA DE LIMA”.    ",
-    "ficha": "093-2026-LDP-LIM",
-    "fechaInicio": "13/05/2026",
-    "fechaFin": "25/05/2026",
-    "poblacion": 900,
-    "volumen": 7700,
-    "km": 0.55,
-    "enlace": null
-  },
-  {
     "id": 10114,
     "lat": -11.665801,
     "lng": -76.78935,
@@ -7746,6 +7728,24 @@ const mapaIntervenciones = {
     "poblacion": 7000,
     "volumen": 11262.93,
     "km": 0.035,
+    "enlace": null
+  },
+  {
+    "id": 10181,
+    "lat": -11.990545,
+    "lng": -76.778948,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Chaclacayo",
+    "sector": "Huascaran",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUES EN AMBAS MARGENES DEL CAUCE DE LA QUEBRADA HUASCARÁN, TRAMO III, DISTRITO DE CHACLACAYO, DEPARTAMENTO DE LIMA, PROVINCIA DE LIMA”.    ",
+    "ficha": "093-2026-LDP-LIM",
+    "fechaInicio": "13/05/2026",
+    "fechaFin": "25/05/2026",
+    "poblacion": 900,
+    "volumen": 7700,
+    "km": 0.55,
     "enlace": null
   },
   {
@@ -8019,24 +8019,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10123,
-    "lat": -12.082204,
-    "lng": -76.73566,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Cieneguilla",
-    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
-    "ficha": "091-2026-LDP-LIM",
-    "fechaInicio": "20/07/2026",
-    "fechaFin": "14/08/2026",
-    "poblacion": 7000,
-    "volumen": 11960,
-    "km": 0.092,
-    "enlace": null
-  },
-  {
     "id": 10119,
     "lat": -11.950189,
     "lng": -76.748039,
@@ -8052,6 +8034,24 @@ const mapaIntervenciones = {
     "poblacion": 250,
     "volumen": 6701,
     "km": 0.149,
+    "enlace": null
+  },
+  {
+    "id": 10123,
+    "lat": -12.082204,
+    "lng": -76.73566,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Cieneguilla",
+    "sector": "Cuatro De La Asociación De Vivienda Residencial Río Seco",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA RÍO SECO – SECTOR CUATRO DE LA ASOCIACIÓN DE VIVIENDA RESIDENCIAL RÍO SECO TRAMO VI, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA - DEPARTAMENTO LIMA”.                 ",
+    "ficha": "091-2026-LDP-LIM",
+    "fechaInicio": "20/07/2026",
+    "fechaFin": "14/08/2026",
+    "poblacion": 7000,
+    "volumen": 11960,
+    "km": 0.092,
     "enlace": null
   },
   {
@@ -8217,24 +8217,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10439,
-    "lat": -11.920428,
-    "lng": -77.075203,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Los Olivos",
-    "sector": "Puente Bethania",
-    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\"       ",
-    "ficha": "121-2026-LD-LIM",
-    "fechaInicio": "03/09/2026",
-    "fechaFin": "13/09/2026",
-    "poblacion": 8788,
-    "volumen": 4272,
-    "km": 0.331,
-    "enlace": null
-  },
-  {
     "id": 10470,
     "lat": -12.143081,
     "lng": -76.818925,
@@ -8250,6 +8232,24 @@ const mapaIntervenciones = {
     "poblacion": 1500,
     "volumen": 16456,
     "km": 0.561,
+    "enlace": null
+  },
+  {
+    "id": 10439,
+    "lat": -11.920428,
+    "lng": -77.075203,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Los Olivos",
+    "sector": "Puente Bethania",
+    "descripcion": " “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÌO CHILLÒN, PROGRESIVA 0+340 AL 0+671 KM, SECTOR PUENTE BETHANIA, DISTRITO DE LOS OLIVOS, PROVINCIA Y DEPARTAMENTO LIMA\"       ",
+    "ficha": "121-2026-LD-LIM",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "13/09/2026",
+    "poblacion": 8788,
+    "volumen": 4272,
+    "km": 0.331,
     "enlace": null
   },
   {
@@ -8325,6 +8325,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10201,
+    "lat": -11.864024,
+    "lng": -76.945927,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Huarochiri",
+    "distrito": "San Antonio",
+    "sector": "Huertos Del Valle Sagrado",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUERTOS DEL VALLE, SECTOR LOS HUERTOS – VALLE SAGRADO - DISTRITO DE SAN ANTONIO, PROVINCIA HUAROCHIRI – DEPARTAMENTO LIMA”         ",
+    "ficha": "096-2026-LDP-LIM",
+    "fechaInicio": "17/09/2026",
+    "fechaFin": "28/09/2026",
+    "poblacion": 2143,
+    "volumen": 0,
+    "km": 0,
+    "enlace": null
+  },
+  {
     "id": 10372,
     "lat": -11.926908,
     "lng": -77.077159,
@@ -8340,6 +8358,24 @@ const mapaIntervenciones = {
     "poblacion": 5386,
     "volumen": 4104,
     "km": 0.36,
+    "enlace": null
+  },
+  {
+    "id": 10478,
+    "lat": -12.587543,
+    "lng": -75.945314,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Yauyos",
+    "distrito": "Yauyos",
+    "sector": "Sector Critico N° 01-Puente Auco",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+000 HASTA LA PROGRESIVA 0+160) KM, EN EL SECTOR CRÍTICO N°01: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA            ",
+    "ficha": "124-2026-LDP-LIM",
+    "fechaInicio": "21/09/2026",
+    "fechaFin": "05/10/2026",
+    "poblacion": 98,
+    "volumen": 4579.5,
+    "km": 0.071,
     "enlace": null
   },
   {
@@ -8433,24 +8469,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10581,
-    "lat": -11.944755,
-    "lng": -77.092183,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "San Martin De Porres",
-    "sector": "Puente El Sol",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE EL SOL, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.     ",
-    "ficha": "137-2026-LDP-LIM",
-    "fechaInicio": "07/10/2026",
-    "fechaFin": "17/10/2026",
-    "poblacion": 4223,
-    "volumen": 3600,
-    "km": 0.2,
-    "enlace": null
-  },
-  {
     "id": 10594,
     "lat": -11.957143,
     "lng": -76.796489,
@@ -8466,6 +8484,24 @@ const mapaIntervenciones = {
     "poblacion": 1000,
     "volumen": 2970.4,
     "km": 0.094,
+    "enlace": null
+  },
+  {
+    "id": 10581,
+    "lat": -11.944755,
+    "lng": -77.092183,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "San Martin De Porres",
+    "sector": "Puente El Sol",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE EL SOL, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.     ",
+    "ficha": "137-2026-LDP-LIM",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "17/10/2026",
+    "poblacion": 4223,
+    "volumen": 3600,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -8520,6 +8556,24 @@ const mapaIntervenciones = {
     "poblacion": 1500,
     "volumen": 6272,
     "km": 0.392,
+    "enlace": null
+  },
+  {
+    "id": 10610,
+    "lat": -11.94783,
+    "lng": -77.094299,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "San Martin De Porres",
+    "sector": "Puente Lomas De Chillon - Sector 01",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE LOMAS DE CHILLÓN, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ",
+    "ficha": "142-2026-LDP-LIM",
+    "fechaInicio": "20/10/2026",
+    "fechaFin": "01/11/2026",
+    "poblacion": 2543,
+    "volumen": 9600,
+    "km": 0.2,
     "enlace": null
   }
 ],
@@ -10542,8 +10596,8 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 45,
-    "volumen": 5525,
-    "km": 0.425,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
