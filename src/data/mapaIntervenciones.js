@@ -5627,12 +5627,12 @@ const mapaIntervenciones = {
     "provincia": "Chiclayo",
     "distrito": "Patapo",
     "sector": "La Cria",
-    "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  DS180     ",
+    "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  DS180      ",
     "ficha": "061-2026 -LD-E-LAM",
     "fechaInicio": "19/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 2886,
-    "volumen": 10100,
+    "volumen": 10042.7,
     "km": 0.29,
     "enlace": null
   }
@@ -14210,7 +14210,7 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "24/10/2026",
     "poblacion": 835,
-    "volumen": 340,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -14228,7 +14228,7 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 1000,
-    "volumen": 300,
+    "volumen": 330,
     "km": 0,
     "enlace": null
   },
