@@ -29,14 +29,16 @@ export default {
     { provincia: 'Huanuco', distrito: 'Churubamba', cantidad: 1, metaVol: 12000.0, metaKm: 1.5, poblacion: 350 },
     { provincia: 'Huanuco', distrito: 'Huanuco', cantidad: 2, metaVol: 14500.0, metaKm: 1.8, poblacion: 1620 },
     { provincia: 'Huanuco', distrito: 'Pillco Marca', cantidad: 3, metaVol: 8857.0, metaKm: 1.33, poblacion: 950 },
+    { provincia: 'Huanuco', distrito: 'Santa Maria Del Valle', cantidad: 1, metaVol: 2645.0, metaKm: 0.2, poblacion: 150 },
     { provincia: 'Leoncio Prado', distrito: 'Jose Crespo Y Castillo', cantidad: 2, metaVol: 8000.0, metaKm: 1.1, poblacion: 1050 },
     { provincia: 'Leoncio Prado', distrito: 'Luyando', cantidad: 1, metaVol: 5070.0, metaKm: 0.52, poblacion: 100 },
     { provincia: 'Leoncio Prado', distrito: 'Mariano Damaso Beraun', cantidad: 1, metaVol: 6608.65, metaKm: 0.68, poblacion: 480 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', cantidad: 1, metaVol: 9000.0, metaKm: 0.8, poblacion: 350 },
   ],
-  programadasTotal: { cantidad: 16, metaVol: 137484.76, metaKm: 12.05, poblacion: 8640 },
+  programadasTotal: { cantidad: 17, metaVol: 140129.76, metaKm: 12.25, poblacion: 8790 },
 
   programadasDetalle: [
+    { provincia: 'Huanuco', distrito: 'Santa Maria Del Valle', sector: 'Centro Poblado Taruca', ficha: 'N° 027-2026-LD-E-HCO.', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TARUCA, DE LA PROG. 0+000 A LA PROG. 0+200, EN LA ZONA URBANA DEL DISTRITO DE SANTA MARIA DEL VALLE, PROVINCIA HUÁNUCO, REGIÓN HUÁNUCO"                 ', fechaInicio: '23/06/2026', fechaFin: '04/07/2026', metaVol: 2645.0, metaKm: 0.2, poblacion: 150 },
     { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Río Huallaga', ficha: 'N° 017-2026-LD-P-HCO.', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO"-00       ', fechaInicio: '10/10/2026', fechaFin: '24/10/2026', metaVol: 6500.0, metaKm: 0.5, poblacion: 750 },
     { provincia: 'Huanuco', distrito: 'Amarilis', sector: 'Río Huallaga', ficha: 'N° 005-2026-LD-P-HCO.', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. HUAYOPAMPA, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+750, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO"-00          ', fechaInicio: '16/10/2026', fechaFin: '14/11/2026', metaVol: 10349.11, metaKm: 0.74, poblacion: 600 },
     { provincia: 'Huanuco', distrito: 'Churubamba', sector: 'Quebrada Chinobamba', ficha: 'N° 015-2026-LD-P-HCO.', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA CHINOBAMBA, DE LA  PROG. 0+000 A LA PROG. 1+500, MARGEN DERECHA, DEL DISTRITO DE CHURUBAMBA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO”-00       ', fechaInicio: '18/10/2026', fechaFin: '01/11/2026', metaVol: 12000.0, metaKm: 1.5, poblacion: 350 },
