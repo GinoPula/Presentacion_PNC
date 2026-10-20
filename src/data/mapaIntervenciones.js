@@ -11755,24 +11755,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10477,
-    "lat": -5.274787,
-    "lng": -78.892452,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "Chirinos",
-    "sector": "Caserio La Union – Sector El Filo",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”    ",
-    "ficha": "N°067-2026-MTVU-AMZ",
-    "fechaInicio": "02/09/2026",
-    "fechaFin": "25/09/2026",
-    "poblacion": 170,
-    "volumen": 3380,
-    "km": 2.11,
-    "enlace": null
-  },
-  {
     "id": 10471,
     "lat": -7.224478,
     "lng": -78.905478,
@@ -11788,6 +11770,24 @@ const mapaIntervenciones = {
     "poblacion": 500,
     "volumen": 2907.2,
     "km": 23.2,
+    "enlace": null
+  },
+  {
+    "id": 10477,
+    "lat": -5.274787,
+    "lng": -78.892452,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Chirinos",
+    "sector": "Caserio La Union – Sector El Filo",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA UNION – SECTOR EL FILO, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”    ",
+    "ficha": "N°067-2026-MTVU-AMZ",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "25/09/2026",
+    "poblacion": 170,
+    "volumen": 3380,
+    "km": 2.11,
     "enlace": null
   },
   {
@@ -11968,6 +11968,24 @@ const mapaIntervenciones = {
     "poblacion": null,
     "volumen": 320,
     "km": 0.05,
+    "enlace": null
+  },
+  {
+    "id": 10633,
+    "lat": -5.691199,
+    "lng": -78.774925,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Jaen",
+    "distrito": "Jaen",
+    "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
+    "descripcion": " “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
+    "ficha": "N°075-2026-AAU-AMZ",
+    "fechaInicio": "12/10/2026",
+    "fechaFin": "10/11/2026",
+    "poblacion": 5000,
+    "volumen": 660,
+    "km": 0,
     "enlace": null
   },
   {
