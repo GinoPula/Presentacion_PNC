@@ -16,6 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
+    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO  ', inicio: '20/10/2026', fin: '03/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 45 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -25,13 +26,12 @@ export default {
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 2, metaVol: 9650.0, metaKm: 0.72, poblacion: 70 },
-    { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 3, metaVol: 23369.0, metaKm: 2.37, poblacion: 434 },
+    { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 2, metaVol: 17844.0, metaKm: 1.94, poblacion: 389 },
     { provincia: 'La Mar', distrito: 'Santa Rosa', cantidad: 2, metaVol: 6090.0, metaKm: 0.41, poblacion: 450 },
   ],
-  programadasTotal: { cantidad: 11, metaVol: 45685.0, metaKm: 4.31, poblacion: 2132 },
+  programadasTotal: { cantidad: 10, metaVol: 40160.0, metaKm: 3.89, poblacion: 2087 },
 
   programadasDetalle: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', sector: 'San Lucas', ficha: '49-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO ', fechaInicio: '20/10/2026', fechaFin: '03/11/2026', metaVol: 5525.0, metaKm: 0.42, poblacion: 45 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Anyana', ficha: '43-2026- LD-PI-AYAC ', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO     ', fechaInicio: '28/10/2026', fechaFin: '11/11/2026', metaVol: 5250.0, metaKm: 0.32, poblacion: 40 },
     { provincia: 'Huamanga', distrito: 'Quinua', sector: 'Chacco', ficha: '07-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACION Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RIO YUCAES DEL SECTOR CHACCO DEL DISTRITO DE QUINUA, PROVINCIA DE HUAMANGA, REGION AYACUCHO-00                   ', fechaInicio: '12/11/2026', fechaFin: '26/11/2026', metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Astobamba', ficha: '47-2026-LD-PI-AYAC', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.  ', fechaInicio: '16/11/2026', fechaFin: '25/11/2026', metaVol: 4400.0, metaKm: 0.4, poblacion: 30 },
