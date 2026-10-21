@@ -11863,24 +11863,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10464,
-    "lat": -5.381971,
-    "lng": -78.969797,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "La Coipa",
-    "sector": "Flor De Mayo",
-    "descripcion": " MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL CENTRO POBLADO LA LIBERTAD Y FLOR DE MAYO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ",
-    "ficha": "N°065-2026-MTVU-AMZ",
-    "fechaInicio": "28/08/2026",
-    "fechaFin": "21/10/2026",
-    "poblacion": 500,
-    "volumen": 1305,
-    "km": 1.305,
-    "enlace": null
-  },
-  {
     "id": 10471,
     "lat": -7.224478,
     "lng": -78.905478,
