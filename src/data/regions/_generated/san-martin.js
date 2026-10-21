@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN       ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 345.0, kmAcum: 0.0, poblacion: 1125 },
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN          ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 210.0, kmAcum: 0.02, poblacion: 400 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN           ', inicio: '13/10/2026', fin: '28/10/2026', volAcum: 210.0, kmAcum: 0.02, poblacion: 400 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
