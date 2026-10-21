@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 40585.27, km: 1.17, poblacion: 19345, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 68, m3: 526559.27, km: 20.65, poblacion: 5094866, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Prevención', cantidad: 68, m3: 526589.27, km: 20.65, poblacion: 5094866, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 84, m3: 587091.64, m3AguaPotable: 0.0, km: 38.19, poblacion: 5133045 },
+  ejecutadasTotal: { cantidad: 84, m3: 587121.64, m3AguaPotable: 0.0, km: 38.19, poblacion: 5133045 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
