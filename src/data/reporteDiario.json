@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "21/10/2026",
-    "horaCorte": "18:23",
+    "horaCorte": "18:53",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -963,8 +963,8 @@
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
       "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "08/11/2026",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "10/11/2026",
       "maquinaria": [
         "RETROEXCAVADORA ( 284005)"
       ]
@@ -999,8 +999,8 @@
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
       "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "13/11/2026",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "15/11/2026",
       "maquinaria": [
         "CARGADOR FRONTAL ( JLX00249)",
         "VOLQUETE ( EGP-009)"
@@ -1019,7 +1019,7 @@
       "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
       "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
       "fechaInicio": "25/09/2026",
-      "fechaFin": "24/10/2026",
+      "fechaFin": "23/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGQ-789)"
       ]
