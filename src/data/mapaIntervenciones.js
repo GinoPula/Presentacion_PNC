@@ -2255,14 +2255,14 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Sama",
     "sector": "Sama Y Anexos Iv Etapa",
-    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA         ",
+    "descripcion": " DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS IV ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ",
     "ficha": "044-2026-AA-U-TAC",
     "fechaInicio": "10/08/2026",
     "fechaFin": "08/10/2026",
     "poblacion": 420,
     "volumen": 600.6,
     "km": 0,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1zXy54V_4V-ZtfJsvTHP55zVRkD1rKv1_/view?usp=drive_link"
   },
   {
     "id": 10166,
@@ -4857,7 +4857,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/10/2026",
     "poblacion": 1661,
     "volumen": 621,
-    "km": 0.05,
+    "km": 0.085,
     "enlace": null
   }
 ],
@@ -14758,7 +14758,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 1125,
-    "volumen": 345,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
