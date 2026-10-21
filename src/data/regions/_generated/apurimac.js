@@ -57,11 +57,11 @@ export default {
     { provincia: 'Aymaraes', distrito: 'Tapairihua', sector: 'Mochocco/Rio Antabamba', ficha: 'FTI N° 017-2026-LDP-APU', descripcion: '  “ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN DERECHO DEL RIO ANTABAMBA PROGRESIVA KM 0+000 A KM 0+200 EN EL SECTOR MOCHOCCO, DISTRITO DE TAPAYRIHUA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC"-00        ', fechaInicio: '14/12/2026', fechaFin: '03/01/2027', metaVol: 21840.0, metaKm: 0.2, poblacion: 300 },
   ],
 
-  conveniosCount: 15,
+  conveniosCount: 16,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '4 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '10 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '11 convenios vigentes' },
   ],
 
   flota: [
