@@ -35,7 +35,7 @@ export default {
     { provincia: 'Huarochiri', distrito: 'Huachupampa', cantidad: 1, metaVol: 9675.0, metaKm: 0.43, poblacion: 50 },
     { provincia: 'Huarochiri', distrito: 'Ricardo Palma', cantidad: 1, metaVol: 10736.0, metaKm: 0.49, poblacion: 269 },
     { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', cantidad: 1, metaVol: 25000.0, metaKm: 0.5, poblacion: 2000 },
-    { provincia: 'Lima', distrito: 'Chaclacayo', cantidad: 1, metaVol: 3987.72, metaKm: 0.41, poblacion: 250 },
+    { provincia: 'Lima', distrito: 'Chaclacayo', cantidad: 1, metaVol: 16000.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Lima', distrito: 'Cieneguilla', cantidad: 3, metaVol: 36950.46, metaKm: 1.35, poblacion: 850 },
     { provincia: 'Lima', distrito: 'Comas', cantidad: 3, metaVol: 51500.0, metaKm: 1.28, poblacion: 900 },
     { provincia: 'Lima', distrito: 'Lurigancho', cantidad: 2, metaVol: 32467.65, metaKm: 3.39, poblacion: 2501525 },
@@ -43,12 +43,12 @@ export default {
     { provincia: 'Lima', distrito: 'San Martin De Porres', cantidad: 1, metaVol: 14880.0, metaKm: 0.31, poblacion: 2543 },
     { provincia: 'Yauyos', distrito: 'Yauyos', cantidad: 2, metaVol: 20524.5, metaKm: 0.27, poblacion: 98 },
   ],
-  programadasTotal: { cantidad: 25, metaVol: 306207.92, metaKm: 15.14, poblacion: 2524565 },
+  programadasTotal: { cantidad: 25, metaVol: 318220.2, metaKm: 15.13, poblacion: 2524565 },
 
   programadasDetalle: [
     { provincia: 'Huarochiri', distrito: 'Huachupampa', sector: 'Pongo', ficha: '132-2026-LDE-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA MAQUERHUA, SECTOR PONGO, DISTRITO DE HUACHUPAMPA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA - DS180  ', fechaInicio: '05/10/2026', fechaFin: '20/10/2026', metaVol: 9675.0, metaKm: 0.43, poblacion: 50 },
     { provincia: 'Lima', distrito: 'Lurigancho', sector: 'La Bocatoma De La Ptap Huachipa', ficha: '113-2026-LDP-LIM', descripcion: 'DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA   ', fechaInicio: '18/10/2026', fechaFin: '28/10/2026', metaVol: 17550.0, metaKm: 0.26, poblacion: 2500000 },
-    { provincia: 'Lima', distrito: 'Chaclacayo', sector: 'Los Condores', ficha: '014-2026-LDP-LIM', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA CUENCA DE LA QUEBRADA LOS CONDORES , SECTOR LOS CONDORES  DISTRITO DE CHACLACAYO - LIMA.-00          ', fechaInicio: '23/10/2026', fechaFin: '29/10/2026', metaVol: 3987.72, metaKm: 0.41, poblacion: 250 },
+    { provincia: 'Lima', distrito: 'Chaclacayo', sector: 'Los Condores', ficha: '014-2026-LDP-LIM', descripcion: 'LIMPIEZA Y DESCOLMATACION DE LA CUENCA DE LA QUEBRADA LOS CONDORES , SECTOR LOS CONDORES  DISTRITO DE CHACLACAYO - LIMA.        ', fechaInicio: '23/10/2026', fechaFin: '16/11/2026', metaVol: 16000.0, metaKm: 0.4, poblacion: 250 },
     { provincia: 'Yauyos', distrito: 'Yauyos', sector: 'Sector Critico N° 02-Puente Auco', ficha: '125-2026-LDP-LIM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+160 HASTA LA PROGRESIVA 0+320) KM, EN EL SECTOR CRÍTICO N°02: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA   ', fechaInicio: '29/10/2026', fechaFin: '12/11/2026', metaVol: 10272.5, metaKm: 0.16, poblacion: 98 },
     { provincia: 'Lima', distrito: 'Comas', sector: 'Gallinazos Tramo I', ficha: '094-2026-LDP-LIM', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR GALLINAZOS TRAMO I, DISTRITO DE COMAS, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”    ', fechaInicio: '01/11/2026', fechaFin: '14/11/2026', metaVol: 20000.0, metaKm: 0.48, poblacion: 300 },
     { provincia: 'Huarochiri', distrito: 'Antioquia', sector: 'Cochahuayco', ficha: '008-2026-LDP-LIM', descripcion: 'DESCOLMATACI├ôN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE EN AMBAS MARGENES DEL┬á CAUCE DEL RIO LURIN PROG. 0+000 A LA PROG. 0+655, ZONA CR├ìTICA 03 EN┬á EL SECTOR COCHAHUAYCO EN EL DISTRITO DE ANTIOQUIA ÔÇô HUAROCHIRI - LIMA.-00           ', fechaInicio: '01/11/2026', fechaFin: '10/11/2026', metaVol: 7943.05, metaKm: 0.66, poblacion: 500 },
