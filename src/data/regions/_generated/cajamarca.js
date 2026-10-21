@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 25, m3: 159898.05, km: 11.1, poblacion: 14305, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 48, m3: 209664.51, km: 166.45, poblacion: 57015, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Prevención', cantidad: 25, m3: 159898.05, km: 11.11, poblacion: 14305, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Urgente atención', cantidad: 49, m3: 216389.51, km: 168.6, poblacion: 57262, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 77, m3: 399112.56, m3AguaPotable: 3300.0, km: 179.41, poblacion: 73212 },
+  ejecutadasTotal: { cantidad: 78, m3: 405837.56, m3AguaPotable: 3300.0, km: 181.56, poblacion: 73459 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”  ', inicio: '09/09/2026', fin: '16/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 553 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '22/09/2026', fin: '16/10/2026', volAcum: 7450.0, kmAcum: 5.6, poblacion: 415 },
-    { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”\n\n ', inicio: '29/09/2026', fin: '18/10/2026', volAcum: 3950.0, kmAcum: 1.85, poblacion: 247 },
     { provincia: 'San Ignacio', distrito: 'Namballe', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO DE LA TRANSITABILIDAD DE VIAS EN LAS LOCALIDADES DE CORAZON DE LA NARANJA – MIAMI DEL DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA” ', inicio: '06/10/2026', fin: '02/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 257 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Emergencia', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 45.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA” ', inicio: '15/10/2026', fin: '31/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 928 },

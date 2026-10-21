@@ -9582,7 +9582,7 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 360,
+    "volumen": 390,
     "km": 0,
     "enlace": null
   },
@@ -9600,8 +9600,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 4170,
-    "km": 0.195,
+    "volumen": 4920,
+    "km": 0.23,
     "enlace": null
   },
   {
@@ -9618,8 +9618,8 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "21/10/2026",
     "poblacion": 600,
-    "volumen": 1800,
-    "km": 0.175,
+    "volumen": 2160,
+    "km": 0.21,
     "enlace": null
   },
   {
@@ -9636,7 +9636,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/10/2026",
     "fechaFin": "12/11/2026",
     "poblacion": 640,
-    "volumen": 135,
+    "volumen": 180,
     "km": 0,
     "enlace": null
   },
@@ -9654,8 +9654,8 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 8000,
-    "volumen": 1144.57,
-    "km": 0.14,
+    "volumen": 1734.15,
+    "km": 0.22,
     "enlace": null
   },
   {
@@ -9672,7 +9672,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/11/2026",
     "poblacion": 504,
-    "volumen": 720,
+    "volumen": 15,
     "km": 0,
     "enlace": null
   }
@@ -11992,18 +11992,18 @@ const mapaIntervenciones = {
     "id": 10574,
     "lat": -5.322841,
     "lng": -78.944521,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "San Ignacio",
     "distrito": "Chirinos",
     "sector": "Caserio El Limon Y Sector El Laurel.",
-    "descripcion": " “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”   ",
+    "descripcion": " “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR EL LAUREL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”    ",
     "ficha": "N°072-2026-RLEU-AMZ",
     "fechaInicio": "29/09/2026",
-    "fechaFin": "18/10/2026",
+    "fechaFin": "15/10/2026",
     "poblacion": 247,
-    "volumen": 3950,
-    "km": 1.85,
+    "volumen": 6725,
+    "km": 2.15,
     "enlace": null
   },
   {
@@ -12092,8 +12092,8 @@ const mapaIntervenciones = {
     "fechaInicio": "15/10/2026",
     "fechaFin": "31/10/2026",
     "poblacion": 928,
-    "volumen": 6240,
-    "km": 0.32,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
