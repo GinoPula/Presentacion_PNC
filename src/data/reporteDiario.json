@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "22/10/2026",
-    "horaCorte": "21:17",
+    "horaCorte": "21:48",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -302,6 +302,24 @@
     },
     {
       "n": 15,
+      "idIntervencion": "10612",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cutervo",
+      "distrito": "La Ramada",
+      "sector": "",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°016-2026-MDLR/CM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA”",
+      "fechaInicio": "15/10/2026",
+      "fechaFin": "31/10/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( 85464)"
+      ]
+    },
+    {
+      "n": 16,
       "idIntervencion": "10499",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -319,24 +337,6 @@
         "VOLQUETE ( EGM-788)",
         "VOLQUETE ( EGV-810)",
         "MOTONIVELADORA ( SZL03379)"
-      ]
-    },
-    {
-      "n": 16,
-      "idIntervencion": "10612",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "La Ramada",
-      "sector": "",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°016-2026-MDLR/CM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA”",
-      "fechaInicio": "15/10/2026",
-      "fechaFin": "31/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 85464)"
       ]
     },
     {
@@ -729,7 +729,7 @@
       "sector": "La Cria",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N° 124-2026 - PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE DS180",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE DS180-P",
       "fechaInicio": "19/10/2026",
       "fechaFin": "05/11/2026",
       "maquinaria": [
@@ -930,6 +930,25 @@
     },
     {
       "n": 47,
+      "idIntervencion": "10509",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Habilitacion Urbana Varillalito",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
+      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "15/11/2026",
+      "maquinaria": [
+        "CARGADOR FRONTAL ( JLX00249)",
+        "VOLQUETE ( EGP-009)"
+      ]
+    },
+    {
+      "n": 48,
       "idIntervencion": "9410",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -947,7 +966,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 49,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -962,25 +981,6 @@
       "fechaFin": "23/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGQ-789)"
-      ]
-    },
-    {
-      "n": 49,
-      "idIntervencion": "10509",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Habilitacion Urbana Varillalito",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
-      "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "15/11/2026",
-      "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00249)",
-        "VOLQUETE ( EGP-009)"
       ]
     },
     {
@@ -1012,7 +1012,7 @@
       "sector": "Canchaque",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P",
       "fechaInicio": "07/10/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
@@ -1031,7 +1031,7 @@
       "sector": "Cashupampa",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180-P",
       "fechaInicio": "05/10/2026",
       "fechaFin": "01/11/2026",
       "maquinaria": [
@@ -1258,7 +1258,7 @@
       "sector": "Malval",
       "tipo": "EMERGENCIA",
       "marcoLegal": "D.S. N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES DS180",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES DS180-P",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
       "maquinaria": [
