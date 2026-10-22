@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "22/10/2026",
-    "horaCorte": "04:33",
+    "horaCorte": "05:03",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "fechaInicio": "20/11/1026",
       "fechaFin": "30/11/2010",
-      "diasAtraso": 365213
+      "diasAtraso": 365214
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "D.S. N° 065-2026-PCM",
       "fechaInicio": "23/06/2026",
       "fechaFin": "04/07/2026",
-      "diasAtraso": 120
+      "diasAtraso": 121
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº019-2026",
       "fechaInicio": "02/10/2026",
       "fechaFin": "15/10/2026",
-      "diasAtraso": 19
+      "diasAtraso": 20
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 029-2026-MDU/CM",
       "fechaInicio": "19/09/2026",
       "fechaFin": "03/10/2026",
-      "diasAtraso": 18
+      "diasAtraso": 19
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "08/10/2026",
       "fechaFin": "31/10/2026",
-      "diasAtraso": 13
+      "diasAtraso": 14
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 7,
@@ -137,26 +137,26 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "12/10/2026",
       "fechaFin": "26/10/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 8,
-      "idIntervencion": "9594",
+      "idIntervencion": "9583",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
       "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "San Juan De Bigote",
-      "sector": "Miguel Pampa",
-      "ficha": "FTI N°063-2026-LD-P-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE EN LA QUEBRADA MIGUEL PAMPA, DEL CASERIO MIGUEL PAMPA, DISTRITO DE SAN JUAN DE BIGOTE, PROVINCIA DE MORROPON, DEPARTAMENTо DE PIURA-00",
-      "marcoLegal": "CONVENIO N° 061 - 2025 VIVIENDA/VMVU/PNC",
+      "provincia": "Piura",
+      "distrito": "Tambo Grande",
+      "sector": "Dren Froilan Alama",
+      "ficha": "FTI N° 007-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN FROILAN ALAMA, DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA\" -00",
+      "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 9,
@@ -175,26 +175,26 @@
       "marcoLegal": "CONVENIO Nº019-2026",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 10,
-      "idIntervencion": "9583",
+      "idIntervencion": "9594",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
       "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Tambo Grande",
-      "sector": "Dren Froilan Alama",
-      "ficha": "FTI N° 007-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN FROILAN ALAMA, DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA\" -00",
-      "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
+      "provincia": "Morropon",
+      "distrito": "San Juan De Bigote",
+      "sector": "Miguel Pampa",
+      "ficha": "FTI N°063-2026-LD-P-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE EN LA QUEBRADA MIGUEL PAMPA, DEL CASERIO MIGUEL PAMPA, DISTRITO DE SAN JUAN DE BIGOTE, PROVINCIA DE MORROPON, DEPARTAMENTо DE PIURA-00",
+      "marcoLegal": "CONVENIO N° 061 - 2025 VIVIENDA/VMVU/PNC",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 11,
@@ -213,29 +213,10 @@
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
       "fechaInicio": "15/10/2026",
       "fechaFin": "16/11/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 12,
-      "idIntervencion": "10554",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "ficha": "N°071-2026-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "16/10/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 13,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -251,7 +232,26 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "16/10/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10554",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "C.p. San Francisco",
+      "ficha": "N°071-2026-RLEU-AMZ",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "16/10/2026",
+      "diasAtraso": 6
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "18/10/2026",
       "fechaFin": "01/11/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 15,
@@ -289,29 +289,10 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
       "fechaInicio": "19/10/2026",
       "fechaFin": "27/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 16,
-      "idIntervencion": "10616",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Chugay",
-      "sector": "La Gringa",
-      "ficha": "084-2026-MTV-U-LIB",
-      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR PISHAULI – LA GRINGA, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "02/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 17,
       "idIntervencion": "9657",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -327,29 +308,29 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02-2025-PLIA",
       "fechaInicio": "19/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10616",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Chugay",
+      "sector": "La Gringa",
+      "ficha": "084-2026-MTV-U-LIB",
+      "descripcion": "MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VIA DE ACCESO DENTRO DEL SECTOR PISHAULI – LA GRINGA, DISTRITO DE CHUGAY PROVINCIA SÁNCHEZ CARRIÓN DEPARTAMENTO LA LIBERTAD",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "02/11/2026",
+      "diasAtraso": 3
     },
     {
       "n": 18,
-      "idIntervencion": "9785",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Cajamarca",
-      "sector": "Ba. Nuevo Cajamarca",
-      "ficha": "FTI N° 027-2026-LD-PI-CAJ",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "02/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 19,
       "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -365,10 +346,10 @@
       "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
       "fechaInicio": "19/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -384,26 +365,45 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "19/10/2026",
       "fechaFin": "29/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 20,
+      "idIntervencion": "9785",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajamarca",
+      "distrito": "Cajamarca",
+      "sector": "Ba. Nuevo Cajamarca",
+      "ficha": "FTI N° 027-2026-LD-PI-CAJ",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "02/11/2026",
+      "diasAtraso": 3
     },
     {
       "n": 21,
-      "idIntervencion": "10625",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
+      "idIntervencion": "9854",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "CUSCO",
-      "deptoLabel": "Cusco",
-      "regionId": "cusco",
-      "provincia": "Quispicanchi",
-      "distrito": "Ocongate",
-      "sector": "C. P. Mallma - Qda. Accopampa",
-      "ficha": "031-2026-LD-P-CUS",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RIO JAMPATUNIMAYO, SECTOR C. P. MALLMA - QDA. ACCOPAMPA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+471, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO",
-      "marcoLegal": "CONVENIO Nº019-2026",
-      "fechaInicio": "09/10/2026",
-      "fechaFin": "20/10/2026",
-      "diasAtraso": 1
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Huancane",
+      "distrito": "Huancane",
+      "sector": "Quishuarani Y Machacmarca",
+      "ficha": "FTI N° 040-2026-LDP-PUN",
+      "descripcion": "REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "03/11/2026",
+      "diasAtraso": 2
     },
     {
       "n": 22,
@@ -422,7 +422,7 @@
       "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
       "fechaInicio": "20/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 23,
@@ -441,7 +441,7 @@
       "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "20/10/2026",
       "fechaFin": "30/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 24,
@@ -460,7 +460,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "20/10/2026",
       "fechaFin": "27/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 25,
@@ -479,7 +479,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "20/10/2026",
       "fechaFin": "03/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 26,
@@ -498,7 +498,7 @@
       "marcoLegal": "D.S. N° 0124-2026-PCM",
       "fechaInicio": "20/10/2026",
       "fechaFin": "27/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 27,
@@ -517,7 +517,7 @@
       "marcoLegal": "D.S. 136-2026 -PCM",
       "fechaInicio": "20/10/2026",
       "fechaFin": "03/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 28,
@@ -536,7 +536,7 @@
       "marcoLegal": "D.S. N° 106-2026-PCM",
       "fechaInicio": "04/09/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 29,
@@ -555,7 +555,7 @@
       "marcoLegal": "D.S. N° 037-2020-PCM",
       "fechaInicio": "12/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 30,
@@ -574,25 +574,120 @@
       "marcoLegal": "CONVENIO Nº029-2026",
       "fechaInicio": "28/08/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 31,
-      "idIntervencion": "9854",
+      "idIntervencion": "10625",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CUSCO",
+      "deptoLabel": "Cusco",
+      "regionId": "cusco",
+      "provincia": "Quispicanchi",
+      "distrito": "Ocongate",
+      "sector": "C. P. Mallma - Qda. Accopampa",
+      "ficha": "031-2026-LD-P-CUS",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RIO JAMPATUNIMAYO, SECTOR C. P. MALLMA - QDA. ACCOPAMPA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+471, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO",
+      "marcoLegal": "CONVENIO Nº019-2026",
+      "fechaInicio": "09/10/2026",
+      "fechaFin": "20/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 32,
+      "idIntervencion": "10540",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pataz",
+      "distrito": "Pataz",
+      "sector": "Pueblo Nuevo",
+      "ficha": "078-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA GUADALUPE, SECTOR PUEBLO NUEVO, DISTRITO DE PATAZ, PROVINCIA DE PATAZ, DEPARTAMENTO DE LA LIBERTAD DS180",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "21/10/2026",
+      "fechaFin": "04/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 33,
+      "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Huancane",
-      "distrito": "Huancane",
-      "sector": "Quishuarani Y Machacmarca",
-      "ficha": "FTI N° 040-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "03/11/2026",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Nuevo Chimbote",
+      "sector": "3 De Octubre",
+      "ficha": "110-2026-LDP-ANC-ANIN",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "fechaInicio": "21/10/2026",
+      "fechaFin": "06/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 34,
+      "idIntervencion": "9582",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Tambo Grande",
+      "sector": "Dren Panamericano",
+      "ficha": "FTI Nº 006-2026-LD-PI-PIU",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACION DEL DREN PANAMERICANO DEL DISTRITO DE TAMBOGRANDE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA”-00",
+      "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
+      "fechaInicio": "21/10/2026",
+      "fechaFin": "04/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 35,
+      "idIntervencion": "10487",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Casma",
+      "distrito": "Casma",
+      "sector": "Cuncan",
+      "ficha": "112-2026-LDP-ANC",
+      "descripcion": "ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH",
+      "marcoLegal": "CONVENIO Nº042-2026",
+      "fechaInicio": "21/10/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 36,
+      "idIntervencion": "10515",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Mariano Melgar",
+      "sector": "Calle Olímpica Canal Estadio La Rinconada",
+      "ficha": "79-2026-LDP-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR CALLE OLÍMPICA CANAL ESTADIO LA RINCONADA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
+      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "12/10/2026",
+      "fechaFin": "21/10/2026",
       "diasAtraso": 1
     }
   ]
