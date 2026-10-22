@@ -4622,8 +4622,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "20/10/2026",
     "poblacion": 7456,
-    "volumen": 16905,
-    "km": 1.964,
+    "volumen": 17851,
+    "km": 2.074,
     "enlace": null
   },
   {
@@ -10103,7 +10103,7 @@ const mapaIntervenciones = {
     "provincia": "Andahuaylas",
     "distrito": "Andarapa",
     "sector": "C.P. Huampica/Drenes",
-    "descripcion": " \"LIMPIEZA Y DESCOLAMTACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC\"                  ",
+    "descripcion": " \"LIMPIEZA Y DESCOLMATACION DE DRENES EN CP HUAMPICA, DISTRITO DE ANDARAPA,PROVINCIA DE ANDAHUAYLAS, REGION APURIMAC\"                   ",
     "ficha": "FTI N° 042-2026-LDP-APU",
     "fechaInicio": "07/10/2026",
     "fechaFin": "23/10/2026",
