@@ -1708,18 +1708,18 @@ const mapaIntervenciones = {
     "id": 10524,
     "lat": -14.791428,
     "lng": -70.732445,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Melgar",
     "distrito": "Umachiri",
     "sector": "Centro Paylla Y C.P. De Sora",
-    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ",
+    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO  ",
     "ficha": "FTI N° 079-2026-MTVU-PUN",
     "fechaInicio": "19/09/2026",
     "fechaFin": "03/10/2026",
     "poblacion": 1000,
-    "volumen": 4336.74,
-    "km": 16.93,
+    "volumen": 7156.74,
+    "km": 27.956,
     "enlace": null
   },
   {
@@ -3522,8 +3522,8 @@ const mapaIntervenciones = {
     "fechaInicio": "23/09/2026",
     "fechaFin": "22/10/2026",
     "poblacion": 9200,
-    "volumen": 10750,
-    "km": 1.78,
+    "volumen": 12000,
+    "km": 2,
     "enlace": null
   },
   {
@@ -12672,8 +12672,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/10/2026",
     "fechaFin": "20/10/2026",
     "poblacion": 320,
-    "volumen": 8572.2,
-    "km": 0.32,
+    "volumen": 5300.07,
+    "km": 1190.813,
     "enlace": null
   }
 ],
