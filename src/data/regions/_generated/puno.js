@@ -18,7 +18,8 @@ export default {
 
   enEjecucion: [
     { provincia: 'Melgar', distrito: 'Umachiri', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍAS EN EL SECTOR CENTRO PAYLLA Y C.P. DE SORA DEL DISTRITO DE UMACHIRI, PROVINCIA DE MELGAR, REGIÓN PUNO ', inicio: '19/09/2026', fin: '03/10/2026', volAcum: 4336.74, kmAcum: 16.93, poblacion: 1000 },
-    { provincia: 'Melgar', distrito: 'Llalli', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO   ', inicio: '09/10/2026', fin: '23/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 300 },
+    { provincia: 'Melgar', distrito: 'Llalli', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO   ', inicio: '09/10/2026', fin: '23/10/2026', volAcum: 1200.0, kmAcum: 0.03, poblacion: 300 },
+    { provincia: 'Yunguyo', distrito: 'Yunguyo', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLMATACION DEL RIO CALLACAME, EN LOS CENTROS POBLADOS DE VILLAMAR AYCHUYO Y PAJANA SAN AGUSTIN DISTRITO DE YUNGUYO, PROVINCIA DE YUNGUYO, REGION PUNO" ', inicio: '22/10/2026', fin: '31/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],

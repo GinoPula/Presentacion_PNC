@@ -1736,8 +1736,26 @@ const mapaIntervenciones = {
     "fechaInicio": "09/10/2026",
     "fechaFin": "23/10/2026",
     "poblacion": 300,
-    "volumen": 22500,
-    "km": 0.63,
+    "volumen": 1200,
+    "km": 0.032,
+    "enlace": null
+  },
+  {
+    "id": 10634,
+    "lat": -16.253621,
+    "lng": -69.03401,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Yunguyo",
+    "distrito": "Yunguyo",
+    "sector": "",
+    "descripcion": " \"LIMPIEZA Y DESCOLMATACION DEL RIO CALLACAME, EN LOS CENTROS POBLADOS DE VILLAMAR AYCHUYO Y PAJANA SAN AGUSTIN DISTRITO DE YUNGUYO, PROVINCIA DE YUNGUYO, REGION PUNO\" ",
+    "ficha": "FTI Nº 080-2026-LDP-PUN",
+    "fechaInicio": "22/10/2026",
+    "fechaFin": "31/10/2026",
+    "poblacion": null,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
