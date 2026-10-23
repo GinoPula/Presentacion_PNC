@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333636.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Canchis', distrito: 'Marangani', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO         ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 1155.0, kmAcum: 0.04, poblacion: 120 },
+    { provincia: 'Canchis', distrito: 'Marangani', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO         ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 7395.0, kmAcum: 0.23, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO   ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 175 },
     { provincia: 'Quispicanchi', distrito: 'Ocongate', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO JAMPATUNIMAYO, SECTOR C. P. MALLMA - QDA. ACCOPAMPA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+471, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO', inicio: '09/10/2026', fin: '20/10/2026', volAcum: 7415.07, kmAcum: 1190.93, poblacion: 320 },
   ],
