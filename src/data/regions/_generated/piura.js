@@ -99,11 +99,11 @@ export default {
     { provincia: 'Piura', distrito: 'Castilla', sector: 'Monte Verde', ficha: 'FTI N° 020-2026-LD-PI-PIU', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL DREN MONTE VERDE (PROG. KM 0+000 – KM 0+373.00), RESIDENCIAL MONTE VERDE, DISTRITO DE CASTILLA, PROVINCIA DE PIURA, DEPARTAMENTO DE PIURA  -00   ', fechaInicio: '21/12/2026', fechaFin: '28/12/2026', metaVol: 2461.8, metaKm: 0.37, poblacion: 270 },
   ],
 
-  conveniosCount: 23,
+  conveniosCount: 22,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '3 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '19 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '18 convenios vigentes' },
   ],
 
   flota: [
