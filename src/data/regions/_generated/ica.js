@@ -41,7 +41,7 @@ export default {
 
   conveniosCount: 4,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Provincial Pisco', detail: 'hasta 24/11/2026' },
+    { entidad: 'Municipalidad Provincial Pisco', detail: 'vence 24/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
     { entidad: 'Municipalidad Distrital San Jose De Los Molinos', detail: 'hasta 01/02/2027' },
     { entidad: 'Municipalidad Distrital Santiago', detail: 'hasta 11/02/2027' },
