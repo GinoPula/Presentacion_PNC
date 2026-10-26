@@ -17,22 +17,21 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 6300.0, kmAcum: 0.04, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  DS180-P ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 4360.0, kmAcum: 0.71, poblacion: 200 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 6300.0, kmAcum: 0.04, poblacion: 2078 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  DS180-P  ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 4360.0, kmAcum: 0.71, poblacion: 200 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 23 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 2, metaVol: 7398.0, metaKm: 0.65, poblacion: 1250 },
     { provincia: 'Nasca', distrito: 'Nasca', cantidad: 1, metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
-    { provincia: 'Pisco', distrito: 'Huancano', cantidad: 1, metaVol: 39600.0, metaKm: 1.1, poblacion: 23 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 60274.0, metaKm: 3.29, poblacion: 3013 },
+  programadasTotal: { cantidad: 5, metaVol: 20674.0, metaKm: 2.19, poblacion: 2990 },
 
   programadasDetalle: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', ficha: 'FT I N°046-2026-LDE- ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R ', fechaInicio: '30/10/2026', fechaFin: '05/11/2026', metaVol: 2016.0, metaKm: 0.56, poblacion: 300 },
-    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huayanto', ficha: 'FT I N°049-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R ', fechaInicio: '30/10/2026', fechaFin: '01/12/2026', metaVol: 39600.0, metaKm: 1.1, poblacion: 23 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°045-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  DS180-R ', fechaInicio: '30/10/2026', fechaFin: '06/11/2026', metaVol: 5382.0, metaKm: 0.09, poblacion: 950 },
     { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°002-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                   ', fechaInicio: '01/11/2026', fechaFin: '12/11/2026', metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00               ', fechaInicio: '01/12/2026', fechaFin: '07/12/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
