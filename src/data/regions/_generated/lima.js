@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 40585.27, km: 1.17, poblacion: 19345, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 68, m3: 526499.27, km: 20.65, poblacion: 5094866, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Prevención', cantidad: 69, m3: 528774.27, km: 20.78, poblacion: 5094946, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 84, m3: 587031.64, m3AguaPotable: 0.0, km: 38.19, poblacion: 5133045 },
+  ejecutadasTotal: { cantidad: 85, m3: 589306.64, m3AguaPotable: 0.0, km: 38.32, poblacion: 5133125 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,13 +17,12 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, m3AguaPotable: 0.0, km: 89.97, poblacion: 13670110 },
 
   enEjecucion: [
-    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO III, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ', inicio: '05/10/2026', fin: '22/10/2026', volAcum: 1225.0, kmAcum: 0.07, poblacion: 80 },
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+650 KM  AL 1+00 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA         ', inicio: '05/10/2026', fin: '28/10/2026', volAcum: 12357.0, kmAcum: 0.17, poblacion: 2500000 },
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION  DE DIQUES SECOS DEL CAUCE EN LOS\nAFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II,\nDISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”  ', inicio: '07/10/2026', fin: '26/10/2026', volAcum: 2970.4, kmAcum: 0.09, poblacion: 1000 },
+    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 0+650 KM  AL 1+00 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA         ', inicio: '05/10/2026', fin: '28/10/2026', volAcum: 15377.0, kmAcum: 0.2, poblacion: 2500000 },
+    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION  DE DIQUES SECOS DEL CAUCE EN LOS\nAFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II,\nDISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”  ', inicio: '07/10/2026', fin: '26/10/2026', volAcum: 7141.6, kmAcum: 0.23, poblacion: 1000 },
     { provincia: 'Yauyos', distrito: 'Yauyos', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+320 HASTA LA PROGRESIVA 0+480) KM, EN EL SECTOR CRÍTICO N°03: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA.     ', inicio: '14/10/2026', fin: '28/10/2026', volAcum: 3450.0, kmAcum: 0.05, poblacion: 98 },
     { provincia: 'Canta', distrito: 'Santa Rosa De Quives', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA SOCOS, SECTOR MACAS-TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA  ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 3450.6, kmAcum: 0.14, poblacion: 140 },
-    { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS, DEL SECTOR TINAJAS TRAMO IV, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”. ', inicio: '19/10/2026', fin: '01/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1500 },
-    { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE LOMAS DE CHILLÓN, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ', inicio: '20/10/2026', fin: '01/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2543 },
+    { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS, DEL SECTOR TINAJAS TRAMO IV, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”. ', inicio: '19/10/2026', fin: '01/11/2026', volAcum: 3072.0, kmAcum: 0.19, poblacion: 1500 },
+    { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE LOMAS DE CHILLÓN, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ', inicio: '20/10/2026', fin: '01/11/2026', volAcum: 4147.2, kmAcum: 0.13, poblacion: 2543 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

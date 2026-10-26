@@ -8454,18 +8454,18 @@ const mapaIntervenciones = {
     "id": 10582,
     "lat": -11.984562,
     "lng": -76.773754,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "Chaclacayo",
     "sector": "Cusipata",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO III, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.    ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CUSIPATA TRAMO III, SECTOR CUSIPATA, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.     ",
     "ficha": "138-2026-LDP-LIM",
     "fechaInicio": "05/10/2026",
-    "fechaFin": "22/10/2026",
+    "fechaFin": "23/10/2026",
     "poblacion": 80,
-    "volumen": 1225,
-    "km": 0.07,
+    "volumen": 2275,
+    "km": 0.13,
     "enlace": null
   },
   {
@@ -8482,8 +8482,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "28/10/2026",
     "poblacion": 2500000,
-    "volumen": 12357,
-    "km": 0.168,
+    "volumen": 15377,
+    "km": 0.196,
     "enlace": null
   },
   {
@@ -8500,8 +8500,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "26/10/2026",
     "poblacion": 1000,
-    "volumen": 2970.4,
-    "km": 0.094,
+    "volumen": 7141.6,
+    "km": 0.226,
     "enlace": null
   },
   {
@@ -8572,8 +8572,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 1500,
-    "volumen": 6272,
-    "km": 0.392,
+    "volumen": 3072,
+    "km": 0.192,
     "enlace": null
   },
   {
@@ -8590,8 +8590,8 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 2543,
-    "volumen": 9600,
-    "km": 0.2,
+    "volumen": 4147.2,
+    "km": 0.128,
     "enlace": null
   }
 ],
