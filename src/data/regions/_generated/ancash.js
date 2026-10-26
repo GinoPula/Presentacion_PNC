@@ -29,6 +29,7 @@ export default {
   programadas: [
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', cantidad: 1, metaVol: 5312.0, metaKm: 0.83, poblacion: 500 },
     { provincia: 'Casma', distrito: 'Casma', cantidad: 1, metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', cantidad: 1, metaVol: 6400.0, metaKm: 0.4, poblacion: 342 },
     { provincia: 'Huaraz', distrito: 'Independencia', cantidad: 1, metaVol: 4238.55, metaKm: 0.68, poblacion: 240 },
     { provincia: 'Huari', distrito: 'Chavin De Huantar', cantidad: 1, metaVol: 504.56, metaKm: 0.21, poblacion: 131 },
     { provincia: 'Huarmey', distrito: 'Culebras', cantidad: 2, metaVol: 3087.5, metaKm: 0.35, poblacion: 46 },
@@ -39,12 +40,13 @@ export default {
     { provincia: 'Santa', distrito: 'Samanco', cantidad: 1, metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 19, metaVol: 211214.71, metaKm: 18.04, poblacion: 24476 },
+  programadasTotal: { cantidad: 20, metaVol: 217614.71, metaKm: 18.45, poblacion: 24818 },
 
   programadasDetalle: [
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Llacshahuanca', ficha: '101-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA LLACSHAHUANCA, DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH  ', fechaInicio: '20/11/1026', fechaFin: '30/11/2010', metaVol: 4940.0, metaKm: 0.65, poblacion: 3579 },
     { provincia: 'Casma', distrito: 'Casma', sector: 'Cuncan', ficha: '112-2026-LDP-ANC ', descripcion: ' ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH    ', fechaInicio: '21/10/2026', fechaFin: '19/11/2026', metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH   ', fechaInicio: '26/10/2026', fechaFin: '11/11/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', sector: 'Predio Dos - Quechcap', ficha: '138-2026-LDP-ANC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP, TRAMO II, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', fechaInicio: '27/10/2026', fechaFin: '10/11/2026', metaVol: 6400.0, metaKm: 0.4, poblacion: 342 },
     { provincia: 'Santa', distrito: 'Chimbote', sector: 'Cascajal', ficha: '117-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P ', fechaInicio: '27/10/2026', fechaFin: '12/11/2026', metaVol: 104622.5, metaKm: 3.1, poblacion: 120 },
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', sector: 'Chacapata', ficha: '115-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R ', fechaInicio: '30/10/2026', fechaFin: '11/11/2026', metaVol: 5312.0, metaKm: 0.83, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Chimbote', sector: 'Tambo Real', ficha: '118-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P ', fechaInicio: '04/11/2026', fechaFin: '21/11/2026', metaVol: 11475.0, metaKm: 3.4, poblacion: 350 },
