@@ -9,11 +9,11 @@ export default {
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
-    { tipo: 'Emergencia', cantidad: 15, m3: 148654.0, km: 8.43, poblacion: 6380, provincias: ['Calca', 'Canchis', 'Chumbivilcas', 'La Convencion', 'Quispicanchi', 'Urubamba'] },
+    { tipo: 'Emergencia', cantidad: 15, m3: 148839.0, km: 8.44, poblacion: 6380, provincias: ['Calca', 'Canchis', 'Chumbivilcas', 'La Convencion', 'Quispicanchi', 'Urubamba'] },
     { tipo: 'Prevención', cantidad: 24, m3: 180427.0, km: 8.54, poblacion: 5246, provincias: ['Acomayo', 'Anta', 'Calca', 'Canchis', 'Quispicanchi', 'Urubamba'] },
     { tipo: 'Urgente atención', cantidad: 3, m3: 4555.0, km: 0.98, poblacion: 2520, provincias: ['Canchis', 'Paucartambo', 'Quispicanchi'] },
   ],
-  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333636.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
+  ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
     { provincia: 'Canchis', distrito: 'Marangani', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO         ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 7990.0, kmAcum: 0.24, poblacion: 120 },
