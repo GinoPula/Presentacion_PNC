@@ -901,7 +901,7 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "San Jacinto",
     "sector": "Vista Hermosa",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180-P      ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180-P       ",
     "ficha": "074-2026-LD-E-TUM",
     "fechaInicio": "25/09/2026",
     "fechaFin": "09/10/2026",
@@ -937,7 +937,7 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "Corrales",
     "sector": "Malval",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES	DS180-P																				        ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES	DS180-P																				         ",
     "ficha": "073-2026-LD-E-TUM",
     "fechaInicio": "10/10/2026",
     "fechaFin": "24/10/2026",
@@ -2368,7 +2368,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "11/12/2026",
     "poblacion": 420,
-    "volumen": 165,
+    "volumen": 180,
     "km": 0,
     "enlace": null
   },
@@ -2404,8 +2404,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/10/2026",
     "fechaFin": "02/11/2026",
     "poblacion": 250,
-    "volumen": 4600,
-    "km": 0.27,
+    "volumen": 5600,
+    "km": 0.32,
     "enlace": null
   },
   {
@@ -2440,8 +2440,8 @@ const mapaIntervenciones = {
     "fechaInicio": "26/10/2026",
     "fechaFin": "09/11/2026",
     "poblacion": 2389,
-    "volumen": 200,
-    "km": 0.02,
+    "volumen": 600,
+    "km": 0.05,
     "enlace": null
   }
 ],
@@ -12870,8 +12870,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/10/2026",
     "fechaFin": "20/10/2026",
     "poblacion": 320,
-    "volumen": 7415.07,
-    "km": 1190.929,
+    "volumen": 8605,
+    "km": 0.994,
     "enlace": null
   },
   {
