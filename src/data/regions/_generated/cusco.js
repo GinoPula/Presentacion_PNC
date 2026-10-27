@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 12, m3: 103244.0, km: 6.6, poblacion: 3039, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 13, m3: 110659.07, km: 1197.53, poblacion: 3359, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 26, m3: 213829.0, m3AguaPotable: 0.0, km: 18.25, poblacion: 8703 },
+  ejecutadasTotal: { cantidad: 27, m3: 221244.07, m3AguaPotable: 0.0, km: 1209.18, poblacion: 9023 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,21 +18,19 @@ export default {
   enEjecucion: [
     { provincia: 'Canchis', distrito: 'Marangani', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO         ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 7990.0, kmAcum: 0.24, poblacion: 120 },
     { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO   ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 8210.0, kmAcum: 0.22, poblacion: 175 },
-    { provincia: 'Quispicanchi', distrito: 'Ocongate', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO JAMPATUNIMAYO, SECTOR C. P. MALLMA - QDA. ACCOPAMPA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+471, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO', inicio: '09/10/2026', fin: '20/10/2026', volAcum: 7415.07, kmAcum: 1190.93, poblacion: 320 },
+    { provincia: 'Quispicanchi', distrito: 'Oropesa', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ', inicio: '14/10/2026', fin: '03/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 480 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
     { provincia: 'Quispicanchi', distrito: 'Ocongate', cantidad: 1, metaVol: 16170.0, metaKm: 1.1, poblacion: 90 },
-    { provincia: 'Quispicanchi', distrito: 'Oropesa', cantidad: 1, metaVol: 8519.55, metaKm: 0.51, poblacion: 480 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', cantidad: 3, metaVol: 36856.25, metaKm: 1.52, poblacion: 595 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 68645.8, metaKm: 3.64, poblacion: 1215 },
+  programadasTotal: { cantidad: 5, metaVol: 60126.25, metaKm: 3.12, poblacion: 735 },
 
   programadasDetalle: [
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Mollebamba Alto', ficha: '033-2026-LD-P-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO. ', fechaInicio: '02/10/2026', fechaFin: '15/10/2026', metaVol: 8032.5, metaKm: 0.23, poblacion: null },
-    { provincia: 'Quispicanchi', distrito: 'Oropesa', sector: 'Quebrada Nueva Oropesa', ficha: '032-2026-LD-P-CUS', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO', fechaInicio: '15/10/2026', fechaFin: '28/10/2026', metaVol: 8519.55, metaKm: 0.51, poblacion: 480 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Barrio Mollebamba Bajo', ficha: '034-2026-LDP-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR BARRIO MOLLEBAMBA BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+450 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO', fechaInicio: '01/11/2026', fechaFin: '20/11/2026', metaVol: 19023.75, metaKm: 0.45, poblacion: 485 },
     { provincia: 'Quispicanchi', distrito: 'Ocongate', sector: 'C. P. Llullucha Y Palcca', ficha: '035-2026-LDP-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL RÍO USPHAQAQA,  EN EL SECTOR C. P. LLULLUCHA Y PALCCA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 1+100, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO ', fechaInicio: '05/11/2026', fechaFin: '04/12/2026', metaVol: 16170.0, metaKm: 1.1, poblacion: 90 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Pampaccamara', ficha: '036-2025-LD-P-CUS', descripcion: ' LIMPIEZA, DESCOLMATACIóN DE CAUCE DEL RIO CCATCCAMAYO, EN EL SECTOR PAMPACCAMARA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+850 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGIóN CUSCO', fechaInicio: '02/12/2026', fechaFin: '15/12/2026', metaVol: 9800.0, metaKm: 0.85, poblacion: 110 },

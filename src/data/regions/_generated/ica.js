@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 6, m3: 34572.0, km: 1.26, poblacion: 17893, provincias: ['Ica', 'Nasca'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.82, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Emergencia', cantidad: 7, m3: 39072.0, km: 2.01, poblacion: 18093, provincias: ['Ica', 'Nasca', 'Pisco'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.81, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 4110.0, km: null, poblacion: 4500, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 27, m3: 146598.58, m3AguaPotable: 4110.0, km: 6.08, poblacion: 36433 },
+  ejecutadasTotal: { cantidad: 28, m3: 151098.58, m3AguaPotable: 4110.0, km: 6.83, poblacion: 36633 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 9415.0, kmAcum: 0.09, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  DS180-P  ', inicio: '13/10/2026', fin: '22/10/2026', volAcum: 4500.0, kmAcum: 0.75, poblacion: 200 },
     { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 1700.0, kmAcum: 0.09, poblacion: 23 },
   ],
 

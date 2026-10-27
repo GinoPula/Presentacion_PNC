@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 10, m3: 37195.25, km: 7.22, poblacion: 9200, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
+    { tipo: 'Emergencia', cantidad: 11, m3: 40395.25, km: 7.66, poblacion: 9727, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
     { tipo: 'Prevención', cantidad: 26, m3: 100456.95, km: 13.38, poblacion: 31028, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 15, m3: 9315.0, km: null, poblacion: 20456, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 51, m3: 146967.2, m3AguaPotable: 9315.0, km: 20.6, poblacion: 60684 },
+  ejecutadasTotal: { cantidad: 52, m3: 150167.2, m3AguaPotable: 9315.0, km: 21.04, poblacion: 61211 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 76, m3: 194862.73, m3AguaPotable: 8550.0, km: 43.19, poblacion: 93958 },
 
   enEjecucion: [
-    { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180-P\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t       ', inicio: '10/10/2026', fin: '24/10/2026', volAcum: 3200.0, kmAcum: 0.44, poblacion: 527 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00           ', inicio: '20/10/2026', fin: '29/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1413 },
   ],
 
