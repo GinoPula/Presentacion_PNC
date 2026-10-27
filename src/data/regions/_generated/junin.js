@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 21, m3: 202014.0, km: 23.72, poblacion: 270638, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
+    { tipo: 'Emergencia', cantidad: 23, m3: 224449.0, km: 41.46, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
     { tipo: 'Prevención', cantidad: 15, m3: 95095.0, km: 11.71, poblacion: 265220, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 37, m3: 297229.0, m3AguaPotable: 120.0, km: 35.76, poblacion: 537438 },
+  ejecutadasTotal: { cantidad: 39, m3: 319664.0, m3AguaPotable: 120.0, km: 53.5, poblacion: 538103 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,27 +16,24 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Chupaca', distrito: 'Chongos Bajo', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN      ', inicio: '04/09/2026', fin: '20/10/2026', volAcum: 19385.0, kmAcum: 8.21, poblacion: 595 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO SECO,  DE LA  PROG. 0+000 A LA PROG. 0+500, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGION JUNIN"-00                       ', inicio: '12/10/2026', fin: '25/10/2026', volAcum: 2870.0, kmAcum: 0.71, poblacion: 2495 },
-    { provincia: 'Huancayo', distrito: 'Chongos Alto', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN LA ZONA URBANA DEL DISTRITO DE CHONGOS ALTO, PROVINCIA DE HUANCAYO, REGION JUNIN  ', inicio: '12/10/2026', fin: '20/10/2026', volAcum: 3050.0, kmAcum: 9.53, poblacion: 70 },
     { provincia: 'Jauja', distrito: 'Julcan', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00                 ', inicio: '14/10/2026', fin: '27/10/2026', volAcum: 200.0, kmAcum: 0.05, poblacion: 480 },
+    { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO DE LA PROGRESIVA 0+000 A LA PROGRESIVA 3+444.41, PROVINCIA DE HUANCAYO, REGION JUNIN ', inicio: '22/10/2026', fin: '05/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 6, metaVol: 53772.84, metaKm: 5.05, poblacion: 8780 },
     { provincia: 'Concepcion', distrito: 'Concepcion', cantidad: 1, metaVol: 6500.0, metaKm: 0.15, poblacion: 1200 },
-    { provincia: 'Huancayo', distrito: 'Chupuro', cantidad: 1, metaVol: 3622.5, metaKm: 3.44, poblacion: 0 },
     { provincia: 'Satipo', distrito: 'Rio Tambo', cantidad: 1, metaVol: 2840.13, metaKm: 0.93, poblacion: 1330 },
     { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 74149.87, metaKm: 11.38, poblacion: 14510 },
+  programadasTotal: { cantidad: 9, metaVol: 70527.37, metaKm: 7.94, poblacion: 14510 },
 
   programadasDetalle: [
     { provincia: 'Satipo', distrito: 'Rio Tambo', sector: 'C.N Yoyato', ficha: '069-2026-LD-P-JUN', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES DE LA QUEBRADA YOYATO EN LAS PROGRESIVA 0+000 AL 0+931.92 EN AMBAS MARGENES DE LA COMUNIDAD NATIVA YOYATO, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN   ', fechaInicio: '12/10/2026', fechaFin: '26/10/2026', metaVol: 2840.13, metaKm: 0.93, poblacion: 1330 },
-    { provincia: 'Huancayo', distrito: 'Chupuro', sector: 'Zona Urbana', ficha: '073-2026-LETV-E-JUN ', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO DE LA PROGRESIVA 0+000 A LA PROGRESIVA 3+444.41, PROVINCIA DE HUANCAYO, REGION JUNIN', fechaInicio: '20/10/2026', fechaFin: '03/11/2026', metaVol: 3622.5, metaKm: 3.44, poblacion: null },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN', fechaInicio: '01/11/2026', fechaFin: '15/11/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440 },
     { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                       ', fechaInicio: '01/11/2026', fechaFin: '17/11/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN', fechaInicio: '01/11/2026', fechaFin: '15/11/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN   ', fechaInicio: '03/11/2026', fechaFin: '17/11/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Toro', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORO DESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE\nCHANCHAMAYO, REGION JUNIN   ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '068-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 1+897.11 KM TRAMO III DE LAZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6938.02, metaKm: 1.9, poblacion: 1920 },
