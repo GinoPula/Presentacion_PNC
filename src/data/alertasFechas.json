@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "27/10/2026",
-    "horaCorte": "19:01",
+    "horaCorte": "19:32",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -160,44 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "10499",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "La Ramada",
-      "sector": "C.p. Las Iglesias – C.p. La Cubillina",
-      "ficha": "N°068-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
-      "fechaInicio": "09/09/2026",
-      "fechaFin": "16/10/2026",
-      "diasAtraso": 11
-    },
-    {
-      "n": 10,
-      "idIntervencion": "10554",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "ficha": "N°071-2026-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "16/10/2026",
-      "diasAtraso": 11
-    },
-    {
-      "n": 11,
       "idIntervencion": "9640",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA DICIEMBRE",
@@ -216,45 +178,7 @@
       "diasAtraso": 9
     },
     {
-      "n": 12,
-      "idIntervencion": "9684",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Sector Lopez Albujar",
-      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "24/10/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 13,
-      "idIntervencion": "9785",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cajamarca",
-      "distrito": "Cajamarca",
-      "sector": "Ba. Nuevo Cajamarca",
-      "ficha": "FTI N° 027-2026-LD-PI-CAJ",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.",
-      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "02/11/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 14,
+      "n": 10,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -273,7 +197,26 @@
       "diasAtraso": 8
     },
     {
-      "n": 15,
+      "n": 11,
+      "idIntervencion": "9785",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Cajamarca",
+      "distrito": "Cajamarca",
+      "sector": "Ba. Nuevo Cajamarca",
+      "ficha": "FTI N° 027-2026-LD-PI-CAJ",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "02/11/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 12,
       "idIntervencion": "9657",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -292,7 +235,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 16,
+      "n": 13,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -311,7 +254,26 @@
       "diasAtraso": 8
     },
     {
-      "n": 17,
+      "n": 14,
+      "idIntervencion": "9684",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Morropon",
+      "sector": "Sector Lopez Albujar",
+      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "24/10/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 15,
       "idIntervencion": "10616",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -330,26 +292,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 18,
-      "idIntervencion": "9588",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Chulucanas",
-      "sector": "Centro Poblado Vicus",
-      "ficha": "FTI N°054-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
-      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 19,
+      "n": 16,
       "idIntervencion": "4073",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -368,7 +311,26 @@
       "diasAtraso": 7
     },
     {
-      "n": 20,
+      "n": 17,
+      "idIntervencion": "9588",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "Centro Poblado Vicus",
+      "ficha": "FTI N°054-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
+      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 7
+    },
+    {
+      "n": 18,
       "idIntervencion": "9854",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -387,7 +349,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 21,
+      "n": 19,
       "idIntervencion": "9582",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -406,7 +368,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 22,
+      "n": 20,
       "idIntervencion": "10487",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -425,7 +387,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 23,
+      "n": 21,
       "idIntervencion": "10628",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -444,7 +406,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 24,
+      "n": 22,
       "idIntervencion": "9660",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -463,26 +425,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 25,
-      "idIntervencion": "9553",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Melgar",
-      "distrito": "Llalli",
-      "sector": "Kahuasiri Bajo",
-      "ficha": "FTI N°004-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº004-2026",
-      "fechaInicio": "09/10/2026",
-      "fechaFin": "23/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 26,
+      "n": 23,
       "idIntervencion": "10462",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -501,7 +444,26 @@
       "diasAtraso": 4
     },
     {
-      "n": 27,
+      "n": 24,
+      "idIntervencion": "9553",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Melgar",
+      "distrito": "Llalli",
+      "sector": "Kahuasiri Bajo",
+      "ficha": "FTI N°004-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº004-2026",
+      "fechaInicio": "09/10/2026",
+      "fechaFin": "23/10/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 25,
       "idIntervencion": "9457",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -520,7 +482,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 28,
+      "n": 26,
       "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -539,26 +501,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 29,
-      "idIntervencion": "10629",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Pillco Marca",
-      "sector": "Sequión",
-      "ficha": "N° 049-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA HERAPATA DEL SECTOR SEQUIÓN, DE LA PROG. 0+000 A LA PROG. 0+360, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "01/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 30,
+      "n": 27,
       "idIntervencion": "10555",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -574,6 +517,25 @@
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
       "fechaInicio": "07/10/2026",
       "fechaFin": "26/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 28,
+      "idIntervencion": "10629",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Pillco Marca",
+      "sector": "Sequión",
+      "ficha": "N° 049-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA HERAPATA DEL SECTOR SEQUIÓN, DE LA PROG. 0+000 A LA PROG. 0+360, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "01/11/2026",
       "diasAtraso": 1
     }
   ]
