@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "27/10/2026",
-    "horaCorte": "04:48",
+    "horaCorte": "05:19",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "fechaInicio": "20/11/1026",
       "fechaFin": "30/11/2010",
-      "diasAtraso": 365218
+      "diasAtraso": 365219
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "D.S. N° 065-2026-PCM",
       "fechaInicio": "23/06/2026",
       "fechaFin": "04/07/2026",
-      "diasAtraso": 125
+      "diasAtraso": 126
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº019-2026",
       "fechaInicio": "02/10/2026",
       "fechaFin": "15/10/2026",
-      "diasAtraso": 24
+      "diasAtraso": 25
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "08/10/2026",
       "fechaFin": "31/10/2026",
-      "diasAtraso": 18
+      "diasAtraso": 19
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 16
+      "diasAtraso": 17
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "12/10/2026",
       "fechaFin": "26/10/2026",
-      "diasAtraso": 14
+      "diasAtraso": 15
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO N° 061 - 2025 VIVIENDA/VMVU/PNC",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 9,
@@ -175,29 +175,10 @@
       "marcoLegal": "CONVENIO Nº019-2026",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 10,
-      "idIntervencion": "10554",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "C.p. San Francisco",
-      "ficha": "N°071-2026-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
-      "fechaInicio": "22/09/2026",
-      "fechaFin": "16/10/2026",
-      "diasAtraso": 10
-    },
-    {
-      "n": 11,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -213,7 +194,26 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "16/10/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10554",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "C.p. San Francisco",
+      "ficha": "N°071-2026-RLEU-AMZ",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DEL CENTRO POBLADO SAN FRANCISCO ETAPA II, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 035 - 2026 – MDLC – CM",
+      "fechaInicio": "22/09/2026",
+      "fechaFin": "16/10/2026",
+      "diasAtraso": 11
     },
     {
       "n": 12,
@@ -232,26 +232,26 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "18/10/2026",
       "fechaFin": "01/11/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
     },
     {
       "n": 13,
-      "idIntervencion": "9851",
+      "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Azangaro",
-      "distrito": "Muñani",
-      "sector": "Muñani Chico",
-      "ficha": "FTI N° 037-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº069-2025",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Morropon",
+      "sector": "Sector Lopez Albujar",
+      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
       "fechaInicio": "19/10/2026",
-      "fechaFin": "29/10/2026",
-      "diasAtraso": 7
+      "fechaFin": "24/10/2026",
+      "diasAtraso": 8
     },
     {
       "n": 14,
@@ -270,10 +270,29 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
       "fechaInicio": "19/10/2026",
       "fechaFin": "02/11/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 15,
+      "idIntervencion": "9851",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Muñani",
+      "sector": "Muñani Chico",
+      "ficha": "FTI N° 037-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº069-2025",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "29/10/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 16,
       "idIntervencion": "9657",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -289,10 +308,10 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02-2025-PLIA",
       "fechaInicio": "19/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
-      "n": 16,
+      "n": 17,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -308,26 +327,7 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
       "fechaInicio": "19/10/2026",
       "fechaFin": "27/10/2026",
-      "diasAtraso": 7
-    },
-    {
-      "n": 17,
-      "idIntervencion": "9684",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Sector Lopez Albujar",
-      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "24/10/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 18,
@@ -346,67 +346,29 @@
       "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL Nº 038-2026-C/C",
       "fechaInicio": "19/10/2026",
       "fechaFin": "02/11/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 19,
-      "idIntervencion": "4073",
+      "idIntervencion": "10635",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Jaen",
-      "distrito": "Jaen",
-      "sector": "C.p. San Miguel De Las Naranjas",
-      "ficha": "N°018-2026-LDP-AMZ",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA",
-      "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 20,
-      "idIntervencion": "10450",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
       "regionId": "junin",
-      "provincia": "Chupaca",
-      "distrito": "Chongos Bajo",
+      "provincia": "Huancayo",
+      "distrito": "Chupuro",
       "sector": "Zona Urbana",
-      "ficha": "071-2026-LETV-E-JUN",
-      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN",
-      "marcoLegal": "D.S. N° 106-2026-PCM",
-      "fechaInicio": "04/09/2026",
-      "fechaFin": "20/10/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 21,
-      "idIntervencion": "9588",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Chulucanas",
-      "sector": "Centro Poblado Vicus",
-      "ficha": "FTI N°054-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
-      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
+      "ficha": "073-2026-LETV-E-JUN",
+      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO DE LA PROGRESIVA 0+000 A LA PROGRESIVA 3+444.41, PROVINCIA DE HUANCAYO, REGION JUNIN",
+      "marcoLegal": "D.S. 136-2026 -PCM",
       "fechaInicio": "20/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 6
+      "fechaFin": "03/11/2026",
+      "diasAtraso": 7
     },
     {
-      "n": 22,
+      "n": 20,
       "idIntervencion": "10625",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -422,7 +384,45 @@
       "marcoLegal": "CONVENIO Nº019-2026",
       "fechaInicio": "09/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
+    },
+    {
+      "n": 21,
+      "idIntervencion": "10450",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Chupaca",
+      "distrito": "Chongos Bajo",
+      "sector": "Zona Urbana",
+      "ficha": "071-2026-LETV-E-JUN",
+      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS PARA LA TRANSITABILIDAD DE VIAS EN C.P DE CHONGOS BAJO ETAPA 3 Y ALEDAÑOS, DISTRITO DE CHONGOS BAJO, PROVINCIA DE CHUPACA, REGION JUNIN",
+      "marcoLegal": "D.S. N° 106-2026-PCM",
+      "fechaInicio": "04/09/2026",
+      "fechaFin": "20/10/2026",
+      "diasAtraso": 7
+    },
+    {
+      "n": 22,
+      "idIntervencion": "9854",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Huancane",
+      "distrito": "Huancane",
+      "sector": "Quishuarani Y Machacmarca",
+      "ficha": "FTI N° 040-2026-LDP-PUN",
+      "descripcion": "REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "03/11/2026",
+      "diasAtraso": 7
     },
     {
       "n": 23,
@@ -441,45 +441,45 @@
       "marcoLegal": "D.S. N° 037-2020-PCM",
       "fechaInicio": "12/10/2026",
       "fechaFin": "20/10/2026",
-      "diasAtraso": 6
+      "diasAtraso": 7
     },
     {
       "n": 24,
-      "idIntervencion": "10635",
+      "idIntervencion": "4073",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Huancayo",
-      "distrito": "Chupuro",
-      "sector": "Zona Urbana",
-      "ficha": "073-2026-LETV-E-JUN",
-      "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO DE LA PROGRESIVA 0+000 A LA PROGRESIVA 3+444.41, PROVINCIA DE HUANCAYO, REGION JUNIN",
-      "marcoLegal": "D.S. 136-2026 -PCM",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Jaen",
+      "distrito": "Jaen",
+      "sector": "C.p. San Miguel De Las Naranjas",
+      "ficha": "N°018-2026-LDP-AMZ",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA",
+      "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
       "fechaInicio": "20/10/2026",
-      "fechaFin": "03/11/2026",
-      "diasAtraso": 6
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 7
     },
     {
       "n": 25,
-      "idIntervencion": "9854",
+      "idIntervencion": "9588",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Huancane",
-      "distrito": "Huancane",
-      "sector": "Quishuarani Y Machacmarca",
-      "ficha": "FTI N° 040-2026-LDP-PUN",
-      "descripcion": "REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "Centro Poblado Vicus",
+      "ficha": "FTI N°054-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
+      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "20/10/2026",
-      "fechaFin": "03/11/2026",
-      "diasAtraso": 6
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 7
     },
     {
       "n": 26,
@@ -498,7 +498,7 @@
       "marcoLegal": "CONVENIO Nº042-2026",
       "fechaInicio": "21/10/2026",
       "fechaFin": "19/11/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 27,
@@ -517,29 +517,10 @@
       "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
       "fechaInicio": "21/10/2026",
       "fechaFin": "04/11/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 28,
-      "idIntervencion": "10628",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Pillco Marca",
-      "sector": "Av Del Ejecricito",
-      "ficha": "N° 047-2026-LDOA-P-HCO",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CUNETAS , DE LA PROG. 0+000 A LA PROG. 0+470; SECTOR CAMPO VERDE, AV. ELEJERCITO DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "25/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 29,
       "idIntervencion": "10519",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -555,29 +536,10 @@
       "marcoLegal": "ADENDA Nº 03 - 2026 (CONVENIO N° 053 - 2023 VIVIENDA/VMVU/PNC)",
       "fechaInicio": "23/09/2026",
       "fechaFin": "22/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
-      "n": 30,
-      "idIntervencion": "9660",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Santa Rosa",
-      "ficha": "FTI Nº 030-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR SANTA ROSA – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-PLIA",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "26/10/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 31,
+      "n": 29,
       "idIntervencion": "10585",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -593,7 +555,45 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "13/10/2026",
       "fechaFin": "22/10/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
+    },
+    {
+      "n": 30,
+      "idIntervencion": "10628",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Pillco Marca",
+      "sector": "Av Del Ejecricito",
+      "ficha": "N° 047-2026-LDOA-P-HCO",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CUNETAS , DE LA PROG. 0+000 A LA PROG. 0+470; SECTOR CAMPO VERDE, AV. ELEJERCITO DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "25/10/2026",
+      "diasAtraso": 5
+    },
+    {
+      "n": 31,
+      "idIntervencion": "9660",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Morropon",
+      "sector": "Santa Rosa",
+      "ficha": "FTI Nº 030-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR SANTA ROSA – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-PLIA",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "26/10/2026",
+      "diasAtraso": 5
     },
     {
       "n": 32,
@@ -612,7 +612,7 @@
       "marcoLegal": "CONVENIO Nº004-2026",
       "fechaInicio": "09/10/2026",
       "fechaFin": "23/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 33,
@@ -631,7 +631,7 @@
       "marcoLegal": "CONVENIO Nº029-2026",
       "fechaInicio": "28/08/2026",
       "fechaFin": "23/10/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 34,
@@ -650,29 +650,10 @@
       "marcoLegal": "D.S. N°124-2026-PCM",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 35,
-      "idIntervencion": "10601",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Ayabaca",
-      "distrito": "Paimas",
-      "sector": "Jambur Alto Ii",
-      "ficha": "FTI N°128-2026-LDOA-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA TRAMO II JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA",
-      "marcoLegal": "CONVENIO N° 037-2024-VIVIENDA/VMVU/PNC – ADENDA N°1",
-      "fechaInicio": "13/10/2026",
-      "fechaFin": "25/10/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 36,
       "idIntervencion": "9457",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -688,6 +669,158 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "12/10/2026",
       "fechaFin": "25/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 36,
+      "idIntervencion": "10601",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Ayabaca",
+      "distrito": "Paimas",
+      "sector": "Jambur Alto Ii",
+      "ficha": "FTI N°128-2026-LDOA-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE OBRAS DE ARTE (BADENES Y CUNETAS) EN LA VIA TRAMO II JAMBUR ALTO, DISTRITO DE PAIMAS, PROVINCIA DE AYABACA, REGIÓN DE PIURA",
+      "marcoLegal": "CONVENIO N° 037-2024-VIVIENDA/VMVU/PNC – ADENDA N°1",
+      "fechaInicio": "13/10/2026",
+      "fechaFin": "25/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 37,
+      "idIntervencion": "10594",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur",
+      "ficha": "140-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO II, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "26/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 38,
+      "idIntervencion": "10555",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Cascajal Bajo – La Cuadra",
+      "ficha": "116-2026-LDE-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "07/10/2026",
+      "fechaFin": "26/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 39,
+      "idIntervencion": "10640",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Comas",
+      "sector": "Corrientes",
+      "ficha": "149-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "CONVENIO N° 70-2025-VIVIENDA/VMVU/PNC – ADENDA N° 01",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "09/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 40,
+      "idIntervencion": "10602",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Huaraz",
+      "distrito": "Huaraz",
+      "sector": "Predio Dos - Quechcap",
+      "ficha": "137-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS - QUECHCAP, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
+      "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
+      "fechaInicio": "12/10/2026",
+      "fechaFin": "26/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 41,
+      "idIntervencion": "10629",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Pillco Marca",
+      "sector": "Sequión",
+      "ficha": "N° 049-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DE LA QUEBRADA HERAPATA DEL SECTOR SEQUIÓN, DE LA PROG. 0+000 A LA PROG. 0+360, EN LA ZONA URBANA DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "01/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 42,
+      "idIntervencion": "9738",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Chaclacayo",
+      "sector": "Los Condores",
+      "ficha": "014-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
+      "marcoLegal": "ADENDA Nº 2 DEL CONVENIO Nº 0008-2024-VIVIENDA",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "09/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 43,
+      "idIntervencion": "10463",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Nuevo Chimbote",
+      "sector": "3 De Octubre",
+      "ficha": "110-2026-LDP-ANC-ANIN",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "11/11/2026",
       "diasAtraso": 1
     }
   ]
