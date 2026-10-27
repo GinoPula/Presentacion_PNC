@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO  ', inicio: '20/10/2026', fin: '03/11/2026', volAcum: 1020.1, kmAcum: 1060.11, poblacion: 45 },
+    { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO  ', inicio: '20/10/2026', fin: '03/11/2026', volAcum: 1560.1, kmAcum: 1060.15, poblacion: 45 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
