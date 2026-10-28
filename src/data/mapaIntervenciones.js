@@ -10815,6 +10815,24 @@ const mapaIntervenciones = {
     "volumen": 2060.1,
     "km": 1060.188,
     "enlace": null
+  },
+  {
+    "id": 10526,
+    "lat": -13.072831,
+    "lng": -74.407405,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huamanga",
+    "distrito": "Santiago De Pischa",
+    "sector": "Anyana",
+    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ",
+    "ficha": "43-2026- LD-PI-AYAC ",
+    "fechaInicio": "28/10/2026",
+    "fechaFin": "11/11/2026",
+    "poblacion": 40,
+    "volumen": 5250,
+    "km": 0.315,
+    "enlace": null
   }
 ],
   cajamarca: [
