@@ -9855,24 +9855,6 @@ const mapaIntervenciones = {
     "volumen": 8664.8,
     "km": 1.4,
     "enlace": null
-  },
-  {
-    "id": 10655,
-    "lat": -16.331201,
-    "lng": -71.541639,
-    "estado": "En ejecución",
-    "tipo": "Emergencia",
-    "provincia": "Arequipa",
-    "distrito": "Cayma",
-    "sector": "",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR ASOCIACIÓN RAFAEL BELAUNDE DIEZ CANSECO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".    DS180-R ",
-    "ficha": "175-2026-LD-E-ARE",
-    "fechaInicio": "05/12/2026",
-    "fechaFin": "14/12/2026",
-    "poblacion": 8000,
-    "volumen": 6187.71,
-    "km": 1.23,
-    "enlace": null
   }
 ],
   amazonas: [
