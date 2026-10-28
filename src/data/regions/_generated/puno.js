@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Melgar', distrito: 'Llalli', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO   ', inicio: '09/10/2026', fin: '23/10/2026', volAcum: 22100.0, kmAcum: 0.62, poblacion: 300 },
+    { provincia: 'Melgar', distrito: 'Llalli', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RÍO LLALLIMAYO DEL CENTRO POBLADO DE KAHUASIRI BAJO DEL DISTRITO DE LLALLI, PROVINCIA DE MELGAR – DEPARTAMENTO PUNO   ', inicio: '09/10/2026', fin: '23/10/2026', volAcum: 22500.0, kmAcum: 0.63, poblacion: 300 },
     { provincia: 'Yunguyo', distrito: 'Yunguyo', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLMATACION DEL RIO CALLACAME, EN LOS CENTROS POBLADOS DE VILLAMAR AYCHUYO Y PAJANA SAN AGUSTIN DISTRITO DE YUNGUYO, PROVINCIA DE YUNGUYO, REGION PUNO" ', inicio: '22/10/2026', fin: '31/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
   ],
 
