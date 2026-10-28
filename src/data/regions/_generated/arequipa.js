@@ -60,7 +60,7 @@ export default {
 
   conveniosCount: 8,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Distrital Maca', detail: 'hasta 27/11/2026' },
+    { entidad: 'Municipalidad Distrital Maca', detail: 'vence 27/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Chiguata', detail: 'hasta 26/01/2027' },
     { entidad: 'Municipalidad Distrital Mariano Melgar', detail: 'hasta 13/02/2027' },
     { entidad: 'Municipalidad Distrital Characato', detail: 'hasta 16/06/2027' },
