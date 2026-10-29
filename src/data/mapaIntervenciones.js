@@ -4635,10 +4635,10 @@ const mapaIntervenciones = {
     "provincia": "Santa",
     "distrito": "Chimbote",
     "sector": "Villa María – 3 De Octubre",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH      ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ",
     "ficha": "111-2026-LDP-ANC-ANIN",
     "fechaInicio": "28/08/2026",
-    "fechaFin": "23/10/2026",
+    "fechaFin": "10/11/2026",
     "poblacion": 7456,
     "volumen": 20216,
     "km": 2.349,
@@ -4784,8 +4784,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 300,
-    "volumen": 7153,
-    "km": 0.605,
+    "volumen": 7490,
+    "km": 0.655,
     "enlace": null
   },
   {
@@ -4856,7 +4856,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 1476,
-    "volumen": 4858,
+    "volumen": 5358,
     "km": 0.175,
     "enlace": null
   },
@@ -4874,8 +4874,8 @@ const mapaIntervenciones = {
     "fechaInicio": "27/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 342,
-    "volumen": 480,
-    "km": 0.03,
+    "volumen": 1280,
+    "km": 0.08,
     "enlace": null
   }
 ],
@@ -10830,8 +10830,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/10/2026",
     "fechaFin": "11/11/2026",
     "poblacion": 40,
-    "volumen": 5250,
-    "km": 0.315,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
