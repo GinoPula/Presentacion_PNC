@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "29/10/2026",
-    "horaCorte": "16:40",
+    "horaCorte": "17:11",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -502,25 +502,6 @@
     },
     {
       "n": 27,
-      "idIntervencion": "10615",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Pacasmayo",
-      "distrito": "San Pedro De Lloc",
-      "sector": "Puente San Jose",
-      "ficha": "083-2026-LD-P-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
-      "marcoLegal": "CONVENIO Nº027-2026",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "27/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 28,
       "idIntervencion": "10631",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -539,7 +520,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "10641",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -556,6 +537,25 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "09/11/2026",
       "diasAtraso": 2
+    },
+    {
+      "n": 29,
+      "idIntervencion": "10547",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Picota",
+      "distrito": "San Hilarion",
+      "sector": "San Hilarión",
+      "ficha": "041-2026-LD-PI-SAM",
+      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
+      "fechaInicio": "13/10/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 1
     },
     {
       "n": 30,
@@ -616,6 +616,25 @@
     },
     {
       "n": 33,
+      "idIntervencion": "10615",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Pacasmayo",
+      "distrito": "San Pedro De Lloc",
+      "sector": "Puente San Jose",
+      "ficha": "083-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO Nº027-2026",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 34,
       "idIntervencion": "7628",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -631,25 +650,6 @@
       "marcoLegal": "CONVENIO Nº001-2026 / PLIA",
       "fechaInicio": "28/10/2026",
       "fechaFin": "26/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 34,
-      "idIntervencion": "10547",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Picota",
-      "distrito": "San Hilarion",
-      "sector": "San Hilarión",
-      "ficha": "041-2026-LD-PI-SAM",
-      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
-      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
-      "fechaInicio": "13/10/2026",
-      "fechaFin": "28/10/2026",
       "diasAtraso": 1
     }
   ]
