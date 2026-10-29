@@ -8001,24 +8001,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10356,
-    "lat": -11.601383,
-    "lng": -76.659989,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Canta",
-    "distrito": "Arahuay",
-    "sector": "Cotobamba",
-    "descripcion": " “CARGUIO Y TRASLADO DE MATERIAL DE PRESTAMO PARA RELLENO DE LA VIA DE ACCESO DEL SECTOR COTOBAMBA TRAMO II , DISTRITO DE ARAHUAY, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”.   ",
-    "ficha": "109-2026-CTMP-U-LIM",
-    "fechaInicio": "13/07/2026",
-    "fechaFin": "17/07/2026",
-    "poblacion": 2096,
-    "volumen": 440.3,
-    "km": 0.037,
-    "enlace": null
-  },
-  {
     "id": 10214,
     "lat": -11.913612,
     "lng": -76.932558,
@@ -8034,6 +8016,24 @@ const mapaIntervenciones = {
     "poblacion": 1500,
     "volumen": 3360,
     "km": 0.032,
+    "enlace": null
+  },
+  {
+    "id": 10356,
+    "lat": -11.601383,
+    "lng": -76.659989,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Canta",
+    "distrito": "Arahuay",
+    "sector": "Cotobamba",
+    "descripcion": " “CARGUIO Y TRASLADO DE MATERIAL DE PRESTAMO PARA RELLENO DE LA VIA DE ACCESO DEL SECTOR COTOBAMBA TRAMO II , DISTRITO DE ARAHUAY, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”.   ",
+    "ficha": "109-2026-CTMP-U-LIM",
+    "fechaInicio": "13/07/2026",
+    "fechaFin": "17/07/2026",
+    "poblacion": 2096,
+    "volumen": 440.3,
+    "km": 0.037,
     "enlace": null
   },
   {
@@ -8646,6 +8646,24 @@ const mapaIntervenciones = {
     "poblacion": 600,
     "volumen": 15600,
     "km": 0.52,
+    "enlace": null
+  },
+  {
+    "id": 10367,
+    "lat": -12.008145,
+    "lng": -76.87172,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Lurigancho",
+    "sector": "La Bocatoma De La Ptap Huachipa",
+    "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA       ",
+    "ficha": "113-2026-LDP-LIM",
+    "fechaInicio": "28/10/2026",
+    "fechaFin": "07/11/2026",
+    "poblacion": 2500000,
+    "volumen": 17550,
+    "km": 0.26,
     "enlace": null
   },
   {
