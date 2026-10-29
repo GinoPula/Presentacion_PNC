@@ -2368,7 +2368,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "11/12/2026",
     "poblacion": 420,
-    "volumen": 195,
+    "volumen": 210,
     "km": 0,
     "enlace": null
   },
@@ -2422,7 +2422,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/12/2026",
     "poblacion": 550,
-    "volumen": 90,
+    "volumen": 105,
     "km": 0,
     "enlace": null
   },
@@ -2440,8 +2440,8 @@ const mapaIntervenciones = {
     "fechaInicio": "26/10/2026",
     "fechaFin": "09/11/2026",
     "poblacion": 2389,
-    "volumen": 600,
-    "km": 0.05,
+    "volumen": 1400,
+    "km": 0.1,
     "enlace": null
   }
 ],
@@ -8562,18 +8562,18 @@ const mapaIntervenciones = {
     "id": 10564,
     "lat": -11.682724,
     "lng": -76.926044,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Canta",
     "distrito": "Santa Rosa De Quives",
     "sector": "Macas – Quebrada Socos",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA SOCOS, SECTOR MACAS-TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA  ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA SOCOS, SECTOR MACAS-TRAMO IV, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA     ",
     "ficha": "136-2026-LDP-LIM",
     "fechaInicio": "16/10/2026",
-    "fechaFin": "30/10/2026",
+    "fechaFin": "29/10/2026",
     "poblacion": 140,
-    "volumen": 3450.6,
-    "km": 0.142,
+    "volumen": 6585.3,
+    "km": 0.271,
     "enlace": null
   },
   {
@@ -8590,8 +8590,8 @@ const mapaIntervenciones = {
     "fechaInicio": "19/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 1500,
-    "volumen": 3072,
-    "km": 0.192,
+    "volumen": 4512,
+    "km": 0.237,
     "enlace": null
   },
   {
@@ -8626,8 +8626,8 @@ const mapaIntervenciones = {
     "fechaInicio": "26/10/2026",
     "fechaFin": "09/11/2026",
     "poblacion": 720,
-    "volumen": 3000,
-    "km": 0.2,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
@@ -8680,8 +8680,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/10/2026",
     "fechaFin": "07/11/2026",
     "poblacion": 2500000,
-    "volumen": 17550,
-    "km": 0.26,
+    "volumen": 270,
+    "km": 0.004,
     "enlace": null
   },
   {
@@ -8716,8 +8716,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/11/2026",
     "fechaFin": "12/12/2026",
     "poblacion": 2543,
-    "volumen": 14880,
-    "km": 0.31,
+    "volumen": 2016,
+    "km": 0.042,
     "enlace": null
   }
 ],
