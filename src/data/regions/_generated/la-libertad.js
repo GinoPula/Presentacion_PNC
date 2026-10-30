@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 36662.0, km: 1.92, poblacion: 7712, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
-    { tipo: 'Prevención', cantidad: 20, m3: 179038.0, km: 12.89, poblacion: 26760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
+    { tipo: 'Prevención', cantidad: 21, m3: 190453.0, km: 13.49, poblacion: 31760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 30232.7, km: 57.21, poblacion: 3758, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 40, m3: 245932.7, m3AguaPotable: 0.0, km: 72.02, poblacion: 38230 },
+  ejecutadasTotal: { cantidad: 41, m3: 257347.7, m3AguaPotable: 0.0, km: 72.62, poblacion: 43230 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P     ', inicio: '08/10/2026', fin: '06/11/2026', volAcum: 8300.0, kmAcum: 0.18, poblacion: 144 },
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD   ', inicio: '09/10/2026', fin: '22/11/2026', volAcum: 1640.0, kmAcum: 0.04, poblacion: 45024 },
-    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE TRAMO III DEL SECTOR PUENTE SAN JOSE, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD  ', inicio: '16/10/2026', fin: '28/10/2026', volAcum: 6900.0, kmAcum: 0.4, poblacion: 5000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -70,7 +69,8 @@ export default {
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00778'], estado: 'operativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'John Deere', codigos: ['D001604', 'D001607'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10075'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'John Deere', codigos: ['810399', '810409'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810399'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['810409'], estado: 'inoperativo' },
     { tipo: 'Mini cargador', cantidad: 1, marca: 'John Deere', codigos: ['282259'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAK-053'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGV-951'], estado: 'operativo' },
