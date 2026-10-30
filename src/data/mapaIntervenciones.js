@@ -9857,24 +9857,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10648,
-    "lat": -16.309689,
-    "lng": -71.538331,
-    "estado": "En ejecución",
-    "tipo": "Emergencia",
-    "provincia": "Arequipa",
-    "distrito": "Cayma",
-    "sector": "Fundo  Cabrería 2Da Etapa",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".   DS180-R ",
-    "ficha": "151-2026-LD-E-ARE",
-    "fechaInicio": "27/10/2026",
-    "fechaFin": "04/11/2026",
-    "poblacion": null,
-    "volumen": 1838.81,
-    "km": 0.32,
-    "enlace": null
-  },
-  {
     "id": 10645,
     "lat": -16.306886,
     "lng": -71.543093,
@@ -9890,6 +9872,24 @@ const mapaIntervenciones = {
     "poblacion": 270,
     "volumen": 1934.5,
     "km": 0.165,
+    "enlace": null
+  },
+  {
+    "id": 10648,
+    "lat": -16.309689,
+    "lng": -71.538331,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Arequipa",
+    "distrito": "Cayma",
+    "sector": "Fundo  Cabrería 2Da Etapa",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".   DS180-R  ",
+    "ficha": "151-2026-LD-E-ARE",
+    "fechaInicio": "27/10/2026",
+    "fechaFin": "04/11/2026",
+    "poblacion": 8000,
+    "volumen": 1838.81,
+    "km": 0.32,
     "enlace": null
   },
   {
