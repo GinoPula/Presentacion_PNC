@@ -9744,8 +9744,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 9720,
-    "km": 0.43,
+    "volumen": 10500,
+    "km": 0.46,
     "enlace": null
   },
   {
@@ -9780,7 +9780,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/10/2026",
     "fechaFin": "12/11/2026",
     "poblacion": 640,
-    "volumen": 390,
+    "volumen": 420,
     "km": 0,
     "enlace": null
   },
@@ -9798,8 +9798,8 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 8000,
-    "volumen": 4513.97,
-    "km": 1.02,
+    "volumen": 4822.37,
+    "km": 1.1,
     "enlace": null
   },
   {
@@ -9816,7 +9816,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/11/2026",
     "poblacion": 504,
-    "volumen": 225,
+    "volumen": 255,
     "km": 0,
     "enlace": null
   },
@@ -9834,8 +9834,8 @@ const mapaIntervenciones = {
     "fechaInicio": "22/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 800,
-    "volumen": 2400,
-    "km": 0.22,
+    "volumen": 2910,
+    "km": 0.27,
     "enlace": null
   },
   {
@@ -9852,8 +9852,8 @@ const mapaIntervenciones = {
     "fechaInicio": "27/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 8000,
-    "volumen": 1113.58,
-    "km": 0.18,
+    "volumen": 1989.84,
+    "km": 0.34,
     "enlace": null
   },
   {
@@ -9870,8 +9870,8 @@ const mapaIntervenciones = {
     "fechaInicio": "27/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": null,
-    "volumen": 1215.9,
-    "km": 0.22,
+    "volumen": 1838.81,
+    "km": 0.32,
     "enlace": null
   },
   {
@@ -9888,8 +9888,8 @@ const mapaIntervenciones = {
     "fechaInicio": "27/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 270,
-    "volumen": 1070,
-    "km": 0.1,
+    "volumen": 1934.5,
+    "km": 0.165,
     "enlace": null
   },
   {
@@ -9906,8 +9906,8 @@ const mapaIntervenciones = {
     "fechaInicio": "27/10/2026",
     "fechaFin": "13/11/2026",
     "poblacion": 830,
-    "volumen": 1134.56,
-    "km": 0.22,
+    "volumen": 1587.68,
+    "km": 0.26,
     "enlace": null
   }
 ],
