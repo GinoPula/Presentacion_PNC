@@ -15067,6 +15067,24 @@ const mapaIntervenciones = {
     "volumen": 1170,
     "km": 0.13,
     "enlace": null
+  },
+  {
+    "id": 10631,
+    "lat": -6.20078,
+    "lng": -77.112759,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Moyobamba",
+    "distrito": "Soritor",
+    "sector": "Luz Del Oriente",
+    "descripcion": " MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN    ",
+    "ficha": "044-2026-MTV-U-SAM",
+    "fechaInicio": "27/10/2026",
+    "fechaFin": "10/11/2026",
+    "poblacion": 700,
+    "volumen": 1320,
+    "km": 3.3,
+    "enlace": null
   }
 ],
   ucayali: [
