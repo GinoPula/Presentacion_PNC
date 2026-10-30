@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 37110.0, km: 2.08, poblacion: 4864, provincias: ['Tacna'] },
-    { tipo: 'Prevención', cantidad: 16, m3: 85695.0, km: 4.44, poblacion: 22714, provincias: ['Tacna'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 93295.0, km: 4.84, poblacion: 22964, provincias: ['Tacna'] },
     { tipo: 'Urgente atención', cantidad: 11, m3: 13718.8, km: 14.56, poblacion: 5828, provincias: ['Tacna'] },
   ],
-  ejecutadasTotal: { cantidad: 34, m3: 136523.8, m3AguaPotable: 4561.8, km: 21.08, poblacion: 33406 },
+  ejecutadasTotal: { cantidad: 35, m3: 144123.8, m3AguaPotable: 4561.8, km: 21.48, poblacion: 33656 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,10 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 210.0, kmAcum: 0.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'Tacna', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA       ', inicio: '19/10/2026', fin: '02/11/2026', volAcum: 7600.0, kmAcum: 0.4, poblacion: 250 },
-    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 105.0, kmAcum: 0.0, poblacion: 550 },
-    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA      ', inicio: '26/10/2026', fin: '09/11/2026', volAcum: 1400.0, kmAcum: 0.1, poblacion: 2389 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 225.0, kmAcum: 0.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 120.0, kmAcum: 0.0, poblacion: 550 },
+    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA      ', inicio: '26/10/2026', fin: '09/11/2026', volAcum: 2200.0, kmAcum: 0.13, poblacion: 2389 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

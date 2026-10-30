@@ -2368,7 +2368,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "11/12/2026",
     "poblacion": 420,
-    "volumen": 210,
+    "volumen": 225,
     "km": 0,
     "enlace": null
   },
@@ -2394,12 +2394,12 @@ const mapaIntervenciones = {
     "id": 10608,
     "lat": -17.86128,
     "lng": -70.12324,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Tacna",
     "distrito": "Tacna",
     "sector": "Aguas Abajo De Balneario Calientes",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA       ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BALNEARIO CALIENTES, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA        ",
     "ficha": "052-2026-LD-P-TAC",
     "fechaInicio": "19/10/2026",
     "fechaFin": "02/11/2026",
@@ -2422,7 +2422,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/12/2026",
     "poblacion": 550,
-    "volumen": 105,
+    "volumen": 120,
     "km": 0,
     "enlace": null
   },
@@ -2440,8 +2440,8 @@ const mapaIntervenciones = {
     "fechaInicio": "26/10/2026",
     "fechaFin": "09/11/2026",
     "poblacion": 2389,
-    "volumen": 1400,
-    "km": 0.1,
+    "volumen": 2200,
+    "km": 0.13,
     "enlace": null
   }
 ],
