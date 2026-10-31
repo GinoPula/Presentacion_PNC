@@ -17,8 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 11375.0, kmAcum: 0.13, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 5083.0, kmAcum: 0.2, poblacion: 23 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 12035.0, kmAcum: 0.15, poblacion: 2078 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 6366.0, kmAcum: 0.23, poblacion: 23 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
