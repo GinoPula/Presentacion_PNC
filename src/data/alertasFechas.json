@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "31/10/2026",
-    "horaCorte": "04:45",
+    "horaCorte": "05:15",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "fechaInicio": "20/11/1026",
       "fechaFin": "30/11/2010",
-      "diasAtraso": 365222
+      "diasAtraso": 365223
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "D.S. N° 065-2026-PCM",
       "fechaInicio": "23/06/2026",
       "fechaFin": "04/07/2026",
-      "diasAtraso": 129
+      "diasAtraso": 130
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "CONVENIO Nº017-2025 / PLIA",
       "fechaInicio": "08/10/2026",
       "fechaFin": "31/10/2026",
-      "diasAtraso": 22
+      "diasAtraso": 23
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "10/10/2026",
       "fechaFin": "24/10/2026",
-      "diasAtraso": 20
+      "diasAtraso": 21
     },
     {
       "n": 5,
@@ -99,7 +99,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "12/10/2026",
       "fechaFin": "26/10/2026",
-      "diasAtraso": 18
+      "diasAtraso": 19
     },
     {
       "n": 6,
@@ -118,7 +118,7 @@
       "marcoLegal": "CONVENIO N° 061 - 2025 VIVIENDA/VMVU/PNC",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 15
+      "diasAtraso": 16
     },
     {
       "n": 7,
@@ -137,7 +137,7 @@
       "marcoLegal": "CONVENIO Nº077-2025-VIVIENDA/VMVU/PNC - PLIA",
       "fechaInicio": "15/10/2026",
       "fechaFin": "28/10/2026",
-      "diasAtraso": 15
+      "diasAtraso": 16
     },
     {
       "n": 8,
@@ -156,11 +156,11 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
       "fechaInicio": "18/10/2026",
       "fechaFin": "01/11/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
     },
     {
       "n": 9,
-      "idIntervencion": "9657",
+      "idIntervencion": "9684",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
       "tipo": "PREVENCIÓN",
@@ -168,14 +168,14 @@
       "deptoLabel": "Piura",
       "regionId": "piura",
       "provincia": "Morropon",
-      "distrito": "Chulucanas",
-      "sector": "Batanes",
-      "ficha": "FTI Nº 016-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DEL DREN BATANES - DISTRITO DE CHULUCANAS - PROVINCIA MORROPÓN - DEPARTAMENTO DE PIURA\" -00",
-      "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02-2025-PLIA",
+      "distrito": "Morropon",
+      "sector": "Sector Lopez Albujar",
+      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
       "fechaInicio": "19/10/2026",
-      "fechaFin": "28/10/2026",
-      "diasAtraso": 11
+      "fechaFin": "24/10/2026",
+      "diasAtraso": 12
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 6)/ANA",
       "fechaInicio": "19/10/2026",
       "fechaFin": "02/11/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 11,
@@ -213,10 +213,29 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "19/10/2026",
       "fechaFin": "29/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 12,
+      "idIntervencion": "9657",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "Batanes",
+      "ficha": "FTI Nº 016-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DEL DREN BATANES - DISTRITO DE CHULUCANAS - PROVINCIA MORROPÓN - DEPARTAMENTO DE PIURA\" -00",
+      "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02-2025-PLIA",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 12
+    },
+    {
+      "n": 13,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -232,67 +251,10 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
       "fechaInicio": "19/10/2026",
       "fechaFin": "27/10/2026",
-      "diasAtraso": 11
-    },
-    {
-      "n": 13,
-      "idIntervencion": "9684",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Sector Lopez Albujar",
-      "ficha": "FTI Nº 029-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR LOPEZ ALBUJAR – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "ADENDA N° 2-2025 CONVENIO N° 033-2023-PLIA",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "24/10/2026",
-      "diasAtraso": 11
+      "diasAtraso": 12
     },
     {
       "n": 14,
-      "idIntervencion": "4073",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Jaen",
-      "distrito": "Jaen",
-      "sector": "C.p. San Miguel De Las Naranjas",
-      "ficha": "N°018-2026-LDP-AMZ",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA",
-      "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 10
-    },
-    {
-      "n": 15,
-      "idIntervencion": "9588",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Chulucanas",
-      "sector": "Centro Poblado Vicus",
-      "ficha": "FTI N°054-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
-      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 10
-    },
-    {
-      "n": 16,
       "idIntervencion": "9854",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -308,7 +270,45 @@
       "marcoLegal": "CONVENIO Nº032-2023-ADENDA 02",
       "fechaInicio": "20/10/2026",
       "fechaFin": "03/11/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
+    },
+    {
+      "n": 15,
+      "idIntervencion": "4073",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Jaen",
+      "distrito": "Jaen",
+      "sector": "C.p. San Miguel De Las Naranjas",
+      "ficha": "N°018-2026-LDP-AMZ",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SAN MIGUEL, DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+415.78 K.M., DEL CENTRO POBLADO SAN MIGUEL DE LAS NARANJAS , DISTRITO DE JAÉN, PROVINCIA DE JAÉN, REGION CAJAMARCA",
+      "marcoLegal": "CONVENIO N° 192-2019-VIVIENDA",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 11
+    },
+    {
+      "n": 16,
+      "idIntervencion": "9588",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Chulucanas",
+      "sector": "Centro Poblado Vicus",
+      "ficha": "FTI N°054-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CENTRO VICUS, DEL CENTRO POBLADO DE VICUS, DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA-00",
+      "marcoLegal": "ADENDA Nº 02 - 2025 (CONVENIO N° 023 - 2023 VIVIENDA/VMVU/PNC)",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 11
     },
     {
       "n": 17,
@@ -327,7 +327,7 @@
       "marcoLegal": "CONVENIO Nº042-2026",
       "fechaInicio": "21/10/2026",
       "fechaFin": "19/11/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 18,
@@ -346,29 +346,10 @@
       "marcoLegal": "CONVENIO N 077-2025-VIVIENDA-VMVU-PNC-PLIA",
       "fechaInicio": "21/10/2026",
       "fechaFin": "04/11/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 19,
-      "idIntervencion": "9660",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Morropon",
-      "sector": "Santa Rosa",
-      "ficha": "FTI Nº 030-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR SANTA ROSA – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
-      "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-PLIA",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "26/10/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 20,
       "idIntervencion": "10628",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -384,7 +365,26 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "22/10/2026",
       "fechaFin": "25/10/2026",
-      "diasAtraso": 8
+      "diasAtraso": 9
+    },
+    {
+      "n": 20,
+      "idIntervencion": "9660",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Morropon",
+      "sector": "Santa Rosa",
+      "ficha": "FTI Nº 030-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR SANTA ROSA – DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA -00",
+      "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-PLIA",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "26/10/2026",
+      "diasAtraso": 9
     },
     {
       "n": 21,
@@ -403,7 +403,7 @@
       "marcoLegal": "CONVENIO Nº029-2026",
       "fechaInicio": "26/10/2026",
       "fechaFin": "11/11/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 22,
@@ -422,7 +422,7 @@
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "fechaInicio": "26/10/2026",
       "fechaFin": "01/11/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 23,
@@ -441,29 +441,10 @@
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
       "fechaInicio": "27/10/2026",
       "fechaFin": "12/11/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 24,
-      "idIntervencion": "10547",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Picota",
-      "distrito": "San Hilarion",
-      "sector": "San Hilarión",
-      "ficha": "041-2026-LD-PI-SAM",
-      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
-      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
-      "fechaInicio": "13/10/2026",
-      "fechaFin": "28/10/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 25,
       "idIntervencion": "9654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -479,7 +460,26 @@
       "marcoLegal": "CONVENIO N° 077 - 2025 VIVIENDA/VMVU/PNC-PLIA",
       "fechaInicio": "28/10/2026",
       "fechaFin": "04/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 25,
+      "idIntervencion": "10644",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Puno",
+      "distrito": "Vilque",
+      "sector": "Yanarico Central",
+      "ficha": "068-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO",
+      "marcoLegal": "CONVENIO Nº002-2025-ADENDA 01",
+      "fechaInicio": "28/10/2026",
+      "fechaFin": "06/11/2026",
+      "diasAtraso": 3
     },
     {
       "n": 26,
@@ -498,48 +498,29 @@
       "marcoLegal": "CONVENIO Nº001-2026 / PLIA",
       "fechaInicio": "28/10/2026",
       "fechaFin": "26/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 27,
-      "idIntervencion": "10644",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Puno",
-      "distrito": "Vilque",
-      "sector": "Yanarico Central",
-      "ficha": "068-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO",
-      "marcoLegal": "CONVENIO Nº002-2025-ADENDA 01",
-      "fechaInicio": "28/10/2026",
-      "fechaFin": "06/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 28,
-      "idIntervencion": "10091",
+      "idIntervencion": "10547",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
       "tipo": "PREVENCIÓN",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Tumbes",
-      "sector": "",
-      "ficha": "042-2026-LD-PI-TUM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00",
-      "marcoLegal": "CONVENIO N° 033-2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "20/10/2026",
-      "fechaFin": "29/10/2026",
-      "diasAtraso": 1
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Picota",
+      "distrito": "San Hilarion",
+      "sector": "San Hilarión",
+      "ficha": "041-2026-LD-PI-SAM",
+      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
+      "fechaInicio": "13/10/2026",
+      "fechaFin": "28/10/2026",
+      "diasAtraso": 3
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "10342",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -555,6 +536,177 @@
       "marcoLegal": "ADENDA N° 03 - CONVENIO N° 012-2022-VIVIENDA/VMVU/PNC",
       "fechaInicio": "29/10/2026",
       "fechaFin": "01/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 29,
+      "idIntervencion": "10091",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Tumbes",
+      "sector": "",
+      "ficha": "042-2026-LD-PI-TUM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL, EN EL SECTOR CIUDADELA DE NOÉ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”-00",
+      "marcoLegal": "CONVENIO N° 033-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "20/10/2026",
+      "fechaFin": "29/10/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 30,
+      "idIntervencion": "10579",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Coyona",
+      "ficha": "FTI N° 157-2026-LD-E-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO A AMBOS DEL CAUCES DE LA QUEBRADA SINGUCATE, DEL SECTOR COYONA, DISTRITO DE CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "28/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 31,
+      "idIntervencion": "10578",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Potreros",
+      "ficha": "FTI N° 156-2026-LD-E-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA LOS POTREROS, SECTOR POTREROS, DISTRITO CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "01/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 32,
+      "idIntervencion": "10604",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Shuturumbe",
+      "ficha": "FTI N° 158-2026-LD-E-PIU.",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO A AMBOS MARGENES DEL CAUCE DE LA QUEBRADA SHUTURUMBE, DEL SECTOR SHUTURUMBE, DISTRITO DE CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
+      "marcoLegal": "D.S N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "28/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 33,
+      "idIntervencion": "10552",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Huarmaca",
+      "sector": "El Progreso",
+      "ficha": "FTI N° 154-2026-LD-E-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA EL PROGRESO, SECTOR EL PROGRESO, DISTRITO HUARMACA, PROVINCIA HUANCABAMBA, DEPARTAMENTO DE PIURA DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "04/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 34,
+      "idIntervencion": "10559",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Miguel",
+      "distrito": "San Miguel",
+      "sector": "Monte Alegre",
+      "ficha": "FTI N° 060-2026-LD-PI-CAJ",
+      "descripcion": "“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO JEQUETEPEQUE, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR MONTE ALEGRE, DISTRITO DE SAN MIGUEL, PROVINCIA DE SAN MIGUEL, DEPARTAMENTO DE CAJAMARCA”.",
+      "marcoLegal": "CONVENIO N° 210-2019-VIVIENDA (ADENDA N° 7)",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 35,
+      "idIntervencion": "10595",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Dos De Mayo",
+      "distrito": "La Union",
+      "sector": "Urbano",
+      "ficha": "N° 046-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 36,
+      "idIntervencion": "10488",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Carlos Fermin Fitzcarrald",
+      "distrito": "San Luis",
+      "sector": "Chacapata",
+      "ficha": "115-2026-LDE-ANC",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "11/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 37,
+      "idIntervencion": "10551",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Huarmaca",
+      "sector": "Hualcas",
+      "ficha": "FTI N° 159-2026-LD-E-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA CEMENTERIO, SECTOR HUALCAS, DISTRITO HUARMACA, PROVINCIA HUANCABAMBA, DEPARTAMENTO DE PIURA DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "21/11/2026",
       "diasAtraso": 1
     }
   ]

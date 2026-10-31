@@ -48,11 +48,11 @@ export default {
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', sector: 'Puente Catatay – Puente Mercado De Papas (2+650 Al Km 5+240 )/Rio Chumbao', ficha: 'FTI 006-2026-LD-P-APU', descripcion: '  LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 2+650 AL KM 5+240 (PUENTE CATATAY – PUENTE MERCADO DE PAPAS) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00       ', fechaInicio: '17/12/2026', fechaFin: '15/01/2027', metaVol: 7667.01, metaKm: 2590.0, poblacion: 1250 },
   ],
 
-  conveniosCount: 16,
+  conveniosCount: 15,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '4 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '11 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '10 convenios vigentes' },
   ],
 
   flota: [
