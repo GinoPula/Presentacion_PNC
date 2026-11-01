@@ -4213,24 +4213,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1iS0sSzrRe8yfEQVDxjfy5SZHcVnFrkbQ/view?usp=drive_link"
   },
   {
-    "id": 10237,
-    "lat": -9.501518,
-    "lng": -77.510887,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Huaraz",
-    "distrito": "Independencia",
-    "sector": "Huanchac",
-    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A LOS CENTROS POBLADOS DEL DISTRITO DE INDEPENDENCIA 4TA ETAPA, PROVINCIA DE HUARAZ, REGIÓN ANCASH  ",
-    "ficha": "083-2026-AAU-ANC",
-    "fechaInicio": "19/05/2026",
-    "fechaFin": "07/06/2026",
-    "poblacion": 750,
-    "volumen": 120,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10240,
     "lat": -9.846656,
     "lng": -78.040067,
@@ -4247,6 +4229,24 @@ const mapaIntervenciones = {
     "volumen": 5927,
     "km": 0.8,
     "enlace": "https://drive.google.com/file/d/1moHuY2bXjI-N2Nhj533S6MZE8JA6-3yJ/view?usp=drive_link"
+  },
+  {
+    "id": 10237,
+    "lat": -9.501518,
+    "lng": -77.510887,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Huaraz",
+    "distrito": "Independencia",
+    "sector": "Huanchac",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE A LOS CENTROS POBLADOS DEL DISTRITO DE INDEPENDENCIA 4TA ETAPA, PROVINCIA DE HUARAZ, REGIÓN ANCASH  ",
+    "ficha": "083-2026-AAU-ANC",
+    "fechaInicio": "19/05/2026",
+    "fechaFin": "07/06/2026",
+    "poblacion": 750,
+    "volumen": 120,
+    "km": 0,
+    "enlace": null
   },
   {
     "id": 10260,
@@ -4519,24 +4519,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10376,
-    "lat": -9.084684,
-    "lng": -77.776273,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Yungay",
-    "distrito": "Yungay",
-    "sector": "Cayasbamba",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CAYASBAMBA, CASERÍO DE CAYASBAMBA, DISTRITO Y PROVINCIA DE YUNGAY       ",
-    "ficha": "093-2026-LDP-ANC",
-    "fechaInicio": "03/08/2026",
-    "fechaFin": "12/08/2026",
-    "poblacion": 2305,
-    "volumen": 1920,
-    "km": 0.48,
-    "enlace": null
-  },
-  {
     "id": 10398,
     "lat": -9.632828,
     "lng": -77.497163,
@@ -4570,6 +4552,24 @@ const mapaIntervenciones = {
     "poblacion": 45,
     "volumen": 3145,
     "km": 0.55,
+    "enlace": null
+  },
+  {
+    "id": 10376,
+    "lat": -9.084684,
+    "lng": -77.776273,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Yungay",
+    "distrito": "Yungay",
+    "sector": "Cayasbamba",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA CAYASBAMBA, CASERÍO DE CAYASBAMBA, DISTRITO Y PROVINCIA DE YUNGAY       ",
+    "ficha": "093-2026-LDP-ANC",
+    "fechaInicio": "03/08/2026",
+    "fechaFin": "12/08/2026",
+    "poblacion": 2305,
+    "volumen": 1920,
+    "km": 0.48,
     "enlace": null
   },
   {
@@ -4771,24 +4771,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10592,
-    "lat": -9.962572,
-    "lng": -77.85443,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Huarmey",
-    "distrito": "Huarmey",
-    "sector": "Huiña",
-    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
-    "ficha": "135-2026-LDP-ANC",
-    "fechaInicio": "05/10/2026",
-    "fechaFin": "04/11/2026",
-    "poblacion": 300,
-    "volumen": 7490,
-    "km": 0.655,
-    "enlace": null
-  },
-  {
     "id": 10593,
     "lat": -10.647989,
     "lng": -77.542669,
@@ -4804,6 +4786,24 @@ const mapaIntervenciones = {
     "poblacion": 111,
     "volumen": 2790,
     "km": 0.465,
+    "enlace": null
+  },
+  {
+    "id": 10592,
+    "lat": -9.962572,
+    "lng": -77.85443,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huarmey",
+    "distrito": "Huarmey",
+    "sector": "Huiña",
+    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
+    "ficha": "135-2026-LDP-ANC",
+    "fechaInicio": "05/10/2026",
+    "fechaFin": "04/11/2026",
+    "poblacion": 300,
+    "volumen": 7490,
+    "km": 0.655,
     "enlace": null
   },
   {
@@ -4876,6 +4876,24 @@ const mapaIntervenciones = {
     "poblacion": 342,
     "volumen": 1280,
     "km": 0.08,
+    "enlace": null
+  },
+  {
+    "id": 10488,
+    "lat": -9.090516,
+    "lng": -77.317987,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Carlos Fermin Fitzcarrald",
+    "distrito": "San Luis",
+    "sector": "Chacapata",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R   ",
+    "ficha": "115-2026-LDE-ANC",
+    "fechaInicio": "01/11/2026",
+    "fechaFin": "13/11/2026",
+    "poblacion": 500,
+    "volumen": 5312,
+    "km": 0.83,
     "enlace": null
   }
 ],
@@ -15064,7 +15082,7 @@ const mapaIntervenciones = {
     "fechaInicio": "12/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 1125,
-    "volumen": 480,
+    "volumen": 585,
     "km": 0,
     "enlace": null
   },
