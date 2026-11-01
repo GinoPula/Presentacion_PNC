@@ -8271,24 +8271,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10470,
-    "lat": -12.143081,
-    "lng": -76.818925,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Cieneguilla",
-    "sector": "Tinajas",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.        ",
-    "ficha": "123-2026-LDP-LIM",
-    "fechaInicio": "03/09/2026",
-    "fechaFin": "16/10/2026",
-    "poblacion": 1500,
-    "volumen": 16104,
-    "km": 0.55,
-    "enlace": null
-  },
-  {
     "id": 10439,
     "lat": -11.920428,
     "lng": -77.075203,
@@ -8304,6 +8286,24 @@ const mapaIntervenciones = {
     "poblacion": 8788,
     "volumen": 4272,
     "km": 0.331,
+    "enlace": null
+  },
+  {
+    "id": 10470,
+    "lat": -12.143081,
+    "lng": -76.818925,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Cieneguilla",
+    "sector": "Tinajas",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS TRAMO I, DEL SECTOR TINAJAS, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.        ",
+    "ficha": "123-2026-LDP-LIM",
+    "fechaInicio": "03/09/2026",
+    "fechaFin": "16/10/2026",
+    "poblacion": 1500,
+    "volumen": 16104,
+    "km": 0.55,
     "enlace": null
   },
   {
@@ -8523,24 +8523,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10581,
-    "lat": -11.944755,
-    "lng": -77.092183,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "San Martin De Porres",
-    "sector": "Puente El Sol",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE EL SOL, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.     ",
-    "ficha": "137-2026-LDP-LIM",
-    "fechaInicio": "07/10/2026",
-    "fechaFin": "17/10/2026",
-    "poblacion": 4223,
-    "volumen": 3600,
-    "km": 0.2,
-    "enlace": null
-  },
-  {
     "id": 10594,
     "lat": -11.957143,
     "lng": -76.796489,
@@ -8556,6 +8538,24 @@ const mapaIntervenciones = {
     "poblacion": 1000,
     "volumen": 7900,
     "km": 0.25,
+    "enlace": null
+  },
+  {
+    "id": 10581,
+    "lat": -11.944755,
+    "lng": -77.092183,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "San Martin De Porres",
+    "sector": "Puente El Sol",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA DEL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE EL SOL, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.     ",
+    "ficha": "137-2026-LDP-LIM",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "17/10/2026",
+    "poblacion": 4223,
+    "volumen": 3600,
+    "km": 0.2,
     "enlace": null
   },
   {
@@ -8736,6 +8736,24 @@ const mapaIntervenciones = {
     "poblacion": 442,
     "volumen": 5625,
     "km": 0.25,
+    "enlace": null
+  },
+  {
+    "id": 10479,
+    "lat": -12.587547,
+    "lng": -75.946731,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Yauyos",
+    "distrito": "Yauyos",
+    "sector": "Sector Critico N° 02-Puente Auco",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+160 HASTA LA PROGRESIVA 0+320) KM, EN EL SECTOR CRÍTICO N°02: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA     ",
+    "ficha": "125-2026-LDP-LIM",
+    "fechaInicio": "31/10/2026",
+    "fechaFin": "14/11/2026",
+    "poblacion": 98,
+    "volumen": 10272.5,
+    "km": 0.16,
     "enlace": null
   },
   {
