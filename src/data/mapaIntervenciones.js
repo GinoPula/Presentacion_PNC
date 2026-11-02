@@ -8721,6 +8721,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10623,
+    "lat": -11.949514,
+    "lng": -77.095065,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "San Martin De Porres",
+    "sector": "Puente Lomas De Chillon-Sector 02",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE LOMAS DE CHILLÓN-SECTOR 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ",
+    "ficha": "143-2026-LDP-LIM",
+    "fechaInicio": "28/10/2026",
+    "fechaFin": "11/11/2026",
+    "poblacion": 2543,
+    "volumen": 3504,
+    "km": 0.073,
+    "enlace": null
+  },
+  {
     "id": 10624,
     "lat": -12.018408,
     "lng": -76.791233,
@@ -8772,24 +8790,6 @@ const mapaIntervenciones = {
     "poblacion": 98,
     "volumen": 10272.5,
     "km": 0.16,
-    "enlace": null
-  },
-  {
-    "id": 10623,
-    "lat": -11.949514,
-    "lng": -77.095065,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "San Martin De Porres",
-    "sector": "Puente Lomas De Chillon-Sector 02",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR PUENTE LOMAS DE CHILLÓN-SECTOR 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”. ",
-    "ficha": "143-2026-LDP-LIM",
-    "fechaInicio": "28/11/2026",
-    "fechaFin": "12/12/2026",
-    "poblacion": 2543,
-    "volumen": 3504,
-    "km": 0.073,
     "enlace": null
   }
 ],
