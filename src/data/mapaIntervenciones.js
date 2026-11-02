@@ -4465,24 +4465,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10351,
-    "lat": -9.70299,
-    "lng": -77.458306,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Urpay",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA URPAY, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
-    "ficha": "087-2026-LDP-ANC",
-    "fechaInicio": "15/07/2026",
-    "fechaFin": "18/07/2026",
-    "poblacion": 160,
-    "volumen": 2426,
-    "km": 0.211,
-    "enlace": null
-  },
-  {
     "id": 10312,
     "lat": -9.560179,
     "lng": -77.54003,
@@ -4498,6 +4480,24 @@ const mapaIntervenciones = {
     "poblacion": 125,
     "volumen": 3357,
     "km": 0.201,
+    "enlace": null
+  },
+  {
+    "id": 10351,
+    "lat": -9.70299,
+    "lng": -77.458306,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Urpay",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA URPAY, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH     ",
+    "ficha": "087-2026-LDP-ANC",
+    "fechaInicio": "15/07/2026",
+    "fechaFin": "18/07/2026",
+    "poblacion": 160,
+    "volumen": 2426,
+    "km": 0.211,
     "enlace": null
   },
   {
@@ -4537,24 +4537,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10399,
-    "lat": -9.73564,
-    "lng": -77.441893,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Recuay",
-    "distrito": "Recuay",
-    "sector": "Poqrak",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA POQRAK, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH   ",
-    "ficha": "100-2026-LDP-ANC",
-    "fechaInicio": "03/08/2026",
-    "fechaFin": "12/08/2026",
-    "poblacion": 45,
-    "volumen": 3145,
-    "km": 0.55,
-    "enlace": null
-  },
-  {
     "id": 10376,
     "lat": -9.084684,
     "lng": -77.776273,
@@ -4588,6 +4570,24 @@ const mapaIntervenciones = {
     "poblacion": 127,
     "volumen": 7300,
     "km": 0.365,
+    "enlace": null
+  },
+  {
+    "id": 10399,
+    "lat": -9.73564,
+    "lng": -77.441893,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Recuay",
+    "distrito": "Recuay",
+    "sector": "Poqrak",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA POQRAK, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH   ",
+    "ficha": "100-2026-LDP-ANC",
+    "fechaInicio": "03/08/2026",
+    "fechaFin": "12/08/2026",
+    "poblacion": 45,
+    "volumen": 3145,
+    "km": 0.55,
     "enlace": null
   },
   {
@@ -4658,8 +4658,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 7456,
-    "volumen": 20560,
-    "km": 2.389,
+    "volumen": 21420,
+    "km": 2.489,
     "enlace": null
   },
   {
@@ -4717,24 +4717,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10429,
-    "lat": -10.640974,
-    "lng": -77.525245,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Ocros",
-    "distrito": "Cochas",
-    "sector": "Cochas",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH      ",
-    "ficha": "103-2026-LDP-ANC",
-    "fechaInicio": "18/09/2026",
-    "fechaFin": "03/10/2026",
-    "poblacion": 340,
-    "volumen": 11595,
-    "km": 0.6,
-    "enlace": null
-  },
-  {
     "id": 10528,
     "lat": -9.598056,
     "lng": -77.51205,
@@ -4750,6 +4732,24 @@ const mapaIntervenciones = {
     "poblacion": 183,
     "volumen": 0,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10429,
+    "lat": -10.640974,
+    "lng": -77.525245,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Ocros",
+    "distrito": "Cochas",
+    "sector": "Cochas",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO PATIVILCA EN LA LOCALIDAD DE COCHAS, DISTRITO DE COCHAS, PROVINCIA DE OCROS, DEPARTAMENTO DE ÁNCASH      ",
+    "ficha": "103-2026-LDP-ANC",
+    "fechaInicio": "18/09/2026",
+    "fechaFin": "03/10/2026",
+    "poblacion": 340,
+    "volumen": 11595,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -4828,12 +4828,12 @@ const mapaIntervenciones = {
     "id": 10555,
     "lat": -8.903402,
     "lng": -78.520729,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Santa",
     "distrito": "Chimbote",
     "sector": "Cascajal Bajo – La Cuadra",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P   ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P    ",
     "ficha": "116-2026-LDE-ANC",
     "fechaInicio": "07/10/2026",
     "fechaFin": "31/10/2026",
@@ -4893,7 +4893,7 @@ const mapaIntervenciones = {
     "fechaFin": "27/10/2026",
     "poblacion": 1661,
     "volumen": 3622,
-    "km": 0.175,
+    "km": 0.225,
     "enlace": null
   },
   {
@@ -4930,6 +4930,24 @@ const mapaIntervenciones = {
     "poblacion": 500,
     "volumen": 800,
     "km": 0.1,
+    "enlace": null
+  },
+  {
+    "id": 10556,
+    "lat": -8.926452,
+    "lng": -78.543394,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "sector": "Cascajal",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ",
+    "ficha": "117-2026-LDE-ANC",
+    "fechaInicio": "02/11/2026",
+    "fechaFin": "18/11/2026",
+    "poblacion": 120,
+    "volumen": 104622.5,
+    "km": 3.1,
     "enlace": null
   }
 ],

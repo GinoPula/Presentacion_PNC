@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "02/11/2026",
-    "horaCorte": "23:11",
+    "horaCorte": "23:42",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -21,10 +21,10 @@
       "fechaInicio": "16/10/2026",
       "fechaFin": "27/10/2026",
       "maquinaria": [
-        "REMOLCADOR ( EAJ-560)",
-        "CAMIONETA ( EAJ-733)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
         "TRACTOR SOBRE ORUGA ( 82454)",
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)"
+        "REMOLCADOR ( EAJ-560)",
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -96,31 +96,26 @@
       "fechaFin": "04/11/2026",
       "maquinaria": [
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "REMOLCADOR ( EAJ-560)",
+        "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10127)",
-        "CAMIONETA ( EAJ-733)"
+        "REMOLCADOR ( EAJ-560)"
       ]
     },
     {
       "n": 6,
-      "idIntervencion": "10555",
+      "idIntervencion": "10556",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
       "regionId": "ancash",
       "provincia": "Santa",
       "distrito": "Chimbote",
-      "sector": "Cascajal Bajo – La Cuadra",
+      "sector": "Cascajal",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
-      "fechaInicio": "07/10/2026",
-      "fechaFin": "31/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( D523228)",
-        "REMOLCADOR ( EAJ-560)",
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "CAMIONETA ( EAJ-733)"
-      ]
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
+      "fechaInicio": "02/11/2026",
+      "fechaFin": "18/11/2026",
+      "maquinaria": []
     },
     {
       "n": 7,
@@ -137,9 +132,9 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
-        "CAMIONETA ( EAJ-733)",
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
         "REMOLCADOR ( EAJ-560)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10129)"
       ]
     },
@@ -178,36 +173,27 @@
       "fechaInicio": "15/10/2026",
       "fechaFin": "24/11/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( JLX00277)",
         "TRACTOR SOBRE ORUGA ( 82538)",
         "VOLQUETE ( EGM-780)",
-        "REMOLCADOR ( EGV-851)",
-        "CARGADOR FRONTAL ( JLX00277)"
+        "REMOLCADOR ( EGV-851)"
       ]
     },
     {
       "n": 10,
-      "idIntervencion": "10533",
+      "idIntervencion": "10648",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
       "regionId": "arequipa",
       "provincia": "Arequipa",
       "distrito": "Cayma",
-      "sector": "Los Ángeles",
+      "sector": "Fundo Cabrería 2da Etapa",
       "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P",
-      "fechaInicio": "16/10/2026",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "27/10/2026",
       "fechaFin": "04/11/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGM-982)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)",
-        "MINI CARGADOR ( 273673)",
-        "VOLQUETE ( EGV-786)",
-        "CARGADOR FRONTAL ( M5K00377)",
-        "RETROEXCAVADORA ( 286752)",
-        "VOLQUETE ( EGV-823)"
-      ]
+      "maquinaria": []
     },
     {
       "n": 11,
@@ -227,22 +213,6 @@
     },
     {
       "n": 12,
-      "idIntervencion": "10648",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Fundo Cabrería 2da Etapa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "04/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 13,
       "idIntervencion": "10657",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -256,6 +226,31 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "13/11/2026",
       "maquinaria": []
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10533",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Los Ángeles",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "04/11/2026",
+      "maquinaria": [
+        "CARGADOR FRONTAL ( M5K00377)",
+        "RETROEXCAVADORA ( 286752)",
+        "MINI CARGADOR ( 273673)",
+        "VOLQUETE ( EGV-786)",
+        "VOLQUETE ( EGV-823)",
+        "REMOLCADOR ( EGM-982)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "CAMIONETA ( EGM-015)"
+      ]
     },
     {
       "n": 14,
@@ -288,12 +283,12 @@
       "fechaInicio": "07/10/2026",
       "fechaFin": "05/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-773)",
         "REMOLCADOR ( EGM-982)",
+        "CAMIONETA ( EGM-015)",
         "EXCAVADORA HIDRAULICA ( D523227)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "VOLQUETE ( EGM-773)",
         "VOLQUETE ( EGM-822)",
-        "CAMIONETA ( EGM-015)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
       ]
     },
     {
@@ -311,12 +306,12 @@
       "fechaInicio": "22/10/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGM-982)",
-        "MINI CARGADOR ( 282249)",
-        "CARGADOR FRONTAL ( M5K00378)",
         "VOLQUETE ( EGV-782)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "CAMIONETA ( EGM-015)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
+        "CARGADOR FRONTAL ( M5K00378)",
+        "REMOLCADOR ( EGM-982)",
+        "MINI CARGADOR ( 282249)"
       ]
     },
     {
@@ -392,10 +387,10 @@
       "fechaFin": "11/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10119)",
+        "EXCAVADORA HIDRAULICA ( TJT10119)",
         "VOLQUETE ( EGN-501)",
         "VOLQUETE ( EGM-790)",
-        "TRACTOR SOBRE ORUGA ( 81395)",
-        "EXCAVADORA HIDRAULICA ( TJT10119)"
+        "TRACTOR SOBRE ORUGA ( 81395)"
       ]
     },
     {
@@ -450,9 +445,9 @@
       "fechaFin": "05/11/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-810)",
-        "VOLQUETE ( EGM-788)",
         "MOTONIVELADORA ( SZL03379)",
-        "CARGADOR FRONTAL ( M5K00334)"
+        "CARGADOR FRONTAL ( M5K00334)",
+        "VOLQUETE ( EGM-788)"
       ]
     },
     {
@@ -488,11 +483,11 @@
       "fechaInicio": "15/10/2026",
       "fechaFin": "02/11/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762462)",
-        "VOLQUETE ( EGV-774)",
+        "CARGADOR FRONTAL ( JLX00219)",
         "VOLQUETE ( EGV-835)",
+        "RODILLO COMPACTADOR ( H1762462)",
         "VOLQUETE ( EGV-848)",
-        "CARGADOR FRONTAL ( JLX00219)"
+        "VOLQUETE ( EGV-774)"
       ]
     },
     {
@@ -529,8 +524,8 @@
       "fechaInicio": "16/10/2026",
       "fechaFin": "30/10/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( D810408)",
         "CAMIONETA ( EGL-971)",
+        "EXCAVADORA HIDRAULICA ( D810408)",
         "REMOLCADOR ( EGO-046)",
         "PLATAFORMA (CAMA BAJA) ( EGO-137)"
       ]
@@ -570,9 +565,9 @@
       "fechaInicio": "06/10/2026",
       "fechaFin": "04/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10877)",
         "REMOLCADOR ( EGN-096)",
-        "CAMIONETA ( EGM-019)"
+        "CAMIONETA ( EGM-019)",
+        "EXCAVADORA HIDRAULICA ( A10877)"
       ]
     },
     {
@@ -610,8 +605,8 @@
       "fechaInicio": "16/10/2026",
       "fechaFin": "30/10/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-984)",
-        "EXCAVADORA HIDRAULICA ( 810397)"
+        "EXCAVADORA HIDRAULICA ( 810397)",
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
@@ -629,12 +624,12 @@
       "fechaInicio": "12/10/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-925)",
+        "TRACTOR SOBRE ORUGA ( 81386)",
+        "EXCAVADORA HIDRAULICA ( D523572)",
+        "TRACTOR SOBRE ORUGA ( 81386)",
         "VOLQUETE ( EGM-823)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
-        "REMOLCADOR ( EAJ-543)",
-        "EXCAVADORA HIDRAULICA ( D523572)"
+        "VOLQUETE ( EGM-925)",
+        "REMOLCADOR ( EAJ-543)"
       ]
     },
     {
@@ -688,9 +683,9 @@
       "fechaInicio": "22/10/2026",
       "fechaFin": "05/11/2026",
       "maquinaria": [
-        "CAMIONETA ( EGO-049)",
         "CARGADOR FRONTAL ( JLX00220)",
-        "VOLQUETE ( EGV-812)"
+        "VOLQUETE ( EGV-812)",
+        "CAMIONETA ( EGO-049)"
       ]
     },
     {
@@ -727,9 +722,9 @@
       "fechaInicio": "02/11/2026",
       "fechaFin": "16/11/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( D001612)",
+        "VOLQUETE ( EGV-796)",
         "VOLQUETE ( EGM-832)",
-        "VOLQUETE ( EGV-796)"
+        "CARGADOR FRONTAL ( D001612)"
       ]
     },
     {
@@ -747,8 +742,8 @@
       "fechaInicio": "08/10/2026",
       "fechaFin": "06/11/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81370)",
         "REMOLCADOR ( EAJ-379)",
+        "TRACTOR SOBRE ORUGA ( 81370)",
         "VOLQUETE ( EGV-818)",
         "CARGADOR FRONTAL ( D001604)",
         "EXCAVADORA HIDRAULICA ( 810399)",
@@ -770,10 +765,10 @@
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EAJ-379)",
         "CARGADOR FRONTAL ( D001607)",
-        "VOLQUETE ( EAJ-393)",
+        "REMOLCADOR ( EAJ-379)",
         "VOLQUETE ( EAJ-398)",
+        "VOLQUETE ( EAJ-393)",
         "EXCAVADORA HIDRAULICA ( TJT10075)"
       ]
     },
@@ -810,10 +805,10 @@
       "fechaInicio": "19/10/2026",
       "fechaFin": "05/11/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAK-067)",
+        "EXCAVADORA HIDRAULICA ( TJT10111)",
         "REMOLCADOR ( EAJ-387)",
-        "CAMIONETA ( EGL-972)",
-        "EXCAVADORA HIDRAULICA ( TJT10111)"
+        "PLATAFORMA (CAMA BAJA) ( EAK-067)",
+        "CAMIONETA ( EGL-972)"
       ]
     },
     {
@@ -831,11 +826,11 @@
       "fechaInicio": "02/09/2026",
       "fechaFin": "31/10/2026",
       "maquinaria": [
+        "CAMIONETA ( EGL-972)",
+        "TRACTOR SOBRE ORUGA ( AE800570)",
         "EXCAVADORA HIDRAULICA ( TJT10108)",
         "REMOLCADOR ( EGV-721)",
-        "PLATAFORMA (CAMA BAJA) ( EGW-174)",
-        "CAMIONETA ( EGL-972)",
-        "TRACTOR SOBRE ORUGA ( AE800570)"
+        "PLATAFORMA (CAMA BAJA) ( EGW-174)"
       ]
     },
     {
@@ -887,8 +882,8 @@
       "fechaInicio": "29/10/2026",
       "fechaFin": "12/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-497)",
         "EXCAVADORA HIDRAULICA ( TJT10120)",
+        "VOLQUETE ( EGN-497)",
         "VOLQUETE ( EGV-775)"
       ]
     },
@@ -925,8 +920,8 @@
       "fechaInicio": "19/10/2026",
       "fechaFin": "06/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10891)",
-        "VOLQUETE ( EGM-834)"
+        "VOLQUETE ( EGM-834)",
+        "EXCAVADORA HIDRAULICA ( A10891)"
       ]
     },
     {
@@ -945,8 +940,8 @@
       "fechaFin": "09/11/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05106)",
-        "VOLQUETE ( EGV-825)",
-        "CARGADOR FRONTAL ( D001610)"
+        "CARGADOR FRONTAL ( D001610)",
+        "VOLQUETE ( EGV-825)"
       ]
     },
     {
@@ -964,11 +959,11 @@
       "fechaInicio": "28/10/2026",
       "fechaFin": "07/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-840)",
         "CARGADOR FRONTAL ( JLX00293)",
         "VOLQUETE ( EGV-768)",
         "EXCAVADORA HIDRAULICA ( TJT10116)",
-        "TRACTOR SOBRE ORUGA ( 82541)",
-        "VOLQUETE ( EGV-840)"
+        "TRACTOR SOBRE ORUGA ( 82541)"
       ]
     },
     {
@@ -986,8 +981,8 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "09/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-567)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-567)"
       ]
     },
     {
@@ -1046,24 +1041,6 @@
     },
     {
       "n": 54,
-      "idIntervencion": "9410",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Nueva Ciudad De Belen - Varillalito",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "03/11/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGO-773)"
-      ]
-    },
-    {
-      "n": 55,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -1081,7 +1058,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 55,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -1095,30 +1072,30 @@
       "fechaInicio": "22/10/2026",
       "fechaFin": "15/11/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00249)",
-        "VOLQUETE ( EGP-009)"
+        "VOLQUETE ( EGP-009)",
+        "CARGADOR FRONTAL ( JLX00249)"
+      ]
+    },
+    {
+      "n": 56,
+      "idIntervencion": "9410",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Nueva Ciudad De Belen - Varillalito",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 017-2026-GGA-MDSJB",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "03/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGO-773)"
       ]
     },
     {
       "n": 57,
-      "idIntervencion": "10545",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Cashupampa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180-P",
-      "fechaInicio": "05/10/2026",
-      "fechaFin": "01/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)"
-      ]
-    },
-    {
-      "n": 58,
       "idIntervencion": "10549",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1134,6 +1111,24 @@
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05113)",
         "EXCAVADORA HIDRAULICA ( TJT10095)"
+      ]
+    },
+    {
+      "n": 58,
+      "idIntervencion": "10545",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Cashupampa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180-P",
+      "fechaInicio": "05/10/2026",
+      "fechaFin": "01/11/2026",
+      "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
@@ -1185,11 +1180,11 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762467)",
         "VOLQUETE ( EGN-589)",
-        "CARGADOR FRONTAL ( 70J12945)",
         "VOLQUETE ( EGV-867)",
-        "VOLQUETE ( EGR-389)"
+        "VOLQUETE ( EGR-389)",
+        "RODILLO COMPACTADOR ( H1762467)",
+        "CARGADOR FRONTAL ( 70J12945)"
       ]
     },
     {
@@ -1208,10 +1203,10 @@
       "fechaFin": "10/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( D810312)",
-        "VOLQUETE ( EGV-867)",
+        "RETROEXCAVADORA ( 286603)",
         "VOLQUETE ( EGN-511)",
-        "EXCAVADORA HIDRAULICA ( 85469)",
-        "RETROEXCAVADORA ( 286603)"
+        "VOLQUETE ( EGV-867)",
+        "EXCAVADORA HIDRAULICA ( 85469)"
       ]
     },
     {
@@ -1252,25 +1247,6 @@
     },
     {
       "n": 65,
-      "idIntervencion": "10607",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Pachia",
-      "sector": "Aguas Abajo De Bocatoma Challata",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "09/11/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
-        "TRACTOR SOBRE ORUGA ( 81435)"
-      ]
-    },
-    {
-      "n": 66,
       "idIntervencion": "10157",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1284,11 +1260,30 @@
       "fechaInicio": "03/11/2026",
       "fechaFin": "22/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
         "VOLQUETE ( EGV-789)",
-        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)",
+        "EXCAVADORA HIDRAULICA ( 810311)",
         "VOLQUETE ( EGV-834)",
-        "EXCAVADORA HIDRAULICA ( 810311)"
+        "TRACTOR SOBRE ORUGA ( 81435)"
+      ]
+    },
+    {
+      "n": 66,
+      "idIntervencion": "10607",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Aguas Abajo De Bocatoma Challata",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "09/11/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
@@ -1324,13 +1319,13 @@
       "fechaInicio": "20/10/2026",
       "fechaFin": "29/10/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-799)",
-        "EXCAVADORA HIDRAULICA ( TJT10112)",
-        "CARGADOR FRONTAL ( D001608)",
-        "VOLQUETE ( EGV-820)",
         "VOLQUETE ( EAJ-392)",
         "CAMIONETA ( EGM-052)",
-        "REMOLCADOR ( EAJ-355)"
+        "REMOLCADOR ( EAJ-355)",
+        "VOLQUETE ( EGV-820)",
+        "EXCAVADORA HIDRAULICA ( TJT10112)",
+        "CARGADOR FRONTAL ( D001608)",
+        "VOLQUETE ( EGV-799)"
       ]
     }
   ]

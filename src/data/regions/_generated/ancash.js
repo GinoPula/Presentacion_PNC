@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 4, m3: 15908.0, km: 1.05, poblacion: 18060, provincias: ['Huarmey'] },
+    { tipo: 'Emergencia', cantidad: 5, m3: 29831.85, km: 4.84, poblacion: 18310, provincias: ['Huarmey', 'Santa'] },
     { tipo: 'Prevención', cantidad: 53, m3: 179759.0, km: 19.54, poblacion: 50379, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 65, m3: 198957.0, m3AguaPotable: 570.0, km: 26.69, poblacion: 73034 },
+  ejecutadasTotal: { cantidad: 66, m3: 212880.85, m3AguaPotable: 570.0, km: 30.48, poblacion: 73284 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,13 +17,13 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ', inicio: '28/08/2026', fin: '10/11/2026', volAcum: 20560.0, kmAcum: 2.39, poblacion: 7456 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ', inicio: '28/08/2026', fin: '10/11/2026', volAcum: 21420.0, kmAcum: 2.49, poblacion: 7456 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ', inicio: '05/10/2026', fin: '04/11/2026', volAcum: 7490.0, kmAcum: 0.66, poblacion: 300 },
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL BAJO - LA CUADRA, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P   ', inicio: '07/10/2026', fin: '31/10/2026', volAcum: 13923.85, kmAcum: 3.79, poblacion: 250 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH', inicio: '13/10/2026', fin: '01/11/2026', volAcum: 5358.0, kmAcum: 0.17, poblacion: 1476 },
-    { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH  ', inicio: '16/10/2026', fin: '27/10/2026', volAcum: 3622.0, kmAcum: 0.17, poblacion: 1661 },
+    { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH  ', inicio: '16/10/2026', fin: '27/10/2026', volAcum: 3622.0, kmAcum: 0.23, poblacion: 1661 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP, TRAMO II, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '27/10/2026', fin: '10/11/2026', volAcum: 1280.0, kmAcum: 0.08, poblacion: 342 },
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R   ', inicio: '01/11/2026', fin: '13/11/2026', volAcum: 800.0, kmAcum: 0.1, poblacion: 500 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 120 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,24 +34,23 @@ export default {
     { provincia: 'Huarmey', distrito: 'Culebras', cantidad: 2, metaVol: 3087.5, metaKm: 0.35, poblacion: 46 },
     { provincia: 'Recuay', distrito: 'Catac', cantidad: 6, metaVol: 32020.0, metaKm: 3.54, poblacion: 14597 },
     { provincia: 'Recuay', distrito: 'Recuay', cantidad: 1, metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
-    { provincia: 'Santa', distrito: 'Chimbote', cantidad: 2, metaVol: 116097.5, metaKm: 6.5, poblacion: 470 },
+    { provincia: 'Santa', distrito: 'Chimbote', cantidad: 1, metaVol: 11475.0, metaKm: 3.4, poblacion: 350 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', cantidad: 1, metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Santa', distrito: 'Samanco', cantidad: 1, metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 18, metaVol: 205902.71, metaKm: 17.21, poblacion: 23976 },
+  programadasTotal: { cantidad: 17, metaVol: 101280.21, metaKm: 14.12, poblacion: 23856 },
 
   programadasDetalle: [
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Llacshahuanca', ficha: '101-2026-LDP-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA LLACSHAHUANCA, DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH  ', fechaInicio: '20/11/1026', fechaFin: '30/11/2010', metaVol: 4940.0, metaKm: 0.65, poblacion: 3579 },
     { provincia: 'Casma', distrito: 'Casma', sector: 'Cuncan', ficha: '112-2026-LDP-ANC ', descripcion: ' ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH    ', fechaInicio: '21/10/2026', fechaFin: '19/11/2026', metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
-    { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH   ', fechaInicio: '26/10/2026', fechaFin: '11/11/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
-    { provincia: 'Santa', distrito: 'Chimbote', sector: 'Cascajal', ficha: '117-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P  ', fechaInicio: '27/10/2026', fechaFin: '12/11/2026', metaVol: 104622.5, metaKm: 3.1, poblacion: 120 },
     { provincia: 'Santa', distrito: 'Chimbote', sector: 'Tambo Real', ficha: '118-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P  ', fechaInicio: '04/11/2026', fechaFin: '21/11/2026', metaVol: 11475.0, metaKm: 3.4, poblacion: 350 },
     { provincia: 'Huari', distrito: 'Chavin De Huantar', sector: 'Cp Huarimayo', ficha: '038-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DE LA QUEBRADA QALLAC EN EL CENTRO POBLADO DE HUARIMAYO, DISTRITO DE CHAVIN DE HUANTAR, PROVINCIA DE HUARI, REGIÓN ANCASH-00             ', fechaInicio: '05/11/2026', fechaFin: '08/11/2026', metaVol: 504.56, metaKm: 0.21, poblacion: 131 },
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Chahuapampa', ficha: '027-2026-LDP-ANC', descripcion: ' DESCOLMATACION Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL RIO SANTA DEL SECTOR DE CHAHUAPAMPA DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGION ANCASH-00     ', fechaInicio: '06/11/2026', fechaFin: '20/11/2026', metaVol: 6720.0, metaKm: 0.64, poblacion: 3612 },
     { provincia: 'Huarmey', distrito: 'Culebras', sector: 'Cp Muchipampa', ficha: '108-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDO DEL RÍO CULEBRAS, EN EL CENTRO POBLADO DE MUCHIPAMPA, DISTRITO DE CULEBRAS, PROVINCIA DE HUARMEY - REGIÓN ANCASH', fechaInicio: '12/11/2026', fechaFin: '17/11/2026', metaVol: 2262.5, metaKm: 0.25, poblacion: 30 },
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Utcuyacu', ficha: '001-2026-LDP-ANC', descripcion: ' DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL RIO OTCORURI SECTOR DE UTCUYACU DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH           ', fechaInicio: '16/11/2026', fechaFin: '21/11/2026', metaVol: 1995.0, metaKm: 0.38, poblacion: 3603 },
     { provincia: 'Huarmey', distrito: 'Culebras', sector: 'Turripampa', ficha: '109-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE EN LA MARGEN DERECHO DEL RÍO CULEBRAS, EN EL CENTRO POBLADO DE TURRIPAMPA, DISTRITO DE CULEBRAS, PROVINCIA DE HUARMEY - REGIÓN ANCASH', fechaInicio: '20/11/2026', fechaFin: '23/11/2026', metaVol: 825.0, metaKm: 0.1, poblacion: 16 },
+    { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH    ', fechaInicio: '20/11/2026', fechaFin: '06/12/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Recuay', distrito: 'Catac', sector: 'Utcuyacu', ficha: '026-2026-LDP-ANC', descripcion: 'DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE DEL MARGEN IZQUIERDO DEL CAUCE DEL RIO SANTA DEL SECTOR DE UTCUYACU DEL DISTRITO DE CATAC, PROVINCIA RECUAY, REGIÓN ÁNCASH-00         ', fechaInicio: '25/11/2026', fechaFin: '08/12/2026', metaVol: 6300.0, metaKm: 0.6, poblacion: 3603 },
     { provincia: 'Santa', distrito: 'Samanco', sector: 'Chimus', ficha: '070-2026-LDP-ANC', descripcion: ' LIMPIEZA DESCOLMATACIÓN Y EN LA MARGEN DERECHA DEL RIO NEPEÑA DEL SECTOR LOS CHIMUS, DISTRITO DE SAMANCO, PROVINCIA DE SANTA, DEPARTAMENTO DE ANCASH.    ', fechaInicio: '28/11/2026', fechaFin: '12/12/2026', metaVol: 10509.6, metaKm: 1.62, poblacion: 300 },
     { provincia: 'Recuay', distrito: 'Recuay', sector: 'Uchipampa', ficha: '019-2026-LDP-ANC', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL RIO SANTA EN EL SECTOR UCHIPAMPA TRAMO II, DISTRITO RECUAY, PROVINCIA RECUAY, REGIÓN ANCASH-00  ', fechaInicio: '01/12/2026', fechaFin: '08/12/2026', metaVol: 4500.0, metaKm: 0.2, poblacion: 4500 },
