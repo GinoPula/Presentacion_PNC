@@ -2443,6 +2443,24 @@ const mapaIntervenciones = {
     "volumen": 2200,
     "km": 0.13,
     "enlace": null
+  },
+  {
+    "id": 10157,
+    "lat": -17.914961,
+    "lng": -70.050557,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Pachia",
+    "sector": "Bocatoma Chuschuco Ii Etapa",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ",
+    "ficha": "033-2026-LD-P-TAC",
+    "fechaInicio": "03/11/2026",
+    "fechaFin": "22/11/2026",
+    "poblacion": 10000,
+    "volumen": 11175,
+    "km": 0.3,
+    "enlace": null
   }
 ],
   piura: [
@@ -5578,8 +5596,8 @@ const mapaIntervenciones = {
     "fechaInicio": "02/09/2026",
     "fechaFin": "31/10/2026",
     "poblacion": 4408,
-    "volumen": 18765,
-    "km": 0.399,
+    "volumen": 19005,
+    "km": 0.404,
     "enlace": null
   },
   {
@@ -5650,7 +5668,7 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "14/12/2026",
     "poblacion": 3350,
-    "volumen": 99,
+    "volumen": 143,
     "km": 0,
     "enlace": null
   },
