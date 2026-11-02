@@ -62,7 +62,7 @@ export default {
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85423'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAK-048'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-851'], estado: 'operativo' },
-    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'inoperativo' },
+    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81442', '82538'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-792'], estado: 'inoperativo' },
     { tipo: 'Volquete', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGV-803', 'EGV-778'], estado: 'operativo' },

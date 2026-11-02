@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 15, m3: 169355.3, km: 54.95, poblacion: 25270, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Emergencia', cantidad: 16, m3: 172183.81, km: 55.18, poblacion: 25540, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Prevención', cantidad: 13, m3: 163450.01, km: 8.05, poblacion: 10300, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Urgente atención', cantidad: 28, m3: 17930.0, km: 0.15, poblacion: 16514, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 56, m3: 350735.31, m3AguaPotable: 17540.0, km: 63.15, poblacion: 52084 },
+  ejecutadasTotal: { cantidad: 57, m3: 353563.82, m3AguaPotable: 17540.0, km: 63.38, poblacion: 52354 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -24,7 +24,6 @@ export default {
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '20/10/2026', fin: '18/11/2026', volAcum: 270.0, kmAcum: 0.0, poblacion: 504 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.         ', inicio: '22/10/2026', fin: '10/11/2026', volAcum: 3420.0, kmAcum: 0.32, poblacion: 800 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR LOS PIONEROS DE CAYMA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R ', inicio: '27/10/2026', fin: '04/11/2026', volAcum: 2297.55, kmAcum: 0.84, poblacion: 8000 },
-    { provincia: 'Arequipa', distrito: 'Cerro Colorado', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA GAMARRA, EN EL SECTOR FUNDO CABRERÍA 3RA ETAPA, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R    ', inicio: '27/10/2026', fin: '01/11/2026', volAcum: 2828.51, kmAcum: 0.23, poblacion: 270 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R  ', inicio: '27/10/2026', fin: '04/11/2026', volAcum: 2949.79, kmAcum: 0.52, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA SAN PEDRO, SECTOR PUENTE VALDIVIA AGUAS ARRIBA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”. DS180-R  ', inicio: '27/10/2026', fin: '13/11/2026', volAcum: 2172.0, kmAcum: 0.34, poblacion: 830 },
   ],
