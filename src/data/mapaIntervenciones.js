@@ -2368,7 +2368,7 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "11/12/2026",
     "poblacion": 420,
-    "volumen": 225,
+    "volumen": 240,
     "km": 0,
     "enlace": null
   },
@@ -9911,6 +9911,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10645,
+    "lat": -16.306886,
+    "lng": -71.543093,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Arequipa",
+    "distrito": "Cerro Colorado",
+    "sector": "",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA GAMARRA, EN EL SECTOR FUNDO CABRERÍA 3RA ETAPA, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".   DS180-R      ",
+    "ficha": "140-2026-LD-E-ARE",
+    "fechaInicio": "27/10/2026",
+    "fechaFin": "30/10/2026",
+    "poblacion": 270,
+    "volumen": 2828.51,
+    "km": 0.23,
+    "enlace": null
+  },
+  {
     "id": 10651,
     "lat": -16.299651,
     "lng": -71.525716,
@@ -9926,24 +9944,6 @@ const mapaIntervenciones = {
     "poblacion": 8000,
     "volumen": 2297.55,
     "km": 0.84,
-    "enlace": null
-  },
-  {
-    "id": 10645,
-    "lat": -16.306886,
-    "lng": -71.543093,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Arequipa",
-    "distrito": "Cerro Colorado",
-    "sector": "",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA GAMARRA, EN EL SECTOR FUNDO CABRERÍA 3RA ETAPA, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".   DS180-R     ",
-    "ficha": "140-2026-LD-E-ARE",
-    "fechaInicio": "27/10/2026",
-    "fechaFin": "01/11/2026",
-    "poblacion": 270,
-    "volumen": 2828.51,
-    "km": 0.23,
     "enlace": null
   },
   {
@@ -9980,6 +9980,24 @@ const mapaIntervenciones = {
     "poblacion": 830,
     "volumen": 2172,
     "km": 0.34,
+    "enlace": null
+  },
+  {
+    "id": 10646,
+    "lat": -16.287816,
+    "lng": -71.536469,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Arequipa",
+    "distrito": "Cerro Colorado",
+    "sector": "Villa Cerrillos - Fundo Cabrerías",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE EN EL AFLUENTE 2 DE LA QUEBRADA EL AZUFRAL, EN EL SECTOR VILLA CERRILLOS - FUNDO CABRERÍAS, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".   DS180-R    ",
+    "ficha": "164-2026-LD-E-ARE",
+    "fechaInicio": "31/10/2026",
+    "fechaFin": "21/11/2026",
+    "poblacion": 520,
+    "volumen": 12724.43,
+    "km": 2.16,
     "enlace": null
   }
 ],
