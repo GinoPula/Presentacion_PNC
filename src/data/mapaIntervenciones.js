@@ -14211,6 +14211,24 @@ const mapaIntervenciones = {
     "volumen": 3622.5,
     "km": 3.441,
     "enlace": null
+  },
+  {
+    "id": 10589,
+    "lat": -11.922699,
+    "lng": -73.94847,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Satipo",
+    "distrito": "Rio Tambo",
+    "sector": "C.N Yoyato",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES DE LA QUEBRADA YOYATO EN LAS PROGRESIVA 0+000 AL 0+931.92 EN AMBAS MARGENES DE LA COMUNIDAD NATIVA YOYATO, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN    ",
+    "ficha": "069-2026-LD-P-JUN",
+    "fechaInicio": "02/11/2026",
+    "fechaFin": "16/11/2026",
+    "poblacion": 1330,
+    "volumen": 2840.13,
+    "km": 0.932,
+    "enlace": null
   }
 ],
   loreto: [
