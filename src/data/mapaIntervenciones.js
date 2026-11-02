@@ -8747,11 +8747,11 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Ate",
     "sector": "Los Alamos",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”  ",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”   ",
     "ficha": "144-2026-LDP-LIM",
     "fechaInicio": "29/10/2026",
     "fechaFin": "12/11/2026",
-    "poblacion": null,
+    "poblacion": 720,
     "volumen": 532,
     "km": 0.038,
     "enlace": null
@@ -14624,7 +14624,7 @@ const mapaIntervenciones = {
     "fechaInicio": "25/09/2026",
     "fechaFin": "23/11/2026",
     "poblacion": 835,
-    "volumen": 530,
+    "volumen": 540,
     "km": 0,
     "enlace": null
   },
@@ -14642,7 +14642,7 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 1000,
-    "volumen": 580,
+    "volumen": 630,
     "km": 0,
     "enlace": null
   },
