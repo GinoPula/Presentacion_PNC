@@ -25,14 +25,15 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 11600.0, metaKm: 0.45, poblacion: 1200 },
+    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 3, metaVol: 15600.0, metaKm: 0.7, poblacion: 1400 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 15920.0, metaKm: 0.65, poblacion: 2200 },
+  programadasTotal: { cantidad: 4, metaVol: 19920.0, metaKm: 0.9, poblacion: 2400 },
 
   programadasDetalle: [
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', fechaInicio: '23/11/2026', fechaFin: '12/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Sifon Higuerani Ii Etapa', ficha: '053-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA', fechaInicio: '23/11/2026', fechaFin: '28/11/2026', metaVol: 3600.0, metaKm: 0.15, poblacion: 200 },
+    { provincia: 'Tacna', distrito: 'Pachia', sector: 'Cercado Pachia', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CERCADO PACHIA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA', fechaInicio: '09/12/2026', fechaFin: '14/12/2026', metaVol: 4000.0, metaKm: 0.25, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                       ', fechaInicio: '14/12/2026', fechaFin: '23/12/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
 
