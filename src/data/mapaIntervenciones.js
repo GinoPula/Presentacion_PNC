@@ -11046,8 +11046,8 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 45,
-    "volumen": 5108,
-    "km": 0.397,
+    "volumen": 5525,
+    "km": 0.425,
     "enlace": null
   },
   {
@@ -14293,10 +14293,10 @@ const mapaIntervenciones = {
     "provincia": "Jauja",
     "distrito": "Julcan",
     "sector": "Río Yacus",
-    "descripcion": " \"LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00                  ",
+    "descripcion": " \"LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00                   ",
     "ficha": "021-2026-LD-P-JUN",
     "fechaInicio": "14/10/2026",
-    "fechaFin": "02/11/2026",
+    "fechaFin": "07/11/2026",
     "poblacion": 480,
     "volumen": 5700,
     "km": 0.4,

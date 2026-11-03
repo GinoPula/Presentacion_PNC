@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/11/2026",
-    "horaCorte": "22:03",
+    "horaCorte": "22:33",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -649,7 +649,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS DE LA PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00",
       "fechaInicio": "14/10/2026",
-      "fechaFin": "02/11/2026",
+      "fechaFin": "07/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( 85515)",
         "CAMIONETA ( EGO-049)"
