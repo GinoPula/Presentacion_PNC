@@ -23,6 +23,7 @@ export default {
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP, TRAMO II, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '27/10/2026', fin: '10/11/2026', volAcum: 1280.0, kmAcum: 0.08, poblacion: 342 },
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R   ', inicio: '01/11/2026', fin: '13/11/2026', volAcum: 1440.0, kmAcum: 0.18, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 210.0, kmAcum: 0.06, poblacion: 120 },
+    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA GARLERO, SECTOR GARLERO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 150 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 7, m3: 62977.0, km: 8.52, poblacion: 10852, provincias: ['Chiclayo', 'Lambayeque'] },
-    { tipo: 'Prevención', cantidad: 26, m3: 153226.35, km: 57.48, poblacion: 64810, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
+    { tipo: 'Emergencia', cantidad: 8, m3: 81982.0, km: 8.92, poblacion: 15260, provincias: ['Chiclayo', 'Lambayeque'] },
+    { tipo: 'Prevención', cantidad: 26, m3: 153226.35, km: 57.47, poblacion: 64810, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 5121.0, km: null, poblacion: 12731, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 39, m3: 221324.35, m3AguaPotable: 5121.0, km: 66.0, poblacion: 88393 },
+  ejecutadasTotal: { cantidad: 40, m3: 240329.35, m3AguaPotable: 5121.0, km: 66.4, poblacion: 92801 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
-    { provincia: 'Lambayeque', distrito: 'Illimo', tipo: 'Emergencia', descripcion: ' “DESCOLMATACION DE 0.33 KM DEL CAUCE DEL RIO LA LECHE Y APOYO EN LA CONSTRUCCION DE DEFENSAS RIBEREÑAS CON GEOBOLSAS EN LA MARGEN IZQUIERDA, AGUAS ARRIBA DEL SECTOR CULPON ALTO DEL DISTRITO DE ILLIMO, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE”      ', inicio: '02/09/2026', fin: '31/10/2026', volAcum: 19005.0, kmAcum: 0.4, poblacion: 4408 },
     { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ', inicio: '17/09/2026', fin: '15/11/2026', volAcum: 1211.0, kmAcum: 0.0, poblacion: 1100 },
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Prevención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.    ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 143.0, kmAcum: 0.0, poblacion: 3350 },
     { provincia: 'Chiclayo', distrito: 'Patapo', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  DS180-P       ', inicio: '19/10/2026', fin: '05/11/2026', volAcum: 8286.75, kmAcum: 0.22, poblacion: 2886 },
