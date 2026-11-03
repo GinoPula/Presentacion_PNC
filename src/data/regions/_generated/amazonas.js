@@ -18,12 +18,13 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Bongara', distrito: 'San Carlos', cantidad: 1, metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
-    { provincia: 'Utcubamba', distrito: 'Bagua Grande', cantidad: 1, metaVol: 19890.81, metaKm: 1.98, poblacion: 416 },
+    { provincia: 'Utcubamba', distrito: 'Bagua Grande', cantidad: 2, metaVol: 20670.81, metaKm: 1.98, poblacion: 1166 },
   ],
-  programadasTotal: { cantidad: 2, metaVol: 30834.81, metaKm: 3.5, poblacion: 905 },
+  programadasTotal: { cantidad: 3, metaVol: 31614.81, metaKm: 3.5, poblacion: 1655 },
 
   programadasDetalle: [
-    { provincia: 'Bongara', distrito: 'San Carlos', sector: 'Mancomunidad San Carlos', ficha: ' N° 004-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y ELIMINACION DEL TRAMO I DE LA QUEBRADA DON HUAYCO DESDE LA PROGRESIVA 0+000.00 A LA PROGRESIVA 1+520.00, EN EL MANCOMUNIDAD SAN CARLOS, DISTRITO DE SAN CARLOS, PROVINCIA BONGARA, REGIÓN AMAZONAS”-00                       ', fechaInicio: '12/11/2026', fechaFin: '06/12/2026', metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
+    { provincia: 'Utcubamba', distrito: 'Bagua Grande', sector: '', ficha: 'N°081-2026-AAU-AMZ', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE ETAPA I EN EL DISTRITO DE BAGUA GRANDE, PROVINCIA UTCUBAMBA, REGION AMAZONAS”', fechaInicio: '03/11/2026', fechaFin: '02/12/2026', metaVol: 780.0, metaKm: 0.0, poblacion: 750 },
+    { provincia: 'Bongara', distrito: 'San Carlos', sector: 'Mancomunidad San Carlos', ficha: ' N° 004-2026-LDP-AMZ', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y ELIMINACION DEL TRAMO I DE LA QUEBRADA DON HUAYCO DESDE LA PROGRESIVA 0+000.00 A LA PROGRESIVA 1+520.00, EN EL MANCOMUNIDAD SAN CARLOS, DISTRITO DE SAN CARLOS, PROVINCIA BONGARA, REGIÓN AMAZONAS”-00                        ', fechaInicio: '12/12/2026', fechaFin: '05/01/2027', metaVol: 10944.0, metaKm: 1.52, poblacion: 489 },
     { provincia: 'Utcubamba', distrito: 'Bagua Grande', sector: 'C.P. Goncha', ficha: '002-2026-LDP-AMZ', descripcion: ' “DESCOLMATACION Y ENCAUZAMIENTO CON MATERIAL PROPIO DE LA QUEBRADA GONCHA DESDE LA PROGRESIVA 0+000 HASTA LA PROGRESIVA\n1+891 – DEL CENTRO POBLADO DE GONCHA, DISTRITO DE BAGUA GRANDE, PROVINCIA DE UTCUBAMBA, REGIÓN AMAZONAS”-00                                     ', fechaInicio: '20/12/2026', fechaFin: '18/01/2027', metaVol: 19890.81, metaKm: 1.98, poblacion: 416 },
   ],
 
