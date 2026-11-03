@@ -4892,7 +4892,7 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "27/10/2026",
     "poblacion": 1661,
-    "volumen": 3622,
+    "volumen": 4657,
     "km": 0.225,
     "enlace": null
   },
@@ -4928,8 +4928,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/11/2026",
     "fechaFin": "13/11/2026",
     "poblacion": 500,
-    "volumen": 2080,
-    "km": 1.7,
+    "volumen": 1440,
+    "km": 0.18,
     "enlace": null
   },
   {
@@ -15185,7 +15185,7 @@ const mapaIntervenciones = {
     "provincia": "Rioja",
     "distrito": "Pardo Miguel",
     "sector": "Centro, Los Angeles Y Miraflores",
-    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN        ",
+    "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN          ",
     "ficha": "008-2026-AA-U-SAM",
     "fechaInicio": "12/10/2026",
     "fechaFin": "13/11/2026",
