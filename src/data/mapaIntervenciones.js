@@ -4928,8 +4928,8 @@ const mapaIntervenciones = {
     "fechaInicio": "01/11/2026",
     "fechaFin": "13/11/2026",
     "poblacion": 500,
-    "volumen": 800,
-    "km": 0.1,
+    "volumen": 2080,
+    "km": 1.7,
     "enlace": null
   },
   {
