@@ -4658,8 +4658,8 @@ const mapaIntervenciones = {
     "fechaInicio": "28/08/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 7456,
-    "volumen": 21678,
-    "km": 2.519,
+    "volumen": 21506,
+    "km": 2.499,
     "enlace": null
   },
   {
@@ -4810,18 +4810,18 @@ const mapaIntervenciones = {
     "id": 10592,
     "lat": -9.962572,
     "lng": -77.85443,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Huarmey",
     "distrito": "Huarmey",
     "sector": "Huiña",
-    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ",
+    "descripcion": " DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH  ",
     "ficha": "135-2026-LDP-ANC",
     "fechaInicio": "05/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 300,
-    "volumen": 7490,
-    "km": 0.655,
+    "volumen": 8063,
+    "km": 0.74,
     "enlace": null
   },
   {

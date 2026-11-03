@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 29831.85, km: 4.84, poblacion: 18310, provincias: ['Huarmey', 'Santa'] },
-    { tipo: 'Prevención', cantidad: 53, m3: 179759.0, km: 19.54, poblacion: 50379, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 54, m3: 187822.0, km: 20.28, poblacion: 50679, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 66, m3: 212880.85, m3AguaPotable: 570.0, km: 30.48, poblacion: 73284 },
+  ejecutadasTotal: { cantidad: 67, m3: 220943.85, m3AguaPotable: 570.0, km: 31.22, poblacion: 73584 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ', inicio: '28/08/2026', fin: '10/11/2026', volAcum: 21678.0, kmAcum: 2.52, poblacion: 7456 },
-    { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO HUARMEY, SECTOR HUIÑA TRAMO I, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH ', inicio: '05/10/2026', fin: '04/11/2026', volAcum: 7490.0, kmAcum: 0.66, poblacion: 300 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ', inicio: '28/08/2026', fin: '10/11/2026', volAcum: 21506.0, kmAcum: 2.5, poblacion: 7456 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH', inicio: '13/10/2026', fin: '01/11/2026', volAcum: 5358.0, kmAcum: 0.17, poblacion: 1476 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH  ', inicio: '16/10/2026', fin: '27/10/2026', volAcum: 4657.0, kmAcum: 0.23, poblacion: 1661 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN IZQUIERDA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP, TRAMO II, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '27/10/2026', fin: '10/11/2026', volAcum: 1280.0, kmAcum: 0.08, poblacion: 342 },
