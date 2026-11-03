@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "03/11/2026",
-    "horaCorte": "17:59",
+    "horaCorte": "18:30",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -1000,8 +1000,8 @@
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
       "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "10/11/2026",
+      "fechaInicio": "03/11/2026",
+      "fechaFin": "22/11/2026",
       "maquinaria": [
         "RETROEXCAVADORA ( 284005)"
       ]
@@ -1018,8 +1018,8 @@
       "tipo": "URGENTE ATENCIÓN",
       "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
       "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "15/11/2026",
+      "fechaInicio": "03/11/2026",
+      "fechaFin": "27/11/2026",
       "maquinaria": [
         "VOLQUETE ( EGP-009)",
         "CARGADOR FRONTAL ( JLX00249)"
