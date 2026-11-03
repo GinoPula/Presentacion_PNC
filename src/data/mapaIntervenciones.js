@@ -9834,7 +9834,7 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 525,
-    "volumen": 615,
+    "volumen": 645,
     "km": 0,
     "enlace": null
   },
@@ -9852,8 +9852,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "05/11/2026",
     "poblacion": 700,
-    "volumen": 11220,
-    "km": 0.49,
+    "volumen": 11940,
+    "km": 0.52,
     "enlace": null
   },
   {
@@ -9888,7 +9888,7 @@ const mapaIntervenciones = {
     "fechaInicio": "14/10/2026",
     "fechaFin": "12/11/2026",
     "poblacion": 640,
-    "volumen": 450,
+    "volumen": 480,
     "km": 0,
     "enlace": null
   },
@@ -9906,8 +9906,8 @@ const mapaIntervenciones = {
     "fechaInicio": "16/10/2026",
     "fechaFin": "04/11/2026",
     "poblacion": 8000,
-    "volumen": 5337.41,
-    "km": 1.2,
+    "volumen": 5782.45,
+    "km": 1.3,
     "enlace": null
   },
   {
@@ -9924,7 +9924,7 @@ const mapaIntervenciones = {
     "fechaInicio": "20/10/2026",
     "fechaFin": "18/11/2026",
     "poblacion": 504,
-    "volumen": 270,
+    "volumen": 285,
     "km": 0,
     "enlace": null
   },
@@ -9942,8 +9942,8 @@ const mapaIntervenciones = {
     "fechaInicio": "22/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 800,
-    "volumen": 3420,
-    "km": 0.32,
+    "volumen": 3930,
+    "km": 0.37,
     "enlace": null
   },
   {
