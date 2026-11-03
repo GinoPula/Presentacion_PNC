@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 29831.85, km: 4.84, poblacion: 18310, provincias: ['Huarmey', 'Santa'] },
     { tipo: 'Prevención', cantidad: 55, m3: 192622.0, km: 20.58, poblacion: 51021, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
-    { tipo: 'Urgente atención', cantidad: 8, m3: 3290.0, km: 6.11, poblacion: 4595, provincias: ['Huaraz', 'Recuay'] },
+    { tipo: 'Urgente atención', cantidad: 9, m3: 9448.0, km: 6.3, poblacion: 6071, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 68, m3: 225743.85, m3AguaPotable: 570.0, km: 31.52, poblacion: 73926 },
+  ejecutadasTotal: { cantidad: 69, m3: 231901.85, m3AguaPotable: 570.0, km: 31.71, poblacion: 75402 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH       ', inicio: '28/08/2026', fin: '10/11/2026', volAcum: 21506.0, kmAcum: 2.5, poblacion: 7456 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Urgente atención', descripcion: 'MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA VECINAL QUE UNE EL CASERÍO DE SANTA CATALINA CON EL CENTRO POBLADO DE HUAMARÍN, DISTRITO DE HUARAZ, PROVINCIA DE HUARAZ, DEPARTAMENTO DE ÁNCASH', inicio: '13/10/2026', fin: '01/11/2026', volAcum: 6158.0, kmAcum: 0.19, poblacion: 1476 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH  ', inicio: '16/10/2026', fin: '27/10/2026', volAcum: 4657.0, kmAcum: 0.23, poblacion: 1661 },
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R   ', inicio: '01/11/2026', fin: '13/11/2026', volAcum: 1440.0, kmAcum: 0.18, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 210.0, kmAcum: 0.06, poblacion: 120 },
