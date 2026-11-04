@@ -5039,6 +5039,24 @@ const mapaIntervenciones = {
     "volumen": 0,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10672,
+    "lat": -9.543804,
+    "lng": -77.517878,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huaraz",
+    "distrito": "Huaraz",
+    "sector": "Bellavista Alto",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR BELLA VISTA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
+    "ficha": "142-2026-LDP-ANC",
+    "fechaInicio": "04/11/2026",
+    "fechaFin": "18/11/2026",
+    "poblacion": 711,
+    "volumen": 2000,
+    "km": 0.5,
+    "enlace": null
   }
 ],
   lambayeque: [
