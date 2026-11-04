@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huamanga', distrito: 'Vinchos', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO   ', inicio: '20/10/2026', fin: '04/11/2026', volAcum: 5525.0, kmAcum: 0.42, poblacion: 45 },
-    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ', inicio: '28/10/2026', fin: '11/11/2026', volAcum: 1595.0, kmAcum: 0.1, poblacion: 40 },
+    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ', inicio: '28/10/2026', fin: '11/11/2026', volAcum: 2445.0, kmAcum: 0.16, poblacion: 40 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
