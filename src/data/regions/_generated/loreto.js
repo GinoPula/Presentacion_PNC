@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Urgente atención', cantidad: 21, m3: 50205.0, km: 29.95, poblacion: 58207, provincias: ['Maynas'] },
+    { tipo: 'Urgente atención', cantidad: 22, m3: 50925.0, km: 29.95, poblacion: 59207, provincias: ['Maynas'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 50205.0, m3AguaPotable: 7480.0, km: 29.95, poblacion: 58207 },
+  ejecutadasTotal: { cantidad: 22, m3: 50925.0, m3AguaPotable: 8200.0, km: 29.95, poblacion: 59207 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -15,9 +15,9 @@ export default {
 
   enEjecucion: [
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.     ', inicio: '25/09/2026', fin: '23/11/2026', volAcum: 560.0, kmAcum: 0.0, poblacion: 835 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.', inicio: '05/10/2026', fin: '03/11/2026', volAcum: 710.0, kmAcum: 0.0, poblacion: 1000 },
-    { provincia: 'Maynas', distrito: 'Iquitos', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2000 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ', inicio: '03/11/2026', fin: '27/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2000 },
+    { provincia: 'Maynas', distrito: 'Iquitos', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 240.0, kmAcum: 0.2, poblacion: 2000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ', inicio: '03/11/2026', fin: '27/11/2026', volAcum: 140.0, kmAcum: 0.1, poblacion: 2000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '04/11/2026', fin: '03/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
