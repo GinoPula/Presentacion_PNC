@@ -371,24 +371,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
-    "id": 10094,
-    "lat": -3.694946,
-    "lng": -80.695972,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Los Pinos",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "044-2026-LD-PI-TUM",
-    "fechaInicio": "02/04/2026",
-    "fechaFin": "08/04/2026",
-    "poblacion": 687,
-    "volumen": 5200,
-    "km": 0.65,
-    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
-  },
-  {
     "id": 10093,
     "lat": -3.640265,
     "lng": -80.597849,
@@ -405,6 +387,24 @@ const mapaIntervenciones = {
     "volumen": 2295,
     "km": 1.53,
     "enlace": "https://drive.google.com/file/d/1FJ7hfXQIXgoDWT_ZWSyIrXK42pjoXhAX/view?usp=drive_link"
+  },
+  {
+    "id": 10094,
+    "lat": -3.694946,
+    "lng": -80.695972,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Los Pinos",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TECNOLÓGICO, EN EL SECTOR LOS PINOS DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "044-2026-LD-PI-TUM",
+    "fechaInicio": "02/04/2026",
+    "fechaFin": "08/04/2026",
+    "poblacion": 687,
+    "volumen": 5200,
+    "km": 0.65,
+    "enlace": "https://drive.google.com/file/d/1zSP8ySGkvit0MHcD_XuYAlaRSP7fcnFc/view?usp=drive_link"
   },
   {
     "id": 10105,
@@ -515,24 +515,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1gGyVfuKtB5pCngInAqqnBtSuFh49ERm_/view?usp=drive_link"
   },
   {
-    "id": 10198,
-    "lat": -3.740645,
-    "lng": -80.768011,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "Acapulco",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”      ",
-    "ficha": "053-2026-LD-PI-TUM",
-    "fechaInicio": "29/04/2026",
-    "fechaFin": "06/05/2026",
-    "poblacion": 1374,
-    "volumen": 600,
-    "km": 0.03,
-    "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
-  },
-  {
     "id": 10199,
     "lat": -3.649246,
     "lng": -80.614783,
@@ -549,6 +531,24 @@ const mapaIntervenciones = {
     "volumen": 180,
     "km": 0.02,
     "enlace": "https://drive.google.com/file/d/1ZU6R-ffkeL4lR6Ts4mX4xVcCRNW8f7Qf/view?usp=drive_link"
+  },
+  {
+    "id": 10198,
+    "lat": -3.740645,
+    "lng": -80.768011,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Acapulco",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA ACAPULCO II TRAMO I, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”      ",
+    "ficha": "053-2026-LD-PI-TUM",
+    "fechaInicio": "29/04/2026",
+    "fechaFin": "06/05/2026",
+    "poblacion": 1374,
+    "volumen": 600,
+    "km": 0.03,
+    "enlace": "https://drive.google.com/file/d/1s-BfCHzhyFS-woah78ru0Gs4-UHs_CG3/view?usp=drive_link"
   },
   {
     "id": 10210,
@@ -962,6 +962,42 @@ const mapaIntervenciones = {
     "poblacion": 1413,
     "volumen": 2600,
     "km": 0.46,
+    "enlace": null
+  },
+  {
+    "id": 10669,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "San Isidro",
+    "descripcion": " ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ",
+    "ficha": "076-2026-AA-U-TUM",
+    "fechaInicio": "23/10/2026",
+    "fechaFin": "21/11/2026",
+    "poblacion": 1356,
+    "volumen": 705,
+    "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10670,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "Corrales",
+    "descripcion": " ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+    "ficha": "077-2026-AA-U-TUM",
+    "fechaInicio": "26/10/2026",
+    "fechaFin": "24/11/2026",
+    "poblacion": 1385,
+    "volumen": 0,
+    "km": 720,
     "enlace": null
   }
 ],
@@ -3576,8 +3612,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/10/2026",
     "fechaFin": "01/11/2026",
     "poblacion": 108,
-    "volumen": 4600,
-    "km": 0.178,
+    "volumen": 4825,
+    "km": 0.188,
     "enlace": null
   },
   {
