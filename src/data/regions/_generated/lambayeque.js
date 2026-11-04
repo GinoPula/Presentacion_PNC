@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 8, m3: 81982.0, km: 8.92, poblacion: 15260, provincias: ['Chiclayo', 'Lambayeque'] },
     { tipo: 'Prevención', cantidad: 26, m3: 153226.35, km: 57.47, poblacion: 64810, provincias: ['Chiclayo', 'Ferreñafe', 'Lambayeque'] },
-    { tipo: 'Urgente atención', cantidad: 6, m3: 5121.0, km: null, poblacion: 12731, provincias: ['Chiclayo', 'Lambayeque'] },
+    { tipo: 'Urgente atención', cantidad: 7, m3: 6332.0, km: null, poblacion: 13831, provincias: ['Chiclayo', 'Lambayeque'] },
   ],
-  ejecutadasTotal: { cantidad: 40, m3: 240329.35, m3AguaPotable: 5121.0, km: 66.4, poblacion: 92801 },
+  ejecutadasTotal: { cantidad: 41, m3: 241540.35, m3AguaPotable: 6332.0, km: 66.4, poblacion: 93901 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
-    { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE.  ', inicio: '17/09/2026', fin: '15/11/2026', volAcum: 1211.0, kmAcum: 0.0, poblacion: 1100 },
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Prevención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.    ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 143.0, kmAcum: 0.0, poblacion: 3350 },
     { provincia: 'Chiclayo', distrito: 'Patapo', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA MARGEN IZQUIERDA DE LA QUEBRADA “LA CRIA” EN EL CENTRO POBLADO “LA CRIA” EN EL DISTRITO DE PATAPO, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  DS180-P       ', inicio: '19/10/2026', fin: '05/11/2026', volAcum: 8286.75, kmAcum: 0.22, poblacion: 2886 },
     { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n           ', inicio: '04/11/2026', fin: '09/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 400 },
