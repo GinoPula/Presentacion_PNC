@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 20, m3: 121372.53, km: 31.91, poblacion: 30530, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Emergencia', cantidad: 21, m3: 128797.53, km: 32.16, poblacion: 30638, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 32, m3: 174102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 10, m3: 37117.5, km: 30.95, poblacion: 14605, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 62, m3: 332592.43, m3AguaPotable: 255.0, km: 119.21, poblacion: 174232 },
+  ejecutadasTotal: { cantidad: 63, m3: 340017.43, m3AguaPotable: 255.0, km: 119.46, poblacion: 174340 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBOS LADOS DEL CAUCE DE LA QUEBRADA EL CHORRO BLANCO, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA DS180-P   ', inicio: '05/10/2026', fin: '01/11/2026', volAcum: 4825.0, kmAcum: 0.19, poblacion: 108 },
     { provincia: 'Talara', distrito: 'Los Organos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 45.0, kmAcum: 0.0, poblacion: 1200 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P    ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 5810.0, kmAcum: 0.14, poblacion: 900 },
   ],
