@@ -27,10 +27,8 @@ export default {
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
     { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 1, metaVol: 4400.0, metaKm: 0.4, poblacion: 30 },
-    { provincia: 'Huamanga', distrito: 'Vinchos', cantidad: 2, metaVol: 17844.0, metaKm: 1.94, poblacion: 389 },
-    { provincia: 'La Mar', distrito: 'Santa Rosa', cantidad: 2, metaVol: 6090.0, metaKm: 0.41, poblacion: 450 },
   ],
-  programadasTotal: { cantidad: 9, metaVol: 34910.0, metaKm: 3.57, poblacion: 2047 },
+  programadasTotal: { cantidad: 5, metaVol: 10976.0, metaKm: 1.22, poblacion: 1208 },
 
   programadasDetalle: [
     { provincia: 'Huamanga', distrito: 'Quinua', sector: 'Chacco', ficha: '07-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACION Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RIO YUCAES DEL SECTOR CHACCO DEL DISTRITO DE QUINUA, PROVINCIA DE HUAMANGA, REGION AYACUCHO-00                   ', fechaInicio: '12/11/2026', fechaFin: '26/11/2026', metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
@@ -38,10 +36,6 @@ export default {
     { provincia: 'Huamanga', distrito: 'Jesus Nazareno', sector: 'Huichccana Chico', ficha: '08-2026-LD-PI-AYAC  ', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA SAN CARLOS TRAMO I, EN EL SECTOR HUICHCCANA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO-00            ', fechaInicio: '26/11/2026', fechaFin: '02/12/2026', metaVol: 2700.0, metaKm: 0.18, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Ayacucho', sector: 'Wari Accopampa', ficha: '44-2026- LD-PI-AYAC ', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO       ', fechaInicio: '27/11/2026', fechaFin: '07/12/2026', metaVol: 840.0, metaKm: 0.28, poblacion: 320 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', sector: 'Chaquihuaycco', ficha: '45-2026-LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL\nCAUCE DE LA QUEBRADA CHAQUIHUAYCCO (TRAMO V), EN EL DISTRITO DE SAN\nJUAN BAUTISTA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ', fechaInicio: '07/12/2026', fechaFin: '13/12/2026', metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
-    { provincia: 'La Mar', distrito: 'Santa Rosa', sector: 'Los Licenciados', ficha: '14-2026- LD-PI-AYAC ', descripcion: 'LIMPIEZA, DESCOLMATACION, CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RIO SANTA ROSA EN EL TRAMO IV, DEL SECTOR LOS LICENCIADOS DEL DISTRITO DE SANTA ROSA, PROVINCIA DE LA MAR, REGION AYACUCHO-00                  ', fechaInicio: '10/12/2026', fechaFin: '22/12/2026', metaVol: 3675.0, metaKm: 0.24, poblacion: 250 },
-    { provincia: 'Huamanga', distrito: 'Vinchos', sector: '', ficha: '06-2026-LD-P-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO IV, UBICADO EN EL CENTRO POBLADO ANCHAC HUASI, EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.      ', fechaInicio: '14/12/2026', fechaFin: '29/12/2026', metaVol: 10200.0, metaKm: 1.7, poblacion: 245 },
-    { provincia: 'La Mar', distrito: 'Santa Rosa', sector: 'Puente', ficha: '13-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO SANTA ROSA EN EL TRAMO III DEL SECTOR PUENTE DEL DISTRITO DE SANTA ROSA, PROVINCIA DE LA MAR, REGIÓN AYACUCHO-00                    ', fechaInicio: '22/12/2026', fechaFin: '27/12/2026', metaVol: 2415.0, metaKm: 0.16, poblacion: 200 },
-    { provincia: 'Huamanga', distrito: 'Vinchos', sector: 'Pacclarumi', ficha: '05-2026-LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RIO CACHI TRAMO III EN EL SECTOR PACCLARUMI, UBICADO EN ANEXO SAN LUIS DE PICHA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.-00          ', fechaInicio: '23/12/2026', fechaFin: '03/01/2027', metaVol: 7644.0, metaKm: 0.24, poblacion: 144 },
   ],
 
   conveniosCount: 16,
