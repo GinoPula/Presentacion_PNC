@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Talara', distrito: 'Los Organos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 45.0, kmAcum: 0.0, poblacion: 1200 },
-    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P    ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 5960.0, kmAcum: 0.15, poblacion: 900 },
+    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P    ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 10760.0, kmAcum: 0.37, poblacion: 900 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

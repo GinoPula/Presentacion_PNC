@@ -3666,8 +3666,8 @@ const mapaIntervenciones = {
     "fechaInicio": "07/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 900,
-    "volumen": 5960,
-    "km": 0.153,
+    "volumen": 10760,
+    "km": 0.373,
     "enlace": null
   },
   {
@@ -4995,7 +4995,7 @@ const mapaIntervenciones = {
     "provincia": "Carlos Fermin Fitzcarrald",
     "distrito": "San Luis",
     "sector": "Chacapata",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R   ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R    ",
     "ficha": "115-2026-LDE-ANC",
     "fechaInicio": "01/11/2026",
     "fechaFin": "13/11/2026",
@@ -5036,8 +5036,8 @@ const mapaIntervenciones = {
     "fechaInicio": "03/11/2026",
     "fechaFin": "17/11/2026",
     "poblacion": 150,
-    "volumen": 6930,
-    "km": 0.77,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   }
 ],
