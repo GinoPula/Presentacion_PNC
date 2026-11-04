@@ -4681,24 +4681,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10444,
-    "lat": -9.612048,
-    "lng": -77.509148,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Huaraz",
-    "distrito": "Huaraz",
-    "sector": "San Pedro",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN AMBAS MARGENES DEL RÍO SANTA, SECTOR SAN PEDRO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH  ",
-    "ficha": "108-2026-LDP-ANC",
-    "fechaInicio": "21/08/2026",
-    "fechaFin": "25/08/2026",
-    "poblacion": 154,
-    "volumen": 2760,
-    "km": 0.23,
-    "enlace": null
-  },
-  {
     "id": 10453,
     "lat": -9.215494,
     "lng": -77.694026,
