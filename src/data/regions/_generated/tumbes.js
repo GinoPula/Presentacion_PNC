@@ -31,10 +31,9 @@ export default {
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', cantidad: 1, metaVol: 28852.0, metaKm: 1.15, poblacion: 2800 },
     { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 1, metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
     { provincia: 'Tumbes', distrito: 'La Cruz', cantidad: 2, metaVol: 3054.0, metaKm: 0.46, poblacion: 1775 },
-    { provincia: 'Tumbes', distrito: 'Tumbes', cantidad: 1, metaVol: 1569.6, metaKm: 0.22, poblacion: 170 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 8, metaVol: 43716.6, metaKm: 3.9, poblacion: 8770 },
+  programadasTotal: { cantidad: 7, metaVol: 42147.0, metaKm: 3.68, poblacion: 8600 },
 
   programadasDetalle: [
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'San Isidro', ficha: '063-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL NIÑO, LOCALIDAD SAN ISIDRO, DISTRITO CORRALES, PROVINCIA TUMBES, DEPARTAMENTO TUMBES   ', fechaInicio: '29/10/2026', fechaFin: '01/11/2026', metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
@@ -42,7 +41,6 @@ export default {
     { provincia: 'Contralmirante Villar', distrito: 'Casitas', sector: 'Cañaveral', ficha: '015-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA MANUEL OTERO, EN LA LOCALIDAD DE CAÑAVERAL DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES" -00     ', fechaInicio: '05/11/2026', fechaFin: '14/11/2026', metaVol: 4830.0, metaKm: 0.6, poblacion: 910 },
     { provincia: 'Zarumilla', distrito: 'Papayal', sector: '', ficha: '018-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA ANTENA, EN EL DISTRITO DE PAPAYAL, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES” -00   ', fechaInicio: '09/11/2026', fechaFin: '16/11/2026', metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', sector: '', ficha: '022-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVO PARAISO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  -00 ', fechaInicio: '17/11/2026', fechaFin: '28/11/2026', metaVol: 28852.0, metaKm: 1.15, poblacion: 2800 },
-    { provincia: 'Tumbes', distrito: 'Tumbes', sector: '', ficha: '062-2026-LD-PI-TUM', descripcion: '  “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA 12 DE SETIEMBRE, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”\t\t\t\t\n      ', fechaInicio: '29/11/2026', fechaFin: '05/12/2026', metaVol: 1569.6, metaKm: 0.22, poblacion: 170 },
     { provincia: 'Tumbes', distrito: 'La Cruz', sector: 'San Jose', ficha: '065-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AFLUENTE SAN JOSÉ, SECTOR SAN JOSÉ, DISTRITO LA CRUZ, PROVINCIA TUMBES, DEPARTAMENTO TUMBES   ', fechaInicio: '06/12/2026', fechaFin: '09/12/2026', metaVol: 504.0, metaKm: 0.16, poblacion: 1024 },
     { provincia: 'Tumbes', distrito: 'La Cruz', sector: 'El Charan', ficha: '064-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AFLUENTE EL CHARÁN, SECTOR EL CHARÁN, DISTRITO LA CRUZ, PROVINCIA TUMBES, DEPARTAMENTO TUMBES          ', fechaInicio: '10/12/2026', fechaFin: '15/12/2026', metaVol: 2550.0, metaKm: 0.3, poblacion: 751 },
   ],
