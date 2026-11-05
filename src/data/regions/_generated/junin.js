@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 23, m3: 224449.0, km: 41.46, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
-    { tipo: 'Prevención', cantidad: 16, m3: 106465.0, km: 14.05, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 109925.0, km: 16.95, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 40, m3: 331034.0, m3AguaPotable: 120.0, km: 55.84, poblacion: 540598 },
+  ejecutadasTotal: { cantidad: 41, m3: 334494.0, m3AguaPotable: 120.0, km: 58.74, poblacion: 540598 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,9 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Jauja', distrito: 'Julcan', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00                   ', inicio: '14/10/2026', fin: '07/11/2026', volAcum: 5700.0, kmAcum: 0.4, poblacion: 480 },
-    { provincia: 'Huancayo', distrito: 'Chupuro', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE CHUPURO DE LA PROGRESIVA 0+000 A LA PROGRESIVA 3+444.41, PROVINCIA DE HUANCAYO, REGION JUNIN ', inicio: '22/10/2026', fin: '05/11/2026', volAcum: 3460.0, kmAcum: 2.9, poblacion: null },
-    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION Y CONFORMACION DE DIQUES DE LA QUEBRADA YOYATO EN LAS PROGRESIVA 0+000 AL 0+931.92 EN AMBAS MARGENES DE LA COMUNIDAD NATIVA YOYATO, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN    ', inicio: '02/11/2026', fin: '16/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1330 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2495 },
   ],
 
