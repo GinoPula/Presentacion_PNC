@@ -24,15 +24,13 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', cantidad: 2, metaVol: 7398.0, metaKm: 0.65, poblacion: 1250 },
-    { provincia: 'Nasca', distrito: 'Nasca', cantidad: 1, metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
     { provincia: 'Pisco', distrito: 'Pisco', cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 20674.0, metaKm: 2.19, poblacion: 2990 },
+  programadasTotal: { cantidad: 4, metaVol: 11674.0, metaKm: 1.82, poblacion: 2390 },
 
   programadasDetalle: [
-    { provincia: 'Nasca', distrito: 'Nasca', sector: 'Matara', ficha: 'FT I N°002-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RÍO AJA SECTOR MATARA TRAMO I, DISTRITO NASCA, PROVINCIA NASCA - REGION ICA-00                   ', fechaInicio: '01/11/2026', fechaFin: '12/11/2026', metaVol: 9000.0, metaKm: 0.37, poblacion: 600 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', ficha: 'FT I N°046-2026-LDE- ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R    ', fechaInicio: '04/11/2026', fechaFin: '10/11/2026', metaVol: 2016.0, metaKm: 0.56, poblacion: 300 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°045-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  DS180-R    ', fechaInicio: '04/11/2026', fechaFin: '11/11/2026', metaVol: 5382.0, metaKm: 0.09, poblacion: 950 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', ficha: 'FT I N°045-2026-LDE- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  DS180-R       ', fechaInicio: '07/11/2026', fechaFin: '14/11/2026', metaVol: 5382.0, metaKm: 0.09, poblacion: 950 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', ficha: 'FT I N°046-2026-LDE- ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R      ', fechaInicio: '07/11/2026', fechaFin: '13/11/2026', metaVol: 2016.0, metaKm: 0.56, poblacion: 300 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00               ', fechaInicio: '01/12/2026', fechaFin: '07/12/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00          ', fechaInicio: '11/12/2026', fechaFin: '13/12/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560 },
   ],
