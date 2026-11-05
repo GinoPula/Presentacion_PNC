@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/11/2026",
-    "horaCorte": "16:45",
+    "horaCorte": "17:15",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -939,25 +939,6 @@
     },
     {
       "n": 50,
-      "idIntervencion": "9591",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Morropon",
-      "distrito": "Salitral",
-      "sector": "La Tranca",
-      "ficha": "FTI N° 057-2026-LD-PI-PIU",
-      "descripcion": "“LIMPIEZA ,DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE DEL CAUCE DE LA QUEBRADA PASMARAN –LA TRANCA ,DISTRITO SALITRAL -PROVINCIA DE MORROPÓN - DEPARTAMENTO DE PIURA”-00",
-      "marcoLegal": "CONVENIO Nº 033-2024 VIVIENDA /VMVU/PNC ADENDA 1 -2025",
-      "fechaInicio": "02/11/2026",
-      "fechaFin": "16/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 51,
       "idIntervencion": "9653",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -976,7 +957,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "9646",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -995,7 +976,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 53,
+      "n": 52,
       "idIntervencion": "9517",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -1014,7 +995,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 54,
+      "n": 53,
       "idIntervencion": "9689",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -1030,6 +1011,25 @@
       "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-2025-PLIA",
       "fechaInicio": "02/11/2026",
       "fechaFin": "04/11/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 54,
+      "idIntervencion": "9591",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Morropon",
+      "distrito": "Salitral",
+      "sector": "La Tranca",
+      "ficha": "FTI N° 057-2026-LD-PI-PIU",
+      "descripcion": "“LIMPIEZA ,DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE DEL CAUCE DE LA QUEBRADA PASMARAN –LA TRANCA ,DISTRITO SALITRAL -PROVINCIA DE MORROPÓN - DEPARTAMENTO DE PIURA”-00",
+      "marcoLegal": "CONVENIO Nº 033-2024 VIVIENDA /VMVU/PNC ADENDA 1 -2025",
+      "fechaInicio": "02/11/2026",
+      "fechaFin": "16/11/2026",
       "diasAtraso": 3
     },
     {
@@ -1148,25 +1148,6 @@
     },
     {
       "n": 61,
-      "idIntervencion": "10659",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "San Martin De Porres",
-      "sector": "Chuquitanta-tramo 01",
-      "ficha": "152-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 01, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "marcoLegal": "ADENDA N° 01 AL CONVENIO Nº 52-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "04/11/2026",
-      "fechaFin": "11/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 62,
       "idIntervencion": "10255",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -1185,7 +1166,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 63,
+      "n": 62,
       "idIntervencion": "10401",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -1204,7 +1185,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 64,
+      "n": 63,
       "idIntervencion": "10590",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -1223,7 +1204,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 65,
+      "n": 64,
       "idIntervencion": "10533",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -1242,7 +1223,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 66,
+      "n": 65,
       "idIntervencion": "10586",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -1261,7 +1242,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 67,
+      "n": 66,
       "idIntervencion": "10587",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
