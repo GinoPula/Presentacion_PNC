@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/11/2026",
-    "horaCorte": "22:20",
+    "horaCorte": "22:51",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -206,38 +206,6 @@
     },
     {
       "n": 11,
-      "idIntervencion": "10657",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Puente Valdivia Aguas Arriba",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA SAN PEDRO, SECTOR PUENTE VALDIVIA AGUAS ARRIBA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”. DS180-R",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "13/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 12,
-      "idIntervencion": "10648",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Fundo Cabrería 2da Etapa",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "04/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 13,
       "idIntervencion": "10651",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -253,7 +221,7 @@
       "maquinaria": []
     },
     {
-      "n": 14,
+      "n": 12,
       "idIntervencion": "10534",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -276,6 +244,38 @@
         "CARGADOR FRONTAL ( M5K00377)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)"
       ]
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10648",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Fundo Cabrería 2da Etapa",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "27/10/2026",
+      "fechaFin": "04/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 14,
+      "idIntervencion": "10657",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Puente Valdivia Aguas Arriba",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA SAN PEDRO, SECTOR PUENTE VALDIVIA AGUAS ARRIBA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”. DS180-R",
+      "fechaInicio": "27/10/2026",
+      "fechaFin": "13/11/2026",
+      "maquinaria": []
     },
     {
       "n": 15,
@@ -458,6 +458,22 @@
     },
     {
       "n": 24,
+      "idIntervencion": "10677",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Limon Y Sector Guayaquil.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR GUAYAQUIL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "05/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 25,
       "idIntervencion": "10611",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -477,22 +493,6 @@
         "CARGADOR FRONTAL ( JLX00219)",
         "RODILLO COMPACTADOR ( H1762462)"
       ]
-    },
-    {
-      "n": 25,
-      "idIntervencion": "10677",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio El Limon Y Sector Guayaquil.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO EL LIMON – SECTOR GUAYAQUIL, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "05/11/2026",
-      "maquinaria": []
     },
     {
       "n": 26,
@@ -981,6 +981,24 @@
     },
     {
       "n": 51,
+      "idIntervencion": "9408",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Punchana",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "23/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGQ-789)"
+      ]
+    },
+    {
+      "n": 52,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -996,24 +1014,6 @@
       "maquinaria": [
         "CARGADOR FRONTAL ( JLX00249)",
         "VOLQUETE ( EGP-009)"
-      ]
-    },
-    {
-      "n": 52,
-      "idIntervencion": "9408",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Punchana",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "23/11/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGQ-789)"
       ]
     },
     {
@@ -1073,6 +1073,22 @@
     },
     {
       "n": 56,
+      "idIntervencion": "10644",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Puno",
+      "distrito": "Vilque",
+      "sector": "Yanarico Central",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº002-2025-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO",
+      "fechaInicio": "28/10/2026",
+      "fechaFin": "06/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 57,
       "idIntervencion": "10634",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1088,7 +1104,7 @@
       "maquinaria": []
     },
     {
-      "n": 57,
+      "n": 58,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1110,7 +1126,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 59,
       "idIntervencion": "10547",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1132,7 +1148,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 60,
       "idIntervencion": "9440",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1150,7 +1166,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 61,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1165,28 +1181,6 @@
       "fechaFin": "18/12/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-975)"
-      ]
-    },
-    {
-      "n": 61,
-      "idIntervencion": "10157",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Pachia",
-      "sector": "Bocatoma Chuschuco Ii Etapa",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº001-2020-ADENDA 05",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "03/11/2026",
-      "fechaFin": "22/11/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
-        "EXCAVADORA HIDRAULICA ( 810311)",
-        "VOLQUETE ( EGV-834)",
-        "TRACTOR SOBRE ORUGA ( 81435)",
-        "VOLQUETE ( EGV-789)"
       ]
     },
     {
@@ -1229,6 +1223,28 @@
     },
     {
       "n": 64,
+      "idIntervencion": "10157",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Bocatoma Chuschuco Ii Etapa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº001-2020-ADENDA 05",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "03/11/2026",
+      "fechaFin": "22/11/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGN-105)",
+        "EXCAVADORA HIDRAULICA ( 810311)",
+        "VOLQUETE ( EGV-834)",
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "VOLQUETE ( EGV-789)"
+      ]
+    },
+    {
+      "n": 65,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1246,7 +1262,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 66,
       "idIntervencion": "10671",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1269,7 +1285,7 @@
       ]
     },
     {
-      "n": 66,
+      "n": 67,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1288,7 +1304,7 @@
       ]
     },
     {
-      "n": 67,
+      "n": 68,
       "idIntervencion": "10669",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1303,30 +1319,6 @@
       "fechaFin": "21/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGM-976)",
-        "CAMIONETA ( EGM-052)"
-      ]
-    },
-    {
-      "n": 68,
-      "idIntervencion": "9488",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Tumbes",
-      "sector": "Tarapacá",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº033-2026-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN VIA, EN EL SECTOR TARAPACÁ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”",
-      "fechaInicio": "04/11/2026",
-      "fechaFin": "10/11/2026",
-      "maquinaria": [
-        "MINI CARGADOR ( G282149)",
-        "CARGADOR FRONTAL ( D001613)",
-        "VOLQUETE ( EGV-799)",
-        "VOLQUETE ( EGV-820)",
-        "VOLQUETE ( EAJ-392)",
-        "REMOLCADOR ( EAJ-355)",
         "CAMIONETA ( EGM-052)"
       ]
     },
@@ -1352,6 +1344,30 @@
         "REMOLCADOR ( EAJ-355)",
         "VOLQUETE ( EGV-820)",
         "CARGADOR FRONTAL ( D001608)"
+      ]
+    },
+    {
+      "n": 70,
+      "idIntervencion": "9488",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Tumbes",
+      "sector": "Tarapacá",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº033-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN VIA, EN EL SECTOR TARAPACÁ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”",
+      "fechaInicio": "04/11/2026",
+      "fechaFin": "10/11/2026",
+      "maquinaria": [
+        "MINI CARGADOR ( G282149)",
+        "CARGADOR FRONTAL ( D001613)",
+        "VOLQUETE ( EGV-799)",
+        "VOLQUETE ( EGV-820)",
+        "VOLQUETE ( EAJ-392)",
+        "REMOLCADOR ( EAJ-355)",
+        "CAMIONETA ( EGM-052)"
       ]
     }
   ]

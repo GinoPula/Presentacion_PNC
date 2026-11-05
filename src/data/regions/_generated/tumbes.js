@@ -27,22 +27,17 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', cantidad: 1, metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },
-    { provincia: 'Contralmirante Villar', distrito: 'Casitas', cantidad: 1, metaVol: 4830.0, metaKm: 0.6, poblacion: 910 },
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', cantidad: 1, metaVol: 28852.0, metaKm: 1.15, poblacion: 2800 },
     { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 1, metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
-    { provincia: 'Tumbes', distrito: 'La Cruz', cantidad: 2, metaVol: 3054.0, metaKm: 0.46, poblacion: 1775 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 42147.0, metaKm: 3.68, poblacion: 8600 },
+  programadasTotal: { cantidad: 4, metaVol: 34263.0, metaKm: 2.62, poblacion: 5915 },
 
   programadasDetalle: [
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'San Isidro', ficha: '063-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL NIÑO, LOCALIDAD SAN ISIDRO, DISTRITO CORRALES, PROVINCIA TUMBES, DEPARTAMENTO TUMBES   ', fechaInicio: '29/10/2026', fechaFin: '01/11/2026', metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
-    { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', sector: 'La Bombonera', ficha: '013-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA BOMBONERA, EN EL SECTOR DE LA BOMBONERA DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES” -00      ', fechaInicio: '02/11/2026', fechaFin: '08/11/2026', metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },
-    { provincia: 'Contralmirante Villar', distrito: 'Casitas', sector: 'Cañaveral', ficha: '015-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA MANUEL OTERO, EN LA LOCALIDAD DE CAÑAVERAL DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES" -00     ', fechaInicio: '05/11/2026', fechaFin: '14/11/2026', metaVol: 4830.0, metaKm: 0.6, poblacion: 910 },
     { provincia: 'Zarumilla', distrito: 'Papayal', sector: '', ficha: '018-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA ANTENA, EN EL DISTRITO DE PAPAYAL, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES” -00   ', fechaInicio: '09/11/2026', fechaFin: '16/11/2026', metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', sector: '', ficha: '022-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVO PARAISO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”  -00 ', fechaInicio: '17/11/2026', fechaFin: '28/11/2026', metaVol: 28852.0, metaKm: 1.15, poblacion: 2800 },
-    { provincia: 'Tumbes', distrito: 'La Cruz', sector: 'San Jose', ficha: '065-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AFLUENTE SAN JOSÉ, SECTOR SAN JOSÉ, DISTRITO LA CRUZ, PROVINCIA TUMBES, DEPARTAMENTO TUMBES   ', fechaInicio: '06/12/2026', fechaFin: '09/12/2026', metaVol: 504.0, metaKm: 0.16, poblacion: 1024 },
-    { provincia: 'Tumbes', distrito: 'La Cruz', sector: 'El Charan', ficha: '064-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AFLUENTE EL CHARÁN, SECTOR EL CHARÁN, DISTRITO LA CRUZ, PROVINCIA TUMBES, DEPARTAMENTO TUMBES          ', fechaInicio: '10/12/2026', fechaFin: '15/12/2026', metaVol: 2550.0, metaKm: 0.3, poblacion: 751 },
+    { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', sector: 'La Bombonera', ficha: '013-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA BOMBONERA, EN EL SECTOR DE LA BOMBONERA DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES” -00        ', fechaInicio: '02/12/2026', fechaFin: '08/12/2026', metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },
   ],
 
   conveniosCount: 2,

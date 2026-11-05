@@ -1829,6 +1829,24 @@ const mapaIntervenciones = {
     "volumen": 0,
     "km": 0,
     "enlace": null
+  },
+  {
+    "id": 10644,
+    "lat": -15.698625,
+    "lng": -70.272056,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Puno",
+    "distrito": "Vilque",
+    "sector": "Yanarico Central",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO ",
+    "ficha": "068-2026-LDP-PUN",
+    "fechaInicio": "28/10/2026",
+    "fechaFin": "06/11/2026",
+    "poblacion": 160,
+    "volumen": 9600,
+    "km": 1.6,
+    "enlace": null
   }
 ],
   tacna: [
