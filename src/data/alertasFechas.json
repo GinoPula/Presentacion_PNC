@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/11/2026",
-    "horaCorte": "21:20",
+    "horaCorte": "21:50",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -179,25 +179,6 @@
     },
     {
       "n": 10,
-      "idIntervencion": "9851",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Azangaro",
-      "distrito": "Muñani",
-      "sector": "Muñani Chico",
-      "ficha": "FTI N° 037-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
-      "marcoLegal": "CONVENIO Nº069-2025",
-      "fechaInicio": "19/10/2026",
-      "fechaFin": "29/10/2026",
-      "diasAtraso": 17
-    },
-    {
-      "n": 11,
       "idIntervencion": "9589",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -213,6 +194,25 @@
       "marcoLegal": "CONVENIO Nº023-2023-ADENDA 02",
       "fechaInicio": "19/10/2026",
       "fechaFin": "27/10/2026",
+      "diasAtraso": 17
+    },
+    {
+      "n": 11,
+      "idIntervencion": "9851",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Muñani",
+      "sector": "Muñani Chico",
+      "ficha": "FTI N° 037-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº069-2025",
+      "fechaInicio": "19/10/2026",
+      "fechaFin": "29/10/2026",
       "diasAtraso": 17
     },
     {
@@ -274,25 +274,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10628",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Pillco Marca",
-      "sector": "Av Del Ejecricito",
-      "ficha": "N° 047-2026-LDOA-P-HCO",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CUNETAS , DE LA PROG. 0+000 A LA PROG. 0+470; SECTOR CAMPO VERDE, AV. ELEJERCITO DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "25/10/2026",
-      "diasAtraso": 14
-    },
-    {
-      "n": 16,
       "idIntervencion": "9660",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -308,6 +289,25 @@
       "marcoLegal": "CONVENIO Nº033-2023-ADENDA 02-PLIA",
       "fechaInicio": "22/10/2026",
       "fechaFin": "26/10/2026",
+      "diasAtraso": 14
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10628",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Pillco Marca",
+      "sector": "Av Del Ejecricito",
+      "ficha": "N° 047-2026-LDOA-P-HCO",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CUNETAS , DE LA PROG. 0+000 A LA PROG. 0+470; SECTOR CAMPO VERDE, AV. ELEJERCITO DEL DISTRITO DE PILLCO MARCA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "22/10/2026",
+      "fechaFin": "25/10/2026",
       "diasAtraso": 14
     },
     {
@@ -331,6 +331,25 @@
     },
     {
       "n": 18,
+      "idIntervencion": "9654",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Piura",
+      "distrito": "Tambo Grande",
+      "sector": "Dren Jorge Chavez",
+      "ficha": "FTI Nº 004-2026-LD-PI-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN JORGE CHAVEZ (0+000 - 0+590.25) DEL DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA” -00",
+      "marcoLegal": "CONVENIO N° 077 - 2025 VIVIENDA/VMVU/PNC-PLIA",
+      "fechaInicio": "28/10/2026",
+      "fechaFin": "04/11/2026",
+      "diasAtraso": 8
+    },
+    {
+      "n": 19,
       "idIntervencion": "10644",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -349,7 +368,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "7628",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -365,25 +384,6 @@
       "marcoLegal": "CONVENIO Nº001-2026 / PLIA",
       "fechaInicio": "28/10/2026",
       "fechaFin": "26/11/2026",
-      "diasAtraso": 8
-    },
-    {
-      "n": 20,
-      "idIntervencion": "9654",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Piura",
-      "distrito": "Tambo Grande",
-      "sector": "Dren Jorge Chavez",
-      "ficha": "FTI Nº 004-2026-LD-PI-PIU",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL DREN JORGE CHAVEZ (0+000 - 0+590.25) DEL DISTRITO DE TAMBOGRANDE, PROVINCIA PIURA, REGION PIURA” -00",
-      "marcoLegal": "CONVENIO N° 077 - 2025 VIVIENDA/VMVU/PNC-PLIA",
-      "fechaInicio": "28/10/2026",
-      "fechaFin": "04/11/2026",
       "diasAtraso": 8
     },
     {
@@ -426,44 +426,6 @@
     },
     {
       "n": 23,
-      "idIntervencion": "10552",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Huarmaca",
-      "sector": "El Progreso",
-      "ficha": "FTI N° 154-2026-LD-E-PIU",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA EL PROGRESO, SECTOR EL PROGRESO, DISTRITO HUARMACA, PROVINCIA HUANCABAMBA, DEPARTAMENTO DE PIURA DS180-R",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "fechaInicio": "30/10/2026",
-      "fechaFin": "04/12/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 24,
-      "idIntervencion": "10595",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Dos De Mayo",
-      "distrito": "La Union",
-      "sector": "Urbano",
-      "ficha": "N° 046-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 25,
       "idIntervencion": "10551",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -482,26 +444,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 26,
-      "idIntervencion": "10604",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA OCTUBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "Canchaque",
-      "sector": "Shuturumbe",
-      "ficha": "FTI N° 158-2026-LD-E-PIU.",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO A AMBOS MARGENES DEL CAUCE DE LA QUEBRADA SHUTURUMBE, DEL SECTOR SHUTURUMBE, DISTRITO DE CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
-      "marcoLegal": "D.S N°124-2026-PCM",
-      "fechaInicio": "30/10/2026",
-      "fechaFin": "28/11/2026",
-      "diasAtraso": 6
-    },
-    {
-      "n": 27,
+      "n": 24,
       "idIntervencion": "10579",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -515,6 +458,63 @@
       "ficha": "FTI N° 157-2026-LD-E-PIU",
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO A AMBOS DEL CAUCES DE LA QUEBRADA SINGUCATE, DEL SECTOR COYONA, DISTRITO DE CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
       "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "28/11/2026",
+      "diasAtraso": 6
+    },
+    {
+      "n": 25,
+      "idIntervencion": "10552",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Huarmaca",
+      "sector": "El Progreso",
+      "ficha": "FTI N° 154-2026-LD-E-PIU",
+      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA EL PROGRESO, SECTOR EL PROGRESO, DISTRITO HUARMACA, PROVINCIA HUANCABAMBA, DEPARTAMENTO DE PIURA DS180-R",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "fechaInicio": "30/10/2026",
+      "fechaFin": "04/12/2026",
+      "diasAtraso": 6
+    },
+    {
+      "n": 26,
+      "idIntervencion": "10595",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Dos De Mayo",
+      "distrito": "La Union",
+      "sector": "Urbano",
+      "ficha": "N° 046-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
+      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "30/10/2026",
+      "diasAtraso": 6
+    },
+    {
+      "n": 27,
+      "idIntervencion": "10604",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA OCTUBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Huancabamba",
+      "distrito": "Canchaque",
+      "sector": "Shuturumbe",
+      "ficha": "FTI N° 158-2026-LD-E-PIU.",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO A AMBOS MARGENES DEL CAUCE DE LA QUEBRADA SHUTURUMBE, DEL SECTOR SHUTURUMBE, DISTRITO DE CANCHAQUE, PROVINCIA HUANCABAMBA, DEPARTAMENTO PIURA DS180-R",
+      "marcoLegal": "D.S N°124-2026-PCM",
       "fechaInicio": "30/10/2026",
       "fechaFin": "28/11/2026",
       "diasAtraso": 6
@@ -711,44 +711,6 @@
     },
     {
       "n": 38,
-      "idIntervencion": "9732",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Huarochiri",
-      "distrito": "Antioquia",
-      "sector": "Cochahuayco",
-      "ficha": "008-2026-LDP-LIM",
-      "descripcion": "DESCOLMATACI├ôN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE EN AMBAS MARGENES DEL┬á CAUCE DEL RIO LURIN PROG. 0+000 A LA PROG. 0+655, ZONA CR├ìTICA 03 EN┬á EL SECTOR COCHAHUAYCO EN EL DISTRITO DE ANTIOQUIA ÔÇô HUAROCHIRI - LIMA.-00",
-      "marcoLegal": "CONVENIO N° 061- 2023 VIVIENDA/VMVU/PNC / PLIA",
-      "fechaInicio": "01/11/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 39,
-      "idIntervencion": "9730",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Huarochiri",
-      "distrito": "Antioquia",
-      "sector": "Chontay",
-      "ficha": "006-2026-LDP-LIM",
-      "descripcion": "DESCOLMATACI├ôN, ENCAUZAMIENTO Y CONFORMACION DE DIQUE EN LA MARGEN IZQUIERDA DEL CAUCE DEL RIO LURIN PROG. 0+000 A 001+098, ZONA CR├ìTICA 01 EN EL SECTOR CHONTAY. DISTRITO DE ANTIOQUIA ÔÇô PROVINCIA DE HUAROCHIRI - LIMA.-00",
-      "marcoLegal": "CONVENIO N° 061- 2023 VIVIENDA/VMVU/PNC / PLIA",
-      "fechaInicio": "01/11/2026",
-      "fechaFin": "14/11/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 40,
       "idIntervencion": "7632",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -767,7 +729,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 41,
+      "n": 39,
       "idIntervencion": "10626",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -786,7 +748,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 42,
+      "n": 40,
       "idIntervencion": "7636",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -805,7 +767,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 43,
+      "n": 41,
       "idIntervencion": "9517",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -824,7 +786,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 44,
+      "n": 42,
       "idIntervencion": "9646",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -843,7 +805,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 45,
+      "n": 43,
       "idIntervencion": "9591",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -862,7 +824,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 46,
+      "n": 44,
       "idIntervencion": "9653",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -881,7 +843,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 47,
+      "n": 45,
       "idIntervencion": "9689",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -900,7 +862,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 48,
+      "n": 46,
       "idIntervencion": "10606",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -919,7 +881,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 49,
+      "n": 47,
       "idIntervencion": "9656",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -938,7 +900,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 50,
+      "n": 48,
       "idIntervencion": "10648",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -957,7 +919,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 51,
+      "n": 49,
       "idIntervencion": "10255",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -976,7 +938,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 52,
+      "n": 50,
       "idIntervencion": "10401",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

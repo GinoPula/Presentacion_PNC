@@ -2530,8 +2530,8 @@ const mapaIntervenciones = {
     "fechaInicio": "03/11/2026",
     "fechaFin": "22/11/2026",
     "poblacion": 10000,
-    "volumen": 1400,
-    "km": 0.05,
+    "volumen": 2100,
+    "km": 0.07,
     "enlace": null
   },
   {
@@ -8783,10 +8783,10 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Cieneguilla",
     "sector": "Tinajas",
-    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS, DEL SECTOR TINAJAS TRAMO IV, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ",
+    "descripcion": " “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA TINAJAS, DEL SECTOR TINAJAS TRAMO IV, DISTRITO DE CIENEGUILLA, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.   ",
     "ficha": "141-2026-LDP-LIM",
     "fechaInicio": "19/10/2026",
-    "fechaFin": "06/11/2026",
+    "fechaFin": "12/11/2026",
     "poblacion": 1500,
     "volumen": 5952,
     "km": 0.282,
@@ -15496,8 +15496,8 @@ const mapaIntervenciones = {
     "fechaInicio": "13/10/2026",
     "fechaFin": "10/11/2026",
     "poblacion": 400,
-    "volumen": 1410,
-    "km": 0.157,
+    "volumen": 1680,
+    "km": 0.187,
     "enlace": null
   },
   {
