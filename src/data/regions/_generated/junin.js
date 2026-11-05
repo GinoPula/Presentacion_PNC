@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 23, m3: 224449.0, km: 41.46, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
-    { tipo: 'Prevención', cantidad: 17, m3: 109925.0, km: 16.95, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 109925.54, km: 1766.95, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 41, m3: 334494.0, m3AguaPotable: 120.0, km: 58.74, poblacion: 540598 },
+  ejecutadasTotal: { cantidad: 41, m3: 334494.54, m3AguaPotable: 120.0, km: 1808.74, poblacion: 540598 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,25 +16,23 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2495 },
+    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 1650.0, kmAcum: 0.41, poblacion: 2495 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 6, metaVol: 53772.84, metaKm: 5.05, poblacion: 8780 },
-    { provincia: 'Concepcion', distrito: 'Concepcion', cantidad: 1, metaVol: 6500.0, metaKm: 0.15, poblacion: 1200 },
     { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
   ],
-  programadasTotal: { cantidad: 8, metaVol: 67687.24, metaKm: 7.0, poblacion: 13180 },
+  programadasTotal: { cantidad: 7, metaVol: 61187.24, metaKm: 6.85, poblacion: 11980 },
 
   programadasDetalle: [
-    { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                       ', fechaInicio: '01/11/2026', fechaFin: '17/11/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN', fechaInicio: '01/11/2026', fechaFin: '15/11/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN   ', fechaInicio: '03/11/2026', fechaFin: '17/11/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '068-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 1+897.11 KM TRAMO III DE LAZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6938.02, metaKm: 1.9, poblacion: 1920 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '11/11/2026', fechaFin: '25/11/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720 },
+    { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                        ', fechaInicio: '17/11/2026', fechaFin: '03/12/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN ', fechaInicio: '17/11/2026', fechaFin: '01/12/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Toro', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORO DESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE\nCHANCHAMAYO, REGION JUNIN   ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Quisque', ficha: '018-2026-LD-P-JUN', descripcion: '  "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO QUISQUE,  DE LA  PROG. 0+000 A LA PROG. 0+354 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                   ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 3500.0, metaKm: 0.35, poblacion: 300 },
-    { provincia: 'Concepcion', distrito: 'Concepcion', sector: 'Rio Achamayo', ficha: '024-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL RÍO ACHAMAYO, DE LA PROG 0+000 A LA PROG. 0+500, MARGEN DERECHA, DEL DISTRITO DE INGENIO, PROVINCIA DE CONCEPCION, DEPARTAMENTO JUNIN"                ', fechaInicio: '07/12/2026', fechaFin: '21/12/2026', metaVol: 6500.0, metaKm: 0.15, poblacion: 1200 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '068-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 1+897.11 KM TRAMO III DE LAZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6938.02, metaKm: 1.9, poblacion: 1920 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Quisque', ficha: '018-2026-LD-P-JUN', descripcion: '  "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO QUISQUE,  DE LA  PROG. 0+000 A LA PROG. 0+354 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                    ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 3500.0, metaKm: 0.35, poblacion: 300 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '020-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO REITHER,  DE LA  PROG. 0+000 A LA PROG. 1+000 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                     ', fechaInicio: '07/12/2026', fechaFin: '20/12/2026', metaVol: 8750.0, metaKm: 1.09, poblacion: 900 },
   ],
 
