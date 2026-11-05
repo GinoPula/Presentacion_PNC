@@ -13,6 +13,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
+    { provincia: 'Rodriguez De Mendoza', distrito: 'Omia', tipo: 'Urgente atención', descripcion: ' “REMOCION DE ESCOMROS QUE IRRUMPEN LA TRANSITABILIDAD DE LAS VIAS Y RECUPERACION DE TRANSITABILIDAD DE DIAS DE ACCESO QUE UNEN EL CASERIO EL ALIZO Y EL SECTOR CORTADERA  – DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA , REGION AMAZONAS.”', inicio: '27/10/2026', fin: '07/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 218 },
     { provincia: 'Utcubamba', distrito: 'Bagua Grande', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE ETAPA I EN EL DISTRITO DE BAGUA GRANDE, PROVINCIA UTCUBAMBA, REGION AMAZONAS” ', inicio: '03/11/2026', fin: '02/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 750 },
   ],
 

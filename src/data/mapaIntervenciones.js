@@ -10237,6 +10237,24 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10679,
+    "lat": -6.419788,
+    "lng": -77.33928,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Rodriguez De Mendoza",
+    "distrito": "Omia",
+    "sector": "Caserio El Alizo El Sector Cortadera",
+    "descripcion": " “REMOCION DE ESCOMROS QUE IRRUMPEN LA TRANSITABILIDAD DE LAS VIAS Y RECUPERACION DE TRANSITABILIDAD DE DIAS DE ACCESO QUE UNEN EL CASERIO EL ALIZO Y EL SECTOR CORTADERA  – DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA , REGION AMAZONAS.”",
+    "ficha": "N°080-2025-RLEU-AMZ",
+    "fechaInicio": "27/10/2026",
+    "fechaFin": "07/11/2026",
+    "poblacion": 218,
+    "volumen": 8000,
+    "km": 0.6,
+    "enlace": null
+  },
+  {
     "id": 10667,
     "lat": -5.758018,
     "lng": -78.444478,
@@ -11449,24 +11467,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9665,
-    "lat": -7.229149,
-    "lng": -78.423568,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "Yanamanguito",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
-    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
-    "fechaInicio": "06/03/2026",
-    "fechaFin": "16/03/2026",
-    "poblacion": 80,
-    "volumen": 4500,
-    "km": 0.5,
-    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
-  },
-  {
     "id": 9968,
     "lat": -6.505026,
     "lng": -78.292252,
@@ -11483,6 +11483,24 @@ const mapaIntervenciones = {
     "volumen": 2850.5,
     "km": 9.1,
     "enlace": null
+  },
+  {
+    "id": 9665,
+    "lat": -7.229149,
+    "lng": -78.423568,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "Yanamanguito",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
+    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
+    "fechaInicio": "06/03/2026",
+    "fechaFin": "16/03/2026",
+    "poblacion": 80,
+    "volumen": 4500,
+    "km": 0.5,
+    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
   },
   {
     "id": 9967,
@@ -12133,24 +12151,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10285,
-    "lat": -7.476362,
-    "lng": -78.956451,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "San Benito",
-    "sector": "Colbot",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
-    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "26/06/2026",
-    "poblacion": 50,
-    "volumen": 2485.92,
-    "km": 6.38,
-    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
-  },
-  {
     "id": 10295,
     "lat": -6.29319,
     "lng": -78.602977,
@@ -12167,6 +12167,24 @@ const mapaIntervenciones = {
     "volumen": 5220,
     "km": 7.25,
     "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
+  },
+  {
+    "id": 10285,
+    "lat": -7.476362,
+    "lng": -78.956451,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "San Benito",
+    "sector": "Colbot",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "26/06/2026",
+    "poblacion": 50,
+    "volumen": 2485.92,
+    "km": 6.38,
+    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -12475,24 +12493,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10499,
-    "lat": -6.241433,
-    "lng": -78.590541,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "La Ramada",
-    "sector": "C.P. Las Iglesias – C.P. La Cubillina",
-    "descripcion": " “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
-    "ficha": "N°068-2026-MTVU-AMZ",
-    "fechaInicio": "09/09/2026",
-    "fechaFin": "05/11/2026",
-    "poblacion": 553,
-    "volumen": 4446.23,
-    "km": 6.587,
-    "enlace": null
-  },
-  {
     "id": 10289,
     "lat": -7.469077,
     "lng": -78.155547,
@@ -12508,6 +12508,24 @@ const mapaIntervenciones = {
     "poblacion": 550,
     "volumen": 17136,
     "km": 0.42,
+    "enlace": null
+  },
+  {
+    "id": 10499,
+    "lat": -6.241433,
+    "lng": -78.590541,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "C.P. Las Iglesias – C.P. La Cubillina",
+    "descripcion": " “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
+    "ficha": "N°068-2026-MTVU-AMZ",
+    "fechaInicio": "09/09/2026",
+    "fechaFin": "05/11/2026",
+    "poblacion": 553,
+    "volumen": 4446.23,
+    "km": 6.587,
     "enlace": null
   },
   {
@@ -12742,6 +12760,24 @@ const mapaIntervenciones = {
     "poblacion": 348,
     "volumen": 2500,
     "km": 1.5,
+    "enlace": null
+  },
+  {
+    "id": 10678,
+    "lat": -5.352531,
+    "lng": -79.021383,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "La Coipa",
+    "sector": "Centro Poblado Chimburique",
+    "descripcion": " “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ",
+    "ficha": "N°079-2025-RLEU-AMZ",
+    "fechaInicio": "27/10/2026",
+    "fechaFin": "15/11/2026",
+    "poblacion": null,
+    "volumen": 5877.5,
+    "km": 2,
     "enlace": null
   }
 ],
