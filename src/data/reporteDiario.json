@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "05/11/2026",
-    "horaCorte": "20:49",
+    "horaCorte": "21:20",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -565,8 +565,8 @@
       "fechaInicio": "14/10/2026",
       "fechaFin": "03/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10878)",
         "REMOLCADOR ( EGN-096)",
+        "EXCAVADORA HIDRAULICA ( A10878)",
         "CAMIONETA ( EGM-019)"
       ]
     },
@@ -606,10 +606,10 @@
       "maquinaria": [
         "VOLQUETE ( EGM-823)",
         "EXCAVADORA HIDRAULICA ( D523572)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
+        "VOLQUETE ( EGM-925)",
         "TRACTOR SOBRE ORUGA ( 81386)",
         "REMOLCADOR ( EAJ-543)",
-        "VOLQUETE ( EGM-925)"
+        "TRACTOR SOBRE ORUGA ( 81386)"
       ]
     },
     {
@@ -662,10 +662,10 @@
       "fechaInicio": "08/10/2026",
       "fechaFin": "06/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 810399)",
+        "CARGADOR FRONTAL ( D001604)",
         "TRACTOR SOBRE ORUGA ( 81370)",
         "TRACTOR SOBRE ORUGA ( J8B05109)",
-        "CARGADOR FRONTAL ( D001604)",
+        "EXCAVADORA HIDRAULICA ( 810399)",
         "VOLQUETE ( EGV-818)",
         "REMOLCADOR ( EAJ-379)"
       ]
@@ -729,8 +729,8 @@
       "fechaFin": "09/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10108)",
-        "TRACTOR SOBRE ORUGA ( AE800570)",
         "CAMIONETA ( EGL-972)",
+        "TRACTOR SOBRE ORUGA ( AE800570)",
         "PLATAFORMA (CAMA BAJA) ( EAK-067)",
         "REMOLCADOR ( EAJ-387)",
         "PLATAFORMA (CAMA BAJA) ( EGW-174)",
@@ -770,9 +770,9 @@
       "fechaInicio": "30/10/2026",
       "fechaFin": "08/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( D810454)",
+        "VOLQUETE ( EGV-832)",
         "CARGADOR FRONTAL ( JLX00206)",
-        "VOLQUETE ( EGV-832)"
+        "EXCAVADORA HIDRAULICA ( D810454)"
       ]
     },
     {
@@ -860,8 +860,8 @@
       "fechaInicio": "19/10/2026",
       "fechaFin": "06/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10891)",
-        "VOLQUETE ( EGM-834)"
+        "VOLQUETE ( EGM-834)",
+        "EXCAVADORA HIDRAULICA ( A10891)"
       ]
     },
     {
@@ -879,9 +879,9 @@
       "fechaInicio": "26/10/2026",
       "fechaFin": "09/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-825)",
         "TRACTOR SOBRE ORUGA ( J8B05106)",
-        "CARGADOR FRONTAL ( D001610)",
-        "VOLQUETE ( EGV-825)"
+        "CARGADOR FRONTAL ( D001610)"
       ]
     },
     {
@@ -921,8 +921,8 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "09/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-567)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-567)"
       ]
     },
     {
@@ -1102,11 +1102,11 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "10/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-589)",
-        "VOLQUETE ( EGR-389)",
         "RODILLO COMPACTADOR ( H1762467)",
-        "CARGADOR FRONTAL ( 70J12945)",
-        "VOLQUETE ( EGV-867)"
+        "VOLQUETE ( EGR-389)",
+        "VOLQUETE ( EGV-867)",
+        "VOLQUETE ( EGN-589)",
+        "CARGADOR FRONTAL ( 70J12945)"
       ]
     },
     {
@@ -1210,6 +1210,25 @@
     },
     {
       "n": 63,
+      "idIntervencion": "10643",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Sifon Higuerani Ii Etapa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº001-2020-ADENDA 05",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "06/11/2026",
+      "fechaFin": "11/11/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
+      ]
+    },
+    {
+      "n": 64,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1227,7 +1246,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 65,
       "idIntervencion": "10671",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1250,7 +1269,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 66,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1269,7 +1288,7 @@
       ]
     },
     {
-      "n": 66,
+      "n": 67,
       "idIntervencion": "10669",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1288,7 +1307,7 @@
       ]
     },
     {
-      "n": 67,
+      "n": 68,
       "idIntervencion": "9488",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1312,7 +1331,7 @@
       ]
     },
     {
-      "n": 68,
+      "n": 69,
       "idIntervencion": "10091",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",

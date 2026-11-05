@@ -17,21 +17,21 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 255.0, kmAcum: 0.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 165.0, kmAcum: 0.0, poblacion: 550 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 270.0, kmAcum: 0.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 180.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA       ', inicio: '26/10/2026', fin: '05/11/2026', volAcum: 5350.0, kmAcum: 0.23, poblacion: 2389 },
     { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 1400.0, kmAcum: 0.05, poblacion: 10000 },
+    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '06/11/2026', fin: '11/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 3, metaVol: 15600.0, metaKm: 0.7, poblacion: 1400 },
+    { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 12000.0, metaKm: 0.55, poblacion: 1200 },
     { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 19920.0, metaKm: 0.9, poblacion: 2400 },
+  programadasTotal: { cantidad: 3, metaVol: 16320.0, metaKm: 0.75, poblacion: 2200 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Pachia', sector: 'Sifon Higuerani Ii Etapa', ficha: '053-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '06/11/2026', fechaFin: '11/11/2026', metaVol: 3600.0, metaKm: 0.15, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', fechaInicio: '23/11/2026', fechaFin: '12/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Cercado Pachia', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR CERCADO PACHIA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA', fechaInicio: '09/12/2026', fechaFin: '14/12/2026', metaVol: 4000.0, metaKm: 0.25, poblacion: 200 },
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                       ', fechaInicio: '14/12/2026', fechaFin: '23/12/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
