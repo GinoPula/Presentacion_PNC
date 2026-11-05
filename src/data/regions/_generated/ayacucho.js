@@ -46,7 +46,7 @@ export default {
 
   flota: [
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-017'], estado: 'operativo' },
-    { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00253'], estado: 'operativo' },
+    { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00253'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10119', 'TJT10125'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85467'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['A10889'], estado: 'operativo' },
