@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 16, m3: 172183.81, km: 55.18, poblacion: 25540, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
+    { tipo: 'Emergencia', cantidad: 17, m3: 178710.6, km: 56.7, poblacion: 33540, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
     { tipo: 'Prevención', cantidad: 13, m3: 163450.01, km: 8.05, poblacion: 10300, provincias: ['Arequipa', 'Caraveli', 'La Union'] },
-    { tipo: 'Urgente atención', cantidad: 28, m3: 17930.0, km: 0.15, poblacion: 16514, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
+    { tipo: 'Urgente atención', cantidad: 29, m3: 18650.0, km: 0.15, poblacion: 17039, provincias: ['Arequipa', 'Camana', 'Caraveli', 'Condesuyos'] },
   ],
-  ejecutadasTotal: { cantidad: 57, m3: 353563.82, m3AguaPotable: 17540.0, km: 63.38, poblacion: 52354 },
+  ejecutadasTotal: { cantidad: 59, m3: 360810.61, m3AguaPotable: 18260.0, km: 64.9, poblacion: 60879 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,29 +17,27 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 363160.6, m3AguaPotable: 18540.0, km: 42.88, poblacion: 52610 },
 
   enEjecucion: [
-    { provincia: 'Camana', distrito: 'Ocoña', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS ANEXOS DE HUANTAY, PANARCANA, CHIGUAY, HUARANGAL, ALTO MOLLEBAMBA, HUALLA, CHULE, ALTO OCOÑA, CHIRA Y LA PLANCHADA, DEL DISTRITO DE OCOÑA, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '06/10/2026', fin: '04/11/2026', volAcum: 720.0, kmAcum: 0.0, poblacion: 525 },
     { provincia: 'Arequipa', distrito: 'Characato', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DEL MARGEN DERECHO CON MATERIAL PROPIO DEL RÍO MOLLEBAYA EN EL SECTOR JUÁREZ, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA"-00          ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 13380.0, kmAcum: 0.56, poblacion: 700 },
     { provincia: 'Caraveli', distrito: 'Caraveli', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DEL A.H. ISIDORO BERROCAL, DEL DISTRITO DE CARAVELÍ, PROVINCIA DE CARAVELÍ, DEPARTAMENTO AREQUIPA”. ', inicio: '14/10/2026', fin: '12/11/2026', volAcum: 540.0, kmAcum: 0.0, poblacion: 640 },
-    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR LOS ÁNGELES, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180-P       ', inicio: '16/10/2026', fin: '04/11/2026', volAcum: 6526.79, kmAcum: 1.52, poblacion: 8000 },
     { provincia: 'Camana', distrito: 'Mariano Nicolas Valcarcel', tipo: 'Urgente atención', descripcion: '“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO PARA LA POBLACIÓN DE LOS SECTORES DE ANCHALO HUACAN, SURITA, LA TRANCA PLATANAL, CERRO BARROSO, INFIERNILLO, LA I.E.I. CARLOS PORTOCARRERO DONGO, LA I.E. RICARDO PALMA, Y EL PUESTO DE SALUD DEL C.P. SECOCHA, DISTRITO DE MARIANO NICOLÁS VALCÁRCEL, PROVINCIA DE CAMANÁ, DEPARTAMENTO AREQUIPA”.  ', inicio: '20/10/2026', fin: '18/11/2026', volAcum: 300.0, kmAcum: 0.0, poblacion: 504 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', tipo: 'Prevención', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.         ', inicio: '22/10/2026', fin: '10/11/2026', volAcum: 4950.0, kmAcum: 0.47, poblacion: 800 },
-    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR LOS PIONEROS DE CAYMA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R ', inicio: '27/10/2026', fin: '04/11/2026', volAcum: 2377.55, kmAcum: 0.86, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR FUNDO CABRERÍA 2DA ETAPA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R  ', inicio: '27/10/2026', fin: '04/11/2026', volAcum: 3688.91, kmAcum: 0.63, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA SAN PEDRO, SECTOR PUENTE VALDIVIA AGUAS ARRIBA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”. DS180-R  ', inicio: '27/10/2026', fin: '13/11/2026', volAcum: 3336.84, kmAcum: 0.5, poblacion: 830 },
+    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR LOS PIONEROS DE CAYMA, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R  ', inicio: '27/10/2026', fin: '07/11/2026', volAcum: 2377.55, kmAcum: 0.86, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Cerro Colorado', tipo: 'Emergencia', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE EN EL AFLUENTE 2 DE LA QUEBRADA EL AZUFRAL, EN EL SECTOR VILLA CERRILLOS - FUNDO CABRERÍAS, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R    ', inicio: '31/10/2026', fin: '21/11/2026', volAcum: 1827.03, kmAcum: 0.32, poblacion: 520 },
+    { provincia: 'Arequipa', distrito: 'Cayma', tipo: 'Emergencia', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180-P  ', inicio: '05/11/2026', fin: '14/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 8000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Arequipa', distrito: 'Arequipa', cantidad: 1, metaVol: 4085.43, metaKm: 1.8, poblacion: 8000 },
-    { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 6, metaVol: 39873.53, metaKm: 7.09, poblacion: 48000 },
+    { provincia: 'Arequipa', distrito: 'Cayma', cantidad: 5, metaVol: 36179.7, metaKm: 6.23, poblacion: 40000 },
     { provincia: 'Arequipa', distrito: 'Characato', cantidad: 2, metaVol: 19202.24, metaKm: 0.45, poblacion: 1080 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', cantidad: 6, metaVol: 34403.01, metaKm: 2.99, poblacion: 3300 },
   ],
-  programadasTotal: { cantidad: 15, metaVol: 97564.21, metaKm: 12.33, poblacion: 60380 },
+  programadasTotal: { cantidad: 14, metaVol: 93870.38, metaKm: 11.47, poblacion: 52380 },
 
   programadasDetalle: [
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Puente Arquillo', ficha: '120-2026-LDE-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA". DS180-P ', fechaInicio: '05/11/2026', fechaFin: '14/11/2026', metaVol: 3693.83, metaKm: 0.86, poblacion: 8000 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'La Rinconada-Villa Maria Del Triunfo', ficha: '85-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR LA RINCONADA-VILLA MARIA DEL TRIUNFO, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.      ', fechaInicio: '06/11/2026', fechaFin: '10/11/2026', metaVol: 1502.73, metaKm: 0.12, poblacion: 300 },
     { provincia: 'Arequipa', distrito: 'Characato', sector: 'Yanayaco Y Buenavista', ficha: '82-2026-LDP-ARE', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES CON MATERIAL PROPIO DE LA QUEBRADA LA HUAYLLA, EN LOS SECTORES DE YANAYACO Y BUENAVISTA, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".  \n\n ', fechaInicio: '10/11/2026', fechaFin: '01/12/2026', metaVol: 8524.32, metaKm: 0.21, poblacion: 380 },
     { provincia: 'Arequipa', distrito: 'Mariano Melgar', sector: 'Asociación Manuel Manrique Y P.J Sr. De Huanca', ficha: '86-2026-LDP-ARE', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR   ASOCIACIÓN MANUEL MANRIQUE Y P.J SR. DE HUANCA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO DE AREQUIPA”.    ', fechaInicio: '11/11/2026', fechaFin: '05/12/2026', metaVol: 8403.51, metaKm: 0.84, poblacion: 900 },
