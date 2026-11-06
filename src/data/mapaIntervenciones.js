@@ -12763,24 +12763,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10612,
-    "lat": -6.246204,
-    "lng": -78.576294,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "La Ramada",
-    "sector": "",
-    "descripcion": " “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA”  ",
-    "ficha": "N°077-2026-LDU-AMZ",
-    "fechaInicio": "15/10/2026",
-    "fechaFin": "15/11/2026",
-    "poblacion": 928,
-    "volumen": 0,
-    "km": 0,
-    "enlace": null
-  },
-  {
     "id": 10611,
     "lat": -5.250496,
     "lng": -78.971721,
@@ -12796,6 +12778,24 @@ const mapaIntervenciones = {
     "poblacion": 536,
     "volumen": 3261.6,
     "km": 2.718,
+    "enlace": null
+  },
+  {
+    "id": 10612,
+    "lat": -6.246204,
+    "lng": -78.576294,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "",
+    "descripcion": " “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA”  ",
+    "ficha": "N°077-2026-LDU-AMZ",
+    "fechaInicio": "15/10/2026",
+    "fechaFin": "15/11/2026",
+    "poblacion": 928,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
@@ -12850,6 +12850,24 @@ const mapaIntervenciones = {
     "poblacion": null,
     "volumen": 1350,
     "km": 0.6,
+    "enlace": null
+  },
+  {
+    "id": 10683,
+    "lat": -7.202188,
+    "lng": -78.32074,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Namora",
+    "sector": "Localidad De Namora",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO NAMORA, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+100, EN LA LOCALIDAD DE NAMORA, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.",
+    "ficha": "FTI N° 063-2026-LD-PI-CAJ",
+    "fechaInicio": "05/11/2026",
+    "fechaFin": "09/11/2026",
+    "poblacion": 1600,
+    "volumen": 2500,
+    "km": 0.1,
     "enlace": null
   }
 ],
