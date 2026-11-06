@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 8210.0, kmAcum: 0.22, poblacion: 175 },
-    { provincia: 'Quispicanchi', distrito: 'Oropesa', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ', inicio: '14/10/2026', fin: '03/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 480 },
+    { provincia: 'Quispicanchi', distrito: 'Oropesa', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ', inicio: '14/10/2026', fin: '03/11/2026', volAcum: 3830.0, kmAcum: 0.23, poblacion: 480 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

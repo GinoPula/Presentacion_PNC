@@ -10248,8 +10248,8 @@ const mapaIntervenciones = {
     "fechaInicio": "05/11/2026",
     "fechaFin": "14/11/2026",
     "poblacion": 8000,
-    "volumen": 3693.83,
-    "km": 0.86,
+    "volumen": 340.83,
+    "km": 0.12,
     "enlace": "8186427.00"
   }
 ],
@@ -11203,8 +11203,8 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Arizona",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.            ",
-    "ficha": "42-2025-LD-PI-AYAC",
+    "descripcion": "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.              ",
+    "ficha": "42-2026-LD-PI-AYAC",
     "fechaInicio": "28/09/2026",
     "fechaFin": "12/10/2026",
     "poblacion": 130,
@@ -11257,7 +11257,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Santiago De Pischa",
     "sector": "Anyana",
-    "descripcion": "ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ",
+    "descripcion": "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO       ",
     "ficha": "43-2026- LD-PI-AYAC ",
     "fechaInicio": "28/10/2026",
     "fechaFin": "11/11/2026",
@@ -13374,8 +13374,8 @@ const mapaIntervenciones = {
     "fechaInicio": "14/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 480,
-    "volumen": 8519.55,
-    "km": 0.514,
+    "volumen": 3830,
+    "km": 0.231,
     "enlace": null
   }
 ],

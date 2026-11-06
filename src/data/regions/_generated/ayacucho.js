@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 182997.75, m3AguaPotable: 0.0, km: 15.53, poblacion: 15797 },
 
   enEjecucion: [
-    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: 'ENCAUSAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO      ', inicio: '28/10/2026', fin: '11/11/2026', volAcum: 2445.0, kmAcum: 0.16, poblacion: 40 },
+    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: 'ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO       ', inicio: '28/10/2026', fin: '11/11/2026', volAcum: 2445.0, kmAcum: 0.16, poblacion: 40 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
