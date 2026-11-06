@@ -36,10 +36,9 @@ export default {
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '020-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO REITHER,  DE LA  PROG. 0+000 A LA PROG. 1+000 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                     ', fechaInicio: '07/12/2026', fechaFin: '20/12/2026', metaVol: 8750.0, metaKm: 1.09, poblacion: 900 },
   ],
 
-  conveniosCount: 3,
+  conveniosCount: 2,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/04/2027' },
-    { entidad: 'Municipalidad Distrital Cochas', detail: 'hasta 05/11/2026' },
     { entidad: 'Municipalidad Distrital Rio Tambo', detail: 'hasta 27/02/2027' },
   ],
 

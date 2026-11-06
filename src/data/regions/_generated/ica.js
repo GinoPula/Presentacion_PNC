@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 15085.0, kmAcum: 0.18, poblacion: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 11589.0, kmAcum: 0.37, poblacion: 23 },
+    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 13082.0, kmAcum: 0.41, poblacion: 23 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
