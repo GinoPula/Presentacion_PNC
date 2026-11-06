@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 26, m3: 160298.05, km: 11.12, poblacion: 14405, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Prevención', cantidad: 25, m3: 159898.05, km: 11.11, poblacion: 14305, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
     { tipo: 'Urgente atención', cantidad: 53, m3: 237071.11, km: 185.29, poblacion: 58369, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 83, m3: 426919.16, m3AguaPotable: 3300.0, km: 198.26, poblacion: 74666 },
+  ejecutadasTotal: { cantidad: 82, m3: 426519.16, m3AguaPotable: 3300.0, km: 198.24, poblacion: 74566 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -21,6 +21,8 @@ export default {
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA” ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA EL GAVILAN TRAMO I DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+090 K.M. Y TRAMO II DESDE LA PROGRESIVA 0+000 K.M. A LA PROGRESIVA 0+230 K.M., DEL DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, REGION CAJAMARCA”  ', inicio: '15/10/2026', fin: '15/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 928 },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' \n“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO EL CORAZON – SECTOR ALTO CORAZON, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”\n  ', inicio: '15/10/2026', fin: '06/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 536 },
+    { provincia: 'San Miguel', distrito: 'San Miguel', tipo: 'Prevención', descripcion: '“DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL MARGEN DERECHO DEL RÍO JEQUETEPEQUE, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR MONTE ALEGRE, DISTRITO DE SAN MIGUEL, PROVINCIA DE SAN MIGUEL, DEPARTAMENTO DE CAJAMARCA”.  ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 400.0, kmAcum: 0.01, poblacion: 100 },
+    { provincia: 'Cajamarca', distrito: 'Cajamarca', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '19/10/2026', fin: '02/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 750 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '27/10/2026', fin: '15/11/2026', volAcum: 1350.0, kmAcum: 0.6, poblacion: null },
     { provincia: 'Cajamarca', distrito: 'Namora', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO NAMORA, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+100, EN LA LOCALIDAD DE NAMORA, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.', inicio: '05/11/2026', fin: '09/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1600 },
   ],
@@ -29,7 +31,6 @@ export default {
   programadas: [
     { provincia: 'Cajabamba', distrito: 'Cachachi', cantidad: 1, metaVol: 16800.0, metaKm: 0.5, poblacion: 700 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', cantidad: 1, metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
-    { provincia: 'Cajamarca', distrito: 'Cajamarca', cantidad: 1, metaVol: 2135.0, metaKm: 0.3, poblacion: 750 },
     { provincia: 'Cajamarca', distrito: 'Jesus', cantidad: 1, metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },
     { provincia: 'Cajamarca', distrito: 'Llacanora', cantidad: 1, metaVol: 1050.0, metaKm: 0.04, poblacion: 150 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 2, metaVol: 13500.0, metaKm: 0.8, poblacion: 2500 },
@@ -37,10 +38,9 @@ export default {
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', cantidad: 1, metaVol: 6000.0, metaKm: 0.25, poblacion: 600 },
   ],
-  programadasTotal: { cantidad: 10, metaVol: 63206.37, metaKm: 7.18, poblacion: 6440 },
+  programadasTotal: { cantidad: 9, metaVol: 61071.37, metaKm: 6.88, poblacion: 5690 },
 
   programadasDetalle: [
-    { provincia: 'Cajamarca', distrito: 'Cajamarca', sector: 'Ba. Nuevo Cajamarca', ficha: 'FTI N° 027-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA LOS CHILCOS, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+300, EN EL BARRIO NUEVO CAJAMARCA, DISTRITO DE CAJAMARCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.', fechaInicio: '19/10/2026', fechaFin: '02/11/2026', metaVol: 2135.0, metaKm: 0.3, poblacion: 750 },
     { provincia: 'San Marcos', distrito: 'Gregorio Pita', sector: 'Las Playas', ficha: 'FTI N° 050-2026-LD-PI-CAJ', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN EL RÍO MUYOC, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+250, EN EL SECTOR LAS PLAYAS - C.P. PAUCAMARCA, DISTRITO DE GREGORIO PITA, PROVINCIA DE SAN MARCOS, DEPARTAMENTO DE CAJAMARCA”.-00 ', fechaInicio: '01/11/2026', fechaFin: '15/11/2026', metaVol: 6000.0, metaKm: 0.25, poblacion: 600 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).        ', fechaInicio: '01/11/2026', fechaFin: '15/11/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Cajabamba', distrito: 'Cachachi', sector: 'Chimin-Tabacal', ficha: 'FTI N° 061-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO CHIMÍN, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR CHIMÍN, C.P. TABACAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”. ', fechaInicio: '10/11/2026', fechaFin: '24/11/2026', metaVol: 16800.0, metaKm: 0.5, poblacion: 700 },
