@@ -281,24 +281,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1l7WvoCIg_mW8vfHrK35JaOuOL9mY5Asr/view?usp=drive_link"
   },
   {
-    "id": 9492,
-    "lat": -3.547885,
-    "lng": -80.450429,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Tumbes",
-    "distrito": "Tumbes",
-    "sector": "Salamanca",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN SALAMANCA TRAMO I (ALIVIADERO NATURAL), EN EL SECTOR DE SALAMANCA DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ",
-    "ficha": "002-2026-LD-PI-TUM",
-    "fechaInicio": "25/03/2026",
-    "fechaFin": "02/04/2026",
-    "poblacion": 1060,
-    "volumen": 5928,
-    "km": 0.57,
-    "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
-  },
-  {
     "id": 10060,
     "lat": -3.888367,
     "lng": -80.6094,
@@ -315,6 +297,24 @@ const mapaIntervenciones = {
     "volumen": 6400,
     "km": 0.2,
     "enlace": "https://drive.google.com/file/d/1G4sU9bCLX-SXZjCRxsFCse4WOxkfUG7x/view?usp=drive_link"
+  },
+  {
+    "id": 9492,
+    "lat": -3.547885,
+    "lng": -80.450429,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Tumbes",
+    "distrito": "Tumbes",
+    "sector": "Salamanca",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN SALAMANCA TRAMO I (ALIVIADERO NATURAL), EN EL SECTOR DE SALAMANCA DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ",
+    "ficha": "002-2026-LD-PI-TUM",
+    "fechaInicio": "25/03/2026",
+    "fechaFin": "02/04/2026",
+    "poblacion": 1060,
+    "volumen": 5928,
+    "km": 0.57,
+    "enlace": "https://drive.google.com/file/d/1TUMh17R7o4FpQf-mr0IiA_bPo1N-kSdn/view?usp=drive_link"
   },
   {
     "id": 10051,
@@ -335,24 +335,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1kSV0lrEiMPCkEwEc3qHEDXq50HjhwxRp/view?usp=drive_link"
   },
   {
-    "id": 10067,
-    "lat": -3.60504,
-    "lng": -80.480279,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Tumbes",
-    "distrito": "Corrales",
-    "sector": "San Isidro",
-    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
-    "ficha": "041-2026-AA-U-TUM",
-    "fechaInicio": "27/03/2026",
-    "fechaFin": "25/04/2026",
-    "poblacion": 1356,
-    "volumen": 630,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
-  },
-  {
     "id": 10066,
     "lat": -3.683657,
     "lng": -80.674445,
@@ -369,6 +351,24 @@ const mapaIntervenciones = {
     "volumen": 7650,
     "km": 1,
     "enlace": "https://drive.google.com/file/d/1zVQKZE__q4OmJD1aKwTVMI4MqU0qcrFn/view?usp=drive_link"
+  },
+  {
+    "id": 10067,
+    "lat": -3.60504,
+    "lng": -80.480279,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Tumbes",
+    "distrito": "Corrales",
+    "sector": "San Isidro",
+    "descripcion": "“ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”  ",
+    "ficha": "041-2026-AA-U-TUM",
+    "fechaInicio": "27/03/2026",
+    "fechaFin": "25/04/2026",
+    "poblacion": 1356,
+    "volumen": 630,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/1E8QA3bvrv_Acv50CIErPl-uCuBIGtxCm/view?usp=drive_link"
   },
   {
     "id": 10094,
@@ -425,24 +425,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1YVgHXIHhZng42McGgseGOgAtDajHsxM4/view?usp=drive_link"
   },
   {
-    "id": 10112,
-    "lat": -3.691489,
-    "lng": -80.692821,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Contralmirante Villar",
-    "distrito": "Zorritos",
-    "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL ANGELITO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
-    "ficha": "047-2026-LD-PI-TUM",
-    "fechaInicio": "11/04/2026",
-    "fechaFin": "18/04/2026",
-    "poblacion": 516,
-    "volumen": 4600,
-    "km": 0.3,
-    "enlace": "https://drive.google.com/file/d/1d5kKBMAE9n-8xvjwFdUyvTui-5KpzqhI/view?usp=drive_link"
-  },
-  {
     "id": 10111,
     "lat": -3.689706,
     "lng": -80.433892,
@@ -459,6 +441,24 @@ const mapaIntervenciones = {
     "volumen": 556.5,
     "km": 0.53,
     "enlace": "https://drive.google.com/file/d/1Qzpi2d6qKG_9Kl17PUCEcZtz6EyowY7I/view?usp=drive_link"
+  },
+  {
+    "id": 10112,
+    "lat": -3.691489,
+    "lng": -80.692821,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL ANGELITO, EN EL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES”     ",
+    "ficha": "047-2026-LD-PI-TUM",
+    "fechaInicio": "11/04/2026",
+    "fechaFin": "18/04/2026",
+    "poblacion": 516,
+    "volumen": 4600,
+    "km": 0.3,
+    "enlace": "https://drive.google.com/file/d/1d5kKBMAE9n-8xvjwFdUyvTui-5KpzqhI/view?usp=drive_link"
   },
   {
     "id": 10139,
@@ -1034,6 +1034,24 @@ const mapaIntervenciones = {
     "poblacion": 884,
     "volumen": 1950,
     "km": 0.65,
+    "enlace": null
+  },
+  {
+    "id": 10684,
+    "lat": -3.942341,
+    "lng": -80.653539,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Casitas",
+    "sector": "",
+    "descripcion": " LIMPIEZA DE ESCOMBROS Y RECUPERACIÓN DE LA TRANSITABILIDAD EN LOS CENTROS POBLADOS CAÑAVERAL - LA CHOZA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES",
+    "ficha": "079-2026-LETV-E-TUM",
+    "fechaInicio": "05/11/2026",
+    "fechaFin": "19/11/2026",
+    "poblacion": 1516,
+    "volumen": 7324.2,
+    "km": 9.39,
     "enlace": null
   }
 ],

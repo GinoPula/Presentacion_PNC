@@ -22,6 +22,7 @@ export default {
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1385 },
     { provincia: 'Contralmirante Villar', distrito: 'Casitas', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN ZOILA, EN EL SECTOR CASITAS DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', inicio: '30/10/2026', fin: '10/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 152 },
     { provincia: 'Tumbes', distrito: 'Tumbes', tipo: 'Prevención', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL DREN VIA, EN EL SECTOR TARAPACÁ DEL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES”    ', inicio: '04/11/2026', fin: '10/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 884 },
+    { provincia: 'Contralmirante Villar', distrito: 'Casitas', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS Y RECUPERACIÓN DE LA TRANSITABILIDAD EN LOS CENTROS POBLADOS CAÑAVERAL - LA CHOZA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', inicio: '05/11/2026', fin: '19/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1516 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
