@@ -17,20 +17,21 @@ export default {
 
   enEjecucion: [
     { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 2350.0, kmAcum: 0.56, poblacion: 2495 },
-    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+300.24 KM DEL C.P FE Y ALEGRIA, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.', inicio: '06/11/2026', fin: '20/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 400 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 6, metaVol: 53772.84, metaKm: 5.05, poblacion: 8780 },
+    { provincia: 'Satipo', distrito: 'Rio Tambo', cantidad: 1, metaVol: 5262.86, metaKm: 1.3, poblacion: 400 },
     { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 61187.24, metaKm: 6.85, poblacion: 11980 },
+  programadasTotal: { cantidad: 8, metaVol: 66450.1, metaKm: 8.15, poblacion: 12380 },
 
   programadasDetalle: [
+    { provincia: 'Satipo', distrito: 'Rio Tambo', sector: 'C.P Fe Y Alegria', ficha: '076-2026-LDP-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+300.24 KM DEL C.P FE Y ALEGRIA, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN. ', fechaInicio: '09/11/2026', fechaFin: '23/11/2026', metaVol: 5262.86, metaKm: 1.3, poblacion: 400 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '11/11/2026', fechaFin: '25/11/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720 },
-    { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                        ', fechaInicio: '17/11/2026', fechaFin: '03/12/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN ', fechaInicio: '17/11/2026', fechaFin: '01/12/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440 },
+    { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                        ', fechaInicio: '17/11/2026', fechaFin: '03/12/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Toro', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORO DESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE\nCHANCHAMAYO, REGION JUNIN   ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '068-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 1+897.11 KM TRAMO III DE LAZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6938.02, metaKm: 1.9, poblacion: 1920 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Quisque', ficha: '018-2026-LD-P-JUN', descripcion: '  "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO QUISQUE,  DE LA  PROG. 0+000 A LA PROG. 0+354 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                    ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 3500.0, metaKm: 0.35, poblacion: 300 },
