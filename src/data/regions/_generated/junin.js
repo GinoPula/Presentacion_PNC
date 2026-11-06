@@ -2,8 +2,8 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 23, m3: 224449.0, km: 41.46, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
-    { tipo: 'Prevención', cantidad: 17, m3: 109925.54, km: 1766.95, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
+    { tipo: 'Emergencia', cantidad: 24, m3: 227909.54, km: 1794.36, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
+    { tipo: 'Prevención', cantidad: 16, m3: 106465.0, km: 14.05, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
   ejecutadasTotal: { cantidad: 41, m3: 334494.54, m3AguaPotable: 120.0, km: 1808.74, poblacion: 540598 },
