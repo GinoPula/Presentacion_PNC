@@ -13338,8 +13338,8 @@ const mapaIntervenciones = {
     "fechaInicio": "06/10/2026",
     "fechaFin": "09/11/2026",
     "poblacion": 175,
-    "volumen": 8210,
-    "km": 0.222,
+    "volumen": 10360,
+    "km": 0.277,
     "enlace": null
   },
   {
@@ -13364,18 +13364,18 @@ const mapaIntervenciones = {
     "id": 10606,
     "lat": -13.607217,
     "lng": -71.771782,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Quispicanchi",
     "distrito": "Oropesa",
     "sector": "Quebrada Nueva Oropesa",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO   ",
     "ficha": "032-2026-LD-P-CUS",
     "fechaInicio": "14/10/2026",
     "fechaFin": "03/11/2026",
     "poblacion": 480,
-    "volumen": 3830,
-    "km": 0.231,
+    "volumen": 8530,
+    "km": 0.514,
     "enlace": null
   }
 ],

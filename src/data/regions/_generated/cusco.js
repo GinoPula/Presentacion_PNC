@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 13, m3: 111849.0, km: 7.6, poblacion: 3359, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 14, m3: 120379.0, km: 8.11, poblacion: 3839, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 27, m3: 222434.0, m3AguaPotable: 0.0, km: 19.24, poblacion: 9023 },
+  ejecutadasTotal: { cantidad: 28, m3: 230964.0, m3AguaPotable: 0.0, km: 19.76, poblacion: 9503 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,8 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 8210.0, kmAcum: 0.22, poblacion: 175 },
-    { provincia: 'Quispicanchi', distrito: 'Oropesa', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA NUEVA OROPESA, EN EL SECTOR A.P.V NUEVA OROPESA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 0+514, DISTRITO DE OROPESA, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ', inicio: '14/10/2026', fin: '03/11/2026', volAcum: 3830.0, kmAcum: 0.23, poblacion: 480 },
+    { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 10360.0, kmAcum: 0.28, poblacion: 175 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
