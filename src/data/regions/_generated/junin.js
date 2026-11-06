@@ -16,7 +16,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 1650.0, kmAcum: 0.41, poblacion: 2495 },
+    { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 2350.0, kmAcum: 0.56, poblacion: 2495 },
+    { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+300.24 KM DEL C.P FE Y ALEGRIA, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.', inicio: '06/11/2026', fin: '20/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 400 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
