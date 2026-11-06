@@ -12857,24 +12857,6 @@ const mapaIntervenciones = {
 ],
   cusco: [
   {
-    "id": 9022,
-    "lat": null,
-    "lng": null,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "La Convencion",
-    "distrito": "Kumpirushiato",
-    "sector": "Postakiato",
-    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO POSTAKIATO, EN EL SECTOR POSTAKIATO, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+757 KM, DISTRITO DE KUMPIRUSHIATO, PROVINCIA DE LA CONVENCION, REGION CUSCO                  ",
-    "ficha": "043-2025-LDP-CUS",
-    "fechaInicio": "31/12/2025",
-    "fechaFin": "23/01/2026",
-    "poblacion": 198,
-    "volumen": 14985,
-    "km": 0.759,
-    "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
-  },
-  {
     "id": 9765,
     "lat": -12.852621,
     "lng": -72.127013,
@@ -12891,6 +12873,24 @@ const mapaIntervenciones = {
     "volumen": 735,
     "km": 0.037,
     "enlace": null
+  },
+  {
+    "id": 9022,
+    "lat": null,
+    "lng": null,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "La Convencion",
+    "distrito": "Kumpirushiato",
+    "sector": "Postakiato",
+    "descripcion": " LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO POSTAKIATO, EN EL SECTOR POSTAKIATO, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+757 KM, DISTRITO DE KUMPIRUSHIATO, PROVINCIA DE LA CONVENCION, REGION CUSCO                  ",
+    "ficha": "043-2025-LDP-CUS",
+    "fechaInicio": "31/12/2025",
+    "fechaFin": "23/01/2026",
+    "poblacion": 198,
+    "volumen": 14985,
+    "km": 0.759,
+    "enlace": "https://drive.google.com/drive/u/0/folders/11tL3P_O4c2yGuhJIEV7sMGcLDA8pCI4V"
   },
   {
     "id": 9832,
@@ -12911,24 +12911,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9873,
-    "lat": -13.561884,
-    "lng": -71.445749,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Quispicanchi",
-    "distrito": "Ccatca",
-    "sector": "Barrio Ccapana - Nueva Esperanza",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO MAPACHO, EN EL BARRIO CCAPANA - NUEVA ESPERANZA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+150 KM, DISTRITO DE CCATCCA, PROVINCIA DE QUISPICANCHI, REGION CUSCO       ",
-    "ficha": "007-2026-LD-E-CUS",
-    "fechaInicio": "11/02/2026",
-    "fechaFin": "23/02/2026",
-    "poblacion": 120,
-    "volumen": 9153,
-    "km": 0.15,
-    "enlace": null
-  },
-  {
     "id": 9878,
     "lat": -13.450459,
     "lng": -72.184074,
@@ -12944,6 +12926,24 @@ const mapaIntervenciones = {
     "poblacion": 210,
     "volumen": 3603,
     "km": 5.331,
+    "enlace": null
+  },
+  {
+    "id": 9873,
+    "lat": -13.561884,
+    "lng": -71.445749,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Quispicanchi",
+    "distrito": "Ccatca",
+    "sector": "Barrio Ccapana - Nueva Esperanza",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO MAPACHO, EN EL BARRIO CCAPANA - NUEVA ESPERANZA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+150 KM, DISTRITO DE CCATCCA, PROVINCIA DE QUISPICANCHI, REGION CUSCO       ",
+    "ficha": "007-2026-LD-E-CUS",
+    "fechaInicio": "11/02/2026",
+    "fechaFin": "23/02/2026",
+    "poblacion": 120,
+    "volumen": 9153,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -13322,24 +13322,6 @@ const mapaIntervenciones = {
     "poblacion": 90,
     "volumen": 1560,
     "km": 0.642,
-    "enlace": null
-  },
-  {
-    "id": 10255,
-    "lat": -14.343226,
-    "lng": -71.180599,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Canchis",
-    "distrito": "Marangani",
-    "sector": "Huiscachani Central",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA, EN EL SECTOR HUISCACHANI CENTRAL, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+485 KM, DISTRITO DE MARANGANI, PROVINCIA DE LA CANCHIS, REGIÓN CUSCO           ",
-    "ficha": "026-2026-LD-P-CUS",
-    "fechaInicio": "06/10/2026",
-    "fechaFin": "04/11/2026",
-    "poblacion": 120,
-    "volumen": 10540,
-    "km": 0.323,
     "enlace": null
   },
   {
