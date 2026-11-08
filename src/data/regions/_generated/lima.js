@@ -53,10 +53,10 @@ export default {
     { provincia: 'Huarochiri', distrito: 'Antioquia', sector: 'Sector Espiritu Santo', ficha: '158-2026-LDP-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DE LA QUEBRADA CHAMACHA, SECTOR ESPIRITU SANTO-TRAMO III, DISTRITO DE ANTIOQUIA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10656.0, metaKm: 0.36, poblacion: 140 },
   ],
 
-  conveniosCount: 20,
+  conveniosCount: 19,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial', detail: '2 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '18 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '17 convenios vigentes' },
   ],
 
   flota: [
