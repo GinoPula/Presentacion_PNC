@@ -17,8 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
-    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.     ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 143.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n           ', inicio: '04/11/2026', fin: '09/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 400 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.     ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 206.0, kmAcum: 0.0, poblacion: 3350 },
+    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n           ', inicio: '04/11/2026', fin: '09/11/2026', volAcum: 1400.0, kmAcum: 0.03, poblacion: 400 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
