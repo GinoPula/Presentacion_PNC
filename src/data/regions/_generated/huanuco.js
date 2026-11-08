@@ -53,7 +53,7 @@ export default {
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 24/02/2027' },
     { entidad: 'Municipalidad Provincial Huanuco', detail: 'hasta 19/08/2027' },
-    { entidad: 'Municipalidad Distrital Luyando', detail: 'vence 07/11/2026 (a un mes de caducar)' },
+    { entidad: 'Municipalidad Distrital Luyando', detail: 'hasta 07/11/2026' },
     { entidad: 'Municipalidad Distrital Codo Del Pozuzo', detail: 'vence 13/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Amarilis', detail: 'vence 14/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Jose Crespo Y Castillo', detail: 'vence 25/11/2026 (a un mes de caducar)' },
