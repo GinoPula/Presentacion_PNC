@@ -18,26 +18,28 @@ export default {
 
   enEjecucion: [
     { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.     ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 206.0, kmAcum: 0.0, poblacion: 3350 },
-    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n           ', inicio: '04/11/2026', fin: '09/11/2026', volAcum: 1400.0, kmAcum: 0.03, poblacion: 400 },
+    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n            ', inicio: '04/11/2026', fin: '20/11/2026', volAcum: 1400.0, kmAcum: 0.03, poblacion: 400 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Chiclayo', distrito: 'Chiclayo', cantidad: 1, metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
+    { provincia: 'Chiclayo', distrito: 'Lagunas', cantidad: 1, metaVol: 1800.0, metaKm: 0.0, poblacion: 1100 },
     { provincia: 'Chiclayo', distrito: 'La Victoria', cantidad: 1, metaVol: 2620.75, metaKm: 3.22, poblacion: 7500 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', cantidad: 1, metaVol: 2078.45, metaKm: 7.2, poblacion: 0 },
     { provincia: 'Chiclayo', distrito: 'Tuman', cantidad: 1, metaVol: 8400.0, metaKm: 3.15, poblacion: 2600 },
     { provincia: 'Lambayeque', distrito: 'Jayanca', cantidad: 1, metaVol: 21000.0, metaKm: 3.0, poblacion: 1200 },
     { provincia: 'Lambayeque', distrito: 'Motupe', cantidad: 1, metaVol: 17000.0, metaKm: 0.4, poblacion: 593 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 59299.2, metaKm: 18.57, poblacion: 25143 },
+  programadasTotal: { cantidad: 7, metaVol: 61099.2, metaKm: 18.57, poblacion: 26243 },
 
   programadasDetalle: [
+    { provincia: 'Chiclayo', distrito: 'Lagunas', sector: 'Centros Poblados: Nuevo Mocupe, Tupac Amaru, Agropecuario, Peroles, La Libertad, Cerro La Guitarra, San Juan De Miraflores, La Molina, 11 De Mayo', ficha: '067-2026 -AA-U-LAM', descripcion: ' ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE', fechaInicio: '10/11/2026', fechaFin: '29/12/2026', metaVol: 1800.0, metaKm: 0.0, poblacion: 1100 },
     { provincia: 'Chiclayo', distrito: 'Chiclayo', sector: 'Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol', ficha: '030-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00          ', fechaInicio: '15/11/2026', fechaFin: '22/11/2026', metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
     { provincia: 'Chiclayo', distrito: 'La Victoria', sector: 'Chacupe Y Urb Santa Rosa', ficha: '033-2026 -LD-P-LAM', descripcion: '  LIMPIEZA Y DESCOLMATACION DE 3.22 KM DEL CANAL TOCNOPE, ENTRE LOS SECTORES CHACUPE Y URB SANTA ROSA, EN EL DISTRITO DE LA VICTORIA, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE -00        ', fechaInicio: '15/11/2026', fechaFin: '05/12/2026', metaVol: 2620.75, metaKm: 3.22, poblacion: 7500 },
     { provincia: 'Chiclayo', distrito: 'Tuman', sector: 'Sector 6 – Casuarinas', ficha: '020-2026 -LD-P-LAM', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL DREN “SAN JORGE” TRAMOS 1, 2 Y 3 EN EL “SECTOR 6 – CASUARINAS” DEL DISTRITO DE TUMAN, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE -00     ', fechaInicio: '15/11/2026', fechaFin: '24/11/2026', metaVol: 8400.0, metaKm: 3.15, poblacion: 2600 },
-    { provincia: 'Lambayeque', distrito: 'Motupe', sector: '', ficha: '011-2026 -LD-P-LAM', descripcion: ' “DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES DE 0.40 KM EN EL RIO CHINAMA EN EL SECTOR DEL CASERIO “LA ARENA” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”.   ', fechaInicio: '01/12/2026', fechaFin: '14/12/2026', metaVol: 17000.0, metaKm: 0.4, poblacion: 593 },
     { provincia: 'Lambayeque', distrito: 'Jayanca', sector: 'Centro Poblado El Marquez', ficha: '026-2026 -LD-P-LAM', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA ZURITA, CENTRO POBLADO EL MARQUEZ, DISTRITO DE JAYANCA, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE-00         ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 21000.0, metaKm: 3.0, poblacion: 1200 },
+    { provincia: 'Lambayeque', distrito: 'Motupe', sector: '', ficha: '011-2026 -LD-P-LAM', descripcion: ' “DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES DE 0.40 KM EN EL RIO CHINAMA EN EL SECTOR DEL CASERIO “LA ARENA” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”.   ', fechaInicio: '01/12/2026', fechaFin: '14/12/2026', metaVol: 17000.0, metaKm: 0.4, poblacion: 593 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', sector: '', ficha: '063-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL  "ESCUTE” ENTRE LOS SECTORES PP. JJ. AMPLIACIÓN VICTOR RAÚL HAYA DE LA TORRE, URB. SANTA MARGARITA, CONDOMINIO VILLA CLUB PALMERAS, CONDOMINO NUESTRA SEÑORA DE LA PAZ, CONDOMINIO VILLA LOS SAUCES, URBANIZACIÓN EL SANTUARIO, URB. LOS TREBOLES, URB. LAS LOMAS DE PIMENTEL, LA GARITA I Y II, CONDOMINO LA JOYITA, LA JOYITA I Y II, CONDOMINIO ALAMEDA, CONDOMINO REAL, RESIDENCIAL LOMAS DE SAN AGUSTIN, URB. SOL DE PIMENTEL, EN EL DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”    ', fechaInicio: '05/12/2026', fechaFin: '29/12/2026', metaVol: 2078.45, metaKm: 7.2, poblacion: null },
   ],
 
