@@ -20,7 +20,7 @@ export default {
     { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 300.0, kmAcum: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 195.0, kmAcum: 0.0, poblacion: 550 },
     { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 2700.0, kmAcum: 0.09, poblacion: 10000 },
-    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '06/11/2026', fin: '11/11/2026', volAcum: 500.0, kmAcum: 0.03, poblacion: 200 },
+    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', inicio: '06/11/2026', fin: '11/11/2026', volAcum: 1000.0, kmAcum: 0.06, poblacion: 200 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
