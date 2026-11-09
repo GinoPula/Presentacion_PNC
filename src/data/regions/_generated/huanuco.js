@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM  00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO   ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 2016.09, kmAcum: 479.56, poblacion: 500 },
+    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM  00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO   ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 5506.25, kmAcum: 479.96, poblacion: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
