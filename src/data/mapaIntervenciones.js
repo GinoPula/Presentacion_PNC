@@ -10330,18 +10330,18 @@ const mapaIntervenciones = {
     "id": 10679,
     "lat": -6.419788,
     "lng": -77.33928,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Rodriguez De Mendoza",
     "distrito": "Omia",
     "sector": "Caserio El Alizo El Sector Cortadera",
-    "descripcion": " “REMOCION DE ESCOMROS QUE IRRUMPEN LA TRANSITABILIDAD DE LAS VIAS Y RECUPERACION DE TRANSITABILIDAD DE DIAS DE ACCESO QUE UNEN EL CASERIO EL ALIZO Y EL SECTOR CORTADERA  – DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA , REGION AMAZONAS.”",
+    "descripcion": " “REMOCION DE ESCOMROS QUE IRRUMPEN LA TRANSITABILIDAD DE LAS VIAS Y RECUPERACION DE TRANSITABILIDAD DE DIAS DE ACCESO QUE UNEN EL CASERIO EL ALIZO Y EL SECTOR CORTADERA  – DISTRITO DE OMIA, PROVINCIA DE RODRIGUEZ DE MENDOZA , REGION AMAZONAS.” ",
     "ficha": "N°080-2025-RLEU-AMZ",
     "fechaInicio": "27/10/2026",
-    "fechaFin": "07/11/2026",
+    "fechaFin": "05/11/2026",
     "poblacion": 218,
-    "volumen": 7000,
-    "km": 0.505,
+    "volumen": 7800,
+    "km": 0.6,
     "enlace": null
   },
   {
@@ -10358,7 +10358,7 @@ const mapaIntervenciones = {
     "fechaInicio": "03/11/2026",
     "fechaFin": "02/12/2026",
     "poblacion": 750,
-    "volumen": 60,
+    "volumen": 120,
     "km": 0,
     "enlace": null
   }
