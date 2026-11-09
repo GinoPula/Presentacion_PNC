@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 21, m3: 128797.53, km: 32.16, poblacion: 30638, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 32, m3: 174102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
-    { tipo: 'Urgente atención', cantidad: 10, m3: 37117.5, km: 30.95, poblacion: 14605, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Urgente atención', cantidad: 11, m3: 37162.5, km: 30.95, poblacion: 15805, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 63, m3: 340017.43, m3AguaPotable: 255.0, km: 119.46, poblacion: 174340 },
+  ejecutadasTotal: { cantidad: 64, m3: 340062.43, m3AguaPotable: 300.0, km: 119.46, poblacion: 175540 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Talara', distrito: 'Los Organos', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN SITUACIONES DE URGENCIA EN EL CENTRO POBLADO DE CALETA EL ÑURO Y LOS ORGANOS, EN EL DISTRITO DE LOS ORGANOS PROVINCIA DE TALARA, DEPARTAMENTO DE PIURA  ', inicio: '07/10/2026', fin: '05/11/2026', volAcum: 45.0, kmAcum: 0.0, poblacion: 1200 },
     { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P    ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 10760.0, kmAcum: 0.37, poblacion: 900 },
   ],
 
