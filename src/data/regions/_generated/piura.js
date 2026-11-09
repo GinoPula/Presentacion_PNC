@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 21, m3: 128797.53, km: 32.16, poblacion: 30638, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Emergencia', cantidad: 22, m3: 139557.53, km: 32.53, poblacion: 31538, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 32, m3: 174102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 11, m3: 37162.5, km: 30.95, poblacion: 15805, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 64, m3: 340062.43, m3AguaPotable: 300.0, km: 119.46, poblacion: 175540 },
+  ejecutadasTotal: { cantidad: 65, m3: 350822.43, m3AguaPotable: 300.0, km: 119.83, poblacion: 176440 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'Canchaque', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P    ', inicio: '07/10/2026', fin: '10/11/2026', volAcum: 10760.0, kmAcum: 0.37, poblacion: 900 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -65,10 +64,10 @@ export default {
     { provincia: 'Morropon', distrito: 'Morropon', sector: 'Sector Capitan Quiñones Tramo Ii', ficha: 'FTI Nº 036-2026-LD-PI-PIU', descripcion: '  LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR CAPITAN QUIÑOÑES TRAMO II – DISTRITO DE MORROPON, PROVINCIA MORROPON – DEPARTAMENTO DE PIURA-00      ', fechaInicio: '02/11/2026', fechaFin: '04/11/2026', metaVol: 1100.0, metaKm: 0.22, poblacion: 500 },
     { provincia: 'Piura', distrito: 'Veintiseis De Octubre', sector: 'Marcavelica', ficha: 'FTI Nº013-2026-LD-PI-PIU', descripcion: '"LIMPIEZA Y DESCOLMATACION DE CAJA HIDRAULICA DEL DREN MARCAVELICA DESDE LA PROGRESIVA 0+000 HASTA 0+388 KM EN EL SECTOR NUEVO HORIZONTE Y TUPAC AMARU DEL DISTRITO 26 DE OCTUBRE - PROVINCIA DE PIURA - DEPARTAMENTO DE PIURA" -00            ', fechaInicio: '03/11/2026', fechaFin: '07/11/2026', metaVol: 161.31, metaKm: 0.09, poblacion: 2169 },
     { provincia: 'Morropon', distrito: 'Santa Catalina De Mossa', sector: 'Maray', ficha: 'FTI N°024-2026-LD-P-PIU', descripcion: '"LIMPIEZA Y DESCOLMATACIÓN RIO CORRAL DEL MEDIO - SECTOR MARAY - DISTRITO DE SANTA CATALINA DE MOSA - DISTRITO DE MORROPÓN- DEPARTAMENTO DE PIURA"-00  ', fechaInicio: '07/11/2026', fechaFin: '29/11/2026', metaVol: 20625.0, metaKm: 0.55, poblacion: 950 },
-    { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', sector: 'San Cristobal', ficha: 'FTI N° 153-2026-LD-E-PIU', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P   ', fechaInicio: '09/11/2026', fechaFin: '10/12/2026', metaVol: 22000.0, metaKm: 0.44, poblacion: 900 },
     { provincia: 'Morropon', distrito: 'Morropon', sector: 'Dren Pluvial Morropón', ficha: 'FTI Nº 017-2026-LD-P-PIU', descripcion: '   LIMPIEZA Y DESCOLMATACION DEL DREN PLUVIAL MORROPÓN – SECTOR MORROPÓN - DISTRITO DE MORROPÓN PROVINCIA MORROPÓN - DEPARTAMENTO DE PIURA-00                  ', fechaInicio: '10/11/2026', fechaFin: '29/11/2026', metaVol: 2000.0, metaKm: 1.1, poblacion: 7000 },
     { provincia: 'Morropon', distrito: 'Morropon', sector: 'Solumbre', ficha: 'FTI Nº 031-2026-LD-PI-PIU', descripcion: '  LIMPIEZA, DESCOLMATACION QUEBRADA EN EL CASERIO SOLUMBRE – DISTRITO DE MORROPON PROVINCIA MORROPON – REGION PIURA -00     ', fechaInicio: '10/11/2026', fechaFin: '14/11/2026', metaVol: 471.0, metaKm: 0.31, poblacion: 520 },
     { provincia: 'Morropon', distrito: 'Morropon', sector: 'Solumbre', ficha: 'FTI N°021-2026-LD-PI-PIU  ', descripcion: '"LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DE LA QUEBRADA SOLUMBRE EN EL CP SOLUMBRE, DISTRITO DE MORROPON, PROVINCIA DE MORROPON, REGION PIURA"  -00   ', fechaInicio: '10/11/2026', fechaFin: '24/11/2026', metaVol: 6000.0, metaKm: 2.98, poblacion: 1200 },
+    { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', sector: 'San Cristobal', ficha: 'FTI N° 153-2026-LD-E-PIU', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P    ', fechaInicio: '13/11/2026', fechaFin: '14/12/2026', metaVol: 22000.0, metaKm: 0.44, poblacion: 900 },
     { provincia: 'Morropon', distrito: 'Chulucanas', sector: 'Dren Villa Mercedes', ficha: 'FTI Nº 022-2026-LD-PI-PIU', descripcion: '  LIMPIEZA Y DESCOLMATACION DEL DREN VILLA MERCEDES DISTRITO DE CHULUCANAS, PROVINCIA DE MORROPÓN, DEPARTAMENTO PIURA -00             ', fechaInicio: '14/11/2026', fechaFin: '20/11/2026', metaVol: 4344.0, metaKm: 0.61, poblacion: 1796 },
     { provincia: 'Morropon', distrito: 'Morropon', sector: 'Sector Capitan Quiñones Tramo Iv', ficha: 'FTI Nº 034-2026-LD-PI-PIU', descripcion: '   “LIMPIEZA Y DESCOLMATACION DE DREN PLUVIAL MORROPON – SECTOR CAPITAN QUIÑONES TRAMO IV– DISTRITO DE MORROPON PROVINCIA MORROPON – DEPARTAMENTO DE PIURA-00                ', fechaInicio: '15/11/2026', fechaFin: '20/11/2026', metaVol: 1108.0, metaKm: 0.55, poblacion: 2000 },
     { provincia: 'Morropon', distrito: 'Salitral', sector: 'La Alberca', ficha: 'FTI N°058-2026-LD-P-PIU', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE LA QUEBRADA LA ALBERCA, EN EL  C.P. LA ALBERCA, DISTRITO DE SALITRAL, PROVINCIA DE MORROPON, DEPARTAMENTO PIURA” -00                         ', fechaInicio: '15/11/2026', fechaFin: '04/12/2026', metaVol: 8060.0, metaKm: 1.3, poblacion: 600 },
