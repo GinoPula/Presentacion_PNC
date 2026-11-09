@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "09/11/2026",
-    "horaCorte": "15:22",
+    "horaCorte": "15:53",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -1027,38 +1027,6 @@
     },
     {
       "n": 54,
-      "idIntervencion": "10644",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Puno",
-      "distrito": "Vilque",
-      "sector": "Yanarico Central",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº002-2025-ADENDA 01",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO",
-      "fechaInicio": "28/10/2026",
-      "fechaFin": "06/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 55,
-      "idIntervencion": "10634",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Yunguyo",
-      "distrito": "Yunguyo",
-      "sector": "",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N°024-2025-VIVIENDA/VMVU/PNC-ADENDA N°1",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL RIO CALLACAME, EN LOS CENTROS POBLADOS DE VILLAMAR AYCHUYO Y PAJANA SAN AGUSTIN DISTRITO DE YUNGUYO, PROVINCIA DE YUNGUYO, REGION PUNO",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "31/10/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 56,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1080,7 +1048,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 55,
       "idIntervencion": "10547",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1102,7 +1070,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 56,
       "idIntervencion": "9440",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1120,7 +1088,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 57,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1138,7 +1106,26 @@
       ]
     },
     {
-      "n": 60,
+      "n": 58,
+      "idIntervencion": "10643",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Sifon Higuerani Ii Etapa",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº001-2020-ADENDA 05",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "06/11/2026",
+      "fechaFin": "11/11/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
+      ]
+    },
+    {
+      "n": 59,
       "idIntervencion": "10157",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1160,26 +1147,7 @@
       ]
     },
     {
-      "n": 61,
-      "idIntervencion": "10643",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Pachia",
-      "sector": "Sifon Higuerani Ii Etapa",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº001-2020-ADENDA 05",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "06/11/2026",
-      "fechaFin": "11/11/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81435)",
-        "REMOLCADOR ( EGN-105)"
-      ]
-    },
-    {
-      "n": 62,
+      "n": 60,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1197,7 +1165,7 @@
       ]
     },
     {
-      "n": 63,
+      "n": 61,
       "idIntervencion": "10671",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1220,7 +1188,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 62,
       "idIntervencion": "10684",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1239,7 +1207,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 63,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1258,7 +1226,7 @@
       ]
     },
     {
-      "n": 66,
+      "n": 64,
       "idIntervencion": "10669",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1277,7 +1245,7 @@
       ]
     },
     {
-      "n": 67,
+      "n": 65,
       "idIntervencion": "9488",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1301,7 +1269,7 @@
       ]
     },
     {
-      "n": 68,
+      "n": 66,
       "idIntervencion": "10091",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",

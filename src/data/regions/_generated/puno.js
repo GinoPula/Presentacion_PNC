@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 13, m3: 118988.95, km: 16.45, poblacion: 18031, provincias: ['Azangaro', 'Carabaya', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia'] },
-    { tipo: 'Prevención', cantidad: 18, m3: 170047.49, km: 41.69, poblacion: 9431, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman'] },
-    { tipo: 'Urgente atención', cantidad: 12, m3: 55969.56, km: 188.36, poblacion: 23645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
+    { tipo: 'Prevención', cantidad: 20, m3: 179647.49, km: 43.29, poblacion: 9591, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'Puno', 'Sandia', 'San Roman', 'Yunguyo'] },
+    { tipo: 'Urgente atención', cantidad: 12, m3: 55969.56, km: 188.35, poblacion: 23645, provincias: ['Azangaro', 'El Collao', 'Lampa', 'Melgar', 'San Roman'] },
   ],
-  ejecutadasTotal: { cantidad: 43, m3: 345006.0, m3AguaPotable: 8612.02, km: 246.49, poblacion: 51107 },
+  ejecutadasTotal: { cantidad: 45, m3: 354606.0, m3AguaPotable: 8612.02, km: 248.09, poblacion: 51267 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 79, m3: 654264.81, m3AguaPotable: 16698.56, km: 186.63, poblacion: 37757 },
 
   enEjecucion: [
-    { provincia: 'Yunguyo', distrito: 'Yunguyo', tipo: 'Prevención', descripcion: ' "LIMPIEZA Y DESCOLMATACION DEL RIO CALLACAME, EN LOS CENTROS POBLADOS DE VILLAMAR AYCHUYO Y PAJANA SAN AGUSTIN DISTRITO DE YUNGUYO, PROVINCIA DE YUNGUYO, REGION PUNO" ', inicio: '22/10/2026', fin: '31/10/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
-    { provincia: 'Puno', distrito: 'Vilque', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO PUCAMAYO, EN EL SECTOR YANARICO CENTRAL, DISTRITO DE VILQUE, PROVINCIA PUNO, REGIÓN PUNO ', inicio: '28/10/2026', fin: '06/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 160 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
