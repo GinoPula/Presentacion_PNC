@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".                    ', inicio: '15/10/2026', fin: '24/11/2026', volAcum: 3650.0, kmAcum: 0.25, poblacion: 50 },
     { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO MARGEN IZQUIERDA DE LA QUEBRADA PURUCHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+400, EN EL SECTOR AYMAS, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.          ', inicio: '27/10/2026', fin: '21/11/2026', volAcum: 2400.0, kmAcum: 0.21, poblacion: 500 },
   ],
 
@@ -53,7 +52,8 @@ export default {
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAK-048'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-851'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286608'], estado: 'operativo' },
-    { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['81442', '82538'], estado: 'operativo' },
+    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81442'], estado: 'inoperativo' },
+    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['82538'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGV-792', 'EGV-803', 'EGV-778'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 4, marca: 'Scania', codigos: ['EGM-828', 'EGM-781', 'EGM-872', 'EGM-777'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Scania', codigos: ['EGM-780'], estado: 'inoperativo' },

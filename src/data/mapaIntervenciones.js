@@ -10545,24 +10545,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1WQpS06YhsxD-aznZXkP8SPQ7WL0y8xiH/view?usp=drive_link"
   },
   {
-    "id": 9634,
-    "lat": -14.051171,
-    "lng": -73.276859,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Aymaraes",
-    "distrito": "Toraya",
-    "sector": "Condebamba-Canua/Rio Caballoniyoc",
-    "descripcion": "  \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES EN EL RIO CABALLONIYOC, AMBAS MARGENES EN PROTECCION A LAS VIVIENDAS EN LAS COMUNIDADES DE CONDEBAMBA Y CANUA DEL DISTRITO DE TORAYA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC\".             ",
-    "ficha": "FTI N° 019 - 2026 –LDP-APU.",
-    "fechaInicio": "26/03/2026",
-    "fechaFin": "21/04/2026",
-    "poblacion": 1200,
-    "volumen": 10609.59,
-    "km": 3.46,
-    "enlace": null
-  },
-  {
     "id": 9916,
     "lat": -13.629946,
     "lng": -73.167481,
@@ -10578,6 +10560,24 @@ const mapaIntervenciones = {
     "poblacion": 700,
     "volumen": 14750,
     "km": 1.55,
+    "enlace": null
+  },
+  {
+    "id": 9634,
+    "lat": -14.051171,
+    "lng": -73.276859,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Aymaraes",
+    "distrito": "Toraya",
+    "sector": "Condebamba-Canua/Rio Caballoniyoc",
+    "descripcion": "  \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES EN EL RIO CABALLONIYOC, AMBAS MARGENES EN PROTECCION A LAS VIVIENDAS EN LAS COMUNIDADES DE CONDEBAMBA Y CANUA DEL DISTRITO DE TORAYA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC\".             ",
+    "ficha": "FTI N° 019 - 2026 –LDP-APU.",
+    "fechaInicio": "26/03/2026",
+    "fechaFin": "21/04/2026",
+    "poblacion": 1200,
+    "volumen": 10609.59,
+    "km": 3.46,
     "enlace": null
   },
   {
@@ -10758,24 +10758,6 @@ const mapaIntervenciones = {
     "poblacion": 500,
     "volumen": 4527,
     "km": 3.042,
-    "enlace": null
-  },
-  {
-    "id": 9775,
-    "lat": -14.42835,
-    "lng": -72.917005,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Antabamba",
-    "distrito": "Juan Espinoza Medrano",
-    "sector": "Mollebamba/Rio Mollebamba",
-    "descripcion": "\" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".                    ",
-    "ficha": "FTI N° 027-2026-LDP-APU (FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP )",
-    "fechaInicio": "15/10/2026",
-    "fechaFin": "24/11/2026",
-    "poblacion": 50,
-    "volumen": 3650,
-    "km": 0.25,
     "enlace": null
   },
   {
