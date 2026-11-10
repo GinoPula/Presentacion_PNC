@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 19490.0, kmAcum: 0.5, poblacion: 175 },
+    { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 19690.0, kmAcum: 0.51, poblacion: 175 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
