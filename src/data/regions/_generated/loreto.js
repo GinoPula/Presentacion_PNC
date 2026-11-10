@@ -22,10 +22,13 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', cantidad: 2, metaVol: 6226.0, metaKm: 4.89, poblacion: 9800 },
   ],
-  programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
+  programadasTotal: { cantidad: 2, metaVol: 6226.0, metaKm: 4.89, poblacion: 9800 },
 
   programadasDetalle: [
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN EL AA.HH. 01 DE NOVIEMBRE, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO', fechaInicio: '28/11/2026', fechaFin: '17/12/2026', metaVol: 3720.0, metaKm: 3.1, poblacion: 4900 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '024-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL AA.HH. 01 DE NOVIEMBRE DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO ', fechaInicio: '02/12/2026', fechaFin: '21/12/2026', metaVol: 2506.0, metaKm: 1.79, poblacion: 4900 },
   ],
 
   conveniosCount: 1,
