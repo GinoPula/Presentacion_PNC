@@ -30,7 +30,7 @@ export default {
 
   conveniosCount: 1,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Distrital Punchana', detail: 'hasta 10/12/2026' },
+    { entidad: 'Municipalidad Distrital Punchana', detail: 'vence 10/12/2026 (a un mes de caducar)' },
   ],
 
   flota: [
