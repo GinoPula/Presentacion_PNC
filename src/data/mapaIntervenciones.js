@@ -2561,7 +2561,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Pachia",
     "sector": "Sifon Higuerani Ii Etapa",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR SIFON HIGUERANI II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ",
     "ficha": "053-2026-LD-P-TAC",
     "fechaInicio": "06/11/2026",
     "fechaFin": "11/11/2026",
