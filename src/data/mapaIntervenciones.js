@@ -9040,8 +9040,8 @@ const mapaIntervenciones = {
     "fechaInicio": "31/10/2026",
     "fechaFin": "14/11/2026",
     "poblacion": 98,
-    "volumen": 5728.5,
-    "km": 0.087,
+    "volumen": 8059.5,
+    "km": 0.124,
     "enlace": null
   },
   {
