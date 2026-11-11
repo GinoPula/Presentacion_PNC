@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 5, m3: 29831.85, km: 4.84, poblacion: 18310, provincias: ['Huarmey', 'Santa'] },
-    { tipo: 'Prevención', cantidad: 54, m3: 189862.0, km: 20.35, poblacion: 50867, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 55, m3: 191862.0, km: 20.85, poblacion: 51578, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 9448.0, km: 6.3, poblacion: 6071, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 68, m3: 229141.85, m3AguaPotable: 570.0, km: 31.48, poblacion: 75248 },
+  ejecutadasTotal: { cantidad: 69, m3: 231141.85, m3AguaPotable: 570.0, km: 31.98, poblacion: 75959 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -20,9 +20,8 @@ export default {
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH        ', inicio: '28/08/2026', fin: '15/11/2026', volAcum: 23097.0, kmAcum: 2.68, poblacion: 7456 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH    ', inicio: '16/10/2026', fin: '11/11/2026', volAcum: 8279.0, kmAcum: 0.51, poblacion: 1661 },
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R    ', inicio: '01/11/2026', fin: '13/11/2026', volAcum: 6689.0, kmAcum: 0.83, poblacion: 500 },
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 7585.0, kmAcum: 1.53, poblacion: 120 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 9340.0, kmAcum: 1.89, poblacion: 120 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA GARLERO, SECTOR GARLERO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 3015.0, kmAcum: 0.34, poblacion: 150 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR BELLA VISTA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', inicio: '04/11/2026', fin: '18/11/2026', volAcum: 1640.0, kmAcum: 0.41, poblacion: 711 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

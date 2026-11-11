@@ -3,9 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 14, m3: 110585.0, km: 11.65, poblacion: 5664, provincias: ['Anta', 'Calca', 'Canchis', 'Cusco', 'La Convencion', 'Quispicanchi'] },
-    { tipo: 'Prevención', cantidad: 14, m3: 120379.0, km: 8.11, poblacion: 3839, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 140069.0, km: 8.62, poblacion: 4014, provincias: ['Anta', 'Calca', 'Canas', 'La Convencion', 'Quispicanchi'] },
   ],
-  ejecutadasTotal: { cantidad: 28, m3: 230964.0, m3AguaPotable: 0.0, km: 19.76, poblacion: 9503 },
+  ejecutadasTotal: { cantidad: 29, m3: 250654.0, m3AguaPotable: 0.0, km: 20.27, poblacion: 9678 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,7 +16,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'La Convencion', distrito: 'Santa Teresa', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO    ', inicio: '06/10/2026', fin: '09/11/2026', volAcum: 19690.0, kmAcum: 0.51, poblacion: 175 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

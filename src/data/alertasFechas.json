@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "11/11/2026",
-    "horaCorte": "16:37",
+    "horaCorte": "17:07",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -65,44 +65,6 @@
     },
     {
       "n": 4,
-      "idIntervencion": "10401",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "CUSCO",
-      "deptoLabel": "Cusco",
-      "regionId": "cusco",
-      "provincia": "La Convencion",
-      "distrito": "Santa Teresa",
-      "sector": "Saucepampa",
-      "ficha": "030-2026-LD-P-CUS",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIO SALKANTAY, EN EL SECTOR SAUCEPAMPA, DE LA PROGRESIVA 0+00 KM A LA PROGRESIVA 0+500 KM, DISTRITO DE SANTA TERESA, PROVINCIA DE LA CONVENCION, REGION CUSCO",
-      "marcoLegal": "CONVENIO Nº042-2025-ADENDA 01",
-      "fechaInicio": "06/10/2026",
-      "fechaFin": "09/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 5,
-      "idIntervencion": "10514",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Mariano Melgar",
-      "sector": "Puente Sepúlveda Hasta Puente Santa Rita De Casia",
-      "ficha": "76-2026-LDP-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR PUENTE SEPÚLVEDA HASTA PUENTE SANTA RITA DE CASIA, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "22/10/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 6,
       "idIntervencion": "10641",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -121,7 +83,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 7,
+      "n": 5,
       "idIntervencion": "10633",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
