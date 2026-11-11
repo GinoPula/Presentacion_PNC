@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO CRUCE CP. SALALA - GUARGUAR - INGRESO LAGUNA SHIMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN DE PIURA', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 1290.0, kmAcum: 1.58, poblacion: 500 },
+    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO CRUCE CP. SALALA - GUARGUAR - INGRESO LAGUNA SHIMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN DE PIURA', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 1410.0, kmAcum: 1.89, poblacion: 500 },
     { provincia: 'Sechura', distrito: 'Sechura', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA ZONA URBANA DEL DREN SECHURA-TRAMO CHULLIYACHI, (PROG. KM 8+200 – KM 05+700), DISTRITO DE SECHURA, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA', inicio: '29/10/2026', fin: '24/11/2026', volAcum: 6000.0, kmAcum: 1.18, poblacion: 14000 },
     { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', inicio: '11/11/2026', fin: '12/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 900 },
   ],
