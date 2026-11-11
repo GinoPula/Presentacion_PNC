@@ -20,6 +20,7 @@ export default {
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”     ', inicio: '09/09/2026', fin: '12/11/2026', volAcum: 2320.0, kmAcum: 6.09, poblacion: 553 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA” ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 5000 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '27/10/2026', fin: '15/11/2026', volAcum: 1350.0, kmAcum: 0.6, poblacion: null },
+    { provincia: 'Cajamarca', distrito: 'Llacanora', tipo: 'Prevención', descripcion: '“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 150 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -27,15 +28,13 @@ export default {
     { provincia: 'Cajabamba', distrito: 'Cachachi', cantidad: 1, metaVol: 16800.0, metaKm: 0.5, poblacion: 700 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', cantidad: 1, metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Cajamarca', distrito: 'Jesus', cantidad: 1, metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },
-    { provincia: 'Cajamarca', distrito: 'Llacanora', cantidad: 1, metaVol: 1050.0, metaKm: 0.04, poblacion: 150 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 1, metaVol: 7500.0, metaKm: 0.5, poblacion: 500 },
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 1, metaVol: 4000.0, metaKm: 2.5, poblacion: 300 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 49071.37, metaKm: 6.33, poblacion: 3090 },
+  programadasTotal: { cantidad: 6, metaVol: 48021.37, metaKm: 6.29, poblacion: 2940 },
 
   programadasDetalle: [
-    { provincia: 'Cajamarca', distrito: 'Llacanora', sector: 'Huayrapongo Grande', ficha: 'FTI N° 062-2026-LD-PI-CAJ', descripcion: '“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.  ', fechaInicio: '11/11/2026', fechaFin: '25/11/2026', metaVol: 1050.0, metaKm: 0.04, poblacion: 150 },
     { provincia: 'Cajabamba', distrito: 'Cachachi', sector: 'Chimin-Tabacal', ficha: 'FTI N° 061-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO CHIMÍN, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR CHIMÍN, C.P. TABACAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.   ', fechaInicio: '12/11/2026', fechaFin: '26/11/2026', metaVol: 16800.0, metaKm: 0.5, poblacion: 700 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).         ', fechaInicio: '26/11/2026', fechaFin: '10/12/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Cajamarca', distrito: 'Jesus', sector: 'La Colpa', ficha: 'FTI N° 021-2026-LD-PI-CAJ', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA LA COLPA EL GAVILÁN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+200, EN EL CASERÍO LA COLPA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },

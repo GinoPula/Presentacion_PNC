@@ -3792,8 +3792,8 @@ const mapaIntervenciones = {
     "fechaInicio": "29/10/2026",
     "fechaFin": "24/11/2026",
     "poblacion": 14000,
-    "volumen": 12500,
-    "km": 2.5,
+    "volumen": 1550,
+    "km": 0.33,
     "enlace": null
   },
   {
@@ -11647,24 +11647,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9665,
-    "lat": -7.229149,
-    "lng": -78.423568,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "Yanamanguito",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
-    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
-    "fechaInicio": "06/03/2026",
-    "fechaFin": "16/03/2026",
-    "poblacion": 80,
-    "volumen": 4500,
-    "km": 0.5,
-    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
-  },
-  {
     "id": 9968,
     "lat": -6.505026,
     "lng": -78.292252,
@@ -11681,6 +11663,24 @@ const mapaIntervenciones = {
     "volumen": 2850.5,
     "km": 9.1,
     "enlace": null
+  },
+  {
+    "id": 9665,
+    "lat": -7.229149,
+    "lng": -78.423568,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "Yanamanguito",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA ANDADEN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CASERÍO YANAMANGUITO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.        ",
+    "ficha": "FTI N° 020-2026-LD-PI-CAJ",
+    "fechaInicio": "06/03/2026",
+    "fechaFin": "16/03/2026",
+    "poblacion": 80,
+    "volumen": 4500,
+    "km": 0.5,
+    "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
   },
   {
     "id": 9967,
@@ -11809,24 +11809,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 8859,
-    "lat": -5.691199,
-    "lng": -78.774925,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Jaen",
-    "distrito": "Jaen",
-    "sector": "El Pongo, Fila Alta, Chamaya, Molino  Chamaya, Palo Blanco, La Pushura,  San Agustin",
-    "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA II DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”       ",
-    "ficha": "N°003-2026-AAU-AMZ",
-    "fechaInicio": "19/03/2026",
-    "fechaFin": "09/05/2026",
-    "poblacion": 375,
-    "volumen": 660,
-    "km": 0,
-    "enlace": "https://drive.google.com/file/d/19HdTrLW2jBs2XgZ5Jxy8UYBrhNxsv-mB/view?usp=drive_link"
-  },
-  {
     "id": 10033,
     "lat": -7.343699,
     "lng": -78.470842,
@@ -11843,6 +11825,24 @@ const mapaIntervenciones = {
     "volumen": 2170,
     "km": 2,
     "enlace": "https://drive.google.com/file/d/1V0Rhq6Rk5XkIiOGlFSYICOdD-wBs4A2u/view?usp=drive_link"
+  },
+  {
+    "id": 8859,
+    "lat": -5.691199,
+    "lng": -78.774925,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Jaen",
+    "distrito": "Jaen",
+    "sector": "El Pongo, Fila Alta, Chamaya, Molino  Chamaya, Palo Blanco, La Pushura,  San Agustin",
+    "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA II DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”       ",
+    "ficha": "N°003-2026-AAU-AMZ",
+    "fechaInicio": "19/03/2026",
+    "fechaFin": "09/05/2026",
+    "poblacion": 375,
+    "volumen": 660,
+    "km": 0,
+    "enlace": "https://drive.google.com/file/d/19HdTrLW2jBs2XgZ5Jxy8UYBrhNxsv-mB/view?usp=drive_link"
   },
   {
     "id": 10039,
@@ -11881,24 +11881,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/14ZpjpW27QHsAR2EbyqNII9yehTJSEXiU/view?usp=drive_link"
   },
   {
-    "id": 10078,
-    "lat": -6.512039,
-    "lng": -78.329601,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Celendin",
-    "distrito": "Cortegana",
-    "sector": "Cortegana - Andamachay",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
-    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
-    "fechaInicio": "31/03/2026",
-    "fechaFin": "17/04/2026",
-    "poblacion": 550,
-    "volumen": 3528,
-    "km": 9.4,
-    "enlace": null
-  },
-  {
     "id": 10080,
     "lat": -6.033709,
     "lng": -78.861511,
@@ -11915,6 +11897,24 @@ const mapaIntervenciones = {
     "volumen": 3415,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1meR-gpNBM_U7ULPXy5hNQSKn2S5t7FLA/view?usp=drive_link"
+  },
+  {
+    "id": 10078,
+    "lat": -6.512039,
+    "lng": -78.329601,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Celendin",
+    "distrito": "Cortegana",
+    "sector": "Cortegana - Andamachay",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
+    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
+    "fechaInicio": "31/03/2026",
+    "fechaFin": "17/04/2026",
+    "poblacion": 550,
+    "volumen": 3528,
+    "km": 9.4,
+    "enlace": null
   },
   {
     "id": 10073,
@@ -11953,24 +11953,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1r_T9J7oneMfayiJSty0UtKS_M8c1VTyu/view?usp=drive_link"
   },
   {
-    "id": 10107,
-    "lat": -4.976744,
-    "lng": -79.205304,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "Namballe",
-    "sector": "C.P. Balzal",
-    "descripcion": " “RECUPERACION DE LA TRANSITABILIDAD DE VIAS EN EL CENTRO POBLADO DE BALZAL, DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”        ",
-    "ficha": "N°042-2026-MTVU-AMZ",
-    "fechaInicio": "09/04/2026",
-    "fechaFin": "28/04/2026",
-    "poblacion": 233,
-    "volumen": 840,
-    "km": 0.05,
-    "enlace": null
-  },
-  {
     "id": 10148,
     "lat": -5.082918,
     "lng": -79.151475,
@@ -11987,6 +11969,24 @@ const mapaIntervenciones = {
     "volumen": 8100,
     "km": 1.128,
     "enlace": "https://drive.google.com/file/d/1rtTXD4-oLlxh3rNnoRCBh8KUbl6CY_ye/view?usp=drive_link"
+  },
+  {
+    "id": 10107,
+    "lat": -4.976744,
+    "lng": -79.205304,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Namballe",
+    "sector": "C.P. Balzal",
+    "descripcion": " “RECUPERACION DE LA TRANSITABILIDAD DE VIAS EN EL CENTRO POBLADO DE BALZAL, DISTRITO DE NAMBALLE, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”        ",
+    "ficha": "N°042-2026-MTVU-AMZ",
+    "fechaInicio": "09/04/2026",
+    "fechaFin": "28/04/2026",
+    "poblacion": 233,
+    "volumen": 840,
+    "km": 0.05,
+    "enlace": null
   },
   {
     "id": 10108,
@@ -12331,24 +12331,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10295,
-    "lat": -6.29319,
-    "lng": -78.602977,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "La Ramada",
-    "sector": "La Ramada – San Luis De Lucma",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA: SAN LUIS DE LUCMA, LA RAMADA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
-    "ficha": "N°060-2026-MTVU-AMZ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "25/06/2026",
-    "poblacion": 4228,
-    "volumen": 5220,
-    "km": 7.25,
-    "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
-  },
-  {
     "id": 10285,
     "lat": -7.476362,
     "lng": -78.956451,
@@ -12365,6 +12347,24 @@ const mapaIntervenciones = {
     "volumen": 2485.92,
     "km": 6.38,
     "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
+  },
+  {
+    "id": 10295,
+    "lat": -6.29319,
+    "lng": -78.602977,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "La Ramada – San Luis De Lucma",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA: SAN LUIS DE LUCMA, LA RAMADA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”    ",
+    "ficha": "N°060-2026-MTVU-AMZ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "25/06/2026",
+    "poblacion": 4228,
+    "volumen": 5220,
+    "km": 7.25,
+    "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -12529,24 +12529,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9662,
-    "lat": -7.236923,
-    "lng": -78.412845,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "La Huaraclla (Urbano)",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
-    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
-    "fechaInicio": "05/08/2026",
-    "fechaFin": "12/09/2026",
-    "poblacion": 625,
-    "volumen": 2845.5,
-    "km": 0.8,
-    "enlace": null
-  },
-  {
     "id": 10410,
     "lat": null,
     "lng": null,
@@ -12562,6 +12544,24 @@ const mapaIntervenciones = {
     "poblacion": 280,
     "volumen": 465,
     "km": 1.275,
+    "enlace": null
+  },
+  {
+    "id": 9662,
+    "lat": -7.236923,
+    "lng": -78.412845,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "La Huaraclla (Urbano)",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
+    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
+    "fechaInicio": "05/08/2026",
+    "fechaFin": "12/09/2026",
+    "poblacion": 625,
+    "volumen": 2845.5,
+    "km": 0.8,
     "enlace": null
   },
   {
@@ -12673,24 +12673,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10499,
-    "lat": -6.241433,
-    "lng": -78.590541,
-    "estado": "En ejecución",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "La Ramada",
-    "sector": "C.P. Las Iglesias – C.P. La Cubillina",
-    "descripcion": " “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”     ",
-    "ficha": "N°068-2026-MTVU-AMZ",
-    "fechaInicio": "09/09/2026",
-    "fechaFin": "12/11/2026",
-    "poblacion": 553,
-    "volumen": 2320,
-    "km": 6.095,
-    "enlace": null
-  },
-  {
     "id": 10289,
     "lat": -7.469077,
     "lng": -78.155547,
@@ -12706,6 +12688,24 @@ const mapaIntervenciones = {
     "poblacion": 550,
     "volumen": 17136,
     "km": 0.42,
+    "enlace": null
+  },
+  {
+    "id": 10499,
+    "lat": -6.241433,
+    "lng": -78.590541,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "sector": "C.P. Las Iglesias – C.P. La Cubillina",
+    "descripcion": " “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”     ",
+    "ficha": "N°068-2026-MTVU-AMZ",
+    "fechaInicio": "09/09/2026",
+    "fechaFin": "12/11/2026",
+    "poblacion": 553,
+    "volumen": 2320,
+    "km": 6.095,
     "enlace": null
   },
   {
@@ -12976,6 +12976,24 @@ const mapaIntervenciones = {
     "poblacion": 1600,
     "volumen": 3000,
     "km": 0.12,
+    "enlace": null
+  },
+  {
+    "id": 10682,
+    "lat": -7.186289,
+    "lng": -78.454729,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Llacanora",
+    "sector": "Huayrapongo Grande",
+    "descripcion": "“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ",
+    "ficha": "FTI N° 062-2026-LD-PI-CAJ",
+    "fechaInicio": "11/11/2026",
+    "fechaFin": "25/11/2026",
+    "poblacion": 150,
+    "volumen": 1050,
+    "km": 0.04,
     "enlace": null
   }
 ],
@@ -14694,8 +14712,8 @@ const mapaIntervenciones = {
     "fechaInicio": "09/11/2026",
     "fechaFin": "23/11/2026",
     "poblacion": 400,
-    "volumen": 5262.86,
-    "km": 1.3,
+    "volumen": 1400,
+    "km": 0.35,
     "enlace": null
   }
 ],
