@@ -35,9 +35,8 @@ export default {
     { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                       ', fechaInicio: '14/12/2026', fechaFin: '23/12/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
   ],
 
-  conveniosCount: 2,
+  conveniosCount: 1,
   conveniosVigentes: [
-    { entidad: 'Gobierno Regional', detail: 'hasta 10/11/2026' },
     { entidad: 'Municipalidad Provincial Tacna', detail: 'hasta 19/02/2027' },
   ],
 
