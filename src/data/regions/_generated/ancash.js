@@ -29,17 +29,19 @@ export default {
   programadas: [
     { provincia: 'Bolognesi', distrito: 'Colquioc', cantidad: 1, metaVol: 5640.0, metaKm: 0.3, poblacion: 1661 },
     { provincia: 'Casma', distrito: 'Casma', cantidad: 1, metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', cantidad: 1, metaVol: 1680.0, metaKm: 0.42, poblacion: 1590 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', cantidad: 3, metaVol: 6480.0, metaKm: 0.66, poblacion: 2454 },
     { provincia: 'Huarmey', distrito: 'Culebras', cantidad: 2, metaVol: 3087.5, metaKm: 0.35, poblacion: 46 },
     { provincia: 'Santa', distrito: 'Chimbote', cantidad: 1, metaVol: 11475.0, metaKm: 3.4, poblacion: 350 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', cantidad: 1, metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
     { provincia: 'Yungay', distrito: 'Yungay', cantidad: 2, metaVol: 2784.0, metaKm: 0.58, poblacion: 1112 },
   ],
-  programadasTotal: { cantidad: 9, metaVol: 56827.5, metaKm: 8.59, poblacion: 7339 },
+  programadasTotal: { cantidad: 11, metaVol: 61627.5, metaKm: 8.83, poblacion: 8203 },
 
   programadasDetalle: [
     { provincia: 'Huaraz', distrito: 'Huaraz', sector: 'Chuna Alto', ficha: '143-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR CHUNA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', fechaInicio: '11/11/2026', fechaFin: '22/11/2026', metaVol: 1680.0, metaKm: 0.42, poblacion: 1590 },
     { provincia: 'Santa', distrito: 'Nuevo Chimbote', sector: '3 De Octubre', ficha: '110-2026-LDP-ANC-ANIN', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN EL RÍO LACRAMARCA EN LA LOCALIDAD DE 3 DE OCTUBRE, DISTRITO DE NUEVO CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO DE ÁNCASH     ', fechaInicio: '16/11/2026', fechaFin: '02/12/2026', metaVol: 12075.0, metaKm: 2.54, poblacion: 2080 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', sector: 'Quechcap', ficha: '141-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN DERECHA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP TRAMO III, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', fechaInicio: '18/11/2026', fechaFin: '22/11/2026', metaVol: 2400.0, metaKm: 0.12, poblacion: 432 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', sector: 'Quechcap', ficha: '141-2026-LDP-ANC', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE TALUD EN LA MARGEN DERECHA DEL RÍO SANTA, SECTOR PREDIO DOS – QUECHCAP TRAMO III, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', fechaInicio: '18/11/2026', fechaFin: '22/11/2026', metaVol: 2400.0, metaKm: 0.12, poblacion: 432 },
     { provincia: 'Santa', distrito: 'Chimbote', sector: 'Tambo Real', ficha: '118-2026-LDE-ANC', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', fechaInicio: '19/11/2026', fechaFin: '06/12/2026', metaVol: 11475.0, metaKm: 3.4, poblacion: 350 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', sector: 'Chasquitambo', ficha: '124-2026-LDP-ANC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN LA PTAR DEL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH', fechaInicio: '28/11/2026', fechaFin: '08/12/2026', metaVol: 5640.0, metaKm: 0.3, poblacion: 1661 },
     { provincia: 'Casma', distrito: 'Casma', sector: 'Cuncan', ficha: '112-2026-LDP-ANC ', descripcion: ' ELIMINACION DE MATERIAL EXCEDENTE DEL CAUSE DEL RIO SECHIN SECTOR CUNCAN - SAN ISAIAS DISTRITO DE CASMA, PROVINCIA DE CASMA REGION ANCASH     ', fechaInicio: '07/12/2026', fechaFin: '05/01/2027', metaVol: 20086.0, metaKm: 1.0, poblacion: 500 },
