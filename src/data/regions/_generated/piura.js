@@ -59,7 +59,8 @@ export default {
   ],
 
   flota: [
-    { tipo: 'Camión cisterna de agua', cantidad: 5, marca: 'Mercedes Benz', codigos: ['EGN-011', 'EGN-029', 'EGM-995', 'EGN-012', 'EGN-003'], estado: 'operativo' },
+    { tipo: 'Camión cisterna de agua', cantidad: 3, marca: 'Mercedes Benz', codigos: ['EGN-011', 'EGN-029', 'EGM-995'], estado: 'inoperativo' },
+    { tipo: 'Camión cisterna de agua', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGN-012', 'EGN-003'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-975'], estado: 'operativo' },
     { tipo: 'Camión de auxilio mecánico', cantidad: 1, marca: 'Hino', codigos: ['EAJ-979'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGO-003'], estado: 'inoperativo' },
