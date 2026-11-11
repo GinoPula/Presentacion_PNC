@@ -22,7 +22,7 @@ export default {
     { provincia: 'Carlos Fermin Fitzcarrald', distrito: 'San Luis', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN EN AMBAS MARGENES DEL RIO TAMBILLOS, SECTOR CHACAPATA, DISTRITO DE SAN LUIS, PROVINCIA DE CARLOS FERMIN FITZCARRALD, DEPARTAMENTO DE ANCASH   DS180-R    ', inicio: '01/11/2026', fin: '13/11/2026', volAcum: 6489.0, kmAcum: 0.8, poblacion: 500 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 7585.0, kmAcum: 1.53, poblacion: 120 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA GARLERO, SECTOR GARLERO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 3015.0, kmAcum: 0.34, poblacion: 150 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR BELLA VISTA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', inicio: '04/11/2026', fin: '18/11/2026', volAcum: 120.0, kmAcum: 0.03, poblacion: 711 },
+    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR BELLA VISTA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH', inicio: '04/11/2026', fin: '18/11/2026', volAcum: 1160.0, kmAcum: 0.29, poblacion: 711 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
