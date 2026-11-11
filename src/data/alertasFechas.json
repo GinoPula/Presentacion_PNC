@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "11/11/2026",
-    "horaCorte": "16:06",
+    "horaCorte": "16:37",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "9640",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA DICIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Churubamba",
-      "sector": "Quebrada Chinobamba",
-      "ficha": "N° 015-2026-LD-P-HCO.",
-      "descripcion": "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA CHINOBAMBA, DE LA PROG. 0+000 A LA PROG. 1+500, MARGEN DERECHA, DEL DISTRITO DE CHURUBAMBA, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO”-00",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 04",
-      "fechaInicio": "18/10/2026",
-      "fechaFin": "01/11/2026",
-      "diasAtraso": 24
-    },
-    {
-      "n": 2,
       "idIntervencion": "10342",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA OCTUBRE",
@@ -45,7 +26,7 @@
       "diasAtraso": 13
     },
     {
-      "n": 3,
+      "n": 2,
       "idIntervencion": "9635",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 12
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10640",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +64,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "10401",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,26 +83,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 6,
-      "idIntervencion": "10633",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Jaen",
-      "distrito": "Jaen",
-      "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
-      "ficha": "N°075-2026-AAU-AMZ",
-      "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°103-2026-CPJ/SO",
-      "fechaInicio": "12/10/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 7,
+      "n": 5,
       "idIntervencion": "10514",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -140,7 +102,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 8,
+      "n": 6,
       "idIntervencion": "10641",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -155,6 +117,25 @@
       "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO III, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
       "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
       "fechaInicio": "27/10/2026",
+      "fechaFin": "10/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 7,
+      "idIntervencion": "10633",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "Jaen",
+      "distrito": "Jaen",
+      "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
+      "ficha": "N°075-2026-AAU-AMZ",
+      "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°103-2026-CPJ/SO",
+      "fechaInicio": "12/10/2026",
       "fechaFin": "10/11/2026",
       "diasAtraso": 1
     }
