@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "12/11/2026",
-    "horaCorte": "01:46",
+    "horaCorte": "02:16",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -65,6 +65,25 @@
     },
     {
       "n": 4,
+      "idIntervencion": "10611",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio El Corazon – Sector Alto Corazon",
+      "ficha": "N°076-2026-MTVU-AMZ",
+      "descripcion": "“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO EL CORAZON – SECTOR ALTO CORAZON, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°034-2026-MDCH",
+      "fechaInicio": "15/10/2026",
+      "fechaFin": "10/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 5,
       "idIntervencion": "10641",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +102,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "10633",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -100,25 +119,6 @@
       "fechaInicio": "12/10/2026",
       "fechaFin": "10/11/2026",
       "diasAtraso": 2
-    },
-    {
-      "n": 6,
-      "idIntervencion": "10621",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Bolognesi",
-      "distrito": "Colquioc",
-      "sector": "Chasquitambo",
-      "ficha": "123-2026-LDP-ANC",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH",
-      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "11/11/2026",
-      "diasAtraso": 1
     },
     {
       "n": 7,
@@ -232,6 +232,25 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10621",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Bolognesi",
+      "distrito": "Colquioc",
+      "sector": "Chasquitambo",
+      "ficha": "123-2026-LDP-ANC",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "fechaInicio": "16/10/2026",
+      "fechaFin": "11/11/2026",
       "diasAtraso": 1
     }
   ]
