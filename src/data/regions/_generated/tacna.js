@@ -25,13 +25,13 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 13740.0, metaKm: 0.7, poblacion: 1200 },
-    { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
+    { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4500.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 18060.0, metaKm: 0.9, poblacion: 2200 },
+  programadasTotal: { cantidad: 3, metaVol: 18240.0, metaKm: 0.9, poblacion: 2200 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                        ', fechaInicio: '12/11/2026', fechaFin: '21/11/2026', metaVol: 4320.0, metaKm: 0.2, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Lateral Seminario Y Lateral Bocchio', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA ', fechaInicio: '16/11/2026', fechaFin: '23/11/2026', metaVol: 5740.0, metaKm: 0.4, poblacion: 200 },
+    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                          ', fechaInicio: '23/11/2026', fechaFin: '30/11/2026', metaVol: 4500.0, metaKm: 0.2, poblacion: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000 },
   ],
 
