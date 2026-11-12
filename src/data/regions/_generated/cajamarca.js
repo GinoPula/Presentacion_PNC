@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
-    { tipo: 'Prevención', cantidad: 28, m3: 177033.05, km: 12.03, poblacion: 16755, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 53, m3: 237071.11, km: 185.29, poblacion: 58369, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Prevención', cantidad: 28, m3: 177033.05, km: 12.02, poblacion: 16755, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
+    { tipo: 'Urgente atención', cantidad: 54, m3: 240896.11, km: 188.0, poblacion: 58905, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 85, m3: 443654.16, m3AguaPotable: 3300.0, km: 199.16, poblacion: 77016 },
+  ejecutadasTotal: { cantidad: 86, m3: 447479.16, m3AguaPotable: 3300.0, km: 201.88, poblacion: 77552 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”     ', inicio: '09/09/2026', fin: '12/11/2026', volAcum: 2320.0, kmAcum: 6.09, poblacion: 553 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA” ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 5000 },
-    { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' \n“MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO EL CORAZON – SECTOR ALTO CORAZON, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”\n     ', inicio: '15/10/2026', fin: '10/11/2026', volAcum: 3540.0, kmAcum: 2.66, poblacion: 536 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '27/10/2026', fin: '15/11/2026', volAcum: 1350.0, kmAcum: 0.6, poblacion: null },
     { provincia: 'Cajamarca', distrito: 'Llacanora', tipo: 'Prevención', descripcion: '“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 150 },
   ],
@@ -32,10 +31,12 @@ export default {
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 1, metaVol: 7500.0, metaKm: 0.5, poblacion: 500 },
     { provincia: 'Cajamarca', distrito: 'Namora', cantidad: 1, metaVol: 4000.0, metaKm: 2.5, poblacion: 300 },
     { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
+    { provincia: 'San Ignacio', distrito: 'Chirinos', cantidad: 1, metaVol: 2710.8, metaKm: 2.26, poblacion: 441 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 48021.37, metaKm: 6.29, poblacion: 2940 },
+  programadasTotal: { cantidad: 7, metaVol: 50732.17, metaKm: 8.55, poblacion: 3381 },
 
   programadasDetalle: [
+    { provincia: 'San Ignacio', distrito: 'Chirinos', sector: 'Caserio La Palma Y Sectores', ficha: 'N°082-2025-MTVU-AMZ', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA PALMA Y SECTORES, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA”', fechaInicio: '11/11/2026', fechaFin: '26/11/2026', metaVol: 2710.8, metaKm: 2.26, poblacion: 441 },
     { provincia: 'Cajabamba', distrito: 'Cachachi', sector: 'Chimin-Tabacal', ficha: 'FTI N° 061-2026-LD-PI-CAJ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO CHIMÍN, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR CHIMÍN, C.P. TABACAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.   ', fechaInicio: '12/11/2026', fechaFin: '26/11/2026', metaVol: 16800.0, metaKm: 0.5, poblacion: 700 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).         ', fechaInicio: '26/11/2026', fechaFin: '10/12/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Cajamarca', distrito: 'Jesus', sector: 'La Colpa', ficha: 'FTI N° 021-2026-LD-PI-CAJ', descripcion: '"LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA LA COLPA EL GAVILÁN, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+200, EN EL CASERÍO LA COLPA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 3600.0, metaKm: 1.2, poblacion: 700 },
