@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "12/11/2026",
-    "horaCorte": "07:51",
+    "horaCorte": "08:21",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "10526",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AYACUCHO",
-      "deptoLabel": "Ayacucho",
-      "regionId": "ayacucho",
-      "provincia": "Huamanga",
-      "distrito": "Santiago De Pischa",
-      "sector": "Anyana",
-      "ficha": "43-2026- LD-PI-AYAC",
-      "descripcion": "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO EN EL MARGEN DERECHO DEL RIO CACHI TRAMO III - IV,ANEXO DE ANYANA, DISTRITO DE SANTIAGO DE PISCHA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO",
-      "marcoLegal": "CONVENIO N°039 -2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "28/10/2026",
-      "fechaFin": "11/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 7,
       "idIntervencion": "10621",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -140,7 +121,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10659",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,7 +140,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "10367",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -178,7 +159,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10586",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10702",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "9738",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "9663",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
