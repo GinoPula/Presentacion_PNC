@@ -45,37 +45,8 @@ export default {
 
   ...datosBD,
 
-  // puntosCriticos (agregado 29/08/2026): igual criterio que Ancash/La Libertad -- del mismo
-  // consolidado 536 (CONSOLIDADO, filtrado DEPARTAMENTO=Lima), las fichas con RESPONSABLE=MVCS
-  // (Vivienda) son las que se muestran en esta sección del sitio -- para Lima son 3 (coincide
-  // con mvcs:3 en todosResponsablesResumen abajo). Esto es distinto del acumulado por entidad
-  // que va en la Ayuda Memoria (ese sigue siendo todosResponsablesResumen, sin tocar).
-  puntosCriticos: [
-    {
-      provincia: 'Huarochiri',
-      distrito: 'Ricardo Palma',
-      sector: 'Pascana III',
-      fichaTecnica: 'FTR-MC-PREV N° 0018-2026-ANA-AAA.CF-ALA.CHRL',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Río Seco-Toro Cocha.',
-      metaKm: 0.05,
-    },
-    {
-      provincia: 'Huarochiri',
-      distrito: 'Huachupampa',
-      sector: 'Pongo',
-      fichaTecnica: 'FTR-CB-PREV N° 0372-2025-ANA-AAA.CF-ALA.CHRL',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Chico.',
-      metaKm: 0.43,
-    },
-    {
-      provincia: 'Huarochiri',
-      distrito: 'Santa Cruz de Cocachacra',
-      sector: 'Corcona',
-      fichaTecnica: 'FTR-MC-PREV N° 0100-2026-ANA-AAA.CF-ALA.CHRL',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Huaura.',
-      metaKm: 0.5,
-    },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
   escenarios: [
     { nombre: 'Escenario N° 1', condicion: 'Condiciones Moderadas', presupuesto: 924657.54, mantenimiento: 333320.54, combustible: 332418.65, personal: 258918.35, intervenciones: null },
     { nombre: 'Escenario N° 2', condicion: 'Condiciones Severas', presupuesto: 8082191.78, mantenimiento: 2913468.4, combustible: 2905585.22, personal: 2263138.16, intervenciones: null },

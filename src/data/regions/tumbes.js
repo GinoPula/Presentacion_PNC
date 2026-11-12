@@ -88,27 +88,8 @@ export default {
     { provincia: 'Zarumilla', distrito: 'Zarumilla', cantidad: 1 },
   ],
 
-  // puntosCriticos: actualizado 28/09/2026 con "PROGRAMACIÓN REAL PPCC ANA 55 1.xlsx" que
-  // envió Franco. Los 2 puntos siguen vigentes (ninguno desestimado); se corrigió la meta de
-  // km de la ficha 0169-2025 (Vista Hermosa) a la meta real de PNC: 0.6->0.3.
-  puntosCriticos: [
-    {
-      provincia: 'Tumbes',
-      distrito: 'San Jacinto',
-      sector: 'Vista Hermosa',
-      fichaTecnica: 'FTR-CB-PREV N° 0169-2025-ANA-AAA.JZ-ALA.T',
-      descripcion: 'Limpieza, descolmatación y conformación de dique enrocado en la margen derecha e izquierda de la quebrada Rica Playa.',
-      metaKm: 0.3,
-    },
-    {
-      provincia: 'Tumbes',
-      distrito: 'Corrales',
-      sector: 'Malval',
-      fichaTecnica: 'FTR-MC-PREV N° 0665-2025-ANA-AAA.JZ-ALA.T',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Bolívar.',
-      metaKm: 0.45,
-    },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
 
   escenarios: [
     {

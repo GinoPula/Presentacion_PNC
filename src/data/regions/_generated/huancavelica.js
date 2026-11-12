@@ -13,7 +13,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 7, m3: 14580.0, m3AguaPotable: 0.0, km: 2.2, poblacion: 546 },
 
   enEjecucion: [
-    { provincia: 'Angaraes', distrito: 'San Antonio De Antaparco', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN  DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA CHAQUI HUAYCCO, EN EL SECTOR ANTAPARCO DEL DISTRITO DE  SAN ANTONIO DE ANTAPARCO, PROVINCIA DE ANGARAES, REGIÓN HUANCAVELICA       ', inicio: '12/11/2026', fin: '17/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null },
+    { provincia: 'Angaraes', distrito: 'San Antonio De Antaparco', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN  DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA CHAQUI HUAYCCO, EN EL SECTOR ANTAPARCO DEL DISTRITO DE  SAN ANTONIO DE ANTAPARCO, PROVINCIA DE ANGARAES, REGIÓN HUANCAVELICA       ', inicio: '12/11/2026', fin: '17/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null, poblacionSinDuplicar: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -22,6 +22,9 @@ export default {
   programadasTotal: { cantidad: 0, metaVol: 0, metaKm: 0, poblacion: 0 },
 
   programadasDetalle: [
+  ],
+
+  puntosCriticos: [
   ],
 
   conveniosCount: 3,

@@ -23,8 +23,11 @@ export default {
   programadasTotal: { cantidad: 2, metaVol: 34780.5, metaKm: 1.57, poblacion: 5800 },
 
   programadasDetalle: [
-    { provincia: 'Oxapampa', distrito: 'Villa Rica', sector: 'Zona Urbana', ficha: '022-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL CAUCE  DEL RIO ENTAZ DE LA ZONA INDUSTRIAL, TRAMO DESDE LA PROGRESIVA 0+000 AL 0+869 AMBAS MARGENES, DISTRITO DE VILLA RICA, PROVINCIA DE OXAPAMPA, REGION PASCO"-00                ', fechaInicio: '17/11/2026', fechaFin: '01/12/2026', metaVol: 24280.5, metaKm: 0.87, poblacion: 3000 },
-    { provincia: 'Pasco', distrito: 'Paucartambo', sector: 'Zona Urbana', ficha: '017-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO EN EL RIO PAUCARTAMBO, DE LA PROG 0+000 A LA PROG. 0+700, AMBAS MARGENES, DISTRITO DE PAUCARTAMBO, PROVINCIA DE PASCO, DEPARTAMENTO PASCO-00             ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 10500.0, metaKm: 0.7, poblacion: 2800 },
+    { provincia: 'Oxapampa', distrito: 'Villa Rica', sector: 'Zona Urbana', ficha: '022-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL CAUCE  DEL RIO ENTAZ DE LA ZONA INDUSTRIAL, TRAMO DESDE LA PROGRESIVA 0+000 AL 0+869 AMBAS MARGENES, DISTRITO DE VILLA RICA, PROVINCIA DE OXAPAMPA, REGION PASCO"-00                ', fechaInicio: '17/11/2026', fechaFin: '01/12/2026', metaVol: 24280.5, metaKm: 0.87, poblacion: 3000, poblacionSinDuplicar: 3000 },
+    { provincia: 'Pasco', distrito: 'Paucartambo', sector: 'Zona Urbana', ficha: '017-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO EN EL RIO PAUCARTAMBO, DE LA PROG 0+000 A LA PROG. 0+700, AMBAS MARGENES, DISTRITO DE PAUCARTAMBO, PROVINCIA DE PASCO, DEPARTAMENTO PASCO-00             ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 10500.0, metaKm: 0.7, poblacion: 2800, poblacionSinDuplicar: 2800 },
+  ],
+
+  puntosCriticos: [
   ],
 
   conveniosCount: 2,

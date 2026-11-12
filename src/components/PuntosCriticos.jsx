@@ -2,6 +2,16 @@ import { HiOutlineLocationMarker, HiOutlineIdentification } from 'react-icons/hi
 import { Reveal, SectionHeading, Card, Badge } from './UI'
 import { fmtDecimal } from '../lib/format'
 
+// Mismo criterio de color que el resto del sitio para este campo (ver
+// src/lib/exportReporteDiario.js, estadoColorMap): EJECUTADA = good (verde),
+// EN EJECUCIÓN = amber (en curso), PROGRAMADA / cualquier otro valor = tono neutro.
+function tonoEstado(estado) {
+  const e = (estado || '').toUpperCase()
+  if (e === 'EJECUTADA') return 'good'
+  if (e === 'EN EJECUCIÓN' || e === 'EN EJECUCION') return 'amber'
+  return 'default'
+}
+
 export default function PuntosCriticos({ data }) {
   const { puntosCriticos } = data
   return (
@@ -22,7 +32,11 @@ export default function PuntosCriticos({ data }) {
                     <HiOutlineLocationMarker className="text-brand-soft" />
                     {p.distrito}, {p.provincia}
                   </div>
-                  {p.sector && <Badge>{p.sector}</Badge>}
+                  <div className="flex items-center gap-2">
+                    {p.sector && <Badge>{p.sector}</Badge>}
+                    {p.estado && <Badge tone={tonoEstado(p.estado)}>{p.estado}</Badge>}
+                    {p.mes && <Badge>{p.mes}</Badge>}
+                  </div>
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-ink-dim">{p.descripcion}</p>

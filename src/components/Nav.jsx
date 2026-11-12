@@ -76,7 +76,7 @@ export default function Nav({ data, regionId, onRegionChange }) {
         { href: '#intervenciones', label: 'Intervenciones' },
         { href: '#programadas', label: 'Programadas' },
         { href: '#mapa', label: 'Mapa' },
-        data.puntosCriticos && { href: '#puntos-criticos', label: 'Puntos críticos' },
+        data.puntosCriticos?.length > 0 && { href: '#puntos-criticos', label: 'Puntos críticos' },
         data.escenarios && { href: '#escenarios', label: 'Presupuesto' },
         { href: '#activos', label: 'Activos' },
         { href: '#galeria', label: 'Galería' },

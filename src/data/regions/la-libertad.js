@@ -167,14 +167,8 @@ export default {
     },
   },
 
-  puntosCriticos: [
-    { provincia: 'Ascope', distrito: 'Chicama', fichaTecnica: 'FTR-CB-PREV N° 1077-2025 ANA-AAA.HCH-ALA.CHICAMA', descripcion: 'Limpieza, descolmatación y conformación de dique enrocado en la margen izquierda del río Chicama.', metaKm: 1.65 },
-    { provincia: 'Pataz', distrito: 'Pataz', fichaTecnica: 'FTR-MC-PREV N° 0544-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Calquiche.', metaKm: 0.42 },
-    { provincia: 'Sánchez Carrión', distrito: 'Cochorco', fichaTecnica: 'FTR-MC-PREV N° 0276-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Café.', metaKm: 0.23 },
-    { provincia: 'Santiago de Chuco', distrito: 'Sitabamba', fichaTecnica: 'FTR-MC-PREV N° 0641-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Chagaraba Chica.', metaKm: 0.289 },
-    { provincia: 'Sánchez Carrión', distrito: 'Huamachuco', fichaTecnica: 'FTR-MC-PREV N° 0628-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada De Los Pajaritos.', metaKm: 0.266 },
-    { provincia: 'Pataz', distrito: 'Pataz', fichaTecnica: 'FTR-MC-PREV N° 0546-2025-ANA-AAA.M-ALA.H', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Guadalupe.', metaKm: 0.1 },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
 
   escenarios: [
     {

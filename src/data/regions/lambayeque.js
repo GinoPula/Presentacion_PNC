@@ -108,13 +108,8 @@ export default {
   ],
   todosResponsablesResumen: { ana: 13, midagri: 26, defensa: 2, mtc: 0, mvcs: 3, total: 44 },
 
-  // puntosCriticos: actualizado 28/09/2026 con "PROGRAMACIÓN REAL PPCC ANA 55 1.xlsx" que
-  // envió Franco. Se retiró 1 ficha desestimada (0677-2025, Sanquelito 2-CP. Mocape) y se
-  // corrigió la meta de km de la ficha 0735-2025 (Cuculi) a la meta real de PNC: 1.23->1.83.
-  puntosCriticos: [
-    { provincia: 'Chiclayo', distrito: 'Patapo', sector: 'La Cria', fichaTecnica: 'FTR-CB-PREV N° 0736-2025-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado, en la margen izquierda de la quebrada La Cria.', metaKm: 0.29 },
-    { provincia: 'Chiclayo', distrito: 'Chongoyape', sector: 'Cuculi', fichaTecnica: 'FTR-CB-PREV N° 0735-2025-ANA-AAA.JZ-ALA.CHL', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado, en la margen derecha de la quebrada Cuculi (Chumillan).', metaKm: 1.83 },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
 
   escenarios: [
     {

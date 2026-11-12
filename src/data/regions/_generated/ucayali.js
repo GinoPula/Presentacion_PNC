@@ -21,6 +21,9 @@ export default {
   programadasDetalle: [
   ],
 
+  puntosCriticos: [
+  ],
+
   conveniosCount: 0,
   conveniosVigentes: [
   ],

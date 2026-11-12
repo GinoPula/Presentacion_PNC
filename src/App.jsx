@@ -53,7 +53,7 @@ export default function App() {
             <Intervenciones data={data} />
             <Programadas data={data} />
             <MapaIntervenciones regionId={regionId} shortLabel={data.shortLabel} />
-            {data.puntosCriticos && <PuntosCriticos data={data} />}
+            {data.puntosCriticos?.length > 0 && <PuntosCriticos data={data} />}
             {data.escenarios && <Escenarios data={data} />}
             <Activos data={data} />
             <Galeria data={data} />

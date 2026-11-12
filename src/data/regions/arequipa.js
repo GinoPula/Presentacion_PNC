@@ -43,32 +43,8 @@ export default {
 
   ...datosBD,
 
-  // puntosCriticos: actualizado 28/09/2026 con "PROGRAMACIÓN REAL PPCC ANA 55 1.xlsx" que
-  // envió Franco (cruzado por código de ficha ANA con BASE_DATOS_010926_1.xlsx). Se retiraron
-  // 6 fichas desestimadas (0105, 0117, 0118, 0122, 0139, 0165) y se corrigió la meta de km de 3
-  // fichas a la meta real de PNC (0106: 0.36->0.18, 0124: 1.2->1.52, 0134: 2.02->2.0).
-  // Nota 0117/0118 (ambas "Los Arrayanes"): son 2 fichas técnicas ANA distintas, pero vivienda
-  // (PNC) las ejecuta como un solo tramo y lo reporta bajo la ficha 0117-2026, que fue
-  // desestimada -- por eso se retiran ambas del cuadro (confirmado por Franco).
-  puntosCriticos: [
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Puente Concordia Aguas Arriba', fichaTecnica: 'FTR-CB-PREV N° 0106-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Chiquiquintay', metaKm: 0.18 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Puente Arquillo', fichaTecnica: 'FTR-CB-PREV N° 0120-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Santa', metaKm: 0.863 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Los Angeles', fichaTecnica: 'FTR-CB-PREV N° 0124-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Loco', metaKm: 1.52 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Fundo Cabreria 1.ª Etapa-3', fichaTecnica: 'FTR-CB-PREV N° 0140-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Cascajal', metaKm: 0.23 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Fundo Cabreria 2.ª Etapa', fichaTecnica: 'FTR-CB-PREV N° 0151-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformacion de bordos en el río Santa', metaKm: 0.8 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Avenida 54', fichaTecnica: 'FTR-CB-PREV N° 0152-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Santa', metaKm: 1.58 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Los Pioneros de Cayma', fichaTecnica: 'FTR-CB-PREV N° 0168-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Corrales', metaKm: 0.85 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Parque del Niño', fichaTecnica: 'FTR-CB-PREV N° 0169-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Condebamba', metaKm: 0.85 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Asociación 1° de Junio', fichaTecnica: 'FTR-CB-PREV N° 0173-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Santa', metaKm: 2.76 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Urb. Alto Cayma-Urb. Las Malvinas', fichaTecnica: 'FTR-CB-PREV N° 0174-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Huancano', metaKm: 3.6 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Asociación Rafael Belaunde Diez Canseco', fichaTecnica: 'FTR-CB-PREV N° 0175-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Maquerhua', metaKm: 2.46 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Bello Horizonte', fichaTecnica: 'FTR-MC-PREV N° 0134-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Cachipampa', metaKm: 2.0 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Villa Paraiso y Villa Continental', fichaTecnica: 'FTR-MC-PREV N° 0135-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Chicama', metaKm: 2.38 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Deam Valdivia', fichaTecnica: 'FTR-MC-PREV N° 0152-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en la quebrada Putaca (Qda. Parco Grande)', metaKm: 1.6 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Puente Valdivia Aguas Arriba', fichaTecnica: 'FTR-MC-PREV N° 0153-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Santa', metaKm: 1.4 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Complejo 11 de Mayo', fichaTecnica: 'FTR-MC-PREV N° 0158-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Acarí', metaKm: 1.06 },
-    { provincia: 'Arequipa', distrito: 'Cayma', sector: 'Villa Cerrillos-Fundo Cabrerías', fichaTecnica: 'FTR-MC-PREV N° 0164-2026-ANA-AAA.CO-ALA.CH', descripcion: 'Limpieza, descolmatación y conformación de bordos en el río Taymi', metaKm: 2.16 },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
   escenarios: null,
 
   // Sin fuente de capacidad de flota (Estado_Maquinarias) filtrada por Arequipa todavía --

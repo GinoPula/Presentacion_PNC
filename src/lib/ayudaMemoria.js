@@ -975,7 +975,7 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
     fechaFin: p.fechaFin,
     metaVol: fmtNum(p.metaVol, 2),
     metaKm: fmtNum(p.metaKm, 2),
-    poblacion: fmtNum(p.poblacion, 2),
+    poblacion: fmtNum(pobSinDuplicar(p), 2),
   }))
   if (!filas.length) {
     // 'mostrarVacio' se usa en la Ayuda Memoria filtrada por ámbito: que no haya
@@ -1002,7 +1002,7 @@ function tablaProgramadas(programadasDetalle, regionLabel, { mostrarVacio = fals
 
   const totalVol = programadasDetalle.reduce((acc, p) => acc + Number(p.metaVol || 0), 0)
   const totalKm = programadasDetalle.reduce((acc, p) => acc + Number(p.metaKm || 0), 0)
-  const totalPob = programadasDetalle.reduce((acc, p) => acc + Number(p.poblacion || 0), 0)
+  const totalPob = programadasDetalle.reduce((acc, p) => acc + Number(pobSinDuplicar(p) || 0), 0)
 
   return [
     parrafo(`En adición, se tiene ${fmtNum(filas.length)} intervenciones programadas en la región ${regionLabel} de acuerdo al siguiente detalle:`),
@@ -1087,6 +1087,15 @@ function seccionProgramadas(data, regionLabel) {
 // inte.meta_km como respaldo). El fallback "—" de acá abajo se deja igual, para las regiones que
 // todavía no se regeneraron con esta versión del pipeline (su mapaIntervenciones.js no tiene el
 // campo "km" todavía -- undefined, no 0).
+// 12/11/2026 -- población "sin duplicar": en algunos distritos (hoy Cayma y Lurigancho, ver
+// DISTRITOS_POBLACION_SINCERADA en pipeline/generar_todas_regiones.py) la misma población real se
+// repite en varias fichas y sumarla tal cual la infla. El pipeline trae poblacionSinDuplicar (el
+// valor real en una sola ficha y 0 en las repeticiones); si una región todavía no se regeneró con
+// el pipeline nuevo ese campo no existe y se usa poblacion tal cual (comportamiento anterior).
+function pobSinDuplicar(p) {
+  return p.poblacionSinDuplicar ?? p.poblacion
+}
+
 function tablaEjecutadas(puntos, { mostrarVacio = false, intro, vacioTexto } = {}) {
   const filas = (puntos || []).map((p) => ({
     provincia: p.provincia?.toUpperCase(),
@@ -1098,7 +1107,7 @@ function tablaEjecutadas(puntos, { mostrarVacio = false, intro, vacioTexto } = {
     fechaFin: p.fechaFin || '—',
     volumen: fmtNum(p.volumen, 2),
     km: p.km != null ? fmtNum(p.km, 2) : '—',
-    poblacion: fmtNum(p.poblacion, 2),
+    poblacion: fmtNum(pobSinDuplicar(p), 2),
   }))
   if (!filas.length) {
     // 14/09/2026 -- 'vacioTexto' personalizable: esta función ahora se llama dos veces por
@@ -1127,7 +1136,7 @@ function tablaEjecutadas(puntos, { mostrarVacio = false, intro, vacioTexto } = {
 
   const totalVol = puntos.reduce((acc, p) => acc + Number(p.volumen || 0), 0)
   const totalKm = puntos.reduce((acc, p) => acc + Number(p.km || 0), 0)
-  const totalPob = puntos.reduce((acc, p) => acc + Number(p.poblacion || 0), 0)
+  const totalPob = puntos.reduce((acc, p) => acc + Number(pobSinDuplicar(p) || 0), 0)
 
   return [
     parrafo(
@@ -1176,17 +1185,19 @@ function tablaPuntosCriticos(pc, { mostrarVacio = false } = {}) {
     sector: p.sector || '—',
     ficha: p.fichaTecnica,
     actividad: p.descripcion,
+    estado: p.estado ? (p.mes ? `${p.estado} (${p.mes})` : p.estado) : '—',
     meta: fmtNum(p.metaKm, 3),
   }))
   return [
     parrafo(['Asimismo, el MVCS intervendrá ', run({ text: `${pc.length} puntos críticos`, bold: true }), ' ante el Fenómeno del Niño, conforme el siguiente cuadro:']),
     tabla(
       [
-        { clave: 'provincia', titulo: 'PROVINCIA', peso: 0.13 },
-        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.13 },
-        { clave: 'sector', titulo: 'SECTOR', peso: 0.13 },
-        { clave: 'ficha', titulo: 'CODIGO', peso: 0.21 },
-        { clave: 'actividad', titulo: 'NOMBRE DE ACTIVIDAD', peso: 0.32 },
+        { clave: 'provincia', titulo: 'PROVINCIA', peso: 0.12 },
+        { clave: 'distrito', titulo: 'DISTRITO', peso: 0.12 },
+        { clave: 'sector', titulo: 'SECTOR', peso: 0.12 },
+        { clave: 'ficha', titulo: 'CODIGO', peso: 0.2 },
+        { clave: 'actividad', titulo: 'NOMBRE DE ACTIVIDAD', peso: 0.24 },
+        { clave: 'estado', titulo: 'ESTADO', peso: 0.12 },
         { clave: 'meta', titulo: 'META', peso: 0.08, align: AlignmentType.RIGHT },
       ],
       filas
@@ -2158,7 +2169,7 @@ function agruparPorActividad(filas) {
     g.m3 += Number(p.volumen || 0)
     if (p.km != null) g.km += Number(p.km)
     else g.kmConocido = false
-    g.poblacion += Number(p.poblacion || 0)
+    g.poblacion += Number(pobSinDuplicar(p) || 0)
   })
   return grupos
 }
@@ -2199,7 +2210,7 @@ function seccionTemasPendientes(filasProgramadas, regionLabel) {
     if (p.provincia) g.provincias.add(p.provincia)
     g.vol += Number(p.metaVol || 0)
     g.km += Number(p.metaKm || 0)
-    g.poblacion += Number(p.poblacion || 0)
+    g.poblacion += Number(pobSinDuplicar(p) || 0)
   })
   const parrafos = [...grupos.entries()].map(([actividad, g]) => {
     const provincias = [...g.provincias].sort((a, b) => a.localeCompare(b, 'es'))

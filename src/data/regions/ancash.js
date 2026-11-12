@@ -100,43 +100,8 @@ export default {
   ],
   todosResponsablesResumen: { ana: 9, midagri: 40, defensa: 0, mtc: 1, mvcs: 4, total: 54 },
 
-  // puntosCriticos: actualizado 28/09/2026 con "PROGRAMACIÓN REAL PPCC ANA 55 1.xlsx" que
-  // envió Franco. Los 4 puntos siguen vigentes (ninguno desestimado); se corrigió la meta de
-  // km de la ficha 0826-2025 (Chacapata) a la meta real de PNC/contrata: 0.18->0.83.
-  puntosCriticos: [
-    {
-      provincia: 'Santa',
-      distrito: 'Chimbote',
-      sector: 'Cascajal Bajo-La Cuadra',
-      fichaTecnica: 'FTR-MC-PREV N° 0125-2026-ANA-AAA.HCH-ALA.SLN',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Cascajal.',
-      metaKm: 3.8,
-    },
-    {
-      provincia: 'Santa',
-      distrito: 'Chimbote',
-      sector: 'Cascajal',
-      fichaTecnica: 'FTR-MC-PREV N° 0126-2026-ANA-AAA.HCH-ALA.SLN',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio de la quebrada Cascajal.',
-      metaKm: 3.1,
-    },
-    {
-      provincia: 'Carlos Fermín Fitzcarrald',
-      distrito: 'San Luis',
-      sector: 'Chacapata',
-      fichaTecnica: 'FTR-CB-PREV N° 0826-2025-ANA-AAA.M-ALA.POMA',
-      descripcion: 'Limpieza, descolmatación y conformación de muro de gaviones en ambas márgenes del río Tambillos.',
-      metaKm: 0.83,
-    },
-    {
-      provincia: 'Santa',
-      distrito: 'Chimbote',
-      sector: 'Tambo Real',
-      fichaTecnica: 'FTR-MC-PREV N° 0127-2026-ANA-AAA.HCH-ALA.SLN',
-      descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Cascajal.',
-      metaKm: 3.4,
-    },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
 
   // Presupuesto por escenario: DATA_PRESUPUESTO_REGIONES_NORTE.xlsx no trae el número de
   // intervenciones proyectadas por escenario (sí lo traía el PPT de Piura) — queda en null

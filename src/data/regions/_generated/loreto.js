@@ -14,10 +14,10 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.     ', inicio: '25/09/2026', fin: '23/11/2026', volAcum: 680.0, kmAcum: 0.0, poblacion: 835 },
-    { provincia: 'Maynas', distrito: 'Iquitos', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 1320.0, kmAcum: 1.1, poblacion: 2000 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ', inicio: '03/11/2026', fin: '27/11/2026', volAcum: 700.0, kmAcum: 0.5, poblacion: 2000 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '04/11/2026', fin: '03/12/2026', volAcum: 140.0, kmAcum: 0.0, poblacion: 1000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.     ', inicio: '25/09/2026', fin: '23/11/2026', volAcum: 680.0, kmAcum: 0.0, poblacion: 835, poblacionSinDuplicar: 835 },
+    { provincia: 'Maynas', distrito: 'Iquitos', tipo: 'Urgente atención', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 1320.0, kmAcum: 1.1, poblacion: 2000, poblacionSinDuplicar: 2000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ', inicio: '03/11/2026', fin: '27/11/2026', volAcum: 700.0, kmAcum: 0.5, poblacion: 2000, poblacionSinDuplicar: 2000 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '04/11/2026', fin: '03/12/2026', volAcum: 140.0, kmAcum: 0.0, poblacion: 1000, poblacionSinDuplicar: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -27,8 +27,11 @@ export default {
   programadasTotal: { cantidad: 2, metaVol: 6226.0, metaKm: 4.89, poblacion: 9800 },
 
   programadasDetalle: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN EL AA.HH. 01 DE NOVIEMBRE, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO', fechaInicio: '28/11/2026', fechaFin: '17/12/2026', metaVol: 3720.0, metaKm: 3.1, poblacion: 4900 },
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '024-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL AA.HH. 01 DE NOVIEMBRE DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO ', fechaInicio: '02/12/2026', fechaFin: '21/12/2026', metaVol: 2506.0, metaKm: 1.79, poblacion: 4900 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '023-2026-LD-U-LOR', descripcion: 'LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN EL AA.HH. 01 DE NOVIEMBRE, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO', fechaInicio: '28/11/2026', fechaFin: '17/12/2026', metaVol: 3720.0, metaKm: 3.1, poblacion: 4900, poblacionSinDuplicar: 4900 },
+    { provincia: 'Maynas', distrito: 'San Juan Bautista', sector: 'Aa.Hh. 01 De Noviembre', ficha: '024-2026-CTMPV-U-LOR', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL AA.HH. 01 DE NOVIEMBRE DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO ', fechaInicio: '02/12/2026', fechaFin: '21/12/2026', metaVol: 2506.0, metaKm: 1.79, poblacion: 4900, poblacionSinDuplicar: 4900 },
+  ],
+
+  puntosCriticos: [
   ],
 
   conveniosCount: 1,

@@ -11,9 +11,18 @@ como código fuente del sitio en:
     <repo>/src/data/regions/_generated/<slug>.js
 
 listo para que `npm run build` lo empaquete. Nunca toca los archivos con
-contenido curado a mano: src/data/regions/<slug>.js (meta, puntosCriticos,
-escenarios, capacidad, personalUBO, galeria, fuentes) queda intacto -- esos
-archivos solo hacen `import datosBD from './_generated/<slug>'` y `...datosBD,`.
+contenido curado a mano: src/data/regions/<slug>.js (meta, escenarios,
+capacidad, personalUBO, galeria, fuentes) queda intacto -- esos archivos solo
+hacen `import datosBD from './_generated/<slug>'` y `...datosBD,`.
+
+11/11/2026 -- puntosCriticos (el cuadro "ANA/Acuerdo Multisectorial") DEJA de ser
+curado a mano desde un Excel: ahora sale de esta misma conexión a Producción (ver
+la sección "PUNTOS CRÍTICOS ANA / FEN" dentro de consultar_departamento()). Si un
+archivo curado (src/data/regions/<slug>.js) todavía tiene su propio bloque
+`puntosCriticos: [...]` escrito a mano, ese bloque SIGUE ganando (se spreadea
+`...datosBD` primero y la clave manual la pisa después) -- hay que borrar ese
+bloque a mano, región por región, una vez que se valide que el dato que trae la
+base es correcto, para que el dato en vivo tome el control.
 
 Además (agregado 25/08/2026): actualiza los PUNTOS del mapa de intervenciones
 en <repo>/src/data/mapaIntervenciones.js -- confirmado que pnc.tb_em_intervencion
@@ -539,6 +548,36 @@ def titulo(valor):
     return (valor or "").strip().title()
 
 
+# Normaliza la ficha técnica de PNC para puntos críticos (ver formatear_puntos_criticos()).
+# Confirmado en la prueba del 11/11/2026 (Arequipa): la mayoría de fichas vienen como
+# "135-2026-LD-E-ARE", pero alguna trae un prefijo pegado ("FTI N°135-2026-LD-E-ARE") --
+# se quita cualquier variante de ese prefijo ("FTI N°", "FTI Nº", "FTI No.", "FTI #", "FTI"
+# solo) para que todas queden con el mismo formato <numero>-<año>-<código>-<región>.
+def normalizar_ficha_tec(ficha):
+    f = (ficha or "").strip()
+    if not f:
+        return f
+    f = re.sub(r'^FTI\s*N[°ºo]?\.?\s*', '', f, flags=re.IGNORECASE)
+    f = re.sub(r'^FTI\s*#\s*', '', f, flags=re.IGNORECASE)
+    f = re.sub(r'^FTI\s+', '', f, flags=re.IGNORECASE)
+    # 12/11/2026 -- prueba nacional: Ica trae "FT I N°044-2026-LDE- ICA" (con espacio entre FT e I)
+    # y algunas fichas traen espacios sueltos alrededor de los guiones ("LDE- ICA", "060-2026 -LD-E-LAM").
+    f = re.sub(r'^FT\s*I\s*N[°ºo]?\.?\s*', '', f, flags=re.IGNORECASE)
+    f = re.sub(r'\s*-\s*', '-', f)
+    return f.strip(' .')  # 158-2026-LD-E-PIU. (punto final suelto, Piura)
+
+
+def separar_estado_mes(estado):
+    """La base guarda algunas programadas como "PROGRAMADA NOVIEMBRE" / "PROGRAMADA DICIEMBRE"
+    (el mes pegado al estado). Devuelve (estado, mes): ("Programada", "Noviembre"); para cualquier
+    otro estado el mes es ""."""
+    e = (estado or "").strip()
+    partes = e.split(None, 1)
+    if len(partes) == 2 and partes[0].upper() == "PROGRAMADA":
+        return "Programada", partes[1].strip().capitalize()
+    return e.capitalize(), ""
+
+
 # ---------------------------------------------------------------------------
 # 1) CONSULTA: exactamente la misma lógica ya validada en 03_generar_region.py,
 #    devuelve los datos TAL COMO vienen de la base (mayúsculas, sin traducir).
@@ -553,6 +592,43 @@ def titulo(valor):
 # agua potable. Un puñado de fichas de "mejoramiento de vías PARA distribución de agua" también
 # matchean (la vía es un medio, pero el texto dice explícitamente que sirve para distribuir agua) --
 # se cuentan como agua potable por seguir el texto literal; avisar a Franco si prefiere lo contrario.
+# ---------------------------------------------------------------------------
+# POBLACIÓN BENEFICIADA "SIN DUPLICAR" (12/11/2026, a pedido de Franco)
+# ---------------------------------------------------------------------------
+# En algunos distritos la MISMA población real se repite en el campo pob_beneficiada de
+# varias fichas (ej. Cayma: 8000 en 11 fichas con sectores distintos; Lurigancho: 2,500,000
+# en 4 fichas de "La bocatoma de la PTAP Huachipa"). Sumarla tal cual la cuenta una vez por
+# ficha e infla la cifra de la Ayuda Memoria. Misma regla que el script del área Técnica
+# (pipeline/agregar_poblacion_sin_duplicar.py): dentro del distrito y periodo, el mismo
+# valor exacto cuenta UNA sola vez (se prefiere dejarlo en una ficha que NO esté
+# DESESTIMADA; si hay varias, la de menor id_intervencion); las demás repeticiones valen 0.
+#
+# ALCANCE LIMITADO a propósito: solo estos distritos. El resto del país queda como viene
+# de la base hasta que Vivienda termine el análisis con el área Técnica. Para ampliar, solo
+# agregar (DEPARTAMENTO, PROVINCIA, DISTRITO) a esta lista -- y al script de Técnica.
+DISTRITOS_POBLACION_SINCERADA = [
+    ("AREQUIPA", "AREQUIPA", "CAYMA"),
+    ("LIMA", "LIMA", "LURIGANCHO"),  # Franco lo llama "San Juan de Lurigancho"; en MAIN es LURIGANCHO
+]
+_SQL_DISTRITOS_SINCERADOS = ", ".join(f"('{d}', '{p}', '{x}')" for d, p, x in DISTRITOS_POBLACION_SINCERADA)
+
+# Se une a tb_em_intervencion (alias inte). pd.pob_sd trae la población ya sin duplicar SOLO
+# para las fichas de esos distritos; para el resto del país pd.pob_sd es NULL y se usa la
+# población original (ver SQL_POB_SD).
+SQL_JOIN_POB_SD = f"""
+        LEFT JOIN (
+            SELECT id_intervencion,
+                   CASE WHEN row_number() OVER (
+                            PARTITION BY upper(departamento), upper(provincia), upper(distrito), periodo, pob_beneficiada
+                            ORDER BY (upper(trim(estado)) = 'DESESTIMADA'), id_intervencion
+                        ) = 1
+                        THEN pob_beneficiada ELSE 0 END AS pob_sd
+            FROM pnc.tb_em_intervencion
+            WHERE pob_beneficiada IS NOT NULL
+              AND (upper(departamento), upper(provincia), upper(distrito)) IN ({_SQL_DISTRITOS_SINCERADOS})
+        ) pd ON pd.id_intervencion = inte.id_intervencion"""
+SQL_POB_SD = "COALESCE(pd.pob_sd, inte.pob_beneficiada)"
+
 _REGEX_AGUA_POTABLE = r"(abastecimiento|distribuci[oó]n)\s+([a-z]+\s+){0,4}agua"
 
 
@@ -573,9 +649,9 @@ def _consultar_ejecutadas_por_tipo(cur, departamento, periodo):
                SUM(COALESCE(
                    (SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_km, 0)) AS km,
-               SUM(COALESCE(inte.pob_beneficiada, 0)) AS poblacion,
+               SUM(COALESCE(""" + SQL_POB_SD + """, 0)) AS poblacion,
                array_agg(DISTINCT inte.provincia ORDER BY inte.provincia) AS provincias
-        FROM pnc.tb_em_intervencion inte
+        FROM pnc.tb_em_intervencion inte""" + SQL_JOIN_POB_SD + """
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado = 'EJECUTADA'
         GROUP BY inte.tipo
         ORDER BY inte.tipo;
@@ -621,15 +697,15 @@ def consultar_departamento(cur, departamento, periodo):
                TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fin,
                COALESCE((SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion), 0) AS vol_acum,
                COALESCE((SELECT round(sum(av.avance_km), 3) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion), 0) AS km_acum,
-               inte.pob_beneficiada
-        FROM pnc.tb_em_intervencion inte
+               inte.pob_beneficiada, """ + SQL_POB_SD + """ AS pob_sd
+        FROM pnc.tb_em_intervencion inte""" + SQL_JOIN_POB_SD + """
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado = 'EN EJECUCIÓN'
         ORDER BY inte.fecha_inicio;
     """, (departamento, periodo))
     resultado["enEjecucion"] = [
         {"provincia": r["provincia"], "distrito": r["distrito"], "tipo": r["tipo"], "descripcion": r["descripcion"],
          "inicio": r["inicio"], "fin": r["fin"], "volAcum": num(r["vol_acum"]), "kmAcum": num(r["km_acum"]),
-         "poblacion": entero(r["pob_beneficiada"], None)}
+         "poblacion": entero(r["pob_beneficiada"], None), "poblacionSinDuplicar": entero(r["pob_sd"], None)}
         for r in cur.fetchall()
     ]
 
@@ -638,8 +714,8 @@ def consultar_departamento(cur, departamento, periodo):
                COUNT(*) AS cantidad,
                SUM(COALESCE(inte.meta_vol, 0)) AS meta_vol,
                SUM(COALESCE(inte.meta_km, 0)) AS meta_km,
-               SUM(COALESCE(inte.pob_beneficiada, 0)) AS poblacion
-        FROM pnc.tb_em_intervencion inte
+               SUM(COALESCE(""" + SQL_POB_SD + """, 0)) AS poblacion
+        FROM pnc.tb_em_intervencion inte""" + SQL_JOIN_POB_SD + """
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado ILIKE 'PROGRAMADA%%'
         GROUP BY inte.provincia, inte.distrito
         ORDER BY inte.provincia, inte.distrito;
@@ -665,17 +741,43 @@ def consultar_departamento(cur, departamento, periodo):
         SELECT inte.provincia, inte.distrito, inte.sector, inte.ficha_tec, inte.descripcion,
                TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
                TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
-               inte.meta_vol, inte.meta_km, inte.pob_beneficiada
-        FROM pnc.tb_em_intervencion inte
+               inte.meta_vol, inte.meta_km, inte.pob_beneficiada, """ + SQL_POB_SD + """ AS pob_sd
+        FROM pnc.tb_em_intervencion inte""" + SQL_JOIN_POB_SD + """
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s AND inte.estado ILIKE 'PROGRAMADA%%'
         ORDER BY inte.fecha_inicio;
     """, (departamento, periodo))
     resultado["programadasDetalle"] = [
         {"provincia": r["provincia"], "distrito": r["distrito"], "sector": r["sector"], "ficha": r["ficha_tec"],
          "descripcion": r["descripcion"], "fechaInicio": r["fecha_inicio"], "fechaFin": r["fecha_fin"],
-         "metaVol": num(r["meta_vol"]), "metaKm": num(r["meta_km"]), "poblacion": entero(r["pob_beneficiada"], None)}
+         "metaVol": num(r["meta_vol"]), "metaKm": num(r["meta_km"]), "poblacion": entero(r["pob_beneficiada"], None),
+         "poblacionSinDuplicar": entero(r["pob_sd"], None)}
         for r in cur.fetchall()
     ]
+
+    # ---------- PUNTOS CRÍTICOS ANA / FEN (en vivo, 11/11/2026) ----------
+    # Reemplaza el Excel de la ANA que se editaba a mano por región. Franco confirmó
+    # (nov 2026): en esta misma tabla, la columna reserva_uno marca con '1' los puntos
+    # del Acuerdo Multisectorial que siguen vigentes dentro del universo de 55 -- de
+    # los 55 originales, 9 ya no están marcadas (se desestimaron), quedando 46 a nivel
+    # nacional. Se usa la FICHA TÉCNICA PNC (ficha_tec) y la META PNC (meta_km/
+    # meta_vol) de esta tabla -- NUNCA el ficha/meta de la ANA -- más el estado real
+    # de la intervención, que antes no se mostraba en este cuadro.
+    #
+    # OJO -- no se pudo probar esta consulta contra Producción desde acá (sin VPN/
+    # acceso a la base). El filtro de abajo asume reserva_uno guardado como texto
+    # ('1'); si en tu corrida de prueba sale vacío o da error de tipo, es probable
+    # que la columna sea boolean o smallint -- avísame el error exacto (o corre
+    # `SELECT reserva_uno, pg_typeof(reserva_uno) FROM pnc.tb_em_intervencion LIMIT 5;`
+    # y pégame el resultado) y ajusto el filtro.
+    cur.execute("""
+        SELECT inte.provincia, inte.distrito, inte.sector, inte.ficha_tec, inte.descripcion,
+               inte.estado, inte.meta_km, inte.meta_vol, inte.pob_beneficiada
+        FROM pnc.tb_em_intervencion inte
+        WHERE upper(inte.departamento) = %s AND inte.periodo = %s
+          AND inte.reserva_uno::text = '1'
+        ORDER BY inte.provincia, inte.distrito;
+    """, (departamento, periodo))
+    resultado["_puntos_criticos_crudo"] = cur.fetchall()
 
     cur.execute("""
         SELECT co.nivel_gob, p.nom_prov AS provincia_nombre, d.nom_dist AS distrito_nombre,
@@ -721,7 +823,7 @@ def consultar_departamento(cur, departamento, periodo):
                inte.ficha_tec,
                TO_CHAR(inte.fecha_inicio, 'DD/MM/YYYY') AS fecha_inicio,
                TO_CHAR(inte.fecha_fin, 'DD/MM/YYYY') AS fecha_fin,
-               inte.pob_beneficiada,
+               inte.pob_beneficiada, """ + SQL_POB_SD + """ AS pob_sd,
                COALESCE(
                    (SELECT round(sum(av.avance_vol), 2) FROM pnc.fc_em_intervencion_avance av WHERE av.id_intervencion = inte.id_intervencion),
                    inte.meta_vol, 0
@@ -738,7 +840,7 @@ def consultar_departamento(cur, departamento, periodo):
                    inte.meta_km, 0
                ) AS km,
                inte.enlace_info_cierre
-        FROM pnc.tb_em_intervencion inte
+        FROM pnc.tb_em_intervencion inte""" + SQL_JOIN_POB_SD + """
         WHERE upper(inte.departamento) = %s AND inte.periodo = %s
           AND inte.estado IN ('EJECUTADA', 'EN EJECUCIÓN')
         ORDER BY inte.fecha_inicio;
@@ -1128,6 +1230,7 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
             "volAcum": num(e["volAcum"]),
             "kmAcum": num(e.get("kmAcum", 0)),
             "poblacion": e["poblacion"] if e["poblacion"] is not None else None,
+            "poblacionSinDuplicar": e.get("poblacionSinDuplicar", e["poblacion"]),
         }
         for e in r["enEjecucion"]
     ]
@@ -1157,6 +1260,7 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
                 "metaVol": round(num(p["metaVol"]), 2),
                 "metaKm": round(num(p["metaKm"]), 2),
                 "poblacion": p["poblacion"] if p["poblacion"] is not None else None,
+                "poblacionSinDuplicar": p.get("poblacionSinDuplicar", p["poblacion"]),
             }
             for p in r["programadasDetalle"]
         ]
@@ -1174,7 +1278,31 @@ def formatear_resultado(crudo, notas_viejas, hoy=None):
     if "_puntos_mapa_crudo" in r:
         r["puntosMapa"] = formatear_puntos_mapa(r.pop("_puntos_mapa_crudo"), r["departamento"])
 
+    if "_puntos_criticos_crudo" in r:
+        r["puntosCriticos"] = formatear_puntos_criticos(r.pop("_puntos_criticos_crudo"))
+
     return r
+
+
+def formatear_puntos_criticos(filas_crudas):
+    """Puntos críticos ANA/FEN (ver la consulta 'reserva_uno' en consultar_departamento()).
+    A diferencia del Excel manual que reemplaza, acá SIEMPRE se usa la ficha técnica y la
+    meta de PNC (nunca la de ANA), y se agrega el estado real de la intervención."""
+    return [
+        {
+            "provincia": titulo(p["provincia"]),
+            "distrito": titulo(p["distrito"]),
+            "sector": titulo(p["sector"]) if p["sector"] else "",
+            "fichaTecnica": normalizar_ficha_tec(p["ficha_tec"]),
+            "descripcion": p["descripcion"] or "",
+            "estado": separar_estado_mes(p["estado"])[0],
+            "mes": separar_estado_mes(p["estado"])[1],
+            "metaKm": round(num(p["meta_km"]), 3),
+            "metaVol": round(num(p["meta_vol"]), 2),
+            "poblacion": p["pob_beneficiada"] if p["pob_beneficiada"] is not None else None,
+        }
+        for p in filas_crudas
+    ]
 
 
 def formatear_puntos_mapa(puntos_crudo, departamento):
@@ -1223,6 +1351,13 @@ def formatear_puntos_mapa(puntos_crudo, departamento):
             "fechaInicio": p["fecha_inicio"] or "",
             "fechaFin": p["fecha_fin"] or "",
             "poblacion": entero(p["pob_beneficiada"]) if p["pob_beneficiada"] is not None else None,
+            # 12/11/2026 -- misma población pero sin repetir (ver DISTRITOS_POBLACION_SINCERADA). "poblacion"
+            # se deja con el dato real de la ficha (lo muestra el popup del mapa); las SUMAS de la Ayuda
+            # Memoria usan este campo. Fuera de los distritos sincerados es igual a "poblacion".
+            "poblacionSinDuplicar": (
+                entero(p["pob_sd"]) if p.get("pob_sd") is not None
+                else (entero(p["pob_beneficiada"]) if p["pob_beneficiada"] is not None else None)
+            ),
             "volumen": num(p["volumen"]),
             # 09/09/2026 -- ver comentario junto a la consulta de la sección 6) más arriba: ahora
             # sí viene con dato real (antes esta función no recibía "km" en absoluto porque la
@@ -1320,7 +1455,8 @@ def emitir_js(r):
         L.append(
             f"    {{ provincia: {js_str(e['provincia'])}, distrito: {js_str(e['distrito'])}, tipo: {js_str(e['tipo'])}, "
             f"descripcion: {js_str(e['descripcion'])}, inicio: {js_str(e['inicio'])}, fin: {js_str(e['fin'])}, "
-            f"volAcum: {js_num(e['volAcum'])}, kmAcum: {js_num(e.get('kmAcum', 0))}, poblacion: {js_num(e['poblacion'])} }},"
+            f"volAcum: {js_num(e['volAcum'])}, kmAcum: {js_num(e.get('kmAcum', 0))}, poblacion: {js_num(e['poblacion'])}, "
+            f"poblacionSinDuplicar: {js_num(e.get('poblacionSinDuplicar', e['poblacion']))} }},"
         )
     L.append("  ],")
     L.append("")
@@ -1344,7 +1480,21 @@ def emitir_js(r):
         L.append(
             f"    {{ provincia: {js_str(p['provincia'])}, distrito: {js_str(p['distrito'])}, sector: {js_str(p['sector'])}, "
             f"ficha: {js_str(p['ficha'])}, descripcion: {js_str(p['descripcion'])}, fechaInicio: {js_str(p['fechaInicio'])}, "
-            f"fechaFin: {js_str(p['fechaFin'])}, metaVol: {js_num(p['metaVol'])}, metaKm: {js_num(p['metaKm'])}, poblacion: {js_num(p['poblacion'])} }},"
+            f"fechaFin: {js_str(p['fechaFin'])}, metaVol: {js_num(p['metaVol'])}, metaKm: {js_num(p['metaKm'])}, poblacion: {js_num(p['poblacion'])}, "
+            f"poblacionSinDuplicar: {js_num(p.get('poblacionSinDuplicar', p['poblacion']))} }},"
+        )
+    L.append("  ],")
+    L.append("")
+
+    # Puntos críticos ANA/FEN -- en vivo desde Producción (11/11/2026, ver
+    # formatear_puntos_criticos() arriba). Reemplaza el cuadro curado a mano del Excel
+    # de la ANA; ficha/meta son siempre de PNC, y se agrega el estado real.
+    L.append("  puntosCriticos: [")
+    for p in r.get("puntosCriticos") or []:
+        L.append(
+            f"    {{ provincia: {js_str(p['provincia'])}, distrito: {js_str(p['distrito'])}, sector: {js_str(p['sector'])}, "
+            f"fichaTecnica: {js_str(p['fichaTecnica'])}, descripcion: {js_str(p['descripcion'])}, estado: {js_str(p['estado'])}, mes: {js_str(p.get('mes', ''))}, "
+            f"metaKm: {js_num(p['metaKm'])}, metaVol: {js_num(p['metaVol'])}, poblacion: {js_num(p['poblacion'])} }},"
         )
     L.append("  ],")
     L.append("")
@@ -1412,6 +1562,7 @@ def punto_mapa_js(p):
         f'"fechaInicio": {jstr(p["fechaInicio"])}',
         f'"fechaFin": {jstr(p["fechaFin"])}',
         f'"poblacion": {poblacion}',
+        f'"poblacionSinDuplicar": {str(entero(p["poblacionSinDuplicar"])) if p.get("poblacionSinDuplicar") is not None else "null"}',
         f'"volumen": {jcoord(p["volumen"])}',
         # 14/09/2026 -- BUG encontrado a partir del reporte de Franco ("no esta jalando
         # ACUMULADO_KM ... salen vacíos esos campos"): formatear_puntos_mapa() SÍ calculaba

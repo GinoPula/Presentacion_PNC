@@ -117,18 +117,8 @@ export default {
   ],
   todosResponsablesResumen: { ana: 0, midagri: 45, defensa: 2, mtc: 0, mvcs: 7, total: 54 },
 
-  // puntosCriticos: actualizado 28/09/2026 con "PROGRAMACIÓN REAL PPCC ANA 55 1.xlsx" que
-  // envió Franco. Se retiró 1 ficha desestimada (0167-2025, Quebrada La Banda) y se corrigió
-  // la meta de km de 3 fichas a la meta real de PNC (0216: 1.99->0.68, 0217: 1.19->0.072,
-  // 0491-2025: 1.5->0.75).
-  puntosCriticos: [
-    { provincia: 'Ica', distrito: 'San José de Los Molinos', sector: 'Dique 1-2-3-4-5', fichaTecnica: 'FTR-MC-PREV N° 0216-2026-ANA-AAA.CHCH-ALA.I', descripcion: 'Limpieza y descolmatación para el mantenimiento del cauce en la quebrada La Yesera.', metaKm: 0.68 },
-    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Huayanto', fichaTecnica: 'FTR-CB-PREV N° 0484-2025-ANA-AAA.CHCH-ALA.P', descripcion: 'Limpieza, descolmatación y conformación de dique con enrocado en ambas márgenes de la quebrada Huayanto.', metaKm: 2.2 },
-    { provincia: 'Ica', distrito: 'San José de Los Molinos', sector: 'Dique 6-7', fichaTecnica: 'FTR-MC-PREV N° 0217-2026-ANA-AAA.CHCH-ALA.I', descripcion: 'Limpieza y descolmatación para el mantenimiento del cauce en la quebrada La Yesera.', metaKm: 0.072 },
-    { provincia: 'Ica', distrito: 'San José de Los Molinos', sector: 'Dique 9', fichaTecnica: 'FTR-MC-PREV N° 0219-2026-ANA-AAA.CHCH-ALA.I', descripcion: 'Limpieza y descolmatación para el mantenimiento del cauce en la quebrada La Yesera.', metaKm: 0.91 },
-    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Huancano Pueblo', fichaTecnica: 'FTR-CB-PREV N° 0491-2025-ANA-AAA.CHCH-ALA.P', descripcion: 'Limpieza, descolmatación y protección con muro de concreto ciclopeo en ambas márgenes de la quebrada Huancano.', metaKm: 0.75 },
-    { provincia: 'Ica', distrito: 'San José De Los Molinos', sector: 'Quebrada Huamani', fichaTecnica: 'FTR-MC-PREV N° 0173-2025-ANA-AAA.CHCH-ALA.I', descripcion: 'Limpieza, descolmatación y conformación de bordos con material propio del cauce de la quebrada Huamani.', metaKm: 0.56 },
-  ],
+  // puntosCriticos: ya no se escribe a mano. Sale en vivo de Producción (reserva_uno = '1', ficha y meta de PNC,
+  // con su estado) a través de ...datosBD -- ver pipeline/generar_todas_regiones.py. (12/11/2026)
 
   escenarios: null,
 

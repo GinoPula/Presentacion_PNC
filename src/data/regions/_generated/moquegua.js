@@ -23,6 +23,9 @@ export default {
   programadasDetalle: [
   ],
 
+  puntosCriticos: [
+  ],
+
   conveniosCount: 2,
   conveniosVigentes: [
     { entidad: 'Municipalidad Distrital Chojata', detail: 'vence 17/11/2026 (a un mes de caducar)' },
