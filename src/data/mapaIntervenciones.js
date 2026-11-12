@@ -5103,7 +5103,7 @@ const mapaIntervenciones = {
     "provincia": "Santa",
     "distrito": "Chimbote",
     "sector": "Cascajal",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P   ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P    ",
     "ficha": "117-2026-LDE-ANC",
     "fechaInicio": "02/11/2026",
     "fechaFin": "18/11/2026",
@@ -10446,8 +10446,8 @@ const mapaIntervenciones = {
     "fechaInicio": "11/11/2026",
     "fechaFin": "25/11/2026",
     "poblacion": 400,
-    "volumen": 4816.39,
-    "km": 0.4,
+    "volumen": 300,
+    "km": 0.015,
     "enlace": null
   },
   {
