@@ -41,10 +41,10 @@ export default {
     { provincia: 'Huancane', distrito: 'Huancane', sector: 'Quishuarani Y Machacmarca', ficha: 'FTI N° 040-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO           ', fechaInicio: '12/12/2026', fechaFin: '26/12/2026', metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
   ],
 
-  conveniosCount: 23,
+  conveniosCount: 22,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
-    { entidad: 'Municipalidad Provincial', detail: '5 convenios vigentes' },
+    { entidad: 'Municipalidad Provincial', detail: '4 convenios vigentes' },
     { entidad: 'Municipalidad Distrital', detail: '17 convenios vigentes' },
   ],
 
