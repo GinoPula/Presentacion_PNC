@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 6, m3: 36520.85, km: 5.67, poblacion: 18810, provincias: ['Carlos Fermin Fitzcarrald', 'Huarmey', 'Santa'] },
+    { tipo: 'Emergencia', cantidad: 6, m3: 36520.85, km: 5.68, poblacion: 18810, provincias: ['Carlos Fermin Fitzcarrald', 'Huarmey', 'Santa'] },
     { tipo: 'Prevención', cantidad: 55, m3: 191862.0, km: 20.85, poblacion: 51578, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 9448.0, km: 6.3, poblacion: 6071, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 70, m3: 237830.85, m3AguaPotable: 570.0, km: 32.81, poblacion: 76459 },
+  ejecutadasTotal: { cantidad: 70, m3: 237830.85, m3AguaPotable: 570.0, km: 32.83, poblacion: 76459 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH        ', inicio: '28/08/2026', fin: '15/11/2026', volAcum: 23097.0, kmAcum: 2.68, poblacion: 7456, poblacionSinDuplicar: 7456 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN EL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH    ', inicio: '16/10/2026', fin: '11/11/2026', volAcum: 8279.0, kmAcum: 0.57, poblacion: 1661, poblacionSinDuplicar: 1661 },
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P    ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 9340.0, kmAcum: 1.89, poblacion: 120, poblacionSinDuplicar: 120 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P    ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 11055.0, kmAcum: 2.23, poblacion: 120, poblacionSinDuplicar: 120 },
     { provincia: 'Huarmey', distrito: 'Huarmey', tipo: 'Prevención', descripcion: ' DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA GARLERO, SECTOR GARLERO, DISTRITO DE HUARMEY, PROVINCIA DE HUARMEY, DEPARTAMENTO ANCASH', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 3015.0, kmAcum: 0.34, poblacion: 150, poblacionSinDuplicar: 150 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR CHUNA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '11/11/2026', fin: '22/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1590, poblacionSinDuplicar: 1590 },
   ],
@@ -70,12 +70,11 @@ export default {
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'John Deere', codigos: ['D001597'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Caterpillar', codigos: ['TJT10127', 'TJT10129'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D523228'], estado: 'operativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['A10879', '85461'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'Komatsu', codigos: ['A10879', '85461'], estado: 'inoperativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAJ-572'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGO-601'], estado: 'operativo' },
     { tipo: 'Remolcador', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EAJ-560', 'EGN-071'], estado: 'operativo' },
-    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['82454'], estado: 'inoperativo' },
-    { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Komatsu', codigos: ['81373'], estado: 'operativo' },
+    { tipo: 'Tractor sobre oruga', cantidad: 2, marca: 'Komatsu', codigos: ['82454', '81373'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-808'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 2, marca: 'Scania', codigos: ['EGM-924', 'EGM-824'], estado: 'operativo' },
   ],

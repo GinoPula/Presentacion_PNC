@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 40585.27, km: 1.17, poblacion: 19345, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 76, m3: 606346.07, km: 22.71, poblacion: 2600120, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Prevención', cantidad: 78, m3: 616930.27, km: 22.99, poblacion: 2601394, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 92, m3: 666878.44, m3AguaPotable: 0.0, km: 40.25, poblacion: 2638299 },
+  ejecutadasTotal: { cantidad: 94, m3: 677462.64, m3AguaPotable: 0.0, km: 40.52, poblacion: 2639573 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,13 +17,11 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, m3AguaPotable: 0.0, km: 89.97, poblacion: 13669350 },
 
   enEjecucion: [
-    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.  ', inicio: '26/10/2026', fin: '11/11/2026', volAcum: 840.0, kmAcum: 0.06, poblacion: 720, poblacionSinDuplicar: 720 },
-    { provincia: 'Lima', distrito: 'Comas', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA” ', inicio: '26/10/2026', fin: '09/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 600, poblacionSinDuplicar: 600 },
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACION Y CONFORMACION  DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO III, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”  ', inicio: '27/10/2026', fin: '10/11/2026', volAcum: 2898.2, kmAcum: 0.09, poblacion: 1000, poblacionSinDuplicar: 0 },
-    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA        ', inicio: '28/10/2026', fin: '11/11/2026', volAcum: 5248.8, kmAcum: 0.08, poblacion: 2500000, poblacionSinDuplicar: 0 },
-    { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”   ', inicio: '29/10/2026', fin: '12/11/2026', volAcum: 532.0, kmAcum: 0.04, poblacion: 720, poblacionSinDuplicar: 720 },
+    { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.   ', inicio: '26/10/2026', fin: '18/11/2026', volAcum: 840.0, kmAcum: 0.06, poblacion: 720, poblacionSinDuplicar: 720 },
+    { provincia: 'Lima', distrito: 'Comas', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”  ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 600, poblacionSinDuplicar: 600 },
+    { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: 'DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA         ', inicio: '28/10/2026', fin: '17/11/2026', volAcum: 5248.8, kmAcum: 0.08, poblacion: 2500000, poblacionSinDuplicar: 0 },
+    { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”    ', inicio: '29/10/2026', fin: '21/11/2026', volAcum: 532.0, kmAcum: 0.04, poblacion: 720, poblacionSinDuplicar: 720 },
     { provincia: 'Yauyos', distrito: 'Yauyos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+160 HASTA LA PROGRESIVA 0+320) KM, EN EL SECTOR CRÍTICO N°02: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA     ', inicio: '31/10/2026', fin: '14/11/2026', volAcum: 8059.5, kmAcum: 0.12, poblacion: 98, poblacionSinDuplicar: 98 },
-    { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 01, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”. ', inicio: '04/11/2026', fin: '11/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1274, poblacionSinDuplicar: 1274 },
     { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ', inicio: '11/11/2026', fin: '22/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1274, poblacionSinDuplicar: 1274 },
     { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA” ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Huarochiri', distrito: 'Ricardo Palma', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA HUAYCO, SECTOR PASCANA III, DISTRITO DE RICARDO PALMA, PROVINCIA DE HUAROCHIRÍ, DEPARTAMENTO DE LIMA DS180-R  ', inicio: '15/11/2026', fin: '29/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 269, poblacionSinDuplicar: 269 },
@@ -69,12 +67,12 @@ export default {
     { tipo: 'Camioneta', cantidad: 2, marca: 'Mitsubishi', codigos: ['EGM-018', 'EGL-985'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 2, marca: 'Toyota', codigos: ['EAJ-748', 'EAJ-720'], estado: 'operativo' },
     { tipo: 'Camión grúa', cantidad: 2, marca: 'Iveco', codigos: ['EGQ-980', 'EGR-000'], estado: 'operativo' },
-    { tipo: 'Cargador frontal', cantidad: 4, marca: 'Caterpillar', codigos: ['JLX00206', 'JLX00246', 'JLX00207', 'JLX00293'], estado: 'operativo' },
+    { tipo: 'Cargador frontal', cantidad: 3, marca: 'Caterpillar', codigos: ['JLX00206', 'JLX00207', 'JLX00293'], estado: 'operativo' },
+    { tipo: 'Cargador frontal', cantidad: 1, marca: 'Caterpillar', codigos: ['JLX00246'], estado: 'inoperativo' },
     { tipo: 'Cargador frontal', cantidad: 2, marca: 'John Deere', codigos: ['D001610', 'D001611'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 3, marca: 'Caterpillar', codigos: ['TJT10116', 'TJT10120', 'TJT10117'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10126'], estado: 'inoperativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810373'], estado: 'inoperativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810454'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 2, marca: 'John Deere', codigos: ['D810373', 'D810454'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 3, marca: 'Komatsu', codigos: ['A10882', 'A10880', 'A10892'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 4, marca: 'Komatsu', codigos: ['A10875', 'A10912', 'A10910', 'A10891'], estado: 'operativo' },
     { tipo: 'Mini cargador', cantidad: 2, marca: 'Bobcat', codigos: ['B38V11139', 'B38V11148'], estado: 'operativo' },

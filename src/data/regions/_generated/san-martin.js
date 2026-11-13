@@ -17,9 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN          ', inicio: '12/10/2026', fin: '13/11/2026', volAcum: 930.0, kmAcum: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN          ', inicio: '12/10/2026', fin: '13/11/2026', volAcum: 975.0, kmAcum: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
     { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN             ', inicio: '13/10/2026', fin: '13/11/2026', volAcum: 1680.0, kmAcum: 0.19, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN      ', inicio: '27/10/2026', fin: '20/11/2026', volAcum: 240.0, kmAcum: 0.4, poblacion: 700, poblacionSinDuplicar: 700 },
+    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN      ', inicio: '27/10/2026', fin: '20/11/2026', volAcum: 300.0, kmAcum: 0.5, poblacion: 700, poblacionSinDuplicar: 700 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -47,7 +47,7 @@ export default {
     { tipo: 'Camión cisterna de agua', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-010'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Mitsubishi', codigos: ['EGM-011'], estado: 'inoperativo' },
     { tipo: 'Cargador frontal', cantidad: 1, marca: 'Kawasaki', codigos: ['70J12945'], estado: 'inoperativo' },
-    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810312'], estado: 'operativo' },
+    { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810312'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85469'], estado: 'inoperativo' },
     { tipo: 'Plataforma', cantidad: 2, marca: 'ACS', codigos: ['EGR-075', 'EGR-074'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286603'], estado: 'operativo' },
