@@ -5410,8 +5410,8 @@ const mapaIntervenciones = {
     "fechaFin": "17/11/2026",
     "poblacion": 150,
     "poblacionSinDuplicar": 150,
-    "volumen": 3015,
-    "km": 0.335,
+    "volumen": 3510,
+    "km": 0.39,
     "enlace": null
   },
   {
@@ -12146,7 +12146,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "San Lucas",
-    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO    ",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL RÍO APACHETA (TRAMO I) Y RIO CACHI (TRAMO V) MARGEN IZQUIERDO; EN EL ANEXO DE SAN LUCAS CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO     ",
     "ficha": "49-2026- LD-PI-AYAC ",
     "fechaInicio": "20/10/2026",
     "fechaFin": "04/11/2026",
