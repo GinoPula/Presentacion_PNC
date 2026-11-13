@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 6, m3: 36520.85, km: 5.68, poblacion: 18810, provincias: ['Carlos Fermin Fitzcarrald', 'Huarmey', 'Santa'] },
-    { tipo: 'Prevención', cantidad: 57, m3: 205758.0, km: 21.77, poblacion: 53389, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
+    { tipo: 'Prevención', cantidad: 58, m3: 206158.0, km: 21.97, poblacion: 54979, provincias: ['Bolognesi', 'Huaraz', 'Huarmey', 'Ocros', 'Recuay', 'Yungay'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 9448.0, km: 6.3, poblacion: 6071, provincias: ['Huaraz', 'Recuay'] },
   ],
-  ejecutadasTotal: { cantidad: 72, m3: 251726.85, m3AguaPotable: 570.0, km: 33.75, poblacion: 78270 },
+  ejecutadasTotal: { cantidad: 73, m3: 252126.85, m3AguaPotable: 570.0, km: 33.95, poblacion: 79860 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,9 +17,8 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH         ', inicio: '28/08/2026', fin: '20/11/2026', volAcum: 23097.0, kmAcum: 2.68, poblacion: 7456, poblacionSinDuplicar: 7456 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH         ', inicio: '28/08/2026', fin: '20/11/2026', volAcum: 23957.0, kmAcum: 2.78, poblacion: 7456, poblacionSinDuplicar: 7456 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR CASCAJAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P    ', inicio: '02/11/2026', fin: '18/11/2026', volAcum: 12675.0, kmAcum: 2.55, poblacion: 120, poblacionSinDuplicar: 120 },
-    { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR CHUNA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '11/11/2026', fin: '22/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1590, poblacionSinDuplicar: 1590 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: ' DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA QUEBRADA RÍO SECO DE ACUAS, CENTRO POBLADO DE POCOR, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO ÁNCASH', inicio: '12/11/2026', fin: '23/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 133, poblacionSinDuplicar: 133 },
     { provincia: 'Bolognesi', distrito: 'Colquioc', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN LA PTAR DEL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH ', inicio: '13/11/2026', fin: '23/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1661, poblacionSinDuplicar: 1661 },
     { provincia: 'Huaraz', distrito: 'Huaraz', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR TACLLAN ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ', inicio: '13/11/2026', fin: '27/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 2214, poblacionSinDuplicar: 2214 },

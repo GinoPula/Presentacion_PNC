@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "13/11/2026",
-    "horaCorte": "17:50",
+    "horaCorte": "18:21",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -26,22 +26,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10674",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Bolognesi",
-      "distrito": "Colquioc",
-      "sector": "Chasquitambo",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN LA PTAR DEL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH",
-      "fechaInicio": "13/11/2026",
-      "fechaFin": "23/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 3,
       "idIntervencion": "10706",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -57,23 +41,23 @@
       "maquinaria": []
     },
     {
-      "n": 4,
-      "idIntervencion": "10693",
+      "n": 3,
+      "idIntervencion": "10674",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
       "regionId": "ancash",
-      "provincia": "Huaraz",
-      "distrito": "Huaraz",
-      "sector": "Chuna Alto",
+      "provincia": "Bolognesi",
+      "distrito": "Colquioc",
+      "sector": "Chasquitambo",
       "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR CHUNA ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH",
-      "fechaInicio": "11/11/2026",
-      "fechaFin": "22/11/2026",
+      "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE DIQUE EN LA MARGEN IZQUIERDA DEL RÍO FORTALEZA EN LA PTAR DEL CENTRO POBLADO DE CHASQUITAMBO, DISTRITO DE COLQUIOC, PROVINCIA DE BOLOGNESI, DEPARTAMENTO DE ÁNCASH",
+      "fechaInicio": "13/11/2026",
+      "fechaFin": "23/11/2026",
       "maquinaria": []
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "10705",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -87,6 +71,27 @@
       "fechaInicio": "13/11/2026",
       "fechaFin": "27/11/2026",
       "maquinaria": []
+    },
+    {
+      "n": 5,
+      "idIntervencion": "10462",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Villa María – 3 De Octubre",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº029-2026",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH",
+      "fechaInicio": "28/08/2026",
+      "fechaFin": "20/11/2026",
+      "maquinaria": [
+        "CAMIONETA ( EAJ-733)",
+        "REMOLCADOR ( EAJ-560)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "EXCAVADORA HIDRAULICA ( TJT10129)"
+      ]
     },
     {
       "n": 6,
@@ -111,27 +116,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10462",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Villa María – 3 De Octubre",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº029-2026",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH",
-      "fechaInicio": "28/08/2026",
-      "fechaFin": "20/11/2026",
-      "maquinaria": [
-        "CAMIONETA ( EAJ-733)",
-        "REMOLCADOR ( EAJ-560)",
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "EXCAVADORA HIDRAULICA ( TJT10129)"
-      ]
-    },
-    {
-      "n": 8,
       "idIntervencion": "10537",
       "departamento": "APURIMAC",
       "deptoLabel": "Apurimac",
@@ -151,7 +135,7 @@
       ]
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "10657",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -167,7 +151,7 @@
       "maquinaria": []
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10652",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -183,7 +167,7 @@
       "maquinaria": []
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10647",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -199,7 +183,7 @@
       "maquinaria": []
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10534",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -224,7 +208,7 @@
       ]
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10646",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -238,6 +222,28 @@
       "fechaInicio": "31/10/2026",
       "fechaFin": "21/11/2026",
       "maquinaria": []
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10516",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Mariano Melgar",
+      "sector": "Desde Puente 8 De Octubre Hasta Puente Túpac Amaru",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TÚPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
+      "fechaInicio": "11/11/2026",
+      "fechaFin": "25/11/2026",
+      "maquinaria": [
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "CARGADOR FRONTAL ( M5K00378)",
+        "VOLQUETE ( EGV-782)",
+        "CAMIONETA ( EGM-015)",
+        "REMOLCADOR ( EGM-982)"
+      ]
     },
     {
       "n": 14,
@@ -264,28 +270,6 @@
     },
     {
       "n": 15,
-      "idIntervencion": "10516",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Mariano Melgar",
-      "sector": "Desde Puente 8 De Octubre Hasta Puente Túpac Amaru",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TÚPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
-      "fechaInicio": "11/11/2026",
-      "fechaFin": "25/11/2026",
-      "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CARGADOR FRONTAL ( M5K00378)",
-        "VOLQUETE ( EGV-782)",
-        "CAMIONETA ( EGM-015)",
-        "REMOLCADOR ( EGM-982)"
-      ]
-    },
-    {
-      "n": 16,
       "idIntervencion": "10701",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -301,7 +285,7 @@
       "maquinaria": []
     },
     {
-      "n": 17,
+      "n": 16,
       "idIntervencion": "10622",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -320,7 +304,7 @@
       ]
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10681",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -341,7 +325,7 @@
       ]
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10682",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -365,7 +349,7 @@
       ]
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "10499",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -386,7 +370,7 @@
       ]
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "10633",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -404,7 +388,7 @@
       ]
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10678",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -420,7 +404,7 @@
       "maquinaria": []
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "10566",
       "departamento": "HUANCAVELICA",
       "deptoLabel": "Huancavelica",
@@ -438,7 +422,7 @@
       ]
     },
     {
-      "n": 24,
+      "n": 23,
       "idIntervencion": "9635",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -459,7 +443,7 @@
       ]
     },
     {
-      "n": 25,
+      "n": 24,
       "idIntervencion": "10583",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -482,7 +466,7 @@
       ]
     },
     {
-      "n": 26,
+      "n": 25,
       "idIntervencion": "10588",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -498,7 +482,7 @@
       "maquinaria": []
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "10664",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -517,7 +501,7 @@
       ]
     },
     {
-      "n": 28,
+      "n": 27,
       "idIntervencion": "10680",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -537,7 +521,7 @@
       ]
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "10538",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -560,7 +544,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 29,
       "idIntervencion": "10575",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -582,7 +566,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 30,
       "idIntervencion": "10685",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -600,7 +584,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 31,
       "idIntervencion": "9155",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -624,7 +608,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 32,
       "idIntervencion": "10618",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -642,7 +626,7 @@
       ]
     },
     {
-      "n": 34,
+      "n": 33,
       "idIntervencion": "10510",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -658,7 +642,7 @@
       "maquinaria": []
     },
     {
-      "n": 35,
+      "n": 34,
       "idIntervencion": "10591",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -674,7 +658,7 @@
       "maquinaria": []
     },
     {
-      "n": 36,
+      "n": 35,
       "idIntervencion": "10624",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -694,7 +678,7 @@
       ]
     },
     {
-      "n": 37,
+      "n": 36,
       "idIntervencion": "9738",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -712,7 +696,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 37,
       "idIntervencion": "10686",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -728,7 +712,7 @@
       "maquinaria": []
     },
     {
-      "n": 39,
+      "n": 38,
       "idIntervencion": "10640",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -748,7 +732,7 @@
       ]
     },
     {
-      "n": 40,
+      "n": 39,
       "idIntervencion": "10367",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -770,7 +754,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 40,
       "idIntervencion": "10660",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -789,7 +773,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 41,
       "idIntervencion": "10479",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -807,7 +791,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 42,
       "idIntervencion": "9412",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -825,7 +809,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 43,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -843,7 +827,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 44,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -862,7 +846,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 45,
       "idIntervencion": "10668",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -880,7 +864,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 46,
       "idIntervencion": "10689",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -901,7 +885,7 @@
       ]
     },
     {
-      "n": 48,
+      "n": 47,
       "idIntervencion": "10550",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -921,7 +905,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 48,
       "idIntervencion": "10690",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -942,7 +926,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 49,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -964,7 +948,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 50,
       "idIntervencion": "10547",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -986,7 +970,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "9440",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1004,7 +988,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 52,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1022,7 +1006,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 53,
       "idIntervencion": "10157",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1044,7 +1028,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 54,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1062,7 +1046,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 55,
       "idIntervencion": "10684",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1081,7 +1065,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 56,
       "idIntervencion": "10692",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1104,6 +1088,25 @@
       ]
     },
     {
+      "n": 57,
+      "idIntervencion": "10670",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "Corrales",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "24/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGN-007)",
+        "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
       "n": 58,
       "idIntervencion": "10669",
       "departamento": "TUMBES",
@@ -1119,25 +1122,6 @@
       "fechaFin": "21/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGM-976)",
-        "CAMIONETA ( EGM-052)"
-      ]
-    },
-    {
-      "n": 59,
-      "idIntervencion": "10670",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "Corrales",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "24/11/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-007)",
         "CAMIONETA ( EGM-052)"
       ]
     }
