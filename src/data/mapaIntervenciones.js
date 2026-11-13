@@ -2613,7 +2613,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/12/2026",
     "poblacion": 420,
     "poblacionSinDuplicar": 420,
-    "volumen": 330,
+    "volumen": 345,
     "km": 0,
     "enlace": null
   },
@@ -2670,7 +2670,7 @@ const mapaIntervenciones = {
     "fechaFin": "18/12/2026",
     "poblacion": 550,
     "poblacionSinDuplicar": 550,
-    "volumen": 225,
+    "volumen": 240,
     "km": 0,
     "enlace": null
   },
@@ -2683,7 +2683,7 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Pachia",
     "sector": "Aguas Abajo De Bocatoma Challata",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA        ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR AGUAS ABAJO DE BOCATOMA CHALLATA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA         ",
     "ficha": "051-2026-LD-P-TAC",
     "fechaInicio": "26/10/2026",
     "fechaFin": "05/11/2026",
@@ -2691,7 +2691,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 2389,
     "volumen": 5700,
     "km": 0.25,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1UT_jQbqdQffgMSXxdhtzVfe8evb7HnZL/view?usp=drive_link"
   },
   {
     "id": 10157,
@@ -2708,8 +2708,8 @@ const mapaIntervenciones = {
     "fechaFin": "22/11/2026",
     "poblacion": 10000,
     "poblacionSinDuplicar": 10000,
-    "volumen": 4100,
-    "km": 0.13,
+    "volumen": 4700,
+    "km": 0.15,
     "enlace": null
   },
   {
@@ -11194,10 +11194,10 @@ const mapaIntervenciones = {
     "provincia": "Aymaraes",
     "distrito": "Chalhuanca",
     "sector": "Urubamba/Rio Chalhuanca",
-    "descripcion": " \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE LA PROGRESIVA KM 0+000 AL KM 0+130 EN EL SECTOR DE URUBAMBA DEL CENTRO POBLADO DE PAIRACA, DISTRITO DE CHALHUANCA, PROVINCIA DE AYMARAES, REGION APURIMAC\".    ",
+    "descripcion": " \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE LA PROGRESIVA KM 0+000 AL KM 0+130 EN EL SECTOR DE URUBAMBA DEL CENTRO POBLADO DE PAIRACA, DISTRITO DE CHALHUANCA, PROVINCIA DE AYMARAES, REGION APURIMAC\".     ",
     "ficha": "FTI N° 032-2026-LDE-APU",
     "fechaInicio": "24/01/2026",
-    "fechaFin": "31/01/2026",
+    "fechaFin": "30/01/2026",
     "poblacion": 350,
     "poblacionSinDuplicar": 350,
     "volumen": 3900,
