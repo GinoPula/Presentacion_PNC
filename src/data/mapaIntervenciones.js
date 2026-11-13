@@ -13829,6 +13829,25 @@ const mapaIntervenciones = {
     "volumen": 1050,
     "km": 0.04,
     "enlace": null
+  },
+  {
+    "id": 10681,
+    "lat": -7.532213,
+    "lng": -78.183484,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Cajabamba",
+    "distrito": "Cachachi",
+    "sector": "Chimin-Tabacal",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO CHIMÍN, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR CHIMÍN, C.P. TABACAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.    ",
+    "ficha": "FTI N° 061-2026-LD-PI-CAJ",
+    "fechaInicio": "12/11/2026",
+    "fechaFin": "26/11/2026",
+    "poblacion": 700,
+    "poblacionSinDuplicar": 700,
+    "volumen": 16800,
+    "km": 0.5,
+    "enlace": null
   }
 ],
   callao: [
@@ -16118,7 +16137,7 @@ const mapaIntervenciones = {
     "fechaFin": "23/11/2026",
     "poblacion": 835,
     "poblacionSinDuplicar": 835,
-    "volumen": 680,
+    "volumen": 700,
     "km": 0,
     "enlace": null
   },
