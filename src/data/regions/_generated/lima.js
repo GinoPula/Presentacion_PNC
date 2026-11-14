@@ -55,10 +55,10 @@ export default {
     { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', sector: 'Corcona', fichaTecnica: '131-2026-LDE-LIM', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R   ', estado: 'Programada', mes: 'Noviembre', metaKm: 0.5, metaVol: 25000.0, poblacion: 2000 },
   ],
 
-  conveniosCount: 18,
+  conveniosCount: 17,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial', detail: '2 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '16 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '15 convenios vigentes' },
   ],
 
   flota: [
