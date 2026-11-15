@@ -56,11 +56,10 @@ export default {
   puntosCriticos: [
   ],
 
-  conveniosCount: 5,
+  conveniosCount: 4,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 24/02/2027' },
     { entidad: 'Municipalidad Provincial Huanuco', detail: 'hasta 19/08/2027' },
-    { entidad: 'Municipalidad Distrital Amarilis', detail: 'vence 14/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Jose Crespo Y Castillo', detail: 'vence 25/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital San Francisco De Cayran', detail: 'vence 03/12/2026 (a un mes de caducar)' },
   ],
