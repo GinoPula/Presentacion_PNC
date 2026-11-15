@@ -3912,25 +3912,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10549,
-    "lat": -5.373199,
-    "lng": -79.599686,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancabamba",
-    "distrito": "Canchaque",
-    "sector": "Canchaque",
-    "descripcion": " “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P      ",
-    "ficha": "FTI N° 151-2026-LD-E-PIU",
-    "fechaInicio": "07/10/2026",
-    "fechaFin": "30/10/2026",
-    "poblacion": 900,
-    "poblacionSinDuplicar": 900,
-    "volumen": 10760,
-    "km": 0.373,
-    "enlace": null
-  },
-  {
     "id": 10576,
     "lat": -4.175819,
     "lng": -81.123228,
@@ -3947,6 +3928,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 1200,
     "volumen": 45,
     "km": 0,
+    "enlace": null
+  },
+  {
+    "id": 10549,
+    "lat": -5.373199,
+    "lng": -79.599686,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancabamba",
+    "distrito": "Canchaque",
+    "sector": "Canchaque",
+    "descripcion": " “LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA LIMON, DISTRITO DE CANCHAQUE, PROVINCIA DE HUANCABAMBA” TRAMO I DS180-P      ",
+    "ficha": "FTI N° 151-2026-LD-E-PIU",
+    "fechaInicio": "07/10/2026",
+    "fechaFin": "30/10/2026",
+    "poblacion": 900,
+    "poblacionSinDuplicar": 900,
+    "volumen": 10760,
+    "km": 0.373,
     "enlace": null
   },
   {
@@ -3983,8 +3983,8 @@ const mapaIntervenciones = {
     "fechaFin": "24/11/2026",
     "poblacion": 500,
     "poblacionSinDuplicar": 500,
-    "volumen": 1410,
-    "km": 1.89,
+    "volumen": 1910,
+    "km": 2.39,
     "enlace": null
   },
   {
@@ -4004,6 +4004,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 14000,
     "volumen": 6950,
     "km": 1.27,
+    "enlace": null
+  },
+  {
+    "id": 10707,
+    "lat": -4.107182,
+    "lng": -81.043616,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Talara",
+    "distrito": "Mancora",
+    "sector": "Primero De Mayo",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL SEDIMENTADO DEL CANAL VIA PRIMERO DE MAYO – DISTRITO DE MANCORA – PROVINCIA DE TALARA – DEPARTAMENTO DE PIURA  ",
+    "ficha": "FTI N° 160-2026-LD-E-PIU",
+    "fechaInicio": "07/11/2026",
+    "fechaFin": "21/11/2026",
+    "poblacion": 14000,
+    "poblacionSinDuplicar": 14000,
+    "volumen": 3240,
+    "km": 0.96,
     "enlace": null
   },
   {
