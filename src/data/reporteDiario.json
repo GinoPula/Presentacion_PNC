@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "15/11/2026",
-    "horaCorte": "20:34",
+    "horaCorte": "21:05",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -594,7 +594,7 @@
       "sector": "Sector Tres Tomas",
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO N° 149-2026-PCM",
-      "descripcion": "“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”",
+      "descripcion": "DESCOLMATACIÓN Y REFORZAMIENTO DE 0.48 KM DE MARGENES EN EL RIO CHINIAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE",
       "fechaInicio": "04/11/2026",
       "fechaFin": "20/11/2026",
       "maquinaria": [

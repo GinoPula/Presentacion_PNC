@@ -6324,7 +6324,7 @@ const mapaIntervenciones = {
     "fechaFin": "14/12/2026",
     "poblacion": 3350,
     "poblacionSinDuplicar": 3350,
-    "volumen": 228,
+    "volumen": 283,
     "km": 0,
     "enlace": null
   },
@@ -6349,14 +6349,14 @@ const mapaIntervenciones = {
   },
   {
     "id": 9155,
-    "lat": -6.106065,
-    "lng": -79.651655,
+    "lat": -6.113309,
+    "lng": -79.670015,
     "estado": "En ejecución",
     "tipo": "Emergencia",
     "provincia": "Lambayeque",
     "distrito": "Motupe",
     "sector": "Sector Tres Tomas",
-    "descripcion": "“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”             ",
+    "descripcion": "DESCOLMATACIÓN Y REFORZAMIENTO DE 0.48 KM DE MARGENES EN EL RIO CHINIAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE               ",
     "ficha": "013-2026 -LD-E-LAM",
     "fechaInicio": "04/11/2026",
     "fechaFin": "20/11/2026",
@@ -6381,7 +6381,7 @@ const mapaIntervenciones = {
     "fechaFin": "29/12/2026",
     "poblacion": 1100,
     "poblacionSinDuplicar": 1100,
-    "volumen": 1800,
+    "volumen": 75,
     "km": 0,
     "enlace": null
   }

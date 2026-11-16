@@ -17,9 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 280340.0, m3AguaPotable: 2761.0, km: 71.22, poblacion: 114957 },
 
   enEjecucion: [
-    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.     ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 228.0, kmAcum: 0.0, poblacion: 3350, poblacionSinDuplicar: 3350 },
-    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: '“DESCOLMATACIÓN Y REFORZAMIENTO DE 0.40 KM DE LA MARGEN DERECHA DEL RIO CHINAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”\n            ', inicio: '04/11/2026', fin: '20/11/2026', volAcum: 5220.0, kmAcum: 0.18, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  ', inicio: '12/11/2026', fin: '29/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1100, poblacionSinDuplicar: 1100 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE A DIFERENTES CASERIOS DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGION LAMBAYEQUE.     ', inicio: '16/10/2026', fin: '14/12/2026', volAcum: 283.0, kmAcum: 0.0, poblacion: 3350, poblacionSinDuplicar: 3350 },
+    { provincia: 'Lambayeque', distrito: 'Motupe', tipo: 'Emergencia', descripcion: 'DESCOLMATACIÓN Y REFORZAMIENTO DE 0.48 KM DE MARGENES EN EL RIO CHINIAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE\n              ', inicio: '04/11/2026', fin: '20/11/2026', volAcum: 5220.0, kmAcum: 0.18, poblacion: 400, poblacionSinDuplicar: 400 },
+    { provincia: 'Chiclayo', distrito: 'Lagunas', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA POTABLE A DIFERENTES SECTORES DEL DISTRITO DE LAGUNAS, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE  ', inicio: '12/11/2026', fin: '29/12/2026', volAcum: 75.0, kmAcum: 0.0, poblacion: 1100, poblacionSinDuplicar: 1100 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
