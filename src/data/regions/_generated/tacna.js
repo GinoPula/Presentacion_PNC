@@ -17,20 +17,19 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 54, m3: 250757.8, m3AguaPotable: 12987.8, km: 60.8, poblacion: 46847 },
 
   enEjecucion: [
-    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 345.0, kmAcum: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
+    { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '13/10/2026', fin: '11/12/2026', volAcum: 360.0, kmAcum: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA          ', inicio: '20/10/2026', fin: '18/12/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 550, poblacionSinDuplicar: 550 },
-    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 4700.0, kmAcum: 0.15, poblacion: 10000, poblacionSinDuplicar: 10000 },
+    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 5400.0, kmAcum: 0.17, poblacion: 10000, poblacionSinDuplicar: 10000 },
+    { provincia: 'Tacna', distrito: 'Tacna', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                              ', inicio: '16/11/2026', fin: '23/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000, poblacionSinDuplicar: 1000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 13740.0, metaKm: 0.7, poblacion: 1200 },
-    { provincia: 'Tacna', distrito: 'Tacna', cantidad: 1, metaVol: 4500.0, metaKm: 0.2, poblacion: 1000 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 18240.0, metaKm: 0.9, poblacion: 2200 },
+  programadasTotal: { cantidad: 2, metaVol: 13740.0, metaKm: 0.7, poblacion: 1200 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Tacna', sector: 'Puente Cerro Blanco', ficha: '027-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                             ', fechaInicio: '16/11/2026', fechaFin: '23/11/2026', metaVol: 4500.0, metaKm: 0.2, poblacion: 1000, poblacionSinDuplicar: 1000 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Lateral Seminario Y Lateral Bocchio', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA ', fechaInicio: '16/11/2026', fechaFin: '23/11/2026', metaVol: 5740.0, metaKm: 0.4, poblacion: 200, poblacionSinDuplicar: 200 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 8000.0, metaKm: 0.3, poblacion: 1000, poblacionSinDuplicar: 1000 },
   ],

@@ -2613,7 +2613,7 @@ const mapaIntervenciones = {
     "fechaFin": "11/12/2026",
     "poblacion": 420,
     "poblacionSinDuplicar": 420,
-    "volumen": 345,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -2708,8 +2708,8 @@ const mapaIntervenciones = {
     "fechaFin": "22/11/2026",
     "poblacion": 10000,
     "poblacionSinDuplicar": 10000,
-    "volumen": 4700,
-    "km": 0.15,
+    "volumen": 5400,
+    "km": 0.17,
     "enlace": null
   },
   {
@@ -2729,6 +2729,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 200,
     "volumen": 2400,
     "km": 0.12,
+    "enlace": null
+  },
+  {
+    "id": 10065,
+    "lat": -17.990237,
+    "lng": -70.196622,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Tacna",
+    "sector": "Puente Cerro Blanco",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                              ",
+    "ficha": "027-2026-LD-P-TAC",
+    "fechaInicio": "16/11/2026",
+    "fechaFin": "23/11/2026",
+    "poblacion": 1000,
+    "poblacionSinDuplicar": 1000,
+    "volumen": 4500,
+    "km": 0.2,
     "enlace": null
   }
 ],
@@ -16327,7 +16346,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/12/2026",
     "poblacion": 1000,
     "poblacionSinDuplicar": 1000,
-    "volumen": 190,
+    "volumen": 220,
     "km": 0,
     "enlace": null
   }
