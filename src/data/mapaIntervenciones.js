@@ -14554,8 +14554,8 @@ const mapaIntervenciones = {
     "fechaFin": "17/11/2026",
     "poblacion": null,
     "poblacionSinDuplicar": null,
-    "volumen": 175,
-    "km": 0.05,
+    "volumen": 930,
+    "km": 0.235,
     "enlace": null
   }
 ],
