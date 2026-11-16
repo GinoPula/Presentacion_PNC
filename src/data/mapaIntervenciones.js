@@ -7794,6 +7794,25 @@ const mapaIntervenciones = {
     "volumen": 11415,
     "km": 0.6,
     "enlace": null
+  },
+  {
+    "id": 10543,
+    "lat": -7.821907,
+    "lng": -78.042468,
+    "estado": "En ejecución",
+    "tipo": "Emergencia",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "sector": "Los Pajaritos",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P         ",
+    "ficha": "080-2026-LD-E-LIB",
+    "fechaInicio": "11/11/2026",
+    "fechaFin": "18/11/2026",
+    "poblacion": 320,
+    "poblacionSinDuplicar": 320,
+    "volumen": 324,
+    "km": 0.12,
+    "enlace": null
   }
 ],
   lima: [
@@ -16886,8 +16905,8 @@ const mapaIntervenciones = {
     "fechaFin": "20/11/2026",
     "poblacion": 700,
     "poblacionSinDuplicar": 700,
-    "volumen": 300,
-    "km": 0.5,
+    "volumen": 600,
+    "km": 1,
     "enlace": null
   }
 ],
