@@ -6356,14 +6356,14 @@ const mapaIntervenciones = {
     "provincia": "Lambayeque",
     "distrito": "Motupe",
     "sector": "Sector Tres Tomas",
-    "descripcion": "DESCOLMATACIÓN Y REFORZAMIENTO DE 0.48 KM DE MARGENES EN EL RIO CHINIAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE               ",
+    "descripcion": "DESCOLMATACIÓN Y REFORZAMIENTO DE 0.48 KM DE MARGENES EN EL RIO CHINIAMA EN EL SECTOR “3 TOMAS” DEL CENTRO POBLADO “EL ARROZAL” DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE                ",
     "ficha": "013-2026 -LD-E-LAM",
     "fechaInicio": "04/11/2026",
-    "fechaFin": "20/11/2026",
+    "fechaFin": "17/11/2026",
     "poblacion": 400,
     "poblacionSinDuplicar": 400,
-    "volumen": 5220,
-    "km": 0.18,
+    "volumen": 9680,
+    "km": 0.36,
     "enlace": null
   },
   {
