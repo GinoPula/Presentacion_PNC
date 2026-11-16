@@ -17,22 +17,20 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN          ', inicio: '12/10/2026', fin: '13/11/2026', volAcum: 1035.0, kmAcum: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN             ', inicio: '13/10/2026', fin: '13/11/2026', volAcum: 1680.0, kmAcum: 0.19, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN      ', inicio: '27/10/2026', fin: '20/11/2026', volAcum: 600.0, kmAcum: 1.0, poblacion: 700, poblacionSinDuplicar: 700 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN           ', inicio: '12/10/2026', fin: '17/11/2026', volAcum: 1110.0, kmAcum: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
+    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN              ', inicio: '13/10/2026', fin: '19/11/2026', volAcum: 1950.0, kmAcum: 0.22, poblacion: 400, poblacionSinDuplicar: 400 },
+    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN       ', inicio: '27/10/2026', fin: '26/11/2026', volAcum: 600.0, kmAcum: 1.0, poblacion: 700, poblacionSinDuplicar: 700 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Picota', distrito: 'San Hilarion', cantidad: 1, metaVol: 2800.0, metaKm: 0.25, poblacion: 400 },
     { provincia: 'Rioja', distrito: 'Pardo Miguel', cantidad: 2, metaVol: 2340.0, metaKm: 0.0, poblacion: 2250 },
   ],
-  programadasTotal: { cantidad: 3, metaVol: 5140.0, metaKm: 0.25, poblacion: 2650 },
+  programadasTotal: { cantidad: 2, metaVol: 2340.0, metaKm: 0.0, poblacion: 2250 },
 
   programadasDetalle: [
-    { provincia: 'Picota', distrito: 'San Hilarion', sector: 'San Hilarión', ficha: '042-2026-LD-PI-SAM', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO III, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN  ', fechaInicio: '23/11/2026', fechaFin: '04/12/2026', metaVol: 2800.0, metaKm: 0.25, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '009-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN  ', fechaInicio: '24/11/2026', fechaFin: '23/12/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '040-2026-AA-U-SAM', descripcion: ' ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN', fechaInicio: '14/12/2026', fechaFin: '12/01/2027', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '009-2026-AA-U-SAM', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN   ', fechaInicio: '24/11/2026', fechaFin: '23/12/2026', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
+    { provincia: 'Rioja', distrito: 'Pardo Miguel', sector: 'Centro, Los Angeles Y Miraflores', ficha: '040-2026-AA-U-SAM', descripcion: ' ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN ', fechaInicio: '14/12/2026', fechaFin: '12/01/2027', metaVol: 1170.0, metaKm: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
   ],
 
   puntosCriticos: [
