@@ -12193,6 +12193,25 @@ const mapaIntervenciones = {
     "volumen": 5250,
     "km": 0.315,
     "enlace": null
+  },
+  {
+    "id": 10527,
+    "lat": -13.143582,
+    "lng": -74.233569,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huamanga",
+    "distrito": "Ayacucho",
+    "sector": "Wari Accopampa",
+    "descripcion": " LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO           ",
+    "ficha": "44-2026- LD-PI-AYAC ",
+    "fechaInicio": "16/11/2026",
+    "fechaFin": "26/11/2026",
+    "poblacion": 320,
+    "poblacionSinDuplicar": 320,
+    "volumen": 840,
+    "km": 0.28,
+    "enlace": null
   }
 ],
   cajamarca: [
