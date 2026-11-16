@@ -13945,6 +13945,25 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10702,
+    "lat": -5.26488,
+    "lng": -78.952244,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "Chirinos",
+    "sector": "Caserio La Palma Y Sectores",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA PALMA Y SECTORES, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA” ",
+    "ficha": "N°082-2025-MTVU-AMZ",
+    "fechaInicio": "11/11/2026",
+    "fechaFin": "26/11/2026",
+    "poblacion": 441,
+    "poblacionSinDuplicar": 441,
+    "volumen": 2710.8,
+    "km": 2.259,
+    "enlace": null
+  },
+  {
     "id": 10681,
     "lat": -7.532213,
     "lng": -78.183484,
