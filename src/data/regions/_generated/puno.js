@@ -18,22 +18,21 @@ export default {
 
   enEjecucion: [
     { provincia: 'San Roman', distrito: 'Cabanillas', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO', inicio: '13/11/2026', fin: '19/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null, poblacionSinDuplicar: null },
+    { provincia: 'Huancane', distrito: 'Rosaspata', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIACHUELO HUARIHUMAÑA, EN LA LOCALIDAD DE HUARIHUMAÑA DEL DISTRITO DE ROSASPATA DE LA PROVINCIA DE HUANCANÉ - PUNO\n      ', inicio: '17/11/2026', fin: '25/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 84, poblacionSinDuplicar: 84 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Azangaro', distrito: 'Muñani', cantidad: 1, metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },
     { provincia: 'Huancane', distrito: 'Huancane', cantidad: 1, metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
-    { provincia: 'Huancane', distrito: 'Rosaspata', cantidad: 1, metaVol: 6930.0, metaKm: 1.4, poblacion: 84 },
     { provincia: 'San Roman', distrito: 'Cabana', cantidad: 1, metaVol: 6235.0, metaKm: 2.9, poblacion: 350 },
     { provincia: 'San Roman', distrito: 'Cabanillas', cantidad: 1, metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'San Roman', distrito: 'San Miguel', cantidad: 1, metaVol: 11664.0, metaKm: 2.43, poblacion: 150 },
     { provincia: 'Yunguyo', distrito: 'Unicachi', cantidad: 1, metaVol: 11400.0, metaKm: 1.9, poblacion: 160 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 74061.4, metaKm: 19.08, poblacion: 1529 },
+  programadasTotal: { cantidad: 6, metaVol: 67131.4, metaKm: 17.68, poblacion: 1445 },
 
   programadasDetalle: [
-    { provincia: 'Huancane', distrito: 'Rosaspata', sector: 'Rosaspata', ficha: 'FTI N° 062-2026-LDP-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIACHUELO HUARIHUMAÑA, EN LA LOCALIDAD DE HUARIHUMAÑA DEL DISTRITO DE ROSASPATA DE LA PROVINCIA DE HUANCANÉ - PUNO\n     ', fechaInicio: '17/11/2026', fechaFin: '25/11/2026', metaVol: 6930.0, metaKm: 1.4, poblacion: 84, poblacionSinDuplicar: 84 },
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Muñani Chico', ficha: 'FTI N° 037-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO            ', fechaInicio: '19/11/2026', fechaFin: '29/11/2026', metaVol: 7282.8, metaKm: 3.47, poblacion: 245, poblacionSinDuplicar: 245 },
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Fundicion', ficha: 'FTI N° 017-2026-LDP-PUN', descripcion: 'REFORZAMIENTO DE TALUD IZQUIERDO DEL CAUCE DEL RIO ILLPA, EN EL SECTOR FUNDICION, DISTRITO DE CABANA, PROVINCIA SAN ROMAN, REGION PUNO     ', fechaInicio: '23/11/2026', fechaFin: '29/11/2026', metaVol: 6235.0, metaKm: 2.9, poblacion: 350, poblacionSinDuplicar: 350 },
     { provincia: 'San Roman', distrito: 'Cabanillas', sector: 'Huataquita - Chillo', ficha: 'FTI N°020-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO CHILLO EN LA COMUNIDAD DE HUATAQUITA - CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO       ', fechaInicio: '01/12/2026', fechaFin: '10/12/2026', metaVol: 5709.6, metaKm: 2.38, poblacion: 40, poblacionSinDuplicar: 40 },
