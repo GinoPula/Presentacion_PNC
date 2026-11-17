@@ -9706,7 +9706,7 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Lurigancho",
     "sector": "La Bocatoma De La Ptap Huachipa",
-    "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA          ",
+    "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA            ",
     "ficha": "113-2026-LDP-LIM",
     "fechaInicio": "28/10/2026",
     "fechaFin": "17/11/2026",
@@ -9864,8 +9864,8 @@ const mapaIntervenciones = {
     "fechaFin": "29/11/2026",
     "poblacion": 269,
     "poblacionSinDuplicar": 269,
-    "volumen": 360,
-    "km": 0.36,
+    "volumen": 1140,
+    "km": 0.724,
     "enlace": null
   },
   {
@@ -14130,8 +14130,8 @@ const mapaIntervenciones = {
     "fechaFin": "25/11/2026",
     "poblacion": 150,
     "poblacionSinDuplicar": 150,
-    "volumen": 1050,
-    "km": 0.04,
+    "volumen": 90,
+    "km": 0.001,
     "enlace": null
   },
   {
