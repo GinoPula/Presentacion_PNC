@@ -1968,6 +1968,25 @@ const mapaIntervenciones = {
     "volumen": 9600,
     "km": 1.6,
     "enlace": null
+  },
+  {
+    "id": 10708,
+    "lat": -15.674449,
+    "lng": -70.367617,
+    "estado": "En ejecución",
+    "tipo": "Urgente atención",
+    "provincia": "San Roman",
+    "distrito": "Cabanillas",
+    "sector": "Chillo",
+    "descripcion": " MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
+    "ficha": "FTI N° 081-2026-MTVU-PUN",
+    "fechaInicio": "13/11/2026",
+    "fechaFin": "19/11/2026",
+    "poblacion": null,
+    "poblacionSinDuplicar": null,
+    "volumen": 1713.6,
+    "km": 5.1,
+    "enlace": null
   }
 ],
   tacna: [
