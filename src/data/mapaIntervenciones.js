@@ -1111,6 +1111,25 @@ const mapaIntervenciones = {
     "volumen": 3420,
     "km": 0.18,
     "enlace": null
+  },
+  {
+    "id": 10710,
+    "lat": -3.679226,
+    "lng": -80.678814,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "sector": "Sanchez Carrion",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA COSTA VERDE, EN EL SECTOR SÁNCHEZ CARRIÓN DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES",
+    "ficha": "083-2026-LD-PI-TUM",
+    "fechaInicio": "17/11/2026",
+    "fechaFin": "21/11/2026",
+    "poblacion": 1031,
+    "poblacionSinDuplicar": 1031,
+    "volumen": 2200,
+    "km": 0.11,
+    "enlace": null
   }
 ],
   puno: [
@@ -11718,6 +11737,25 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 9775,
+    "lat": -14.42835,
+    "lng": -72.917005,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Antabamba",
+    "distrito": "Juan Espinoza Medrano",
+    "sector": "Mollebamba/Rio Mollebamba",
+    "descripcion": "\" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".                      ",
+    "ficha": "FTI N° 027-2026-LDP-APU (FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP )",
+    "fechaInicio": "15/10/2026",
+    "fechaFin": "24/11/2026",
+    "poblacion": 50,
+    "poblacionSinDuplicar": 50,
+    "volumen": 3650,
+    "km": 0.25,
+    "enlace": null
+  },
+  {
     "id": 10537,
     "lat": -13.643296,
     "lng": -72.864495,
@@ -11732,8 +11770,8 @@ const mapaIntervenciones = {
     "fechaFin": "21/11/2026",
     "poblacion": 500,
     "poblacionSinDuplicar": 500,
-    "volumen": 3150,
-    "km": 0.29,
+    "volumen": 3350,
+    "km": 0.31,
     "enlace": null
   }
 ],
