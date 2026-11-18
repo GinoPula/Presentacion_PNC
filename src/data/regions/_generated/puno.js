@@ -44,11 +44,11 @@ export default {
   puntosCriticos: [
   ],
 
-  conveniosCount: 22,
+  conveniosCount: 21,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '4 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '17 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '16 convenios vigentes' },
   ],
 
   flota: [

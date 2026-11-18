@@ -64,11 +64,11 @@ export default {
     { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', sector: 'San Cristobal', fichaTecnica: '153-2026-LD-E-PIU', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', estado: 'En ejecución', mes: '', metaKm: 0.44, metaVol: 22000.0, poblacion: 900 },
   ],
 
-  conveniosCount: 20,
+  conveniosCount: 19,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: '1 convenio vigente' },
     { entidad: 'Municipalidad Provincial', detail: '3 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '16 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '15 convenios vigentes' },
   ],
 
   flota: [
