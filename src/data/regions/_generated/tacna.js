@@ -30,7 +30,7 @@ export default {
   programadasTotal: { cantidad: 2, metaVol: 11915.0, metaKm: 0.45, poblacion: 2589 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Pachia', sector: 'Lateral Seminario Y Lateral Bocchio', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '23/11/2026', fechaFin: '28/11/2026', metaVol: 4715.0, metaKm: 0.3, poblacion: 200, poblacionSinDuplicar: 200 },
+    { provincia: 'Tacna', distrito: 'Pachia', sector: 'Lateral Seminario Y Lateral Bocchio', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', fechaInicio: '23/11/2026', fechaFin: '28/11/2026', metaVol: 4715.0, metaKm: 0.3, poblacion: 200, poblacionSinDuplicar: 200 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA     ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 7200.0, metaKm: 0.15, poblacion: 2389, poblacionSinDuplicar: 2389 },
   ],
 
