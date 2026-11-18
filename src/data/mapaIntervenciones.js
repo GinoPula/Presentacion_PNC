@@ -14871,12 +14871,12 @@ const mapaIntervenciones = {
     "provincia": "Angaraes",
     "distrito": "San Antonio De Antaparco",
     "sector": "Antaparco",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN  DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA CHAQUI HUAYCCO, EN EL SECTOR ANTAPARCO DEL DISTRITO DE  SAN ANTONIO DE ANTAPARCO, PROVINCIA DE ANGARAES, REGIÓN HUANCAVELICA        ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN  DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA CHAQUI HUAYCCO, EN EL SECTOR ANTAPARCO DEL DISTRITO DE  SAN ANTONIO DE ANTAPARCO, PROVINCIA DE ANGARAES, REGIÓN HUANCAVELICA         ",
     "ficha": "46-2026-LD-PI-AYAC                                                                                                                                                                                                                       ",
     "fechaInicio": "12/11/2026",
     "fechaFin": "18/11/2026",
-    "poblacion": null,
-    "poblacionSinDuplicar": null,
+    "poblacion": 500,
+    "poblacionSinDuplicar": 500,
     "volumen": 1240,
     "km": 0.31,
     "enlace": null
@@ -16117,7 +16117,7 @@ const mapaIntervenciones = {
     "poblacion": 480,
     "poblacionSinDuplicar": 480,
     "volumen": 5700,
-    "km": 0.363,
+    "km": 0.4,
     "enlace": null
   },
   {
