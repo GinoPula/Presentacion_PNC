@@ -17,6 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huamanga', distrito: 'Ayacucho', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO           ', inicio: '16/11/2026', fin: '26/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 320, poblacionSinDuplicar: 320 },
+    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.    ', inicio: '18/11/2026', fin: '27/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 30, poblacionSinDuplicar: 30 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -24,12 +25,10 @@ export default {
     { provincia: 'Huamanga', distrito: 'Jesus Nazareno', cantidad: 1, metaVol: 2700.0, metaKm: 0.18, poblacion: 200 },
     { provincia: 'Huamanga', distrito: 'Quinua', cantidad: 1, metaVol: 2496.0, metaKm: 0.26, poblacion: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', cantidad: 1, metaVol: 540.0, metaKm: 0.1, poblacion: 500 },
-    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', cantidad: 1, metaVol: 4400.0, metaKm: 0.4, poblacion: 30 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 10136.0, metaKm: 0.94, poblacion: 888 },
+  programadasTotal: { cantidad: 3, metaVol: 5736.0, metaKm: 0.54, poblacion: 858 },
 
   programadasDetalle: [
-    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', sector: 'Astobamba', ficha: '47-2026-LD-PI-AYAC', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.   ', fechaInicio: '18/11/2026', fechaFin: '27/11/2026', metaVol: 4400.0, metaKm: 0.4, poblacion: 30, poblacionSinDuplicar: 30 },
     { provincia: 'Huamanga', distrito: 'Quinua', sector: 'Chacco', ficha: '07-2026- LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACION Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RIO YUCAES DEL SECTOR CHACCO DEL DISTRITO DE QUINUA, PROVINCIA DE HUAMANGA, REGION AYACUCHO-00                    ', fechaInicio: '27/11/2026', fechaFin: '11/12/2026', metaVol: 2496.0, metaKm: 0.26, poblacion: 158, poblacionSinDuplicar: 158 },
     { provincia: 'Huamanga', distrito: 'San Juan Bautista', sector: 'Chaquihuaycco', ficha: '45-2026-LD-PI-AYAC', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL\nCAUCE DE LA QUEBRADA CHAQUIHUAYCCO (TRAMO V), EN EL DISTRITO DE SAN\nJUAN BAUTISTA, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO       ', fechaInicio: '30/11/2026', fechaFin: '06/12/2026', metaVol: 540.0, metaKm: 0.1, poblacion: 500, poblacionSinDuplicar: 500 },
     { provincia: 'Huamanga', distrito: 'Jesus Nazareno', sector: 'Huichccana Chico', ficha: '08-2026-LD-PI-AYAC  ', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA SAN CARLOS TRAMO I, EN EL SECTOR HUICHCCANA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO-00             ', fechaInicio: '10/12/2026', fechaFin: '16/12/2026', metaVol: 2700.0, metaKm: 0.18, poblacion: 200, poblacionSinDuplicar: 200 },

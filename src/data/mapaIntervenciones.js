@@ -7086,8 +7086,8 @@ const mapaIntervenciones = {
     "fechaFin": "20/11/2026",
     "poblacion": 300,
     "poblacionSinDuplicar": 300,
-    "volumen": 2016,
-    "km": 0.56,
+    "volumen": 301,
+    "km": 0.212,
     "enlace": null
   }
 ],
@@ -12477,6 +12477,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 320,
     "volumen": 840,
     "km": 0.28,
+    "enlace": null
+  },
+  {
+    "id": 10599,
+    "lat": -13.027131,
+    "lng": -74.356899,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huamanga",
+    "distrito": "Santiago De Pischa",
+    "sector": "Astobamba",
+    "descripcion": " LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.    ",
+    "ficha": "47-2026-LD-PI-AYAC",
+    "fechaInicio": "18/11/2026",
+    "fechaFin": "27/11/2026",
+    "poblacion": 30,
+    "poblacionSinDuplicar": 30,
+    "volumen": 4400,
+    "km": 0.4,
     "enlace": null
   }
 ],
