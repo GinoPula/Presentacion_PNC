@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "18/11/2026",
-    "horaCorte": "07:55",
+    "horaCorte": "08:26",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -84,6 +84,25 @@
     },
     {
       "n": 5,
+      "idIntervencion": "10534",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Puente Arquillo",
+      "ficha": "120-2026-LDE-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P",
+      "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
+      "fechaInicio": "05/11/2026",
+      "fechaFin": "14/11/2026",
+      "diasAtraso": 4
+    },
+    {
+      "n": 6,
       "idIntervencion": "10479",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +121,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 6,
+      "n": 7,
       "idIntervencion": "10656",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -121,7 +140,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 7,
+      "n": 8,
       "idIntervencion": "10650",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -137,25 +156,6 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "14/11/2026",
       "fechaFin": "26/11/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 8,
-      "idIntervencion": "10534",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Puente Arquillo",
-      "ficha": "120-2026-LDE-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P",
-      "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
-      "fechaInicio": "05/11/2026",
-      "fechaFin": "14/11/2026",
       "diasAtraso": 4
     },
     {
@@ -179,21 +179,21 @@
     },
     {
       "n": 10,
-      "idIntervencion": "10678",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "Centro Poblado Chimburique",
-      "ficha": "N°079-2025-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "15/11/2026",
+      "idIntervencion": "10497",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Yauyos",
+      "distrito": "Yauyos",
+      "sector": "Sector Critico N° 03-puente Auco",
+      "ficha": "128-2026-LDP-LIM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
+      "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "15/11/2026",
+      "fechaFin": "25/11/2026",
       "diasAtraso": 3
     },
     {
@@ -217,21 +217,21 @@
     },
     {
       "n": 12,
-      "idIntervencion": "10497",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Yauyos",
-      "distrito": "Yauyos",
-      "sector": "Sector Critico N° 03-puente Auco",
-      "ficha": "128-2026-LDP-LIM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
-      "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "15/11/2026",
-      "fechaFin": "25/11/2026",
+      "idIntervencion": "10678",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "Centro Poblado Chimburique",
+      "ficha": "N°079-2025-RLEU-AMZ",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
+      "fechaInicio": "27/10/2026",
+      "fechaFin": "15/11/2026",
       "diasAtraso": 3
     },
     {
@@ -331,25 +331,6 @@
     },
     {
       "n": 18,
-      "idIntervencion": "9440",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Rioja",
-      "distrito": "Pardo Miguel",
-      "sector": "Centro, Los Angeles Y Miraflores",
-      "ficha": "008-2026-AA-U-SAM",
-      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
-      "fechaInicio": "12/10/2026",
-      "fechaFin": "17/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 19,
       "idIntervencion": "10704",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -368,7 +349,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "10664",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "9460",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10220",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -425,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 22,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",

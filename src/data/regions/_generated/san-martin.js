@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
     { tipo: 'Prevención', cantidad: 1, m3: 3000.0, km: 0.3, poblacion: 500, provincias: ['Picota'] },
-    { tipo: 'Urgente atención', cantidad: 16, m3: 26949.6, km: 24.83, poblacion: 11875, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja', 'San Martin'] },
+    { tipo: 'Urgente atención', cantidad: 17, m3: 28119.6, km: 24.83, poblacion: 13000, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja', 'San Martin'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 44088.75, m3AguaPotable: 7425.0, km: 32.29, poblacion: 13775 },
+  ejecutadasTotal: { cantidad: 22, m3: 45258.75, m3AguaPotable: 8595.0, km: 32.29, poblacion: 14900 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Rioja', distrito: 'Pardo Miguel', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN           ', inicio: '12/10/2026', fin: '17/11/2026', volAcum: 1110.0, kmAcum: 0.0, poblacion: 1125, poblacionSinDuplicar: 1125 },
     { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN              ', inicio: '13/10/2026', fin: '19/11/2026', volAcum: 1950.0, kmAcum: 0.22, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN       ', inicio: '27/10/2026', fin: '26/11/2026', volAcum: 600.0, kmAcum: 1.0, poblacion: 700, poblacionSinDuplicar: 700 },
   ],
