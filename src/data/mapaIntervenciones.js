@@ -12475,8 +12475,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 320,
     "poblacionSinDuplicar": 320,
-    "volumen": 30,
-    "km": 0.01,
+    "volumen": 180,
+    "km": 0.06,
     "enlace": null
   },
   {
@@ -14903,6 +14903,25 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/drive/folders/16t8TJ2aJ0wP09eoDwOP3Vf-AaK09VeJ4"
   },
   {
+    "id": 9900,
+    "lat": -9.664998,
+    "lng": -75.4675,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Puerto Inca",
+    "distrito": "Codo Del Pozuzo",
+    "sector": "Huampal",
+    "descripcion": "\"LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DEL RÍO HUAMPAL, DE LA PROGRESIVA 0+000 A LA PROGRESIVA 0+500, MARGEN DERECHA, EN LA ZONA URBANA DEL DISTRITO DE CODO DEL POZUZO, PROVINCIA PUERTO INCA, REGIÓN HUÁNUCO\"               ",
+    "ficha": "N° 030-2026-LD-P-HCO.",
+    "fechaInicio": "24/02/2026",
+    "fechaFin": "09/04/2026",
+    "poblacion": 330,
+    "poblacionSinDuplicar": 330,
+    "volumen": 18550,
+    "km": 0.553,
+    "enlace": "https://drive.google.com/drive/folders/1ki4t4jFuDoQ2k8BzaKaDn1qGrNPzKArD"
+  },
+  {
     "id": 9604,
     "lat": -9.620094,
     "lng": -75.466399,
@@ -14939,25 +14958,6 @@ const mapaIntervenciones = {
     "volumen": 3290,
     "km": 0.364,
     "enlace": null
-  },
-  {
-    "id": 9900,
-    "lat": -9.664998,
-    "lng": -75.4675,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Puerto Inca",
-    "distrito": "Codo Del Pozuzo",
-    "sector": "Huampal",
-    "descripcion": "\"LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DEL RÍO HUAMPAL, DE LA PROGRESIVA 0+000 A LA PROGRESIVA 0+500, MARGEN DERECHA, EN LA ZONA URBANA DEL DISTRITO DE CODO DEL POZUZO, PROVINCIA PUERTO INCA, REGIÓN HUÁNUCO\"               ",
-    "ficha": "N° 030-2026-LD-P-HCO.",
-    "fechaInicio": "24/02/2026",
-    "fechaFin": "09/04/2026",
-    "poblacion": 330,
-    "poblacionSinDuplicar": 330,
-    "volumen": 18550,
-    "km": 0.553,
-    "enlace": "https://drive.google.com/drive/folders/1ki4t4jFuDoQ2k8BzaKaDn1qGrNPzKArD"
   },
   {
     "id": 9911,
@@ -15318,6 +15318,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 380,
     "volumen": 112.5,
     "km": 0.03,
+    "enlace": null
+  },
+  {
+    "id": 10704,
+    "lat": -9.832104,
+    "lng": -76.803238,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Dos De Mayo",
+    "distrito": "La Union",
+    "sector": "Río Vizcarra",
+    "descripcion": "\"LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO\"    ",
+    "ficha": "N° 055-2026-LD-P-HCO",
+    "fechaInicio": "17/11/2026",
+    "fechaFin": "01/12/2026",
+    "poblacion": 500,
+    "poblacionSinDuplicar": 500,
+    "volumen": 6150,
+    "km": 0.82,
     "enlace": null
   }
 ],
