@@ -3,8 +3,9 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 2, m3: 6879.0, km: 1.94, poblacion: 18240, provincias: ['Tayacaja'] },
+    { tipo: 'Prevención', cantidad: 1, m3: 1240.0, km: 0.31, poblacion: 500, provincias: ['Angaraes'] },
   ],
-  ejecutadasTotal: { cantidad: 2, m3: 6879.0, m3AguaPotable: 0.0, km: 1.94, poblacion: 18240 },
+  ejecutadasTotal: { cantidad: 3, m3: 8119.0, m3AguaPotable: 0.0, km: 2.25, poblacion: 18740 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -13,7 +14,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 7, m3: 14580.0, m3AguaPotable: 0.0, km: 2.2, poblacion: 546 },
 
   enEjecucion: [
-    { provincia: 'Angaraes', distrito: 'San Antonio De Antaparco', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN  DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA CHAQUI HUAYCCO, EN EL SECTOR ANTAPARCO DEL DISTRITO DE  SAN ANTONIO DE ANTAPARCO, PROVINCIA DE ANGARAES, REGIÓN HUANCAVELICA         ', inicio: '12/11/2026', fin: '18/11/2026', volAcum: 1240.0, kmAcum: 0.31, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
