@@ -16,18 +16,18 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
+    { provincia: 'Quispicanchi', distrito: 'Urcos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.    ', inicio: '15/11/2026', fin: '28/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: null, poblacionSinDuplicar: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Anta', distrito: 'Limatambo', cantidad: 1, metaVol: 7100.0, metaKm: 0.5, poblacion: 50 },
     { provincia: 'Quispicanchi', distrito: 'Ocongate', cantidad: 1, metaVol: 16170.0, metaKm: 1.1, poblacion: 90 },
-    { provincia: 'Quispicanchi', distrito: 'Urcos', cantidad: 3, metaVol: 36856.25, metaKm: 1.52, poblacion: 595 },
+    { provincia: 'Quispicanchi', distrito: 'Urcos', cantidad: 2, metaVol: 28823.75, metaKm: 1.3, poblacion: 595 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 60126.25, metaKm: 3.12, poblacion: 735 },
+  programadasTotal: { cantidad: 4, metaVol: 52093.75, metaKm: 2.9, poblacion: 735 },
 
   programadasDetalle: [
-    { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Mollebamba Alto', ficha: '033-2026-LD-P-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.   ', fechaInicio: '15/11/2026', fechaFin: '28/11/2026', metaVol: 8032.5, metaKm: 0.23, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Quispicanchi', distrito: 'Ocongate', sector: 'C. P. Llullucha Y Palcca', ficha: '035-2026-LDP-CUS', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL RÍO USPHAQAQA,  EN EL SECTOR C. P. LLULLUCHA Y PALCCA, DESDE LA PROGRESIVA KM 0+000 HASTA LA PROGRESIVA KM 1+100, DISTRITO DE OCONGATE, PROVINCIA DE QUISPICANCHI, REGIÓN CUSCO  ', fechaInicio: '15/11/2026', fechaFin: '14/12/2026', metaVol: 16170.0, metaKm: 1.1, poblacion: 90, poblacionSinDuplicar: 90 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Barrio Mollebamba Bajo', ficha: '034-2026-LDP-CUS', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL SECTOR BARRIO MOLLEBAMBA BAJO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+450 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO ', fechaInicio: '20/11/2026', fechaFin: '09/12/2026', metaVol: 19023.75, metaKm: 0.45, poblacion: 485, poblacionSinDuplicar: 485 },
     { provincia: 'Quispicanchi', distrito: 'Urcos', sector: 'Pampaccamara', ficha: '036-2025-LD-P-CUS', descripcion: ' LIMPIEZA, DESCOLMATACIóN DE CAUCE DEL RIO CCATCCAMAYO, EN EL SECTOR PAMPACCAMARA, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+850 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGIóN CUSCO', fechaInicio: '02/12/2026', fechaFin: '15/12/2026', metaVol: 9800.0, metaKm: 0.85, poblacion: 110, poblacionSinDuplicar: 110 },
