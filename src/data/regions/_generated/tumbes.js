@@ -26,13 +26,15 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', cantidad: 1, metaVol: 1400.0, metaKm: 0.5, poblacion: 1737 },
+    { provincia: 'Contralmirante Villar', distrito: 'Casitas', cantidad: 1, metaVol: 2100.0, metaKm: 1.0, poblacion: 1516 },
     { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 1, metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
     { provincia: 'Zarumilla', distrito: 'Aguas Verdes', cantidad: 2, metaVol: 7960.0, metaKm: 2.75, poblacion: 1020 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 13371.0, metaKm: 4.22, poblacion: 4135 },
+  programadasTotal: { cantidad: 6, metaVol: 15471.0, metaKm: 5.22, poblacion: 5651 },
 
   programadasDetalle: [
+    { provincia: 'Contralmirante Villar', distrito: 'Casitas', sector: '', ficha: '084-2026-LETV-E-TUM', descripcion: ' ATENCIÓN DE LA TRANSITABILIDAD DE LA VÍA EN LOS SECTORES MANUEL OTERO - BELLA VISTA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', fechaInicio: '20/11/2026', fechaFin: '26/11/2026', metaVol: 2100.0, metaKm: 1.0, poblacion: 1516, poblacionSinDuplicar: 1516 },
     { provincia: 'Zarumilla', distrito: 'Papayal', sector: '', ficha: '018-2026-LD-PI-TUM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA LA ANTENA, EN EL DISTRITO DE PAPAYAL, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES” -00    ', fechaInicio: '26/11/2026', fechaFin: '03/12/2026', metaVol: 900.0, metaKm: 0.36, poblacion: 500, poblacionSinDuplicar: 500 },
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'San Isidro', ficha: '063-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL NIÑO, LOCALIDAD SAN ISIDRO, DISTRITO CORRALES, PROVINCIA TUMBES, DEPARTAMENTO TUMBES     ', fechaInicio: '29/11/2026', fechaFin: '02/12/2026', metaVol: 3111.0, metaKm: 0.61, poblacion: 878, poblacionSinDuplicar: 878 },
     { provincia: 'Zarumilla', distrito: 'Aguas Verdes', sector: '', ficha: '080-2026-LD-E-TUM', descripcion: ' ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE LA QUEBRADA PIEDRITAS, EN EL SECTOR AGUAS ABAJO MARGEN DERECHA DEL DISTRITO DE AGUAS VERDES, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES ', fechaInicio: '30/11/2026', fechaFin: '14/12/2026', metaVol: 4600.0, metaKm: 1.15, poblacion: 204, poblacionSinDuplicar: 204 },
