@@ -2727,7 +2727,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/11/2026",
     "poblacion": 550,
     "poblacionSinDuplicar": 550,
-    "volumen": 300,
+    "volumen": 315,
     "km": 0,
     "enlace": null
   },
@@ -2765,8 +2765,8 @@ const mapaIntervenciones = {
     "fechaFin": "22/11/2026",
     "poblacion": 10000,
     "poblacionSinDuplicar": 10000,
-    "volumen": 7600,
-    "km": 0.26,
+    "volumen": 8000,
+    "km": 0.27,
     "enlace": null
   },
   {
@@ -2803,8 +2803,8 @@ const mapaIntervenciones = {
     "fechaFin": "23/11/2026",
     "poblacion": 1000,
     "poblacionSinDuplicar": 1000,
-    "volumen": 2400,
-    "km": 0.14,
+    "volumen": 3200,
+    "km": 0.17,
     "enlace": null
   }
 ],
@@ -4059,8 +4059,8 @@ const mapaIntervenciones = {
     "fechaFin": "24/11/2026",
     "poblacion": 500,
     "poblacionSinDuplicar": 500,
-    "volumen": 1910,
-    "km": 2.39,
+    "volumen": 2280,
+    "km": 2.79,
     "enlace": null
   },
   {
@@ -4078,8 +4078,8 @@ const mapaIntervenciones = {
     "fechaFin": "24/11/2026",
     "poblacion": 14000,
     "poblacionSinDuplicar": 14000,
-    "volumen": 6950,
-    "km": 1.27,
+    "volumen": 8350,
+    "km": 1.5,
     "enlace": null
   },
   {
@@ -4097,8 +4097,8 @@ const mapaIntervenciones = {
     "fechaFin": "21/11/2026",
     "poblacion": 14000,
     "poblacionSinDuplicar": 14000,
-    "volumen": 1465,
-    "km": 0.4,
+    "volumen": 1875,
+    "km": 0.53,
     "enlace": null
   },
   {
@@ -4135,8 +4135,8 @@ const mapaIntervenciones = {
     "fechaFin": "05/12/2026",
     "poblacion": 300,
     "poblacionSinDuplicar": 300,
-    "volumen": 11700,
-    "km": 5.2,
+    "volumen": 900,
+    "km": 0.37,
     "enlace": null
   }
 ],
@@ -5589,18 +5589,18 @@ const mapaIntervenciones = {
     "id": 10705,
     "lat": -9.540681,
     "lng": -77.526121,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Huaraz",
     "distrito": "Huaraz",
     "sector": "Tacllan Alto",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR TACLLAN ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN Y ELIMINACION DE MATERIAL DEL RIO SECO - SECTOR TACLLAN ALTO, DISTRITO DE HUARAZ, PROVINCIA HUARAZ, REGIÓN ANCASH  ",
     "ficha": "144-2026-LDP-ANC",
     "fechaInicio": "13/11/2026",
-    "fechaFin": "27/11/2026",
+    "fechaFin": "18/11/2026",
     "poblacion": 2214,
     "poblacionSinDuplicar": 2214,
-    "volumen": 2520,
+    "volumen": 1628,
     "km": 0.407,
     "enlace": null
   },
@@ -7086,8 +7086,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 23,
     "poblacionSinDuplicar": 23,
-    "volumen": 38118,
-    "km": 1.119,
+    "volumen": 40219,
+    "km": 1.171,
     "enlace": null
   },
   {

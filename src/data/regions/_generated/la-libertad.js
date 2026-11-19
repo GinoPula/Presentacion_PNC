@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD   ', inicio: '09/10/2026', fin: '22/11/2026', volAcum: 1640.0, kmAcum: 0.04, poblacion: 45024, poblacionSinDuplicar: 45024 },
-    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P          ', inicio: '11/11/2026', fin: '19/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 320, poblacionSinDuplicar: 320 },
+    { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P          ', inicio: '11/11/2026', fin: '19/11/2026', volAcum: 324.0, kmAcum: 0.12, poblacion: 320, poblacionSinDuplicar: 320 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
