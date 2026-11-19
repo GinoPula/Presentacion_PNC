@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "19/11/2026",
-    "horaCorte": "09:46",
+    "horaCorte": "10:17",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -617,6 +617,22 @@
     },
     {
       "n": 33,
+      "idIntervencion": "10587",
+      "departamento": "ICA",
+      "deptoLabel": "Ica",
+      "regionId": "ica",
+      "provincia": "Ica",
+      "distrito": "San Jose De Los Molinos",
+      "sector": "Quebrada Huamaní",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R",
+      "fechaInicio": "14/11/2026",
+      "fechaFin": "20/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 34,
       "idIntervencion": "10583",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -637,22 +653,6 @@
         "VOLQUETE ( EGM-925)",
         "EXCAVADORA HIDRAULICA ( D523572)"
       ]
-    },
-    {
-      "n": 34,
-      "idIntervencion": "10587",
-      "departamento": "ICA",
-      "deptoLabel": "Ica",
-      "regionId": "ica",
-      "provincia": "Ica",
-      "distrito": "San Jose De Los Molinos",
-      "sector": "Quebrada Huamaní",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R",
-      "fechaInicio": "14/11/2026",
-      "fechaFin": "20/11/2026",
-      "maquinaria": []
     },
     {
       "n": 35,
@@ -800,8 +800,8 @@
       "tipo": "EMERGENCIA",
       "marcoLegal": "DECRETO SUPREMO Nº 149-2026-PCM",
       "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE MARGENES EROSIONADAS DEL RIO “CHINIAMA”, SECTOR “RIO SECO” DEL CENTRO POBLADO EL ARROZAL DEL DISTRITO DE MOTUPE, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”",
-      "fechaInicio": "01/12/2026",
-      "fechaFin": "26/12/2026",
+      "fechaInicio": "18/11/2026",
+      "fechaFin": "13/12/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( AE800570)",
         "PLATAFORMA (CAMA BAJA) ( EGW-174)",

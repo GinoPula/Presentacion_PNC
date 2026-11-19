@@ -25,13 +25,17 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
+    { provincia: 'Tacna', distrito: 'Inclan', cantidad: 1, metaVol: 330.0, metaKm: 0.0, poblacion: 420 },
     { provincia: 'Tacna', distrito: 'Pachia', cantidad: 2, metaVol: 11915.0, metaKm: 0.45, poblacion: 2589 },
+    { provincia: 'Tacna', distrito: 'Sama', cantidad: 1, metaVol: 330.0, metaKm: 0.0, poblacion: 420 },
   ],
-  programadasTotal: { cantidad: 2, metaVol: 11915.0, metaKm: 0.45, poblacion: 2589 },
+  programadasTotal: { cantidad: 4, metaVol: 12575.0, metaKm: 0.45, poblacion: 3429 },
 
   programadasDetalle: [
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Bocatoma Challata Ii Etapa', ficha: '036-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA      ', fechaInicio: '23/11/2026', fechaFin: '12/12/2026', metaVol: 7200.0, metaKm: 0.15, poblacion: 2389, poblacionSinDuplicar: 2389 },
     { provincia: 'Tacna', distrito: 'Pachia', sector: 'Lateral Seminario Y Lateral Bocchio', ficha: '054-2026-LD-P-TAC', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA   ', fechaInicio: '23/11/2026', fechaFin: '28/11/2026', metaVol: 4715.0, metaKm: 0.3, poblacion: 200, poblacionSinDuplicar: 200 },
+    { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos Vi Etapa', ficha: '056-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA LA POBLACION DE SAMA  Y ANEXOS VI ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA ', fechaInicio: '01/12/2026', fechaFin: '30/12/2026', metaVol: 330.0, metaKm: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
+    { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos V Etapa', ficha: '055-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA LA POBLACION DE INCLAN Y ANEXOS V ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '01/12/2026', fechaFin: '30/12/2026', metaVol: 330.0, metaKm: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
   ],
 
   puntosCriticos: [
