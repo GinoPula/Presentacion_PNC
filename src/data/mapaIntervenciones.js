@@ -7975,10 +7975,10 @@ const mapaIntervenciones = {
     "provincia": "Sanchez Carrion",
     "distrito": "Huamachuco",
     "sector": "Los Pajaritos",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P         ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P          ",
     "ficha": "080-2026-LD-E-LIB",
     "fechaInicio": "11/11/2026",
-    "fechaFin": "18/11/2026",
+    "fechaFin": "19/11/2026",
     "poblacion": 320,
     "poblacionSinDuplicar": 320,
     "volumen": 324,
@@ -14856,8 +14856,8 @@ const mapaIntervenciones = {
     "fechaFin": "28/11/2026",
     "poblacion": null,
     "poblacionSinDuplicar": null,
-    "volumen": 2790.01,
-    "km": 795.043,
+    "volumen": 7965,
+    "km": 0.121,
     "enlace": null
   }
 ],
