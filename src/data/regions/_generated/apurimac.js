@@ -18,18 +18,18 @@ export default {
   enEjecucion: [
     { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".                      ', inicio: '15/10/2026', fin: '24/11/2026', volAcum: 5750.0, kmAcum: 0.55, poblacion: 50, poblacionSinDuplicar: 50 },
     { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO MARGEN IZQUIERDA DE LA QUEBRADA PURUCHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+400, EN EL SECTOR AYMAS, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.          ', inicio: '27/10/2026', fin: '21/11/2026', volAcum: 3850.0, kmAcum: 0.36, poblacion: 500, poblacionSinDuplicar: 500 },
+    { provincia: 'Andahuaylas', distrito: 'San Jeronimo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00             ', inicio: '20/11/2026', fin: '10/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 650, poblacionSinDuplicar: 650 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Andahuaylas', distrito: 'San Jeronimo', cantidad: 2, metaVol: 22367.01, metaKm: 2.94, poblacion: 1900 },
+    { provincia: 'Andahuaylas', distrito: 'San Jeronimo', cantidad: 1, metaVol: 7667.01, metaKm: 2.59, poblacion: 1250 },
     { provincia: 'Aymaraes', distrito: 'Capaya', cantidad: 1, metaVol: 12300.0, metaKm: 1.02, poblacion: 300 },
     { provincia: 'Aymaraes', distrito: 'Chalhuanca', cantidad: 1, metaVol: 5906.5, metaKm: 0.6, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 40573.51, metaKm: 4.56, poblacion: 2200 },
+  programadasTotal: { cantidad: 3, metaVol: 25873.51, metaKm: 4.21, poblacion: 1550 },
 
   programadasDetalle: [
-    { provincia: 'Andahuaylas', distrito: 'San Jeronimo', sector: 'Puente Ccoyahuacho – Puente Catatay (Kilometro 0+000 Al Km 2+650 )/Rio Chumbao', ficha: 'FTI 005-2026-LD-P-APU', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00            ', fechaInicio: '23/11/2026', fechaFin: '13/12/2026', metaVol: 14700.0, metaKm: 0.35, poblacion: 650, poblacionSinDuplicar: 650 },
     { provincia: 'Aymaraes', distrito: 'Capaya', sector: 'Chacapuente/Rio Chalhuanca', ficha: 'FTI N° 025-2026-LDP-APU (FTR-MC-PREV N° 0432-2025-ANA-AAA.PA-ALA.MAP).', descripcion: '" ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN IZQUIERDO Y DERECHO DEL RIO CHALHUANCA PROGRESIVA KM 0+000 A KM 0+350 EN EL SECTOR CHACAPUENTE, DISTRITO DE CAPAYA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC"            ', fechaInicio: '25/11/2026', fechaFin: '24/12/2026', metaVol: 12300.0, metaKm: 1.02, poblacion: 300, poblacionSinDuplicar: 300 },
     { provincia: 'Aymaraes', distrito: 'Chalhuanca', sector: 'Unchiña', ficha: 'FTI N° 050-2026-LDP-APU', descripcion: '" ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN IZQUIERDO Y DERECHO DE LA QUEBRADA PUENTE BALLON  PROGRESIVA KM 0+000 A KM 0+900, DISTRITO DE CHALHUANCA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC".     ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 5906.5, metaKm: 0.6, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', sector: 'Puente Catatay – Puente Mercado De Papas (2+650 Al Km 5+240 )/Rio Chumbao', ficha: 'FTI 006-2026-LD-P-APU', descripcion: '  LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 2+650 AL KM 5+240 (PUENTE CATATAY – PUENTE MERCADO DE PAPAS) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00         ', fechaInicio: '11/12/2026', fechaFin: '30/12/2026', metaVol: 7667.01, metaKm: 2.59, poblacion: 1250, poblacionSinDuplicar: 1250 },

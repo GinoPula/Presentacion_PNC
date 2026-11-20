@@ -12058,6 +12058,25 @@ const mapaIntervenciones = {
     "volumen": 3850,
     "km": 0.36,
     "enlace": null
+  },
+  {
+    "id": 9618,
+    "lat": -13.682968,
+    "lng": -73.343312,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Andahuaylas",
+    "distrito": "San Jeronimo",
+    "sector": "Puente Ccoyahuacho – Puente Catatay (Kilometro 0+000 Al Km 2+650 )/Rio Chumbao",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00             ",
+    "ficha": "FTI 005-2026-LD-P-APU",
+    "fechaInicio": "20/11/2026",
+    "fechaFin": "10/12/2026",
+    "poblacion": 650,
+    "poblacionSinDuplicar": 650,
+    "volumen": 14700,
+    "km": 0.35,
+    "enlace": null
   }
 ],
   ayacucho: [
