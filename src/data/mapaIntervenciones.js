@@ -16121,25 +16121,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10446,
-    "lat": -12.156162,
-    "lng": -75.236929,
-    "estado": "Ejecutada",
-    "tipo": "Emergencia",
-    "provincia": "Huancayo",
-    "distrito": "Viques",
-    "sector": "Zona Urbana",
-    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN      ",
-    "ficha": "069-2026-LETV-E-JUN",
-    "fechaInicio": "02/09/2026",
-    "fechaFin": "01/10/2026",
-    "poblacion": 336,
-    "poblacionSinDuplicar": 336,
-    "volumen": 12365,
-    "km": 3.586,
-    "enlace": null
-  },
-  {
     "id": 10447,
     "lat": -12.187495,
     "lng": -75.238474,
@@ -16156,6 +16137,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 360,
     "volumen": 13520,
     "km": 5.023,
+    "enlace": null
+  },
+  {
+    "id": 10446,
+    "lat": -12.156162,
+    "lng": -75.236929,
+    "estado": "Ejecutada",
+    "tipo": "Emergencia",
+    "provincia": "Huancayo",
+    "distrito": "Viques",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA Y REMOCION DE ESCOMBROS A CONSECUENCIA DEL SISMO GRADO 5.1 DEL 18 DE JULIO DEL 2026 QUE INTERRUMPEN LA TRANSITABILIDAD EN EL DISTRITO DE VIQUES, PROVINCIA DE HUANCAYO, REGION JUNIN      ",
+    "ficha": "069-2026-LETV-E-JUN",
+    "fechaInicio": "02/09/2026",
+    "fechaFin": "01/10/2026",
+    "poblacion": 336,
+    "poblacionSinDuplicar": 336,
+    "volumen": 12365,
+    "km": 3.586,
     "enlace": null
   },
   {
@@ -16289,6 +16289,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 400,
     "volumen": 5760,
     "km": 0.98,
+    "enlace": null
+  },
+  {
+    "id": 10720,
+    "lat": -12.09649,
+    "lng": -75.231105,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Huancayo",
+    "distrito": "Chilca",
+    "sector": "Zona Urbana",
+    "descripcion": "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO MANTARO,  DE LA  PROG. 0+000 A LA PROG. 0+948.50 EN LA ZONA URBANA DEL DISTRITO DE CHILCA, PROVINCIA DE HUANCAYO, REGION JUNIN",
+    "ficha": "080-2026-LD-P-JUN",
+    "fechaInicio": "19/11/2026",
+    "fechaFin": "03/12/2026",
+    "poblacion": 1000,
+    "poblacionSinDuplicar": 1000,
+    "volumen": 3559.12,
+    "km": 0.948,
     "enlace": null
   }
 ],
