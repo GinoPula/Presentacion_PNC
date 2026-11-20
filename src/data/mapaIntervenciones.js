@@ -11329,8 +11329,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 8000,
     "poblacionSinDuplicar": 0,
-    "volumen": 6916.05,
-    "km": 1.38,
+    "volumen": 7668.57,
+    "km": 1.5,
     "enlace": null
   },
   {
@@ -17274,19 +17274,19 @@ const mapaIntervenciones = {
     "id": 10547,
     "lat": -6.977019,
     "lng": -76.500243,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Picota",
     "distrito": "San Hilarion",
     "sector": "San Hilarión",
-    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN              ",
+    "descripcion": " LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN               ",
     "ficha": "041-2026-LD-PI-SAM",
     "fechaInicio": "13/10/2026",
     "fechaFin": "19/11/2026",
     "poblacion": 400,
     "poblacionSinDuplicar": 400,
-    "volumen": 2070,
-    "km": 0.23,
+    "volumen": 2250,
+    "km": 0.25,
     "enlace": null
   },
   {
@@ -17304,8 +17304,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 700,
     "poblacionSinDuplicar": 700,
-    "volumen": 735,
-    "km": 1.225,
+    "volumen": 975,
+    "km": 1.625,
     "enlace": null
   }
 ],

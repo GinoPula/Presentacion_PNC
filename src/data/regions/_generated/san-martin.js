@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 14139.15, km: 7.17, poblacion: 1400, provincias: ['Moyobamba', 'Picota'] },
-    { tipo: 'Prevención', cantidad: 1, m3: 3000.0, km: 0.3, poblacion: 500, provincias: ['Picota'] },
+    { tipo: 'Prevención', cantidad: 2, m3: 5250.0, km: 0.55, poblacion: 900, provincias: ['Picota'] },
     { tipo: 'Urgente atención', cantidad: 17, m3: 28119.6, km: 24.83, poblacion: 13000, provincias: ['Bellavista', 'Lamas', 'Moyobamba', 'Rioja', 'San Martin'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 45258.75, m3AguaPotable: 8595.0, km: 32.29, poblacion: 14900 },
+  ejecutadasTotal: { cantidad: 23, m3: 47508.75, m3AguaPotable: 8595.0, km: 32.54, poblacion: 15300 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Picota', distrito: 'San Hilarion', tipo: 'Prevención', descripcion: ' LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN              ', inicio: '13/10/2026', fin: '19/11/2026', volAcum: 2070.0, kmAcum: 0.23, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN       ', inicio: '27/10/2026', fin: '26/11/2026', volAcum: 735.0, kmAcum: 1.23, poblacion: 700, poblacionSinDuplicar: 700 },
+    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN       ', inicio: '27/10/2026', fin: '26/11/2026', volAcum: 975.0, kmAcum: 1.62, poblacion: 700, poblacionSinDuplicar: 700 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
