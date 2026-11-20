@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 24, m3: 229659.0, km: 44.9, poblacion: 271303, provincias: ['Chanchamayo', 'Chupaca', 'Huancayo', 'Satipo', 'Tarma'] },
-    { tipo: 'Prevención', cantidad: 16, m3: 106465.0, km: 14.05, poblacion: 267715, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Satipo'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 119985.0, km: 14.59, poblacion: 268195, provincias: ['Chanchamayo', 'Concepcion', 'Huancayo', 'Jauja', 'Satipo'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 120.0, km: 0.33, poblacion: 1580, provincias: ['Chupaca'] },
   ],
-  ejecutadasTotal: { cantidad: 41, m3: 336244.0, m3AguaPotable: 120.0, km: 59.28, poblacion: 540598 },
+  ejecutadasTotal: { cantidad: 42, m3: 349764.0, m3AguaPotable: 120.0, km: 59.82, poblacion: 541078 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -16,10 +16,10 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 38, m3: 302570.0, m3AguaPotable: 0.0, km: 44.2, poblacion: 65172 },
 
   enEjecucion: [
-    { provincia: 'Jauja', distrito: 'Julcan', tipo: 'Prevención', descripcion: ' "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS  DE LA  PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN"-00                     ', inicio: '14/10/2026', fin: '07/11/2026', volAcum: 12310.0, kmAcum: 0.52, poblacion: 480, poblacionSinDuplicar: 480 },
     { provincia: 'Concepcion', distrito: 'Matahuasi', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN', inicio: '03/11/2026', fin: '17/11/2026', volAcum: 9650.0, kmAcum: 4.0, poblacion: 2495, poblacionSinDuplicar: 2495 },
     { provincia: 'Satipo', distrito: 'Rio Tambo', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+300.24 KM DEL C.P FE Y ALEGRIA, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.  ', inicio: '09/11/2026', fin: '23/11/2026', volAcum: 5760.0, kmAcum: 0.98, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Huancayo', distrito: 'Chilca', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RIO MANTARO,  DE LA  PROG. 0+000 A LA PROG. 0+948.50 EN LA ZONA URBANA DEL DISTRITO DE CHILCA, PROVINCIA DE HUANCAYO, REGION JUNIN', inicio: '19/11/2026', fin: '03/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1000, poblacionSinDuplicar: 1000 },
+    { provincia: 'Jauja', distrito: 'Julcan', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL RÍO JULCÁN, PROG. 0+000 A LA PROG. 2+425.61 KM, MARGEN IZQUIERDA, EN LA ZONA URBANA DE JULCÁN, DISTRITO DE JULCÁN, PROVINCIA DE JAUJA, REGIÓN JUNÍN”', inicio: '20/11/2026', fin: '26/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 15000, poblacionSinDuplicar: 15000 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
