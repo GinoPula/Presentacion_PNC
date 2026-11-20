@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 8, m3: 41635.27, km: 1.66, poblacion: 19614, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 80, m3: 645813.67, km: 23.7, poblacion: 2602114, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Emergencia', cantidad: 9, m3: 51076.27, km: 1.88, poblacion: 19664, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
+    { tipo: 'Prevención', cantidad: 80, m3: 645813.67, km: 23.69, poblacion: 2602114, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 97, m3: 707396.04, m3AguaPotable: 0.0, km: 41.72, poblacion: 2640562 },
+  ejecutadasTotal: { cantidad: 98, m3: 716837.04, m3AguaPotable: 0.0, km: 41.94, poblacion: 2640612 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,11 +19,10 @@ export default {
   enEjecucion: [
     { provincia: 'Lima', distrito: 'Comas', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”  ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 14010.0, kmAcum: 0.46, poblacion: 600, poblacionSinDuplicar: 600 },
     { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”    ', inicio: '29/10/2026', fin: '21/11/2026', volAcum: 2205.0, kmAcum: 0.16, poblacion: 720, poblacionSinDuplicar: 720 },
-    { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA” ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 900.0, kmAcum: 0.03, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ', inicio: '11/11/2026', fin: '22/11/2026', volAcum: 2323.2, kmAcum: 0.09, poblacion: 1274, poblacionSinDuplicar: 1274 },
-    { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R    ', inicio: '12/11/2026', fin: '12/12/2026', volAcum: 930.0, kmAcum: 0.1, poblacion: 2000, poblacionSinDuplicar: 2000 },
+    { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA” ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 900.0, kmAcum: 0.03, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Lima', distrito: 'Lurigancho', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION  DE DIQUES SECOS EN EL CAUCE DE LA QUEBRADA VIZCACHERA, AFLUENTE 14,SECTOR LAS TORRES, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.  ', inicio: '12/11/2026', fin: '21/11/2026', volAcum: 900.0, kmAcum: 0.06, poblacion: 484, poblacionSinDuplicar: 484 },
-    { provincia: 'Huarochiri', distrito: 'Huachupampa', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA MAQUERHUA, SECTOR PONGO, DISTRITO DE HUACHUPAMPA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA - DS180-R  ', inicio: '15/11/2026', fin: '30/11/2026', volAcum: 65601.0, kmAcum: 2.07, poblacion: 50, poblacionSinDuplicar: 50 },
+    { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R    ', inicio: '12/11/2026', fin: '12/12/2026', volAcum: 930.0, kmAcum: 0.1, poblacion: 2000, poblacionSinDuplicar: 2000 },
     { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE TRIBUTARIO N.° 04 (TRAMO 1) DE LA  QUEBRADA LOS CÓNDORES, DISTRITO DE CHACLACAYO, PROVINCIA Y DEPARTAMENTO DE LIMA”. ', inicio: '19/11/2026', fin: '03/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 720, poblacionSinDuplicar: 720 },
     { provincia: 'Lima', distrito: 'San Martin De Porres', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 03, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”. ', inicio: '24/11/2026', fin: '08/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1274, poblacionSinDuplicar: 1274 },
   ],
@@ -45,7 +44,7 @@ export default {
   ],
 
   puntosCriticos: [
-    { provincia: 'Huarochiri', distrito: 'Huachupampa', sector: 'Pongo', fichaTecnica: '132-2026-LDE-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA MAQUERHUA, SECTOR PONGO, DISTRITO DE HUACHUPAMPA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA - DS180-R  ', estado: 'En ejecución', mes: '', metaKm: 0.43, metaVol: 9675.0, poblacion: 50 },
+    { provincia: 'Huarochiri', distrito: 'Huachupampa', sector: 'Pongo', fichaTecnica: '132-2026-LDE-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA MAQUERHUA, SECTOR PONGO, DISTRITO DE HUACHUPAMPA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA - DS180-R   ', estado: 'Ejecutada', mes: '', metaKm: 0.43, metaVol: 9675.0, poblacion: 50 },
     { provincia: 'Huarochiri', distrito: 'Ricardo Palma', sector: 'Pascana Iii', fichaTecnica: '139-2026-LDE-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN LA QUEBRADA HUAYCO, SECTOR PASCANA III, DISTRITO DE RICARDO PALMA, PROVINCIA DE HUAROCHIRÍ, DEPARTAMENTO DE LIMA DS180-R   ', estado: 'Ejecutada', mes: '', metaKm: 0.49, metaVol: 10736.0, poblacion: 269 },
     { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', sector: 'Corcona', fichaTecnica: '131-2026-LDE-LIM', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R    ', estado: 'En ejecución', mes: '', metaKm: 0.5, metaVol: 25000.0, poblacion: 2000 },
   ],
