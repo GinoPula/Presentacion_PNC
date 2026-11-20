@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "19/11/2026",
-    "horaCorte": "23:32",
+    "fechaCorte": "20/11/2026",
+    "horaCorte": "00:03",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "14/10/2026",
       "fechaFin": "07/11/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°103-2026-CPJ/SO",
       "fechaInicio": "12/10/2026",
       "fechaFin": "10/11/2026",
-      "diasAtraso": 9
+      "diasAtraso": 10
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "12/11/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "DECRETO SUPREMO N° 124-2026-PCM",
       "fechaInicio": "05/11/2026",
       "fechaFin": "14/11/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 5,
@@ -99,29 +99,10 @@
       "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
       "fechaInicio": "27/10/2026",
       "fechaFin": "15/11/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
     },
     {
       "n": 6,
-      "idIntervencion": "10497",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Yauyos",
-      "distrito": "Yauyos",
-      "sector": "Sector Critico N° 03-puente Auco",
-      "ficha": "128-2026-LDP-LIM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
-      "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "15/11/2026",
-      "fechaFin": "25/11/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 7,
       "idIntervencion": "10652",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -137,7 +118,26 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "07/11/2026",
       "fechaFin": "15/11/2026",
-      "diasAtraso": 4
+      "diasAtraso": 5
+    },
+    {
+      "n": 7,
+      "idIntervencion": "10497",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Yauyos",
+      "distrito": "Yauyos",
+      "sector": "Sector Critico N° 03-puente Auco",
+      "ficha": "128-2026-LDP-LIM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
+      "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "15/11/2026",
+      "fechaFin": "25/11/2026",
+      "diasAtraso": 5
     },
     {
       "n": 8,
@@ -156,7 +156,7 @@
       "marcoLegal": "CONVENIO Nº029-2026",
       "fechaInicio": "16/11/2026",
       "fechaFin": "02/12/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 9,
@@ -175,7 +175,7 @@
       "marcoLegal": "CONVENIO 109-2025-VIVIENDA_VMVU_PNC",
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "17/11/2026",
       "fechaFin": "03/12/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 12,
@@ -232,29 +232,10 @@
       "marcoLegal": "CONVENIO 21-2022-VIVIENDA-VMVU-PNC - ADENDA 04",
       "fechaInicio": "03/11/2026",
       "fechaFin": "17/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 13,
-      "idIntervencion": "9738",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Chaclacayo",
-      "sector": "Los Condores",
-      "ficha": "014-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
-      "marcoLegal": "ADENDA Nº 2 DEL CONVENIO Nº 0008-2024-VIVIENDA",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "18/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
       "idIntervencion": "10694",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -270,6 +251,120 @@
       "marcoLegal": "CONVENIO Nº051-2023-ADENDA 03",
       "fechaInicio": "18/11/2026",
       "fechaFin": "22/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 14,
+      "idIntervencion": "9738",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Chaclacayo",
+      "sector": "Los Condores",
+      "ficha": "014-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
+      "marcoLegal": "ADENDA Nº 2 DEL CONVENIO Nº 0008-2024-VIVIENDA",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "18/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10547",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Picota",
+      "distrito": "San Hilarion",
+      "sector": "San Hilarión",
+      "ficha": "041-2026-LD-PI-SAM",
+      "descripcion": "LIMPIEZA Y REFORZAMIENTO DE DEFENSA RIBEREÑA MARGEN IZQUIERDA DEL RIO SISA TRAMO II, DISTRITO DE SAN HILARIÓN, PROVINCIA DE PICOTA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "CONVENIO N° 105-2025-VIVIENDA-VMVU-PNC",
+      "fechaInicio": "13/10/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10543",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Los Pajaritos",
+      "ficha": "080-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "11/11/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "10684",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Contralmirante Villar",
+      "distrito": "Casitas",
+      "sector": "",
+      "ficha": "079-2026-LETV-E-TUM",
+      "descripcion": "LIMPIEZA DE ESCOMBROS Y RECUPERACIÓN DE LA TRANSITABILIDAD EN LOS CENTROS POBLADOS CAÑAVERAL - LA CHOZA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES",
+      "marcoLegal": "D.S. N° 149-2026-PCM",
+      "fechaInicio": "05/11/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 18,
+      "idIntervencion": "9851",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Azangaro",
+      "distrito": "Muñani",
+      "sector": "Muñani Chico",
+      "ficha": "FTI N° 037-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO",
+      "marcoLegal": "CONVENIO Nº069-2025",
+      "fechaInicio": "19/11/2026",
+      "fechaFin": "29/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 19,
+      "idIntervencion": "10708",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "San Roman",
+      "distrito": "Cabanillas",
+      "sector": "Chillo",
+      "ficha": "FTI N° 081-2026-MTVU-PUN",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
+      "fechaInicio": "13/11/2026",
+      "fechaFin": "19/11/2026",
       "diasAtraso": 1
     }
   ]
