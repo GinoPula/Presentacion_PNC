@@ -9788,8 +9788,8 @@ const mapaIntervenciones = {
     "fechaFin": "10/11/2026",
     "poblacion": 1000,
     "poblacionSinDuplicar": 0,
-    "volumen": 2898.2,
-    "km": 0.094,
+    "volumen": 6902.2,
+    "km": 0.224,
     "enlace": null
   },
   {
@@ -9978,8 +9978,8 @@ const mapaIntervenciones = {
     "fechaFin": "30/11/2026",
     "poblacion": 50,
     "poblacionSinDuplicar": 50,
-    "volumen": 3092,
-    "km": 0.231,
+    "volumen": 6243,
+    "km": 0.366,
     "enlace": null
   },
   {
@@ -11318,12 +11318,12 @@ const mapaIntervenciones = {
     "id": 10534,
     "lat": null,
     "lng": null,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Arequipa",
     "distrito": "Cayma",
     "sector": "Puente Arquillo",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P  ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA CHULLO, EN EL SECTOR PUENTE ARQUILLO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-P   ",
     "ficha": "120-2026-LDE-ARE",
     "fechaInicio": "05/11/2026",
     "fechaFin": "14/11/2026",
@@ -11513,10 +11513,10 @@ const mapaIntervenciones = {
     "provincia": "Arequipa",
     "distrito": "Characato",
     "sector": "Cancha De Toros, Tres Postes, Colegio Inicial Y Avenida Characato",
-    "descripcion": "\"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES CON MATERIAL PROPIO DE LA QUEBRADA LA HUAYLLA, EN LOS SECTORES DE CANCHA DE TOROS, TRES POSTES, COLEGIO INICIAL Y AVENIDA CHARACATO, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".     ",
+    "descripcion": "\"LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUDES CON MATERIAL PROPIO DE LA QUEBRADA LA HUAYLLA, EN LOS SECTORES DE CANCHA DE TOROS, TRES POSTES, COLEGIO INICIAL Y AVENIDA CHARACATO, DISTRITO DE CHARACATO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\".      ",
     "ficha": "83-2026-LDP-ARE",
-    "fechaInicio": "20/11/2026",
-    "fechaFin": "09/12/2026",
+    "fechaInicio": "19/11/2026",
+    "fechaFin": "08/12/2026",
     "poblacion": 700,
     "poblacionSinDuplicar": 700,
     "volumen": 10677.92,
@@ -12564,7 +12564,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Jesus Nazareno",
     "sector": "Viña Chiquita",
-    "descripcion": " LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO   ",
+    "descripcion": " LIMPIEZA, DESCOLMATACIÓN EN EL MARGEN IZQUIERDO DEL RIO ALAMEDA, EN EL SECTOR VIÑA CHIQUITA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO    ",
     "ficha": "48-2026- LD-PI-AYAC ",
     "fechaInicio": "13/10/2026",
     "fechaFin": "16/10/2026",
@@ -12572,7 +12572,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 40,
     "volumen": 1440,
     "km": 0.2,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 10613,
