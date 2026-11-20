@@ -24,11 +24,10 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Dos De Mayo', distrito: 'La Union', cantidad: 1, metaVol: 5775.0, metaKm: 0.33, poblacion: 150 },
-    { provincia: 'Huanuco', distrito: 'Huanuco', cantidad: 3, metaVol: 15920.0, metaKm: 2.69, poblacion: 1550 },
-    { provincia: 'Huanuco', distrito: 'Santa Maria Del Valle', cantidad: 1, metaVol: 2645.0, metaKm: 0.2, poblacion: 100 },
+    { provincia: 'Huanuco', distrito: 'Huanuco', cantidad: 2, metaVol: 9420.0, metaKm: 2.19, poblacion: 800 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', cantidad: 3, metaVol: 20004.0, metaKm: 1.72, poblacion: 830 },
   ],
-  programadasTotal: { cantidad: 8, metaVol: 44344.0, metaKm: 4.94, poblacion: 2630 },
+  programadasTotal: { cantidad: 6, metaVol: 35199.0, metaKm: 4.24, poblacion: 1780 },
 
   programadasDetalle: [
     { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Qda Tingoragra', ficha: '052-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO', fechaInicio: '23/11/2026', fechaFin: '07/12/2026', metaVol: 4480.0, metaKm: 1.05, poblacion: 320, poblacionSinDuplicar: 320 },
@@ -36,9 +35,7 @@ export default {
     { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Rio Higuieras', ficha: '053-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIóN Y ELIMINACION DE MATERIAL DESCOLMATADO, DEL RíO HIGUERAS, DE LA PROG. 0+000 A LA PROG. 1+140, DEL SECTOR PUENTE TINGO, EN LA ZONA URBANA DE LA PROVINCIA DE HUáNUCO, REGION HUáNUCO ', fechaInicio: '25/11/2026', fechaFin: '09/12/2026', metaVol: 4940.0, metaKm: 1.14, poblacion: 480, poblacionSinDuplicar: 480 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Cp Huitoyacu', ficha: '036-2026-LD-P-HCO.', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN EL RIO HUITO, TRAMO I - ENTRE EL KM 00+000 Y EL KM 00+608, SECTOR HUITOYACU, DISTRITO DE CODO DEL POZUZO, PROVINCIA DE PUERTO INCA, DEPARTAMENTO DE HUANUCO ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 8512.0, metaKm: 0.61, poblacion: 250, poblacionSinDuplicar: 250 },
     { provincia: 'Dos De Mayo', distrito: 'La Union', sector: 'Sector Urbano', ficha: '051-2026-LD-P-HCO', descripcion: ' LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO CHACAMAYO, ENTRE EL KM 00+000 Y EL KM 00+330, SECTOR URBANO, DISTRITO DE LA UNION, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO   ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 5775.0, metaKm: 0.33, poblacion: 150, poblacionSinDuplicar: 150 },
-    { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Río Huallaga', ficha: '017-2026-LD-P-HCO.', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO HUALLAGA, EN LA URB. SAN GERMÁN, MARGEN DERECHA, DE LA PROG. 0+000 A LA PROG. 0+450, EN LA ZONA URBANA DEL DISTRITO DE AMARILIS, PROVINCIA DE HUÁNUCO, REGIÓN HUÁNUCO"-00          ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6500.0, metaKm: 0.5, poblacion: 750, poblacionSinDuplicar: 750 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Rio Huitoyacu', ficha: '054-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN EL RIO HUITO, TRAMO II - ENTRE EL KM 00+000 Y EL KM 00+650, SECTOR HUITOYACU, DISTRITO DE CODO DEL POZUZO, PROVINCIA DE PUERTO INCA, DEPARTAMENTO DE HUANUCO', fechaInicio: '14/12/2026', fechaFin: '28/12/2026', metaVol: 6532.0, metaKm: 0.65, poblacion: 250, poblacionSinDuplicar: 250 },
-    { provincia: 'Huanuco', distrito: 'Santa Maria Del Valle', sector: 'Centro Poblado Taruca', ficha: '027-2026-LD-P-HCO.', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TARUCA, DE LA PROG. 0+000 A LA PROG. 0+200, EN LA ZONA URBANA DEL DISTRITO DE SANTA MARIA DEL VALLE, PROVINCIA HUÁNUCO, REGIÓN HUÁNUCO"                   ', fechaInicio: '23/12/2026', fechaFin: '29/12/2026', metaVol: 2645.0, metaKm: 0.2, poblacion: 100, poblacionSinDuplicar: 100 },
   ],
 
   puntosCriticos: [

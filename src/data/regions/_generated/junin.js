@@ -23,19 +23,18 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 6, metaVol: 53772.84, metaKm: 5.05, poblacion: 8780 },
-    { provincia: 'Tarma', distrito: 'Tarma', cantidad: 1, metaVol: 7414.4, metaKm: 1.8, poblacion: 3200 },
+    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', cantidad: 3, metaVol: 31153.99, metaKm: 2.82, poblacion: 6140 },
+    { provincia: 'Huancayo', distrito: 'Chilca', cantidad: 1, metaVol: 14250.0, metaKm: 0.68, poblacion: 1200 },
+    { provincia: 'Huancayo', distrito: 'Quichuay', cantidad: 1, metaVol: 5383.47, metaKm: 0.64, poblacion: 1848 },
   ],
-  programadasTotal: { cantidad: 7, metaVol: 61187.24, metaKm: 6.85, poblacion: 11980 },
+  programadasTotal: { cantidad: 5, metaVol: 50787.46, metaKm: 4.14, poblacion: 9188 },
 
   programadasDetalle: [
-    { provincia: 'Tarma', distrito: 'Tarma', sector: 'Zona Urbana', ficha: '011-2026-LD-P-JUN', descripcion: ' "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO MANIACO AMBAS MÁRGENES, DE LA PROG. 0+000 A LA PROG. 1+820, EN LA ZONA URBANA DEL DISTRITO DE TARMA, PROVINCIA DE TARMA, REGIÓN JUNIN"-00                        ', fechaInicio: '17/11/2026', fechaFin: '03/12/2026', metaVol: 7414.4, metaKm: 1.8, poblacion: 3200, poblacionSinDuplicar: 3200 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '010-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+788.93 KM TRAMO II EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN ', fechaInicio: '17/11/2026', fechaFin: '01/12/2026', metaVol: 10368.85, metaKm: 0.79, poblacion: 1440, poblacionSinDuplicar: 1440 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '002-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 0+625.13 KM EN AMBAS MARGENES DE LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN     ', fechaInicio: '23/11/2026', fechaFin: '07/12/2026', metaVol: 8215.97, metaKm: 0.62, poblacion: 720, poblacionSinDuplicar: 720 },
+    { provincia: 'Huancayo', distrito: 'Quichuay', sector: 'Zona Urbana', ficha: '078-2026-LD-P-JUN', descripcion: ' LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO CON MATERIAL PROPIO DEL RIO ACHAMAYO DE LA  PROG. 0+000 A LA PROG. 0+636.92 KM, EN LA ZONA URBANA DEL DISTRITO DE QUICHUAY, PROVINCIA DE HUANCAYO, DEPARTAMENTO DE JUNIN', fechaInicio: '25/11/2026', fechaFin: '09/12/2026', metaVol: 5383.47, metaKm: 0.64, poblacion: 1848, poblacionSinDuplicar: 1848 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Toro', ficha: '001-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION ENCAUZAMIENTO Y CONFORMACION DE DIQUES CON MATERIAL PROPIO, DEL RIO TORO DESDE LA PROGRESIVA 0+000 AL 0+681.98 EN LA ZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE\nCHANCHAMAYO, REGION JUNIN   ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 16000.0, metaKm: 0.3, poblacion: 3500, poblacionSinDuplicar: 3500 },
     { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '068-2026-LD-P-JUN', descripcion: 'LIMPIEZA, DESCOLMATACION Y ENCAUZAMIENTO DEL RIO GAROU, PROG. 0+000 A LA PROG. 1+897.11 KM TRAMO III DE LAZONA URBANA DE LA MERCED, DISTRITO Y PROVINCIA DE CHANCHAMAYO-REGION JUNIN    ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 6938.02, metaKm: 1.9, poblacion: 1920, poblacionSinDuplicar: 1920 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Rio Quisque', ficha: '018-2026-LD-P-JUN', descripcion: '  "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO QUISQUE,  DE LA  PROG. 0+000 A LA PROG. 0+354 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                    ', fechaInicio: '05/12/2026', fechaFin: '18/12/2026', metaVol: 3500.0, metaKm: 0.35, poblacion: 300, poblacionSinDuplicar: 300 },
-    { provincia: 'Chanchamayo', distrito: 'Chanchamayo', sector: 'Zona Urbana', ficha: '020-2026-LD-P-JUN', descripcion: ' "LIMPIEZA, DESCOLMATACION, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO REITHER,  DE LA  PROG. 0+000 A LA PROG. 1+000 AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHANCHAMAYO, PROVINCIA DE CHANCHAMAYO, REGION JUNIN"-00                     ', fechaInicio: '07/12/2026', fechaFin: '20/12/2026', metaVol: 8750.0, metaKm: 1.09, poblacion: 900, poblacionSinDuplicar: 900 },
+    { provincia: 'Huancayo', distrito: 'Chilca', sector: 'Río Ali', ficha: '081-2026-LD-P-JUN', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DEL RÍO ALI, DE LA PROG. 0+300 A LA PROG. 0+980, AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE CHILCA, PROVINCIA DE HUANCAYO, REGION JUNIN        \n', fechaInicio: '05/12/2026', fechaFin: '19/12/2026', metaVol: 14250.0, metaKm: 0.68, poblacion: 1200, poblacionSinDuplicar: 1200 },
   ],
 
   puntosCriticos: [
