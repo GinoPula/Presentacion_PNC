@@ -22,18 +22,15 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Abancay', distrito: 'Abancay', cantidad: 1, metaVol: 3150.0, metaKm: 0.9, poblacion: 600 },
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', cantidad: 2, metaVol: 22367.01, metaKm: 2.94, poblacion: 1900 },
     { provincia: 'Aymaraes', distrito: 'Capaya', cantidad: 1, metaVol: 12300.0, metaKm: 1.02, poblacion: 300 },
-    { provincia: 'Aymaraes', distrito: 'Chalhuanca', cantidad: 2, metaVol: 5906.5, metaKm: 0.6, poblacion: 0 },
+    { provincia: 'Aymaraes', distrito: 'Chalhuanca', cantidad: 1, metaVol: 5906.5, metaKm: 0.6, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 43723.51, metaKm: 5.46, poblacion: 2800 },
+  programadasTotal: { cantidad: 4, metaVol: 40573.51, metaKm: 4.56, poblacion: 2200 },
 
   programadasDetalle: [
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', sector: 'Puente Ccoyahuacho – Puente Catatay (Kilometro 0+000 Al Km 2+650 )/Rio Chumbao', ficha: 'FTI 005-2026-LD-P-APU', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00            ', fechaInicio: '23/11/2026', fechaFin: '13/12/2026', metaVol: 14700.0, metaKm: 0.35, poblacion: 650, poblacionSinDuplicar: 650 },
     { provincia: 'Aymaraes', distrito: 'Capaya', sector: 'Chacapuente/Rio Chalhuanca', ficha: 'FTI N° 025-2026-LDP-APU (FTR-MC-PREV N° 0432-2025-ANA-AAA.PA-ALA.MAP).', descripcion: '" ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN IZQUIERDO Y DERECHO DEL RIO CHALHUANCA PROGRESIVA KM 0+000 A KM 0+350 EN EL SECTOR CHACAPUENTE, DISTRITO DE CAPAYA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC"            ', fechaInicio: '25/11/2026', fechaFin: '24/12/2026', metaVol: 12300.0, metaKm: 1.02, poblacion: 300, poblacionSinDuplicar: 300 },
-    { provincia: 'Abancay', distrito: 'Abancay', sector: 'Paltaypata/Rio Mariño', ficha: 'FTI N.º 051-2026-LD-E-APU', descripcion: '" LIMPIEZA, DESCOLMATACIÓN DE LA QUEBRADA MARIÑO TRAMO I, DE LA PROGRESIVA KM 0+000 AL KM 0+900, EN EL SECTOR PALTAYPATA, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC" ', fechaInicio: '25/11/2026', fechaFin: '12/12/2026', metaVol: 3150.0, metaKm: 0.9, poblacion: 600, poblacionSinDuplicar: 600 },
-    { provincia: 'Aymaraes', distrito: 'Chalhuanca', sector: 'Chancahua', ficha: 'FTI N° 049-2026-LDP-APU', descripcion: ' "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN DERECHA DEL RIO CHALHUANCA PROGRESIVA KM 0+000 A KM 0+400 EN EL SECTOR CHANCAHUA, DISTRITO DE CHALHUANCA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC"  ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 0.0, metaKm: 0.0, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Aymaraes', distrito: 'Chalhuanca', sector: 'Unchiña', ficha: 'FTI N° 050-2026-LDP-APU', descripcion: '" ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DEL CAUCE EN MARGEN IZQUIERDO Y DERECHO DE LA QUEBRADA PUENTE BALLON  PROGRESIVA KM 0+000 A KM 0+900, DISTRITO DE CHALHUANCA, PROVINCIA DE AYMARAES, REGIÓN APURIMAC".     ', fechaInicio: '01/12/2026', fechaFin: '25/12/2026', metaVol: 5906.5, metaKm: 0.6, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', sector: 'Puente Catatay – Puente Mercado De Papas (2+650 Al Km 5+240 )/Rio Chumbao', ficha: 'FTI 006-2026-LD-P-APU', descripcion: '  LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 2+650 AL KM 5+240 (PUENTE CATATAY – PUENTE MERCADO DE PAPAS) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00         ', fechaInicio: '11/12/2026', fechaFin: '30/12/2026', metaVol: 7667.01, metaKm: 2.59, poblacion: 1250, poblacionSinDuplicar: 1250 },
   ],

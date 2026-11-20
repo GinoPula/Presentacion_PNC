@@ -31,21 +31,18 @@ export default {
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Huarochiri', distrito: 'Antioquia', cantidad: 2, metaVol: 21312.0, metaKm: 0.72, poblacion: 280 },
     { provincia: 'Lima', distrito: 'Chaclacayo', cantidad: 1, metaVol: 2475.0, metaKm: 0.17, poblacion: 720 },
     { provincia: 'Lima', distrito: 'Cieneguilla', cantidad: 1, metaVol: 12120.0, metaKm: 0.4, poblacion: 400 },
     { provincia: 'Lima', distrito: 'Comas', cantidad: 1, metaVol: 15600.0, metaKm: 0.52, poblacion: 500 },
     { provincia: 'Yauyos', distrito: 'Yauyos', cantidad: 1, metaVol: 10252.0, metaKm: 0.11, poblacion: 0 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 61759.0, metaKm: 1.92, poblacion: 1900 },
+  programadasTotal: { cantidad: 4, metaVol: 40447.0, metaKm: 1.2, poblacion: 1620 },
 
   programadasDetalle: [
-    { provincia: 'Yauyos', distrito: 'Yauyos', sector: 'Sector Critico N° 03-Puente Auco', ficha: '128-2026-LDP-LIM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA   ', fechaInicio: '15/11/2026', fechaFin: '25/11/2026', metaVol: 10252.0, metaKm: 0.11, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Lima', distrito: 'Comas', sector: 'Malecon Chillón – Brisas Del Chillón', ficha: '155-2026-LDP-LIM', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR MALECON CHILLÓN – BRISAS DEL CHILLÓN, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”    ', fechaInicio: '23/11/2026', fechaFin: '07/12/2026', metaVol: 15600.0, metaKm: 0.52, poblacion: 500, poblacionSinDuplicar: 500 },
-    { provincia: 'Huarochiri', distrito: 'Antioquia', sector: 'Sector Espiritu Santo', ficha: '157-2026-LDP-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DE LA QUEBRADA CHAMACHA, SECTOR ESPIRITU SANTO-TRAMO II, DISTRITO DE ANTIOQUIA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 10656.0, metaKm: 0.36, poblacion: 140, poblacionSinDuplicar: 140 },
+    { provincia: 'Yauyos', distrito: 'Yauyos', sector: 'Sector Critico N° 03-Puente Auco', ficha: '128-2026-LDP-LIM', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+640 HASTA LA PROGRESIVA 0+750) KM, EN EL SECTOR CRÍTICO N°05: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA    ', fechaInicio: '27/11/2026', fechaFin: '07/12/2026', metaVol: 10252.0, metaKm: 0.11, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'Lima', distrito: 'Cieneguilla', sector: 'Puente Molle (Ranchito) Tramo 2', ficha: '163-2026-LDP-LIM', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+404 HASTA 0+808, SECTOR PUENTE MOLLE (RANCHITO) TRAMO 2, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”.', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 12120.0, metaKm: 0.4, poblacion: 400, poblacionSinDuplicar: 400 },
-    { provincia: 'Lima', distrito: 'Chaclacayo', sector: 'Los Cóndores - Tributario N.° 03', ficha: '162-2026-LDP-LIM', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE TRIBUTARIO N.° 03 (TRAMO 1) DE LA QUEBRADA LOS CÓNDORES, DISTRITO DE CHACLACAYO, PROVINCIA Y DEPARTAMENTO DE LIMA”.', fechaInicio: '04/12/2026', fechaFin: '16/12/2026', metaVol: 2475.0, metaKm: 0.17, poblacion: 720, poblacionSinDuplicar: 720 },
-    { provincia: 'Huarochiri', distrito: 'Antioquia', sector: 'Sector Espiritu Santo', ficha: '158-2026-LDP-LIM', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DE LA QUEBRADA CHAMACHA, SECTOR ESPIRITU SANTO-TRAMO III, DISTRITO DE ANTIOQUIA, PROVINCIA DE HUAROCHIRI, DEPARTAMENTO DE LIMA', fechaInicio: '16/12/2026', fechaFin: '30/12/2026', metaVol: 10656.0, metaKm: 0.36, poblacion: 140, poblacionSinDuplicar: 140 },
+    { provincia: 'Lima', distrito: 'Chaclacayo', sector: 'Los Cóndores - Tributario N.° 03', ficha: '162-2026-LDP-LIM', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE TRIBUTARIO N.° 03 (TRAMO 1) DE LA QUEBRADA LOS CÓNDORES, DISTRITO DE CHACLACAYO, PROVINCIA Y DEPARTAMENTO DE LIMA”. ', fechaInicio: '04/12/2026', fechaFin: '16/12/2026', metaVol: 2475.0, metaKm: 0.17, poblacion: 720, poblacionSinDuplicar: 720 },
   ],
 
   puntosCriticos: [
