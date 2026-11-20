@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "20/11/2026",
-    "horaCorte": "10:12",
+    "horaCorte": "10:43",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "9454",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Jauja",
-      "distrito": "Julcan",
-      "sector": "Río Yacus",
-      "ficha": "021-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL CAUCE DEL RIO YACUS DE LA PROG. 0+000 A LA PROG. 0+540 AMBAS MARGENES, EN LA ZONA URBANA DEL DISTRITO DE JULCAN, PROVINCIA DE JAUJA, REGION JUNIN\"-00",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "14/10/2026",
-      "fechaFin": "07/11/2026",
-      "diasAtraso": 13
-    },
-    {
-      "n": 2,
       "idIntervencion": "10633",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -45,7 +26,7 @@
       "diasAtraso": 10
     },
     {
-      "n": 3,
+      "n": 2,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10534",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -81,6 +62,25 @@
       "fechaInicio": "05/11/2026",
       "fechaFin": "14/11/2026",
       "diasAtraso": 6
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10652",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Parque Del Niño",
+      "ficha": "169-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR PARQUE DEL NIÑO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "07/11/2026",
+      "fechaFin": "15/11/2026",
+      "diasAtraso": 5
     },
     {
       "n": 5,
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "10652",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Parque Del Niño",
-      "ficha": "169-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR PARQUE DEL NIÑO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "07/11/2026",
-      "fechaFin": "15/11/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 7,
       "idIntervencion": "10497",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -140,7 +121,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -159,7 +140,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "9460",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +159,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -197,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10220",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,26 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 12,
-      "idIntervencion": "10664",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Concepcion",
-      "distrito": "Matahuasi",
-      "sector": "Zona Urbana",
-      "ficha": "075-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO DEL RÍO SECO, DE LA PROG. 0+000 A LA PROG. 3+999.80 EN AMBAS MÁRGENES, EN LA ZONA URBANA DEL DISTRITO DE MATAHUASI, PROVINCIA DE CONCEPCIÓN, REGIÓN JUNÍN",
-      "marcoLegal": "CONVENIO 21-2022-VIVIENDA-VMVU-PNC - ADENDA 04",
-      "fechaInicio": "03/11/2026",
-      "fechaFin": "17/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 13,
+      "n": 11,
       "idIntervencion": "9738",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +216,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 14,
+      "n": 12,
       "idIntervencion": "10694",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -273,26 +235,26 @@
       "diasAtraso": 2
     },
     {
-      "n": 15,
-      "idIntervencion": "10708",
+      "n": 13,
+      "idIntervencion": "10543",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "San Roman",
-      "distrito": "Cabanillas",
-      "sector": "Chillo",
-      "ficha": "FTI N° 081-2026-MTVU-PUN",
-      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
-      "fechaInicio": "13/11/2026",
+      "tipo": "EMERGENCIA",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Sanchez Carrion",
+      "distrito": "Huamachuco",
+      "sector": "Los Pajaritos",
+      "ficha": "080-2026-LD-E-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "11/11/2026",
       "fechaFin": "19/11/2026",
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 14,
       "idIntervencion": "10684",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -311,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
+      "n": 15,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -330,21 +292,21 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
-      "idIntervencion": "10543",
+      "n": 16,
+      "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Sanchez Carrion",
-      "distrito": "Huamachuco",
-      "sector": "Los Pajaritos",
-      "ficha": "080-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "11/11/2026",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "San Roman",
+      "distrito": "Cabanillas",
+      "sector": "Chillo",
+      "ficha": "FTI N° 081-2026-MTVU-PUN",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
+      "fechaInicio": "13/11/2026",
       "fechaFin": "19/11/2026",
       "diasAtraso": 1
     }
