@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "20/11/2026",
-    "horaCorte": "10:43",
+    "horaCorte": "11:13",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,6 +27,25 @@
     },
     {
       "n": 2,
+      "idIntervencion": "10641",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho",
+      "sector": "Asecur Tramo Iii",
+      "ficha": "150-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES SECOS DEL CAUCE EN LOS AFLUENTES DE LA QUEBRADA VIZCACHERA, AFLUENTE 11, SECTOR ASECUR TRAMO III, DISTRITO DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA.”",
+      "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC",
+      "fechaInicio": "27/10/2026",
+      "fechaFin": "10/11/2026",
+      "diasAtraso": 10
+    },
+    {
+      "n": 3,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -45,7 +64,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 3,
+      "n": 4,
       "idIntervencion": "10534",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,45 +83,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 4,
-      "idIntervencion": "10652",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Parque Del Niño",
-      "ficha": "169-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR PARQUE DEL NIÑO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "07/11/2026",
-      "fechaFin": "15/11/2026",
-      "diasAtraso": 5
-    },
-    {
       "n": 5,
-      "idIntervencion": "10678",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "Centro Poblado Chimburique",
-      "ficha": "N°079-2025-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "15/11/2026",
-      "diasAtraso": 5
-    },
-    {
-      "n": 6,
       "idIntervencion": "10497",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -121,7 +102,45 @@
       "diasAtraso": 5
     },
     {
+      "n": 6,
+      "idIntervencion": "10652",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Parque Del Niño",
+      "ficha": "169-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR PARQUE DEL NIÑO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "07/11/2026",
+      "fechaFin": "15/11/2026",
+      "diasAtraso": 5
+    },
+    {
       "n": 7,
+      "idIntervencion": "10678",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "La Coipa",
+      "sector": "Centro Poblado Chimburique",
+      "ficha": "N°079-2025-RLEU-AMZ",
+      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
+      "fechaInicio": "27/10/2026",
+      "fechaFin": "15/11/2026",
+      "diasAtraso": 5
+    },
+    {
+      "n": 8,
       "idIntervencion": "10463",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -140,7 +159,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 8,
+      "n": 9,
       "idIntervencion": "9460",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -159,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "9456",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10220",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -195,25 +214,6 @@
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
       "diasAtraso": 3
-    },
-    {
-      "n": 11,
-      "idIntervencion": "9738",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Chaclacayo",
-      "sector": "Los Condores",
-      "ficha": "014-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA LOS CÓNDORES TRAMO 1, DISTRITO DE CHACLACAYO, DEPARTAMENTO Y PROVINCIA DE LIMA”.",
-      "marcoLegal": "ADENDA Nº 2 DEL CONVENIO Nº 0008-2024-VIVIENDA",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "18/11/2026",
-      "diasAtraso": 2
     },
     {
       "n": 12,
