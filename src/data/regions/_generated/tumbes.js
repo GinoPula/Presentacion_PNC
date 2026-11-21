@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 11, m3: 40395.25, km: 7.66, poblacion: 9727, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
-    { tipo: 'Prevención', cantidad: 29, m3: 109666.95, km: 15.06, poblacion: 34356, provincias: ['Contralmirante Villar', 'Tumbes'] },
+    { tipo: 'Emergencia', cantidad: 12, m3: 47719.45, km: 17.05, poblacion: 11243, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
+    { tipo: 'Prevención', cantidad: 30, m3: 110116.95, km: 15.26, poblacion: 34508, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 15, m3: 9315.0, km: null, poblacion: 20456, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 55, m3: 159377.2, m3AguaPotable: 9315.0, km: 22.72, poblacion: 64539 },
+  ejecutadasTotal: { cantidad: 57, m3: 167151.4, m3AguaPotable: 9315.0, km: 32.31, poblacion: 66207 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '23/10/2026', fin: '21/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1356, poblacionSinDuplicar: 1356 },
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1385, poblacionSinDuplicar: 1385 },
-    { provincia: 'Contralmirante Villar', distrito: 'Casitas', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS Y RECUPERACIÓN DE LA TRANSITABILIDAD EN LOS CENTROS POBLADOS CAÑAVERAL - LA CHOZA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', inicio: '05/11/2026', fin: '19/11/2026', volAcum: 1750.0, kmAcum: 2.25, poblacion: 1516, poblacionSinDuplicar: 1516 },
     { provincia: 'Contralmirante Villar', distrito: 'Zorritos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA COSTA VERDE, EN EL SECTOR SÁNCHEZ CARRIÓN DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', inicio: '17/11/2026', fin: '21/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1031, poblacionSinDuplicar: 1031 },
     { provincia: 'Contralmirante Villar', distrito: 'Casitas', tipo: 'Emergencia', descripcion: ' ATENCIÓN DE LA TRANSITABILIDAD DE LA VÍA EN LOS SECTORES MANUEL OTERO - BELLA VISTA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES ', inicio: '20/11/2026', fin: '26/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1516, poblacionSinDuplicar: 1516 },
   ],
