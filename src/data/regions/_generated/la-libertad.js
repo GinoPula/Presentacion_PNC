@@ -47,10 +47,9 @@ export default {
     { provincia: 'Santiago De Chuco', distrito: 'Sitabamba', sector: 'Chagabara', fichaTecnica: '081-2026-LD-E-LIB', descripcion: ' LIMPIEZA Y DESCOLMATACION PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA CHAGAVARA CHICA, SECTOR CHAGABARA, DISTRITO DE SITABAMBA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD DS180-P            ', estado: 'Programada', mes: 'Noviembre', metaKm: 0.17, metaVol: 649.0, poblacion: 80 },
   ],
 
-  conveniosCount: 4,
+  conveniosCount: 3,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'hasta 29/09/2027' },
-    { entidad: 'Municipalidad Provincial Ascope', detail: 'vence 20/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Pacasmayo', detail: 'hasta 27/04/2027' },
     { entidad: 'Municipalidad Provincial Gran Chimu', detail: 'hasta 15/10/2027' },
   ],

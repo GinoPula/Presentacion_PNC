@@ -37,10 +37,10 @@ export default {
   puntosCriticos: [
   ],
 
-  conveniosCount: 14,
+  conveniosCount: 13,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial', detail: '3 convenios vigentes' },
-    { entidad: 'Municipalidad Distrital', detail: '11 convenios vigentes' },
+    { entidad: 'Municipalidad Distrital', detail: '10 convenios vigentes' },
   ],
 
   flota: [
