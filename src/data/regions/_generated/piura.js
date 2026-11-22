@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 22, m3: 139557.53, km: 32.53, poblacion: 31538, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 32, m3: 174102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
-    { tipo: 'Urgente atención', cantidad: 11, m3: 37162.5, km: 30.95, poblacion: 15805, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Urgente atención', cantidad: 12, m3: 40579.2, km: 35.83, poblacion: 16305, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 65, m3: 350822.43, m3AguaPotable: 300.0, km: 119.83, poblacion: 176440 },
+  ejecutadasTotal: { cantidad: 66, m3: 354239.13, m3AguaPotable: 300.0, km: 124.71, poblacion: 176940 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,8 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'El Carmen De La Frontera', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO CRUCE CP. SALALA - GUARGUAR - INGRESO LAGUNA SHIMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN DE PIURA', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 3130.0, kmAcum: 4.4, poblacion: 500, poblacionSinDuplicar: 500 },
-    { provincia: 'Sechura', distrito: 'Sechura', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA ZONA URBANA DEL DREN SECHURA-TRAMO CHULLIYACHI, (PROG. KM 8+200 – KM 05+700), DISTRITO DE SECHURA, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA', inicio: '29/10/2026', fin: '24/11/2026', volAcum: 8350.0, kmAcum: 1.5, poblacion: 14000, poblacionSinDuplicar: 14000 },
+    { provincia: 'Sechura', distrito: 'Sechura', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA ZONA URBANA DEL DREN SECHURA-TRAMO CHULLIYACHI, (PROG. KM 8+200 – KM 05+700), DISTRITO DE SECHURA, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA', inicio: '29/10/2026', fin: '24/11/2026', volAcum: 10200.0, kmAcum: 1.94, poblacion: 14000, poblacionSinDuplicar: 14000 },
     { provincia: 'Talara', distrito: 'Mancora', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL SEDIMENTADO DEL CANAL VIA PRIMERO DE MAYO – DISTRITO DE MANCORA – PROVINCIA DE TALARA – DEPARTAMENTO DE PIURA   ', inicio: '07/11/2026', fin: '25/11/2026', volAcum: 1875.0, kmAcum: 0.53, poblacion: 14000, poblacionSinDuplicar: 14000 },
     { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', inicio: '11/11/2026', fin: '12/12/2026', volAcum: 2550.0, kmAcum: 0.04, poblacion: 900, poblacionSinDuplicar: 900 },
     { provincia: 'Morropon', distrito: 'Santo Domingo', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN LA VIA DEL TRAMO BOTIJAS - SAN PEDRO, DEL DISTRITO DE SANTO DOMINGO, PROVINCIA DE MORROPON-PIURA ', inicio: '14/11/2026', fin: '05/12/2026', volAcum: 900.0, kmAcum: 0.37, poblacion: 300, poblacionSinDuplicar: 300 },

@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "22/11/2026",
-    "horaCorte": "09:27",
+    "horaCorte": "09:57",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -383,8 +383,8 @@
       "fechaInicio": "12/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "TRACTOR SOBRE ORUGA ( J8B05104)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "CAMIONETA ( EGL-971)",
         "REMOLCADOR ( EGO-046)"
       ]
@@ -404,11 +404,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-771)",
+        "REMOLCADOR ( EGO-046)",
         "EXCAVADORA HIDRAULICA ( D810408)",
         "CAMIONETA ( EGL-971)",
+        "VOLQUETE ( EGM-771)",
         "VOLQUETE ( EGM-809)",
-        "REMOLCADOR ( EGO-046)",
         "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "CARGADOR FRONTAL ( JLX00213)"
       ]
@@ -488,11 +488,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-774)",
+        "VOLQUETE ( EGV-848)",
         "CARGADOR FRONTAL ( JLX00219)",
         "RODILLO COMPACTADOR ( H1762462)",
-        "VOLQUETE ( EGV-835)",
-        "VOLQUETE ( EGV-848)"
+        "VOLQUETE ( EGV-774)",
+        "VOLQUETE ( EGV-835)"
       ]
     },
     {
@@ -682,9 +682,9 @@
       "fechaInicio": "09/11/2026",
       "fechaFin": "23/11/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( D001612)",
         "VOLQUETE ( EGV-796)",
-        "VOLQUETE ( EGM-832)",
-        "CARGADOR FRONTAL ( D001612)"
+        "VOLQUETE ( EGM-832)"
       ]
     },
     {
@@ -797,9 +797,9 @@
       "fechaInicio": "29/10/2026",
       "fechaFin": "21/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10120)",
         "VOLQUETE ( EGN-497)",
-        "VOLQUETE ( EGV-775)"
+        "VOLQUETE ( EGV-775)",
+        "EXCAVADORA HIDRAULICA ( TJT10120)"
       ]
     },
     {
@@ -835,10 +835,10 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-768)",
         "VOLQUETE ( EGM-834)",
-        "EXCAVADORA HIDRAULICA ( A10891)",
-        "CARGADOR FRONTAL ( JLX00293)"
+        "VOLQUETE ( EGV-768)",
+        "CARGADOR FRONTAL ( JLX00293)",
+        "EXCAVADORA HIDRAULICA ( A10891)"
       ]
     },
     {
@@ -876,8 +876,8 @@
       "fechaInicio": "12/11/2026",
       "fechaFin": "21/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-567)",
-        "EXCAVADORA HIDRAULICA ( A10875)"
+        "EXCAVADORA HIDRAULICA ( A10875)",
+        "VOLQUETE ( EGN-567)"
       ]
     },
     {
@@ -895,8 +895,8 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "22/11/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00206)",
-        "EXCAVADORA HIDRAULICA ( A10910)"
+        "EXCAVADORA HIDRAULICA ( A10910)",
+        "CARGADOR FRONTAL ( JLX00206)"
       ]
     },
     {
@@ -992,27 +992,6 @@
     },
     {
       "n": 52,
-      "idIntervencion": "10689",
-      "departamento": "PIURA",
-      "deptoLabel": "Piura",
-      "regionId": "piura",
-      "provincia": "Huancabamba",
-      "distrito": "El Carmen De La Frontera",
-      "sector": "Salala",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO EXTRAORDINARIO N°014-2026-MDCF/CM",
-      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD EN LAS VÍAS DE ACCESO DEL TRAMO DESVÍO CRUCE CP. SALALA - GUARGUAR - INGRESO LAGUNA SHIMBE, EN EL DISTRITO DE EL CARMEN DE LA FRONTERA, PROVINCIA DE HUANCABAMBA, REGIÓN DE PIURA",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "24/11/2026",
-      "maquinaria": [
-        "MOTONIVELADORA ( SZL03374)",
-        "VOLQUETE ( EGV-809)",
-        "CARGADOR FRONTAL ( D001578)",
-        "VOLQUETE ( EGV-807)"
-      ]
-    },
-    {
-      "n": 53,
       "idIntervencion": "10550",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1032,7 +1011,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 53,
       "idIntervencion": "10712",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1050,7 +1029,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 54,
       "idIntervencion": "10690",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1065,13 +1044,13 @@
       "fechaFin": "24/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( 810139)",
-        "VOLQUETE ( EAJ-390)",
         "VOLQUETE ( EAJ-455)",
-        "CARGADOR FRONTAL ( D001580)"
+        "CARGADOR FRONTAL ( D001580)",
+        "VOLQUETE ( EAJ-390)"
       ]
     },
     {
-      "n": 56,
+      "n": 55,
       "idIntervencion": "10707",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1091,7 +1070,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 56,
       "idIntervencion": "10192",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1107,7 +1086,7 @@
       "maquinaria": []
     },
     {
-      "n": 58,
+      "n": 57,
       "idIntervencion": "10708",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1123,7 +1102,7 @@
       "maquinaria": []
     },
     {
-      "n": 59,
+      "n": 58,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1137,15 +1116,15 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-867)",
         "VOLQUETE ( EGR-389)",
         "RODILLO COMPACTADOR ( H1762467)",
-        "VOLQUETE ( EGN-589)",
-        "CARGADOR FRONTAL ( 70J12945)"
+        "CARGADOR FRONTAL ( 70J12945)",
+        "VOLQUETE ( EGV-867)",
+        "VOLQUETE ( EGN-589)"
       ]
     },
     {
-      "n": 60,
+      "n": 59,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1163,7 +1142,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 60,
       "idIntervencion": "10666",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1177,12 +1156,12 @@
       "fechaInicio": "23/11/2026",
       "fechaFin": "28/11/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81435)",
-        "REMOLCADOR ( EGN-105)"
+        "REMOLCADOR ( EGN-105)",
+        "TRACTOR SOBRE ORUGA ( 81435)"
       ]
     },
     {
-      "n": 62,
+      "n": 61,
       "idIntervencion": "10186",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1198,12 +1177,12 @@
       "maquinaria": [
         "VOLQUETE ( EGV-816)",
         "VOLQUETE ( EGV-834)",
-        "REMOLCADOR ( EGN-105)",
-        "EXCAVADORA HIDRAULICA ( 810311)"
+        "EXCAVADORA HIDRAULICA ( 810311)",
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
-      "n": 63,
+      "n": 62,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1221,7 +1200,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 63,
       "idIntervencion": "10719",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1241,7 +1220,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 64,
       "idIntervencion": "10710",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1262,26 +1241,7 @@
       ]
     },
     {
-      "n": 66,
-      "idIntervencion": "10669",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "San Isidro",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "23/10/2026",
-      "fechaFin": "21/11/2026",
-      "maquinaria": [
-        "CAMIONETA ( EGM-052)",
-        "CAMION CISTERNA DE AGUA ( EGM-976)"
-      ]
-    },
-    {
-      "n": 67,
+      "n": 65,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1296,6 +1256,25 @@
       "fechaFin": "24/11/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGN-007)",
+        "CAMIONETA ( EGM-052)"
+      ]
+    },
+    {
+      "n": 66,
+      "idIntervencion": "10669",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "San Isidro",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "23/10/2026",
+      "fechaFin": "21/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGM-976)",
         "CAMIONETA ( EGM-052)"
       ]
     }
