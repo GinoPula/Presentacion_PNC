@@ -2124,25 +2124,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1hqOx2aUUiUC0BKujXJuhqKvoANCWHkMH/view?usp=drive_link"
   },
   {
-    "id": 9562,
-    "lat": -17.914887,
-    "lng": -70.055853,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Tacna",
-    "distrito": "Pachia",
-    "sector": "Higuerani",
-    "descripcion": "LIMPIEZA, ENCAUZAMIENTO Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR HIGUERANI, DISTRITO DE PACHIA , PROVINCIA DE TACNA,  REGION DE TACNA         ",
-    "ficha": "010-2026-LD-P-TAC",
-    "fechaInicio": "10/02/2026",
-    "fechaFin": "19/02/2026",
-    "poblacion": 200,
-    "poblacionSinDuplicar": 200,
-    "volumen": 6750,
-    "km": 0.35,
-    "enlace": "https://drive.google.com/file/d/1xWkAtzBBNAkgNx9uXKZw8NoUT_IWQ5kY/view?usp=drive_link"
-  },
-  {
     "id": 9163,
     "lat": -17.815533,
     "lng": -70.099262,
@@ -2160,6 +2141,25 @@ const mapaIntervenciones = {
     "volumen": 6750,
     "km": 0.15,
     "enlace": "https://drive.google.com/file/d/1QDc8o1w2_lhp4bhWPpFiVXDLIM1wMWY-/view?usp=drive_link"
+  },
+  {
+    "id": 9562,
+    "lat": -17.914887,
+    "lng": -70.055853,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Pachia",
+    "sector": "Higuerani",
+    "descripcion": "LIMPIEZA, ENCAUZAMIENTO Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR HIGUERANI, DISTRITO DE PACHIA , PROVINCIA DE TACNA,  REGION DE TACNA         ",
+    "ficha": "010-2026-LD-P-TAC",
+    "fechaInicio": "10/02/2026",
+    "fechaFin": "19/02/2026",
+    "poblacion": 200,
+    "poblacionSinDuplicar": 200,
+    "volumen": 6750,
+    "km": 0.35,
+    "enlace": "https://drive.google.com/file/d/1xWkAtzBBNAkgNx9uXKZw8NoUT_IWQ5kY/view?usp=drive_link"
   },
   {
     "id": 9909,
@@ -2862,6 +2862,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 200,
     "volumen": 4715,
     "km": 0.3,
+    "enlace": null
+  },
+  {
+    "id": 10186,
+    "lat": -17.815443,
+    "lng": -70.099261,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Tacna",
+    "distrito": "Pachia",
+    "sector": "Bocatoma Challata Ii Etapa",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR BOCATOMA CHALLATA II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA        ",
+    "ficha": "036-2026-LD-P-TAC",
+    "fechaInicio": "23/11/2026",
+    "fechaFin": "12/12/2026",
+    "poblacion": 2389,
+    "poblacionSinDuplicar": 2389,
+    "volumen": 7200,
+    "km": 0.15,
     "enlace": null
   }
 ],
