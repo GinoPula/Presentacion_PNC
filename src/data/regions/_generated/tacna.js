@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 7, m3: 37110.0, km: 2.08, poblacion: 4864, provincias: ['Tacna'] },
-    { tipo: 'Prevención', cantidad: 20, m3: 105095.0, km: 5.38, poblacion: 26553, provincias: ['Tacna'] },
+    { tipo: 'Prevención', cantidad: 21, m3: 114845.0, km: 5.68, poblacion: 36553, provincias: ['Tacna'] },
     { tipo: 'Urgente atención', cantidad: 11, m3: 13718.8, km: 14.56, poblacion: 5828, provincias: ['Tacna'] },
   ],
-  ejecutadasTotal: { cantidad: 38, m3: 155923.8, m3AguaPotable: 4561.8, km: 22.02, poblacion: 37245 },
+  ejecutadasTotal: { cantidad: 39, m3: 165673.8, m3AguaPotable: 4561.8, km: 22.32, poblacion: 47245 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Tacna', distrito: 'Sama', tipo: 'Urgente atención', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE SAMA Y ANEXOS - V ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA           ', inicio: '13/10/2026', fin: '30/11/2026', volAcum: 435.0, kmAcum: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', tipo: 'Emergencia', descripcion: 'DISTRIBUCION TEMPORAL DE AGUA PARA CONSUMO HUMANO PARA LA POBLACION DE INCLAN Y ANEXOS IV ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA           ', inicio: '20/10/2026', fin: '30/11/2026', volAcum: 315.0, kmAcum: 0.0, poblacion: 550, poblacionSinDuplicar: 550 },
-    { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO UCHUSUMA, SECTOR BOCATOMA CHUSCHUCO II ETAPA, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA                   ', inicio: '03/11/2026', fin: '22/11/2026', volAcum: 9750.0, kmAcum: 0.3, poblacion: 10000, poblacionSinDuplicar: 10000 },
     { provincia: 'Tacna', distrito: 'Pachia', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA    ', inicio: '23/11/2026', fin: '28/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 200, poblacionSinDuplicar: 200 },
   ],
 
