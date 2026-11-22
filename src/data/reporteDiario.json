@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "22/11/2026",
-    "horaCorte": "12:29",
+    "horaCorte": "13:00",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -383,9 +383,9 @@
       "fechaInicio": "12/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( J8B05104)",
         "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "CAMIONETA ( EGL-971)",
+        "TRACTOR SOBRE ORUGA ( J8B05104)",
         "REMOLCADOR ( EGO-046)"
       ]
     },
@@ -404,13 +404,13 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-809)",
+        "CARGADOR FRONTAL ( JLX00213)",
         "EXCAVADORA HIDRAULICA ( D810408)",
-        "CAMIONETA ( EGL-971)",
         "VOLQUETE ( EGM-771)",
+        "CAMIONETA ( EGL-971)",
+        "VOLQUETE ( EGM-809)",
         "REMOLCADOR ( EGO-046)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
-        "CARGADOR FRONTAL ( JLX00213)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
       ]
     },
     {
@@ -488,11 +488,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-835)",
-        "CARGADOR FRONTAL ( JLX00219)",
-        "RODILLO COMPACTADOR ( H1762462)",
         "VOLQUETE ( EGV-774)",
-        "VOLQUETE ( EGV-848)"
+        "VOLQUETE ( EGV-835)",
+        "VOLQUETE ( EGV-848)",
+        "RODILLO COMPACTADOR ( H1762462)",
+        "CARGADOR FRONTAL ( JLX00219)"
       ]
     },
     {
@@ -575,6 +575,22 @@
     },
     {
       "n": 30,
+      "idIntervencion": "10587",
+      "departamento": "ICA",
+      "deptoLabel": "Ica",
+      "regionId": "ica",
+      "provincia": "Ica",
+      "distrito": "San Jose De Los Molinos",
+      "sector": "Quebrada Huamaní",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R",
+      "fechaInicio": "14/11/2026",
+      "fechaFin": "20/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 31,
       "idIntervencion": "10583",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -595,22 +611,6 @@
         "TRACTOR SOBRE ORUGA ( 81386)",
         "VOLQUETE ( EGM-925)"
       ]
-    },
-    {
-      "n": 31,
-      "idIntervencion": "10587",
-      "departamento": "ICA",
-      "deptoLabel": "Ica",
-      "regionId": "ica",
-      "provincia": "Ica",
-      "distrito": "San Jose De Los Molinos",
-      "sector": "Quebrada Huamaní",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R",
-      "fechaInicio": "14/11/2026",
-      "fechaFin": "20/11/2026",
-      "maquinaria": []
     },
     {
       "n": 32,
@@ -682,9 +682,9 @@
       "fechaInicio": "09/11/2026",
       "fechaFin": "23/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EGM-832)",
         "CARGADOR FRONTAL ( D001612)",
-        "VOLQUETE ( EGV-796)",
-        "VOLQUETE ( EGM-832)"
+        "VOLQUETE ( EGV-796)"
       ]
     },
     {
@@ -837,8 +837,8 @@
       "maquinaria": [
         "VOLQUETE ( EGM-834)",
         "VOLQUETE ( EGV-768)",
-        "CARGADOR FRONTAL ( JLX00293)",
-        "EXCAVADORA HIDRAULICA ( A10891)"
+        "EXCAVADORA HIDRAULICA ( A10891)",
+        "CARGADOR FRONTAL ( JLX00293)"
       ]
     },
     {
@@ -857,8 +857,8 @@
       "fechaFin": "24/11/2026",
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( J8B05106)",
-        "CARGADOR FRONTAL ( D001610)",
-        "VOLQUETE ( EGV-825)"
+        "VOLQUETE ( EGV-825)",
+        "CARGADOR FRONTAL ( D001610)"
       ]
     },
     {
@@ -900,43 +900,6 @@
     },
     {
       "n": 47,
-      "idIntervencion": "10660",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "San Martin De Porres",
-      "sector": "Chuquitanta-tramo 02",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 01 AL CONVENIO Nº 52-2025-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "11/11/2026",
-      "fechaFin": "22/11/2026",
-      "maquinaria": [
-        "CARGADOR FRONTAL ( JLX00206)",
-        "EXCAVADORA HIDRAULICA ( A10910)"
-      ]
-    },
-    {
-      "n": 48,
-      "idIntervencion": "10659",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "San Martin De Porres",
-      "sector": "Chuquitanta-tramo 01",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N° 01 AL CONVENIO Nº 52-2025-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 01, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "04/11/2026",
-      "fechaFin": "10/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10910)"
-      ]
-    },
-    {
-      "n": 49,
       "idIntervencion": "9412",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -954,7 +917,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 48,
       "idIntervencion": "9408",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -972,7 +935,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 49,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -991,7 +954,7 @@
       ]
     },
     {
-      "n": 52,
+      "n": 50,
       "idIntervencion": "10668",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -1009,7 +972,7 @@
       ]
     },
     {
-      "n": 53,
+      "n": 51,
       "idIntervencion": "10550",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1029,7 +992,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 52,
       "idIntervencion": "10712",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1047,7 +1010,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 53,
       "idIntervencion": "10690",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1062,13 +1025,13 @@
       "fechaFin": "24/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( 810139)",
+        "VOLQUETE ( EAJ-390)",
         "VOLQUETE ( EAJ-455)",
-        "CARGADOR FRONTAL ( D001580)",
-        "VOLQUETE ( EAJ-390)"
+        "CARGADOR FRONTAL ( D001580)"
       ]
     },
     {
-      "n": 56,
+      "n": 54,
       "idIntervencion": "10707",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -1088,7 +1051,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 55,
       "idIntervencion": "10192",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1104,7 +1067,7 @@
       "maquinaria": []
     },
     {
-      "n": 58,
+      "n": 56,
       "idIntervencion": "10708",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1120,7 +1083,7 @@
       "maquinaria": []
     },
     {
-      "n": 59,
+      "n": 57,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1134,15 +1097,15 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EGN-589)",
         "VOLQUETE ( EGR-389)",
         "RODILLO COMPACTADOR ( H1762467)",
         "CARGADOR FRONTAL ( 70J12945)",
-        "VOLQUETE ( EGN-589)",
         "VOLQUETE ( EGV-867)"
       ]
     },
     {
-      "n": 60,
+      "n": 58,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1160,7 +1123,7 @@
       ]
     },
     {
-      "n": 61,
+      "n": 59,
       "idIntervencion": "10666",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1174,12 +1137,12 @@
       "fechaInicio": "23/11/2026",
       "fechaFin": "28/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
-        "TRACTOR SOBRE ORUGA ( 81435)"
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
-      "n": 62,
+      "n": 60,
       "idIntervencion": "10186",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1200,7 +1163,7 @@
       ]
     },
     {
-      "n": 63,
+      "n": 61,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1218,7 +1181,7 @@
       ]
     },
     {
-      "n": 64,
+      "n": 62,
       "idIntervencion": "10719",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1238,7 +1201,7 @@
       ]
     },
     {
-      "n": 65,
+      "n": 63,
       "idIntervencion": "10710",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1259,7 +1222,7 @@
       ]
     },
     {
-      "n": 66,
+      "n": 64,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1278,7 +1241,7 @@
       ]
     },
     {
-      "n": 67,
+      "n": 65,
       "idIntervencion": "10669",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",

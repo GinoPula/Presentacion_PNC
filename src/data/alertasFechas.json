@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "22/11/2026",
-    "horaCorte": "12:29",
+    "horaCorte": "13:00",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10659",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "San Martin De Porres",
-      "sector": "Chuquitanta-tramo 01",
-      "ficha": "152-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 01, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.",
-      "marcoLegal": "ADENDA N° 01 AL CONVENIO Nº 52-2025-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "04/11/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 12
-    },
-    {
-      "n": 3,
       "idIntervencion": "10499",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 10
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10678",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +64,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "9460",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -100,6 +81,25 @@
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
       "diasAtraso": 5
+    },
+    {
+      "n": 5,
+      "idIntervencion": "10708",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "San Roman",
+      "distrito": "Cabanillas",
+      "sector": "Chillo",
+      "ficha": "FTI N° 081-2026-MTVU-PUN",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
+      "fechaInicio": "13/11/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 3
     },
     {
       "n": 6,
@@ -122,25 +122,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10708",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "San Roman",
-      "distrito": "Cabanillas",
-      "sector": "Chillo",
-      "ficha": "FTI N° 081-2026-MTVU-PUN",
-      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
-      "fechaInicio": "13/11/2026",
-      "fechaFin": "19/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 8,
       "idIntervencion": "5977",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -156,6 +137,25 @@
       "marcoLegal": "CONVENIO Nº010-2022-ADENDA 01 / PLIA",
       "fechaInicio": "20/11/2026",
       "fechaFin": "19/12/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 8,
+      "idIntervencion": "10727",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Yucarica Y Sector El Choloque.",
+      "ficha": "N°083-2026-RLEU-AMZ",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
+      "fechaInicio": "20/11/2026",
+      "fechaFin": "04/12/2026",
       "diasAtraso": 2
     },
     {
@@ -179,25 +179,6 @@
     },
     {
       "n": 10,
-      "idIntervencion": "10727",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Yucarica Y Sector El Choloque.",
-      "ficha": "N°083-2026-RLEU-AMZ",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
-      "fechaInicio": "20/11/2026",
-      "fechaFin": "04/12/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 11,
       "idIntervencion": "10710",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10537",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10624",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10669",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10696",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

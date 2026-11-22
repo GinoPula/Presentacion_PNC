@@ -9948,15 +9948,15 @@ const mapaIntervenciones = {
     "id": 10660,
     "lat": -11.949689,
     "lng": -77.099463,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Prevención",
     "provincia": "Lima",
     "distrito": "San Martin De Porres",
     "sector": "Chuquitanta-Tramo 02",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.  ",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES EN LA MARGEN IZQUIERDA EN EL CAUCE DEL RÍO CHILLÓN, SECTOR CHUQUITANTA-TRAMO 02, DISTRITO DE SAN MARTÍN DE PORRES, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”.   ",
     "ficha": "153-2026-LDP-LIM",
     "fechaInicio": "11/11/2026",
-    "fechaFin": "22/11/2026",
+    "fechaFin": "19/11/2026",
     "poblacion": 1274,
     "poblacionSinDuplicar": 1274,
     "volumen": 9110,
@@ -9978,8 +9978,8 @@ const mapaIntervenciones = {
     "fechaFin": "25/11/2026",
     "poblacion": 400,
     "poblacionSinDuplicar": 400,
-    "volumen": 900,
-    "km": 0.03,
+    "volumen": 3570,
+    "km": 0.119,
     "enlace": null
   },
   {
@@ -9997,8 +9997,8 @@ const mapaIntervenciones = {
     "fechaFin": "21/11/2026",
     "poblacion": 484,
     "poblacionSinDuplicar": 484,
-    "volumen": 900,
-    "km": 0.062,
+    "volumen": 1144,
+    "km": 0.076,
     "enlace": null
   },
   {
@@ -10054,8 +10054,8 @@ const mapaIntervenciones = {
     "fechaFin": "03/12/2026",
     "poblacion": 720,
     "poblacionSinDuplicar": 720,
-    "volumen": 3200,
-    "km": 0.16,
+    "volumen": 0,
+    "km": 0,
     "enlace": null
   },
   {
