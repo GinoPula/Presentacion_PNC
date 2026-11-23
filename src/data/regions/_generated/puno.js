@@ -24,21 +24,19 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Azangaro', distrito: 'Muñani', cantidad: 1, metaVol: 7282.8, metaKm: 3.47, poblacion: 245 },
-    { provincia: 'Huancane', distrito: 'Huancane', cantidad: 1, metaVol: 24840.0, metaKm: 4.6, poblacion: 500 },
+    { provincia: 'Huancane', distrito: 'Rosaspata', cantidad: 1, metaVol: 3654.0, metaKm: 1.4, poblacion: 136 },
     { provincia: 'San Roman', distrito: 'Cabana', cantidad: 1, metaVol: 6235.0, metaKm: 2.9, poblacion: 350 },
     { provincia: 'San Roman', distrito: 'Cabanillas', cantidad: 1, metaVol: 5709.6, metaKm: 2.38, poblacion: 40 },
     { provincia: 'San Roman', distrito: 'San Miguel', cantidad: 1, metaVol: 11664.0, metaKm: 2.43, poblacion: 150 },
-    { provincia: 'Yunguyo', distrito: 'Unicachi', cantidad: 1, metaVol: 11400.0, metaKm: 1.9, poblacion: 160 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 67131.4, metaKm: 17.68, poblacion: 1445 },
+  programadasTotal: { cantidad: 5, metaVol: 34545.4, metaKm: 12.58, poblacion: 921 },
 
   programadasDetalle: [
     { provincia: 'Azangaro', distrito: 'Muñani', sector: 'Muñani Chico', ficha: 'FTI N° 037-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RÍO HUARPO EN LA COMUNIDAD DE MUÑANI CHICO, SECTOR HUARPO- VILMOCCO, DISTRITO DE MUÑANI, PROVINCIA DE AZÁNGARO, DEPAR-TAMENTO PUNO             ', fechaInicio: '26/11/2026', fechaFin: '06/12/2026', metaVol: 7282.8, metaKm: 3.47, poblacion: 245, poblacionSinDuplicar: 245 },
     { provincia: 'San Roman', distrito: 'Cabana', sector: 'Fundicion', ficha: 'FTI N° 017-2026-LDP-PUN', descripcion: 'REFORZAMIENTO DE TALUD IZQUIERDO DEL CAUCE DEL RIO ILLPA, EN EL SECTOR FUNDICION, DISTRITO DE CABANA, PROVINCIA SAN ROMAN, REGION PUNO      ', fechaInicio: '30/11/2026', fechaFin: '06/12/2026', metaVol: 6235.0, metaKm: 2.9, poblacion: 350, poblacionSinDuplicar: 350 },
     { provincia: 'San Roman', distrito: 'Cabanillas', sector: 'Huataquita - Chillo', ficha: 'FTI N°020-2026-LDE-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL RIO CHILLO EN LA COMUNIDAD DE HUATAQUITA - CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO        ', fechaInicio: '01/12/2026', fechaFin: '10/12/2026', metaVol: 5709.6, metaKm: 2.38, poblacion: 40, poblacionSinDuplicar: 40 },
+    { provincia: 'Huancane', distrito: 'Rosaspata', sector: 'Cahuaya', ficha: 'FTI N° 040-2026-LDE-PUN', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIACHUELO CAHUAYA, EN LA LOCALIDAD DE CAHUAYA DEL DISTRITO DE ROSASPATA DE LA PROVINCIA DE HUANCANÉ - PUNO\n   ', fechaInicio: '02/12/2026', fechaFin: '06/12/2026', metaVol: 3654.0, metaKm: 1.4, poblacion: 136, poblacionSinDuplicar: 136 },
     { provincia: 'San Roman', distrito: 'San Miguel', sector: 'Paucarcolla', ficha: 'FTI N°019-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL RIO COATA DEL DISTRITO DE SAN MIGUEL - PROVINCIA DE SAN ROMAN - DEPARTAMENTO DE PUNO               ', fechaInicio: '03/12/2026', fechaFin: '12/12/2026', metaVol: 11664.0, metaKm: 2.43, poblacion: 150, poblacionSinDuplicar: 150 },
-    { provincia: 'Yunguyo', distrito: 'Unicachi', sector: 'Apacheta Y Patscachi', ficha: 'FTI N° 063-2026-LDP-PUN', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL RIO UNICACHI EN LOS SECTORES APACHETA Y PATSCACHI DEL DISTRITO DE UNICACHI, PROVINCIA DE YUNGUYO, DEPARTAMENTO DE PUNO-00         ', fechaInicio: '05/12/2026', fechaFin: '16/12/2026', metaVol: 11400.0, metaKm: 1.9, poblacion: 160, poblacionSinDuplicar: 160 },
-    { provincia: 'Huancane', distrito: 'Huancane', sector: 'Quishuarani Y Machacmarca', ficha: 'FTI N° 040-2026-LDP-PUN', descripcion: ' REFORZAMIENTO DE TALUD DEL MARGEN DERECHO DEL RIO HUANCANÉ EN LAS LOCALI-DADES DE QUISHUARANI Y MACHACMARCA DEL DISTRITO DE HUANCANÉ, PROVINCIA DE HUANCANÉ, DEPARTAMENTO DE PUNO           ', fechaInicio: '12/12/2026', fechaFin: '26/12/2026', metaVol: 24840.0, metaKm: 4.6, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
 
   puntosCriticos: [
