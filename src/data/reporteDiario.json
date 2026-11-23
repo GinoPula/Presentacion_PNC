@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/11/2026",
-    "horaCorte": "17:28",
+    "horaCorte": "17:59",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -42,6 +42,22 @@
     },
     {
       "n": 3,
+      "idIntervencion": "10557",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Tambo Real",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
+      "fechaInicio": "18/11/2026",
+      "fechaFin": "05/12/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 4,
       "idIntervencion": "10462",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -60,22 +76,6 @@
         "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10129)"
       ]
-    },
-    {
-      "n": 4,
-      "idIntervencion": "10557",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Tambo Real",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
-      "fechaInicio": "18/11/2026",
-      "fechaFin": "05/12/2026",
-      "maquinaria": []
     },
     {
       "n": 5,
@@ -120,18 +120,18 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10650",
+      "idIntervencion": "10647",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
       "regionId": "arequipa",
       "provincia": "Arequipa",
       "distrito": "Cayma",
-      "sector": "Complejo 11 De Mayo",
+      "sector": "Villa Paraiso Y Villa Continental",
       "tipo": "EMERGENCIA",
       "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR COMPLEJO 11 DE MAYO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "16/11/2026",
-      "fechaFin": "28/11/2026",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "05/11/2026",
+      "fechaFin": "26/11/2026",
       "maquinaria": []
     },
     {
@@ -168,18 +168,18 @@
     },
     {
       "n": 10,
-      "idIntervencion": "10647",
+      "idIntervencion": "10650",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
       "regionId": "arequipa",
       "provincia": "Arequipa",
       "distrito": "Cayma",
-      "sector": "Villa Paraiso Y Villa Continental",
+      "sector": "Complejo 11 De Mayo",
       "tipo": "EMERGENCIA",
       "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "05/11/2026",
-      "fechaFin": "26/11/2026",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR COMPLEJO 11 DE MAYO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "16/11/2026",
+      "fechaFin": "28/11/2026",
       "maquinaria": []
     },
     {
@@ -897,24 +897,6 @@
     },
     {
       "n": 47,
-      "idIntervencion": "9408",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "San Juan Bautista",
-      "sector": "Punchana",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "fechaInicio": "25/09/2026",
-      "fechaFin": "23/11/2026",
-      "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGQ-789)"
-      ]
-    },
-    {
-      "n": 48,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -933,7 +915,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 48,
       "idIntervencion": "10668",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -948,6 +930,24 @@
       "fechaFin": "03/12/2026",
       "maquinaria": [
         "CAMION CISTERNA DE AGUA ( EGO-773)"
+      ]
+    },
+    {
+      "n": 49,
+      "idIntervencion": "9408",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "San Juan Bautista",
+      "sector": "Punchana",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "INFORME TECNICO N° 090-2026-UPCDCYR-GSM-MDP",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "fechaInicio": "25/09/2026",
+      "fechaFin": "23/11/2026",
+      "maquinaria": [
+        "CAMION CISTERNA DE AGUA ( EGQ-789)"
       ]
     },
     {
@@ -1103,25 +1103,6 @@
     },
     {
       "n": 58,
-      "idIntervencion": "10666",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Pachia",
-      "sector": "Lateral Seminario Y Lateral Bocchio",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "28/11/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81435)",
-        "REMOLCADOR ( EGN-105)"
-      ]
-    },
-    {
-      "n": 59,
       "idIntervencion": "10186",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1139,6 +1120,25 @@
         "REMOLCADOR ( EGN-105)",
         "VOLQUETE ( EGV-834)",
         "VOLQUETE ( EGV-816)"
+      ]
+    },
+    {
+      "n": 59,
+      "idIntervencion": "10666",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Lateral Seminario Y Lateral Bocchio",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "28/11/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
