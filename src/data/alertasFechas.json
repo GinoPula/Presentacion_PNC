@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "22/11/2026",
-    "horaCorte": "23:39",
+    "fechaCorte": "23/11/2026",
+    "horaCorte": "00:10",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N°103-2026-CPJ/SO",
       "fechaInicio": "12/10/2026",
       "fechaFin": "10/11/2026",
-      "diasAtraso": 12
+      "diasAtraso": 13
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
       "fechaInicio": "09/09/2026",
       "fechaFin": "12/11/2026",
-      "diasAtraso": 10
+      "diasAtraso": 11
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
       "fechaInicio": "27/10/2026",
       "fechaFin": "15/11/2026",
-      "diasAtraso": 7
+      "diasAtraso": 8
     },
     {
       "n": 4,
@@ -80,29 +80,10 @@
       "marcoLegal": "CONVENIO 109-2025-VIVIENDA_VMVU_PNC",
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 5,
-      "idIntervencion": "10708",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "San Roman",
-      "distrito": "Cabanillas",
-      "sector": "Chillo",
-      "ficha": "FTI N° 081-2026-MTVU-PUN",
-      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
-      "fechaInicio": "13/11/2026",
-      "fechaFin": "19/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 6,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -118,7 +99,26 @@
       "marcoLegal": "CONVENIO Nº069-2025",
       "fechaInicio": "19/11/2026",
       "fechaFin": "29/11/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
+    },
+    {
+      "n": 6,
+      "idIntervencion": "10708",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "San Roman",
+      "distrito": "Cabanillas",
+      "sector": "Chillo",
+      "ficha": "FTI N° 081-2026-MTVU-PUN",
+      "descripcion": "MEJORAMIENTO DE TRANSITABILIDAD DE VÍA PARA DISTRIBUCIÓN DE AGUA POTABLE DEL SECTOR CHILLO, DISTRITO DE CABANILLAS, PROVINCIA DE SAN ROMÁN, DEPARTAMENTO DE PUNO",
+      "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
+      "fechaInicio": "13/11/2026",
+      "fechaFin": "19/11/2026",
+      "diasAtraso": 4
     },
     {
       "n": 7,
@@ -137,29 +137,10 @@
       "marcoLegal": "CONVENIO Nº010-2022-ADENDA 01 / PLIA",
       "fechaInicio": "20/11/2026",
       "fechaFin": "19/12/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 8,
-      "idIntervencion": "10727",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Yucarica Y Sector El Choloque.",
-      "ficha": "N°083-2026-RLEU-AMZ",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
-      "fechaInicio": "20/11/2026",
-      "fechaFin": "04/12/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 9,
       "idIntervencion": "10587",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -175,7 +156,26 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "14/11/2026",
       "fechaFin": "20/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
+    },
+    {
+      "n": 9,
+      "idIntervencion": "10727",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Yucarica Y Sector El Choloque.",
+      "ficha": "N°083-2026-RLEU-AMZ",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
+      "fechaInicio": "20/11/2026",
+      "fechaFin": "04/12/2026",
+      "diasAtraso": 3
     },
     {
       "n": 10,
@@ -194,7 +194,7 @@
       "marcoLegal": "CONVENIO Nº033-2026",
       "fechaInicio": "17/11/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 11,
@@ -213,7 +213,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "27/10/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 12,
@@ -232,7 +232,7 @@
       "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
       "fechaInicio": "29/10/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 13,
@@ -251,7 +251,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "12/11/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 14,
@@ -270,7 +270,7 @@
       "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
       "fechaInicio": "23/10/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 15,
@@ -289,6 +289,44 @@
       "marcoLegal": "ADENDA N° 03 AL CONVENIO N° 081-2023/VMVU/PNC.",
       "fechaInicio": "12/11/2026",
       "fechaFin": "21/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 16,
+      "idIntervencion": "10575",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Trujillo",
+      "distrito": "Huanchaco",
+      "sector": "Canal Norte",
+      "ficha": "074-2026-LD-P-LIB",
+      "descripcion": "CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD",
+      "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
+      "fechaInicio": "09/10/2026",
+      "fechaFin": "22/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 17,
+      "idIntervencion": "9412",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "Iquitos",
+      "sector": "Habilitacion Urbana Varillalito",
+      "ficha": "027-2026-LD-U-LOR",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
+      "fechaInicio": "03/11/2026",
+      "fechaFin": "22/11/2026",
       "diasAtraso": 1
     }
   ]
