@@ -2,10 +2,10 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 5, m3: 19770.0, km: 1.54, poblacion: 1620, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
+    { tipo: 'Emergencia', cantidad: 6, m3: 23970.0, km: 1.93, poblacion: 2120, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
     { tipo: 'Prevención', cantidad: 16, m3: 109966.96, km: 19.39, poblacion: 9330, provincias: ['Abancay', 'Andahuaylas', 'Aymaraes'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 129736.96, m3AguaPotable: 0.0, km: 20.93, poblacion: 10950 },
+  ejecutadasTotal: { cantidad: 22, m3: 133936.96, m3AguaPotable: 0.0, km: 21.32, poblacion: 11450 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".                      ', inicio: '15/10/2026', fin: '24/11/2026', volAcum: 5750.0, kmAcum: 0.55, poblacion: 50, poblacionSinDuplicar: 50 },
-    { provincia: 'Abancay', distrito: 'Abancay', tipo: 'Emergencia', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO MARGEN IZQUIERDA DE LA QUEBRADA PURUCHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+400, EN EL SECTOR AYMAS, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.          ', inicio: '27/10/2026', fin: '21/11/2026', volAcum: 3850.0, kmAcum: 0.36, poblacion: 500, poblacionSinDuplicar: 500 },
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00             ', inicio: '20/11/2026', fin: '10/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 650, poblacionSinDuplicar: 650 },
   ],
 

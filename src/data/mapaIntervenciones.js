@@ -1021,12 +1021,12 @@ const mapaIntervenciones = {
     "id": 10669,
     "lat": -3.60504,
     "lng": -80.480279,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Tumbes",
     "distrito": "Corrales",
     "sector": "San Isidro",
-    "descripcion": " ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ",
+    "descripcion": " ABASTECIMIENTO DE AGUA PARA EL CONSUMO HUMANO EN EL SECTOR DE SAN ISIDRO DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  ",
     "ficha": "076-2026-AA-U-TUM",
     "fechaInicio": "23/10/2026",
     "fechaFin": "21/11/2026",
@@ -1147,7 +1147,7 @@ const mapaIntervenciones = {
     "poblacion": 1031,
     "poblacionSinDuplicar": 1031,
     "volumen": 2200,
-    "km": 0.12,
+    "km": 0.11,
     "enlace": null
   },
   {
@@ -12120,19 +12120,19 @@ const mapaIntervenciones = {
     "id": 10537,
     "lat": -13.643296,
     "lng": -72.864495,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Emergencia",
     "provincia": "Abancay",
     "distrito": "Abancay",
     "sector": "Sector Aymas/Quebrada Puruchaca",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO MARGEN IZQUIERDA DE LA QUEBRADA PURUCHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+400, EN EL SECTOR AYMAS, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.          ",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO MARGEN IZQUIERDA DE LA QUEBRADA PURUCHACA, DE LA PROGRESIVA KM 0+000 AL KM 0+400, EN EL SECTOR AYMAS, DISTRITO DE ABANCAY, PROVINCIA DE ABANCAY, REGIÓN APURÍMAC”.           ",
     "ficha": "FTI N° 048-2026-LDE-APU",
     "fechaInicio": "27/10/2026",
     "fechaFin": "21/11/2026",
     "poblacion": 500,
     "poblacionSinDuplicar": 500,
-    "volumen": 3850,
-    "km": 0.36,
+    "volumen": 4200,
+    "km": 0.39,
     "enlace": null
   },
   {
@@ -12621,7 +12621,7 @@ const mapaIntervenciones = {
     "provincia": "Huamanga",
     "distrito": "Vinchos",
     "sector": "Arizona",
-    "descripcion": "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.              ",
+    "descripcion": "ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUE EN EL RÍO CACHI MARGEN DERECHO, TRAMO II; EN EL CENTRO POBLADO DE ARIZONA EN EL DISTRITO DE VINCHOS, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO.               ",
     "ficha": "42-2026-LD-PI-AYAC",
     "fechaInicio": "28/09/2026",
     "fechaFin": "12/10/2026",
@@ -12629,7 +12629,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 130,
     "volumen": 5625,
     "km": 0.6,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1D_Iw4oYmE5Nxsy6AvCoDZzeY0E_6HBMF"
   },
   {
     "id": 10600,
@@ -15582,8 +15582,8 @@ const mapaIntervenciones = {
     "fechaFin": "01/12/2026",
     "poblacion": 500,
     "poblacionSinDuplicar": 500,
-    "volumen": 6150,
-    "km": 0.82,
+    "volumen": 2166.36,
+    "km": 0.551,
     "enlace": null
   }
 ],
