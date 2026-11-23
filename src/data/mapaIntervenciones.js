@@ -13033,25 +13033,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1sB9RJSg-9SI1P8Dz7gKHkdLxk-ooFiNb/view?usp=drive_link"
   },
   {
-    "id": 9968,
-    "lat": -6.505026,
-    "lng": -78.292252,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Celendin",
-    "distrito": "Cortegana",
-    "sector": "Vista Alegre - C.P. Yagen",
-    "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO VISTA ALEGRE HASTA EL C.P. YAGEN, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
-    "ficha": "FTI N° 035-2026-MTV-U-CAJ",
-    "fechaInicio": "06/03/2026",
-    "fechaFin": "27/03/2026",
-    "poblacion": 1700,
-    "poblacionSinDuplicar": 1700,
-    "volumen": 2850.5,
-    "km": 9.1,
-    "enlace": null
-  },
-  {
     "id": 9665,
     "lat": -7.229149,
     "lng": -78.423568,
@@ -13069,6 +13050,25 @@ const mapaIntervenciones = {
     "volumen": 4500,
     "km": 0.5,
     "enlace": "https://drive.google.com/file/d/1_dpGw-Wc3pFgWP3oQkiyiXWvuiPICAR5/view?usp=drive_link"
+  },
+  {
+    "id": 9968,
+    "lat": -6.505026,
+    "lng": -78.292252,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Celendin",
+    "distrito": "Cortegana",
+    "sector": "Vista Alegre - C.P. Yagen",
+    "descripcion": "“MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE EL CASERÍO VISTA ALEGRE HASTA EL C.P. YAGEN, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
+    "ficha": "FTI N° 035-2026-MTV-U-CAJ",
+    "fechaInicio": "06/03/2026",
+    "fechaFin": "27/03/2026",
+    "poblacion": 1700,
+    "poblacionSinDuplicar": 1700,
+    "volumen": 2850.5,
+    "km": 9.1,
+    "enlace": null
   },
   {
     "id": 9967,
@@ -13098,7 +13098,7 @@ const mapaIntervenciones = {
     "provincia": "San Marcos",
     "distrito": "Eduardo Villanueva",
     "sector": "C.P. Aguas Calientes",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA YUNGUILLA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, EN EL CENTRO POBLADO DE AGUAS CALIENTES, DISTRITO DE EDUARDO VILLANUEVA, PROVINCIA DE SAN MARCOS, DEPARTAMENTO DE CAJAMARCA”.            ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE LA QUEBRADA YUNGUILLA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, EN EL CENTRO POBLADO DE AGUAS CALIENTES, DISTRITO DE EDUARDO VILLANUEVA, PROVINCIA DE SAN MARCOS, DEPARTAMENTO DE CAJAMARCA”.               ",
     "ficha": "FTI N° 022-2026-LD-PI-CAJ",
     "fechaInicio": "10/03/2026",
     "fechaFin": "26/03/2026",
@@ -13106,7 +13106,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 600,
     "volumen": 14080,
     "km": 0.8,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/11DWTBcKzJV-CPC0jGV0R4huHEof7B_yI/view?usp=drive_link"
   },
   {
     "id": 10012,
@@ -13147,25 +13147,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Le_7RIHr7ItaeTz3DCtuK3JsX3Ai4dsa/view?usp=drive_link"
   },
   {
-    "id": 10044,
-    "lat": -6.177059,
-    "lng": -78.919664,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "Callayuc",
-    "sector": "El Sallof - La Llangua",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO: EL SALLOF - LA LLANGUA, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.       ",
-    "ficha": "N°023-2026-MTVU-AMZ",
-    "fechaInicio": "16/03/2026",
-    "fechaFin": "06/05/2026",
-    "poblacion": 187,
-    "poblacionSinDuplicar": 187,
-    "volumen": 3855,
-    "km": 4.53,
-    "enlace": "https://drive.google.com/file/d/18-4_m7lxR7BLEQBqMkBn6Kz6tydOKLkk/view?usp=drive_link"
-  },
-  {
     "id": 10001,
     "lat": -5.327405,
     "lng": -78.93903,
@@ -13185,6 +13166,25 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1X6XuvJKPzFMyL-7NHxZyTPTHOV_pIDvL/view?usp=drive_link"
   },
   {
+    "id": 10044,
+    "lat": -6.177059,
+    "lng": -78.919664,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Cutervo",
+    "distrito": "Callayuc",
+    "sector": "El Sallof - La Llangua",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO: EL SALLOF - LA LLANGUA, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA”.       ",
+    "ficha": "N°023-2026-MTVU-AMZ",
+    "fechaInicio": "16/03/2026",
+    "fechaFin": "06/05/2026",
+    "poblacion": 187,
+    "poblacionSinDuplicar": 187,
+    "volumen": 3855,
+    "km": 4.53,
+    "enlace": "https://drive.google.com/file/d/18-4_m7lxR7BLEQBqMkBn6Kz6tydOKLkk/view?usp=drive_link"
+  },
+  {
     "id": 9664,
     "lat": -7.226883,
     "lng": -78.433544,
@@ -13193,7 +13193,7 @@ const mapaIntervenciones = {
     "provincia": "Cajamarca",
     "distrito": "Jesus",
     "sector": "Yanamango",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA CARGASHMAYO - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+530, CASERÍO YANAMANGO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA CARGASHMAYO - PARTE ALTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+530, CASERÍO YANAMANGO, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.      ",
     "ficha": "FTI N° 019-2026-LD-PI-CAJ",
     "fechaInicio": "18/03/2026",
     "fechaFin": "01/04/2026",
@@ -13201,7 +13201,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 525,
     "volumen": 5904,
     "km": 0.53,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1KM3fvSxJKHkHmZYGBTXvzZ-p8eprvg3z/view?usp=drive_link"
   },
   {
     "id": 10033,
@@ -13280,25 +13280,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/14ZpjpW27QHsAR2EbyqNII9yehTJSEXiU/view?usp=drive_link"
   },
   {
-    "id": 10078,
-    "lat": -6.512039,
-    "lng": -78.329601,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Celendin",
-    "distrito": "Cortegana",
-    "sector": "Cortegana - Andamachay",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.     ",
-    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
-    "fechaInicio": "31/03/2026",
-    "fechaFin": "17/04/2026",
-    "poblacion": 550,
-    "poblacionSinDuplicar": 550,
-    "volumen": 3528,
-    "km": 9.4,
-    "enlace": null
-  },
-  {
     "id": 10080,
     "lat": -6.033709,
     "lng": -78.861511,
@@ -13316,6 +13297,25 @@ const mapaIntervenciones = {
     "volumen": 3415,
     "km": 0,
     "enlace": "https://drive.google.com/file/d/1meR-gpNBM_U7ULPXy5hNQSKn2S5t7FLA/view?usp=drive_link"
+  },
+  {
+    "id": 10078,
+    "lat": -6.512039,
+    "lng": -78.329601,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Celendin",
+    "distrito": "Cortegana",
+    "sector": "Cortegana - Andamachay",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.       ",
+    "ficha": "FTI N° 038-2026-MTV-U-CAJ",
+    "fechaInicio": "31/03/2026",
+    "fechaFin": "17/04/2026",
+    "poblacion": 550,
+    "poblacionSinDuplicar": 550,
+    "volumen": 3528,
+    "km": 9.4,
+    "enlace": "https://drive.google.com/file/d/1aNRoJ-a1EvGqn6C0lWgC2MvzXFrZoJFu/view?usp=drive_link"
   },
   {
     "id": 10073,
@@ -13508,25 +13508,6 @@ const mapaIntervenciones = {
     "enlace": "https://drive.google.com/file/d/1Z0zzWU0G3a1FEOHBOu7jl40P_5cOFpoQ/view?usp=drive_link"
   },
   {
-    "id": 10215,
-    "lat": -5.38814,
-    "lng": -78.90893,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "La Coipa",
-    "sector": "La Copia - C.P. Rumipite",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
-    "ficha": "N°043-2026-MTVU-AMZ",
-    "fechaInicio": "07/05/2026",
-    "fechaFin": "29/05/2026",
-    "poblacion": 2804,
-    "poblacionSinDuplicar": 2804,
-    "volumen": 5500,
-    "km": 5.5,
-    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
-  },
-  {
     "id": 10216,
     "lat": -6.118035,
     "lng": -78.887405,
@@ -13544,6 +13525,25 @@ const mapaIntervenciones = {
     "volumen": 6310,
     "km": 0.2,
     "enlace": null
+  },
+  {
+    "id": 10215,
+    "lat": -5.38814,
+    "lng": -78.90893,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "La Coipa",
+    "sector": "La Copia - C.P. Rumipite",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON EL CENTRO POBLADO RUMIPITE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”    ",
+    "ficha": "N°043-2026-MTVU-AMZ",
+    "fechaInicio": "07/05/2026",
+    "fechaFin": "29/05/2026",
+    "poblacion": 2804,
+    "poblacionSinDuplicar": 2804,
+    "volumen": 5500,
+    "km": 5.5,
+    "enlace": "https://drive.google.com/file/d/1FVB9JtutNE6vZ_7Lw_yfmpMaYV969JlA/view?usp=drive_link"
   },
   {
     "id": 10234,
@@ -13964,25 +13964,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10410,
-    "lat": null,
-    "lng": null,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "San Ignacio",
-    "distrito": "La Coipa",
-    "sector": "Coipa-Barro Negro",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON CENTRO POBLADO BARRO NEGRO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ",
-    "ficha": "N°059-2026-MTVU-AMZ",
-    "fechaInicio": "05/08/2026",
-    "fechaFin": "20/08/2026",
-    "poblacion": 280,
-    "poblacionSinDuplicar": 280,
-    "volumen": 465,
-    "km": 1.275,
-    "enlace": null
-  },
-  {
     "id": 9662,
     "lat": -7.236923,
     "lng": -78.412845,
@@ -13999,6 +13980,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 625,
     "volumen": 2845.5,
     "km": 0.8,
+    "enlace": null
+  },
+  {
+    "id": 10410,
+    "lat": null,
+    "lng": null,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "San Ignacio",
+    "distrito": "La Coipa",
+    "sector": "Coipa-Barro Negro",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE VIAS QUE UNEN EL DISTRITO DE LA COIPA CON CENTRO POBLADO BARRO NEGRO, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGION CAJAMARCA”   ",
+    "ficha": "N°059-2026-MTVU-AMZ",
+    "fechaInicio": "05/08/2026",
+    "fechaFin": "20/08/2026",
+    "poblacion": 280,
+    "poblacionSinDuplicar": 280,
+    "volumen": 465,
+    "km": 1.275,
     "enlace": null
   },
   {
@@ -14439,25 +14439,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10682,
-    "lat": -7.186289,
-    "lng": -78.454729,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Llacanora",
-    "sector": "Huayrapongo Grande",
-    "descripcion": "“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ",
-    "ficha": "FTI N° 062-2026-LD-PI-CAJ",
-    "fechaInicio": "11/11/2026",
-    "fechaFin": "25/11/2026",
-    "poblacion": 150,
-    "poblacionSinDuplicar": 150,
-    "volumen": 900,
-    "km": 0.009,
-    "enlace": null
-  },
-  {
     "id": 10702,
     "lat": -5.26488,
     "lng": -78.952244,
@@ -14474,6 +14455,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 441,
     "volumen": 2710.8,
     "km": 2.259,
+    "enlace": null
+  },
+  {
+    "id": 10682,
+    "lat": -7.186289,
+    "lng": -78.454729,
+    "estado": "En ejecución",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Llacanora",
+    "sector": "Huayrapongo Grande",
+    "descripcion": "“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.   ",
+    "ficha": "FTI N° 062-2026-LD-PI-CAJ",
+    "fechaInicio": "11/11/2026",
+    "fechaFin": "25/11/2026",
+    "poblacion": 150,
+    "poblacionSinDuplicar": 150,
+    "volumen": 900,
+    "km": 0.009,
     "enlace": null
   },
   {
@@ -16477,8 +16477,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 15000,
     "poblacionSinDuplicar": 15000,
-    "volumen": 6029.38,
-    "km": 2.426,
+    "volumen": 560,
+    "km": 0.03,
     "enlace": null
   }
 ],
