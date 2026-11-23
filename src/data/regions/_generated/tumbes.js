@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 12, m3: 47719.45, km: 17.05, poblacion: 11243, provincias: ['Contralmirante Villar', 'Tumbes', 'Zarumilla'] },
-    { tipo: 'Prevención', cantidad: 30, m3: 110116.95, km: 15.26, poblacion: 34508, provincias: ['Contralmirante Villar', 'Tumbes'] },
+    { tipo: 'Prevención', cantidad: 31, m3: 112316.95, km: 15.37, poblacion: 35539, provincias: ['Contralmirante Villar', 'Tumbes'] },
     { tipo: 'Urgente atención', cantidad: 16, m3: 9975.0, km: null, poblacion: 21812, provincias: ['Tumbes'] },
   ],
-  ejecutadasTotal: { cantidad: 58, m3: 167811.4, m3AguaPotable: 9975.0, km: 32.31, poblacion: 67563 },
+  ejecutadasTotal: { cantidad: 59, m3: 170011.4, m3AguaPotable: 9975.0, km: 32.42, poblacion: 68594 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,21 +18,19 @@ export default {
 
   enEjecucion: [
     { provincia: 'Tumbes', distrito: 'Corrales', tipo: 'Urgente atención', descripcion: ' ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 675.0, kmAcum: 0.0, poblacion: 1385, poblacionSinDuplicar: 1385 },
-    { provincia: 'Contralmirante Villar', distrito: 'Zorritos', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA COSTA VERDE, EN EL SECTOR SÁNCHEZ CARRIÓN DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', inicio: '17/11/2026', fin: '21/11/2026', volAcum: 2200.0, kmAcum: 0.11, poblacion: 1031, poblacionSinDuplicar: 1031 },
     { provincia: 'Contralmirante Villar', distrito: 'Casitas', tipo: 'Emergencia', descripcion: ' ATENCIÓN DE LA TRANSITABILIDAD DE LA VÍA EN LOS SECTORES MANUEL OTERO - BELLA VISTA DEL DISTRITO DE CASITAS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES ', inicio: '20/11/2026', fin: '26/11/2026', volAcum: 900.0, kmAcum: 0.42, poblacion: 1516, poblacionSinDuplicar: 1516 },
+    { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL BALNEARIO, EN EL SECTOR BALNEARIO TURISTICO PUNTA SAL DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES ', inicio: '23/11/2026', fin: '06/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 1043, poblacionSinDuplicar: 1043 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
-    { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', cantidad: 1, metaVol: 11000.0, metaKm: 1.0, poblacion: 1043 },
     { provincia: 'Tumbes', distrito: 'Corrales', cantidad: 1, metaVol: 3111.0, metaKm: 0.61, poblacion: 878 },
     { provincia: 'Zarumilla', distrito: 'Aguas Verdes', cantidad: 2, metaVol: 7960.0, metaKm: 2.75, poblacion: 1020 },
     { provincia: 'Zarumilla', distrito: 'Papayal', cantidad: 1, metaVol: 900.0, metaKm: 0.36, poblacion: 500 },
   ],
-  programadasTotal: { cantidad: 5, metaVol: 22971.0, metaKm: 4.72, poblacion: 3441 },
+  programadasTotal: { cantidad: 4, metaVol: 11971.0, metaKm: 3.72, poblacion: 2398 },
 
   programadasDetalle: [
-    { provincia: 'Contralmirante Villar', distrito: 'Canoas De Punta Sal', sector: 'Balneario Turistico Punta Sal', ficha: '085-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL BALNEARIO, EN EL SECTOR BALNEARIO TURISTICO PUNTA SAL DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES', fechaInicio: '23/11/2026', fechaFin: '06/12/2026', metaVol: 11000.0, metaKm: 1.0, poblacion: 1043, poblacionSinDuplicar: 1043 },
     { provincia: 'Zarumilla', distrito: 'Aguas Verdes', sector: '', ficha: '080-2026-LD-E-TUM', descripcion: ' ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE LA QUEBRADA PIEDRITAS, EN EL SECTOR AGUAS ABAJO MARGEN DERECHA DEL DISTRITO DE AGUAS VERDES, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES ', fechaInicio: '30/11/2026', fechaFin: '14/12/2026', metaVol: 4600.0, metaKm: 1.15, poblacion: 204, poblacionSinDuplicar: 204 },
     { provincia: 'Zarumilla', distrito: 'Aguas Verdes', sector: 'El Canario - San Martin', ficha: '082-2026-LETV-E-TUM', descripcion: ' LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD EN LOS SECTORES EL CANARIO - SAN MARTIN DEL DISTRITO DE AGUAS VERDES, PROVINCIA DE ZARUMILLA, DEPARTAMENTO DE TUMBES', fechaInicio: '30/11/2026', fechaFin: '', metaVol: 3360.0, metaKm: 1.6, poblacion: 816, poblacionSinDuplicar: 816 },
     { provincia: 'Tumbes', distrito: 'Corrales', sector: 'San Isidro', ficha: '063-2026-LD-PI-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL NIÑO, LOCALIDAD SAN ISIDRO, DISTRITO CORRALES, PROVINCIA TUMBES, DEPARTAMENTO TUMBES      ', fechaInicio: '07/12/2026', fechaFin: '10/12/2026', metaVol: 3111.0, metaKm: 0.61, poblacion: 878, poblacionSinDuplicar: 878 },

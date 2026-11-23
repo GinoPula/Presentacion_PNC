@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/11/2026",
-    "horaCorte": "09:20",
+    "horaCorte": "09:50",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -152,22 +152,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "10650",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Complejo 11 De Mayo",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR COMPLEJO 11 DE MAYO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "16/11/2026",
-      "fechaFin": "28/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 10,
       "idIntervencion": "10647",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -180,6 +164,22 @@
       "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
       "fechaInicio": "05/11/2026",
       "fechaFin": "26/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 10,
+      "idIntervencion": "10650",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Complejo 11 De Mayo",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR COMPLEJO 11 DE MAYO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "16/11/2026",
+      "fechaFin": "28/11/2026",
       "maquinaria": []
     },
     {
@@ -303,8 +303,8 @@
       "fechaInicio": "16/11/2026",
       "fechaFin": "15/12/2026",
       "maquinaria": [
-        "CAMIONETA ( EGM-015)",
-        "CAMION CISTERNA DE AGUA ( EGN-980)"
+        "CAMION CISTERNA DE AGUA ( EGN-980)",
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -468,11 +468,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762462)",
-        "CARGADOR FRONTAL ( JLX00219)",
-        "VOLQUETE ( EGV-848)",
         "VOLQUETE ( EGV-835)",
-        "VOLQUETE ( EGV-774)"
+        "VOLQUETE ( EGV-848)",
+        "CARGADOR FRONTAL ( JLX00219)",
+        "VOLQUETE ( EGV-774)",
+        "RODILLO COMPACTADOR ( H1762462)"
       ]
     },
     {
@@ -525,11 +525,11 @@
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "descripcion": "LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO",
-      "fechaInicio": "17/11/2026",
-      "fechaFin": "01/12/2026",
+      "fechaInicio": "16/11/2026",
+      "fechaFin": "30/11/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-984)",
-        "EXCAVADORA HIDRAULICA ( 810397)"
+        "EXCAVADORA HIDRAULICA ( 810397)",
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
@@ -623,8 +623,8 @@
       "fechaInicio": "19/11/2026",
       "fechaFin": "03/12/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( D001609)",
-        "VOLQUETE ( EGR-381)"
+        "VOLQUETE ( EGR-381)",
+        "CARGADOR FRONTAL ( D001609)"
       ]
     },
     {
@@ -642,8 +642,8 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-829)",
         "CARGADOR FRONTAL ( JLX00221)",
+        "VOLQUETE ( EGV-829)",
         "CARGADOR FRONTAL ( JLX00220)"
       ]
     },
@@ -1004,10 +1004,10 @@
       "fechaInicio": "29/10/2026",
       "fechaFin": "24/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 810139)",
+        "CARGADOR FRONTAL ( D001580)",
         "VOLQUETE ( EAJ-390)",
         "VOLQUETE ( EAJ-455)",
-        "CARGADOR FRONTAL ( D001580)"
+        "EXCAVADORA HIDRAULICA ( 810139)"
       ]
     },
     {
@@ -1025,9 +1025,9 @@
       "fechaInicio": "07/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
+        "REMOLCADOR ( EAJ-376)",
         "RETROEXCAVADORA ( C429243)",
-        "VOLQUETE ( EAJ-400)",
-        "REMOLCADOR ( EAJ-376)"
+        "VOLQUETE ( EAJ-400)"
       ]
     },
     {
@@ -1104,6 +1104,25 @@
     },
     {
       "n": 58,
+      "idIntervencion": "10666",
+      "departamento": "TACNA",
+      "deptoLabel": "Tacna",
+      "regionId": "tacna",
+      "provincia": "Tacna",
+      "distrito": "Pachia",
+      "sector": "Lateral Seminario Y Lateral Bocchio",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "28/11/2026",
+      "maquinaria": [
+        "REMOLCADOR ( EGN-105)",
+        "TRACTOR SOBRE ORUGA ( 81435)"
+      ]
+    },
+    {
+      "n": 59,
       "idIntervencion": "10186",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1121,25 +1140,6 @@
         "VOLQUETE ( EGV-834)",
         "EXCAVADORA HIDRAULICA ( 810311)",
         "REMOLCADOR ( EGN-105)"
-      ]
-    },
-    {
-      "n": 59,
-      "idIntervencion": "10666",
-      "departamento": "TACNA",
-      "deptoLabel": "Tacna",
-      "regionId": "tacna",
-      "provincia": "Tacna",
-      "distrito": "Pachia",
-      "sector": "Lateral Seminario Y Lateral Bocchio",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº021-2025-ADENDA 01",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR LATERAL SEMINARIO Y LATERAL BOCCHIO, DISTRITO DE PACHIA, PROVINCIA DE TACNA, REGION DE TACNA",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "28/11/2026",
-      "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
-        "TRACTOR SOBRE ORUGA ( 81435)"
       ]
     },
     {
@@ -1162,6 +1162,28 @@
     },
     {
       "n": 61,
+      "idIntervencion": "10725",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Contralmirante Villar",
+      "distrito": "Canoas De Punta Sal",
+      "sector": "Balneario Turistico Punta Sal",
+      "tipo": "PREVENCIÓN",
+      "marcoLegal": "CONVENIO Nº033-2026",
+      "descripcion": "LIMPIEZA Y DESCOOLMATACIÓN DEL CAUCE DE LA QUEBRADA EL BALNEARIO, EN EL SECTOR BALNEARIO TURISTICO PUNTA SAL DEL DISTRITO DE CANOAS DE PUNTA SAL, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "06/12/2026",
+      "maquinaria": [
+        "CAMIONETA ( EGM-052)",
+        "VOLQUETE ( EGV-820)",
+        "REMOLCADOR ( EAJ-355)",
+        "CARGADOR FRONTAL ( D001613)",
+        "EXCAVADORA HIDRAULICA ( TJT10112)"
+      ]
+    },
+    {
+      "n": 62,
       "idIntervencion": "10719",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1175,30 +1197,9 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EAJ-355)",
         "RETROEXCAVADORA ( 285283)",
+        "REMOLCADOR ( EAJ-355)",
         "CAMIONETA ( EGM-052)"
-      ]
-    },
-    {
-      "n": 62,
-      "idIntervencion": "10710",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Contralmirante Villar",
-      "distrito": "Zorritos",
-      "sector": "Sanchez Carrion",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº033-2026",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA COSTA VERDE, EN EL SECTOR SÁNCHEZ CARRIÓN DEL DISTRITO DE ZORRITOS, PROVINCIA DE CONTRALMIRANTE VILLAR, DEPARTAMENTO DE TUMBES",
-      "fechaInicio": "17/11/2026",
-      "fechaFin": "21/11/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10112)",
-        "VOLQUETE ( EAJ-395)",
-        "CAMIONETA ( EGM-052)",
-        "REMOLCADOR ( EAJ-355)"
       ]
     },
     {
