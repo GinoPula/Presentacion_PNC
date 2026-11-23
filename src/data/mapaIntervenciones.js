@@ -13307,7 +13307,7 @@ const mapaIntervenciones = {
     "provincia": "Celendin",
     "distrito": "Cortegana",
     "sector": "Cortegana - Andamachay",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.       ",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE LA CIUDAD DE CORTEGANA HASTA EL C.P. ANDAMACHAY, DISTRITO DE CORTEGANA, PROVINCIA DE CELENDÍN, DEPARTAMENTO DE CAJAMARCA”.        ",
     "ficha": "FTI N° 038-2026-MTV-U-CAJ",
     "fechaInicio": "31/03/2026",
     "fechaFin": "17/04/2026",
@@ -13459,7 +13459,7 @@ const mapaIntervenciones = {
     "provincia": "Cajabamba",
     "distrito": "Condebamba",
     "sector": "La Isla",
-    "descripcion": "“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUAMACHUQUINO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+210, EN EL SECTOR LA ISLA, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.     ",
+    "descripcion": "“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO HUAMACHUQUINO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+210, EN EL SECTOR LA ISLA, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.      ",
     "ficha": "FTI N° 023-2026-LD-PI-CAJ",
     "fechaInicio": "27/04/2026",
     "fechaFin": "13/05/2026",
@@ -13467,7 +13467,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 120,
     "volumen": 2247,
     "km": 0.21,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/12OYi8fceuhdIa5KY9yJpauGzRfxHiVxz/view?usp=drive_link"
   },
   {
     "id": 10159,
@@ -13717,25 +13717,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10294,
-    "lat": -6.23918,
-    "lng": -78.897973,
-    "estado": "Ejecutada",
-    "tipo": "Urgente atención",
-    "provincia": "Cutervo",
-    "distrito": "Callayuc",
-    "sector": "San Francisco - C.P El Cumbe – La Union",
-    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".         ",
-    "ficha": "N°051-2026-MTVU-AMZ",
-    "fechaInicio": "15/06/2026",
-    "fechaFin": "25/09/2026",
-    "poblacion": 438,
-    "poblacionSinDuplicar": 438,
-    "volumen": 5090,
-    "km": 3.75,
-    "enlace": null
-  },
-  {
     "id": 10293,
     "lat": -5.691199,
     "lng": -78.774925,
@@ -13755,23 +13736,23 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10285,
-    "lat": -7.476362,
-    "lng": -78.956451,
+    "id": 10294,
+    "lat": -6.23918,
+    "lng": -78.897973,
     "estado": "Ejecutada",
     "tipo": "Urgente atención",
-    "provincia": "Contumaza",
-    "distrito": "San Benito",
-    "sector": "Colbot",
-    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
-    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
-    "fechaInicio": "16/06/2026",
-    "fechaFin": "26/06/2026",
-    "poblacion": 50,
-    "poblacionSinDuplicar": 50,
-    "volumen": 2485.92,
-    "km": 6.38,
-    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
+    "provincia": "Cutervo",
+    "distrito": "Callayuc",
+    "sector": "San Francisco - C.P El Cumbe – La Union",
+    "descripcion": " “MEJORAMIENTO Y RECUPERACIÓN DE LA TRANSITABILIDAD DE LAS VÍAS DE ACCESO: DE LOS C.P. SAN FRANCISCO – C.P. EL CUMBE – C.P. LA UNION – C.P. VALLE LA UNION, DISTRITO DE CALLAYUC, PROVINCIA DE CUTERVO, DEPARTAMENTO DE CAJAMARCA\".         ",
+    "ficha": "N°051-2026-MTVU-AMZ",
+    "fechaInicio": "15/06/2026",
+    "fechaFin": "25/09/2026",
+    "poblacion": 438,
+    "poblacionSinDuplicar": 438,
+    "volumen": 5090,
+    "km": 3.75,
+    "enlace": null
   },
   {
     "id": 10295,
@@ -13791,6 +13772,25 @@ const mapaIntervenciones = {
     "volumen": 5220,
     "km": 7.25,
     "enlace": "https://drive.google.com/file/d/1ql6AMVxp5Wnozo8Pwwlg-lYHh2xx_7eb/view?usp=drive_link"
+  },
+  {
+    "id": 10285,
+    "lat": -7.476362,
+    "lng": -78.956451,
+    "estado": "Ejecutada",
+    "tipo": "Urgente atención",
+    "provincia": "Contumaza",
+    "distrito": "San Benito",
+    "sector": "Colbot",
+    "descripcion": "“RECUPERACIÓN Y MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO DESDE COMPUERTA COLBOT (CRUCE A SAN BENITO) HASTA EL CASERÍO COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.",
+    "ficha": "FTI N° 053-2026-MTV-U-CAJ",
+    "fechaInicio": "16/06/2026",
+    "fechaFin": "26/06/2026",
+    "poblacion": 50,
+    "poblacionSinDuplicar": 50,
+    "volumen": 2485.92,
+    "km": 6.38,
+    "enlace": "https://drive.google.com/file/d/1fesAMl_Sg42XNo3ThAFIPiwpSYZ6jLfK/view?usp=drive_link"
   },
   {
     "id": 10163,
@@ -13896,7 +13896,7 @@ const mapaIntervenciones = {
     "provincia": "Contumaza",
     "distrito": "San Benito",
     "sector": "Compuerta Colbot",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO SAN BENITO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+300, EN EL SECTOR COMPUERTA COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.        ",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO SAN BENITO, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+300, EN EL SECTOR COMPUERTA COLBOT, DISTRITO DE SAN BENITO, PROVINCIA DE CONTUMAZÁ, DEPARTAMENTO DE CAJAMARCA”.         ",
     "ficha": "FTI N° 056-2026-LD-PI-CAJ",
     "fechaInicio": "30/06/2026",
     "fechaFin": "01/08/2026",
@@ -13904,7 +13904,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 4800,
     "volumen": 8000,
     "km": 0.3,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1vzxGyb54IjUgGvfYqa0oT8VFdjhuEmjY/view?usp=drive_link"
   },
   {
     "id": 10162,
@@ -13964,25 +13964,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 9662,
-    "lat": -7.236923,
-    "lng": -78.412845,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Cajamarca",
-    "distrito": "Jesus",
-    "sector": "La Huaraclla (Urbano)",
-    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
-    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
-    "fechaInicio": "05/08/2026",
-    "fechaFin": "12/09/2026",
-    "poblacion": 625,
-    "poblacionSinDuplicar": 625,
-    "volumen": 2845.5,
-    "km": 0.8,
-    "enlace": null
-  },
-  {
     "id": 10410,
     "lat": null,
     "lng": null,
@@ -13999,6 +13980,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 280,
     "volumen": 465,
     "km": 1.275,
+    "enlace": null
+  },
+  {
+    "id": 9662,
+    "lat": -7.236923,
+    "lng": -78.412845,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Cajamarca",
+    "distrito": "Jesus",
+    "sector": "La Huaraclla (Urbano)",
+    "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y REFORZAMIENTO DE TALUD EN LA QUEBRADA SHILLAC - ZONA URBANA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+800, C.P. HUARACLLA, DISTRITO DE JESÚS, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00                 ",
+    "ficha": "FTI N° 018-2026-LD-PI-CAJ",
+    "fechaInicio": "05/08/2026",
+    "fechaFin": "12/09/2026",
+    "poblacion": 625,
+    "poblacionSinDuplicar": 625,
+    "volumen": 2845.5,
+    "km": 0.8,
     "enlace": null
   },
   {
