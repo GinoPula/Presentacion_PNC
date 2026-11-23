@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/11/2026",
-    "horaCorte": "15:57",
+    "horaCorte": "16:28",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -525,8 +525,8 @@
       "tipo": "PREVENCIÓN",
       "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
       "descripcion": "LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO",
-      "fechaInicio": "16/11/2026",
-      "fechaFin": "30/11/2026",
+      "fechaInicio": "17/11/2026",
+      "fechaFin": "01/12/2026",
       "maquinaria": [
         "CAMIONETA ( EGL-984)",
         "EXCAVADORA HIDRAULICA ( 810397)"

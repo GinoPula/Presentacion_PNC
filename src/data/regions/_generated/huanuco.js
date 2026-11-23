@@ -18,7 +18,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huanuco', distrito: 'Huanuco', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00                 ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 112.5, kmAcum: 0.03, poblacion: 380, poblacionSinDuplicar: 380 },
-    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO"     ', inicio: '16/11/2026', fin: '30/11/2026', volAcum: 8540.02, kmAcum: 420.55, poblacion: 500, poblacionSinDuplicar: 500 },
+    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO"      ', inicio: '17/11/2026', fin: '01/12/2026', volAcum: 2183.89, kmAcum: 0.29, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],

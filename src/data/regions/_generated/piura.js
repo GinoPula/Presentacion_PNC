@@ -89,7 +89,7 @@ export default {
     { tipo: 'Plataforma', cantidad: 1, marca: 'ACS', codigos: ['EGR-068'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'Industria Firme', codigos: ['EAK-083'], estado: 'operativo' },
     { tipo: 'Plataforma (cama baja)', cantidad: 1, marca: 'RMB Sateci', codigos: ['EGV-817'], estado: 'operativo' },
-    { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-852'], estado: 'operativo' },
+    { tipo: 'Remolcador', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGV-852'], estado: 'inoperativo' },
     { tipo: 'Remolcador', cantidad: 1, marca: 'Volvo', codigos: ['EAJ-376'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['C429243'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['285270'], estado: 'inoperativo' },
