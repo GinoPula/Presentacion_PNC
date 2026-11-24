@@ -14131,7 +14131,7 @@ const mapaIntervenciones = {
     "poblacion": 553,
     "poblacionSinDuplicar": 553,
     "volumen": 2320,
-    "km": 6.095,
+    "km": 5.7,
     "enlace": null
   },
   {
