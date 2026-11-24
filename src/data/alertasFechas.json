@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/11/2026",
-    "horaCorte": "15:49",
+    "horaCorte": "16:19",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "10595",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Dos De Mayo",
-      "distrito": "La Union",
-      "sector": "Urbano",
-      "ficha": "N° 046-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "30/10/2026",
-      "diasAtraso": 25
-    },
-    {
-      "n": 2,
       "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -45,7 +26,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 3,
+      "n": 2,
       "idIntervencion": "10624",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +64,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 5,
+      "n": 4,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +83,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 6,
+      "n": 5,
       "idIntervencion": "9144",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -121,26 +102,26 @@
       "diasAtraso": 1
     },
     {
-      "n": 7,
-      "idIntervencion": "10698",
+      "n": 6,
+      "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Qda Tingoragra",
-      "ficha": "052-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO",
-      "marcoLegal": "CONVENIO Nº 002-2021 - ADENDA 05",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Arequipa",
+      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
+      "ficha": "174-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "23/11/2026",
-      "fechaFin": "07/12/2026",
+      "fechaFin": "02/12/2026",
       "diasAtraso": 1
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10680",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,22 +140,22 @@
       "diasAtraso": 1
     },
     {
-      "n": 9,
-      "idIntervencion": "10654",
+      "n": 8,
+      "idIntervencion": "10698",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Arequipa",
-      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
-      "ficha": "174-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Qda Tingoragra",
+      "ficha": "052-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO",
+      "marcoLegal": "CONVENIO Nº 002-2021 - ADENDA 05",
       "fechaInicio": "23/11/2026",
-      "fechaFin": "02/12/2026",
+      "fechaFin": "07/12/2026",
       "diasAtraso": 1
     }
   ]

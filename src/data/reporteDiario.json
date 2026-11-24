@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/11/2026",
-    "horaCorte": "15:49",
+    "horaCorte": "16:19",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -71,10 +71,10 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "30/11/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "EXCAVADORA HIDRAULICA ( TJT10129)",
         "CAMIONETA ( EAJ-733)",
-        "REMOLCADOR ( EAJ-560)"
+        "REMOLCADOR ( EAJ-560)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "EXCAVADORA HIDRAULICA ( TJT10129)"
       ]
     },
     {
@@ -92,10 +92,10 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGV-851)",
         "VOLQUETE ( EGM-872)",
-        "TRACTOR SOBRE ORUGA ( 82538)",
         "VOLQUETE ( EGM-781)",
+        "REMOLCADOR ( EGV-851)",
+        "TRACTOR SOBRE ORUGA ( 82538)",
         "CARGADOR FRONTAL ( JLX00247)"
       ]
     },
@@ -197,12 +197,12 @@
       "fechaInicio": "19/11/2026",
       "fechaFin": "08/12/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( D523227)",
         "VOLQUETE ( EGM-773)",
-        "VOLQUETE ( EGM-822)",
-        "REMOLCADOR ( EGM-982)",
+        "CAMIONETA ( EGM-015)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)"
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGM-822)",
+        "EXCAVADORA HIDRAULICA ( D523227)"
       ]
     },
     {
@@ -220,12 +220,12 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-782)",
-        "CAMIONETA ( EGM-015)",
         "PLATAFORMA (CAMA BAJA) ( EGO-464)",
         "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGV-782)",
+        "VOLQUETE ( EGN-052)",
         "EXCAVADORA HIDRAULICA ( D523227)",
-        "VOLQUETE ( EGN-052)"
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -322,11 +322,11 @@
       "fechaInicio": "16/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-836)",
+        "VOLQUETE ( EGM-790)",
         "TRACTOR SOBRE ORUGA ( 81395)",
         "EXCAVADORA HIDRAULICA ( TJT10119)",
         "VOLQUETE ( EGN-501)",
-        "VOLQUETE ( EGM-790)"
+        "VOLQUETE ( EGM-836)"
       ]
     },
     {
@@ -344,8 +344,8 @@
       "fechaInicio": "18/11/2026",
       "fechaFin": "27/11/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81439)",
-        "EXCAVADORA HIDRAULICA ( A10889)"
+        "EXCAVADORA HIDRAULICA ( A10889)",
+        "TRACTOR SOBRE ORUGA ( 81439)"
       ]
     },
     {
@@ -408,14 +408,32 @@
       "fechaInicio": "16/11/2026",
       "fechaFin": "30/11/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "RETROEXCAVADORA ( 284442)",
-        "CAMIONETA ( EGL-971)",
-        "REMOLCADOR ( EGO-046)"
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
+        "REMOLCADOR ( EGO-046)",
+        "CAMIONETA ( EGL-971)"
       ]
     },
     {
       "n": 22,
+      "idIntervencion": "10727",
+      "departamento": "CAJAMARCA",
+      "deptoLabel": "Cajamarca",
+      "regionId": "cajamarca",
+      "provincia": "San Ignacio",
+      "distrito": "Chirinos",
+      "sector": "Caserio Yucarica Y Sector El Choloque.",
+      "tipo": "URGENTE ATENCIÓN",
+      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
+      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
+      "fechaInicio": "20/11/2026",
+      "fechaFin": "04/12/2026",
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 81492)"
+      ]
+    },
+    {
+      "n": 23,
       "idIntervencion": "10702",
       "departamento": "CAJAMARCA",
       "deptoLabel": "Cajamarca",
@@ -437,24 +455,6 @@
       ]
     },
     {
-      "n": 23,
-      "idIntervencion": "10727",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Yucarica Y Sector El Choloque.",
-      "tipo": "URGENTE ATENCIÓN",
-      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "fechaInicio": "20/11/2026",
-      "fechaFin": "04/12/2026",
-      "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 81492)"
-      ]
-    },
-    {
       "n": 24,
       "idIntervencion": "10513",
       "departamento": "CUSCO",
@@ -469,34 +469,15 @@
       "fechaInicio": "15/11/2026",
       "fechaFin": "28/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10097)",
+        "CARGADOR FRONTAL ( JLX00830)",
         "CAMIONETA ( EGM-019)",
         "REMOLCADOR ( EGN-096)",
         "VOLQUETE ( EGM-821)",
-        "CARGADOR FRONTAL ( JLX00830)"
+        "EXCAVADORA HIDRAULICA ( TJT10097)"
       ]
     },
     {
       "n": 25,
-      "idIntervencion": "10595",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Dos De Mayo",
-      "distrito": "La Union",
-      "sector": "Urbano",
-      "tipo": "PREVENCIÓN",
-      "marcoLegal": "CONVENIO Nº002-2021-ADENDA 05",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM 00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO",
-      "fechaInicio": "16/10/2026",
-      "fechaFin": "30/10/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 810397)",
-        "CAMIONETA ( EGL-984)"
-      ]
-    },
-    {
-      "n": 26,
       "idIntervencion": "10704",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -515,7 +496,7 @@
       ]
     },
     {
-      "n": 27,
+      "n": 26,
       "idIntervencion": "9635",
       "departamento": "HUANUCO",
       "deptoLabel": "Huanuco",
@@ -530,13 +511,13 @@
       "fechaFin": "25/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10096)",
+        "VOLQUETE ( EGV-841)",
         "VOLQUETE ( EGV-798)",
-        "CAMIONETA ( EGL-984)",
-        "VOLQUETE ( EGV-841)"
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
-      "n": 28,
+      "n": 27,
       "idIntervencion": "10583",
       "departamento": "ICA",
       "deptoLabel": "Ica",
@@ -550,16 +531,16 @@
       "fechaInicio": "12/10/2026",
       "fechaFin": "30/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-925)",
+        "VOLQUETE ( EGM-823)",
+        "TRACTOR SOBRE ORUGA ( 81386)",
         "REMOLCADOR ( EAJ-543)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
+        "VOLQUETE ( EGM-925)",
         "EXCAVADORA HIDRAULICA ( D523572)",
-        "VOLQUETE ( EGM-823)"
+        "TRACTOR SOBRE ORUGA ( 81386)"
       ]
     },
     {
-      "n": 29,
+      "n": 28,
       "idIntervencion": "10720",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -578,7 +559,7 @@
       ]
     },
     {
-      "n": 30,
+      "n": 29,
       "idIntervencion": "10721",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -598,7 +579,7 @@
       ]
     },
     {
-      "n": 31,
+      "n": 30,
       "idIntervencion": "10680",
       "departamento": "JUNIN",
       "deptoLabel": "Junin",
@@ -618,7 +599,7 @@
       ]
     },
     {
-      "n": 32,
+      "n": 31,
       "idIntervencion": "10546",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -638,7 +619,7 @@
       ]
     },
     {
-      "n": 33,
+      "n": 32,
       "idIntervencion": "10575",
       "departamento": "LA LIBERTAD",
       "deptoLabel": "La Libertad",
@@ -652,15 +633,15 @@
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EAJ-398)",
+        "VOLQUETE ( EAJ-393)",
         "CARGADOR FRONTAL ( D001607)",
         "EXCAVADORA HIDRAULICA ( TJT10075)",
         "REMOLCADOR ( EAJ-379)",
-        "VOLQUETE ( EAJ-393)"
+        "VOLQUETE ( EAJ-398)"
       ]
     },
     {
-      "n": 34,
+      "n": 33,
       "idIntervencion": "10685",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -678,7 +659,7 @@
       ]
     },
     {
-      "n": 35,
+      "n": 34,
       "idIntervencion": "9174",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -692,16 +673,16 @@
       "fechaInicio": "21/11/2026",
       "fechaFin": "13/12/2026",
       "maquinaria": [
-        "CARGADOR FRONTAL ( D001614)",
-        "RETROEXCAVADORA ( 286748)",
         "VOLQUETE ( EGV-788)",
+        "VOLQUETE ( EGV-824)",
         "CAMIONETA ( EGL-972)",
         "VOLQUETE ( EGV-821)",
-        "VOLQUETE ( EGV-824)"
+        "RETROEXCAVADORA ( 286748)",
+        "CARGADOR FRONTAL ( D001614)"
       ]
     },
     {
-      "n": 36,
+      "n": 35,
       "idIntervencion": "9147",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -715,14 +696,14 @@
       "fechaInicio": "18/11/2026",
       "fechaFin": "13/12/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-972)",
-        "PLATAFORMA (CAMA BAJA) ( EGW-174)",
         "REMOLCADOR ( EGV-721)",
-        "TRACTOR SOBRE ORUGA ( AE800570)"
+        "TRACTOR SOBRE ORUGA ( AE800570)",
+        "CAMIONETA ( EGL-972)",
+        "PLATAFORMA (CAMA BAJA) ( EGW-174)"
       ]
     },
     {
-      "n": 37,
+      "n": 36,
       "idIntervencion": "10618",
       "departamento": "LAMBAYEQUE",
       "deptoLabel": "Lambayeque",
@@ -740,7 +721,7 @@
       ]
     },
     {
-      "n": 38,
+      "n": 37,
       "idIntervencion": "10508",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -756,7 +737,7 @@
       "maquinaria": []
     },
     {
-      "n": 39,
+      "n": 38,
       "idIntervencion": "10624",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -770,13 +751,13 @@
       "fechaInicio": "29/10/2026",
       "fechaFin": "21/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGN-497)",
         "VOLQUETE ( EGV-775)",
+        "VOLQUETE ( EGN-497)",
         "EXCAVADORA HIDRAULICA ( TJT10120)"
       ]
     },
     {
-      "n": 40,
+      "n": 39,
       "idIntervencion": "10713",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -794,7 +775,7 @@
       ]
     },
     {
-      "n": 41,
+      "n": 40,
       "idIntervencion": "10686",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -815,7 +796,7 @@
       ]
     },
     {
-      "n": 42,
+      "n": 41,
       "idIntervencion": "10640",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -835,7 +816,7 @@
       ]
     },
     {
-      "n": 43,
+      "n": 42,
       "idIntervencion": "10661",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -853,7 +834,7 @@
       ]
     },
     {
-      "n": 44,
+      "n": 43,
       "idIntervencion": "10479",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
@@ -871,7 +852,7 @@
       ]
     },
     {
-      "n": 45,
+      "n": 44,
       "idIntervencion": "10509",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -890,7 +871,7 @@
       ]
     },
     {
-      "n": 46,
+      "n": 45,
       "idIntervencion": "10668",
       "departamento": "LORETO",
       "deptoLabel": "Loreto",
@@ -908,7 +889,7 @@
       ]
     },
     {
-      "n": 47,
+      "n": 46,
       "idIntervencion": "10550",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -922,13 +903,13 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "12/12/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)",
         "EXCAVADORA HIDRAULICA ( TJT10095)",
-        "TRACTOR SOBRE ORUGA ( J8B05113)"
+        "TRACTOR SOBRE ORUGA ( J8B05113)",
+        "EXCAVADORA HIDRAULICA ( TJT10107)"
       ]
     },
     {
-      "n": 48,
+      "n": 47,
       "idIntervencion": "10712",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -946,7 +927,7 @@
       ]
     },
     {
-      "n": 49,
+      "n": 48,
       "idIntervencion": "10690",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -967,7 +948,7 @@
       ]
     },
     {
-      "n": 50,
+      "n": 49,
       "idIntervencion": "10707",
       "departamento": "PIURA",
       "deptoLabel": "Piura",
@@ -987,7 +968,7 @@
       ]
     },
     {
-      "n": 51,
+      "n": 50,
       "idIntervencion": "10192",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1003,7 +984,7 @@
       "maquinaria": []
     },
     {
-      "n": 52,
+      "n": 51,
       "idIntervencion": "10708",
       "departamento": "PUNO",
       "deptoLabel": "Puno",
@@ -1019,7 +1000,7 @@
       "maquinaria": []
     },
     {
-      "n": 53,
+      "n": 52,
       "idIntervencion": "10631",
       "departamento": "SAN MARTIN",
       "deptoLabel": "San Martin",
@@ -1041,7 +1022,7 @@
       ]
     },
     {
-      "n": 54,
+      "n": 53,
       "idIntervencion": "10475",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1059,7 +1040,7 @@
       ]
     },
     {
-      "n": 55,
+      "n": 54,
       "idIntervencion": "10186",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1080,7 +1061,7 @@
       ]
     },
     {
-      "n": 56,
+      "n": 55,
       "idIntervencion": "10666",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1099,7 +1080,7 @@
       ]
     },
     {
-      "n": 57,
+      "n": 56,
       "idIntervencion": "10476",
       "departamento": "TACNA",
       "deptoLabel": "Tacna",
@@ -1117,7 +1098,7 @@
       ]
     },
     {
-      "n": 58,
+      "n": 57,
       "idIntervencion": "10725",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1139,7 +1120,7 @@
       ]
     },
     {
-      "n": 59,
+      "n": 58,
       "idIntervencion": "10719",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
@@ -1159,7 +1140,7 @@
       ]
     },
     {
-      "n": 60,
+      "n": 59,
       "idIntervencion": "10670",
       "departamento": "TUMBES",
       "deptoLabel": "Tumbes",
