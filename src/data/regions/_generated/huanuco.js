@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 18, m3: 93890.25, km: 489.38, poblacion: 17832, provincias: ['Ambo', 'Dos De Mayo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 18, m3: 93890.19, km: 10.05, poblacion: 17832, provincias: ['Ambo', 'Dos De Mayo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 105417.65, m3AguaPotable: 0.0, km: 491.32, poblacion: 19710 },
+  ejecutadasTotal: { cantidad: 22, m3: 105417.59, m3AguaPotable: 0.0, km: 11.99, poblacion: 19710 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [

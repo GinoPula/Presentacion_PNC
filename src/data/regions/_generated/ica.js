@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 8, m3: 44482.0, km: 2.1, poblacion: 19043, provincias: ['Ica', 'Nasca', 'Pisco'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.81, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Emergencia', cantidad: 9, m3: 86037.04, km: 3.29, poblacion: 19066, provincias: ['Ica', 'Nasca', 'Pisco'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.82, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 4110.0, km: null, poblacion: 4500, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 29, m3: 156508.58, m3AguaPotable: 4110.0, km: 6.92, poblacion: 37583 },
+  ejecutadasTotal: { cantidad: 30, m3: 198063.62, m3AguaPotable: 4110.0, km: 8.11, poblacion: 37606 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 29475.0, kmAcum: 0.39, poblacion: 2078, poblacionSinDuplicar: 2078 },
-    { provincia: 'Pisco', distrito: 'Huancano', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', inicio: '25/10/2026', fin: '26/11/2026', volAcum: 40219.0, kmAcum: 1.17, poblacion: 23, poblacionSinDuplicar: 23 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R        ', inicio: '14/11/2026', fin: '20/11/2026', volAcum: 558.0, kmAcum: 0.36, poblacion: 300, poblacionSinDuplicar: 300 },
   ],
 
@@ -39,7 +38,7 @@ export default {
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', fichaTecnica: '045-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  DS180-R          ', estado: 'Ejecutada', mes: '', metaKm: 0.09, metaVol: 5382.0, poblacion: 950 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada La Yesera', fichaTecnica: '043-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', estado: 'En ejecución', mes: '', metaKm: 0.68, metaVol: 39180.0, poblacion: 2078 },
     { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huancano', fichaTecnica: '047-2026-LDE-ICA', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  DS180-P   ', estado: 'Ejecutada', mes: '', metaKm: 0.75, metaVol: 4500.0, poblacion: 200 },
-    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huayanto', fichaTecnica: '049-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R    ', estado: 'En ejecución', mes: '', metaKm: 1.1, metaVol: 39600.0, poblacion: 23 },
+    { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huayanto', fichaTecnica: '049-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R     ', estado: 'Ejecutada', mes: '', metaKm: 1.19, metaVol: 41555.4, poblacion: 23 },
   ],
 
   conveniosCount: 4,
