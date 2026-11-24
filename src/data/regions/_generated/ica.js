@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 9, m3: 86037.04, km: 3.29, poblacion: 19066, provincias: ['Ica', 'Nasca', 'Pisco'] },
-    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.82, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
+    { tipo: 'Emergencia', cantidad: 10, m3: 87045.04, km: 3.85, poblacion: 19366, provincias: ['Ica', 'Nasca', 'Pisco'] },
+    { tipo: 'Prevención', cantidad: 15, m3: 107916.58, km: 4.81, poblacion: 14040, provincias: ['Ica', 'Nasca'] },
     { tipo: 'Urgente atención', cantidad: 6, m3: 4110.0, km: null, poblacion: 4500, provincias: ['Palpa'] },
   ],
-  ejecutadasTotal: { cantidad: 30, m3: 198063.62, m3AguaPotable: 4110.0, km: 8.11, poblacion: 37606 },
+  ejecutadasTotal: { cantidad: 31, m3: 199071.62, m3AguaPotable: 4110.0, km: 8.67, poblacion: 37906 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 29475.0, kmAcum: 0.39, poblacion: 2078, poblacionSinDuplicar: 2078 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R        ', inicio: '14/11/2026', fin: '20/11/2026', volAcum: 558.0, kmAcum: 0.36, poblacion: 300, poblacionSinDuplicar: 300 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -34,7 +33,7 @@ export default {
 
   puntosCriticos: [
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', fichaTecnica: '044-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 6-7, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA     DS180-P  ', estado: 'Ejecutada', mes: '', metaKm: 0.07, metaVol: 3240.0, poblacion: 1243 },
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', fichaTecnica: '046-2026-LDE-ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R        ', estado: 'En ejecución', mes: '', metaKm: 0.56, metaVol: 2016.0, poblacion: 300 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Huamaní', fichaTecnica: '046-2026-LDE-ICA', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS CON MATERIAL PROPIO DEL CAUCE DE LA QUEBRADA HUAMANÍ, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA DS180-R           ', estado: 'Ejecutada', mes: '', metaKm: 0.56, metaVol: 1008.0, poblacion: 300 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada Yesera', fichaTecnica: '045-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN EL AFLUENTE DE LA QUEBRADA LA YESERA, SECTOR DIQUE 9, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.  DS180-R          ', estado: 'Ejecutada', mes: '', metaKm: 0.09, metaVol: 5382.0, poblacion: 950 },
     { provincia: 'Ica', distrito: 'San Jose De Los Molinos', sector: 'Quebrada La Yesera', fichaTecnica: '043-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', estado: 'En ejecución', mes: '', metaKm: 0.68, metaVol: 39180.0, poblacion: 2078 },
     { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huancano', fichaTecnica: '047-2026-LDE-ICA', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA HUANCANO SECTOR HUANCANO PUEBLO, DISTRITO DE HUANCANO, PROVINCIA DE PISCO, REGION DE ICA  DS180-P   ', estado: 'Ejecutada', mes: '', metaKm: 0.75, metaVol: 4500.0, poblacion: 200 },

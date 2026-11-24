@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 18, m3: 93890.19, km: 10.05, poblacion: 17832, provincias: ['Ambo', 'Dos De Mayo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 17, m3: 88384.0, km: 9.42, poblacion: 17332, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 22, m3: 105417.59, m3AguaPotable: 0.0, km: 11.99, poblacion: 19710 },
+  ejecutadasTotal: { cantidad: 21, m3: 99911.4, m3AguaPotable: 0.0, km: 11.36, poblacion: 19210 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,6 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
+    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM  00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO       ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 2423.89, kmAcum: 0.28, poblacion: 500, poblacionSinDuplicar: 500 },
     { provincia: 'Huanuco', distrito: 'Huanuco', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00                 ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 112.5, kmAcum: 0.03, poblacion: 380, poblacionSinDuplicar: 380 },
     { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO"      ', inicio: '17/11/2026', fin: '01/12/2026', volAcum: 2183.89, kmAcum: 0.29, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
@@ -32,7 +33,7 @@ export default {
   programadasDetalle: [
     { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Qda Tingoragra', ficha: '052-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO', fechaInicio: '23/11/2026', fechaFin: '07/12/2026', metaVol: 4480.0, metaKm: 1.05, poblacion: 320, poblacionSinDuplicar: 320 },
     { provincia: 'Huanuco', distrito: 'Huanuco', sector: 'Rio Higuieras', ficha: '053-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIóN Y ELIMINACION DE MATERIAL DESCOLMATADO, DEL RíO HIGUERAS, DE LA PROG. 0+000 A LA PROG. 1+140, DEL SECTOR PUENTE TINGO, EN LA ZONA URBANA DE LA PROVINCIA DE HUáNUCO, REGION HUáNUCO ', fechaInicio: '25/11/2026', fechaFin: '09/12/2026', metaVol: 4940.0, metaKm: 1.14, poblacion: 480, poblacionSinDuplicar: 480 },
-    { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Huampal', ficha: 'N° 056-2026-LD-P-HCO', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DEL RÍO HUAMPAL, DE LA PROGRESIVA 0+000 A LA PROGRESIVA 0+465, MARGEN DERECHA, EN LA ZONA URBANA DEL DISTRITO DE CODO DEL POZUZO, PROVINCIA PUERTO INCA, REGIÓN HUÁNUCO"      ', fechaInicio: '26/11/2026', fechaFin: '10/12/2026', metaVol: 4960.0, metaKm: 0.47, poblacion: 330, poblacionSinDuplicar: 330 },
+    { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Huampal', ficha: 'N° 056-2026-LD-P-HCO', descripcion: ' "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL DESCOLMATADO DEL CAUCE DEL RÍO HUAMPAL, DE LA PROGRESIVA 0+000 A LA PROGRESIVA 0+465, MARGEN DERECHA, EN LA ZONA URBANA DEL DISTRITO DE CODO DEL POZUZO, PROVINCIA PUERTO INCA, REGIÓN HUÁNUCO"        ', fechaInicio: '26/11/2026', fechaFin: '10/12/2026', metaVol: 4960.0, metaKm: 0.47, poblacion: 330, poblacionSinDuplicar: 330 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Cp Huitoyacu', ficha: '036-2026-LD-P-HCO.', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN EL RIO HUITO, TRAMO I - ENTRE EL KM 00+000 Y EL KM 00+608, SECTOR HUITOYACU, DISTRITO DE CODO DEL POZUZO, PROVINCIA DE PUERTO INCA, DEPARTAMENTO DE HUANUCO ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 8512.0, metaKm: 0.61, poblacion: 250, poblacionSinDuplicar: 250 },
     { provincia: 'Dos De Mayo', distrito: 'La Union', sector: 'Sector Urbano', ficha: '051-2026-LD-P-HCO', descripcion: ' LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO CHACAMAYO, ENTRE EL KM 00+000 Y EL KM 00+330, SECTOR URBANO, DISTRITO DE LA UNION, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO   ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 5775.0, metaKm: 0.33, poblacion: 150, poblacionSinDuplicar: 150 },
     { provincia: 'Puerto Inca', distrito: 'Codo Del Pozuzo', sector: 'Rio Huitoyacu', ficha: '054-2026-LD-P-HCO', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO EN EL RIO HUITO, TRAMO II - ENTRE EL KM 00+000 Y EL KM 00+650, SECTOR HUITOYACU, DISTRITO DE CODO DEL POZUZO, PROVINCIA DE PUERTO INCA, DEPARTAMENTO DE HUANUCO', fechaInicio: '14/12/2026', fechaFin: '28/12/2026', metaVol: 6532.0, metaKm: 0.65, poblacion: 250, poblacionSinDuplicar: 250 },
