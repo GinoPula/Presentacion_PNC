@@ -24,17 +24,19 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Ascope', distrito: 'Santiago De Cao', cantidad: 2, metaVol: 700.0, metaKm: 1.25, poblacion: 2388 },
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', cantidad: 1, metaVol: 14269.0, metaKm: 0.75, poblacion: 5000 },
     { provincia: 'Sanchez Carrion', distrito: 'Cochorco', cantidad: 1, metaVol: 897.0, metaKm: 0.23, poblacion: 120 },
     { provincia: 'Trujillo', distrito: 'Laredo', cantidad: 1, metaVol: 15200.0, metaKm: 1.0, poblacion: 500 },
     { provincia: 'Viru', distrito: 'Chao', cantidad: 2, metaVol: 29700.0, metaKm: 1.8, poblacion: 296 },
   ],
-  programadasTotal: { cantidad: 6, metaVol: 46497.0, metaKm: 4.28, poblacion: 3304 },
+  programadasTotal: { cantidad: 7, metaVol: 60766.0, metaKm: 5.03, poblacion: 8304 },
 
   programadasDetalle: [
     { provincia: 'Trujillo', distrito: 'Laredo', sector: 'Menocucho', ficha: '010-2026-LD-P-LIB', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA AVENDAñO SECTOR MENOCUCHO, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD-00    ', fechaInicio: '24/11/2026', fechaFin: '03/12/2026', metaVol: 15200.0, metaKm: 1.0, poblacion: 500, poblacionSinDuplicar: 500 },
+    { provincia: 'Pacasmayo', distrito: 'San Pedro De Lloc', sector: 'Puente San Jose', ficha: '085-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DE LA QUEBRADA CUPISNIQUE SECTOR PUENTE SAN JOSE AGUAS ABAJO TRAMO IV, DISTRITO DE SAN PEDRO DE LLOC, PROVINCIA DE PACASMAYO, DEPARTAMENTO DE LA LIBERTAD', fechaInicio: '27/11/2026', fechaFin: '11/12/2026', metaVol: 14269.0, metaKm: 0.75, poblacion: 5000, poblacionSinDuplicar: 5000 },
     { provincia: 'Viru', distrito: 'Chao', sector: 'Tizal', ficha: '060-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL RIO CHOROBAL, SECTOR EL TIZAL, DISTRITO DE CHAO, PROVINCIA DE VIRU, DEPARTAMENTO DE LA LIBERTAD            ', fechaInicio: '28/11/2026', fechaFin: '12/12/2026', metaVol: 16500.0, metaKm: 0.9, poblacion: 148, poblacionSinDuplicar: 148 },
-    { provincia: 'Viru', distrito: 'Chao', sector: 'Puente Tizal', ficha: '061-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL RIO CHOROBAL, SECTOR PUENTE EL TIZAL, DISTRITO DE CHAO, PROVINCIA DE VIRU, DEPARTAMENTO DE LA LIBERTAD   ', fechaInicio: '09/12/2026', fechaFin: '23/12/2026', metaVol: 13200.0, metaKm: 0.9, poblacion: 148, poblacionSinDuplicar: 148 },
     { provincia: 'Sanchez Carrion', distrito: 'Cochorco', sector: 'Corrales', ficha: '079-2026-LD-E-LIB', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS EN EL CAUCE DE LA QUEBRADA CAFE, SECTOR CORRALES, DISTRITO DE COCHORCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD.  DS180-P         ', fechaInicio: '09/12/2026', fechaFin: '25/12/2026', metaVol: 897.0, metaKm: 0.23, poblacion: 120, poblacionSinDuplicar: 120 },
+    { provincia: 'Viru', distrito: 'Chao', sector: 'Puente Tizal', ficha: '061-2026-LD-P-LIB', descripcion: 'LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO DEL RIO CHOROBAL, SECTOR PUENTE EL TIZAL, DISTRITO DE CHAO, PROVINCIA DE VIRU, DEPARTAMENTO DE LA LIBERTAD   ', fechaInicio: '09/12/2026', fechaFin: '23/12/2026', metaVol: 13200.0, metaKm: 0.9, poblacion: 148, poblacionSinDuplicar: 148 },
     { provincia: 'Ascope', distrito: 'Santiago De Cao', sector: 'Sumanique', ficha: '023-2026-LD-P-LIB', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL DREN SUMANIQUE, SECTOR CARTAVIO, DISTRITO DE SANTIAGO DE CAO, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD   ', fechaInicio: '15/12/2026', fechaFin: '23/12/2026', metaVol: 250.0, metaKm: 0.35, poblacion: 1194, poblacionSinDuplicar: 1194 },
     { provincia: 'Ascope', distrito: 'Santiago De Cao', sector: 'San Jose - Sumanique', ficha: '025-2026-LD-P-LIB', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CANAL DREN PONGOCHONGO, SECTOR SUMANIQUE, DISTRITO SANTIAGO DE CAO, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD    ', fechaInicio: '23/12/2026', fechaFin: '01/01/2027', metaVol: 450.0, metaKm: 0.9, poblacion: 1194, poblacionSinDuplicar: 1194 },
   ],

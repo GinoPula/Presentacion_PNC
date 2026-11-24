@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 3, m3: 9177.4, km: 1.7, poblacion: 1758, provincias: ['Huanuco', 'Leoncio Prado', 'Puerto Inca'] },
-    { tipo: 'Prevención', cantidad: 17, m3: 88384.0, km: 9.42, poblacion: 17332, provincias: ['Ambo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
+    { tipo: 'Prevención', cantidad: 18, m3: 93459.0, km: 10.0, poblacion: 17832, provincias: ['Ambo', 'Dos De Mayo', 'Huanuco', 'Leoncio Prado', 'Marañon', 'Puerto Inca'] },
     { tipo: 'Urgente atención', cantidad: 1, m3: 2350.0, km: 0.24, poblacion: 120, provincias: ['Ambo'] },
   ],
-  ejecutadasTotal: { cantidad: 21, m3: 99911.4, m3AguaPotable: 0.0, km: 11.36, poblacion: 19210 },
+  ejecutadasTotal: { cantidad: 22, m3: 104986.4, m3AguaPotable: 0.0, km: 11.94, poblacion: 19710 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 34, m3: 288049.0, m3AguaPotable: 0.0, km: 27.26, poblacion: 26226 },
 
   enEjecucion: [
-    { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACION DE DIQUES EN AMBAS MARGENES DEL RIO VIZCARRA, ENTRE EL KM  00+000 Y EL KM 00+580, SECTOR URBANO ,DISTRITO DE LA UNION , PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUANUCO       ', inicio: '16/10/2026', fin: '30/10/2026', volAcum: 4863.26, kmAcum: 0.56, poblacion: 500, poblacionSinDuplicar: 500 },
     { provincia: 'Huanuco', distrito: 'Huanuco', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LAS QUEBRADAS SECAS TINGORAGRA Y VIA CRUCIS AMBAS MARGENES, DESDE LA PROG. 0+000 A LA 0+300 DISTRITO DE HUANUCO, PROVINCIA DE HUANUCO Y DEPARTAMENTO DE HUANUCO-00                 ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 112.5, kmAcum: 0.03, poblacion: 380, poblacionSinDuplicar: 380 },
     { provincia: 'Dos De Mayo', distrito: 'La Union', tipo: 'Prevención', descripcion: '"LIMPIEZA, DESCOLMATACIóN, ENCAUZAMIENTO Y CONFORMACIóN DE DIQUES EN AMBAS MáRGENES DEL RíO VIZCARRA, SEGUNDO TRAMO, ENTRE EL KM 00+000 Y EL KM 00+820, SECTOR URBANO, DISTRITO DE LA UNIóN, PROVINCIA DE DOS DE MAYO, DEPARTAMENTO DE HUáNUCO"      ', inicio: '17/11/2026', fin: '01/12/2026', volAcum: 2183.89, kmAcum: 0.29, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
