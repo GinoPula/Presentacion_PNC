@@ -55,7 +55,7 @@ export default {
     { tipo: 'Camión cisterna de agua', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGM-994'], estado: 'operativo' },
     { tipo: 'Camión cisterna de combustible', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EGN-025'], estado: 'operativo' },
     { tipo: 'Camioneta', cantidad: 1, marca: 'Toyota', codigos: ['EAJ-733'], estado: 'operativo' },
-    { tipo: 'Cargador frontal', cantidad: 1, marca: 'John Deere', codigos: ['D001597'], estado: 'inoperativo' },
+    { tipo: 'Cargador frontal', cantidad: 1, marca: 'John Deere', codigos: ['D001597'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10127'], estado: 'inoperativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Caterpillar', codigos: ['TJT10129'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D523228'], estado: 'operativo' },
