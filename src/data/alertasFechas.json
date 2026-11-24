@@ -2,50 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/11/2026",
-    "horaCorte": "04:06",
+    "horaCorte": "04:37",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "10633",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Jaen",
-      "distrito": "Jaen",
-      "sector": "El Pongo, Fila Alta, Chamaya, Molino Chamaya, Palo Blanco, La Pushura, San Agustin",
-      "ficha": "N°075-2026-AAU-AMZ",
-      "descripcion": "“ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°103-2026-CPJ/SO",
-      "fechaInicio": "12/10/2026",
-      "fechaFin": "10/11/2026",
-      "diasAtraso": 14
-    },
-    {
-      "n": 2,
-      "idIntervencion": "10678",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "La Coipa",
-      "sector": "Centro Poblado Chimburique",
-      "ficha": "N°079-2025-RLEU-AMZ",
-      "descripcion": "“REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N °035-2026-MDLC/CM",
-      "fechaInicio": "27/10/2026",
-      "fechaFin": "15/11/2026",
-      "diasAtraso": 9
-    },
-    {
-      "n": 3,
       "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +26,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 4,
+      "n": 2,
       "idIntervencion": "10587",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +45,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 5,
+      "n": 3,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +64,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 6,
+      "n": 4,
       "idIntervencion": "10624",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -121,26 +83,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 7,
-      "idIntervencion": "9412",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "LORETO",
-      "deptoLabel": "Loreto",
-      "regionId": "loreto",
-      "provincia": "Maynas",
-      "distrito": "Iquitos",
-      "sector": "Habilitacion Urbana Varillalito",
-      "ficha": "027-2026-LD-U-LOR",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
-      "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
-      "fechaInicio": "03/11/2026",
-      "fechaFin": "22/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 8,
+      "n": 5,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,7 +102,26 @@
       "diasAtraso": 2
     },
     {
-      "n": 9,
+      "n": 6,
+      "idIntervencion": "9412",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "LORETO",
+      "deptoLabel": "Loreto",
+      "regionId": "loreto",
+      "provincia": "Maynas",
+      "distrito": "Iquitos",
+      "sector": "Habilitacion Urbana Varillalito",
+      "ficha": "027-2026-LD-U-LOR",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN LA HABILITACION URBANA VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.",
+      "marcoLegal": "INFORME TECNICO N° 106-2026-CAHT-SGIMV-MDSJB",
+      "fechaInicio": "03/11/2026",
+      "fechaFin": "22/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 7,
       "idIntervencion": "9144",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +140,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 10,
+      "n": 8,
       "idIntervencion": "9408",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +159,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 9,
       "idIntervencion": "10698",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 10,
       "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -235,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 11,
       "idIntervencion": "10680",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 12,
       "idIntervencion": "9174",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
