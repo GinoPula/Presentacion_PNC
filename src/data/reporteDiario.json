@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "23/11/2026",
-    "horaCorte": "18:29",
+    "horaCorte": "18:59",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -42,22 +42,6 @@
     },
     {
       "n": 3,
-      "idIntervencion": "10557",
-      "departamento": "ANCASH",
-      "deptoLabel": "Ancash",
-      "regionId": "ancash",
-      "provincia": "Santa",
-      "distrito": "Chimbote",
-      "sector": "Tambo Real",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
-      "fechaInicio": "18/11/2026",
-      "fechaFin": "05/12/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 4,
       "idIntervencion": "10462",
       "departamento": "ANCASH",
       "deptoLabel": "Ancash",
@@ -76,6 +60,22 @@
         "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10129)"
       ]
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10557",
+      "departamento": "ANCASH",
+      "deptoLabel": "Ancash",
+      "regionId": "ancash",
+      "provincia": "Santa",
+      "distrito": "Chimbote",
+      "sector": "Tambo Real",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "DECRETO SUPREMO N°124-2026-PCM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
+      "fechaInicio": "18/11/2026",
+      "fechaFin": "05/12/2026",
+      "maquinaria": []
     },
     {
       "n": 5,
@@ -120,22 +120,6 @@
     },
     {
       "n": 7,
-      "idIntervencion": "10647",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Villa Paraiso Y Villa Continental",
-      "tipo": "EMERGENCIA",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "fechaInicio": "05/11/2026",
-      "fechaFin": "26/11/2026",
-      "maquinaria": []
-    },
-    {
-      "n": 8,
       "idIntervencion": "10656",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -151,7 +135,7 @@
       "maquinaria": []
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "10655",
       "departamento": "AREQUIPA",
       "deptoLabel": "Arequipa",
@@ -164,6 +148,22 @@
       "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR ASOCIACIÓN RAFAEL BELAUNDE DIEZ CANSECO, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
       "fechaInicio": "12/11/2026",
       "fechaFin": "21/11/2026",
+      "maquinaria": []
+    },
+    {
+      "n": 9,
+      "idIntervencion": "10647",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Villa Paraiso Y Villa Continental",
+      "tipo": "EMERGENCIA",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "fechaInicio": "05/11/2026",
+      "fechaFin": "26/11/2026",
       "maquinaria": []
     },
     {
@@ -872,7 +872,7 @@
       "marcoLegal": "ADENDA 1 AL CONVENIO N° 027-2025-VIVIENDA/VMVU/PNC.",
       "descripcion": "LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+160 HASTA LA PROGRESIVA 0+320) KM, EN EL SECTOR CRÍTICO N°02: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA",
       "fechaInicio": "31/10/2026",
-      "fechaFin": "21/11/2026",
+      "fechaFin": "25/11/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( TJT10117)"
       ]
