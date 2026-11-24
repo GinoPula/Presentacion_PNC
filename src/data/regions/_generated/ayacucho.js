@@ -17,7 +17,7 @@ export default {
 
   enEjecucion: [
     { provincia: 'Huamanga', distrito: 'Ayacucho', tipo: 'Prevención', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO           ', inicio: '16/11/2026', fin: '26/11/2026', volAcum: 180.0, kmAcum: 0.06, poblacion: 320, poblacionSinDuplicar: 320 },
-    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.    ', inicio: '18/11/2026', fin: '27/11/2026', volAcum: 1830.0, kmAcum: 0.16, poblacion: 30, poblacionSinDuplicar: 30 },
+    { provincia: 'Huamanga', distrito: 'Santiago De Pischa', tipo: 'Prevención', descripcion: ' LIMPIEZA,  DESCOLMATACIÓN  Y  CONFORMACIÓN  DE  DIQUE  CON  MATERIAL PROPIO EN LA QUEBRADA PACAY HUAYCCO (TRAMO I) Y EL RIO CACHI (TRAMO IV), SECTOR  DE  ASTOBAMBA,  DISTRITO  DE  SANTIAGO  DE  PISCHA,  PROVINCIA  DE HUAMANGA, REGIÓN AYACUCHO.     ', inicio: '18/11/2026', fin: '27/11/2026', volAcum: 1830.0, kmAcum: 0.16, poblacion: 30, poblacionSinDuplicar: 30 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
