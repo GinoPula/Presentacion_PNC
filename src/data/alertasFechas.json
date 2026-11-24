@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "24/11/2026",
-    "horaCorte": "03:36",
+    "horaCorte": "04:06",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10499",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "Cutervo",
-      "distrito": "La Ramada",
-      "sector": "C.p. Las Iglesias – C.p. La Cubillina",
-      "ficha": "N°068-2026-MTVU-AMZ",
-      "descripcion": "“MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N° 015-2026-MDLR/CM",
-      "fechaInicio": "09/09/2026",
-      "fechaFin": "12/11/2026",
-      "diasAtraso": 12
-    },
-    {
-      "n": 3,
       "idIntervencion": "10678",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 9
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,45 +64,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 5,
-      "idIntervencion": "10727",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "CAJAMARCA",
-      "deptoLabel": "Cajamarca",
-      "regionId": "cajamarca",
-      "provincia": "San Ignacio",
-      "distrito": "Chirinos",
-      "sector": "Caserio Yucarica Y Sector El Choloque.",
-      "ficha": "N°083-2026-RLEU-AMZ",
-      "descripcion": "“REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”",
-      "marcoLegal": "ACUERDO DE CONCEJO N°039-2026-MDCH",
-      "fechaInicio": "20/11/2026",
-      "fechaFin": "04/12/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 6,
-      "idIntervencion": "5977",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AMAZONAS",
-      "deptoLabel": "Amazonas",
-      "regionId": "amazonas",
-      "provincia": "Utcubamba",
-      "distrito": "Bagua Grande",
-      "sector": "C.p. Goncha",
-      "ficha": "002-2026-LDP-AMZ",
-      "descripcion": "“DESCOLMATACION Y ENCAUZAMIENTO CON MATERIAL PROPIO DE LA QUEBRADA GONCHA DESDE LA PROGRESIVA 0+000 HASTA LA PROGRESIVA 1+891 – DEL CENTRO POBLADO DE GONCHA, DISTRITO DE BAGUA GRANDE, PROVINCIA DE UTCUBAMBA, REGIÓN AMAZONAS”-00",
-      "marcoLegal": "CONVENIO Nº010-2022-ADENDA 01 / PLIA",
-      "fechaInicio": "20/11/2026",
-      "fechaFin": "19/12/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 7,
+      "n": 4,
       "idIntervencion": "10587",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -140,26 +83,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 8,
-      "idIntervencion": "10624",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Ate",
-      "sector": "Los Alamos",
-      "ficha": "144-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
-      "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
-      "fechaInicio": "29/10/2026",
-      "fechaFin": "21/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 9,
+      "n": 5,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -178,7 +102,26 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 6,
+      "idIntervencion": "10624",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Ate",
+      "sector": "Los Alamos",
+      "ficha": "144-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
+      "fechaInicio": "29/10/2026",
+      "fechaFin": "21/11/2026",
+      "diasAtraso": 3
+    },
+    {
+      "n": 7,
       "idIntervencion": "9412",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +140,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 11,
+      "n": 8,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +159,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 12,
+      "n": 9,
       "idIntervencion": "9144",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -235,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 10,
       "idIntervencion": "9408",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +197,26 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 11,
+      "idIntervencion": "10698",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "HUANUCO",
+      "deptoLabel": "Huanuco",
+      "regionId": "huanuco",
+      "provincia": "Huanuco",
+      "distrito": "Huanuco",
+      "sector": "Qda Tingoragra",
+      "ficha": "052-2026-LD-P-HCO",
+      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO",
+      "marcoLegal": "CONVENIO Nº 002-2021 - ADENDA 05",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "07/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 12,
       "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -273,26 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
-      "idIntervencion": "9174",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LAMBAYEQUE",
-      "deptoLabel": "Lambayeque",
-      "regionId": "lambayeque",
-      "provincia": "Chiclayo",
-      "distrito": "La Victoria",
-      "sector": "Chacupe Y Urb Santa Rosa",
-      "ficha": "033-2026 -LD-P-LAM",
-      "descripcion": "LIMPIEZA Y DESCOLMATACION DE 3.22 KM DEL CANAL TOCNOPE, ENTRE LOS SECTORES CHACUPE Y URB SANTA ROSA, EN EL DISTRITO DE LA VICTORIA, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE -00",
-      "marcoLegal": "ADENDA 03-CONVENIO Nº036-2022/PLIA",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "15/12/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 16,
+      "n": 13,
       "idIntervencion": "10680",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -311,22 +254,22 @@
       "diasAtraso": 1
     },
     {
-      "n": 17,
-      "idIntervencion": "10698",
+      "n": 14,
+      "idIntervencion": "9174",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "HUANUCO",
-      "deptoLabel": "Huanuco",
-      "regionId": "huanuco",
-      "provincia": "Huanuco",
-      "distrito": "Huanuco",
-      "sector": "Qda Tingoragra",
-      "ficha": "052-2026-LD-P-HCO",
-      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y ELIMINACIóN DE MATERIAL DESCOLMATADO, DEL CAUCE DE LA QUEBRADA TINGORAGRA, DE LA PROG. 0+000 A LA PROG. 0+1050, TRAMO II ,SECTOR LAS MORAS, DISTRITO, PROVINCIA Y DEPARTAMENTO DE HUáNUCO",
-      "marcoLegal": "CONVENIO Nº 002-2021 - ADENDA 05",
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "La Victoria",
+      "sector": "Chacupe Y Urb Santa Rosa",
+      "ficha": "033-2026 -LD-P-LAM",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE 3.22 KM DEL CANAL TOCNOPE, ENTRE LOS SECTORES CHACUPE Y URB SANTA ROSA, EN EL DISTRITO DE LA VICTORIA, PROVINCIA DE CHICLAYO, REGION LAMBAYEQUE -00",
+      "marcoLegal": "ADENDA 03-CONVENIO Nº036-2022/PLIA",
       "fechaInicio": "23/11/2026",
-      "fechaFin": "07/12/2026",
+      "fechaFin": "15/12/2026",
       "diasAtraso": 1
     }
   ]

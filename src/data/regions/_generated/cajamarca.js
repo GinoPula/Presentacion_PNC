@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
     { tipo: 'Prevención', cantidad: 28, m3: 177033.05, km: 12.03, poblacion: 16755, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 54, m3: 240896.11, km: 188.0, poblacion: 58905, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Urgente atención', cantidad: 55, m3: 244176.11, km: 194.59, poblacion: 59458, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 86, m3: 447479.16, m3AguaPotable: 3300.0, km: 201.88, poblacion: 77552 },
+  ejecutadasTotal: { cantidad: 87, m3: 450759.16, m3AguaPotable: 3300.0, km: 208.47, poblacion: 78105 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,29 +17,25 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 83, m3: 534701.29, m3AguaPotable: 1830.0, km: 217.87, poblacion: 100929 },
 
   enEjecucion: [
-    { provincia: 'Cutervo', distrito: 'La Ramada', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUEPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO DEL CENTRO POBLADO LAS IGLESIAS Y DEL CENTRO POBLADO LA CUBILLINA DISTRITO DE LA RAMADA, PROVINCIA DE CUTERVO, DEPARTAMENTO CAJAMARCA”     ', inicio: '09/09/2026', fin: '12/11/2026', volAcum: 2320.0, kmAcum: 5.7, poblacion: 553, poblacionSinDuplicar: 553 },
     { provincia: 'Jaen', distrito: 'Jaen', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA PARA CONSUMO HUMANO EN LOS SECTORES EL PONGO, FILA ALTA, CHAMAYA, MOLINO CHAMAYA, PALO BLANCO, LA PUSHURA, SAN AGUSTIN ETAPA VI DEL DISTRITO DE JAEN, PROVINCIA JAEN, REGION CAJAMARCA” ', inicio: '12/10/2026', fin: '10/11/2026', volAcum: 240.0, kmAcum: 0.0, poblacion: 5000, poblacionSinDuplicar: 5000 },
     { provincia: 'San Ignacio', distrito: 'La Coipa', tipo: 'Urgente atención', descripcion: ' “REMOCIÓN Y LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD DE VÍAS DE LOS CENTRO¿ POBLADO CHIMBURIQUE, DISTRITO DE LA COIPA, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '27/10/2026', fin: '15/11/2026', volAcum: 1350.0, kmAcum: 0.6, poblacion: null, poblacionSinDuplicar: null },
     { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “MEJORAMIENTO Y RECUPERACION DE LA TRANSITABILIDAD DE LAS VIAS DE ACCESO QUE UNE EL DISTRITO DE CHIRINOS, TRAMO: CASERIO LA PALMA Y SECTORES, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA” ', inicio: '11/11/2026', fin: '26/11/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 441, poblacionSinDuplicar: 441 },
     { provincia: 'Cajamarca', distrito: 'Llacanora', tipo: 'Prevención', descripcion: '“CONFORMACIÓN DE DIQUE (AMBOS MÁRGENES) Y LOSA DE DISIPACIÓN EN EL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+040, EN EL CASERÍO HUAYRAPONGO GRANDE, DISTRITO DE LLACANORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.    ', inicio: '11/11/2026', fin: '25/11/2026', volAcum: 900.0, kmAcum: 0.01, poblacion: 150, poblacionSinDuplicar: 150 },
     { provincia: 'Cajabamba', distrito: 'Cachachi', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN EL RÍO CHIMÍN, DESDE LA PROGRESIVA KM 00+000 HASTA LA PROGRESIVA KM 00+500, EN EL SECTOR CHIMÍN, C.P. TABACAL, DISTRITO DE CACHACHI, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.     ', inicio: '12/11/2026', fin: '26/11/2026', volAcum: 10200.0, kmAcum: 0.3, poblacion: 700, poblacionSinDuplicar: 700 },
     { provincia: 'Cajamarca', distrito: 'Namora', tipo: 'Prevención', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE EN LA QUEBRADA SARINMAYO, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 02+180, EN EL SECTOR ADACUCHO, DISTRITO DE NAMORA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”. ', inicio: '16/11/2026', fin: '30/11/2026', volAcum: 1000.0, kmAcum: 0.54, poblacion: 240, poblacionSinDuplicar: 240 },
+    { provincia: 'San Ignacio', distrito: 'Chirinos', tipo: 'Urgente atención', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA” ', inicio: '20/11/2026', fin: '04/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 72, poblacionSinDuplicar: 72 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Cajabamba', distrito: 'Condebamba', cantidad: 1, metaVol: 15500.0, metaKm: 1.24, poblacion: 240 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', cantidad: 1, metaVol: 7500.0, metaKm: 0.5, poblacion: 500 },
-    { provincia: 'Jaen', distrito: 'Bellavista', cantidad: 1, metaVol: 621.37, metaKm: 0.35, poblacion: 500 },
-    { provincia: 'San Ignacio', distrito: 'Chirinos', cantidad: 1, metaVol: 6290.0, metaKm: 2.25, poblacion: 72 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 29911.37, metaKm: 4.34, poblacion: 1312 },
+  programadasTotal: { cantidad: 2, metaVol: 23000.0, metaKm: 1.74, poblacion: 740 },
 
   programadasDetalle: [
-    { provincia: 'San Ignacio', distrito: 'Chirinos', sector: 'Caserio Yucarica Y Sector El Choloque.', ficha: 'N°083-2026-RLEU-AMZ', descripcion: ' “REMOCION, LIMPIEZA DE ESCOMBROS Y RECUPERACION DE LA TRANSITABILIDAD DE LA VIA DE ACCESO QUE UNE EL CASERIO YUCARICA – SECTOR EL CHOLOQUE, DEL DISTRITO DE CHIRINOS, PROVINCIA DE SAN IGNACIO, REGIÓN CAJAMARCA”', fechaInicio: '20/11/2026', fechaFin: '04/12/2026', metaVol: 6290.0, metaKm: 2.25, poblacion: 72, poblacionSinDuplicar: 72 },
     { provincia: 'Cajabamba', distrito: 'Condebamba', sector: 'La Merced Y El Porvenir', ficha: 'FTI N° 002-2026-LD-P-CAJ', descripcion: '“CONFORMACIÓN Y REFORZAMIENTO DE DIQUE EN EL MARGEN DERECHO DEL RÍO CONDEBAMBA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 01+240, EN LOS SECTORES LA MERCED Y EL PORVENIR, C.P. DE MALCAS, DISTRITO DE CONDEBAMBA, PROVINCIA DE CAJABAMBA, DEPARTAMENTO DE CAJAMARCA”.-00 \n(INTERVENCIÓN EJECUTADA EN EL 2025/SUJETO A INSPECCIÓN CON MD. DE CONDEBAMBA).            ', fechaInicio: '01/12/2026', fechaFin: '15/12/2026', metaVol: 15500.0, metaKm: 1.24, poblacion: 240, poblacionSinDuplicar: 240 },
     { provincia: 'Cajamarca', distrito: 'Los Baños Del Inca', sector: 'C.P. Otuzco', ficha: 'FTI N° 007-2026-LD-P-CAJ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DEL RÍO CHONTA, DESDE LA PROG. KM 00+000 HASTA LA PROG. KM 00+500, EN EL CENTRO POBLADO DE OTUZCO, DISTRITO DE BAÑOS DEL INCA, PROVINCIA DE CAJAMARCA, DEPARTAMENTO DE CAJAMARCA”.-00\n(NO SE RENOVO CONVENIO CON LA MD. BAÑOS DEL INCA - POSIBLE INTERVENCIÓN CON EL GORE/SUJETO A INSPECCIÓN)   ', fechaInicio: '02/12/2026', fechaFin: '16/12/2026', metaVol: 7500.0, metaKm: 0.5, poblacion: 500, poblacionSinDuplicar: 500 },
-    { provincia: 'Jaen', distrito: 'Bellavista', sector: 'C.P. Ortigas', ficha: 'N°015-2026-LDP-AMZ', descripcion: '“LIMPIEZA, DESCOLMATACIÓN Y ENCAUZAMIENTO DE MATERIAL SEDIMENTADO DE LA QUEBRADA SECA ORTIGAS, DESDE LA PROGRESIVA 0+000 K.M. A LA  PROGRESIVA 0+347.83 K.M., DEL SECTOR ORTIGAS, DISTRITO DE BELLAVISTA, PROVINCIA DE JAÉN, REGION CAJAMARCA".-00\n                                                               ', fechaInicio: '13/12/2026', fechaFin: '29/12/2026', metaVol: 621.37, metaKm: 0.35, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
 
   puntosCriticos: [
