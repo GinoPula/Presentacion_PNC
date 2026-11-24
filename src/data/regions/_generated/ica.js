@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 29475.0, kmAcum: 0.39, poblacion: 2078, poblacionSinDuplicar: 2078 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P    ', inicio: '12/10/2026', fin: '25/11/2026', volAcum: 34755.0, kmAcum: 0.49, poblacion: 2078, poblacionSinDuplicar: 2078 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -27,7 +27,7 @@ export default {
   programadasTotal: { cantidad: 2, metaVol: 4276.0, metaKm: 1.17, poblacion: 1140 },
 
   programadasDetalle: [
-    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00               ', fechaInicio: '01/12/2026', fechaFin: '07/12/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580, poblacionSinDuplicar: 580 },
+    { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°008-2026-LDP- ICA', descripcion: 'LIMPIEZA Y DESCOLMATACION DEL CAUCE DE DREN PACHINGA, SECTOR PACHINGA , DEL DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA-00                ', fechaInicio: '11/12/2026', fechaFin: '17/12/2026', metaVol: 3340.0, metaKm: 0.86, poblacion: 580, poblacionSinDuplicar: 580 },
     { provincia: 'Pisco', distrito: 'Pisco', sector: 'Pachinga', ficha: 'FT I N°012-2026-LDP- ICA', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DEL DREN PACHINGA, SECTOR PACHINGA TRAMO I, DISTRITO PISCO, PROVINCIA PISCO, DPTO ICA.-00          ', fechaInicio: '11/12/2026', fechaFin: '13/12/2026', metaVol: 936.0, metaKm: 0.31, poblacion: 560, poblacionSinDuplicar: 560 },
   ],
 
