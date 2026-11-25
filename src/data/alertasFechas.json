@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/11/2026",
-    "horaCorte": "09:04",
+    "horaCorte": "09:34",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "10680",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Satipo",
-      "distrito": "Rio Tambo",
-      "sector": "C.p Fe Y Alegria",
-      "ficha": "076-2026-LDP-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RIO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+300.24 KM DEL C.P FE Y ALEGRIA, EN EL DISTRITO DE RIO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN.",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "09/11/2026",
-      "fechaFin": "23/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 7,
       "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -140,7 +121,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10698",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -159,7 +140,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "9716",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +159,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10670",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "10690",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -216,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "9441",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -235,26 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
-      "idIntervencion": "10728",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "JUNIN",
-      "deptoLabel": "Junin",
-      "regionId": "junin",
-      "provincia": "Satipo",
-      "distrito": "Rio Tambo",
-      "sector": "Zona Urbana",
-      "ficha": "081-2026-LD-P-JUN",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+381.75 KM DEL C.P. FE SELVA DE ORO EN EL DISTRITO DE RÍO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN",
-      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
-      "fechaInicio": "24/11/2026",
-      "fechaFin": "03/12/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 14,
+      "n": 12,
       "idIntervencion": "9775",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 13,
       "idIntervencion": "10640",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
