@@ -40,9 +40,8 @@ export default {
     { provincia: 'Pisco', distrito: 'Huancano', sector: 'Quebrada Huayanto', fichaTecnica: '049-2026-LDE-ICA', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DE LA QUEBRADA HUAYANTO, SECTOR HUAYANTO,DISTRTO HUANCANO, PROVINCIA PISCO, DEPARTAMENTO ICA  DS180-R     ', estado: 'Ejecutada', mes: '', metaKm: 1.19, metaVol: 41555.4, poblacion: 23 },
   ],
 
-  conveniosCount: 4,
+  conveniosCount: 3,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Provincial Pisco', detail: 'vence 24/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Provincial Palpa', detail: 'hasta 26/05/2027' },
     { entidad: 'Municipalidad Distrital San Jose De Los Molinos', detail: 'hasta 01/02/2027' },
     { entidad: 'Municipalidad Distrital Santiago', detail: 'hasta 11/02/2027' },

@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
-    "fechaCorte": "24/11/2026",
-    "horaCorte": "23:55",
+    "fechaCorte": "25/11/2026",
+    "horaCorte": "00:26",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -23,7 +23,7 @@
       "marcoLegal": "ACUERDO DE CONCEJO N° 025-2026-MDC/A",
       "fechaInicio": "13/11/2026",
       "fechaFin": "19/11/2026",
-      "diasAtraso": 5
+      "diasAtraso": 6
     },
     {
       "n": 2,
@@ -42,7 +42,7 @@
       "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
       "fechaInicio": "29/10/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 3,
@@ -61,7 +61,7 @@
       "marcoLegal": "D.S. N° 124-2026-PCM",
       "fechaInicio": "12/11/2026",
       "fechaFin": "21/11/2026",
-      "diasAtraso": 3
+      "diasAtraso": 4
     },
     {
       "n": 4,
@@ -80,7 +80,7 @@
       "marcoLegal": "CONVENIO N° 029-2026-VIVIENDA",
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
-      "diasAtraso": 2
+      "diasAtraso": 3
     },
     {
       "n": 5,
@@ -99,29 +99,10 @@
       "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
       "fechaInicio": "23/11/2026",
       "fechaFin": "29/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
     },
     {
       "n": 6,
-      "idIntervencion": "10654",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Arequipa",
-      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
-      "ficha": "174-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "02/12/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 7,
       "idIntervencion": "10680",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -137,7 +118,26 @@
       "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
       "fechaInicio": "09/11/2026",
       "fechaFin": "23/11/2026",
-      "diasAtraso": 1
+      "diasAtraso": 2
+    },
+    {
+      "n": 7,
+      "idIntervencion": "10654",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Arequipa",
+      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
+      "ficha": "174-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "02/12/2026",
+      "diasAtraso": 2
     },
     {
       "n": 8,
@@ -156,6 +156,139 @@
       "marcoLegal": "CONVENIO Nº 002-2021 - ADENDA 05",
       "fechaInicio": "23/11/2026",
       "fechaFin": "07/12/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 9,
+      "idIntervencion": "9716",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LA LIBERTAD",
+      "deptoLabel": "La Libertad",
+      "regionId": "la-libertad",
+      "provincia": "Trujillo",
+      "distrito": "Laredo",
+      "sector": "Menocucho",
+      "ficha": "010-2026-LD-P-LIB",
+      "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA AVENDAñO SECTOR MENOCUCHO, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD-00",
+      "marcoLegal": "CONVENIO Nº083-2023-ADENDA 02 /PLIA",
+      "fechaInicio": "24/11/2026",
+      "fechaFin": "03/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 10,
+      "idIntervencion": "10670",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "Corrales",
+      "ficha": "077-2026-AA-U-TUM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "24/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 11,
+      "idIntervencion": "10690",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "PIURA",
+      "deptoLabel": "Piura",
+      "regionId": "piura",
+      "provincia": "Sechura",
+      "distrito": "Sechura",
+      "sector": "Chulliyachi",
+      "ficha": "FTI N°045-2026-LD-P-PIU",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE LA ZONA URBANA DEL DREN SECHURA-TRAMO CHULLIYACHI, (PROG. KM 8+200 – KM 05+700), DISTRITO DE SECHURA, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA",
+      "marcoLegal": "CONVENIO N°053-2023 VIVIENDA/VMVU/PNC ADENDA N°03",
+      "fechaInicio": "29/10/2026",
+      "fechaFin": "24/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 12,
+      "idIntervencion": "9441",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Rioja",
+      "distrito": "Pardo Miguel",
+      "sector": "Centro, Los Angeles Y Miraflores",
+      "ficha": "009-2026-AA-U-SAM",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
+      "fechaInicio": "24/11/2026",
+      "fechaFin": "23/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 13,
+      "idIntervencion": "10728",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "JUNIN",
+      "deptoLabel": "Junin",
+      "regionId": "junin",
+      "provincia": "Satipo",
+      "distrito": "Rio Tambo",
+      "sector": "Zona Urbana",
+      "ficha": "081-2026-LD-P-JUN",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO DEL CAUCE DEL RÍO QUEMPIRI EN LA PROGRESIVA 0+000 AL 1+381.75 KM DEL C.P. FE SELVA DE ORO EN EL DISTRITO DE RÍO TAMBO, PROVINCIA DE SATIPO, DEPARTAMENTO DE JUNÍN",
+      "marcoLegal": "CONVENIO Nº021-2022-ADENDA 04",
+      "fechaInicio": "24/11/2026",
+      "fechaFin": "03/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 14,
+      "idIntervencion": "9775",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "APURIMAC",
+      "deptoLabel": "Apurimac",
+      "regionId": "apurimac",
+      "provincia": "Antabamba",
+      "distrito": "Juan Espinoza Medrano",
+      "sector": "Mollebamba/rio Mollebamba",
+      "ficha": "FTI N° 027-2026-LDP-APU (FTR-MC-PREV N° 0541-2025-ANA-AAA.PA-ALA.MAP )",
+      "descripcion": "LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC\".",
+      "marcoLegal": "CONVENIO Nº08-2026/ANA",
+      "fechaInicio": "15/10/2026",
+      "fechaFin": "24/11/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 15,
+      "idIntervencion": "10640",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "PREVENCIÓN",
+      "departamento": "LIMA",
+      "deptoLabel": "Lima",
+      "regionId": "lima",
+      "provincia": "Lima",
+      "distrito": "Comas",
+      "sector": "Corrientes",
+      "ficha": "149-2026-LDP-LIM",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
+      "marcoLegal": "CONVENIO N° 70-2025-VIVIENDA/VMVU/PNC – ADENDA N° 01",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "24/11/2026",
       "diasAtraso": 1
     }
   ]
