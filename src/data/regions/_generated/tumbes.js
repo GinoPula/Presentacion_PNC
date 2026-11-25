@@ -38,7 +38,7 @@ export default {
   ],
 
   puntosCriticos: [
-    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Malval', fichaTecnica: '073-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180-P\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t         ', estado: 'Ejecutada', mes: '', metaKm: 0.45, metaVol: 3375.0, poblacion: 527 },
+    { provincia: 'Tumbes', distrito: 'Corrales', sector: 'Malval', fichaTecnica: '073-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES\tDS180-P\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t          ', estado: 'Ejecutada', mes: '', metaKm: 0.45, metaVol: 3375.0, poblacion: 527 },
     { provincia: 'Tumbes', distrito: 'San Jacinto', sector: 'Vista Hermosa', fichaTecnica: '074-2026-LD-E-TUM', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA RICA PLAYA, EN EL SECTOR VISTA HERMOSA DEL DISTRITO DE SAN JACINTO, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES  DS180-P        ', estado: 'Ejecutada', mes: '', metaKm: 0.3, metaVol: 4200.0, poblacion: 269 },
   ],
 

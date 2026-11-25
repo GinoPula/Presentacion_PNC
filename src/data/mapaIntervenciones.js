@@ -931,7 +931,7 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "Tumbes",
     "sector": "",
-    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00      ",
+    "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PEDREGAL TRAMO II, EN EL DISTRITO DE TUMBES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES” -00       ",
     "ficha": "021-2026-LD-PI-TUM",
     "fechaInicio": "19/09/2026",
     "fechaFin": "03/10/2026",
@@ -988,7 +988,7 @@ const mapaIntervenciones = {
     "provincia": "Tumbes",
     "distrito": "Corrales",
     "sector": "Malval",
-    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES	DS180-P																				         ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA BOLIVAR, EN EL SECTOR MALVAL DEL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES	DS180-P																				          ",
     "ficha": "073-2026-LD-E-TUM",
     "fechaInicio": "10/10/2026",
     "fechaFin": "24/10/2026",
@@ -2727,7 +2727,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/11/2026",
     "poblacion": 420,
     "poblacionSinDuplicar": 420,
-    "volumen": 465,
+    "volumen": 480,
     "km": 0,
     "enlace": null
   },
@@ -2784,7 +2784,7 @@ const mapaIntervenciones = {
     "fechaFin": "30/11/2026",
     "poblacion": 550,
     "poblacionSinDuplicar": 550,
-    "volumen": 345,
+    "volumen": 360,
     "km": 0,
     "enlace": null
   },
@@ -2898,8 +2898,8 @@ const mapaIntervenciones = {
     "fechaFin": "12/12/2026",
     "poblacion": 2389,
     "poblacionSinDuplicar": 2389,
-    "volumen": 1200,
-    "km": 0.03,
+    "volumen": 2000,
+    "km": 0.05,
     "enlace": null
   }
 ],
