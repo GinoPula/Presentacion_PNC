@@ -26,13 +26,13 @@ export default {
   programadasCols: ['provincia', 'distrito'],
   programadas: [
     { provincia: 'Tacna', distrito: 'Inclan', cantidad: 1, metaVol: 330.0, metaKm: 0.0, poblacion: 420 },
-    { provincia: 'Tacna', distrito: 'Sama', cantidad: 1, metaVol: 330.0, metaKm: 0.0, poblacion: 420 },
+    { provincia: 'Tacna', distrito: 'Sama', cantidad: 1, metaVol: 363.0, metaKm: 0.0, poblacion: 300 },
   ],
-  programadasTotal: { cantidad: 2, metaVol: 660.0, metaKm: 0.0, poblacion: 840 },
+  programadasTotal: { cantidad: 2, metaVol: 693.0, metaKm: 0.0, poblacion: 720 },
 
   programadasDetalle: [
-    { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos Vi Etapa', ficha: '056-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA LA POBLACION DE SAMA  Y ANEXOS VI ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA ', fechaInicio: '01/12/2026', fechaFin: '30/12/2026', metaVol: 330.0, metaKm: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
     { provincia: 'Tacna', distrito: 'Inclan', sector: 'Inclan Y Anexos V Etapa', ficha: '055-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA LA POBLACION DE INCLAN Y ANEXOS V ETAPA, DISTRITO DE INCLAN, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '01/12/2026', fechaFin: '30/12/2026', metaVol: 330.0, metaKm: 0.0, poblacion: 420, poblacionSinDuplicar: 420 },
+    { provincia: 'Tacna', distrito: 'Sama', sector: 'Sama Y Anexos Vi Etapa', ficha: '056-2026-DA-E-TAC', descripcion: ' DISTRIBUCION TEMPORAL DE AGUA PARA LA POBLACION DE SAMA  Y ANEXOS VI ETAPA, DISTRITO DE SAMA, PROVINCIA DE TACNA, REGION DE TACNA  ', fechaInicio: '01/12/2026', fechaFin: '30/12/2026', metaVol: 363.0, metaKm: 0.0, poblacion: 300, poblacionSinDuplicar: 300 },
   ],
 
   puntosCriticos: [
