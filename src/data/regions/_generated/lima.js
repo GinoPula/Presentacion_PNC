@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 51076.27, km: 1.88, poblacion: 19664, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 82, m3: 669077.97, km: 24.37, poblacion: 2603988, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Prevención', cantidad: 83, m3: 680283.87, km: 24.53, poblacion: 2604086, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 100, m3: 740101.34, m3AguaPotable: 0.0, km: 42.62, poblacion: 2642486 },
+  ejecutadasTotal: { cantidad: 101, m3: 751307.24, m3AguaPotable: 0.0, km: 42.78, poblacion: 2642584 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -19,7 +19,6 @@ export default {
   enEjecucion: [
     { provincia: 'Lima', distrito: 'Ate', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”     ', inicio: '29/10/2026', fin: '25/11/2026', volAcum: 2954.0, kmAcum: 0.17, poblacion: 720, poblacionSinDuplicar: 720 },
     { provincia: 'Canta', distrito: 'Santa Rosa De Quives', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MARGENES DEL CAUCE DEL RÍO CHILLÓN EN PUENTE PARAÍSO, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”.     ', inicio: '30/10/2026', fin: '02/12/2026', volAcum: 202.5, kmAcum: 0.01, poblacion: 442, poblacionSinDuplicar: 442 },
-    { provincia: 'Yauyos', distrito: 'Yauyos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN, ENCAUZAMIENTO Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL CAUCE DEL RÍO CAÑETE DESDE LA (PROGRESIVA 0+160 HASTA LA PROGRESIVA 0+320) KM, EN EL SECTOR CRÍTICO N°02: PUENTE AUCO, DISTRITO DE YAUYOS, PROVINCIA DE YAUYOS Y DEPARTAMENTO DE LIMA        ', inicio: '31/10/2026', fin: '25/11/2026', volAcum: 8846.1, kmAcum: 0.13, poblacion: 98, poblacionSinDuplicar: 98 },
     { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”  ', inicio: '11/11/2026', fin: '05/12/2026', volAcum: 3570.0, kmAcum: 0.12, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R    ', inicio: '12/11/2026', fin: '12/12/2026', volAcum: 930.0, kmAcum: 0.1, poblacion: 2000, poblacionSinDuplicar: 2000 },
     { provincia: 'Lima', distrito: 'Chaclacayo', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE TRIBUTARIO N.° 04 (TRAMO 1) DE LA  QUEBRADA LOS CÓNDORES, DISTRITO DE CHACLACAYO, PROVINCIA Y DEPARTAMENTO DE LIMA”. ', inicio: '19/11/2026', fin: '03/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 720, poblacionSinDuplicar: 720 },
