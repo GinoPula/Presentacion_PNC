@@ -10067,14 +10067,14 @@ const mapaIntervenciones = {
     "provincia": "Lima",
     "distrito": "Cieneguilla",
     "sector": "Puente Molle (Ranchito)",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”  ",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”   ",
     "ficha": "159-2026-LDP-LIM",
     "fechaInicio": "11/11/2026",
-    "fechaFin": "05/12/2026",
+    "fechaFin": "10/12/2026",
     "poblacion": 400,
     "poblacionSinDuplicar": 400,
-    "volumen": 3570,
-    "km": 0.119,
+    "volumen": 5490,
+    "km": 0.183,
     "enlace": null
   },
   {

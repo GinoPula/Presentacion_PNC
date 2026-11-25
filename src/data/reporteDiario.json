@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/11/2026",
-    "horaCorte": "18:12",
+    "horaCorte": "18:43",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -806,7 +806,7 @@
       "marcoLegal": "ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC",
       "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”",
       "fechaInicio": "11/11/2026",
-      "fechaFin": "05/12/2026",
+      "fechaFin": "10/12/2026",
       "maquinaria": [
         "VOLQUETE ( EGM-834)",
         "VOLQUETE ( EGV-768)",
