@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "25/11/2026",
-    "horaCorte": "11:36",
+    "horaCorte": "12:06",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -27,25 +27,6 @@
     },
     {
       "n": 2,
-      "idIntervencion": "10624",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Ate",
-      "sector": "Los Alamos",
-      "ficha": "144-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE EN EL CAUCE DE LA QUEBRADA RAMAL 01 – ZONA Z, SECTOR LOS ALAMOS ATE-PROVINCIA DE LIMA – DEPARTAMENTO DE LIMA”",
-      "marcoLegal": "II. CONVENIO N° 002-2026-VIVIENDA/VMVU/PNC.",
-      "fechaInicio": "29/10/2026",
-      "fechaFin": "21/11/2026",
-      "diasAtraso": 4
-    },
-    {
-      "n": 3,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -81,6 +62,25 @@
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
       "diasAtraso": 3
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10654",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Arequipa",
+      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
+      "ficha": "174-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "02/12/2026",
+      "diasAtraso": 2
     },
     {
       "n": 5,
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "10654",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Arequipa",
-      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
-      "ficha": "174-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "02/12/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 7,
       "idIntervencion": "9716",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -140,7 +121,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 8,
+      "n": 7,
       "idIntervencion": "10670",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,7 +140,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 9,
+      "n": 8,
       "idIntervencion": "9441",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +159,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 10,
+      "n": 9,
       "idIntervencion": "10640",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9775",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
