@@ -12760,8 +12760,8 @@ const mapaIntervenciones = {
     "fechaFin": "26/11/2026",
     "poblacion": 320,
     "poblacionSinDuplicar": 320,
-    "volumen": 180,
-    "km": 0.06,
+    "volumen": 390,
+    "km": 0.125,
     "enlace": null
   },
   {
