@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "26/11/2026",
-    "horaCorte": "16:04",
+    "horaCorte": "16:34",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -38,7 +38,12 @@
       "descripcion": "LIMPIEZA, DESCOLMATACION Y REFORZAMIENTO DE DIQUE DE LA QUEBRADA CUYASH - TRAMO I DEL CENTRO POBLADO DE MANDAHUAZ, DISTRITO DE PARARIN, PROVINCIA DE RECUAY, DEPARTAMENTO DE ANCASH",
       "fechaInicio": "19/11/2026",
       "fechaFin": "25/11/2026",
-      "maquinaria": []
+      "maquinaria": [
+        "TRACTOR SOBRE ORUGA ( 82454)",
+        "CAMIONETA ( EAJ-733)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "REMOLCADOR ( EAJ-560)"
+      ]
     },
     {
       "n": 3,
@@ -55,9 +60,13 @@
       "fechaInicio": "28/08/2026",
       "fechaFin": "30/11/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "CAMIONETA ( EAJ-733)",
         "EXCAVADORA HIDRAULICA ( TJT10129)",
+        "VOLQUETE ( EGM-924)",
+        "VOLQUETE ( EGM-824)",
+        "VOLQUETE ( EGV-808)",
+        "TRACTOR SOBRE ORUGA ( 81373)",
+        "CAMIONETA ( EAJ-733)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
         "REMOLCADOR ( EAJ-560)"
       ]
     },
@@ -75,7 +84,12 @@
       "descripcion": "LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH DS180-P",
       "fechaInicio": "18/11/2026",
       "fechaFin": "05/12/2026",
-      "maquinaria": []
+      "maquinaria": [
+        "CAMIONETA ( EAJ-733)",
+        "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
+        "REMOLCADOR ( EAJ-560)",
+        "EXCAVADORA HIDRAULICA ( D523228)"
+      ]
     },
     {
       "n": 5,
@@ -92,11 +106,11 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGV-851)",
-        "VOLQUETE ( EGM-872)",
         "CARGADOR FRONTAL ( JLX00247)",
         "VOLQUETE ( EGM-781)",
-        "TRACTOR SOBRE ORUGA ( 82538)"
+        "TRACTOR SOBRE ORUGA ( 82538)",
+        "REMOLCADOR ( EGV-851)",
+        "VOLQUETE ( EGM-872)"
       ]
     },
     {
@@ -198,11 +212,11 @@
       "fechaFin": "08/12/2026",
       "maquinaria": [
         "REMOLCADOR ( EGM-982)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)",
         "EXCAVADORA HIDRAULICA ( D523227)",
         "VOLQUETE ( EGM-773)",
-        "VOLQUETE ( EGM-822)"
+        "VOLQUETE ( EGM-822)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "CAMIONETA ( EGM-015)"
       ]
     },
     {
@@ -220,12 +234,12 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-782)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "CAMIONETA ( EGM-015)",
         "EXCAVADORA HIDRAULICA ( D523227)",
         "VOLQUETE ( EGN-052)",
-        "REMOLCADOR ( EGM-982)"
+        "CAMIONETA ( EGM-015)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
+        "REMOLCADOR ( EGM-982)",
+        "VOLQUETE ( EGV-782)"
       ]
     },
     {
@@ -243,11 +257,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
+        "REMOLCADOR ( EGM-982)",
         "VOLQUETE ( EGV-782)",
-        "CARGADOR FRONTAL ( M5K00378)",
         "CAMIONETA ( EGM-015)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-464)",
-        "REMOLCADOR ( EGM-982)"
+        "CARGADOR FRONTAL ( M5K00378)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-464)"
       ]
     },
     {
@@ -324,9 +338,9 @@
       "maquinaria": [
         "TRACTOR SOBRE ORUGA ( 81395)",
         "EXCAVADORA HIDRAULICA ( TJT10119)",
-        "VOLQUETE ( EGN-501)",
+        "VOLQUETE ( EGM-790)",
         "VOLQUETE ( EGM-836)",
-        "VOLQUETE ( EGM-790)"
+        "VOLQUETE ( EGN-501)"
       ]
     },
     {
@@ -344,8 +358,8 @@
       "fechaInicio": "18/11/2026",
       "fechaFin": "27/11/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10889)",
-        "TRACTOR SOBRE ORUGA ( 81439)"
+        "TRACTOR SOBRE ORUGA ( 81439)",
+        "EXCAVADORA HIDRAULICA ( A10889)"
       ]
     },
     {
@@ -364,9 +378,9 @@
       "fechaFin": "26/11/2026",
       "maquinaria": [
         "PLATAFORMA (CAMA BAJA) ( EGO-137)",
-        "REMOLCADOR ( EGO-046)",
         "TRACTOR SOBRE ORUGA ( J8B05104)",
-        "CAMIONETA ( EGL-971)"
+        "CAMIONETA ( EGL-971)",
+        "REMOLCADOR ( EGO-046)"
       ]
     },
     {
@@ -384,13 +398,13 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "27/11/2026",
       "maquinaria": [
+        "CAMIONETA ( EGL-971)",
         "CARGADOR FRONTAL ( JLX00213)",
+        "PLATAFORMA (CAMA BAJA) ( EGO-137)",
         "REMOLCADOR ( EGO-046)",
         "VOLQUETE ( EGM-809)",
-        "VOLQUETE ( EGM-771)",
-        "CAMIONETA ( EGL-971)",
         "EXCAVADORA HIDRAULICA ( D810408)",
-        "PLATAFORMA (CAMA BAJA) ( EGO-137)"
+        "VOLQUETE ( EGM-771)"
       ]
     },
     {
@@ -408,11 +422,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "RODILLO COMPACTADOR ( H1762462)",
-        "VOLQUETE ( EGV-774)",
         "VOLQUETE ( EGV-835)",
+        "VOLQUETE ( EGV-848)",
         "CARGADOR FRONTAL ( JLX00219)",
-        "VOLQUETE ( EGV-848)"
+        "RODILLO COMPACTADOR ( H1762462)",
+        "VOLQUETE ( EGV-774)"
       ]
     },
     {
@@ -448,11 +462,11 @@
       "fechaInicio": "26/11/2026",
       "fechaFin": "15/12/2026",
       "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10097)",
         "REMOLCADOR ( EGN-096)",
-        "VOLQUETE ( EGM-819)",
         "CAMIONETA ( EGM-019)",
-        "CARGADOR FRONTAL ( JLX00830)",
-        "EXCAVADORA HIDRAULICA ( TJT10097)"
+        "VOLQUETE ( EGM-819)",
+        "CARGADOR FRONTAL ( JLX00830)"
       ]
     },
     {
@@ -470,8 +484,8 @@
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( 810397)",
-        "CAMIONETA ( EGL-984)"
+        "CAMIONETA ( EGL-984)",
+        "EXCAVADORA HIDRAULICA ( 810397)"
       ]
     },
     {
@@ -489,10 +503,10 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "29/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-798)",
-        "VOLQUETE ( EGV-841)",
         "EXCAVADORA HIDRAULICA ( TJT10096)",
-        "CAMIONETA ( EGL-984)"
+        "CAMIONETA ( EGL-984)",
+        "VOLQUETE ( EGV-798)",
+        "VOLQUETE ( EGV-841)"
       ]
     },
     {
@@ -511,11 +525,11 @@
       "fechaFin": "30/11/2026",
       "maquinaria": [
         "VOLQUETE ( EGM-925)",
+        "TRACTOR SOBRE ORUGA ( 81386)",
+        "VOLQUETE ( EGM-823)",
         "REMOLCADOR ( EAJ-543)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
-        "TRACTOR SOBRE ORUGA ( 81386)",
         "EXCAVADORA HIDRAULICA ( D523572)",
-        "VOLQUETE ( EGM-823)"
+        "TRACTOR SOBRE ORUGA ( 81386)"
       ]
     },
     {
@@ -534,9 +548,9 @@
       "fechaFin": "10/12/2026",
       "maquinaria": [
         "CAMIONETA ( EGO-049)",
+        "VOLQUETE ( EGV-760)",
         "VOLQUETE ( EGM-871)",
-        "EXCAVADORA HIDRAULICA ( A10876)",
-        "VOLQUETE ( EGV-760)"
+        "EXCAVADORA HIDRAULICA ( A10876)"
       ]
     },
     {
@@ -554,8 +568,8 @@
       "fechaInicio": "19/11/2026",
       "fechaFin": "03/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGR-381)",
-        "CARGADOR FRONTAL ( D001609)"
+        "CARGADOR FRONTAL ( D001609)",
+        "VOLQUETE ( EGR-381)"
       ]
     },
     {
@@ -573,9 +587,9 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "30/11/2026",
       "maquinaria": [
+        "CARGADOR FRONTAL ( JLX00221)",
         "VOLQUETE ( EGV-829)",
-        "CARGADOR FRONTAL ( JLX00220)",
-        "CARGADOR FRONTAL ( JLX00221)"
+        "CARGADOR FRONTAL ( JLX00220)"
       ]
     },
     {
@@ -593,9 +607,9 @@
       "fechaInicio": "25/11/2026",
       "fechaFin": "04/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-796)",
+        "CARGADOR FRONTAL ( D001612)",
         "VOLQUETE ( EGM-832)",
-        "CARGADOR FRONTAL ( D001612)"
+        "VOLQUETE ( EGV-796)"
       ]
     },
     {
@@ -613,9 +627,9 @@
       "fechaInicio": "24/11/2026",
       "fechaFin": "05/12/2026",
       "maquinaria": [
+        "RETROEXCAVADORA ( 286754)",
         "CAMION GRUA ( EGQ-986)",
-        "VOLQUETE ( EGV-791)",
-        "RETROEXCAVADORA ( 286754)"
+        "VOLQUETE ( EGV-791)"
       ]
     },
     {
@@ -633,11 +647,11 @@
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
       "maquinaria": [
+        "EXCAVADORA HIDRAULICA ( TJT10075)",
         "CARGADOR FRONTAL ( D001607)",
         "VOLQUETE ( EAJ-393)",
         "VOLQUETE ( EAJ-398)",
-        "REMOLCADOR ( EAJ-379)",
-        "EXCAVADORA HIDRAULICA ( TJT10075)"
+        "REMOLCADOR ( EAJ-379)"
       ]
     },
     {
@@ -694,10 +708,10 @@
       "fechaFin": "13/12/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-824)",
-        "CARGADOR FRONTAL ( D001614)",
-        "VOLQUETE ( EGV-821)",
-        "RETROEXCAVADORA ( 286748)",
         "CAMIONETA ( EGL-972)",
+        "CARGADOR FRONTAL ( D001614)",
+        "RETROEXCAVADORA ( 286748)",
+        "VOLQUETE ( EGV-821)",
         "VOLQUETE ( EGV-788)"
       ]
     },
@@ -716,10 +730,10 @@
       "fechaInicio": "18/11/2026",
       "fechaFin": "13/12/2026",
       "maquinaria": [
-        "PLATAFORMA (CAMA BAJA) ( EGW-174)",
-        "TRACTOR SOBRE ORUGA ( AE800570)",
         "CAMIONETA ( EGL-972)",
-        "REMOLCADOR ( EGV-721)"
+        "TRACTOR SOBRE ORUGA ( AE800570)",
+        "REMOLCADOR ( EGV-721)",
+        "PLATAFORMA (CAMA BAJA) ( EGW-174)"
       ]
     },
     {
@@ -823,10 +837,10 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-768)",
         "VOLQUETE ( EGM-834)",
-        "EXCAVADORA HIDRAULICA ( A10891)",
-        "CARGADOR FRONTAL ( JLX00293)"
+        "VOLQUETE ( EGV-768)",
+        "CARGADOR FRONTAL ( JLX00293)",
+        "EXCAVADORA HIDRAULICA ( A10891)"
       ]
     },
     {
@@ -845,8 +859,8 @@
       "fechaFin": "09/12/2026",
       "maquinaria": [
         "VOLQUETE ( EGV-825)",
-        "EXCAVADORA HIDRAULICA ( TJT10116)",
         "CARGADOR FRONTAL ( D001610)",
+        "EXCAVADORA HIDRAULICA ( TJT10116)",
         "VOLQUETE ( EGV-832)"
       ]
     },
@@ -866,8 +880,8 @@
       "fechaFin": "08/12/2026",
       "maquinaria": [
         "EXCAVADORA HIDRAULICA ( A10910)",
-        "TRACTOR SOBRE ORUGA ( 82541)",
-        "CARGADOR FRONTAL ( JLX00206)"
+        "CARGADOR FRONTAL ( JLX00206)",
+        "TRACTOR SOBRE ORUGA ( 82541)"
       ]
     },
     {
@@ -922,8 +936,8 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "12/12/2026",
       "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( TJT10107)",
         "EXCAVADORA HIDRAULICA ( TJT10095)",
+        "EXCAVADORA HIDRAULICA ( TJT10107)",
         "TRACTOR SOBRE ORUGA ( J8B05113)"
       ]
     },
@@ -960,10 +974,10 @@
       "fechaInicio": "29/10/2026",
       "fechaFin": "27/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EAJ-390)",
         "EXCAVADORA HIDRAULICA ( 810139)",
         "CARGADOR FRONTAL ( D001580)",
-        "VOLQUETE ( EAJ-455)",
-        "VOLQUETE ( EAJ-390)"
+        "VOLQUETE ( EAJ-455)"
       ]
     },
     {
@@ -981,9 +995,9 @@
       "fechaInicio": "07/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
+        "VOLQUETE ( EAJ-400)",
         "RETROEXCAVADORA ( C429243)",
-        "REMOLCADOR ( EAJ-376)",
-        "VOLQUETE ( EAJ-400)"
+        "REMOLCADOR ( EAJ-376)"
       ]
     },
     {
@@ -1033,11 +1047,11 @@
       "fechaInicio": "27/10/2026",
       "fechaFin": "03/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGR-389)",
+        "CARGADOR FRONTAL ( 70J12945)",
+        "RODILLO COMPACTADOR ( H1762467)",
         "VOLQUETE ( EGV-867)",
         "VOLQUETE ( EGN-589)",
-        "RODILLO COMPACTADOR ( H1762467)",
-        "CARGADOR FRONTAL ( 70J12945)"
+        "VOLQUETE ( EGR-389)"
       ]
     },
     {
@@ -1073,8 +1087,8 @@
       "fechaInicio": "23/11/2026",
       "fechaFin": "28/11/2026",
       "maquinaria": [
-        "REMOLCADOR ( EGN-105)",
-        "TRACTOR SOBRE ORUGA ( 81435)"
+        "TRACTOR SOBRE ORUGA ( 81435)",
+        "REMOLCADOR ( EGN-105)"
       ]
     },
     {
@@ -1092,9 +1106,9 @@
       "fechaInicio": "23/11/2026",
       "fechaFin": "12/12/2026",
       "maquinaria": [
+        "VOLQUETE ( EGV-834)",
         "VOLQUETE ( EGV-816)",
         "REMOLCADOR ( EGN-105)",
-        "VOLQUETE ( EGV-834)",
         "EXCAVADORA HIDRAULICA ( 810311)"
       ]
     },
@@ -1132,10 +1146,10 @@
       "fechaFin": "06/12/2026",
       "maquinaria": [
         "CAMIONETA ( EGM-052)",
-        "EXCAVADORA HIDRAULICA ( TJT10112)",
+        "REMOLCADOR ( EAJ-355)",
         "CARGADOR FRONTAL ( D001613)",
         "VOLQUETE ( EGV-820)",
-        "REMOLCADOR ( EAJ-355)"
+        "EXCAVADORA HIDRAULICA ( TJT10112)"
       ]
     },
     {
@@ -1173,8 +1187,8 @@
       "fechaInicio": "26/10/2026",
       "fechaFin": "24/11/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-007)",
-        "CAMIONETA ( EGM-052)"
+        "CAMIONETA ( EGM-052)",
+        "CAMION CISTERNA DE AGUA ( EGN-007)"
       ]
     }
   ]

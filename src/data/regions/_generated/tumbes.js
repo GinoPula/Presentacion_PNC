@@ -59,8 +59,7 @@ export default {
     { tipo: 'Remolcador', cantidad: 1, marca: 'Volvo', codigos: ['EAJ-355'], estado: 'operativo' },
     { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['285283'], estado: 'operativo' },
     { tipo: 'Tractor sobre oruga', cantidad: 1, marca: 'Caterpillar', codigos: ['AE800571'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 7, marca: 'Mercedes Benz', codigos: ['EAJ-392', 'EGV-799', 'EGV-820', 'EGV-779', 'EGV-839', 'EAJ-395', 'EGV-838'], estado: 'operativo' },
-    { tipo: 'Volquete', cantidad: 1, marca: 'Mercedes Benz', codigos: ['EAJ-394'], estado: 'inoperativo' },
+    { tipo: 'Volquete', cantidad: 8, marca: 'Mercedes Benz', codigos: ['EAJ-392', 'EGV-799', 'EGV-820', 'EGV-779', 'EGV-839', 'EAJ-394', 'EAJ-395', 'EGV-838'], estado: 'operativo' },
   ],
   flotaTotal: 22,
 }
