@@ -8039,7 +8039,7 @@ const mapaIntervenciones = {
     "poblacion": 144,
     "poblacionSinDuplicar": 144,
     "volumen": 56327.53,
-    "km": 1.56,
+    "km": 1.34,
     "enlace": null
   },
   {
