@@ -2854,15 +2854,15 @@ const mapaIntervenciones = {
     "provincia": "Tacna",
     "distrito": "Tacna",
     "sector": "Puente Cerro Blanco",
-    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                               ",
+    "descripcion": " LIMPIEZA Y DESCOLMATACION EN EL CAUCE DEL RIO CAPLINA, SECTOR PUENTE CERRO BLANCO, DISTRITO DE CALANA, PROVINCIA DE TACNA, REGION DE TACNA-00                                                ",
     "ficha": "027-2026-LD-P-TAC",
     "fechaInicio": "16/11/2026",
-    "fechaFin": "23/11/2026",
+    "fechaFin": "21/11/2026",
     "poblacion": 1000,
     "poblacionSinDuplicar": 1000,
     "volumen": 3700,
     "km": 0.17,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1IfEu19HsErIwR2zrvKf54vJDWrgxY6lZ/view?usp=drive_link"
   },
   {
     "id": 10666,
@@ -6628,8 +6628,8 @@ const mapaIntervenciones = {
     "fechaFin": "13/12/2026",
     "poblacion": 7500,
     "poblacionSinDuplicar": 7500,
-    "volumen": 2620.75,
-    "km": 3.22,
+    "volumen": 540,
+    "km": 0.27,
     "enlace": null
   }
 ],
@@ -8027,12 +8027,12 @@ const mapaIntervenciones = {
     "id": 10538,
     "lat": -7.598884,
     "lng": -78.903536,
-    "estado": "Ejecutada",
+    "estado": "En ejecución",
     "tipo": "Emergencia",
     "provincia": "Ascope",
     "distrito": "Chicama",
     "sector": "Huabalito",
-    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P        ",
+    "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P         ",
     "ficha": "075-2026-LD-E-LIB",
     "fechaInicio": "08/10/2026",
     "fechaFin": "13/11/2026",
@@ -8114,8 +8114,8 @@ const mapaIntervenciones = {
     "fechaFin": "05/12/2026",
     "poblacion": 80,
     "poblacionSinDuplicar": 80,
-    "volumen": 649,
-    "km": 0.17,
+    "volumen": 80,
+    "km": 0.02,
     "enlace": null
   },
   {
@@ -9997,8 +9997,8 @@ const mapaIntervenciones = {
     "fechaFin": "02/12/2026",
     "poblacion": 442,
     "poblacionSinDuplicar": 442,
-    "volumen": 202.5,
-    "km": 0.009,
+    "volumen": 922.5,
+    "km": 0.041,
     "enlace": null
   },
   {
