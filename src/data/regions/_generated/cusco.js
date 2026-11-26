@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 42, m3: 333821.0, m3AguaPotable: 0.0, km: 17.96, poblacion: 14146 },
 
   enEjecucion: [
-    { provincia: 'Quispicanchi', distrito: 'Urcos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.    ', inicio: '15/11/2026', fin: '28/11/2026', volAcum: 13310.0, kmAcum: 0.2, poblacion: null, poblacionSinDuplicar: null },
+    { provincia: 'Quispicanchi', distrito: 'Urcos', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN DE CAUCE DEL RIO VILCANOTA Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO, EN EL  SECTOR MOLLEBAMBA ALTO, DE LA PROGRESIVA 0+000 KM A LA PROGRESIVA 0+225 KM, DISTRITO DE URCOS, PROVINCIA DE QUISPICANCHI, REGION CUSCO.    ', inicio: '15/11/2026', fin: '28/11/2026', volAcum: 14750.0, kmAcum: 0.22, poblacion: null, poblacionSinDuplicar: null },
   ],
 
   programadasCols: ['provincia', 'distrito'],
