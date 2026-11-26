@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 35, m3: 64710.24, m3AguaPotable: 10890.0, km: 35.22, poblacion: 19836 },
 
   enEjecucion: [
-    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN        ', inicio: '27/10/2026', fin: '03/12/2026', volAcum: 1200.0, kmAcum: 2.0, poblacion: 700, poblacionSinDuplicar: 700 },
+    { provincia: 'Moyobamba', distrito: 'Soritor', tipo: 'Urgente atención', descripcion: ' MEJORAMIENTO DE LA TRANSITABILIDAD DE LA VÍA DE ACCESO AL CASERÍO LUZ DEL ORIENTE, DISTRITO DE SORITOR, PROVINCIA DE MOYOBAMBA, REGIÓN SAN MARTIN        ', inicio: '27/10/2026', fin: '03/12/2026', volAcum: 1320.0, kmAcum: 2.2, poblacion: 700, poblacionSinDuplicar: 700 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
@@ -46,7 +46,7 @@ export default {
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'John Deere', codigos: ['D810312'], estado: 'operativo' },
     { tipo: 'Excavadora hidráulica', cantidad: 1, marca: 'Komatsu', codigos: ['85469'], estado: 'inoperativo' },
     { tipo: 'Plataforma', cantidad: 2, marca: 'ACS', codigos: ['EGR-075', 'EGR-074'], estado: 'operativo' },
-    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286603'], estado: 'operativo' },
+    { tipo: 'Retroexcavadora', cantidad: 1, marca: 'John Deere', codigos: ['286603'], estado: 'inoperativo' },
     { tipo: 'Rodillo compactador', cantidad: 1, marca: 'Hamm', codigos: ['H1762467'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 1, marca: 'Hino', codigos: ['EGR-389'], estado: 'operativo' },
     { tipo: 'Volquete', cantidad: 2, marca: 'Mercedes Benz', codigos: ['EGV-854', 'EGV-867'], estado: 'operativo' },
