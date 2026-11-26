@@ -6609,8 +6609,8 @@ const mapaIntervenciones = {
     "fechaFin": "13/12/2026",
     "poblacion": 593,
     "poblacionSinDuplicar": 593,
-    "volumen": 2240,
-    "km": 0.035,
+    "volumen": 5800,
+    "km": 0.195,
     "enlace": null
   },
   {
@@ -9869,6 +9869,25 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
+    "id": 10640,
+    "lat": -11.895277,
+    "lng": -77.058399,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Comas",
+    "sector": "Corrientes",
+    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”     ",
+    "ficha": "149-2026-LDP-LIM",
+    "fechaInicio": "26/10/2026",
+    "fechaFin": "24/11/2026",
+    "poblacion": 600,
+    "poblacionSinDuplicar": 600,
+    "volumen": 17170.5,
+    "km": 0.52,
+    "enlace": null
+  },
+  {
     "id": 9738,
     "lat": -11.988553,
     "lng": -76.741396,
@@ -9885,25 +9904,6 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 720,
     "volumen": 3240,
     "km": 0.2,
-    "enlace": null
-  },
-  {
-    "id": 10640,
-    "lat": -11.895277,
-    "lng": -77.058399,
-    "estado": "En ejecución",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Comas",
-    "sector": "Corrientes",
-    "descripcion": " “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”    ",
-    "ficha": "149-2026-LDP-LIM",
-    "fechaInicio": "26/10/2026",
-    "fechaFin": "24/11/2026",
-    "poblacion": 600,
-    "poblacionSinDuplicar": 600,
-    "volumen": 16315.5,
-    "km": 0.48,
     "enlace": null
   },
   {
@@ -9926,25 +9926,6 @@ const mapaIntervenciones = {
     "enlace": null
   },
   {
-    "id": 10367,
-    "lat": -12.008145,
-    "lng": -76.87172,
-    "estado": "Ejecutada",
-    "tipo": "Prevención",
-    "provincia": "Lima",
-    "distrito": "Lurigancho",
-    "sector": "La Bocatoma De La Ptap Huachipa",
-    "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA            ",
-    "ficha": "113-2026-LDP-LIM",
-    "fechaInicio": "28/10/2026",
-    "fechaFin": "17/11/2026",
-    "poblacion": 2500000,
-    "poblacionSinDuplicar": 0,
-    "volumen": 20838.6,
-    "km": 0.354,
-    "enlace": null
-  },
-  {
     "id": 10623,
     "lat": -11.949514,
     "lng": -77.095065,
@@ -9961,6 +9942,25 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 2543,
     "volumen": 6510,
     "km": 0.31,
+    "enlace": null
+  },
+  {
+    "id": 10367,
+    "lat": -12.008145,
+    "lng": -76.87172,
+    "estado": "Ejecutada",
+    "tipo": "Prevención",
+    "provincia": "Lima",
+    "distrito": "Lurigancho",
+    "sector": "La Bocatoma De La Ptap Huachipa",
+    "descripcion": "DESCOLMATACIÓN, ENCAUZAMIENTO DEL CAUCE DEL RIO RIMAC Y REFORZAMIENTO DE DIQUE CON MATERIAL PROPIO, AGUAS ARRIBA DEL BARRAJE FIJO, EN LA PROGRESIVA 1+000 KM AL 1+260 KM DE LA BOCATOMA DE LA PTAP HUACHIPA, DISTRITO DE LURIGANCHO-CHOSICA, PROVINCIA Y DEPARTAMENTO LIMA            ",
+    "ficha": "113-2026-LDP-LIM",
+    "fechaInicio": "28/10/2026",
+    "fechaFin": "17/11/2026",
+    "poblacion": 2500000,
+    "poblacionSinDuplicar": 0,
+    "volumen": 20838.6,
+    "km": 0.354,
     "enlace": null
   },
   {
@@ -17087,8 +17087,8 @@ const mapaIntervenciones = {
     "fechaFin": "27/11/2026",
     "poblacion": 2000,
     "poblacionSinDuplicar": 2000,
-    "volumen": 1890,
-    "km": 1.3,
+    "volumen": 2100,
+    "km": 1.45,
     "enlace": null
   },
   {

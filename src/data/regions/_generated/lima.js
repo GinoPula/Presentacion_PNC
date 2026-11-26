@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 9, m3: 51076.27, km: 1.88, poblacion: 19664, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima'] },
-    { tipo: 'Prevención', cantidad: 83, m3: 667418.37, km: 24.23, poblacion: 2604206, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
+    { tipo: 'Prevención', cantidad: 84, m3: 684588.87, km: 24.75, poblacion: 2604806, provincias: ['Cañete', 'Canta', 'Huarochiri', 'Lima', 'Yauyos'] },
     { tipo: 'Urgente atención', cantidad: 9, m3: 19947.1, km: 16.37, poblacion: 18834, provincias: ['Canta', 'Lima', 'Yauyos'] },
   ],
-  ejecutadasTotal: { cantidad: 101, m3: 738441.74, m3AguaPotable: 0.0, km: 42.48, poblacion: 2642704 },
+  ejecutadasTotal: { cantidad: 102, m3: 755612.24, m3AguaPotable: 0.0, km: 43.0, poblacion: 2643304 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 151, m3: 1798651.61, m3AguaPotable: 0.0, km: 89.97, poblacion: 13669350 },
 
   enEjecucion: [
-    { provincia: 'Lima', distrito: 'Comas', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”    ', inicio: '26/10/2026', fin: '24/11/2026', volAcum: 16315.5, kmAcum: 0.48, poblacion: 600, poblacionSinDuplicar: 600 },
     { provincia: 'Canta', distrito: 'Santa Rosa De Quives', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN AMBAS MARGENES DEL CAUCE DEL RÍO CHILLÓN EN PUENTE PARAÍSO, DISTRITO DE SANTA ROSA DE QUIVES, PROVINCIA DE CANTA, DEPARTAMENTO DE LIMA”.     ', inicio: '30/10/2026', fin: '02/12/2026', volAcum: 202.5, kmAcum: 0.01, poblacion: 442, poblacionSinDuplicar: 442 },
     { provincia: 'Lima', distrito: 'Cieneguilla', tipo: 'Prevención', descripcion: ' “LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+000 HASTA 0+404, SECTOR PUENTE MOLLE (RANCHITO), DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”   ', inicio: '11/11/2026', fin: '10/12/2026', volAcum: 5490.0, kmAcum: 0.18, poblacion: 400, poblacionSinDuplicar: 400 },
     { provincia: 'Huarochiri', distrito: 'Santa Cruz De Cocachacra', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN Y COMFORMACION DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DE LA QUEBRADA GUAYABO, SECTOR CORCONA, DISTRITO DE SANTA CRUZ DE COCACHACRA, PROVINCIA DE HUAROCHIRI DEPARTAMENTO DE LIMA - DS180-R    ', inicio: '12/11/2026', fin: '12/12/2026', volAcum: 2100.0, kmAcum: 0.17, poblacion: 2000, poblacionSinDuplicar: 2000 },

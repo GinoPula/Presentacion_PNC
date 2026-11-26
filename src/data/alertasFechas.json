@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "26/11/2026",
-    "horaCorte": "11:00",
+    "horaCorte": "11:30",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -65,25 +65,6 @@
     },
     {
       "n": 4,
-      "idIntervencion": "9144",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "PREVENCIÓN",
-      "departamento": "LAMBAYEQUE",
-      "deptoLabel": "Lambayeque",
-      "regionId": "lambayeque",
-      "provincia": "Chiclayo",
-      "distrito": "Chiclayo",
-      "sector": "Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol",
-      "ficha": "030-2026 -LD-P-LAM",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00",
-      "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "29/11/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 5,
       "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -102,45 +83,26 @@
       "diasAtraso": 3
     },
     {
-      "n": 6,
-      "idIntervencion": "10670",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "TUMBES",
-      "deptoLabel": "Tumbes",
-      "regionId": "tumbes",
-      "provincia": "Tumbes",
-      "distrito": "Corrales",
-      "sector": "Corrales",
-      "ficha": "077-2026-AA-U-TUM",
-      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
-      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "24/11/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 7,
-      "idIntervencion": "10640",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
+      "n": 5,
+      "idIntervencion": "9144",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
       "tipo": "PREVENCIÓN",
-      "departamento": "LIMA",
-      "deptoLabel": "Lima",
-      "regionId": "lima",
-      "provincia": "Lima",
-      "distrito": "Comas",
-      "sector": "Corrientes",
-      "ficha": "149-2026-LDP-LIM",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUE CON MATERIAL PROPIO EN EL CAUCE DEL RIO CHILLÓN, SECTOR CORRIENTES, DISTRITO DE COMAS PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA”",
-      "marcoLegal": "CONVENIO N° 70-2025-VIVIENDA/VMVU/PNC – ADENDA N° 01",
-      "fechaInicio": "26/10/2026",
-      "fechaFin": "24/11/2026",
-      "diasAtraso": 2
+      "departamento": "LAMBAYEQUE",
+      "deptoLabel": "Lambayeque",
+      "regionId": "lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Chiclayo",
+      "sector": "Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol",
+      "ficha": "030-2026 -LD-P-LAM",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00",
+      "marcoLegal": "CONVENIO Nº036-2022-ADENDA 03",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "29/11/2026",
+      "diasAtraso": 3
     },
     {
-      "n": 8,
+      "n": 6,
       "idIntervencion": "9775",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,7 +121,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 9,
+      "n": 7,
       "idIntervencion": "9441",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +140,26 @@
       "diasAtraso": 2
     },
     {
-      "n": 10,
+      "n": 8,
+      "idIntervencion": "10670",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "TUMBES",
+      "deptoLabel": "Tumbes",
+      "regionId": "tumbes",
+      "provincia": "Tumbes",
+      "distrito": "Corrales",
+      "sector": "Corrales",
+      "ficha": "077-2026-AA-U-TUM",
+      "descripcion": "ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN EL DISTRITO DE CORRALES, PROVINCIA DE TUMBES, DEPARTAMENTO DE TUMBES",
+      "marcoLegal": "ACUERDO CONCEJO MUNICIPAL N° 064-2026-MDC.CM",
+      "fechaInicio": "26/10/2026",
+      "fechaFin": "24/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 9,
       "idIntervencion": "10716",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9762",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10552",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -235,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10699",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10192",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10516",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10707",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
