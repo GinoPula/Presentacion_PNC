@@ -8038,8 +8038,8 @@ const mapaIntervenciones = {
     "fechaFin": "13/11/2026",
     "poblacion": 144,
     "poblacionSinDuplicar": 144,
-    "volumen": 8300,
-    "km": 0.18,
+    "volumen": 37171.92,
+    "km": 1.09,
     "enlace": null
   },
   {
