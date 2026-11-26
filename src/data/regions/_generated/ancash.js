@@ -17,9 +17,9 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 70, m3: 200193.52, m3AguaPotable: 1135.73, km: 31.78, poblacion: 192641 },
 
   enEjecucion: [
-    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH          ', inicio: '28/08/2026', fin: '30/11/2026', volAcum: 24989.0, kmAcum: 2.9, poblacion: 7456, poblacionSinDuplicar: 7456 },
+    { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DEL RÍO LACRAMARCA, SECTOR VILLA MARÍA – 3 DE OCTUBRE, DISTRITO DE CHIMBOTE, PROVINCIA DEL SANTA, DEPARTAMENTO DE ÁNCASH          ', inicio: '28/08/2026', fin: '30/11/2026', volAcum: 25075.0, kmAcum: 2.91, poblacion: 7456, poblacionSinDuplicar: 7456 },
     { provincia: 'Santa', distrito: 'Chimbote', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA CASCAJAL SECTOR TAMBO REAL, DISTRITO DE CHIMBOTE, PROVINCIA DE SANTA, DEPARTAMENTO ANCASH  DS180-P    ', inicio: '18/11/2026', fin: '05/12/2026', volAcum: 5262.4, kmAcum: 1.22, poblacion: 350, poblacionSinDuplicar: 350 },
-    { provincia: 'Recuay', distrito: 'Pararin', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y REFORZAMIENTO DE DIQUE DE LA QUEBRADA CUYASH - TRAMO I DEL CENTRO POBLADO DE MANDAHUAZ, DISTRITO DE PARARIN, PROVINCIA DE RECUAY, DEPARTAMENTO DE ANCASH', inicio: '19/11/2026', fin: '25/11/2026', volAcum: 2669.0, kmAcum: 0.25, poblacion: 89, poblacionSinDuplicar: 89 },
+    { provincia: 'Recuay', distrito: 'Pararin', tipo: 'Prevención', descripcion: 'LIMPIEZA, DESCOLMATACION Y REFORZAMIENTO DE DIQUE DE LA QUEBRADA CUYASH - TRAMO I DEL CENTRO POBLADO DE MANDAHUAZ, DISTRITO DE PARARIN, PROVINCIA DE RECUAY, DEPARTAMENTO DE ANCASH', inicio: '19/11/2026', fin: '25/11/2026', volAcum: 3204.0, kmAcum: 0.3, poblacion: 89, poblacionSinDuplicar: 89 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
