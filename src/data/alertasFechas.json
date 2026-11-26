@@ -2,31 +2,12 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "26/11/2026",
-    "horaCorte": "15:03",
+    "horaCorte": "15:33",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
     {
       "n": 1,
-      "idIntervencion": "10538",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "LA LIBERTAD",
-      "deptoLabel": "La Libertad",
-      "regionId": "la-libertad",
-      "provincia": "Ascope",
-      "distrito": "Chicama",
-      "sector": "Huabalito",
-      "ficha": "075-2026-LD-E-LIB",
-      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P",
-      "marcoLegal": "D.S. N° 124 - 2026 - PCM",
-      "fechaInicio": "08/10/2026",
-      "fechaFin": "13/11/2026",
-      "diasAtraso": 13
-    },
-    {
-      "n": 2,
       "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -45,7 +26,7 @@
       "diasAtraso": 7
     },
     {
-      "n": 3,
+      "n": 2,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +45,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 4,
+      "n": 3,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -81,6 +62,25 @@
       "fechaInicio": "09/10/2026",
       "fechaFin": "22/11/2026",
       "diasAtraso": 4
+    },
+    {
+      "n": 4,
+      "idIntervencion": "10654",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Arequipa",
+      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
+      "ficha": "174-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "23/11/2026",
+      "fechaFin": "02/12/2026",
+      "diasAtraso": 3
     },
     {
       "n": 5,
@@ -103,25 +103,6 @@
     },
     {
       "n": 6,
-      "idIntervencion": "10654",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Arequipa",
-      "sector": "Urb. Alto Cayma - Urb. Las Malvinas",
-      "ficha": "174-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA PASTO RAÍZ, EN EL SECTOR URB. ALTO CAYMA - URB. LAS MALVINAS, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "23/11/2026",
-      "fechaFin": "02/12/2026",
-      "diasAtraso": 3
-    },
-    {
-      "n": 7,
       "idIntervencion": "9775",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -137,6 +118,25 @@
       "marcoLegal": "CONVENIO Nº08-2026/ANA",
       "fechaInicio": "15/10/2026",
       "fechaFin": "24/11/2026",
+      "diasAtraso": 2
+    },
+    {
+      "n": 7,
+      "idIntervencion": "9441",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA NOVIEMBRE",
+      "tipo": "URGENTE ATENCIÓN",
+      "departamento": "SAN MARTIN",
+      "deptoLabel": "San Martin",
+      "regionId": "san-martin",
+      "provincia": "Rioja",
+      "distrito": "Pardo Miguel",
+      "sector": "Centro, Los Angeles Y Miraflores",
+      "ficha": "009-2026-AA-U-SAM",
+      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
+      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
+      "fechaInicio": "24/11/2026",
+      "fechaFin": "23/12/2026",
       "diasAtraso": 2
     },
     {
@@ -160,25 +160,6 @@
     },
     {
       "n": 9,
-      "idIntervencion": "9441",
-      "tipoAlerta": "PROGRAMADA_ATRASADA",
-      "estado": "PROGRAMADA NOVIEMBRE",
-      "tipo": "URGENTE ATENCIÓN",
-      "departamento": "SAN MARTIN",
-      "deptoLabel": "San Martin",
-      "regionId": "san-martin",
-      "provincia": "Rioja",
-      "distrito": "Pardo Miguel",
-      "sector": "Centro, Los Angeles Y Miraflores",
-      "ficha": "009-2026-AA-U-SAM",
-      "descripcion": "ABASTECIMIENTO DE AGUA POTABLE PARA EL CONSUMO HUMANO EN EL SECTOR CENTRO, LOS ANGELES Y MIRAFLORES, DEL DISTRITO DE PARDO MIGUEL, PROVINCIA DE RIOJA, REGIÓN SAN MARTÍN",
-      "marcoLegal": "ACUERDO DE CONCEJO MUNICIPAL N°080-2025-CM/MDPM",
-      "fechaInicio": "24/11/2026",
-      "fechaFin": "23/12/2026",
-      "diasAtraso": 2
-    },
-    {
-      "n": 10,
       "idIntervencion": "10716",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +178,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 11,
+      "n": 10,
       "idIntervencion": "9762",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,7 +197,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 12,
+      "n": 11,
       "idIntervencion": "10552",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -235,7 +216,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 13,
+      "n": 12,
       "idIntervencion": "10699",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -254,7 +235,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 14,
+      "n": 13,
       "idIntervencion": "10192",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -273,7 +254,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 15,
+      "n": 14,
       "idIntervencion": "10516",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +273,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 16,
+      "n": 15,
       "idIntervencion": "10707",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",

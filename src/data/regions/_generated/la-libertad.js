@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 9, m3: 36986.0, km: 2.04, poblacion: 8032, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
+    { tipo: 'Emergencia', cantidad: 10, m3: 93313.53, km: 3.38, poblacion: 8176, provincias: ['Ascope', 'Gran Chimu', 'Sanchez Carrion', 'Trujillo'] },
     { tipo: 'Prevención', cantidad: 22, m3: 191403.0, km: 13.51, poblacion: 36760, provincias: ['Ascope', 'Chepen', 'Gran Chimu', 'Pacasmayo', 'Sanchez Carrion', 'Santiago De Chuco', 'Trujillo'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 30232.7, km: 57.21, poblacion: 3758, provincias: ['Sanchez Carrion', 'Santiago De Chuco'] },
   ],
-  ejecutadasTotal: { cantidad: 43, m3: 258621.7, m3AguaPotable: 0.0, km: 72.76, poblacion: 48550 },
+  ejecutadasTotal: { cantidad: 44, m3: 314949.23, m3AguaPotable: 0.0, km: 74.1, poblacion: 48694 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -17,7 +17,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 53, m3: 312397.5, m3AguaPotable: 0.0, km: 75.82, poblacion: 75320 },
 
   enEjecucion: [
-    { provincia: 'Ascope', distrito: 'Chicama', tipo: 'Emergencia', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P         ', inicio: '08/10/2026', fin: '13/11/2026', volAcum: 56327.53, kmAcum: 1.34, poblacion: 144, poblacionSinDuplicar: 144 },
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD   ', inicio: '09/10/2026', fin: '22/11/2026', volAcum: 1640.0, kmAcum: 0.04, poblacion: 45024, poblacionSinDuplicar: 45024 },
     { provincia: 'Santiago De Chuco', distrito: 'Sitabamba', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA CHAGAVARA CHICA, SECTOR CHAGABARA, DISTRITO DE SITABAMBA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD DS180-P               ', inicio: '24/11/2026', fin: '05/12/2026', volAcum: 80.0, kmAcum: 0.02, poblacion: 80, poblacionSinDuplicar: 80 },
     { provincia: 'Trujillo', distrito: 'Laredo', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA AVENDAñO SECTOR MENOCUCHO, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD-00      ', inicio: '25/11/2026', fin: '04/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500, poblacionSinDuplicar: 500 },
@@ -42,7 +41,7 @@ export default {
   ],
 
   puntosCriticos: [
-    { provincia: 'Ascope', distrito: 'Chicama', sector: 'Huabalito', fichaTecnica: '075-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P         ', estado: 'En ejecución', mes: '', metaKm: 1.65, metaVol: 69259.0, poblacion: 144 },
+    { provincia: 'Ascope', distrito: 'Chicama', sector: 'Huabalito', fichaTecnica: '075-2026-LD-E-LIB', descripcion: 'LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN EL MARGEN IZQUIERDO DEL RIO CHICAMA, SECTOR HUABALITO, DISTRITO DE CHICAMA, PROVINCIA DE ASCOPE, DEPARTAMENTO DE LA LIBERTAD DS180-P          ', estado: 'Ejecutada', mes: '', metaKm: 1.65, metaVol: 69259.0, poblacion: 144 },
     { provincia: 'Sanchez Carrion', distrito: 'Cochorco', sector: 'Corrales', fichaTecnica: '079-2026-LD-E-LIB', descripcion: ' LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE BORDOS EN EL CAUCE DE LA QUEBRADA CAFE, SECTOR CORRALES, DISTRITO DE COCHORCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD.  DS180-P         ', estado: 'Programada', mes: 'Diciembre', metaKm: 0.23, metaVol: 897.0, poblacion: 120 },
     { provincia: 'Sanchez Carrion', distrito: 'Huamachuco', sector: 'Los Pajaritos', fichaTecnica: '080-2026-LD-E-LIB', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE DE LA QUEBRADA DE LOS PAJARITOS, SECTOR N°06, DISTRITO DE HUAMACHUCO, PROVINCIA DE SANCHEZ CARRION, DEPARTAMENTO DE LA LIBERTAD. DS180-P           ', estado: 'Ejecutada', mes: '', metaKm: 0.12, metaVol: 324.0, poblacion: 320 },
     { provincia: 'Santiago De Chuco', distrito: 'Sitabamba', sector: 'Chagabara', fichaTecnica: '081-2026-LD-E-LIB', descripcion: ' LIMPIEZA Y DESCOLMATACION PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA CHAGAVARA CHICA, SECTOR CHAGABARA, DISTRITO DE SITABAMBA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD DS180-P               ', estado: 'En ejecución', mes: '', metaKm: 0.17, metaVol: 649.0, poblacion: 80 },
