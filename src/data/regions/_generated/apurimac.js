@@ -16,7 +16,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 26, m3: 240071.42, m3AguaPotable: 0.0, km: 18.12, poblacion: 17398 },
 
   enEjecucion: [
-    { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".                      ', inicio: '15/10/2026', fin: '24/11/2026', volAcum: 7800.0, kmAcum: 0.85, poblacion: 50, poblacionSinDuplicar: 50 },
+    { provincia: 'Antabamba', distrito: 'Juan Espinoza Medrano', tipo: 'Prevención', descripcion: '" LIMPIEZA, DESCOLMATACIóN Y CONFORMACIóN DE BORDOS CON MATERIAL PROPIO, DEL CAUCE DEL RíO MOLLEBAMBA, SECTOR MOLLEBAMBA, DEL KM 0+00 AL KM 2+180 DEL DISTRITO DE JUAN ESPINOZA MEDRANO- PROV. ANTABAMBA-DEPARTAMENTO APURIMAC".                      ', inicio: '15/10/2026', fin: '24/11/2026', volAcum: 10300.0, kmAcum: 1.3, poblacion: 50, poblacionSinDuplicar: 50 },
     { provincia: 'Andahuaylas', distrito: 'San Jeronimo', tipo: 'Prevención', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DEL RIO CHUMBAO DEL KILOMETRO 0+000 AL KM 2+650 (PUENTE CCOYAHUACHO – PUENTE CATATAY) DISTRITO SAN JERÓNIMO, PROVINCIA DE ANDAHUAYLAS, DEPARTAMENTO APURÍMAC-00             ', inicio: '20/11/2026', fin: '10/12/2026', volAcum: 1750.0, kmAcum: 0.65, poblacion: 650, poblacionSinDuplicar: 650 },
   ],
 
