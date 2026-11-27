@@ -2,9 +2,9 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Urgente atención', cantidad: 24, m3: 55525.0, km: 33.05, poblacion: 62042, provincias: ['Maynas'] },
+    { tipo: 'Urgente atención', cantidad: 25, m3: 57835.0, km: 34.7, poblacion: 64042, provincias: ['Maynas'] },
   ],
-  ejecutadasTotal: { cantidad: 24, m3: 55525.0, m3AguaPotable: 9080.0, km: 33.05, poblacion: 62042 },
+  ejecutadasTotal: { cantidad: 25, m3: 57835.0, m3AguaPotable: 9080.0, km: 34.7, poblacion: 64042 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -14,7 +14,6 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 43, m3: 89307.0, m3AguaPotable: 14160.0, km: 57.45, poblacion: 108352 },
 
   enEjecucion: [
-    { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ', inicio: '03/11/2026', fin: '27/11/2026', volAcum: 2310.0, kmAcum: 1.65, poblacion: 2000, poblacionSinDuplicar: 2000 },
     { provincia: 'Maynas', distrito: 'San Juan Bautista', tipo: 'Urgente atención', descripcion: 'ABASTECIMIENTO DE AGUA PARA CONSUMO HUMANO EN LA NUEVA CIUDAD DE BELÉN - VARILLALITO, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO. ', inicio: '04/11/2026', fin: '03/12/2026', volAcum: 430.0, kmAcum: 0.0, poblacion: 1000, poblacionSinDuplicar: 1000 },
   ],
 

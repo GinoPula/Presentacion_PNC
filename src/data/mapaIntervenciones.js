@@ -2879,8 +2879,8 @@ const mapaIntervenciones = {
     "fechaFin": "28/11/2026",
     "poblacion": 200,
     "poblacionSinDuplicar": 200,
-    "volumen": 3300,
-    "km": 0.18,
+    "volumen": 4715,
+    "km": 0.3,
     "enlace": null
   },
   {
@@ -11897,7 +11897,7 @@ const mapaIntervenciones = {
     "provincia": "Aymaraes",
     "distrito": "Tapairihua",
     "sector": "Tupac Amaru/Rio Antabamba",
-    "descripcion": " \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE PROGRESIVA KM 0+00 AL KM 0+200 EN EL SECTOR TUPAC AMARU, DISTRITO DE TAPAIRIHUA, PROVINCIA DE AYMARAES, REGION APURIMAC\".          ",
+    "descripcion": " \"ENCAUZAMIENTO Y REFORZAMIENTO DE DIQUES DE PROGRESIVA KM 0+00 AL KM 0+200 EN EL SECTOR TUPAC AMARU, DISTRITO DE TAPAIRIHUA, PROVINCIA DE AYMARAES, REGION APURIMAC\".           ",
     "ficha": "FTI N° 033-2026-LDE-APU",
     "fechaInicio": "12/02/2026",
     "fechaFin": "18/02/2026",
@@ -11905,7 +11905,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 50,
     "volumen": 3120,
     "km": 0.2,
-    "enlace": null
+    "enlace": "https://drive.google.com/file/d/1nCQVsuywzQwYXeJ4oPn74K7PS6PgS4yj/view?usp=drive_link"
   },
   {
     "id": 9791,
@@ -17133,12 +17133,12 @@ const mapaIntervenciones = {
     "id": 10509,
     "lat": -3.718103,
     "lng": -73.352649,
-    "estado": "En ejecución",
+    "estado": "Ejecutada",
     "tipo": "Urgente atención",
     "provincia": "Maynas",
     "distrito": "San Juan Bautista",
     "sector": "Habilitacion Urbana Varillalito",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO     ",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN LA HABILITACION URBANA VARILLALITO DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO      ",
     "ficha": "026-2026-CTMPV-U-LOR",
     "fechaInicio": "03/11/2026",
     "fechaFin": "27/11/2026",
