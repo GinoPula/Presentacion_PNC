@@ -27,15 +27,11 @@ export default {
   programadas: [
     { provincia: 'Chiclayo', distrito: 'Chiclayo', cantidad: 1, metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', cantidad: 1, metaVol: 2078.45, metaKm: 7.2, poblacion: 0 },
-    { provincia: 'Chiclayo', distrito: 'Tuman', cantidad: 1, metaVol: 8400.0, metaKm: 3.15, poblacion: 2600 },
-    { provincia: 'Lambayeque', distrito: 'Jayanca', cantidad: 1, metaVol: 21000.0, metaKm: 3.0, poblacion: 1200 },
   ],
-  programadasTotal: { cantidad: 4, metaVol: 39678.45, metaKm: 14.95, poblacion: 17050 },
+  programadasTotal: { cantidad: 2, metaVol: 10278.45, metaKm: 8.8, poblacion: 13250 },
 
   programadasDetalle: [
     { provincia: 'Chiclayo', distrito: 'Chiclayo', sector: 'Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol', ficha: '030-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00           ', fechaInicio: '23/11/2026', fechaFin: '29/11/2026', metaVol: 8200.0, metaKm: 1.6, poblacion: 13250, poblacionSinDuplicar: 13250 },
-    { provincia: 'Chiclayo', distrito: 'Tuman', sector: 'Sector 6 – Casuarinas', ficha: '020-2026 -LD-P-LAM', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DEL DREN “SAN JORGE” TRAMOS 1, 2 Y 3 EN EL “SECTOR 6 – CASUARINAS” DEL DISTRITO DE TUMAN, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE -00      ', fechaInicio: '30/11/2026', fechaFin: '06/12/2026', metaVol: 8400.0, metaKm: 3.15, poblacion: 2600, poblacionSinDuplicar: 2600 },
-    { provincia: 'Lambayeque', distrito: 'Jayanca', sector: 'Centro Poblado El Marquez', ficha: '026-2026 -LD-P-LAM', descripcion: ' LIMPIEZA Y DESCOLMATACION DEL CAUCE DE LA QUEBRADA ZURITA, CENTRO POBLADO EL MARQUEZ, DISTRITO DE JAYANCA, PROVINCIA LAMBAYEQUE, REGION LAMBAYEQUE-00         ', fechaInicio: '01/12/2026', fechaFin: '20/12/2026', metaVol: 21000.0, metaKm: 3.0, poblacion: 1200, poblacionSinDuplicar: 1200 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', sector: '', ficha: '063-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL  "ESCUTE” ENTRE LOS SECTORES PP. JJ. AMPLIACIÓN VICTOR RAÚL HAYA DE LA TORRE, URB. SANTA MARGARITA, CONDOMINIO VILLA CLUB PALMERAS, CONDOMINO NUESTRA SEÑORA DE LA PAZ, CONDOMINIO VILLA LOS SAUCES, URBANIZACIÓN EL SANTUARIO, URB. LOS TREBOLES, URB. LAS LOMAS DE PIMENTEL, LA GARITA I Y II, CONDOMINO LA JOYITA, LA JOYITA I Y II, CONDOMINIO ALAMEDA, CONDOMINO REAL, RESIDENCIAL LOMAS DE SAN AGUSTIN, URB. SOL DE PIMENTEL, EN EL DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”     ', fechaInicio: '16/12/2026', fechaFin: '14/01/2027', metaVol: 2078.45, metaKm: 7.2, poblacion: null, poblacionSinDuplicar: null },
   ],
 
