@@ -14,7 +14,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 3, m3: 4120.0, m3AguaPotable: 1260.0, km: 0.0, poblacion: 7375 },
 
   enEjecucion: [
-    { provincia: 'Utcubamba', distrito: 'Bagua Grande', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE ETAPA I EN EL DISTRITO DE BAGUA GRANDE, PROVINCIA UTCUBAMBA, REGION AMAZONAS” ', inicio: '03/11/2026', fin: '02/12/2026', volAcum: 375.0, kmAcum: 0.0, poblacion: 750, poblacionSinDuplicar: 750 },
+    { provincia: 'Utcubamba', distrito: 'Bagua Grande', tipo: 'Urgente atención', descripcion: ' “ABASTECIMIENTO Y DISTRIBUCION DE AGUA POTABLE ETAPA I EN EL DISTRITO DE BAGUA GRANDE, PROVINCIA UTCUBAMBA, REGION AMAZONAS” ', inicio: '03/11/2026', fin: '02/12/2026', volAcum: 495.0, kmAcum: 0.0, poblacion: 750, poblacionSinDuplicar: 750 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
