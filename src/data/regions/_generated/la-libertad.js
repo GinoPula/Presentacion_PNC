@@ -19,7 +19,7 @@ export default {
   enEjecucion: [
     { provincia: 'Trujillo', distrito: 'Huanchaco', tipo: 'Prevención', descripcion: 'CONFORMACIÓN DE DIQUE CON MATERIAL DE APORTE PARA LA ESTABILIZACIÓN DE TALUDES EN EL PROYECTO: QUEBRADA EL LEÓN, SECTOR CANAL NORTE, DISTRITO DE HUANCHACO, PROVINCIA DE TRUJILLO, DEPARTAMENTO DE LA LIBERTAD   ', inicio: '09/10/2026', fin: '22/11/2026', volAcum: 1640.0, kmAcum: 0.04, poblacion: 45024, poblacionSinDuplicar: 45024 },
     { provincia: 'Santiago De Chuco', distrito: 'Sitabamba', tipo: 'Emergencia', descripcion: ' LIMPIEZA Y DESCOLMATACION PARA EL MANTENIMIENTO DEL CAUCE DE LA QUEBRADA CHAGAVARA CHICA, SECTOR CHAGABARA, DISTRITO DE SITABAMBA, PROVINCIA DE SANTIAGO DE CHUCO, DEPARTAMENTO DE LA LIBERTAD DS180-P               ', inicio: '24/11/2026', fin: '05/12/2026', volAcum: 80.0, kmAcum: 0.02, poblacion: 80, poblacionSinDuplicar: 80 },
-    { provincia: 'Trujillo', distrito: 'Laredo', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA AVENDAñO SECTOR MENOCUCHO, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD-00      ', inicio: '25/11/2026', fin: '04/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500, poblacionSinDuplicar: 500 },
+    { provincia: 'Trujillo', distrito: 'Laredo', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACION DE LA QUEBRADA AVENDAñO SECTOR MENOCUCHO, DISTRITO LAREDO, PROVINCIA DE TRUJILLO, DEPARTAMENTO LA LIBERTAD-00       ', inicio: '25/11/2026', fin: '01/12/2026', volAcum: 0.0, kmAcum: 0.0, poblacion: 500, poblacionSinDuplicar: 500 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
