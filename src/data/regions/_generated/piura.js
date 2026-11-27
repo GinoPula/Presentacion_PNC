@@ -3,10 +3,10 @@
 export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 22, m3: 139557.53, km: 32.53, poblacion: 31538, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
-    { tipo: 'Prevención', cantidad: 32, m3: 174102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
+    { tipo: 'Prevención', cantidad: 32, m3: 177102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 40579.2, km: 35.83, poblacion: 16305, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 66, m3: 354239.13, m3AguaPotable: 300.0, km: 124.71, poblacion: 176940 },
+  ejecutadasTotal: { cantidad: 66, m3: 357239.13, m3AguaPotable: 300.0, km: 124.71, poblacion: 176940 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
