@@ -27,10 +27,13 @@ export default {
   programadas: [
     { provincia: 'Chiclayo', distrito: 'Chiclayo', cantidad: 1, metaVol: 8200.0, metaKm: 1.6, poblacion: 13250 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', cantidad: 1, metaVol: 2078.45, metaKm: 7.2, poblacion: 0 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', cantidad: 2, metaVol: 22500.0, metaKm: 1.25, poblacion: 2800 },
   ],
-  programadasTotal: { cantidad: 2, metaVol: 10278.45, metaKm: 8.8, poblacion: 13250 },
+  programadasTotal: { cantidad: 4, metaVol: 32778.45, metaKm: 10.05, poblacion: 16050 },
 
   programadasDetalle: [
+    { provincia: 'Lambayeque', distrito: 'Olmos', sector: '', ficha: '038-2026 -LD-P-LAM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE 0.50 KM DE LA QUEBRADA “GRANDE” EN EL CASERIO “NICHIPO” DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”              ', fechaInicio: '25/10/2026', fechaFin: '07/11/2026', metaVol: 15000.0, metaKm: 0.5, poblacion: 800, poblacionSinDuplicar: 800 },
+    { provincia: 'Lambayeque', distrito: 'Olmos', sector: 'Caserio Nichipo', ficha: '023-2026 -LD-P-LAM', descripcion: '“LIMPIEZA Y DESCOLMATACIÓN DE 0.75 KM DE LA QUEBRADA “PALO BLANCO” EN EL CASERIO “NICHIPO” DEL DISTRITO DE OLMOS, PROVINCIA DE LAMBAYEQUE, REGIÓN LAMBAYEQUE”       ', fechaInicio: '28/10/2026', fechaFin: '08/11/2026', metaVol: 7500.0, metaKm: 0.75, poblacion: 2000, poblacionSinDuplicar: 2000 },
     { provincia: 'Chiclayo', distrito: 'Chiclayo', sector: 'Sectores Pp. Jj. Santo Toribio De Mogrovejo, Urb. Miraflores, Alojamiento Derrama Magisterial, Urb. Ciudad De Chofer Y Praderas Del Sol', ficha: '030-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DE 1.60 KM DEL CANAL “COIS” ENTRE LOS SECTORES PP. JJ. SANTO TORIBIO DE MOGROVEJO, URB. MIRAFLORES, ALOJAMIENTO DERRAMA MAGISTERIAL, URB. CIUDAD DE CHOFER Y PRADERAS DEL SOL, EN EL DISTRITO Y PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE” -00           ', fechaInicio: '23/11/2026', fechaFin: '29/11/2026', metaVol: 8200.0, metaKm: 1.6, poblacion: 13250, poblacionSinDuplicar: 13250 },
     { provincia: 'Chiclayo', distrito: 'Pimentel', sector: '', ficha: '063-2026 -LD-P-LAM', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CANAL  "ESCUTE” ENTRE LOS SECTORES PP. JJ. AMPLIACIÓN VICTOR RAÚL HAYA DE LA TORRE, URB. SANTA MARGARITA, CONDOMINIO VILLA CLUB PALMERAS, CONDOMINO NUESTRA SEÑORA DE LA PAZ, CONDOMINIO VILLA LOS SAUCES, URBANIZACIÓN EL SANTUARIO, URB. LOS TREBOLES, URB. LAS LOMAS DE PIMENTEL, LA GARITA I Y II, CONDOMINO LA JOYITA, LA JOYITA I Y II, CONDOMINIO ALAMEDA, CONDOMINO REAL, RESIDENCIAL LOMAS DE SAN AGUSTIN, URB. SOL DE PIMENTEL, EN EL DISTRITO DE PIMENTEL, PROVINCIA DE CHICLAYO, REGIÓN LAMBAYEQUE”     ', fechaInicio: '16/12/2026', fechaFin: '14/01/2027', metaVol: 2078.45, metaKm: 7.2, poblacion: null, poblacionSinDuplicar: null },
   ],
