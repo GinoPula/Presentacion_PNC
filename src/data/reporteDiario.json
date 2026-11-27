@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "27/11/2026",
-    "horaCorte": "10:49",
+    "horaCorte": "11:19",
     "generadoDesc": "ESTADO = \"EN EJECUCIÓN\" sobre el reporte nacional de intervenciones del MAIN, las 23 UBO/departamentos."
   },
   "items": [
@@ -39,10 +39,10 @@
       "fechaInicio": "19/11/2026",
       "fechaFin": "25/11/2026",
       "maquinaria": [
-        "TRACTOR SOBRE ORUGA ( 82454)",
-        "CAMIONETA ( EAJ-733)",
+        "REMOLCADOR ( EAJ-560)",
         "PLATAFORMA (CAMA BAJA) ( EAJ-572)",
-        "REMOLCADOR ( EAJ-560)"
+        "TRACTOR SOBRE ORUGA ( 82454)",
+        "CAMIONETA ( EAJ-733)"
       ]
     },
     {
@@ -317,8 +317,8 @@
       "fechaInicio": "16/11/2026",
       "fechaFin": "15/12/2026",
       "maquinaria": [
-        "CAMION CISTERNA DE AGUA ( EGN-980)",
-        "CAMIONETA ( EGM-015)"
+        "CAMIONETA ( EGM-015)",
+        "CAMION CISTERNA DE AGUA ( EGN-980)"
       ]
     },
     {
@@ -422,11 +422,11 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "VOLQUETE ( EGV-835)",
         "VOLQUETE ( EGV-848)",
         "CARGADOR FRONTAL ( JLX00219)",
         "RODILLO COMPACTADOR ( H1762462)",
-        "VOLQUETE ( EGV-774)"
+        "VOLQUETE ( EGV-774)",
+        "VOLQUETE ( EGV-835)"
       ]
     },
     {
@@ -484,8 +484,8 @@
       "fechaInicio": "17/11/2026",
       "fechaFin": "01/12/2026",
       "maquinaria": [
-        "CAMIONETA ( EGL-984)",
-        "EXCAVADORA HIDRAULICA ( 810397)"
+        "EXCAVADORA HIDRAULICA ( 810397)",
+        "CAMIONETA ( EGL-984)"
       ]
     },
     {
@@ -806,21 +806,19 @@
     },
     {
       "n": 41,
-      "idIntervencion": "10713",
+      "idIntervencion": "10715",
       "departamento": "LIMA",
       "deptoLabel": "Lima",
       "regionId": "lima",
       "provincia": "Lima",
-      "distrito": "Chaclacayo",
-      "sector": "Los Cóndores - Tributario N.° 04",
+      "distrito": "Cieneguilla",
+      "sector": "Puente Molle (ranchito) Tramo 2",
       "tipo": "PREVENCIÓN",
-      "marcoLegal": "ADENDA N°2 CONVENIO Nº 008-2024-VIVIENDA/VMVU/PNC",
-      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACIÓN DE DIQUES CON MATERIAL PROPIO EN EL CAUCE TRIBUTARIO N.° 04 (TRAMO 1) DE LA QUEBRADA LOS CÓNDORES, DISTRITO DE CHACLACAYO, PROVINCIA Y DEPARTAMENTO DE LIMA”.",
-      "fechaInicio": "19/11/2026",
-      "fechaFin": "03/12/2026",
-      "maquinaria": [
-        "EXCAVADORA HIDRAULICA ( A10912)"
-      ]
+      "marcoLegal": "ADENDA N°3 AL CONVENIO N°041-2023-VIVIENDA/VMVU/PNC.",
+      "descripcion": "“LIMPIEZA, DESCOLMATACIÓN Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MÁRGENES DEL RÍO LURÍN DE LA PROGRESIVA 0+404 HASTA 0+808, SECTOR PUENTE MOLLE (RANCHITO) TRAMO 2, DISTRITO DE CIENEGUILLA, PROVINCIA LIMA – DEPARTAMENTO LIMA”.",
+      "fechaInicio": "27/11/2026",
+      "fechaFin": "11/12/2026",
+      "maquinaria": []
     },
     {
       "n": 42,
@@ -837,10 +835,10 @@
       "fechaInicio": "11/11/2026",
       "fechaFin": "10/12/2026",
       "maquinaria": [
-        "VOLQUETE ( EGM-834)",
-        "VOLQUETE ( EGV-768)",
         "CARGADOR FRONTAL ( JLX00293)",
-        "EXCAVADORA HIDRAULICA ( A10891)"
+        "VOLQUETE ( EGV-768)",
+        "EXCAVADORA HIDRAULICA ( A10891)",
+        "VOLQUETE ( EGM-834)"
       ]
     },
     {
@@ -1167,8 +1165,8 @@
       "fechaInicio": "20/11/2026",
       "fechaFin": "26/11/2026",
       "maquinaria": [
-        "RETROEXCAVADORA ( 285283)",
         "REMOLCADOR ( EAJ-355)",
+        "RETROEXCAVADORA ( 285283)",
         "CAMIONETA ( EGM-052)"
       ]
     },

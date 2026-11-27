@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 40, m3: 240560.5, m3AguaPotable: 3585.0, km: 9.94, poblacion: 25247 },
 
   enEjecucion: [
-    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P     ', inicio: '12/10/2026', fin: '30/11/2026', volAcum: 34755.0, kmAcum: 0.49, poblacion: 2078, poblacionSinDuplicar: 2078 },
+    { provincia: 'Ica', distrito: 'San Jose De Los Molinos', tipo: 'Emergencia', descripcion: 'LIMPIEZA Y DESCOLMATACIÓN PARA EL MANTENIMIENTO DE CAUCE EN LA QUEBRADA YESERA, SECTOR DIQUE 1-2-3-4-5, DISTRITO DE SAN JOSE DE LOS MOLINOS, PROVINCIA DE ICA, DEPARTAMENTO DE ICA.   DS180-P     ', inicio: '12/10/2026', fin: '30/11/2026', volAcum: 39555.0, kmAcum: 0.59, poblacion: 2078, poblacionSinDuplicar: 2078 },
   ],
 
   programadasCols: ['provincia', 'distrito'],
