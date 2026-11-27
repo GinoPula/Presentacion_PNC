@@ -4,9 +4,9 @@ export default {
   ejecutadasPorTipo: [
     { tipo: 'Emergencia', cantidad: 4, m3: 29550.0, km: 1.85, poblacion: 1892, provincias: ['San Ignacio'] },
     { tipo: 'Prevención', cantidad: 28, m3: 177033.05, km: 12.03, poblacion: 16755, provincias: ['Cajabamba', 'Cajamarca', 'Contumaza', 'San Marcos', 'San Miguel'] },
-    { tipo: 'Urgente atención', cantidad: 55, m3: 244176.11, km: 194.59, poblacion: 59458, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
+    { tipo: 'Urgente atención', cantidad: 57, m3: 245046.11, km: 195.22, poblacion: 64884, provincias: ['Cajamarca', 'Celendin', 'Contumaza', 'Cutervo', 'Jaen', 'San Ignacio'] },
   ],
-  ejecutadasTotal: { cantidad: 87, m3: 450759.16, m3AguaPotable: 3300.0, km: 208.47, poblacion: 78105 },
+  ejecutadasTotal: { cantidad: 89, m3: 451629.16, m3AguaPotable: 3540.0, km: 209.09, poblacion: 83531 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [

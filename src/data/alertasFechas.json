@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "27/11/2026",
-    "horaCorte": "11:50",
+    "horaCorte": "12:20",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -160,20 +160,20 @@
     },
     {
       "n": 9,
-      "idIntervencion": "10516",
+      "idIntervencion": "10192",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
       "tipo": "PREVENCIÓN",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Mariano Melgar",
-      "sector": "Desde Puente 8 De Octubre Hasta Puente Túpac Amaru",
-      "ficha": "80-2026-LDP-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TÚPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
-      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "11/11/2026",
+      "departamento": "PUNO",
+      "deptoLabel": "Puno",
+      "regionId": "puno",
+      "provincia": "Huancane",
+      "distrito": "Rosaspata",
+      "sector": "Rosaspata",
+      "ficha": "FTI N° 062-2026-LDP-PUN",
+      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIACHUELO HUARIHUMAÑA, EN LA LOCALIDAD DE HUARIHUMAÑA DEL DISTRITO DE ROSASPATA DE LA PROVINCIA DE HUANCANÉ - PUNO",
+      "marcoLegal": "CONVENIO Nº037-2025-ADENDA 01",
+      "fechaInicio": "17/11/2026",
       "fechaFin": "25/11/2026",
       "diasAtraso": 2
     },
@@ -236,20 +236,20 @@
     },
     {
       "n": 13,
-      "idIntervencion": "10192",
+      "idIntervencion": "10516",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
       "tipo": "PREVENCIÓN",
-      "departamento": "PUNO",
-      "deptoLabel": "Puno",
-      "regionId": "puno",
-      "provincia": "Huancane",
-      "distrito": "Rosaspata",
-      "sector": "Rosaspata",
-      "ficha": "FTI N° 062-2026-LDP-PUN",
-      "descripcion": "LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DEL RIACHUELO HUARIHUMAÑA, EN LA LOCALIDAD DE HUARIHUMAÑA DEL DISTRITO DE ROSASPATA DE LA PROVINCIA DE HUANCANÉ - PUNO",
-      "marcoLegal": "CONVENIO Nº037-2025-ADENDA 01",
-      "fechaInicio": "17/11/2026",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Mariano Melgar",
+      "sector": "Desde Puente 8 De Octubre Hasta Puente Túpac Amaru",
+      "ficha": "80-2026-LDP-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DE CAUCE DE QUEBRADA, EN EL SECTOR DESDE PUENTE 8 DE OCTUBRE HASTA PUENTE TÚPAC AMARU, DISTRITO DE MARIANO MELGAR, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA”.",
+      "marcoLegal": "CONVENIO N° 09-2026-VIVIENDA/VMVU/PNC",
+      "fechaInicio": "11/11/2026",
       "fechaFin": "25/11/2026",
       "diasAtraso": 2
     },
@@ -293,25 +293,6 @@
     },
     {
       "n": 16,
-      "idIntervencion": "10647",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "EMERGENCIA",
-      "departamento": "AREQUIPA",
-      "deptoLabel": "Arequipa",
-      "regionId": "arequipa",
-      "provincia": "Arequipa",
-      "distrito": "Cayma",
-      "sector": "Villa Paraiso Y Villa Continental",
-      "ficha": "FTI N°135-2026-LD-E-ARE",
-      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
-      "marcoLegal": "D.S. N° 124-2026-PCM",
-      "fechaInicio": "05/11/2026",
-      "fechaFin": "26/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 17,
       "idIntervencion": "10703",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -330,7 +311,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 18,
+      "n": 17,
       "idIntervencion": "10627",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -349,7 +330,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 18,
       "idIntervencion": "10681",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -368,7 +349,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 19,
       "idIntervencion": "10702",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -387,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 20,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -406,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 21,
       "idIntervencion": "10719",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,26 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
-      "idIntervencion": "10527",
-      "tipoAlerta": "EN_EJECUCION_ATRASADA",
-      "estado": "EN EJECUCIÓN",
-      "tipo": "PREVENCIÓN",
-      "departamento": "AYACUCHO",
-      "deptoLabel": "Ayacucho",
-      "regionId": "ayacucho",
-      "provincia": "Huamanga",
-      "distrito": "Ayacucho",
-      "sector": "Wari Accopampa",
-      "ficha": "44-2026- LD-PI-AYAC",
-      "descripcion": "LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA ACCO ACCO TRAMO II, EN EL SECTOR WARI ACCOPAMPA DEL DISTRITO DE AYACUCHO, PROVINCIA DE HUAMANGA, REGION AYACUCHO",
-      "marcoLegal": "CONVENIO N°039 -2026-VIVIENDA/VMVU/PNC",
-      "fechaInicio": "16/11/2026",
-      "fechaFin": "26/11/2026",
-      "diasAtraso": 1
-    },
-    {
-      "n": 24,
+      "n": 22,
       "idIntervencion": "10722",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -460,6 +422,25 @@
       "marcoLegal": "CONVENIO Nº003-2022-ADENDA 04",
       "fechaInicio": "26/11/2026",
       "fechaFin": "02/12/2026",
+      "diasAtraso": 1
+    },
+    {
+      "n": 23,
+      "idIntervencion": "10647",
+      "tipoAlerta": "EN_EJECUCION_ATRASADA",
+      "estado": "EN EJECUCIÓN",
+      "tipo": "EMERGENCIA",
+      "departamento": "AREQUIPA",
+      "deptoLabel": "Arequipa",
+      "regionId": "arequipa",
+      "provincia": "Arequipa",
+      "distrito": "Cayma",
+      "sector": "Villa Paraiso Y Villa Continental",
+      "ficha": "FTI N°135-2026-LD-E-ARE",
+      "descripcion": "“LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA AZUFRAL, EN EL SECTOR VILLA PARAISO Y VILLA CONTINENTAL, DISTRITO DE CAYMA, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA\". DS180-R",
+      "marcoLegal": "D.S. N° 124-2026-PCM",
+      "fechaInicio": "05/11/2026",
+      "fechaFin": "26/11/2026",
       "diasAtraso": 1
     }
   ]
