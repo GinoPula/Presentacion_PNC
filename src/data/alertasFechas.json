@@ -2,7 +2,7 @@
   "meta": {
     "fuente": "Consulta en vivo a bd_geovivienda (pnc.tb_em_intervencion), periodo 2026",
     "fechaCorte": "27/11/2026",
-    "horaCorte": "17:55",
+    "horaCorte": "18:25",
     "generadoDesc": "PROGRAMADA con fecha_inicio vencida, o EN EJECUCIÓN con fecha_fin vencida, sin margen de días."
   },
   "items": [
@@ -46,6 +46,25 @@
     },
     {
       "n": 3,
+      "idIntervencion": "9510",
+      "tipoAlerta": "PROGRAMADA_ATRASADA",
+      "estado": "PROGRAMADA DICIEMBRE",
+      "tipo": "PREVENCIÓN",
+      "departamento": "AYACUCHO",
+      "deptoLabel": "Ayacucho",
+      "regionId": "ayacucho",
+      "provincia": "Huamanga",
+      "distrito": "Jesus Nazareno",
+      "sector": "Huichccana Chico",
+      "ficha": "08-2026-LD-PI-AYAC",
+      "descripcion": "LIMPIEZA, DESCOLMATACIÓN Y ELIMINACIÓN DE MATERIAL EXCEDENTE DEL CAUCE DE LA QUEBRADA SAN CARLOS TRAMO I, EN EL SECTOR HUICHCCANA DEL DISTRITO DE JESÚS NAZARENO, PROVINCIA DE HUAMANGA, REGIÓN AYACUCHO-00",
+      "marcoLegal": "CONVENIO N° 050-2026/VIVIENDA/VMVU/PNC",
+      "fechaInicio": "02/11/2026",
+      "fechaFin": "08/11/2026",
+      "diasAtraso": 25
+    },
+    {
+      "n": 4,
       "idIntervencion": "10708",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -64,7 +83,7 @@
       "diasAtraso": 8
     },
     {
-      "n": 4,
+      "n": 5,
       "idIntervencion": "10655",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -83,7 +102,7 @@
       "diasAtraso": 6
     },
     {
-      "n": 5,
+      "n": 6,
       "idIntervencion": "10575",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -102,7 +121,7 @@
       "diasAtraso": 5
     },
     {
-      "n": 6,
+      "n": 7,
       "idIntervencion": "9144",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -121,7 +140,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 7,
+      "n": 8,
       "idIntervencion": "10654",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -140,7 +159,7 @@
       "diasAtraso": 4
     },
     {
-      "n": 8,
+      "n": 9,
       "idIntervencion": "9775",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -159,7 +178,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 9,
+      "n": 10,
       "idIntervencion": "9441",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -178,7 +197,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 10,
+      "n": 11,
       "idIntervencion": "10670",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -197,7 +216,7 @@
       "diasAtraso": 3
     },
     {
-      "n": 11,
+      "n": 12,
       "idIntervencion": "10552",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -216,7 +235,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 12,
+      "n": 13,
       "idIntervencion": "10192",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -235,7 +254,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 13,
+      "n": 14,
       "idIntervencion": "10516",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -254,7 +273,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 14,
+      "n": 15,
       "idIntervencion": "9762",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -273,7 +292,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 15,
+      "n": 16,
       "idIntervencion": "10707",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -292,7 +311,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 16,
+      "n": 17,
       "idIntervencion": "10716",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -311,7 +330,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 17,
+      "n": 18,
       "idIntervencion": "10699",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -330,7 +349,7 @@
       "diasAtraso": 2
     },
     {
-      "n": 18,
+      "n": 19,
       "idIntervencion": "10702",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -349,7 +368,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 19,
+      "n": 20,
       "idIntervencion": "9851",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -368,7 +387,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 20,
+      "n": 21,
       "idIntervencion": "10722",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -387,7 +406,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 21,
+      "n": 22,
       "idIntervencion": "10627",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -406,7 +425,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 22,
+      "n": 23,
       "idIntervencion": "10647",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -425,7 +444,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 23,
+      "n": 24,
       "idIntervencion": "10703",
       "tipoAlerta": "PROGRAMADA_ATRASADA",
       "estado": "PROGRAMADA NOVIEMBRE",
@@ -444,7 +463,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 24,
+      "n": 25,
       "idIntervencion": "10719",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
@@ -463,7 +482,7 @@
       "diasAtraso": 1
     },
     {
-      "n": 25,
+      "n": 26,
       "idIntervencion": "10681",
       "tipoAlerta": "EN_EJECUCION_ATRASADA",
       "estado": "EN EJECUCIÓN",
