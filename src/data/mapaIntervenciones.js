@@ -17062,7 +17062,7 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "Punchana",
     "sector": "Punchana",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. NUESTRA SEÑORA DE LA SALUD, SANTA MARIA DEL AMAZONAS Y DELICIA MANZUR, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO ",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. NUESTRA SEÑORA DE LA SALUD, SANTA MARIA DEL AMAZONAS Y DELICIA MANZUR, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO  ",
     "ficha": "022-2026-CTMPV-U-LOR",
     "fechaInicio": "14/08/2026",
     "fechaFin": "12/09/2026",
@@ -17070,7 +17070,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 3800,
     "volumen": 3010,
     "km": 2.15,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/18rfWC-VjLH4I3klI-jIkxp1DJ38mGFG0"
   },
   {
     "id": 9408,
