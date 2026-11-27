@@ -17144,8 +17144,8 @@ const mapaIntervenciones = {
     "fechaFin": "27/11/2026",
     "poblacion": 2000,
     "poblacionSinDuplicar": 2000,
-    "volumen": 2100,
-    "km": 1.45,
+    "volumen": 2310,
+    "km": 1.65,
     "enlace": null
   },
   {
@@ -17163,7 +17163,7 @@ const mapaIntervenciones = {
     "fechaFin": "03/12/2026",
     "poblacion": 1000,
     "poblacionSinDuplicar": 1000,
-    "volumen": 390,
+    "volumen": 430,
     "km": 0,
     "enlace": null
   }
