@@ -46,7 +46,7 @@ export default {
   conveniosCount: 2,
   conveniosVigentes: [
     { entidad: 'Gobierno Regional', detail: 'vence 07/12/2026 (a un mes de caducar)' },
-    { entidad: 'Municipalidad Distrital Olmos', detail: 'hasta 28/12/2026' },
+    { entidad: 'Municipalidad Distrital Olmos', detail: 'vence 28/12/2026 (a un mes de caducar)' },
   ],
 
   flota: [

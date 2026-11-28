@@ -30,10 +30,9 @@ export default {
   puntosCriticos: [
   ],
 
-  conveniosCount: 2,
+  conveniosCount: 1,
   conveniosVigentes: [
     { entidad: 'Municipalidad Provincial Oxapampa', detail: 'hasta 27/04/2027' },
-    { entidad: 'Municipalidad Distrital Villa Rica', detail: 'vence 27/11/2026 (a un mes de caducar)' },
   ],
 
   flota: [

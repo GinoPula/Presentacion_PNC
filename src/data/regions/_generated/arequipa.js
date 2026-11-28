@@ -65,9 +65,8 @@ export default {
     { provincia: 'Arequipa', distrito: 'Cerro Colorado', sector: '', fichaTecnica: '140-2026-LD-E-ARE', descripcion: ' “LIMPIEZA Y DESCOLMATACIÓN DEL CAUCE DE LA QUEBRADA GAMARRA, EN EL SECTOR FUNDO CABRERÍA 3RA ETAPA, DISTRITO DE CERRO COLORADO, PROVINCIA DE AREQUIPA, DEPARTAMENTO AREQUIPA".   DS180-R      ', estado: 'Ejecutada', mes: '', metaKm: 0.23, metaVol: 2828.51, poblacion: 270 },
   ],
 
-  conveniosCount: 8,
+  conveniosCount: 7,
   conveniosVigentes: [
-    { entidad: 'Municipalidad Distrital Maca', detail: 'vence 27/11/2026 (a un mes de caducar)' },
     { entidad: 'Municipalidad Distrital Chiguata', detail: 'hasta 26/01/2027' },
     { entidad: 'Municipalidad Distrital Mariano Melgar', detail: 'hasta 13/02/2027' },
     { entidad: 'Municipalidad Distrital Characato', detail: 'hasta 16/06/2027' },
