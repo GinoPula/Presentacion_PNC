@@ -16986,7 +16986,7 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "Punchana",
     "sector": "Punchana",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. FRANK SABOYA, TIMOTEO INGA Y 28 DE JULIO, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                     ",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESOS EN LOS AA.HH. FRANK SABOYA, TIMOTEO INGA Y 28 DE JULIO, DISTRITO DE PUNCHANA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                      ",
     "ficha": "017-2026-CTPMV-U-LOR",
     "fechaInicio": "15/07/2026",
     "fechaFin": "08/08/2026",
@@ -17005,7 +17005,7 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "San Juan Bautista",
     "sector": "Centro Poblado Ninarumi",
-    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.               ",
+    "descripcion": "LIMPIEZA Y DESCOLMATACION DE CAUCES DE CANALES EN CENTRO POBLADO NINARUMI, DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.                ",
     "ficha": "018-2026-LD-U-LOR",
     "fechaInicio": "17/07/2026",
     "fechaFin": "28/08/2026",
@@ -17013,7 +17013,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 4000,
     "volumen": 4320,
     "km": 3.6,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1NVWmA72IhfOwm-lQMeCdL3jGt4y3PKSs"
   },
   {
     "id": 9409,
@@ -17024,7 +17024,7 @@ const mapaIntervenciones = {
     "provincia": "Maynas",
     "distrito": "San Juan Bautista",
     "sector": "Centro Poblado Ninarumi",
-    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.  ",
+    "descripcion": "CARGUÍO Y TRASLADO DE MATERIAL DE PRÉSTAMO PARA RELLENOS DE VÍAS DE ACCESO EN EL CENTRO POBLADO NINARUMI DEL DISTRITO DE SAN JUAN BAUTISTA, PROVINCIA DE MAYNAS, DEPARTAMENTO DE LORETO.   ",
     "ficha": "019-2026-CTMPV-U-LOR",
     "fechaInicio": "17/07/2026",
     "fechaFin": "28/08/2026",
@@ -17032,7 +17032,7 @@ const mapaIntervenciones = {
     "poblacionSinDuplicar": 4000,
     "volumen": 2380,
     "km": 1.7,
-    "enlace": null
+    "enlace": "https://drive.google.com/drive/folders/1mu_0lGDQtnHKbeBVmwtwFn3CpfWs8Ca6"
   },
   {
     "id": 9403,
