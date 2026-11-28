@@ -17,7 +17,7 @@ export default {
   ejecutadasTotalAnioAnterior: { cantidad: 101, m3: 501543.11, m3AguaPotable: 2735.0, km: 194.1, poblacion: 299874 },
 
   enEjecucion: [
-    { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', inicio: '11/11/2026', fin: '12/12/2026', volAcum: 6950.0, kmAcum: 0.12, poblacion: 900, poblacionSinDuplicar: 900 },
+    { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', inicio: '11/11/2026', fin: '12/12/2026', volAcum: 7700.0, kmAcum: 0.14, poblacion: 900, poblacionSinDuplicar: 900 },
     { provincia: 'Morropon', distrito: 'Santo Domingo', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN LA VIA DEL TRAMO BOTIJAS - SAN PEDRO, DEL DISTRITO DE SANTO DOMINGO, PROVINCIA DE MORROPON-PIURA ', inicio: '14/11/2026', fin: '05/12/2026', volAcum: 1600.0, kmAcum: 0.72, poblacion: 300, poblacionSinDuplicar: 300 },
   ],
 
