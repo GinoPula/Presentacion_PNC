@@ -2,11 +2,11 @@
 // Este archivo se sobreescribe completo en cada corrida del pipeline de datos.
 export default {
   ejecutadasPorTipo: [
-    { tipo: 'Emergencia', cantidad: 22, m3: 139557.53, km: 32.53, poblacion: 31538, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
+    { tipo: 'Emergencia', cantidad: 23, m3: 142797.53, km: 33.49, poblacion: 45538, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Talara'] },
     { tipo: 'Prevención', cantidad: 32, m3: 177102.4, km: 56.35, poblacion: 129097, provincias: ['Ayabaca', 'Huancabamba', 'Morropon', 'Piura', 'Sullana', 'Talara'] },
     { tipo: 'Urgente atención', cantidad: 12, m3: 40579.2, km: 35.83, poblacion: 16305, provincias: ['Huancabamba', 'Morropon', 'Talara'] },
   ],
-  ejecutadasTotal: { cantidad: 66, m3: 357239.13, m3AguaPotable: 300.0, km: 124.71, poblacion: 176940 },
+  ejecutadasTotal: { cantidad: 67, m3: 360479.13, m3AguaPotable: 300.0, km: 125.67, poblacion: 190940 },
 
   anioAnterior: '2025',
   ejecutadasPorTipoAnioAnterior: [
@@ -18,7 +18,6 @@ export default {
 
   enEjecucion: [
     { provincia: 'Sechura', distrito: 'Sechura', tipo: 'Prevención', descripcion: ' LIMPIEZA Y DESCOLMATACIÓN DE LA ZONA URBANA DEL DREN SECHURA-TRAMO CHULLIYACHI, (PROG. KM 8+200 – KM 05+700), DISTRITO DE SECHURA, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA ', inicio: '29/10/2026', fin: '27/11/2026', volAcum: 11100.0, kmAcum: 2.16, poblacion: 14000, poblacionSinDuplicar: 14000 },
-    { provincia: 'Talara', distrito: 'Mancora', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y ELIMINACION DE MATERIAL SEDIMENTADO DEL CANAL VIA PRIMERO DE MAYO – DISTRITO DE MANCORA – PROVINCIA DE TALARA – DEPARTAMENTO DE PIURA   ', inicio: '07/11/2026', fin: '25/11/2026', volAcum: 3240.0, kmAcum: 0.96, poblacion: 14000, poblacionSinDuplicar: 14000 },
     { provincia: 'Huancabamba', distrito: 'San Miguel De El Faique', tipo: 'Emergencia', descripcion: ' LIMPIEZA, DESCOLMATACION Y CONFORMACION DE DIQUE CON MATERIAL PROPIO EN AMBAS MARGENES DE LA QUEBRADA SAN ANTONIO, DISTRITO DE SAN MIGUEL DE EL FAIQUE, PROVINCIA DE HUANCABAMBA DS180-P     ', inicio: '11/11/2026', fin: '12/12/2026', volAcum: 6050.0, kmAcum: 0.1, poblacion: 900, poblacionSinDuplicar: 900 },
     { provincia: 'Morropon', distrito: 'Santo Domingo', tipo: 'Emergencia', descripcion: ' LIMPIEZA DE ESCOMBROS QUE INTERRUMPEN LA TRANSITABILIDAD EN LA VIA DEL TRAMO BOTIJAS - SAN PEDRO, DEL DISTRITO DE SANTO DOMINGO, PROVINCIA DE MORROPON-PIURA ', inicio: '14/11/2026', fin: '05/12/2026', volAcum: 1600.0, kmAcum: 0.72, poblacion: 300, poblacionSinDuplicar: 300 },
   ],
